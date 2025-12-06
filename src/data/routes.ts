@@ -24,6 +24,7 @@ export interface Route {
   totalTransfers: number;
   seatProbability: number;
   safetyScore: number;
+  totalDistance: number;
 }
 
 export const categoryIcons: Record<string, string> = {

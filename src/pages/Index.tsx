@@ -7,7 +7,7 @@ import { RouteCard } from "@/components/RouteCard";
 import { CategoryFilter } from "@/components/CategoryFilter";
 import { FeaturesSection } from "@/components/FeaturesSection";
 import { Station } from "@/data/stations";
-import { sampleRoutes, Route, getCategoryBase } from "@/data/routes";
+import { sampleRoutes, Route, RouteSegment, getCategoryBase } from "@/data/routes";
 import { cn } from "@/lib/utils";
 import { toast } from "@/hooks/use-toast";
 
@@ -36,21 +36,65 @@ const Index = () => {
     }
 
     setIsSearching(true);
-    
-    // Simulate API call delay
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-    
-    // Use sample routes data
-    setRoutes(sampleRoutes);
-    setIsSearching(false);
-    
-    toast({
-      title: "Routes Found!",
-      description: `Found ${sampleRoutes.length} Pareto-optimal routes for your journey.`,
-    });
+    setRoutes([]); // Clear previous routes
 
-    // Scroll to results
-    document.getElementById("results")?.scrollIntoView({ behavior: "smooth" });
+    try {
+      const response = await fetch(`http://localhost:5000/api/routes?origin=${origin.code}&destination=${destination.code}&max_transfers=3`);
+      
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || "Failed to fetch routes.");
+      }
+
+      const data = await response.json();
+
+      // Transform API data to frontend Route[] type
+      const transformedRoutes: Route[] = data.routes.map((apiRoute: any) => ({
+        id: apiRoute.route_id,
+        category: apiRoute.category,
+        totalTime: apiRoute.objectives.time,
+        totalCost: apiRoute.objectives.cost,
+        totalTransfers: apiRoute.objectives.transfers,
+        seatProbability: apiRoute.objectives.seat_prob,
+        safetyScore: apiRoute.objectives.safety_score,
+        totalDistance: apiRoute.objectives.distance,
+        segments: apiRoute.segments.map((apiSegment: any): RouteSegment => ({
+          routeId: apiRoute.route_id,
+          category: apiRoute.category,
+          segment: apiSegment.segment, // Ensure this is provided by API or generate
+          trainNumber: apiSegment.train_no,
+          trainName: apiSegment.train_name,
+          from: apiSegment.from,
+          to: apiSegment.to,
+          departure: apiSegment.departure,
+          arrival: apiSegment.arrival,
+          distance: apiSegment.distance,
+          duration: apiSegment.duration_min,
+          waitBefore: apiSegment.wait_min,
+          seatAvailable: apiSegment.seat_available === 1, // Ensure this is provided by API
+        })),
+      }));
+
+      setRoutes(transformedRoutes);
+      
+      toast({
+        title: "Routes Found!",
+        description: `Found ${transformedRoutes.length} optimal routes for your journey.`,
+      });
+
+      // Scroll to results
+      document.getElementById("results")?.scrollIntoView({ behavior: "smooth" });
+
+    } catch (error) {
+      const message = error instanceof Error ? error.message : "An unknown error occurred.";
+      toast({
+        title: "Search Failed",
+        description: message,
+        variant: "destructive",
+      });
+    } finally {
+      setIsSearching(false);
+    }
   };
 
   const categories = useMemo(() => {
