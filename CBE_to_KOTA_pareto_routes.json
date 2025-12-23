@@ -1,0 +1,351 @@
+{
+  "metadata": {
+    "source": "CBE",
+    "destination": "KOTA",
+    "total_routes_generated": 102,
+    "pareto_front_size": 9,
+    "optimal_routes_count": 7
+  },
+  "routes": [
+    {
+      "route_id": "ROUTE_01",
+      "category": "FASTEST \u26a1",
+      "objectives": {
+        "time": 2511.7241379310344,
+        "cost": 2428.0,
+        "transfers": 0,
+        "seat_prob": 0.0,
+        "safety_score": 100,
+        "distance": 2428.0
+      },
+      "segments": [
+        {
+          "train_no": "12970",
+          "train_name": "JP CBE SF EX",
+          "from": "CBE",
+          "to": "KOTA",
+          "departure": "18:00:00",
+          "arrival": "22:55:00",
+          "distance": 2428.0,
+          "duration_min": 2511.72,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_02",
+      "category": "CHEAPEST \ud83d\udcb0",
+      "objectives": {
+        "time": 3032.994555353902,
+        "cost": 2389.0,
+        "transfers": 2,
+        "seat_prob": 33.33333333333333,
+        "safety_score": 95,
+        "distance": 2389.0
+      },
+      "segments": [
+        {
+          "train_no": "12257",
+          "train_name": "YPR-KCVL EXP",
+          "from": "CBE",
+          "to": "PGT",
+          "departure": "04:00:00",
+          "arrival": "05:10:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22837",
+          "train_name": "HTE ERS DHAR",
+          "from": "PGT",
+          "to": "ERS",
+          "departure": "07:55:00",
+          "arrival": "10:55:00",
+          "distance": 150.0,
+          "duration_min": 236.84,
+          "wait_min": 165.0
+        },
+        {
+          "train_no": "12284",
+          "train_name": "NZM-ERS DURO",
+          "from": "ERS",
+          "to": "KOTA",
+          "departure": "15:40:00",
+          "arrival": "03:00:00",
+          "distance": 2184.0,
+          "duration_min": 2259.31,
+          "wait_min": 285.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_03",
+      "category": "BEST SEATS \ud83d\udcba",
+      "objectives": {
+        "time": 2953.732123411978,
+        "cost": 2601.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 2601.0
+      },
+      "segments": [
+        {
+          "train_no": "16613",
+          "train_name": "RJT CBE WKLY",
+          "from": "CBE",
+          "to": "ADI",
+          "departure": "02:00:00",
+          "arrival": "09:40:00",
+          "distance": 1974.0,
+          "duration_min": 2042.07,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12473",
+          "train_name": "SARVODAYA EX",
+          "from": "ADI",
+          "to": "SGZ",
+          "departure": "11:30:00",
+          "arrival": "20:03:00",
+          "distance": 497.0,
+          "duration_min": 596.4,
+          "wait_min": 110.0
+        },
+        {
+          "train_no": "12473",
+          "train_name": "SARVODAYA EX",
+          "from": "SGZ",
+          "to": "KOTA",
+          "departure": "20:05:00",
+          "arrival": "21:40:00",
+          "distance": 130.0,
+          "duration_min": 205.26,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_04",
+      "category": "BALANCED #5 \u2696\ufe0f",
+      "objectives": {
+        "time": 3033.9103448275864,
+        "cost": 2687.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 2687.0
+      },
+      "segments": [
+        {
+          "train_no": "22648",
+          "train_name": "TVC KRBA SF",
+          "from": "CBE",
+          "to": "QLN",
+          "departure": "15:33:00",
+          "arrival": "07:10:00",
+          "distance": 358.0,
+          "duration_min": 429.6,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12483",
+          "train_name": "KCVL EXPRESS",
+          "from": "QLN",
+          "to": "KOTA",
+          "departure": "10:25:00",
+          "arrival": "02:55:00",
+          "distance": 2329.0,
+          "duration_min": 2409.31,
+          "wait_min": 195.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_05",
+      "category": "ALTERNATIVE #1 \ud83d\udd04",
+      "objectives": {
+        "time": 3137.2938459000165,
+        "cost": 2600.0,
+        "transfers": 4,
+        "seat_prob": 80.0,
+        "safety_score": 85,
+        "distance": 2600.0
+      },
+      "segments": [
+        {
+          "train_no": "16613",
+          "train_name": "RJT CBE WKLY",
+          "from": "CBE",
+          "to": "ADI",
+          "departure": "02:00:00",
+          "arrival": "09:40:00",
+          "distance": 1974.0,
+          "duration_min": 2042.07,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16613",
+          "train_name": "RJT CBE WKLY",
+          "from": "ADI",
+          "to": "ND",
+          "departure": "10:00:00",
+          "arrival": "10:50:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16613",
+          "train_name": "RJT CBE WKLY",
+          "from": "ND",
+          "to": "ANND",
+          "departure": "10:51:00",
+          "arrival": "11:10:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16613",
+          "train_name": "RJT CBE WKLY",
+          "from": "ANND",
+          "to": "BRC",
+          "departure": "11:11:00",
+          "arrival": "11:52:00",
+          "distance": 35.0,
+          "duration_min": 55.26,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12217",
+          "train_name": "KERALA S.KRA",
+          "from": "BRC",
+          "to": "KOTA",
+          "departure": "17:56:00",
+          "arrival": "02:55:00",
+          "distance": 527.0,
+          "duration_min": 574.91,
+          "wait_min": 364.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_06",
+      "category": "ALTERNATIVE #2 \ud83d\udd04",
+      "objectives": {
+        "time": 3283.369026013309,
+        "cost": 2434.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2434.0
+      },
+      "segments": [
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "CBE",
+          "to": "ED",
+          "departure": "01:40:00",
+          "arrival": "03:10:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12969",
+          "train_name": "CBE JAIPUR E",
+          "from": "ED",
+          "to": "UJN",
+          "departure": "10:50:00",
+          "arrival": "21:25:00",
+          "distance": 2058.0,
+          "duration_min": 2128.97,
+          "wait_min": 460.0
+        },
+        {
+          "train_no": "12969",
+          "train_name": "CBE JAIPUR E",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "21:35:00",
+          "arrival": "22:45:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12951",
+          "train_name": "MUMBAI RAJDH",
+          "from": "NAD",
+          "to": "KOTA",
+          "departure": "01:20:00",
+          "arrival": "03:20:00",
+          "distance": 221.0,
+          "duration_min": 294.67,
+          "wait_min": 155.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_07",
+      "category": "ALTERNATIVE #3 \ud83d\udd04",
+      "objectives": {
+        "time": 3215.1531760435573,
+        "cost": 2600.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2600.0
+      },
+      "segments": [
+        {
+          "train_no": "16613",
+          "train_name": "RJT CBE WKLY",
+          "from": "CBE",
+          "to": "ADI",
+          "departure": "02:00:00",
+          "arrival": "09:40:00",
+          "distance": 1974.0,
+          "duration_min": 2042.07,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12473",
+          "train_name": "SARVODAYA EX",
+          "from": "ADI",
+          "to": "SGZ",
+          "departure": "11:30:00",
+          "arrival": "20:03:00",
+          "distance": 497.0,
+          "duration_min": 596.4,
+          "wait_min": 110.0
+        },
+        {
+          "train_no": "12925",
+          "train_name": "PASCHIM EXPR",
+          "from": "SGZ",
+          "to": "RMA",
+          "departure": "00:26:00",
+          "arrival": "01:08:00",
+          "distance": 57.0,
+          "duration_min": 90.0,
+          "wait_min": 263.0
+        },
+        {
+          "train_no": "12925",
+          "train_name": "PASCHIM EXPR",
+          "from": "RMA",
+          "to": "KOTA",
+          "departure": "01:10:00",
+          "arrival": "02:10:00",
+          "distance": 72.0,
+          "duration_min": 113.68,
+          "wait_min": 0
+        }
+      ]
+    }
+  ]
+}

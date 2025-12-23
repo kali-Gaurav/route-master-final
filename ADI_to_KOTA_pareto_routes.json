@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "source": "ADI",
+    "destination": "KOTA",
+    "total_routes_generated": 113,
+    "pareto_front_size": 3,
+    "optimal_routes_count": 3
+  },
+  "routes": [
+    {
+      "route_id": "ROUTE_01",
+      "category": "FASTEST \u26a1",
+      "objectives": {
+        "time": 801.6631578947367,
+        "cost": 627.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 627.0
+      },
+      "segments": [
+        {
+          "train_no": "12473",
+          "train_name": "SARVODAYA EX",
+          "from": "ADI",
+          "to": "SGZ",
+          "departure": "11:30:00",
+          "arrival": "20:03:00",
+          "distance": 497.0,
+          "duration_min": 596.4,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12473",
+          "train_name": "SARVODAYA EX",
+          "from": "SGZ",
+          "to": "KOTA",
+          "departure": "20:05:00",
+          "arrival": "21:40:00",
+          "distance": 130.0,
+          "duration_min": 205.26,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_02",
+      "category": "CHEAPEST \ud83d\udcb0",
+      "objectives": {
+        "time": 956.5333333333334,
+        "cost": 626.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 626.0
+      },
+      "segments": [
+        {
+          "train_no": "19165",
+          "train_name": "SABARMATI EX",
+          "from": "ADI",
+          "to": "RTM",
+          "departure": "21:00:00",
+          "arrival": "03:20:00",
+          "distance": 361.0,
+          "duration_min": 433.2,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12937",
+          "train_name": "GARBHA EXPRE",
+          "from": "RTM",
+          "to": "KOTA",
+          "departure": "06:10:00",
+          "arrival": "09:40:00",
+          "distance": 265.0,
+          "duration_min": 353.33,
+          "wait_min": 170.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_03",
+      "category": "FAST #3 \u26a1",
+      "objectives": {
+        "time": 956.5333333333334,
+        "cost": 626.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 626.0
+      },
+      "segments": [
+        {
+          "train_no": "19165",
+          "train_name": "SABARMATI EX",
+          "from": "ADI",
+          "to": "RTM",
+          "departure": "21:00:00",
+          "arrival": "03:20:00",
+          "distance": 361.0,
+          "duration_min": 433.2,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12937",
+          "train_name": "GARBHA EXPRE",
+          "from": "RTM",
+          "to": "KOTA",
+          "departure": "06:10:00",
+          "arrival": "09:40:00",
+          "distance": 265.0,
+          "duration_min": 353.33,
+          "wait_min": 170.0
+        }
+      ]
+    }
+  ]
+}

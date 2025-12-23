@@ -1,0 +1,5394 @@
+{
+  "metadata": {
+    "source": "UJN",
+    "destination": "KOTA",
+    "total_routes_generated": 93,
+    "pareto_front_size": 3,
+    "optimal_routes_count": 3
+  },
+  "optimal_routes": [
+    {
+      "route_id": "OPT_ROUTE_01",
+      "category": "FASTEST \u26a1",
+      "objectives": {
+        "time": 470.5087719298246,
+        "cost": 276.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 276.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12947",
+          "train_name": "AZIMABAD EXP",
+          "from": "NAD",
+          "to": "KOTA",
+          "departure": "04:57:00",
+          "arrival": "07:25:00",
+          "distance": 221.0,
+          "duration_min": 294.67,
+          "wait_min": 89.0
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_02",
+      "category": "FAST #1 \u26a1",
+      "objectives": {
+        "time": 470.5087719298246,
+        "cost": 276.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 276.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15635",
+          "train_name": "DWARKA EXPRE",
+          "from": "NAD",
+          "to": "KOTA",
+          "departure": "04:57:00",
+          "arrival": "07:20:00",
+          "distance": 221.0,
+          "duration_min": 294.67,
+          "wait_min": 89.0
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_03",
+      "category": "CHEAPEST \ud83d\udcb0",
+      "objectives": {
+        "time": 1214.3859649122808,
+        "cost": 275.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 275.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "59804",
+          "train_name": "KOTA-RTM PAS",
+          "from": "NAD",
+          "to": "DKNT",
+          "departure": "11:20:00",
+          "arrival": "06:10:00",
+          "distance": 211.0,
+          "duration_min": 281.33,
+          "wait_min": 472.0
+        },
+        {
+          "train_no": "12465",
+          "train_name": "RANTHAMBORE",
+          "from": "DKNT",
+          "to": "KOTA",
+          "departure": "12:10:00",
+          "arrival": "12:25:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 360.0
+        }
+      ]
+    }
+  ],
+  "all_generated_routes": [
+    {
+      "route_id": "ALL_ROUTE_001",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 470.5087719298246,
+        "cost": 276.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 276.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12947",
+          "train_name": "AZIMABAD EXP",
+          "from": "NAD",
+          "to": "KOTA",
+          "departure": "04:57:00",
+          "arrival": "07:25:00",
+          "distance": 221.0,
+          "duration_min": 294.67,
+          "wait_min": 89.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_002",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 623.5087719298245,
+        "cost": 276.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 276.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12977",
+          "train_name": "MARU SAGAR E",
+          "from": "NAD",
+          "to": "KOTA",
+          "departure": "07:30:00",
+          "arrival": "09:55:00",
+          "distance": 221.0,
+          "duration_min": 294.67,
+          "wait_min": 242.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_003",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 470.5087719298246,
+        "cost": 276.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 276.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15635",
+          "train_name": "DWARKA EXPRE",
+          "from": "NAD",
+          "to": "KOTA",
+          "departure": "04:57:00",
+          "arrival": "07:20:00",
+          "distance": 221.0,
+          "duration_min": 294.67,
+          "wait_min": 89.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_004",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 605.5087719298247,
+        "cost": 276.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 276.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22969",
+          "train_name": "OKHA BSB EXP",
+          "from": "NAD",
+          "to": "KOTA",
+          "departure": "07:12:00",
+          "arrival": "09:40:00",
+          "distance": 221.0,
+          "duration_min": 294.67,
+          "wait_min": 224.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_005",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 771.2280701754386,
+        "cost": 365.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 365.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12937",
+          "train_name": "GARBHA EXPRE",
+          "from": "RTM",
+          "to": "KOTA",
+          "departure": "06:10:00",
+          "arrival": "09:40:00",
+          "distance": 265.0,
+          "duration_min": 353.33,
+          "wait_min": 260.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_006",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 637.561403508772,
+        "cost": 366.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 366.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15667",
+          "train_name": "GADHIDHAM-KA",
+          "from": "RTM",
+          "to": "KOTA",
+          "departure": "03:55:00",
+          "arrival": "07:20:00",
+          "distance": 266.0,
+          "duration_min": 354.67,
+          "wait_min": 125.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_007",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 862.561403508772,
+        "cost": 366.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 366.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22209",
+          "train_name": "NDLS DURONTO",
+          "from": "RTM",
+          "to": "KOTA",
+          "departure": "07:40:00",
+          "arrival": "10:25:00",
+          "distance": 266.0,
+          "duration_min": 354.67,
+          "wait_min": 350.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_008",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 642.561403508772,
+        "cost": 366.0,
+        "transfers": 1,
+        "seat_prob": 0.0,
+        "safety_score": 100,
+        "distance": 366.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22633",
+          "train_name": "NIZAMUDDIN E",
+          "from": "RTM",
+          "to": "KOTA",
+          "departure": "04:00:00",
+          "arrival": "07:25:00",
+          "distance": 266.0,
+          "duration_min": 354.67,
+          "wait_min": 130.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_009",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1856.0909090909092,
+        "cost": 1309.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1309.0
+      },
+      "segments": [
+        {
+          "train_no": "12919",
+          "train_name": "MALWA EXPRES",
+          "from": "UJN",
+          "to": "NZM",
+          "departure": "14:10:00",
+          "arrival": "04:36:00",
+          "distance": 859.0,
+          "duration_min": 937.09,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12264",
+          "train_name": "NZM-PUNE DUR",
+          "from": "NZM",
+          "to": "KOTA",
+          "departure": "10:55:00",
+          "arrival": "15:20:00",
+          "distance": 450.0,
+          "duration_min": 540.0,
+          "wait_min": 379.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_010",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1603.090909090909,
+        "cost": 1309.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1309.0
+      },
+      "segments": [
+        {
+          "train_no": "12919",
+          "train_name": "MALWA EXPRES",
+          "from": "UJN",
+          "to": "NZM",
+          "departure": "14:10:00",
+          "arrival": "04:36:00",
+          "distance": 859.0,
+          "duration_min": 937.09,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12450",
+          "train_name": "GOA SMPRK KR",
+          "from": "NZM",
+          "to": "KOTA",
+          "departure": "06:42:00",
+          "arrival": "13:10:00",
+          "distance": 450.0,
+          "duration_min": 540.0,
+          "wait_min": 126.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_011",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 724.561403508772,
+        "cost": 366.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 366.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11103",
+          "train_name": "JHS-BDTS EXP",
+          "from": "NAD",
+          "to": "RTM",
+          "departure": "05:35:00",
+          "arrival": "06:15:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 127.0
+        },
+        {
+          "train_no": "22209",
+          "train_name": "NDLS DURONTO",
+          "from": "RTM",
+          "to": "KOTA",
+          "departure": "07:40:00",
+          "arrival": "10:25:00",
+          "distance": 266.0,
+          "duration_min": 354.67,
+          "wait_min": 85.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_012",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1811.8784688995215,
+        "cost": 1190.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 1190.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12416",
+          "train_name": "INTERCITY  E",
+          "from": "NAD",
+          "to": "NDLS",
+          "departure": "09:10:00",
+          "arrival": "21:50:00",
+          "distance": 678.0,
+          "duration_min": 739.64,
+          "wait_min": 342.0
+        },
+        {
+          "train_no": "22210",
+          "train_name": "BCT DURONTO",
+          "from": "NDLS",
+          "to": "KOTA",
+          "departure": "23:25:00",
+          "arrival": "04:15:00",
+          "distance": 457.0,
+          "duration_min": 548.4,
+          "wait_min": 95.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_013",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 730.7894736842105,
+        "cost": 276.0,
+        "transfers": 2,
+        "seat_prob": 33.33333333333333,
+        "safety_score": 95,
+        "distance": 276.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12941",
+          "train_name": "BVC ASANSOL",
+          "from": "NAD",
+          "to": "BWM",
+          "departure": "07:12:00",
+          "arrival": "08:29:00",
+          "distance": 121.0,
+          "duration_min": 191.05,
+          "wait_min": 224.0
+        },
+        {
+          "train_no": "12903",
+          "train_name": "GOLDENTEMPLE",
+          "from": "BWM",
+          "to": "KOTA",
+          "departure": "09:40:00",
+          "arrival": "11:00:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 71.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_014",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1214.3859649122808,
+        "cost": 275.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 275.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "59804",
+          "train_name": "KOTA-RTM PAS",
+          "from": "NAD",
+          "to": "DKNT",
+          "departure": "11:20:00",
+          "arrival": "06:10:00",
+          "distance": 211.0,
+          "duration_min": 281.33,
+          "wait_min": 472.0
+        },
+        {
+          "train_no": "12465",
+          "train_name": "RANTHAMBORE",
+          "from": "DKNT",
+          "to": "KOTA",
+          "departure": "12:10:00",
+          "arrival": "12:25:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 360.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_015",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1334.3859649122808,
+        "cost": 275.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 275.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "59804",
+          "train_name": "KOTA-RTM PAS",
+          "from": "NAD",
+          "to": "DKNT",
+          "departure": "11:20:00",
+          "arrival": "06:10:00",
+          "distance": 211.0,
+          "duration_min": 281.33,
+          "wait_min": 472.0
+        },
+        {
+          "train_no": "19037",
+          "train_name": "AVADH EXPRES",
+          "from": "DKNT",
+          "to": "KOTA",
+          "departure": "14:10:00",
+          "arrival": "14:30:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 480.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_016",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1334.3859649122808,
+        "cost": 275.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 275.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "59804",
+          "train_name": "KOTA-RTM PAS",
+          "from": "NAD",
+          "to": "DKNT",
+          "departure": "11:20:00",
+          "arrival": "06:10:00",
+          "distance": 211.0,
+          "duration_min": 281.33,
+          "wait_min": 472.0
+        },
+        {
+          "train_no": "19039",
+          "train_name": "AVADH EXPRES",
+          "from": "DKNT",
+          "to": "KOTA",
+          "departure": "14:10:00",
+          "arrival": "14:30:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 480.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_017",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1284.3859649122808,
+        "cost": 275.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 275.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "59804",
+          "train_name": "KOTA-RTM PAS",
+          "from": "NAD",
+          "to": "DKNT",
+          "departure": "11:20:00",
+          "arrival": "06:10:00",
+          "distance": 211.0,
+          "duration_min": 281.33,
+          "wait_min": 472.0
+        },
+        {
+          "train_no": "59355",
+          "train_name": "RATLAM MTJ P",
+          "from": "DKNT",
+          "to": "KOTA",
+          "departure": "13:20:00",
+          "arrival": "14:00:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 430.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_018",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1190.9649122807018,
+        "cost": 276.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 276.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "59804",
+          "train_name": "KOTA-RTM PAS",
+          "from": "NAD",
+          "to": "DKNT",
+          "departure": "11:20:00",
+          "arrival": "06:10:00",
+          "distance": 211.0,
+          "duration_min": 281.33,
+          "wait_min": 472.0
+        },
+        {
+          "train_no": "59837",
+          "train_name": "JLWC-KOTA PA",
+          "from": "DKNT",
+          "to": "KOTA",
+          "departure": "11:45:00",
+          "arrival": "12:10:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 335.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_019",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1587.221052631579,
+        "cost": 582.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 582.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "RTM",
+          "to": "SWM",
+          "departure": "07:40:00",
+          "arrival": "12:15:00",
+          "distance": 374.0,
+          "duration_min": 448.8,
+          "wait_min": 350.0
+        },
+        {
+          "train_no": "12182",
+          "train_name": "AII-JBP DAYO",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "19:55:00",
+          "arrival": "21:20:00",
+          "distance": 108.0,
+          "duration_min": 170.53,
+          "wait_min": 460.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_020",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1170.6421052631576,
+        "cost": 581.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 581.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "RTM",
+          "to": "SWM",
+          "departure": "07:40:00",
+          "arrival": "12:15:00",
+          "distance": 374.0,
+          "duration_min": 448.8,
+          "wait_min": 350.0
+        },
+        {
+          "train_no": "12904",
+          "train_name": "GOLDN TEMPLE",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "13:00:00",
+          "arrival": "14:20:00",
+          "distance": 107.0,
+          "duration_min": 168.95,
+          "wait_min": 45.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_021",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1377.221052631579,
+        "cost": 582.0,
+        "transfers": 2,
+        "seat_prob": 33.33333333333333,
+        "safety_score": 95,
+        "distance": 582.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "RTM",
+          "to": "SWM",
+          "departure": "07:40:00",
+          "arrival": "12:15:00",
+          "distance": 374.0,
+          "duration_min": 448.8,
+          "wait_min": 350.0
+        },
+        {
+          "train_no": "12942",
+          "train_name": "PARASNATH EX",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "16:25:00",
+          "arrival": "17:45:00",
+          "distance": 108.0,
+          "duration_min": 170.53,
+          "wait_min": 250.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_022",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1377.221052631579,
+        "cost": 582.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 582.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "RTM",
+          "to": "SWM",
+          "departure": "07:40:00",
+          "arrival": "12:15:00",
+          "distance": 374.0,
+          "duration_min": 448.8,
+          "wait_min": 350.0
+        },
+        {
+          "train_no": "12948",
+          "train_name": "AZIMABAD EXP",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "16:25:00",
+          "arrival": "17:40:00",
+          "distance": 108.0,
+          "duration_min": 170.53,
+          "wait_min": 250.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_023",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1362.221052631579,
+        "cost": 582.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 582.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "RTM",
+          "to": "SWM",
+          "departure": "07:40:00",
+          "arrival": "12:15:00",
+          "distance": 374.0,
+          "duration_min": 448.8,
+          "wait_min": 350.0
+        },
+        {
+          "train_no": "12956",
+          "train_name": "JP BCT SUPFA",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "16:10:00",
+          "arrival": "17:25:00",
+          "distance": 108.0,
+          "duration_min": 170.53,
+          "wait_min": 235.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_024",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1222.221052631579,
+        "cost": 582.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 582.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "RTM",
+          "to": "SWM",
+          "departure": "07:40:00",
+          "arrival": "12:15:00",
+          "distance": 374.0,
+          "duration_min": 448.8,
+          "wait_min": 350.0
+        },
+        {
+          "train_no": "19022",
+          "train_name": "LJN BDTS EXP",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "13:50:00",
+          "arrival": "15:40:00",
+          "distance": 108.0,
+          "duration_min": 170.53,
+          "wait_min": 95.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_025",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1207.221052631579,
+        "cost": 582.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 582.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "RTM",
+          "to": "SWM",
+          "departure": "07:40:00",
+          "arrival": "12:15:00",
+          "distance": 374.0,
+          "duration_min": 448.8,
+          "wait_min": 350.0
+        },
+        {
+          "train_no": "19042",
+          "train_name": "GCT BANDRA(T",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "13:35:00",
+          "arrival": "15:00:00",
+          "distance": 108.0,
+          "duration_min": 170.53,
+          "wait_min": 80.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_026",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1285.221052631579,
+        "cost": 582.0,
+        "transfers": 2,
+        "seat_prob": 33.33333333333333,
+        "safety_score": 95,
+        "distance": 582.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "RTM",
+          "to": "SWM",
+          "departure": "07:40:00",
+          "arrival": "12:15:00",
+          "distance": 374.0,
+          "duration_min": 448.8,
+          "wait_min": 350.0
+        },
+        {
+          "train_no": "22654",
+          "train_name": "NZM-TVC WKLY",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "14:53:00",
+          "arrival": "16:10:00",
+          "distance": 108.0,
+          "duration_min": 170.53,
+          "wait_min": 158.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_027",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1285.221052631579,
+        "cost": 582.0,
+        "transfers": 2,
+        "seat_prob": 33.33333333333333,
+        "safety_score": 95,
+        "distance": 582.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "RTM",
+          "to": "SWM",
+          "departure": "07:40:00",
+          "arrival": "12:15:00",
+          "distance": 374.0,
+          "duration_min": 448.8,
+          "wait_min": 350.0
+        },
+        {
+          "train_no": "22656",
+          "train_name": "NZM-TVC WKLY",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "14:53:00",
+          "arrival": "16:10:00",
+          "distance": 108.0,
+          "duration_min": 170.53,
+          "wait_min": 158.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_028",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1322.221052631579,
+        "cost": 582.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 582.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "RTM",
+          "to": "SWM",
+          "departure": "07:40:00",
+          "arrival": "12:15:00",
+          "distance": 374.0,
+          "duration_min": 448.8,
+          "wait_min": 350.0
+        },
+        {
+          "train_no": "22934",
+          "train_name": "JP BDTS SF E",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "15:30:00",
+          "arrival": "16:50:00",
+          "distance": 108.0,
+          "duration_min": 170.53,
+          "wait_min": 195.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_029",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1829.470494417863,
+        "cost": 890.0,
+        "transfers": 2,
+        "seat_prob": 0.0,
+        "safety_score": 95,
+        "distance": 890.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12284",
+          "train_name": "NZM-ERS DURO",
+          "from": "RTM",
+          "to": "BRC",
+          "departure": "07:15:00",
+          "arrival": "10:55:00",
+          "distance": 263.0,
+          "duration_min": 350.67,
+          "wait_min": 325.0
+        },
+        {
+          "train_no": "12217",
+          "train_name": "KERALA S.KRA",
+          "from": "BRC",
+          "to": "KOTA",
+          "departure": "17:56:00",
+          "arrival": "02:55:00",
+          "distance": 527.0,
+          "duration_min": 574.91,
+          "wait_min": 421.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_030",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1829.470494417863,
+        "cost": 890.0,
+        "transfers": 2,
+        "seat_prob": 33.33333333333333,
+        "safety_score": 95,
+        "distance": 890.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12284",
+          "train_name": "NZM-ERS DURO",
+          "from": "RTM",
+          "to": "BRC",
+          "departure": "07:15:00",
+          "arrival": "10:55:00",
+          "distance": 263.0,
+          "duration_min": 350.67,
+          "wait_min": 325.0
+        },
+        {
+          "train_no": "22659",
+          "train_name": "KCVL-DDN  EX",
+          "from": "BRC",
+          "to": "KOTA",
+          "departure": "17:56:00",
+          "arrival": "02:55:00",
+          "distance": 527.0,
+          "duration_min": 574.91,
+          "wait_min": 421.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_031",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 725.2456140350877,
+        "cost": 366.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 366.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12939",
+          "train_name": "PUNE JAIPUR",
+          "from": "RTM",
+          "to": "RMA",
+          "departure": "05:05:00",
+          "arrival": "08:05:00",
+          "distance": 194.0,
+          "duration_min": 258.67,
+          "wait_min": 195.0
+        },
+        {
+          "train_no": "12939",
+          "train_name": "PUNE JAIPUR",
+          "from": "RMA",
+          "to": "KOTA",
+          "departure": "08:07:00",
+          "arrival": "09:20:00",
+          "distance": 72.0,
+          "duration_min": 113.68,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_032",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 770.2456140350877,
+        "cost": 366.0,
+        "transfers": 2,
+        "seat_prob": 33.33333333333333,
+        "safety_score": 95,
+        "distance": 366.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12939",
+          "train_name": "PUNE JAIPUR",
+          "from": "RTM",
+          "to": "RMA",
+          "departure": "05:05:00",
+          "arrival": "08:05:00",
+          "distance": 194.0,
+          "duration_min": 258.67,
+          "wait_min": 195.0
+        },
+        {
+          "train_no": "12941",
+          "train_name": "BVC ASANSOL",
+          "from": "RMA",
+          "to": "KOTA",
+          "departure": "08:50:00",
+          "arrival": "09:40:00",
+          "distance": 72.0,
+          "duration_min": 113.68,
+          "wait_min": 45.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_033",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 982.2456140350876,
+        "cost": 366.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 366.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12939",
+          "train_name": "PUNE JAIPUR",
+          "from": "RTM",
+          "to": "RMA",
+          "departure": "05:05:00",
+          "arrival": "08:05:00",
+          "distance": 194.0,
+          "duration_min": 258.67,
+          "wait_min": 195.0
+        },
+        {
+          "train_no": "19041",
+          "train_name": "BANDRA(T) GC",
+          "from": "RMA",
+          "to": "KOTA",
+          "departure": "12:22:00",
+          "arrival": "13:30:00",
+          "distance": 72.0,
+          "duration_min": 113.68,
+          "wait_min": 257.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_034",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2177.354066985646,
+        "cost": 1309.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 1309.0
+      },
+      "segments": [
+        {
+          "train_no": "12919",
+          "train_name": "MALWA EXPRES",
+          "from": "UJN",
+          "to": "NZM",
+          "departure": "14:10:00",
+          "arrival": "04:36:00",
+          "distance": 859.0,
+          "duration_min": 937.09,
+          "wait_min": 0
+        },
+        {
+          "train_no": "18508",
+          "train_name": "ASR-VSKP HIR",
+          "from": "NZM",
+          "to": "MTJ",
+          "departure": "08:45:00",
+          "arrival": "10:30:00",
+          "distance": 130.0,
+          "duration_min": 205.26,
+          "wait_min": 249.0
+        },
+        {
+          "train_no": "12248",
+          "train_name": "NZM  BDTS  Y",
+          "from": "MTJ",
+          "to": "KOTA",
+          "departure": "17:12:00",
+          "arrival": "20:05:00",
+          "distance": 320.0,
+          "duration_min": 384.0,
+          "wait_min": 402.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_035",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2177.354066985646,
+        "cost": 1309.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 1309.0
+      },
+      "segments": [
+        {
+          "train_no": "12919",
+          "train_name": "MALWA EXPRES",
+          "from": "UJN",
+          "to": "NZM",
+          "departure": "14:10:00",
+          "arrival": "04:36:00",
+          "distance": 859.0,
+          "duration_min": 937.09,
+          "wait_min": 0
+        },
+        {
+          "train_no": "18508",
+          "train_name": "ASR-VSKP HIR",
+          "from": "NZM",
+          "to": "MTJ",
+          "departure": "08:45:00",
+          "arrival": "10:30:00",
+          "distance": 130.0,
+          "duration_min": 205.26,
+          "wait_min": 249.0
+        },
+        {
+          "train_no": "12910",
+          "train_name": "BDTS GARIB R",
+          "from": "MTJ",
+          "to": "KOTA",
+          "departure": "17:12:00",
+          "arrival": "20:05:00",
+          "distance": 320.0,
+          "duration_min": 384.0,
+          "wait_min": 402.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_036",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2110.354066985646,
+        "cost": 1309.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 1309.0
+      },
+      "segments": [
+        {
+          "train_no": "12919",
+          "train_name": "MALWA EXPRES",
+          "from": "UJN",
+          "to": "NZM",
+          "departure": "14:10:00",
+          "arrival": "04:36:00",
+          "distance": 859.0,
+          "duration_min": 937.09,
+          "wait_min": 0
+        },
+        {
+          "train_no": "18508",
+          "train_name": "ASR-VSKP HIR",
+          "from": "NZM",
+          "to": "MTJ",
+          "departure": "08:45:00",
+          "arrival": "10:30:00",
+          "distance": 130.0,
+          "duration_min": 205.26,
+          "wait_min": 249.0
+        },
+        {
+          "train_no": "12918",
+          "train_name": "GUJRAT S KRA",
+          "from": "MTJ",
+          "to": "KOTA",
+          "departure": "16:05:00",
+          "arrival": "19:45:00",
+          "distance": 320.0,
+          "duration_min": 384.0,
+          "wait_min": 335.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_037",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 4745.849529780564,
+        "cost": 4223.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 4223.0
+      },
+      "segments": [
+        {
+          "train_no": "12919",
+          "train_name": "MALWA EXPRES",
+          "from": "UJN",
+          "to": "NZM",
+          "departure": "14:10:00",
+          "arrival": "04:36:00",
+          "distance": 859.0,
+          "duration_min": 937.09,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22414",
+          "train_name": "NZM-MAO RAJD",
+          "from": "NZM",
+          "to": "MAO",
+          "departure": "10:55:00",
+          "arrival": "12:50:00",
+          "distance": 1907.0,
+          "duration_min": 1972.76,
+          "wait_min": 379.0
+        },
+        {
+          "train_no": "22414",
+          "train_name": "NZM-MAO RAJD",
+          "from": "MAO",
+          "to": "KOTA",
+          "departure": "12:50:00",
+          "arrival": "15:20:00",
+          "distance": 1457.0,
+          "duration_min": 1457.0,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_038",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3482.947368421053,
+        "cost": 2557.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 2557.0
+      },
+      "segments": [
+        {
+          "train_no": "12920",
+          "train_name": "MALWA EXPRES",
+          "from": "UJN",
+          "to": "MNWL",
+          "departure": "11:20:00",
+          "arrival": "07:54:00",
+          "distance": 1476.0,
+          "duration_min": 1476.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14034",
+          "train_name": "JAMMU MAIL",
+          "from": "MNWL",
+          "to": "JAT",
+          "departure": "15:32:00",
+          "arrival": "16:15:00",
+          "distance": 31.0,
+          "duration_min": 48.95,
+          "wait_min": 458.0
+        },
+        {
+          "train_no": "19804",
+          "train_name": "SVDK-KOTA WE",
+          "from": "JAT",
+          "to": "KOTA",
+          "departure": "23:45:00",
+          "arrival": "23:50:00",
+          "distance": 1050.0,
+          "duration_min": 1050.0,
+          "wait_min": 450.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_039",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 4295.197822141561,
+        "cost": 3599.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 3599.0
+      },
+      "segments": [
+        {
+          "train_no": "22631",
+          "train_name": "MAS-BKN ANUR",
+          "from": "UJN",
+          "to": "SPE",
+          "departure": "02:10:00",
+          "arrival": "22:18:00",
+          "distance": 1582.0,
+          "duration_min": 1582.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12604",
+          "train_name": "CHENNAI EXP",
+          "from": "SPE",
+          "to": "MAS",
+          "departure": "04:10:00",
+          "arrival": "05:55:00",
+          "distance": 82.0,
+          "duration_min": 129.47,
+          "wait_min": 352.0
+        },
+        {
+          "train_no": "12968",
+          "train_name": "JP CHENNAI E",
+          "from": "MAS",
+          "to": "KOTA",
+          "departure": "09:45:00",
+          "arrival": "22:55:00",
+          "distance": 1935.0,
+          "duration_min": 2001.72,
+          "wait_min": 230.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_040",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1244.982456140351,
+        "cost": 358.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 358.0
+      },
+      "segments": [
+        {
+          "train_no": "11101",
+          "train_name": "PUNE-GWALIOR",
+          "from": "UJN",
+          "to": "MKC",
+          "departure": "16:30:00",
+          "arrival": "17:40:00",
+          "distance": 41.0,
+          "duration_min": 64.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "MKC",
+          "to": "UJN",
+          "departure": "01:07:00",
+          "arrival": "01:50:00",
+          "distance": 41.0,
+          "duration_min": 64.74,
+          "wait_min": 447.0
+        },
+        {
+          "train_no": "11103",
+          "train_name": "JHS-BDTS EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "04:40:00",
+          "arrival": "05:33:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 170.0
+        },
+        {
+          "train_no": "12977",
+          "train_name": "MARU SAGAR E",
+          "from": "NAD",
+          "to": "KOTA",
+          "departure": "07:30:00",
+          "arrival": "09:55:00",
+          "distance": 221.0,
+          "duration_min": 294.67,
+          "wait_min": 117.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_041",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1226.982456140351,
+        "cost": 358.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 358.0
+      },
+      "segments": [
+        {
+          "train_no": "11101",
+          "train_name": "PUNE-GWALIOR",
+          "from": "UJN",
+          "to": "MKC",
+          "departure": "16:30:00",
+          "arrival": "17:40:00",
+          "distance": 41.0,
+          "duration_min": 64.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "MKC",
+          "to": "UJN",
+          "departure": "01:07:00",
+          "arrival": "01:50:00",
+          "distance": 41.0,
+          "duration_min": 64.74,
+          "wait_min": 447.0
+        },
+        {
+          "train_no": "11103",
+          "train_name": "JHS-BDTS EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "04:40:00",
+          "arrival": "05:33:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 170.0
+        },
+        {
+          "train_no": "22969",
+          "train_name": "OKHA BSB EXP",
+          "from": "NAD",
+          "to": "KOTA",
+          "departure": "07:12:00",
+          "arrival": "09:40:00",
+          "distance": 221.0,
+          "duration_min": 294.67,
+          "wait_min": 99.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_042",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1977.4561403508771,
+        "cost": 447.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 447.0
+      },
+      "segments": [
+        {
+          "train_no": "11101",
+          "train_name": "PUNE-GWALIOR",
+          "from": "UJN",
+          "to": "MKC",
+          "departure": "16:30:00",
+          "arrival": "17:40:00",
+          "distance": 41.0,
+          "duration_min": 64.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "MKC",
+          "to": "UJN",
+          "departure": "01:07:00",
+          "arrival": "01:50:00",
+          "distance": 41.0,
+          "duration_min": 64.74,
+          "wait_min": 447.0
+        },
+        {
+          "train_no": "19054",
+          "train_name": "MFP ST EXPRE",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "09:20:00",
+          "arrival": "11:10:00",
+          "distance": 99.0,
+          "duration_min": 156.32,
+          "wait_min": 450.0
+        },
+        {
+          "train_no": "12493",
+          "train_name": "PUNE-NZM AC",
+          "from": "RTM",
+          "to": "KOTA",
+          "departure": "18:30:00",
+          "arrival": "22:10:00",
+          "distance": 266.0,
+          "duration_min": 354.67,
+          "wait_min": 440.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_043",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1737.4561403508771,
+        "cost": 447.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 447.0
+      },
+      "segments": [
+        {
+          "train_no": "11101",
+          "train_name": "PUNE-GWALIOR",
+          "from": "UJN",
+          "to": "MKC",
+          "departure": "16:30:00",
+          "arrival": "17:40:00",
+          "distance": 41.0,
+          "duration_min": 64.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "MKC",
+          "to": "UJN",
+          "departure": "01:07:00",
+          "arrival": "01:50:00",
+          "distance": 41.0,
+          "duration_min": 64.74,
+          "wait_min": 447.0
+        },
+        {
+          "train_no": "19054",
+          "train_name": "MFP ST EXPRE",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "09:20:00",
+          "arrival": "11:10:00",
+          "distance": 99.0,
+          "duration_min": 156.32,
+          "wait_min": 450.0
+        },
+        {
+          "train_no": "22653",
+          "train_name": "TVC-NZM WKLY",
+          "from": "RTM",
+          "to": "KOTA",
+          "departure": "14:30:00",
+          "arrival": "18:15:00",
+          "distance": 266.0,
+          "duration_min": 354.67,
+          "wait_min": 200.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_044",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1737.4561403508771,
+        "cost": 447.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 447.0
+      },
+      "segments": [
+        {
+          "train_no": "11101",
+          "train_name": "PUNE-GWALIOR",
+          "from": "UJN",
+          "to": "MKC",
+          "departure": "16:30:00",
+          "arrival": "17:40:00",
+          "distance": 41.0,
+          "duration_min": 64.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "MKC",
+          "to": "UJN",
+          "departure": "01:07:00",
+          "arrival": "01:50:00",
+          "distance": 41.0,
+          "duration_min": 64.74,
+          "wait_min": 447.0
+        },
+        {
+          "train_no": "19054",
+          "train_name": "MFP ST EXPRE",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "09:20:00",
+          "arrival": "11:10:00",
+          "distance": 99.0,
+          "duration_min": 156.32,
+          "wait_min": 450.0
+        },
+        {
+          "train_no": "22655",
+          "train_name": "TVC-NZM WKLY",
+          "from": "RTM",
+          "to": "KOTA",
+          "departure": "14:30:00",
+          "arrival": "18:15:00",
+          "distance": 266.0,
+          "duration_min": 354.67,
+          "wait_min": 200.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_045",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1449.221052631579,
+        "cost": 582.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 582.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11103",
+          "train_name": "JHS-BDTS EXP",
+          "from": "NAD",
+          "to": "RTM",
+          "departure": "05:35:00",
+          "arrival": "06:15:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 127.0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "RTM",
+          "to": "SWM",
+          "departure": "07:40:00",
+          "arrival": "12:15:00",
+          "distance": 374.0,
+          "duration_min": 448.8,
+          "wait_min": 85.0
+        },
+        {
+          "train_no": "12182",
+          "train_name": "AII-JBP DAYO",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "19:55:00",
+          "arrival": "21:20:00",
+          "distance": 108.0,
+          "duration_min": 170.53,
+          "wait_min": 460.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_046",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1032.6421052631579,
+        "cost": 581.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 581.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11103",
+          "train_name": "JHS-BDTS EXP",
+          "from": "NAD",
+          "to": "RTM",
+          "departure": "05:35:00",
+          "arrival": "06:15:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 127.0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "RTM",
+          "to": "SWM",
+          "departure": "07:40:00",
+          "arrival": "12:15:00",
+          "distance": 374.0,
+          "duration_min": 448.8,
+          "wait_min": 85.0
+        },
+        {
+          "train_no": "12904",
+          "train_name": "GOLDN TEMPLE",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "13:00:00",
+          "arrival": "14:20:00",
+          "distance": 107.0,
+          "duration_min": 168.95,
+          "wait_min": 45.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_047",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1239.221052631579,
+        "cost": 582.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 582.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11103",
+          "train_name": "JHS-BDTS EXP",
+          "from": "NAD",
+          "to": "RTM",
+          "departure": "05:35:00",
+          "arrival": "06:15:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 127.0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "RTM",
+          "to": "SWM",
+          "departure": "07:40:00",
+          "arrival": "12:15:00",
+          "distance": 374.0,
+          "duration_min": 448.8,
+          "wait_min": 85.0
+        },
+        {
+          "train_no": "12942",
+          "train_name": "PARASNATH EX",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "16:25:00",
+          "arrival": "17:45:00",
+          "distance": 108.0,
+          "duration_min": 170.53,
+          "wait_min": 250.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_048",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1239.221052631579,
+        "cost": 582.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 582.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11103",
+          "train_name": "JHS-BDTS EXP",
+          "from": "NAD",
+          "to": "RTM",
+          "departure": "05:35:00",
+          "arrival": "06:15:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 127.0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "RTM",
+          "to": "SWM",
+          "departure": "07:40:00",
+          "arrival": "12:15:00",
+          "distance": 374.0,
+          "duration_min": 448.8,
+          "wait_min": 85.0
+        },
+        {
+          "train_no": "12948",
+          "train_name": "AZIMABAD EXP",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "16:25:00",
+          "arrival": "17:40:00",
+          "distance": 108.0,
+          "duration_min": 170.53,
+          "wait_min": 250.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_049",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1224.221052631579,
+        "cost": 582.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 582.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11103",
+          "train_name": "JHS-BDTS EXP",
+          "from": "NAD",
+          "to": "RTM",
+          "departure": "05:35:00",
+          "arrival": "06:15:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 127.0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "RTM",
+          "to": "SWM",
+          "departure": "07:40:00",
+          "arrival": "12:15:00",
+          "distance": 374.0,
+          "duration_min": 448.8,
+          "wait_min": 85.0
+        },
+        {
+          "train_no": "12956",
+          "train_name": "JP BCT SUPFA",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "16:10:00",
+          "arrival": "17:25:00",
+          "distance": 108.0,
+          "duration_min": 170.53,
+          "wait_min": 235.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_050",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1084.2210526315787,
+        "cost": 582.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 582.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11103",
+          "train_name": "JHS-BDTS EXP",
+          "from": "NAD",
+          "to": "RTM",
+          "departure": "05:35:00",
+          "arrival": "06:15:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 127.0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "RTM",
+          "to": "SWM",
+          "departure": "07:40:00",
+          "arrival": "12:15:00",
+          "distance": 374.0,
+          "duration_min": 448.8,
+          "wait_min": 85.0
+        },
+        {
+          "train_no": "19022",
+          "train_name": "LJN BDTS EXP",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "13:50:00",
+          "arrival": "15:40:00",
+          "distance": 108.0,
+          "duration_min": 170.53,
+          "wait_min": 95.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_051",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1069.2210526315787,
+        "cost": 582.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 582.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11103",
+          "train_name": "JHS-BDTS EXP",
+          "from": "NAD",
+          "to": "RTM",
+          "departure": "05:35:00",
+          "arrival": "06:15:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 127.0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "RTM",
+          "to": "SWM",
+          "departure": "07:40:00",
+          "arrival": "12:15:00",
+          "distance": 374.0,
+          "duration_min": 448.8,
+          "wait_min": 85.0
+        },
+        {
+          "train_no": "19042",
+          "train_name": "GCT BANDRA(T",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "13:35:00",
+          "arrival": "15:00:00",
+          "distance": 108.0,
+          "duration_min": 170.53,
+          "wait_min": 80.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_052",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1147.221052631579,
+        "cost": 582.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 582.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11103",
+          "train_name": "JHS-BDTS EXP",
+          "from": "NAD",
+          "to": "RTM",
+          "departure": "05:35:00",
+          "arrival": "06:15:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 127.0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "RTM",
+          "to": "SWM",
+          "departure": "07:40:00",
+          "arrival": "12:15:00",
+          "distance": 374.0,
+          "duration_min": 448.8,
+          "wait_min": 85.0
+        },
+        {
+          "train_no": "22654",
+          "train_name": "NZM-TVC WKLY",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "14:53:00",
+          "arrival": "16:10:00",
+          "distance": 108.0,
+          "duration_min": 170.53,
+          "wait_min": 158.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_053",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1147.221052631579,
+        "cost": 582.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 582.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11103",
+          "train_name": "JHS-BDTS EXP",
+          "from": "NAD",
+          "to": "RTM",
+          "departure": "05:35:00",
+          "arrival": "06:15:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 127.0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "RTM",
+          "to": "SWM",
+          "departure": "07:40:00",
+          "arrival": "12:15:00",
+          "distance": 374.0,
+          "duration_min": 448.8,
+          "wait_min": 85.0
+        },
+        {
+          "train_no": "22656",
+          "train_name": "NZM-TVC WKLY",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "14:53:00",
+          "arrival": "16:10:00",
+          "distance": 108.0,
+          "duration_min": 170.53,
+          "wait_min": 158.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_054",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1184.221052631579,
+        "cost": 582.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 582.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11103",
+          "train_name": "JHS-BDTS EXP",
+          "from": "NAD",
+          "to": "RTM",
+          "departure": "05:35:00",
+          "arrival": "06:15:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 127.0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "RTM",
+          "to": "SWM",
+          "departure": "07:40:00",
+          "arrival": "12:15:00",
+          "distance": 374.0,
+          "duration_min": 448.8,
+          "wait_min": 85.0
+        },
+        {
+          "train_no": "22934",
+          "train_name": "JP BDTS SF E",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "15:30:00",
+          "arrival": "16:50:00",
+          "distance": 108.0,
+          "duration_min": 170.53,
+          "wait_min": 195.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_055",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1691.4704944178627,
+        "cost": 890.0,
+        "transfers": 3,
+        "seat_prob": 25.0,
+        "safety_score": 90,
+        "distance": 890.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11103",
+          "train_name": "JHS-BDTS EXP",
+          "from": "NAD",
+          "to": "RTM",
+          "departure": "05:35:00",
+          "arrival": "06:15:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 127.0
+        },
+        {
+          "train_no": "12284",
+          "train_name": "NZM-ERS DURO",
+          "from": "RTM",
+          "to": "BRC",
+          "departure": "07:15:00",
+          "arrival": "10:55:00",
+          "distance": 263.0,
+          "duration_min": 350.67,
+          "wait_min": 60.0
+        },
+        {
+          "train_no": "12217",
+          "train_name": "KERALA S.KRA",
+          "from": "BRC",
+          "to": "KOTA",
+          "departure": "17:56:00",
+          "arrival": "02:55:00",
+          "distance": 527.0,
+          "duration_min": 574.91,
+          "wait_min": 421.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_056",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1691.4704944178627,
+        "cost": 890.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 890.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11103",
+          "train_name": "JHS-BDTS EXP",
+          "from": "NAD",
+          "to": "RTM",
+          "departure": "05:35:00",
+          "arrival": "06:15:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 127.0
+        },
+        {
+          "train_no": "12284",
+          "train_name": "NZM-ERS DURO",
+          "from": "RTM",
+          "to": "BRC",
+          "departure": "07:15:00",
+          "arrival": "10:55:00",
+          "distance": 263.0,
+          "duration_min": 350.67,
+          "wait_min": 60.0
+        },
+        {
+          "train_no": "22659",
+          "train_name": "KCVL-DDN  EX",
+          "from": "BRC",
+          "to": "KOTA",
+          "departure": "17:56:00",
+          "arrival": "02:55:00",
+          "distance": 527.0,
+          "duration_min": 574.91,
+          "wait_min": 421.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_057",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2231.531100478469,
+        "cost": 1190.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 1190.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12416",
+          "train_name": "INTERCITY  E",
+          "from": "NAD",
+          "to": "NDLS",
+          "departure": "09:10:00",
+          "arrival": "21:50:00",
+          "distance": 678.0,
+          "duration_min": 739.64,
+          "wait_min": 342.0
+        },
+        {
+          "train_no": 54540,
+          "train_name": "AMBALA DELHI",
+          "from": "NDLS",
+          "to": "NZM",
+          "departure": "00:40:00",
+          "arrival": "01:00:00",
+          "distance": 7.0,
+          "duration_min": 11.05,
+          "wait_min": 170.0
+        },
+        {
+          "train_no": "12450",
+          "train_name": "GOA SMPRK KR",
+          "from": "NZM",
+          "to": "KOTA",
+          "departure": "06:42:00",
+          "arrival": "13:10:00",
+          "distance": 450.0,
+          "duration_min": 540.0,
+          "wait_min": 342.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_058",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3246.8947368421045,
+        "cost": 2515.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 2515.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12941",
+          "train_name": "BVC ASANSOL",
+          "from": "NAD",
+          "to": "BWM",
+          "departure": "07:12:00",
+          "arrival": "08:29:00",
+          "distance": 121.0,
+          "duration_min": 191.05,
+          "wait_min": 224.0
+        },
+        {
+          "train_no": "18245",
+          "train_name": "BSP-BKN EXP",
+          "from": "BWM",
+          "to": "BYT",
+          "departure": "15:15:00",
+          "arrival": "18:57:00",
+          "distance": 1119.0,
+          "duration_min": 1119.0,
+          "wait_min": 406.0
+        },
+        {
+          "train_no": "18245",
+          "train_name": "BSP-BKN EXP",
+          "from": "BYT",
+          "to": "KOTA",
+          "departure": "18:58:00",
+          "arrival": "17:25:00",
+          "distance": 1220.0,
+          "duration_min": 1220.0,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_059",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3324.0000000000005,
+        "cost": 2599.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2599.0
+      },
+      "segments": [
+        {
+          "train_no": "11204",
+          "train_name": "JAIPUR NAGPU",
+          "from": "UJN",
+          "to": "BCH",
+          "departure": "07:55:00",
+          "arrival": "08:48:00",
+          "distance": 61.0,
+          "duration_min": 96.32,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12919",
+          "train_name": "MALWA EXPRES",
+          "from": "BCH",
+          "to": "UHP",
+          "departure": "15:00:00",
+          "arrival": "17:43:00",
+          "distance": 1435.0,
+          "duration_min": 1435.0,
+          "wait_min": 372.0
+        },
+        {
+          "train_no": "14504",
+          "train_name": "SVDK-KLK EXP",
+          "from": "UHP",
+          "to": "JAT",
+          "departure": "21:50:00",
+          "arrival": "23:05:00",
+          "distance": 53.0,
+          "duration_min": 83.68,
+          "wait_min": 247.0
+        },
+        {
+          "train_no": "19804",
+          "train_name": "SVDK-KOTA WE",
+          "from": "JAT",
+          "to": "KOTA",
+          "departure": "23:45:00",
+          "arrival": "23:50:00",
+          "distance": 1050.0,
+          "duration_min": 1050.0,
+          "wait_min": 40.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_060",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1135.3157894736844,
+        "cost": 479.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 479.0
+      },
+      "segments": [
+        {
+          "train_no": "11204",
+          "train_name": "JAIPUR NAGPU",
+          "from": "UJN",
+          "to": "BCH",
+          "departure": "07:55:00",
+          "arrival": "08:48:00",
+          "distance": 61.0,
+          "duration_min": 96.32,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12920",
+          "train_name": "MALWA EXPRES",
+          "from": "BCH",
+          "to": "MKC",
+          "departure": "09:50:00",
+          "arrival": "10:05:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 62.0
+        },
+        {
+          "train_no": "19053",
+          "train_name": "ST MFP EXPRE",
+          "from": "MKC",
+          "to": "GUNA",
+          "departure": "15:50:00",
+          "arrival": "20:10:00",
+          "distance": 214.0,
+          "duration_min": 285.33,
+          "wait_min": 345.0
+        },
+        {
+          "train_no": "19659",
+          "train_name": "SHM UDZ EXPR",
+          "from": "GUNA",
+          "to": "KOTA",
+          "departure": "21:20:00",
+          "arrival": "01:00:00",
+          "distance": 185.0,
+          "duration_min": 246.67,
+          "wait_min": 70.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_061",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1059.284210526316,
+        "cost": 555.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 555.0
+      },
+      "segments": [
+        {
+          "train_no": "12227",
+          "train_name": "INDORE DURON",
+          "from": "UJN",
+          "to": "INDB",
+          "departure": "09:30:00",
+          "arrival": "11:05:00",
+          "distance": 79.0,
+          "duration_min": 124.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22983",
+          "train_name": "KOTA-INDB IN",
+          "from": "INDB",
+          "to": "ATH",
+          "departure": "14:15:00",
+          "arrival": "07:02:00",
+          "distance": 388.0,
+          "duration_min": 465.6,
+          "wait_min": 190.0
+        },
+        {
+          "train_no": "22983",
+          "train_name": "KOTA-INDB IN",
+          "from": "ATH",
+          "to": "BAZ",
+          "departure": "07:04:00",
+          "arrival": "07:20:00",
+          "distance": 22.0,
+          "duration_min": 34.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14710",
+          "train_name": "PURI BKN EXP",
+          "from": "BAZ",
+          "to": "KOTA",
+          "departure": "09:40:00",
+          "arrival": "11:00:00",
+          "distance": 66.0,
+          "duration_min": 104.21,
+          "wait_min": 140.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_062",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1059.284210526316,
+        "cost": 555.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 555.0
+      },
+      "segments": [
+        {
+          "train_no": "12227",
+          "train_name": "INDORE DURON",
+          "from": "UJN",
+          "to": "INDB",
+          "departure": "09:30:00",
+          "arrival": "11:05:00",
+          "distance": 79.0,
+          "duration_min": 124.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22983",
+          "train_name": "KOTA-INDB IN",
+          "from": "INDB",
+          "to": "ATH",
+          "departure": "14:15:00",
+          "arrival": "07:02:00",
+          "distance": 388.0,
+          "duration_min": 465.6,
+          "wait_min": 190.0
+        },
+        {
+          "train_no": "22983",
+          "train_name": "KOTA-INDB IN",
+          "from": "ATH",
+          "to": "BAZ",
+          "departure": "07:04:00",
+          "arrival": "07:20:00",
+          "distance": 22.0,
+          "duration_min": 34.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "18207",
+          "train_name": "DURG - AII E",
+          "from": "BAZ",
+          "to": "KOTA",
+          "departure": "09:40:00",
+          "arrival": "11:00:00",
+          "distance": 66.0,
+          "duration_min": 104.21,
+          "wait_min": 140.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_063",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1059.284210526316,
+        "cost": 555.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 555.0
+      },
+      "segments": [
+        {
+          "train_no": "12227",
+          "train_name": "INDORE DURON",
+          "from": "UJN",
+          "to": "INDB",
+          "departure": "09:30:00",
+          "arrival": "11:05:00",
+          "distance": 79.0,
+          "duration_min": 124.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22983",
+          "train_name": "KOTA-INDB IN",
+          "from": "INDB",
+          "to": "ATH",
+          "departure": "14:15:00",
+          "arrival": "07:02:00",
+          "distance": 388.0,
+          "duration_min": 465.6,
+          "wait_min": 190.0
+        },
+        {
+          "train_no": "22983",
+          "train_name": "KOTA-INDB IN",
+          "from": "ATH",
+          "to": "BAZ",
+          "departure": "07:04:00",
+          "arrival": "07:20:00",
+          "distance": 22.0,
+          "duration_min": 34.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "18213",
+          "train_name": "DURG - JP EX",
+          "from": "BAZ",
+          "to": "KOTA",
+          "departure": "09:40:00",
+          "arrival": "11:00:00",
+          "distance": 66.0,
+          "duration_min": 104.21,
+          "wait_min": 140.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_064",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1059.284210526316,
+        "cost": 555.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 555.0
+      },
+      "segments": [
+        {
+          "train_no": "12227",
+          "train_name": "INDORE DURON",
+          "from": "UJN",
+          "to": "INDB",
+          "departure": "09:30:00",
+          "arrival": "11:05:00",
+          "distance": 79.0,
+          "duration_min": 124.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22983",
+          "train_name": "KOTA-INDB IN",
+          "from": "INDB",
+          "to": "ATH",
+          "departure": "14:15:00",
+          "arrival": "07:02:00",
+          "distance": 388.0,
+          "duration_min": 465.6,
+          "wait_min": 190.0
+        },
+        {
+          "train_no": "22983",
+          "train_name": "KOTA-INDB IN",
+          "from": "ATH",
+          "to": "BAZ",
+          "departure": "07:04:00",
+          "arrival": "07:20:00",
+          "distance": 22.0,
+          "duration_min": 34.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "18573",
+          "train_name": "VSKP-BGKT WE",
+          "from": "BAZ",
+          "to": "KOTA",
+          "departure": "09:40:00",
+          "arrival": "11:00:00",
+          "distance": 66.0,
+          "duration_min": 104.21,
+          "wait_min": 140.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_065",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2337.8826156299842,
+        "cost": 1671.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 1671.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "RTM",
+          "to": "BRC",
+          "departure": "01:55:00",
+          "arrival": "05:53:00",
+          "distance": 262.0,
+          "duration_min": 349.33,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "BRC",
+          "to": "BCT",
+          "departure": "06:03:00",
+          "arrival": "11:40:00",
+          "distance": 391.0,
+          "duration_min": 469.2,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12953",
+          "train_name": "AUG KR RAJ E",
+          "from": "BCT",
+          "to": "KOTA",
+          "departure": "17:40:00",
+          "arrival": "05:10:00",
+          "distance": 918.0,
+          "duration_min": 1001.45,
+          "wait_min": 360.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_066",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2387.8826156299842,
+        "cost": 1671.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 1671.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "RTM",
+          "to": "BRC",
+          "departure": "01:55:00",
+          "arrival": "05:53:00",
+          "distance": 262.0,
+          "duration_min": 349.33,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22210",
+          "train_name": "BCT DURONTO",
+          "from": "BRC",
+          "to": "BCT",
+          "departure": "11:18:00",
+          "arrival": "16:15:00",
+          "distance": 391.0,
+          "duration_min": 469.2,
+          "wait_min": 325.0
+        },
+        {
+          "train_no": "12953",
+          "train_name": "AUG KR RAJ E",
+          "from": "BCT",
+          "to": "KOTA",
+          "departure": "17:40:00",
+          "arrival": "05:10:00",
+          "distance": 918.0,
+          "duration_min": 1001.45,
+          "wait_min": 85.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_067",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1399.4912280701753,
+        "cost": 365.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 365.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12903",
+          "train_name": "GOLDENTEMPLE",
+          "from": "RTM",
+          "to": "NAD",
+          "departure": "07:15:00",
+          "arrival": "08:10:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 325.0
+        },
+        {
+          "train_no": "59804",
+          "train_name": "KOTA-RTM PAS",
+          "from": "NAD",
+          "to": "DKNT",
+          "departure": "11:20:00",
+          "arrival": "06:10:00",
+          "distance": 211.0,
+          "duration_min": 281.33,
+          "wait_min": 190.0
+        },
+        {
+          "train_no": "12465",
+          "train_name": "RANTHAMBORE",
+          "from": "DKNT",
+          "to": "KOTA",
+          "departure": "12:10:00",
+          "arrival": "12:25:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 360.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_068",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1519.4912280701753,
+        "cost": 365.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 365.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12903",
+          "train_name": "GOLDENTEMPLE",
+          "from": "RTM",
+          "to": "NAD",
+          "departure": "07:15:00",
+          "arrival": "08:10:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 325.0
+        },
+        {
+          "train_no": "59804",
+          "train_name": "KOTA-RTM PAS",
+          "from": "NAD",
+          "to": "DKNT",
+          "departure": "11:20:00",
+          "arrival": "06:10:00",
+          "distance": 211.0,
+          "duration_min": 281.33,
+          "wait_min": 190.0
+        },
+        {
+          "train_no": "19037",
+          "train_name": "AVADH EXPRES",
+          "from": "DKNT",
+          "to": "KOTA",
+          "departure": "14:10:00",
+          "arrival": "14:30:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 480.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_069",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1519.4912280701753,
+        "cost": 365.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 365.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12903",
+          "train_name": "GOLDENTEMPLE",
+          "from": "RTM",
+          "to": "NAD",
+          "departure": "07:15:00",
+          "arrival": "08:10:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 325.0
+        },
+        {
+          "train_no": "59804",
+          "train_name": "KOTA-RTM PAS",
+          "from": "NAD",
+          "to": "DKNT",
+          "departure": "11:20:00",
+          "arrival": "06:10:00",
+          "distance": 211.0,
+          "duration_min": 281.33,
+          "wait_min": 190.0
+        },
+        {
+          "train_no": "19039",
+          "train_name": "AVADH EXPRES",
+          "from": "DKNT",
+          "to": "KOTA",
+          "departure": "14:10:00",
+          "arrival": "14:30:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 480.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_070",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1469.4912280701753,
+        "cost": 365.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 365.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12903",
+          "train_name": "GOLDENTEMPLE",
+          "from": "RTM",
+          "to": "NAD",
+          "departure": "07:15:00",
+          "arrival": "08:10:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 325.0
+        },
+        {
+          "train_no": "59804",
+          "train_name": "KOTA-RTM PAS",
+          "from": "NAD",
+          "to": "DKNT",
+          "departure": "11:20:00",
+          "arrival": "06:10:00",
+          "distance": 211.0,
+          "duration_min": 281.33,
+          "wait_min": 190.0
+        },
+        {
+          "train_no": "59355",
+          "train_name": "RATLAM MTJ P",
+          "from": "DKNT",
+          "to": "KOTA",
+          "departure": "13:20:00",
+          "arrival": "14:00:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 430.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_071",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1376.0701754385964,
+        "cost": 366.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 366.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12903",
+          "train_name": "GOLDENTEMPLE",
+          "from": "RTM",
+          "to": "NAD",
+          "departure": "07:15:00",
+          "arrival": "08:10:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 325.0
+        },
+        {
+          "train_no": "59804",
+          "train_name": "KOTA-RTM PAS",
+          "from": "NAD",
+          "to": "DKNT",
+          "departure": "11:20:00",
+          "arrival": "06:10:00",
+          "distance": 211.0,
+          "duration_min": 281.33,
+          "wait_min": 190.0
+        },
+        {
+          "train_no": "59837",
+          "train_name": "JLWC-KOTA PA",
+          "from": "DKNT",
+          "to": "KOTA",
+          "departure": "11:45:00",
+          "arrival": "12:10:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 335.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_072",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1532.6666666666667,
+        "cost": 422.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 422.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12939",
+          "train_name": "PUNE JAIPUR",
+          "from": "RTM",
+          "to": "RMA",
+          "departure": "05:05:00",
+          "arrival": "08:05:00",
+          "distance": 194.0,
+          "duration_min": 258.67,
+          "wait_min": 195.0
+        },
+        {
+          "train_no": "12466",
+          "train_name": "INTERCITY EX",
+          "from": "RMA",
+          "to": "BWM",
+          "departure": "15:52:00",
+          "arrival": "16:12:00",
+          "distance": 28.0,
+          "duration_min": 44.21,
+          "wait_min": 467.0
+        },
+        {
+          "train_no": "12471",
+          "train_name": "SWARAJ EXPRE",
+          "from": "BWM",
+          "to": "KOTA",
+          "departure": "20:24:00",
+          "arrival": "21:35:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 252.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_073",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1582.3157894736844,
+        "cost": 365.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 365.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19041",
+          "train_name": "BANDRA(T) GC",
+          "from": "RTM",
+          "to": "SGZ",
+          "departure": "09:30:00",
+          "arrival": "11:38:00",
+          "distance": 136.0,
+          "duration_min": 214.74,
+          "wait_min": 460.0
+        },
+        {
+          "train_no": "18243",
+          "train_name": "BSP-BGKT EXP",
+          "from": "SGZ",
+          "to": "RMA",
+          "departure": "14:52:00",
+          "arrival": "15:46:00",
+          "distance": 57.0,
+          "duration_min": 90.0,
+          "wait_min": 194.0
+        },
+        {
+          "train_no": "12415",
+          "train_name": "IND NZM EXPR",
+          "from": "RMA",
+          "to": "KOTA",
+          "departure": "21:38:00",
+          "arrival": "22:40:00",
+          "distance": 72.0,
+          "duration_min": 113.68,
+          "wait_min": 352.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_074",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1527.8947368421052,
+        "cost": 366.0,
+        "transfers": 3,
+        "seat_prob": 25.0,
+        "safety_score": 90,
+        "distance": 366.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19041",
+          "train_name": "BANDRA(T) GC",
+          "from": "RTM",
+          "to": "SGZ",
+          "departure": "09:30:00",
+          "arrival": "11:38:00",
+          "distance": 136.0,
+          "duration_min": 214.74,
+          "wait_min": 460.0
+        },
+        {
+          "train_no": "18243",
+          "train_name": "BSP-BGKT EXP",
+          "from": "SGZ",
+          "to": "RMA",
+          "departure": "14:52:00",
+          "arrival": "15:46:00",
+          "distance": 57.0,
+          "duration_min": 90.0,
+          "wait_min": 194.0
+        },
+        {
+          "train_no": "12475",
+          "train_name": "HAPA JAT EXP",
+          "from": "RMA",
+          "to": "KOTA",
+          "departure": "20:42:00",
+          "arrival": "21:40:00",
+          "distance": 73.0,
+          "duration_min": 115.26,
+          "wait_min": 296.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_075",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1526.3157894736844,
+        "cost": 365.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 365.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19041",
+          "train_name": "BANDRA(T) GC",
+          "from": "RTM",
+          "to": "SGZ",
+          "departure": "09:30:00",
+          "arrival": "11:38:00",
+          "distance": 136.0,
+          "duration_min": 214.74,
+          "wait_min": 460.0
+        },
+        {
+          "train_no": "18243",
+          "train_name": "BSP-BGKT EXP",
+          "from": "SGZ",
+          "to": "RMA",
+          "departure": "14:52:00",
+          "arrival": "15:46:00",
+          "distance": 57.0,
+          "duration_min": 90.0,
+          "wait_min": 194.0
+        },
+        {
+          "train_no": "12477",
+          "train_name": "JAM SVDK EXP",
+          "from": "RMA",
+          "to": "KOTA",
+          "departure": "20:42:00",
+          "arrival": "21:35:00",
+          "distance": 72.0,
+          "duration_min": 113.68,
+          "wait_min": 296.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_076",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1333.3157894736842,
+        "cost": 365.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 365.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19041",
+          "train_name": "BANDRA(T) GC",
+          "from": "RTM",
+          "to": "SGZ",
+          "departure": "09:30:00",
+          "arrival": "11:38:00",
+          "distance": 136.0,
+          "duration_min": 214.74,
+          "wait_min": 460.0
+        },
+        {
+          "train_no": "18243",
+          "train_name": "BSP-BGKT EXP",
+          "from": "SGZ",
+          "to": "RMA",
+          "departure": "14:52:00",
+          "arrival": "15:46:00",
+          "distance": 57.0,
+          "duration_min": 90.0,
+          "wait_min": 194.0
+        },
+        {
+          "train_no": "19061",
+          "train_name": "RAMNAGAR EXP",
+          "from": "RMA",
+          "to": "KOTA",
+          "departure": "17:29:00",
+          "arrival": "18:35:00",
+          "distance": 72.0,
+          "duration_min": 113.68,
+          "wait_min": 103.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_077",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1333.3157894736842,
+        "cost": 365.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 365.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19041",
+          "train_name": "BANDRA(T) GC",
+          "from": "RTM",
+          "to": "SGZ",
+          "departure": "09:30:00",
+          "arrival": "11:38:00",
+          "distance": 136.0,
+          "duration_min": 214.74,
+          "wait_min": 460.0
+        },
+        {
+          "train_no": "18243",
+          "train_name": "BSP-BGKT EXP",
+          "from": "SGZ",
+          "to": "RMA",
+          "departure": "14:52:00",
+          "arrival": "15:46:00",
+          "distance": 57.0,
+          "duration_min": 90.0,
+          "wait_min": 194.0
+        },
+        {
+          "train_no": "22444",
+          "train_name": "BDTS  CNB EX",
+          "from": "RMA",
+          "to": "KOTA",
+          "departure": "17:29:00",
+          "arrival": "18:30:00",
+          "distance": 72.0,
+          "duration_min": 113.68,
+          "wait_min": 103.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_078",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 5446.23774954628,
+        "cost": 4613.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 4613.0
+      },
+      "segments": [
+        {
+          "train_no": "19332",
+          "train_name": "INDB KCVL EX",
+          "from": "UJN",
+          "to": "KYJ",
+          "departure": "22:35:00",
+          "arrival": "16:10:00",
+          "distance": 2118.0,
+          "duration_min": 2191.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12201",
+          "train_name": "KCVL GARIB R",
+          "from": "KYJ",
+          "to": "QLN",
+          "departure": "18:02:00",
+          "arrival": "19:00:00",
+          "distance": 41.0,
+          "duration_min": 64.74,
+          "wait_min": 112.0
+        },
+        {
+          "train_no": "12508",
+          "train_name": "SCL - TVC EX",
+          "from": "QLN",
+          "to": "TVC",
+          "departure": "21:10:00",
+          "arrival": "22:40:00",
+          "distance": 64.0,
+          "duration_min": 101.05,
+          "wait_min": 130.0
+        },
+        {
+          "train_no": "12432",
+          "train_name": "NZM-TVC RAJD",
+          "from": "TVC",
+          "to": "KOTA",
+          "departure": "04:55:00",
+          "arrival": "15:20:00",
+          "distance": 2390.0,
+          "duration_min": 2472.41,
+          "wait_min": 375.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_079",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 5445.8166969147,
+        "cost": 4614.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 4614.0
+      },
+      "segments": [
+        {
+          "train_no": "19332",
+          "train_name": "INDB KCVL EX",
+          "from": "UJN",
+          "to": "KYJ",
+          "departure": "22:35:00",
+          "arrival": "16:10:00",
+          "distance": 2118.0,
+          "duration_min": 2191.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19332",
+          "train_name": "INDB KCVL EX",
+          "from": "KYJ",
+          "to": "QLN",
+          "departure": "16:12:00",
+          "arrival": "17:10:00",
+          "distance": 42.0,
+          "duration_min": 66.32,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12508",
+          "train_name": "SCL - TVC EX",
+          "from": "QLN",
+          "to": "TVC",
+          "departure": "21:10:00",
+          "arrival": "22:40:00",
+          "distance": 64.0,
+          "duration_min": 101.05,
+          "wait_min": 240.0
+        },
+        {
+          "train_no": "12432",
+          "train_name": "NZM-TVC RAJD",
+          "from": "TVC",
+          "to": "KOTA",
+          "departure": "04:55:00",
+          "arrival": "15:20:00",
+          "distance": 2390.0,
+          "duration_min": 2472.41,
+          "wait_min": 375.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_080",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 5182.377495462795,
+        "cost": 4406.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 4406.0
+      },
+      "segments": [
+        {
+          "train_no": "19332",
+          "train_name": "INDB KCVL EX",
+          "from": "UJN",
+          "to": "KYJ",
+          "departure": "22:35:00",
+          "arrival": "16:10:00",
+          "distance": 2118.0,
+          "duration_min": 2191.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "56383",
+          "train_name": "ERS-KYJ PASS",
+          "from": "KYJ",
+          "to": "KUMM",
+          "departure": "21:00:00",
+          "arrival": "18:16:00",
+          "distance": 93.0,
+          "duration_min": 146.84,
+          "wait_min": 290.0
+        },
+        {
+          "train_no": "56384",
+          "train_name": "ALLP-ERS PAS",
+          "from": "KUMM",
+          "to": "ERS",
+          "departure": "18:56:00",
+          "arrival": "19:30:00",
+          "distance": 7.0,
+          "duration_min": 11.05,
+          "wait_min": 40.0
+        },
+        {
+          "train_no": "12283",
+          "train_name": "ERS-NZM DURO",
+          "from": "ERS",
+          "to": "KOTA",
+          "departure": "23:30:00",
+          "arrival": "12:50:00",
+          "distance": 2188.0,
+          "duration_min": 2263.45,
+          "wait_min": 240.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_081",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 4234.555023923445,
+        "cost": 3112.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 3112.0
+      },
+      "segments": [
+        {
+          "train_no": "19414",
+          "train_name": "KOAA ADI EXP",
+          "from": "UJN",
+          "to": "DGR",
+          "departure": "23:10:00",
+          "arrival": "15:29:00",
+          "distance": 1492.0,
+          "duration_min": 1492.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12333",
+          "train_name": "VIBHUTI EXPR",
+          "from": "DGR",
+          "to": "GYN",
+          "departure": "22:04:00",
+          "arrival": "10:42:00",
+          "distance": 659.0,
+          "duration_min": 718.91,
+          "wait_min": 395.0
+        },
+        {
+          "train_no": "15268",
+          "train_name": "LTT-RXL JANS",
+          "from": "GYN",
+          "to": "BSB",
+          "departure": "17:43:00",
+          "arrival": "19:45:00",
+          "distance": 60.0,
+          "duration_min": 94.74,
+          "wait_min": 421.0
+        },
+        {
+          "train_no": "22970",
+          "train_name": "BSB OKHA SF",
+          "from": "BSB",
+          "to": "KOTA",
+          "departure": "21:55:00",
+          "arrival": "12:00:00",
+          "distance": 901.0,
+          "duration_min": 982.91,
+          "wait_min": 130.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_082",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 4257.070175438596,
+        "cost": 3326.0,
+        "transfers": 4,
+        "seat_prob": 100.0,
+        "safety_score": 85,
+        "distance": 3326.0
+      },
+      "segments": [
+        {
+          "train_no": "11703",
+          "train_name": "REWA-DADN  E",
+          "from": "UJN",
+          "to": "DWX",
+          "departure": "13:05:00",
+          "arrival": "13:52:00",
+          "distance": 40.0,
+          "duration_min": 63.16,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19332",
+          "train_name": "INDB KCVL EX",
+          "from": "DWX",
+          "to": "UD",
+          "departure": "21:43:00",
+          "arrival": "04:00:00",
+          "distance": 1581.0,
+          "duration_min": 1581.0,
+          "wait_min": 471.0
+        },
+        {
+          "train_no": "12431",
+          "train_name": "TVC-NZM RAJD",
+          "from": "UD",
+          "to": "KAWR",
+          "departure": "06:50:00",
+          "arrival": "09:08:00",
+          "distance": 190.0,
+          "duration_min": 253.33,
+          "wait_min": 170.0
+        },
+        {
+          "train_no": "12431",
+          "train_name": "TVC-NZM RAJD",
+          "from": "KAWR",
+          "to": "MAO",
+          "departure": "09:10:00",
+          "arrival": "10:00:00",
+          "distance": 58.0,
+          "duration_min": 91.58,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22414",
+          "train_name": "NZM-MAO RAJD",
+          "from": "MAO",
+          "to": "KOTA",
+          "departure": "12:50:00",
+          "arrival": "15:20:00",
+          "distance": 1457.0,
+          "duration_min": 1457.0,
+          "wait_min": 170.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_083",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2492.8494417862835,
+        "cost": 1420.0,
+        "transfers": 4,
+        "seat_prob": 80.0,
+        "safety_score": 85,
+        "distance": 1420.0
+      },
+      "segments": [
+        {
+          "train_no": "12227",
+          "train_name": "INDORE DURON",
+          "from": "UJN",
+          "to": "INDB",
+          "departure": "09:30:00",
+          "arrival": "11:05:00",
+          "distance": 79.0,
+          "duration_min": 124.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19313",
+          "train_name": "INDB RJPB  E",
+          "from": "INDB",
+          "to": "CNB",
+          "departure": "14:00:00",
+          "arrival": "04:00:00",
+          "distance": 769.0,
+          "duration_min": 838.91,
+          "wait_min": 175.0
+        },
+        {
+          "train_no": "12315",
+          "train_name": "ANNANYA  EXP",
+          "from": "CNB",
+          "to": "TDL",
+          "departure": "06:50:00",
+          "arrival": "09:40:00",
+          "distance": 221.0,
+          "duration_min": 294.67,
+          "wait_min": 170.0
+        },
+        {
+          "train_no": "12315",
+          "train_name": "ANNANYA  EXP",
+          "from": "TDL",
+          "to": "AF",
+          "departure": "09:45:00",
+          "arrival": "10:25:00",
+          "distance": 22.0,
+          "duration_min": 34.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12938",
+          "train_name": "GARBHA EXPRE",
+          "from": "AF",
+          "to": "KOTA",
+          "departure": "18:05:00",
+          "arrival": "00:05:00",
+          "distance": 329.0,
+          "duration_min": 394.8,
+          "wait_min": 460.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_084",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3363.6459330143543,
+        "cost": 2551.0,
+        "transfers": 4,
+        "seat_prob": 40.0,
+        "safety_score": 85,
+        "distance": 2551.0
+      },
+      "segments": [
+        {
+          "train_no": "12227",
+          "train_name": "INDORE DURON",
+          "from": "UJN",
+          "to": "INDB",
+          "departure": "09:30:00",
+          "arrival": "11:05:00",
+          "distance": 79.0,
+          "duration_min": 124.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19314",
+          "train_name": "INDORE EXPRE",
+          "from": "INDB",
+          "to": "PNBE",
+          "departure": "15:05:00",
+          "arrival": "11:25:00",
+          "distance": 1345.0,
+          "duration_min": 1345.0,
+          "wait_min": 240.0
+        },
+        {
+          "train_no": "19314",
+          "train_name": "INDORE EXPRE",
+          "from": "PNBE",
+          "to": "MGS",
+          "departure": "11:35:00",
+          "arrival": "14:59:00",
+          "distance": 207.0,
+          "duration_min": 276.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19314",
+          "train_name": "INDORE EXPRE",
+          "from": "MGS",
+          "to": "BSB",
+          "departure": "15:09:00",
+          "arrival": "15:50:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22970",
+          "train_name": "BSB OKHA SF",
+          "from": "BSB",
+          "to": "KOTA",
+          "departure": "21:55:00",
+          "arrival": "12:00:00",
+          "distance": 901.0,
+          "duration_min": 982.91,
+          "wait_min": 365.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_085",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3224.528548644338,
+        "cost": 1733.0,
+        "transfers": 4,
+        "seat_prob": 80.0,
+        "safety_score": 85,
+        "distance": 1733.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "RTM",
+          "to": "BRC",
+          "departure": "01:55:00",
+          "arrival": "05:53:00",
+          "distance": 262.0,
+          "duration_min": 349.33,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12908",
+          "train_name": "MHRST SMPRK",
+          "from": "BRC",
+          "to": "BVI",
+          "departure": "11:05:00",
+          "arrival": "15:47:00",
+          "distance": 361.0,
+          "duration_min": 433.2,
+          "wait_min": 312.0
+        },
+        {
+          "train_no": "19037",
+          "train_name": "AVADH EXPRES",
+          "from": "BVI",
+          "to": "LKE",
+          "departure": "23:18:00",
+          "arrival": "15:22:00",
+          "distance": 950.0,
+          "duration_min": 1036.36,
+          "wait_min": 451.0
+        },
+        {
+          "train_no": "19024",
+          "train_name": "FZR BCT JANT",
+          "from": "LKE",
+          "to": "KOTA",
+          "departure": "21:52:00",
+          "arrival": "23:15:00",
+          "distance": 60.0,
+          "duration_min": 94.74,
+          "wait_min": 390.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_086",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 5517.450090744102,
+        "cost": 4582.0,
+        "transfers": 4,
+        "seat_prob": 80.0,
+        "safety_score": 85,
+        "distance": 4582.0
+      },
+      "segments": [
+        {
+          "train_no": "22645",
+          "train_name": "AHILYANAGARI",
+          "from": "UJN",
+          "to": "JTJ",
+          "departure": "18:25:00",
+          "arrival": "03:08:00",
+          "distance": 1874.0,
+          "duration_min": 1938.62,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22645",
+          "train_name": "AHILYANAGARI",
+          "from": "JTJ",
+          "to": "SA",
+          "departure": "03:10:00",
+          "arrival": "04:40:00",
+          "distance": 119.0,
+          "duration_min": 187.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22645",
+          "train_name": "AHILYANAGARI",
+          "from": "SA",
+          "to": "ED",
+          "departure": "04:45:00",
+          "arrival": "06:00:00",
+          "distance": 60.0,
+          "duration_min": 94.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12660",
+          "train_name": "SHM-NCJ GURU",
+          "from": "ED",
+          "to": "CBE",
+          "departure": "09:50:00",
+          "arrival": "11:25:00",
+          "distance": 101.0,
+          "duration_min": 159.47,
+          "wait_min": 230.0
+        },
+        {
+          "train_no": "12970",
+          "train_name": "JP CBE SF EX",
+          "from": "CBE",
+          "to": "KOTA",
+          "departure": "18:00:00",
+          "arrival": "22:55:00",
+          "distance": 2428.0,
+          "duration_min": 2511.72,
+          "wait_min": 395.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_087",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1097.7894736842104,
+        "cost": 460.0,
+        "transfers": 5,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 80,
+        "distance": 460.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12995",
+          "train_name": "BDTS AII UDZ",
+          "from": "RTM",
+          "to": "JAO",
+          "departure": "02:55:00",
+          "arrival": "03:28:00",
+          "distance": 33.0,
+          "duration_min": 52.11,
+          "wait_min": 65.0
+        },
+        {
+          "train_no": "12995",
+          "train_name": "BDTS AII UDZ",
+          "from": "JAO",
+          "to": "MDS",
+          "departure": "03:30:00",
+          "arrival": "04:08:00",
+          "distance": 51.0,
+          "duration_min": 80.53,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12995",
+          "train_name": "BDTS AII UDZ",
+          "from": "MDS",
+          "to": "NMH",
+          "departure": "04:10:00",
+          "arrival": "04:53:00",
+          "distance": 48.0,
+          "duration_min": 75.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "59833",
+          "train_name": "KOTA-NMH FAS",
+          "from": "NMH",
+          "to": "GQL",
+          "departure": "05:55:00",
+          "arrival": "22:56:00",
+          "distance": 222.0,
+          "duration_min": 296.0,
+          "wait_min": 62.0
+        },
+        {
+          "train_no": "59834",
+          "train_name": "NMH-KOTA FAS",
+          "from": "GQL",
+          "to": "KOTA",
+          "departure": "03:55:00",
+          "arrival": "04:45:00",
+          "distance": 6.0,
+          "duration_min": 9.47,
+          "wait_min": 299.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_088",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1934.1157894736841,
+        "cost": 1097.0,
+        "transfers": 6,
+        "seat_prob": 71.42857142857143,
+        "safety_score": 75,
+        "distance": 1097.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "RTM",
+          "to": "SWM",
+          "departure": "07:40:00",
+          "arrival": "12:15:00",
+          "distance": 374.0,
+          "duration_min": 448.8,
+          "wait_min": 350.0
+        },
+        {
+          "train_no": "12239",
+          "train_name": "JAIPUR DURON",
+          "from": "SWM",
+          "to": "JP",
+          "departure": "12:25:00",
+          "arrival": "14:35:00",
+          "distance": 131.0,
+          "duration_min": 206.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11204",
+          "train_name": "JAIPUR NAGPU",
+          "from": "JP",
+          "to": "COR",
+          "departure": "16:30:00",
+          "arrival": "23:00:00",
+          "distance": 320.0,
+          "duration_min": 384.0,
+          "wait_min": 115.0
+        },
+        {
+          "train_no": "11204",
+          "train_name": "JAIPUR NAGPU",
+          "from": "COR",
+          "to": "MLGH",
+          "departure": "23:20:00",
+          "arrival": "00:18:00",
+          "distance": 66.0,
+          "duration_min": 104.21,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11204",
+          "train_name": "JAIPUR NAGPU",
+          "from": "MLGH",
+          "to": "BUDI",
+          "departure": "00:20:00",
+          "arrival": "01:14:00",
+          "distance": 68.0,
+          "duration_min": 107.37,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11204",
+          "train_name": "JAIPUR NAGPU",
+          "from": "BUDI",
+          "to": "KOTA",
+          "departure": "01:15:00",
+          "arrival": "02:30:00",
+          "distance": 38.0,
+          "duration_min": 60.0,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_089",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1494.3508771929824,
+        "cost": 518.0,
+        "transfers": 6,
+        "seat_prob": 57.14285714285714,
+        "safety_score": 75,
+        "distance": 518.0
+      },
+      "segments": [
+        {
+          "train_no": "12228",
+          "train_name": "MUMBAI DURON",
+          "from": "UJN",
+          "to": "RTM",
+          "departure": "00:20:00",
+          "arrival": "01:50:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "79302",
+          "train_name": "BHL - RTM DM",
+          "from": "RTM",
+          "to": "HMG",
+          "departure": "09:40:00",
+          "arrival": "03:06:00",
+          "distance": 225.0,
+          "duration_min": 300.0,
+          "wait_min": 470.0
+        },
+        {
+          "train_no": "79302",
+          "train_name": "BHL - RTM DM",
+          "from": "HMG",
+          "to": "SNYN",
+          "departure": "03:08:00",
+          "arrival": "03:22:00",
+          "distance": 7.0,
+          "duration_min": 11.05,
+          "wait_min": 0
+        },
+        {
+          "train_no": "79302",
+          "train_name": "BHL - RTM DM",
+          "from": "SNYN",
+          "to": "GGR",
+          "departure": "03:23:00",
+          "arrival": "03:46:00",
+          "distance": 8.0,
+          "duration_min": 12.63,
+          "wait_min": 0
+        },
+        {
+          "train_no": "79302",
+          "train_name": "BHL - RTM DM",
+          "from": "GGR",
+          "to": "DET",
+          "departure": "03:47:00",
+          "arrival": "04:09:00",
+          "distance": 6.0,
+          "duration_min": 9.47,
+          "wait_min": 0
+        },
+        {
+          "train_no": "79302",
+          "train_name": "BHL - RTM DM",
+          "from": "DET",
+          "to": "CNA",
+          "departure": "04:10:00",
+          "arrival": "04:38:00",
+          "distance": 8.0,
+          "duration_min": 12.63,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13424",
+          "train_name": "AII- BGPWKLY",
+          "from": "CNA",
+          "to": "KOTA",
+          "departure": "09:40:00",
+          "arrival": "12:20:00",
+          "distance": 164.0,
+          "duration_min": 218.67,
+          "wait_min": 302.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_090",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1356.3508771929824,
+        "cost": 518.0,
+        "transfers": 7,
+        "seat_prob": 62.5,
+        "safety_score": 70,
+        "distance": 518.0
+      },
+      "segments": [
+        {
+          "train_no": "11102",
+          "train_name": "GWL-PUNE EXP",
+          "from": "UJN",
+          "to": "NAD",
+          "departure": "02:10:00",
+          "arrival": "03:28:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11103",
+          "train_name": "JHS-BDTS EXP",
+          "from": "NAD",
+          "to": "RTM",
+          "departure": "05:35:00",
+          "arrival": "06:15:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 127.0
+        },
+        {
+          "train_no": "79302",
+          "train_name": "BHL - RTM DM",
+          "from": "RTM",
+          "to": "HMG",
+          "departure": "09:40:00",
+          "arrival": "03:06:00",
+          "distance": 225.0,
+          "duration_min": 300.0,
+          "wait_min": 205.0
+        },
+        {
+          "train_no": "79302",
+          "train_name": "BHL - RTM DM",
+          "from": "HMG",
+          "to": "SNYN",
+          "departure": "03:08:00",
+          "arrival": "03:22:00",
+          "distance": 7.0,
+          "duration_min": 11.05,
+          "wait_min": 0
+        },
+        {
+          "train_no": "79302",
+          "train_name": "BHL - RTM DM",
+          "from": "SNYN",
+          "to": "GGR",
+          "departure": "03:23:00",
+          "arrival": "03:46:00",
+          "distance": 8.0,
+          "duration_min": 12.63,
+          "wait_min": 0
+        },
+        {
+          "train_no": "79302",
+          "train_name": "BHL - RTM DM",
+          "from": "GGR",
+          "to": "DET",
+          "departure": "03:47:00",
+          "arrival": "04:09:00",
+          "distance": 6.0,
+          "duration_min": 9.47,
+          "wait_min": 0
+        },
+        {
+          "train_no": "79302",
+          "train_name": "BHL - RTM DM",
+          "from": "DET",
+          "to": "CNA",
+          "departure": "04:10:00",
+          "arrival": "04:38:00",
+          "distance": 8.0,
+          "duration_min": 12.63,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13424",
+          "train_name": "AII- BGPWKLY",
+          "from": "CNA",
+          "to": "KOTA",
+          "departure": "09:40:00",
+          "arrival": "12:20:00",
+          "distance": 164.0,
+          "duration_min": 218.67,
+          "wait_min": 302.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_091",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 5607.858439201453,
+        "cost": 4547.0,
+        "transfers": 9,
+        "seat_prob": 80.0,
+        "safety_score": 60,
+        "distance": 4547.0
+      },
+      "segments": [
+        {
+          "train_no": "22645",
+          "train_name": "AHILYANAGARI",
+          "from": "UJN",
+          "to": "JTJ",
+          "departure": "18:25:00",
+          "arrival": "03:08:00",
+          "distance": 1874.0,
+          "duration_min": 1938.62,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22645",
+          "train_name": "AHILYANAGARI",
+          "from": "JTJ",
+          "to": "SA",
+          "departure": "03:10:00",
+          "arrival": "04:40:00",
+          "distance": 119.0,
+          "duration_min": 187.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22645",
+          "train_name": "AHILYANAGARI",
+          "from": "SA",
+          "to": "ED",
+          "departure": "04:45:00",
+          "arrival": "06:00:00",
+          "distance": 60.0,
+          "duration_min": 94.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22645",
+          "train_name": "AHILYANAGARI",
+          "from": "ED",
+          "to": "TUP",
+          "departure": "06:10:00",
+          "arrival": "06:53:00",
+          "distance": 50.0,
+          "duration_min": 78.95,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22645",
+          "train_name": "AHILYANAGARI",
+          "from": "TUP",
+          "to": "CBE",
+          "departure": "06:55:00",
+          "arrival": "07:42:00",
+          "distance": 50.0,
+          "duration_min": 78.95,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22645",
+          "train_name": "AHILYANAGARI",
+          "from": "CBE",
+          "to": "PGT",
+          "departure": "07:45:00",
+          "arrival": "08:55:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22645",
+          "train_name": "AHILYANAGARI",
+          "from": "PGT",
+          "to": "OTP",
+          "departure": "09:00:00",
+          "arrival": "09:23:00",
+          "distance": 31.0,
+          "duration_min": 48.95,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22645",
+          "train_name": "AHILYANAGARI",
+          "from": "OTP",
+          "to": "SRR",
+          "departure": "09:25:00",
+          "arrival": "10:05:00",
+          "distance": 13.0,
+          "duration_min": 20.53,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16301",
+          "train_name": "VENAD EXPRES",
+          "from": "SRR",
+          "to": "ERS",
+          "departure": "14:25:00",
+          "arrival": "17:10:00",
+          "distance": 107.0,
+          "duration_min": 168.95,
+          "wait_min": 260.0
+        },
+        {
+          "train_no": "12283",
+          "train_name": "ERS-NZM DURO",
+          "from": "ERS",
+          "to": "KOTA",
+          "departure": "23:30:00",
+          "arrival": "12:50:00",
+          "distance": 2188.0,
+          "duration_min": 2263.45,
+          "wait_min": 380.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_092",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2043.6526315789476,
+        "cost": 1060.0,
+        "transfers": 10,
+        "seat_prob": 72.72727272727273,
+        "safety_score": 55,
+        "distance": 1060.0
+      },
+      "segments": [
+        {
+          "train_no": "14309",
+          "train_name": "UJJAINI EXPR",
+          "from": "UJN",
+          "to": "MNV",
+          "departure": "15:00:00",
+          "arrival": "22:00:00",
+          "distance": 344.0,
+          "duration_min": 412.8,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14309",
+          "train_name": "UJJAINI EXPR",
+          "from": "MNV",
+          "to": "BINA",
+          "departure": "22:02:00",
+          "arrival": "23:55:00",
+          "distance": 29.0,
+          "duration_min": 45.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14309",
+          "train_name": "UJJAINI EXPR",
+          "from": "BINA",
+          "to": "LAR",
+          "departure": "00:20:00",
+          "arrival": "01:13:00",
+          "distance": 62.0,
+          "duration_min": 97.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14309",
+          "train_name": "UJJAINI EXPR",
+          "from": "LAR",
+          "to": "JHS",
+          "departure": "01:15:00",
+          "arrival": "03:05:00",
+          "distance": 89.0,
+          "duration_min": 140.53,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14309",
+          "train_name": "UJJAINI EXPR",
+          "from": "JHS",
+          "to": "GWL",
+          "departure": "03:15:00",
+          "arrival": "04:25:00",
+          "distance": 97.0,
+          "duration_min": 153.16,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14309",
+          "train_name": "UJJAINI EXPR",
+          "from": "GWL",
+          "to": "MRA",
+          "departure": "04:30:00",
+          "arrival": "04:55:00",
+          "distance": 39.0,
+          "duration_min": 61.58,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14309",
+          "train_name": "UJJAINI EXPR",
+          "from": "MRA",
+          "to": "DHO",
+          "departure": "04:57:00",
+          "arrival": "05:50:00",
+          "distance": 16.0,
+          "duration_min": 25.26,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14309",
+          "train_name": "UJJAINI EXPR",
+          "from": "DHO",
+          "to": "AGC",
+          "departure": "05:52:00",
+          "arrival": "07:00:00",
+          "distance": 52.0,
+          "duration_min": 82.11,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13008",
+          "train_name": "U A TOOFAN E",
+          "from": "AGC",
+          "to": "IDH",
+          "departure": "12:15:00",
+          "arrival": "12:30:00",
+          "distance": 1.0,
+          "duration_min": 1.58,
+          "wait_min": 315.0
+        },
+        {
+          "train_no": "13008",
+          "train_name": "U A TOOFAN E",
+          "from": "IDH",
+          "to": "AF",
+          "departure": "12:32:00",
+          "arrival": "12:55:00",
+          "distance": 2.0,
+          "duration_min": 3.16,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12938",
+          "train_name": "GARBHA EXPRE",
+          "from": "AF",
+          "to": "KOTA",
+          "departure": "18:05:00",
+          "arrival": "00:05:00",
+          "distance": 329.0,
+          "duration_min": 394.8,
+          "wait_min": 310.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_093",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1966.8000000000002,
+        "cost": 1101.0,
+        "transfers": 10,
+        "seat_prob": 72.72727272727273,
+        "safety_score": 55,
+        "distance": 1101.0
+      },
+      "segments": [
+        {
+          "train_no": "14309",
+          "train_name": "UJJAINI EXPR",
+          "from": "UJN",
+          "to": "MNV",
+          "departure": "15:00:00",
+          "arrival": "22:00:00",
+          "distance": 344.0,
+          "duration_min": 412.8,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14309",
+          "train_name": "UJJAINI EXPR",
+          "from": "MNV",
+          "to": "BINA",
+          "departure": "22:02:00",
+          "arrival": "23:55:00",
+          "distance": 29.0,
+          "duration_min": 45.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14309",
+          "train_name": "UJJAINI EXPR",
+          "from": "BINA",
+          "to": "LAR",
+          "departure": "00:20:00",
+          "arrival": "01:13:00",
+          "distance": 62.0,
+          "duration_min": 97.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14309",
+          "train_name": "UJJAINI EXPR",
+          "from": "LAR",
+          "to": "JHS",
+          "departure": "01:15:00",
+          "arrival": "03:05:00",
+          "distance": 89.0,
+          "duration_min": 140.53,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14309",
+          "train_name": "UJJAINI EXPR",
+          "from": "JHS",
+          "to": "GWL",
+          "departure": "03:15:00",
+          "arrival": "04:25:00",
+          "distance": 97.0,
+          "duration_min": 153.16,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14309",
+          "train_name": "UJJAINI EXPR",
+          "from": "GWL",
+          "to": "MRA",
+          "departure": "04:30:00",
+          "arrival": "04:55:00",
+          "distance": 39.0,
+          "duration_min": 61.58,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14309",
+          "train_name": "UJJAINI EXPR",
+          "from": "MRA",
+          "to": "DHO",
+          "departure": "04:57:00",
+          "arrival": "05:50:00",
+          "distance": 16.0,
+          "duration_min": 25.26,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14309",
+          "train_name": "UJJAINI EXPR",
+          "from": "DHO",
+          "to": "AGC",
+          "departure": "05:52:00",
+          "arrival": "07:00:00",
+          "distance": 52.0,
+          "duration_min": 82.11,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14309",
+          "train_name": "UJJAINI EXPR",
+          "from": "AGC",
+          "to": "RKM",
+          "departure": "07:05:00",
+          "arrival": "07:13:00",
+          "distance": 4.0,
+          "duration_min": 6.32,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14309",
+          "train_name": "UJJAINI EXPR",
+          "from": "RKM",
+          "to": "MTJ",
+          "departure": "07:15:00",
+          "arrival": "08:05:00",
+          "distance": 49.0,
+          "duration_min": 77.37,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12918",
+          "train_name": "GUJRAT S KRA",
+          "from": "MTJ",
+          "to": "KOTA",
+          "departure": "16:05:00",
+          "arrival": "19:45:00",
+          "distance": 320.0,
+          "duration_min": 384.0,
+          "wait_min": 480.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,676 @@
+{
+  "metadata": {
+    "source": "PGT",
+    "destination": "SBC",
+    "total_routes_generated": 79,
+    "pareto_front_size": 9,
+    "optimal_routes_count": 9
+  },
+  "routes": [
+    {
+      "route_id": "ROUTE_01",
+      "category": "FASTEST \u26a1",
+      "objectives": {
+        "time": 746.3157894736842,
+        "cost": 441.0,
+        "transfers": 7,
+        "seat_prob": 62.5,
+        "safety_score": 70,
+        "distance": 441.0
+      },
+      "segments": [
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "PGT",
+          "to": "CBE",
+          "departure": "00:15:00",
+          "arrival": "01:37:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "CBE",
+          "to": "ED",
+          "departure": "01:40:00",
+          "arrival": "03:10:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "ED",
+          "to": "SA",
+          "departure": "03:15:00",
+          "arrival": "04:12:00",
+          "distance": 59.0,
+          "duration_min": 93.16,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "SA",
+          "to": "DPJ",
+          "departure": "04:15:00",
+          "arrival": "05:58:00",
+          "distance": 67.0,
+          "duration_min": 105.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "DPJ",
+          "to": "HSRA",
+          "departure": "06:00:00",
+          "arrival": "07:28:00",
+          "distance": 92.0,
+          "duration_min": 145.26,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "HSRA",
+          "to": "BAND",
+          "departure": "07:30:00",
+          "arrival": "08:28:00",
+          "distance": 51.0,
+          "duration_min": 80.53,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "BAND",
+          "to": "YPR",
+          "departure": "08:30:00",
+          "arrival": "09:30:00",
+          "distance": 12.0,
+          "duration_min": 18.95,
+          "wait_min": 0
+        },
+        {
+          "train_no": "17308",
+          "train_name": "BGK-MYS BASA",
+          "from": "YPR",
+          "to": "SBC",
+          "departure": "10:20:00",
+          "arrival": "10:45:00",
+          "distance": 5.0,
+          "duration_min": 7.89,
+          "wait_min": 50.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_02",
+      "category": "CHEAPEST \ud83d\udcb0",
+      "objectives": {
+        "time": 1089.1052631578948,
+        "cost": 432.0,
+        "transfers": 5,
+        "seat_prob": 83.33333333333334,
+        "safety_score": 80,
+        "distance": 432.0
+      },
+      "segments": [
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "PGT",
+          "to": "CBE",
+          "departure": "00:15:00",
+          "arrival": "01:37:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "CBE",
+          "to": "ED",
+          "departure": "01:40:00",
+          "arrival": "03:10:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "ED",
+          "to": "SA",
+          "departure": "03:15:00",
+          "arrival": "04:12:00",
+          "distance": 59.0,
+          "duration_min": 93.16,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "SA",
+          "to": "DPJ",
+          "departure": "04:15:00",
+          "arrival": "05:58:00",
+          "distance": 67.0,
+          "duration_min": 105.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "DPJ",
+          "to": "HSRA",
+          "departure": "06:00:00",
+          "arrival": "07:28:00",
+          "distance": 92.0,
+          "duration_min": 145.26,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11014",
+          "train_name": "LOKMANYA TT",
+          "from": "HSRA",
+          "to": "SBC",
+          "departure": "14:15:00",
+          "arrival": "15:45:00",
+          "distance": 59.0,
+          "duration_min": 93.16,
+          "wait_min": 407.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_03",
+      "category": "MOST DIRECT \ud83d\ude82",
+      "objectives": {
+        "time": 1342.6124401913876,
+        "cost": 731.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 731.0
+      },
+      "segments": [
+        {
+          "train_no": "22837",
+          "train_name": "HTE ERS DHAR",
+          "from": "PGT",
+          "to": "ERS",
+          "departure": "07:55:00",
+          "arrival": "10:55:00",
+          "distance": 150.0,
+          "duration_min": 236.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12677",
+          "train_name": "SBC-ERS INTE",
+          "from": "ERS",
+          "to": "BNC",
+          "departure": "16:55:00",
+          "arrival": "06:25:00",
+          "distance": 577.0,
+          "duration_min": 629.45,
+          "wait_min": 360.0
+        },
+        {
+          "train_no": "11301",
+          "train_name": "UDYAN EXPRES",
+          "from": "BNC",
+          "to": "SBC",
+          "departure": "08:15:00",
+          "arrival": "08:50:00",
+          "distance": 4.0,
+          "duration_min": 6.32,
+          "wait_min": 110.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_04",
+      "category": "FAST #2 \u26a1",
+      "objectives": {
+        "time": 807.8947368421053,
+        "cost": 442.0,
+        "transfers": 7,
+        "seat_prob": 75.0,
+        "safety_score": 70,
+        "distance": 442.0
+      },
+      "segments": [
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "PGT",
+          "to": "CBE",
+          "departure": "00:15:00",
+          "arrival": "01:37:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "CBE",
+          "to": "ED",
+          "departure": "01:40:00",
+          "arrival": "03:10:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "ED",
+          "to": "SA",
+          "departure": "03:15:00",
+          "arrival": "04:12:00",
+          "distance": 59.0,
+          "duration_min": 93.16,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "SA",
+          "to": "DPJ",
+          "departure": "04:15:00",
+          "arrival": "05:58:00",
+          "distance": 67.0,
+          "duration_min": 105.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "DPJ",
+          "to": "HSRA",
+          "departure": "06:00:00",
+          "arrival": "07:28:00",
+          "distance": 92.0,
+          "duration_min": 145.26,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "HSRA",
+          "to": "BAND",
+          "departure": "07:30:00",
+          "arrival": "08:28:00",
+          "distance": 51.0,
+          "duration_min": 80.53,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "BAND",
+          "to": "YPR",
+          "departure": "08:30:00",
+          "arrival": "09:30:00",
+          "distance": 12.0,
+          "duration_min": 18.95,
+          "wait_min": 0
+        },
+        {
+          "train_no": "20652",
+          "train_name": "SMET-SBC  SF",
+          "from": "YPR",
+          "to": "SBC",
+          "departure": "11:20:00",
+          "arrival": "11:35:00",
+          "distance": 6.0,
+          "duration_min": 9.47,
+          "wait_min": 110.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_05",
+      "category": "FAST #3 \u26a1",
+      "objectives": {
+        "time": 896.3157894736842,
+        "cost": 441.0,
+        "transfers": 8,
+        "seat_prob": 77.77777777777779,
+        "safety_score": 65,
+        "distance": 441.0
+      },
+      "segments": [
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "PGT",
+          "to": "CBE",
+          "departure": "00:15:00",
+          "arrival": "01:37:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "CBE",
+          "to": "ED",
+          "departure": "01:40:00",
+          "arrival": "03:10:00",
+          "distance": 100.0,
+          "duration_min": 157.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "ED",
+          "to": "SA",
+          "departure": "03:15:00",
+          "arrival": "04:12:00",
+          "distance": 59.0,
+          "duration_min": 93.16,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "SA",
+          "to": "DPJ",
+          "departure": "04:15:00",
+          "arrival": "05:58:00",
+          "distance": 67.0,
+          "duration_min": 105.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "DPJ",
+          "to": "HSRA",
+          "departure": "06:00:00",
+          "arrival": "07:28:00",
+          "distance": 92.0,
+          "duration_min": 145.26,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "HSRA",
+          "to": "BAND",
+          "departure": "07:30:00",
+          "arrival": "08:28:00",
+          "distance": 51.0,
+          "duration_min": 80.53,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "BAND",
+          "to": "YPR",
+          "departure": "08:30:00",
+          "arrival": "09:30:00",
+          "distance": 12.0,
+          "duration_min": 18.95,
+          "wait_min": 0
+        },
+        {
+          "train_no": 56222,
+          "train_name": "TK-SBC PASS",
+          "from": "YPR",
+          "to": "MWM",
+          "departure": "12:50:00",
+          "arrival": "12:56:00",
+          "distance": 2.0,
+          "duration_min": 3.16,
+          "wait_min": 200.0
+        },
+        {
+          "train_no": 56222,
+          "train_name": "TK-SBC PASS",
+          "from": "MWM",
+          "to": "SBC",
+          "departure": "12:57:00",
+          "arrival": "13:20:00",
+          "distance": 3.0,
+          "duration_min": 4.74,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_06",
+      "category": "BALANCED #2 \u2696\ufe0f",
+      "objectives": {
+        "time": 1293.8105263157893,
+        "cost": 605.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 605.0
+      },
+      "segments": [
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "PGT",
+          "to": "CBE",
+          "departure": "00:15:00",
+          "arrival": "01:37:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11014",
+          "train_name": "LOKMANYA TT",
+          "from": "CBE",
+          "to": "GBD",
+          "departure": "08:55:00",
+          "arrival": "17:29:00",
+          "distance": 463.0,
+          "duration_min": 555.6,
+          "wait_min": 438.0
+        },
+        {
+          "train_no": "11013",
+          "train_name": "COIMBATORE E",
+          "from": "GBD",
+          "to": "BNCE",
+          "departure": "18:45:00",
+          "arrival": "21:09:00",
+          "distance": 80.0,
+          "duration_min": 126.32,
+          "wait_min": 76.0
+        },
+        {
+          "train_no": "11013",
+          "train_name": "COIMBATORE E",
+          "from": "BNCE",
+          "to": "SBC",
+          "departure": "21:10:00",
+          "arrival": "21:50:00",
+          "distance": 7.0,
+          "duration_min": 11.05,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_07",
+      "category": "BALANCED #4 \u2696\ufe0f",
+      "objectives": {
+        "time": 1303.1913875598088,
+        "cost": 732.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 732.0
+      },
+      "segments": [
+        {
+          "train_no": "22837",
+          "train_name": "HTE ERS DHAR",
+          "from": "PGT",
+          "to": "ERS",
+          "departure": "07:55:00",
+          "arrival": "10:55:00",
+          "distance": 150.0,
+          "duration_min": 236.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12677",
+          "train_name": "SBC-ERS INTE",
+          "from": "ERS",
+          "to": "BNC",
+          "departure": "16:55:00",
+          "arrival": "06:25:00",
+          "distance": 577.0,
+          "duration_min": 629.45,
+          "wait_min": 360.0
+        },
+        {
+          "train_no": "16519",
+          "train_name": "JTJ-SBC EXP",
+          "from": "BNC",
+          "to": "SBC",
+          "departure": "07:34:00",
+          "arrival": "08:00:00",
+          "distance": 5.0,
+          "duration_min": 7.89,
+          "wait_min": 69.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_08",
+      "category": "ALTERNATIVE #1 \ud83d\udd04",
+      "objectives": {
+        "time": 1289.1913875598086,
+        "cost": 732.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 732.0
+      },
+      "segments": [
+        {
+          "train_no": "22837",
+          "train_name": "HTE ERS DHAR",
+          "from": "PGT",
+          "to": "ERS",
+          "departure": "07:55:00",
+          "arrival": "10:55:00",
+          "distance": 150.0,
+          "duration_min": 236.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12677",
+          "train_name": "SBC-ERS INTE",
+          "from": "ERS",
+          "to": "BNC",
+          "departure": "16:55:00",
+          "arrival": "06:25:00",
+          "distance": 577.0,
+          "duration_min": 629.45,
+          "wait_min": 360.0
+        },
+        {
+          "train_no": "66519",
+          "train_name": "MKM-SBC PASS",
+          "from": "BNC",
+          "to": "SBC",
+          "departure": "07:20:00",
+          "arrival": "07:40:00",
+          "distance": 5.0,
+          "duration_min": 7.89,
+          "wait_min": 55.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_09",
+      "category": "ALTERNATIVE #2 \ud83d\udd04",
+      "objectives": {
+        "time": 1571.842105263158,
+        "cost": 554.0,
+        "transfers": 4,
+        "seat_prob": 100.0,
+        "safety_score": 85,
+        "distance": 554.0
+      },
+      "segments": [
+        {
+          "train_no": "22652",
+          "train_name": "PGT-MAS SF E",
+          "from": "PGT",
+          "to": "KRR",
+          "departure": "15:00:00",
+          "arrival": "20:53:00",
+          "distance": 252.0,
+          "duration_min": 336.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "20602",
+          "train_name": "MDU-MAS WEEK",
+          "from": "KRR",
+          "to": "SA",
+          "departure": "00:50:00",
+          "arrival": "02:20:00",
+          "distance": 84.0,
+          "duration_min": 132.63,
+          "wait_min": 237.0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "SA",
+          "to": "DPJ",
+          "departure": "04:15:00",
+          "arrival": "05:58:00",
+          "distance": 67.0,
+          "duration_min": 105.79,
+          "wait_min": 115.0
+        },
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "DPJ",
+          "to": "HSRA",
+          "departure": "06:00:00",
+          "arrival": "07:28:00",
+          "distance": 92.0,
+          "duration_min": 145.26,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11014",
+          "train_name": "LOKMANYA TT",
+          "from": "HSRA",
+          "to": "SBC",
+          "departure": "14:15:00",
+          "arrival": "15:45:00",
+          "distance": 59.0,
+          "duration_min": 93.16,
+          "wait_min": 407.0
+        }
+      ]
+    }
+  ]
+}

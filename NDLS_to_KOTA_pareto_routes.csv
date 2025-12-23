@@ -1,0 +1,2 @@
+Route ID,Category,Segment,Train Number,Train Name,From,To,Departure,Arrival,Distance (km),Duration (min),Wait Before (min),Seat Available,Total Time (min),Total Cost (₹),Total Transfers,Seat Probability (%),Safety Score
+ROUTE_01,FASTEST ⚡,1,12952,MUMBAI RAJDH,NDLS,KOTA,16:25:00,21:00:00,457.0,548.4,0,1,548.4,457.0,0,100.0,100

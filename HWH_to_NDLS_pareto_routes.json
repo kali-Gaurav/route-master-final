@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "source": "HWH",
+    "destination": "NDLS",
+    "total_routes_generated": 104,
+    "pareto_front_size": 5,
+    "optimal_routes_count": 4
+  },
+  "routes": [
+    {
+      "route_id": "ROUTE_01",
+      "category": "FASTEST \u26a1",
+      "objectives": {
+        "time": 1933.1894736842103,
+        "cost": 1553.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 1553.0
+      },
+      "segments": [
+        {
+          "train_no": "12303",
+          "train_name": "POORVA EXPRE",
+          "from": "HWH",
+          "to": "KIUL",
+          "departure": "08:05:00",
+          "arrival": "13:58:00",
+          "distance": 407.0,
+          "duration_min": 488.4,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13430",
+          "train_name": "ANVT-MLDT WK",
+          "from": "KIUL",
+          "to": "GZB",
+          "departure": "16:25:00",
+          "arrival": "17:45:00",
+          "distance": 1117.0,
+          "duration_min": 1117.0,
+          "wait_min": 147.0
+        },
+        {
+          "train_no": "64418",
+          "train_name": "DLI-GZB MEMU",
+          "from": "GZB",
+          "to": "DSB",
+          "departure": "20:00:00",
+          "arrival": "18:54:00",
+          "distance": 27.0,
+          "duration_min": 42.63,
+          "wait_min": 135.0
+        },
+        {
+          "train_no": "64418",
+          "train_name": "DLI-GZB MEMU",
+          "from": "DSB",
+          "to": "NDLS",
+          "departure": "18:55:00",
+          "arrival": "19:03:00",
+          "distance": 2.0,
+          "duration_min": 3.16,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_02",
+      "category": "CHEAPEST \ud83d\udcb0",
+      "objectives": {
+        "time": 2575.004784688995,
+        "cost": 1532.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 1532.0
+      },
+      "segments": [
+        {
+          "train_no": 37843,
+          "train_name": "HWH - BWN LO",
+          "from": "HWH",
+          "to": "BDC",
+          "departure": "17:55:00",
+          "arrival": "18:43:00",
+          "distance": 39.0,
+          "duration_min": 61.58,
+          "wait_min": 0
+        },
+        {
+          "train_no": 53139,
+          "train_name": "KOAA JSME PG",
+          "from": "BDC",
+          "to": "BWN",
+          "departure": "00:05:00",
+          "arrival": "01:23:00",
+          "distance": 67.0,
+          "duration_min": 105.79,
+          "wait_min": 322.0
+        },
+        {
+          "train_no": "12303",
+          "train_name": "POORVA EXPRE",
+          "from": "BWN",
+          "to": "ALD",
+          "departure": "09:13:00",
+          "arrival": "21:40:00",
+          "distance": 797.0,
+          "duration_min": 869.45,
+          "wait_min": 470.0
+        },
+        {
+          "train_no": "12275",
+          "train_name": "ALD-NDLS-DUR",
+          "from": "ALD",
+          "to": "NDLS",
+          "departure": "22:40:00",
+          "arrival": "06:25:00",
+          "distance": 629.0,
+          "duration_min": 686.18,
+          "wait_min": 60.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_03",
+      "category": "MOST DIRECT \ud83d\ude82",
+      "objectives": {
+        "time": 2116.3333333333335,
+        "cost": 1746.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1746.0
+      },
+      "segments": [
+        {
+          "train_no": "12312",
+          "train_name": "KLK DLI HWH",
+          "from": "HWH",
+          "to": "KKDE",
+          "departure": "07:55:00",
+          "arrival": "02:53:00",
+          "distance": 1589.0,
+          "duration_min": 1589.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12006",
+          "train_name": "KLK-NDLS SHA",
+          "from": "KKDE",
+          "to": "NDLS",
+          "departure": "08:11:00",
+          "arrival": "10:20:00",
+          "distance": 157.0,
+          "duration_min": 209.33,
+          "wait_min": 318.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_04",
+      "category": "FAST #2 \u26a1",
+      "objectives": {
+        "time": 1950.4526315789476,
+        "cost": 1550.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 1550.0
+      },
+      "segments": [
+        {
+          "train_no": "12303",
+          "train_name": "POORVA EXPRE",
+          "from": "HWH",
+          "to": "KIUL",
+          "departure": "08:05:00",
+          "arrival": "13:58:00",
+          "distance": 407.0,
+          "duration_min": 488.4,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13430",
+          "train_name": "ANVT-MLDT WK",
+          "from": "KIUL",
+          "to": "GZB",
+          "departure": "16:25:00",
+          "arrival": "17:45:00",
+          "distance": 1117.0,
+          "duration_min": 1117.0,
+          "wait_min": 147.0
+        },
+        {
+          "train_no": "12039",
+          "train_name": "KGM-NDLS SHA",
+          "from": "GZB",
+          "to": "NDLS",
+          "departure": "20:22:00",
+          "arrival": "21:05:00",
+          "distance": 26.0,
+          "duration_min": 41.05,
+          "wait_min": 157.0
+        }
+      ]
+    }
+  ]
+}

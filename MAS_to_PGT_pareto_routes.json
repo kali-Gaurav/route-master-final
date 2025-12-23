@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "source": "MAS",
+    "destination": "PGT",
+    "total_routes_generated": 111,
+    "pareto_front_size": 7,
+    "optimal_routes_count": 5
+  },
+  "routes": [
+    {
+      "route_id": "ROUTE_01",
+      "category": "FASTEST \u26a1",
+      "objectives": {
+        "time": 594.5454545454545,
+        "cost": 545.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 545.0
+      },
+      "segments": [
+        {
+          "train_no": "12695",
+          "train_name": "MAS - TVC SU",
+          "from": "MAS",
+          "to": "PGT",
+          "departure": "15:25:00",
+          "arrival": "00:27:00",
+          "distance": 545.0,
+          "duration_min": 594.55,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_02",
+      "category": "CHEAPEST \ud83d\udcb0",
+      "objectives": {
+        "time": 658.1684210526315,
+        "cost": 533.0,
+        "transfers": 1,
+        "seat_prob": 0.0,
+        "safety_score": 100,
+        "distance": 533.0
+      },
+      "segments": [
+        {
+          "train_no": "12601",
+          "train_name": "MANGALORE MA",
+          "from": "MAS",
+          "to": "PTJ",
+          "departure": "20:20:00",
+          "arrival": "03:28:00",
+          "distance": 484.0,
+          "duration_min": 580.8,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12601",
+          "train_name": "MANGALORE MA",
+          "from": "PTJ",
+          "to": "PGT",
+          "departure": "03:30:00",
+          "arrival": "04:30:00",
+          "distance": 49.0,
+          "duration_min": 77.37,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_03",
+      "category": "FAST #2 \u26a1",
+      "objectives": {
+        "time": 594.5454545454545,
+        "cost": 545.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 545.0
+      },
+      "segments": [
+        {
+          "train_no": "22639",
+          "train_name": "ALLEPPEY EXP",
+          "from": "MAS",
+          "to": "PGT",
+          "departure": "20:55:00",
+          "arrival": "05:30:00",
+          "distance": 545.0,
+          "duration_min": 594.55,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_04",
+      "category": "CHEAP #2 \ud83d\udcb0",
+      "objectives": {
+        "time": 1055.5368421052633,
+        "cost": 544.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 544.0
+      },
+      "segments": [
+        {
+          "train_no": "12601",
+          "train_name": "MANGALORE MA",
+          "from": "MAS",
+          "to": "PTJ",
+          "departure": "20:20:00",
+          "arrival": "03:28:00",
+          "distance": 484.0,
+          "duration_min": 580.8,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22638",
+          "train_name": "WEST COAST E",
+          "from": "PTJ",
+          "to": "CBE",
+          "departure": "06:20:00",
+          "arrival": "06:32:00",
+          "distance": 6.0,
+          "duration_min": 9.47,
+          "wait_min": 172.0
+        },
+        {
+          "train_no": "16318",
+          "train_name": "SVDK-CAPE HI",
+          "from": "CBE",
+          "to": "PGT",
+          "departure": "10:00:00",
+          "arrival": "11:05:00",
+          "distance": 54.0,
+          "duration_min": 85.26,
+          "wait_min": 208.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_05",
+      "category": "CHEAP #3 \ud83d\udcb0",
+      "objectives": {
+        "time": 927.1157894736842,
+        "cost": 544.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 85,
+        "distance": 544.0
+      },
+      "segments": [
+        {
+          "train_no": "22637",
+          "train_name": "WEST COAST E",
+          "from": "MAS",
+          "to": "SGE",
+          "departure": "12:05:00",
+          "arrival": "17:43:00",
+          "distance": 369.0,
+          "duration_min": 442.8,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22637",
+          "train_name": "WEST COAST E",
+          "from": "SGE",
+          "to": "ED",
+          "departure": "17:45:00",
+          "arrival": "18:10:00",
+          "distance": 21.0,
+          "duration_min": 33.16,
+          "wait_min": 0
+        },
+        {
+          "train_no": "66608",
+          "train_name": "PGTN-ED MEMU",
+          "from": "ED",
+          "to": "KJKD",
+          "departure": "19:05:00",
+          "arrival": "15:02:00",
+          "distance": 141.0,
+          "duration_min": 222.63,
+          "wait_min": 55.0
+        },
+        {
+          "train_no": "56605",
+          "train_name": "CBE-TCR PASS",
+          "from": "KJKD",
+          "to": "PGT",
+          "departure": "17:35:00",
+          "arrival": "17:50:00",
+          "distance": 13.0,
+          "duration_min": 20.53,
+          "wait_min": 153.0
+        }
+      ]
+    }
+  ]
+}

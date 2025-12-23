@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "source": "NDLS",
+    "destination": "KOTA",
+    "total_routes_generated": 3,
+    "pareto_front_size": 1,
+    "optimal_routes_count": 1
+  },
+  "routes": [
+    {
+      "route_id": "ROUTE_01",
+      "category": "FASTEST \u26a1",
+      "objectives": {
+        "time": 548.4000000000001,
+        "cost": 457.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 457.0
+      },
+      "segments": [
+        {
+          "train_no": "12952",
+          "train_name": "MUMBAI RAJDH",
+          "from": "NDLS",
+          "to": "KOTA",
+          "departure": "16:25:00",
+          "arrival": "21:00:00",
+          "distance": 457.0,
+          "duration_min": 548.4,
+          "wait_min": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6018 @@
+{
+  "metadata": {
+    "source": "PGT",
+    "destination": "PNBE",
+    "total_routes_generated": 100,
+    "pareto_front_size": 6,
+    "optimal_routes_count": 6
+  },
+  "optimal_routes": [
+    {
+      "route_id": "OPT_ROUTE_01",
+      "category": "MOST DIRECT \ud83d\ude82",
+      "objectives": {
+        "time": 2940.3194192377496,
+        "cost": 2635.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 2635.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12023",
+          "train_name": "HOWRAH PATNA",
+          "from": "MKA",
+          "to": "PNC",
+          "departure": "20:29:00",
+          "arrival": "21:43:00",
+          "distance": 80.0,
+          "duration_min": 126.32,
+          "wait_min": 166.0
+        },
+        {
+          "train_no": "12023",
+          "train_name": "HOWRAH PATNA",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "21:45:00",
+          "arrival": "22:45:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_02",
+      "category": "CHEAPEST \ud83d\udcb0",
+      "objectives": {
+        "time": 3149.7404718693283,
+        "cost": 2634.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 2634.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12349",
+          "train_name": "BGP NDLS EXP",
+          "from": "MKA",
+          "to": "BKP",
+          "departure": "20:51:00",
+          "arrival": "21:19:00",
+          "distance": 43.0,
+          "duration_min": 67.89,
+          "wait_min": 188.0
+        },
+        {
+          "train_no": "15483",
+          "train_name": "SIKKIM MAHAN",
+          "from": "BKP",
+          "to": "PNBE",
+          "departure": "00:28:00",
+          "arrival": "01:15:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 189.0
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_03",
+      "category": "FAST #3 \u26a1",
+      "objectives": {
+        "time": 3142.7404718693283,
+        "cost": 2634.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2634.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "MKA",
+          "to": "BKP",
+          "departure": "17:45:00",
+          "arrival": "18:18:00",
+          "distance": 43.0,
+          "duration_min": 67.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15483",
+          "train_name": "SIKKIM MAHAN",
+          "from": "BKP",
+          "to": "PNBE",
+          "departure": "00:28:00",
+          "arrival": "01:15:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 370.0
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_04",
+      "category": "FAST #2 \u26a1",
+      "objectives": {
+        "time": 2919.7404718693283,
+        "cost": 2634.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2634.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "MKA",
+          "to": "BKP",
+          "departure": "17:45:00",
+          "arrival": "18:18:00",
+          "distance": 43.0,
+          "duration_min": 67.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "BKP",
+          "to": "PNC",
+          "departure": "18:20:00",
+          "arrival": "19:18:00",
+          "distance": 36.0,
+          "duration_min": 56.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12023",
+          "train_name": "HOWRAH PATNA",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "21:45:00",
+          "arrival": "22:45:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 147.0
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_05",
+      "category": "FAST #1 \u26a1",
+      "objectives": {
+        "time": 2888.319419237749,
+        "cost": 2635.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2635.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "MKA",
+          "to": "BKP",
+          "departure": "17:45:00",
+          "arrival": "18:18:00",
+          "distance": 43.0,
+          "duration_min": 67.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "BKP",
+          "to": "PNC",
+          "departure": "18:20:00",
+          "arrival": "19:18:00",
+          "distance": 36.0,
+          "duration_min": 56.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12315",
+          "train_name": "ANNANYA  EXP",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "21:12:00",
+          "arrival": "21:30:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 114.0
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_06",
+      "category": "FASTEST \u26a1",
+      "objectives": {
+        "time": 2832.740471869328,
+        "cost": 2634.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2634.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "MKA",
+          "to": "BKP",
+          "departure": "17:45:00",
+          "arrival": "18:18:00",
+          "distance": 43.0,
+          "duration_min": 67.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "BKP",
+          "to": "PNC",
+          "departure": "18:20:00",
+          "arrival": "19:18:00",
+          "distance": 36.0,
+          "duration_min": 56.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12327",
+          "train_name": "UPASANA EXPR",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "20:18:00",
+          "arrival": "20:45:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 60.0
+        }
+      ]
+    }
+  ],
+  "all_generated_routes": [
+    {
+      "route_id": "ALL_ROUTE_001",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 4574.324863883848,
+        "cost": 3917.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 3917.0
+      },
+      "segments": [
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "PGT",
+          "to": "CBE",
+          "departure": "00:15:00",
+          "arrival": "01:37:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22475",
+          "train_name": "BKN CBE AC S",
+          "from": "CBE",
+          "to": "MTD",
+          "departure": "02:50:00",
+          "arrival": "09:35:00",
+          "distance": 2305.0,
+          "duration_min": 2384.48,
+          "wait_min": 73.0
+        },
+        {
+          "train_no": "15623",
+          "train_name": "BGKT KYQ WEE",
+          "from": "MTD",
+          "to": "PNBE",
+          "departure": "17:28:00",
+          "arrival": "02:40:00",
+          "distance": 1557.0,
+          "duration_min": 1557.0,
+          "wait_min": 473.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_002",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3468.643678160919,
+        "cost": 2694.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 2694.0
+      },
+      "segments": [
+        {
+          "train_no": "13352",
+          "train_name": "ALLEPY-DHANB",
+          "from": "PGT",
+          "to": "MURI",
+          "departure": "10:40:00",
+          "arrival": "10:08:00",
+          "distance": 2213.0,
+          "duration_min": 2289.31,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13319",
+          "train_name": "BDME-RNC EXP",
+          "from": "MURI",
+          "to": "JSME",
+          "departure": "11:34:00",
+          "arrival": "04:55:00",
+          "distance": 260.0,
+          "duration_min": 346.67,
+          "wait_min": 86.0
+        },
+        {
+          "train_no": "12273",
+          "train_name": "HWH NDLS DUR",
+          "from": "JSME",
+          "to": "PNBE",
+          "departure": "12:27:00",
+          "arrival": "16:30:00",
+          "distance": 221.0,
+          "duration_min": 294.67,
+          "wait_min": 452.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_003",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3384.7888687235327,
+        "cost": 2837.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 2837.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12354",
+          "train_name": "LKU  HWH  EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "07:20:00",
+          "arrival": "08:15:00",
+          "distance": 18.0,
+          "duration_min": 28.42,
+          "wait_min": 155.0
+        },
+        {
+          "train_no": "12350",
+          "train_name": "NDLS BGP  EX",
+          "from": "MGS",
+          "to": "PNBE",
+          "departure": "11:58:00",
+          "arrival": "14:40:00",
+          "distance": 208.0,
+          "duration_min": 277.33,
+          "wait_min": 223.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_004",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3409.788868723533,
+        "cost": 2837.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 2837.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12354",
+          "train_name": "LKU  HWH  EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "07:20:00",
+          "arrival": "08:15:00",
+          "distance": 18.0,
+          "duration_min": 28.42,
+          "wait_min": 155.0
+        },
+        {
+          "train_no": "12546",
+          "train_name": "KARMBHOOMI E",
+          "from": "MGS",
+          "to": "PNBE",
+          "departure": "12:23:00",
+          "arrival": "15:35:00",
+          "distance": 208.0,
+          "duration_min": 277.33,
+          "wait_min": 248.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_005",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3414.7888687235327,
+        "cost": 2837.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 2837.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12354",
+          "train_name": "LKU  HWH  EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "07:20:00",
+          "arrival": "08:15:00",
+          "distance": 18.0,
+          "duration_min": 28.42,
+          "wait_min": 155.0
+        },
+        {
+          "train_no": "15548",
+          "train_name": "LTT-JYG JANS",
+          "from": "MGS",
+          "to": "PNBE",
+          "departure": "12:28:00",
+          "arrival": "15:35:00",
+          "distance": 208.0,
+          "duration_min": 277.33,
+          "wait_min": 253.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_006",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3424.788868723533,
+        "cost": 2837.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 2837.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12354",
+          "train_name": "LKU  HWH  EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "07:20:00",
+          "arrival": "08:15:00",
+          "distance": 18.0,
+          "duration_min": 28.42,
+          "wait_min": 155.0
+        },
+        {
+          "train_no": "19313",
+          "train_name": "INDB RJPB  E",
+          "from": "MGS",
+          "to": "PNBE",
+          "departure": "12:38:00",
+          "arrival": "16:55:00",
+          "distance": 208.0,
+          "duration_min": 277.33,
+          "wait_min": 263.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_007",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3423.4555353901997,
+        "cost": 2836.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 2836.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12354",
+          "train_name": "LKU  HWH  EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "07:20:00",
+          "arrival": "08:15:00",
+          "distance": 18.0,
+          "duration_min": 28.42,
+          "wait_min": 155.0
+        },
+        {
+          "train_no": "19321",
+          "train_name": "INDB RJPB EX",
+          "from": "MGS",
+          "to": "PNBE",
+          "departure": "12:38:00",
+          "arrival": "16:55:00",
+          "distance": 207.0,
+          "duration_min": 276.0,
+          "wait_min": 263.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_008",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3388.367816091954,
+        "cost": 2838.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 2838.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12350",
+          "train_name": "NDLS BGP  EX",
+          "from": "MGS",
+          "to": "PNBE",
+          "departure": "11:58:00",
+          "arrival": "14:40:00",
+          "distance": 208.0,
+          "duration_min": 277.33,
+          "wait_min": 380.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_009",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3413.3678160919535,
+        "cost": 2838.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 2838.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12546",
+          "train_name": "KARMBHOOMI E",
+          "from": "MGS",
+          "to": "PNBE",
+          "departure": "12:23:00",
+          "arrival": "15:35:00",
+          "distance": 208.0,
+          "duration_min": 277.33,
+          "wait_min": 405.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_010",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3173.3678160919535,
+        "cost": 2838.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 2838.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13424",
+          "train_name": "AII- BGPWKLY",
+          "from": "MGS",
+          "to": "PNBE",
+          "departure": "08:23:00",
+          "arrival": "11:40:00",
+          "distance": 208.0,
+          "duration_min": 277.33,
+          "wait_min": 165.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_011",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3418.367816091954,
+        "cost": 2838.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2838.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15548",
+          "train_name": "LTT-JYG JANS",
+          "from": "MGS",
+          "to": "PNBE",
+          "departure": "12:28:00",
+          "arrival": "15:35:00",
+          "distance": 208.0,
+          "duration_min": 277.33,
+          "wait_min": 410.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_012",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3428.3678160919535,
+        "cost": 2838.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2838.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19313",
+          "train_name": "INDB RJPB  E",
+          "from": "MGS",
+          "to": "PNBE",
+          "departure": "12:38:00",
+          "arrival": "16:55:00",
+          "distance": 208.0,
+          "duration_min": 277.33,
+          "wait_min": 420.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_013",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3427.0344827586205,
+        "cost": 2837.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2837.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19321",
+          "train_name": "INDB RJPB EX",
+          "from": "MGS",
+          "to": "PNBE",
+          "departure": "12:38:00",
+          "arrival": "16:55:00",
+          "distance": 207.0,
+          "duration_min": 276.0,
+          "wait_min": 420.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_014",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2940.3194192377496,
+        "cost": 2635.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 2635.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12023",
+          "train_name": "HOWRAH PATNA",
+          "from": "MKA",
+          "to": "PNC",
+          "departure": "20:29:00",
+          "arrival": "21:43:00",
+          "distance": 80.0,
+          "duration_min": 126.32,
+          "wait_min": 166.0
+        },
+        {
+          "train_no": "12023",
+          "train_name": "HOWRAH PATNA",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "21:45:00",
+          "arrival": "22:45:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_015",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3292.3194192377496,
+        "cost": 2635.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 2635.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12023",
+          "train_name": "HOWRAH PATNA",
+          "from": "MKA",
+          "to": "PNC",
+          "departure": "20:29:00",
+          "arrival": "21:43:00",
+          "distance": 80.0,
+          "duration_min": 126.32,
+          "wait_min": 166.0
+        },
+        {
+          "train_no": "12333",
+          "train_name": "VIBHUTI EXPR",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "03:35:00",
+          "arrival": "04:00:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 352.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_016",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3086.8983666061704,
+        "cost": 2636.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 2636.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12023",
+          "train_name": "HOWRAH PATNA",
+          "from": "MKA",
+          "to": "PNC",
+          "departure": "20:29:00",
+          "arrival": "21:43:00",
+          "distance": 80.0,
+          "duration_min": 126.32,
+          "wait_min": 166.0
+        },
+        {
+          "train_no": "12361",
+          "train_name": "ASN CSMT EXP",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "00:08:00",
+          "arrival": "00:35:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 145.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_017",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3258.3194192377496,
+        "cost": 2635.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 2635.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12023",
+          "train_name": "HOWRAH PATNA",
+          "from": "MKA",
+          "to": "PNC",
+          "departure": "20:29:00",
+          "arrival": "21:43:00",
+          "distance": 80.0,
+          "duration_min": 126.32,
+          "wait_min": 166.0
+        },
+        {
+          "train_no": "13005",
+          "train_name": "AMRITSAR MAI",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "03:01:00",
+          "arrival": "03:40:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 318.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_018",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3162.8983666061704,
+        "cost": 2636.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 2636.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12023",
+          "train_name": "HOWRAH PATNA",
+          "from": "MKA",
+          "to": "PNC",
+          "departure": "20:29:00",
+          "arrival": "21:43:00",
+          "distance": 80.0,
+          "duration_min": 126.32,
+          "wait_min": 166.0
+        },
+        {
+          "train_no": "13049",
+          "train_name": "AMRITSAR EXP",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "01:24:00",
+          "arrival": "01:55:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 221.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_019",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3367.898366606171,
+        "cost": 2636.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 2636.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12023",
+          "train_name": "HOWRAH PATNA",
+          "from": "MKA",
+          "to": "PNC",
+          "departure": "20:29:00",
+          "arrival": "21:43:00",
+          "distance": 80.0,
+          "duration_min": 126.32,
+          "wait_min": 166.0
+        },
+        {
+          "train_no": "13121",
+          "train_name": "KOAA GCT EXP",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "04:49:00",
+          "arrival": "05:15:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 426.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_020",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3086.8983666061704,
+        "cost": 2636.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 2636.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12023",
+          "train_name": "HOWRAH PATNA",
+          "from": "MKA",
+          "to": "PNC",
+          "departure": "20:29:00",
+          "arrival": "21:43:00",
+          "distance": 80.0,
+          "duration_min": 126.32,
+          "wait_min": 166.0
+        },
+        {
+          "train_no": "15547",
+          "train_name": "JYG-LTT JANS",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "00:08:00",
+          "arrival": "00:35:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 145.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_021",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3285.898366606171,
+        "cost": 2636.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 2636.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12023",
+          "train_name": "HOWRAH PATNA",
+          "from": "MKA",
+          "to": "PNC",
+          "departure": "20:29:00",
+          "arrival": "21:43:00",
+          "distance": 80.0,
+          "duration_min": 126.32,
+          "wait_min": 166.0
+        },
+        {
+          "train_no": "15632",
+          "train_name": "GHY BME-BKN",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "03:27:00",
+          "arrival": "04:20:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 344.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_022",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3285.898366606171,
+        "cost": 2636.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 2636.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12023",
+          "train_name": "HOWRAH PATNA",
+          "from": "MKA",
+          "to": "PNC",
+          "departure": "20:29:00",
+          "arrival": "21:43:00",
+          "distance": 80.0,
+          "duration_min": 126.32,
+          "wait_min": 166.0
+        },
+        {
+          "train_no": "15636",
+          "train_name": "DWARKA EXPRE",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "03:27:00",
+          "arrival": "04:20:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 344.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_023",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3285.898366606171,
+        "cost": 2636.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 2636.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12023",
+          "train_name": "HOWRAH PATNA",
+          "from": "MKA",
+          "to": "PNC",
+          "departure": "20:29:00",
+          "arrival": "21:43:00",
+          "distance": 80.0,
+          "duration_min": 126.32,
+          "wait_min": 166.0
+        },
+        {
+          "train_no": "15668",
+          "train_name": "KAMAKHYA-GAN",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "03:27:00",
+          "arrival": "04:20:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 344.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_024",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3149.7404718693283,
+        "cost": 2634.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 95,
+        "distance": 2634.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12349",
+          "train_name": "BGP NDLS EXP",
+          "from": "MKA",
+          "to": "BKP",
+          "departure": "20:51:00",
+          "arrival": "21:19:00",
+          "distance": 43.0,
+          "duration_min": 67.89,
+          "wait_min": 188.0
+        },
+        {
+          "train_no": "15483",
+          "train_name": "SIKKIM MAHAN",
+          "from": "BKP",
+          "to": "PNBE",
+          "departure": "00:28:00",
+          "arrival": "01:15:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 189.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_025",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3142.7404718693283,
+        "cost": 2634.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2634.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "MKA",
+          "to": "BKP",
+          "departure": "17:45:00",
+          "arrival": "18:18:00",
+          "distance": 43.0,
+          "duration_min": 67.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15483",
+          "train_name": "SIKKIM MAHAN",
+          "from": "BKP",
+          "to": "PNBE",
+          "departure": "00:28:00",
+          "arrival": "01:15:00",
+          "distance": 45.0,
+          "duration_min": 71.05,
+          "wait_min": 370.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_026",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3523.5103448275863,
+        "cost": 2689.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2689.0
+      },
+      "segments": [
+        {
+          "train_no": "13352",
+          "train_name": "ALLEPY-DHANB",
+          "from": "PGT",
+          "to": "MURI",
+          "departure": "10:40:00",
+          "arrival": "10:08:00",
+          "distance": 2213.0,
+          "duration_min": 2289.31,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12365",
+          "train_name": "PNBE-RNC JAN",
+          "from": "MURI",
+          "to": "RNC",
+          "departure": "12:35:00",
+          "arrival": "13:55:00",
+          "distance": 65.0,
+          "duration_min": 102.63,
+          "wait_min": 147.0
+        },
+        {
+          "train_no": "12365",
+          "train_name": "PNBE-RNC JAN",
+          "from": "RNC",
+          "to": "TEA",
+          "departure": "13:55:00",
+          "arrival": "06:24:00",
+          "distance": 381.0,
+          "duration_min": 457.2,
+          "wait_min": 0
+        },
+        {
+          "train_no": "18626",
+          "train_name": "HTE-PNBE EXP",
+          "from": "TEA",
+          "to": "PNBE",
+          "departure": "14:24:00",
+          "arrival": "15:40:00",
+          "distance": 30.0,
+          "duration_min": 47.37,
+          "wait_min": 480.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_027",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3680.402903811252,
+        "cost": 2845.0,
+        "transfers": 3,
+        "seat_prob": 25.0,
+        "safety_score": 90,
+        "distance": 2845.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12354",
+          "train_name": "LKU  HWH  EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "07:20:00",
+          "arrival": "08:15:00",
+          "distance": 18.0,
+          "duration_min": 28.42,
+          "wait_min": 155.0
+        },
+        {
+          "train_no": "12502",
+          "train_name": "POORVATTAR S",
+          "from": "MGS",
+          "to": "PPTA",
+          "departure": "11:58:00",
+          "arrival": "14:45:00",
+          "distance": 204.0,
+          "duration_min": 272.0,
+          "wait_min": 223.0
+        },
+        {
+          "train_no": "13122",
+          "train_name": "GCT KOAA EXP",
+          "from": "PPTA",
+          "to": "PNBE",
+          "departure": "19:27:00",
+          "arrival": "20:35:00",
+          "distance": 12.0,
+          "duration_min": 18.95,
+          "wait_min": 282.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_028",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3392.823956442831,
+        "cost": 2837.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 2837.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12354",
+          "train_name": "LKU  HWH  EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "07:20:00",
+          "arrival": "08:15:00",
+          "distance": 18.0,
+          "duration_min": 28.42,
+          "wait_min": 155.0
+        },
+        {
+          "train_no": "13430",
+          "train_name": "ANVT-MLDT WK",
+          "from": "MGS",
+          "to": "ARA",
+          "departure": "10:08:00",
+          "arrival": "11:54:00",
+          "distance": 159.0,
+          "duration_min": 212.0,
+          "wait_min": 113.0
+        },
+        {
+          "train_no": "14056",
+          "train_name": "BRAHMPUTRA M",
+          "from": "ARA",
+          "to": "PNBE",
+          "departure": "13:40:00",
+          "arrival": "14:30:00",
+          "distance": 49.0,
+          "duration_min": 77.37,
+          "wait_min": 106.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_029",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3787.24500907441,
+        "cost": 2837.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2837.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12354",
+          "train_name": "LKU  HWH  EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "07:20:00",
+          "arrival": "08:15:00",
+          "distance": 18.0,
+          "duration_min": 28.42,
+          "wait_min": 155.0
+        },
+        {
+          "train_no": "63227",
+          "train_name": "PNBE-MGS MEM",
+          "from": "MGS",
+          "to": "DNR",
+          "departure": "15:15:00",
+          "arrival": "08:18:00",
+          "distance": 198.0,
+          "duration_min": 264.0,
+          "wait_min": 420.0
+        },
+        {
+          "train_no": "12336",
+          "train_name": "LTT-BGP EXP",
+          "from": "DNR",
+          "to": "PNBE",
+          "departure": "11:41:00",
+          "arrival": "12:20:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 203.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_030",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3640.2450090744096,
+        "cost": 2837.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 2837.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12354",
+          "train_name": "LKU  HWH  EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "07:20:00",
+          "arrival": "08:15:00",
+          "distance": 18.0,
+          "duration_min": 28.42,
+          "wait_min": 155.0
+        },
+        {
+          "train_no": "63227",
+          "train_name": "PNBE-MGS MEM",
+          "from": "MGS",
+          "to": "DNR",
+          "departure": "15:15:00",
+          "arrival": "08:18:00",
+          "distance": 198.0,
+          "duration_min": 264.0,
+          "wait_min": 420.0
+        },
+        {
+          "train_no": "12578",
+          "train_name": "BAGMATI  EXP",
+          "from": "DNR",
+          "to": "PNBE",
+          "departure": "09:14:00",
+          "arrival": "09:30:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 56.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_031",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3614.24500907441,
+        "cost": 2837.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2837.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12354",
+          "train_name": "LKU  HWH  EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "07:20:00",
+          "arrival": "08:15:00",
+          "distance": 18.0,
+          "duration_min": 28.42,
+          "wait_min": 155.0
+        },
+        {
+          "train_no": "63227",
+          "train_name": "PNBE-MGS MEM",
+          "from": "MGS",
+          "to": "DNR",
+          "departure": "15:15:00",
+          "arrival": "08:18:00",
+          "distance": 198.0,
+          "duration_min": 264.0,
+          "wait_min": 420.0
+        },
+        {
+          "train_no": "13202",
+          "train_name": "LTT  RJPB EX",
+          "from": "DNR",
+          "to": "PNBE",
+          "departure": "08:48:00",
+          "arrival": "09:20:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 30.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_032",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 4023.666061705989,
+        "cost": 2836.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2836.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12354",
+          "train_name": "LKU  HWH  EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "07:20:00",
+          "arrival": "08:15:00",
+          "distance": 18.0,
+          "duration_min": 28.42,
+          "wait_min": 155.0
+        },
+        {
+          "train_no": "63227",
+          "train_name": "PNBE-MGS MEM",
+          "from": "MGS",
+          "to": "DNR",
+          "departure": "15:15:00",
+          "arrival": "08:18:00",
+          "distance": 198.0,
+          "duration_min": 264.0,
+          "wait_min": 420.0
+        },
+        {
+          "train_no": "13250",
+          "train_name": "BBU-PNBE INT",
+          "from": "DNR",
+          "to": "PNBE",
+          "departure": "15:39:00",
+          "arrival": "16:45:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 441.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_033",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3838.24500907441,
+        "cost": 2837.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2837.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12354",
+          "train_name": "LKU  HWH  EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "07:20:00",
+          "arrival": "08:15:00",
+          "distance": 18.0,
+          "duration_min": 28.42,
+          "wait_min": 155.0
+        },
+        {
+          "train_no": "63227",
+          "train_name": "PNBE-MGS MEM",
+          "from": "MGS",
+          "to": "DNR",
+          "departure": "15:15:00",
+          "arrival": "08:18:00",
+          "distance": 198.0,
+          "duration_min": 264.0,
+          "wait_min": 420.0
+        },
+        {
+          "train_no": "13430",
+          "train_name": "ANVT-MLDT WK",
+          "from": "DNR",
+          "to": "PNBE",
+          "departure": "12:32:00",
+          "arrival": "13:50:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 254.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_034",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3787.24500907441,
+        "cost": 2837.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 2837.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12354",
+          "train_name": "LKU  HWH  EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "07:20:00",
+          "arrival": "08:15:00",
+          "distance": 18.0,
+          "duration_min": 28.42,
+          "wait_min": 155.0
+        },
+        {
+          "train_no": "63227",
+          "train_name": "PNBE-MGS MEM",
+          "from": "MGS",
+          "to": "DNR",
+          "departure": "15:15:00",
+          "arrival": "08:18:00",
+          "distance": 198.0,
+          "duration_min": 264.0,
+          "wait_min": 420.0
+        },
+        {
+          "train_no": "15645",
+          "train_name": "LTT-GHY EXP",
+          "from": "DNR",
+          "to": "PNBE",
+          "departure": "11:41:00",
+          "arrival": "12:20:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 203.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_035",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3787.24500907441,
+        "cost": 2837.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2837.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12354",
+          "train_name": "LKU  HWH  EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "07:20:00",
+          "arrival": "08:15:00",
+          "distance": 18.0,
+          "duration_min": 28.42,
+          "wait_min": 155.0
+        },
+        {
+          "train_no": "63227",
+          "train_name": "PNBE-MGS MEM",
+          "from": "MGS",
+          "to": "DNR",
+          "departure": "15:15:00",
+          "arrival": "08:18:00",
+          "distance": 198.0,
+          "duration_min": 264.0,
+          "wait_min": 420.0
+        },
+        {
+          "train_no": "15647",
+          "train_name": "LTT-GHY EXP",
+          "from": "DNR",
+          "to": "PNBE",
+          "departure": "11:41:00",
+          "arrival": "12:20:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 203.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_036",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3592.455535390199,
+        "cost": 2838.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2838.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12362",
+          "train_name": "CSMT- ASANSO",
+          "from": "MGS",
+          "to": "BXR",
+          "departure": "12:33:00",
+          "arrival": "13:40:00",
+          "distance": 90.0,
+          "duration_min": 142.11,
+          "wait_min": 415.0
+        },
+        {
+          "train_no": "12328",
+          "train_name": "UPASANA EXPR",
+          "from": "BXR",
+          "to": "PNBE",
+          "departure": "15:38:00",
+          "arrival": "17:20:00",
+          "distance": 118.0,
+          "duration_min": 186.32,
+          "wait_min": 118.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_037",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3474.4555353901997,
+        "cost": 2838.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2838.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12362",
+          "train_name": "CSMT- ASANSO",
+          "from": "MGS",
+          "to": "BXR",
+          "departure": "12:33:00",
+          "arrival": "13:40:00",
+          "distance": 90.0,
+          "duration_min": 142.11,
+          "wait_min": 415.0
+        },
+        {
+          "train_no": "12362",
+          "train_name": "CSMT- ASANSO",
+          "from": "BXR",
+          "to": "PNBE",
+          "departure": "13:42:00",
+          "arrival": "15:35:00",
+          "distance": 118.0,
+          "duration_min": 186.32,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_038",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3592.455535390199,
+        "cost": 2838.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2838.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12362",
+          "train_name": "CSMT- ASANSO",
+          "from": "MGS",
+          "to": "BXR",
+          "departure": "12:33:00",
+          "arrival": "13:40:00",
+          "distance": 90.0,
+          "duration_min": 142.11,
+          "wait_min": 415.0
+        },
+        {
+          "train_no": "12370",
+          "train_name": "HW HWH S F E",
+          "from": "BXR",
+          "to": "PNBE",
+          "departure": "15:38:00",
+          "arrival": "17:20:00",
+          "distance": 118.0,
+          "duration_min": 186.32,
+          "wait_min": 118.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_039",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3683.981851179673,
+        "cost": 2846.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 2846.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12502",
+          "train_name": "POORVATTAR S",
+          "from": "MGS",
+          "to": "PPTA",
+          "departure": "11:58:00",
+          "arrival": "14:45:00",
+          "distance": 204.0,
+          "duration_min": 272.0,
+          "wait_min": 380.0
+        },
+        {
+          "train_no": "13122",
+          "train_name": "GCT KOAA EXP",
+          "from": "PPTA",
+          "to": "PNBE",
+          "departure": "19:27:00",
+          "arrival": "20:35:00",
+          "distance": 12.0,
+          "duration_min": 18.95,
+          "wait_min": 282.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_040",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3494.8239564428313,
+        "cost": 2838.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2838.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12519",
+          "train_name": "LTT-KYQ AC E",
+          "from": "MGS",
+          "to": "DNR",
+          "departure": "08:23:00",
+          "arrival": "11:18:00",
+          "distance": 198.0,
+          "duration_min": 264.0,
+          "wait_min": 165.0
+        },
+        {
+          "train_no": "13238",
+          "train_name": "KOTA - PNBE",
+          "from": "DNR",
+          "to": "PNBE",
+          "departure": "16:37:00",
+          "arrival": "17:30:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 319.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_041",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3494.8239564428313,
+        "cost": 2838.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2838.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12519",
+          "train_name": "LTT-KYQ AC E",
+          "from": "MGS",
+          "to": "DNR",
+          "departure": "08:23:00",
+          "arrival": "11:18:00",
+          "distance": 198.0,
+          "duration_min": 264.0,
+          "wait_min": 165.0
+        },
+        {
+          "train_no": "13240",
+          "train_name": "KOTA - PNBE",
+          "from": "DNR",
+          "to": "PNBE",
+          "departure": "16:37:00",
+          "arrival": "17:30:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 319.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_042",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3435.24500907441,
+        "cost": 2837.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2837.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12519",
+          "train_name": "LTT-KYQ AC E",
+          "from": "MGS",
+          "to": "DNR",
+          "departure": "08:23:00",
+          "arrival": "11:18:00",
+          "distance": 198.0,
+          "duration_min": 264.0,
+          "wait_min": 165.0
+        },
+        {
+          "train_no": "13250",
+          "train_name": "BBU-PNBE INT",
+          "from": "DNR",
+          "to": "PNBE",
+          "departure": "15:39:00",
+          "arrival": "16:45:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 261.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_043",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3249.823956442831,
+        "cost": 2838.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2838.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12519",
+          "train_name": "LTT-KYQ AC E",
+          "from": "MGS",
+          "to": "DNR",
+          "departure": "08:23:00",
+          "arrival": "11:18:00",
+          "distance": 198.0,
+          "duration_min": 264.0,
+          "wait_min": 165.0
+        },
+        {
+          "train_no": "13430",
+          "train_name": "ANVT-MLDT WK",
+          "from": "DNR",
+          "to": "PNBE",
+          "departure": "12:32:00",
+          "arrival": "13:50:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 74.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_044",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3396.402903811252,
+        "cost": 2838.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2838.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13430",
+          "train_name": "ANVT-MLDT WK",
+          "from": "MGS",
+          "to": "ARA",
+          "departure": "10:08:00",
+          "arrival": "11:54:00",
+          "distance": 159.0,
+          "duration_min": 212.0,
+          "wait_min": 270.0
+        },
+        {
+          "train_no": "14056",
+          "train_name": "BRAHMPUTRA M",
+          "from": "ARA",
+          "to": "PNBE",
+          "departure": "13:40:00",
+          "arrival": "14:30:00",
+          "distance": 49.0,
+          "duration_min": 77.37,
+          "wait_min": 106.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_045",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3464.876588021779,
+        "cost": 2837.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2837.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "MGS",
+          "to": "BXR",
+          "departure": "05:48:00",
+          "arrival": "06:55:00",
+          "distance": 89.0,
+          "duration_min": 140.53,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12362",
+          "train_name": "CSMT- ASANSO",
+          "from": "BXR",
+          "to": "PNBE",
+          "departure": "13:42:00",
+          "arrival": "15:35:00",
+          "distance": 118.0,
+          "duration_min": 186.32,
+          "wait_min": 407.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_046",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3144.8765880217784,
+        "cost": 2837.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 85,
+        "distance": 2837.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "MGS",
+          "to": "BXR",
+          "departure": "05:48:00",
+          "arrival": "06:55:00",
+          "distance": 89.0,
+          "duration_min": 140.53,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15635",
+          "train_name": "DWARKA EXPRE",
+          "from": "BXR",
+          "to": "PNBE",
+          "departure": "08:22:00",
+          "arrival": "10:00:00",
+          "distance": 118.0,
+          "duration_min": 186.32,
+          "wait_min": 87.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_047",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 4046.6836055656377,
+        "cost": 2956.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2956.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "18631",
+          "train_name": "RNC AII EXPR",
+          "from": "BSB",
+          "to": "MZP",
+          "departure": "09:45:00",
+          "arrival": "11:18:00",
+          "distance": 74.0,
+          "duration_min": 116.84,
+          "wait_min": 300.0
+        },
+        {
+          "train_no": "12308",
+          "train_name": "JU-HWH SUPFA",
+          "from": "MZP",
+          "to": "MGS",
+          "departure": "15:20:00",
+          "arrival": "16:50:00",
+          "distance": 63.0,
+          "duration_min": 99.47,
+          "wait_min": 242.0
+        },
+        {
+          "train_no": "12274",
+          "train_name": "HWH DURONTO",
+          "from": "MGS",
+          "to": "PNBE",
+          "departure": "22:00:00",
+          "arrival": "00:50:00",
+          "distance": 208.0,
+          "duration_min": 277.33,
+          "wait_min": 310.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_048",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 4066.6836055656386,
+        "cost": 2956.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 2956.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "18631",
+          "train_name": "RNC AII EXPR",
+          "from": "BSB",
+          "to": "MZP",
+          "departure": "09:45:00",
+          "arrival": "11:18:00",
+          "distance": 74.0,
+          "duration_min": 116.84,
+          "wait_min": 300.0
+        },
+        {
+          "train_no": "12308",
+          "train_name": "JU-HWH SUPFA",
+          "from": "MZP",
+          "to": "MGS",
+          "departure": "15:20:00",
+          "arrival": "16:50:00",
+          "distance": 63.0,
+          "duration_min": 99.47,
+          "wait_min": 242.0
+        },
+        {
+          "train_no": "22971",
+          "train_name": "BDTS PATNA S",
+          "from": "MGS",
+          "to": "PNBE",
+          "departure": "22:20:00",
+          "arrival": "02:05:00",
+          "distance": 208.0,
+          "duration_min": 277.33,
+          "wait_min": 330.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_049",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3148.950998185118,
+        "cost": 2643.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2643.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": 55528,
+          "train_name": "KAMLA GANGA",
+          "from": "MKA",
+          "to": "TALL",
+          "departure": "18:22:00",
+          "arrival": "18:33:00",
+          "distance": 4.0,
+          "duration_min": 6.32,
+          "wait_min": 39.0
+        },
+        {
+          "train_no": "13132",
+          "train_name": "PNBE - KOAA",
+          "from": "TALL",
+          "to": "RJPB",
+          "departure": "19:51:00",
+          "arrival": "17:20:00",
+          "distance": 91.0,
+          "duration_min": 143.68,
+          "wait_min": 78.0
+        },
+        {
+          "train_no": 53231,
+          "train_name": "TIA-DNR PASS",
+          "from": "RJPB",
+          "to": "PNBE",
+          "departure": "21:25:00",
+          "arrival": "22:30:00",
+          "distance": 2.0,
+          "duration_min": 3.16,
+          "wait_min": 245.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_050",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3003.950998185118,
+        "cost": 2643.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2643.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": 55528,
+          "train_name": "KAMLA GANGA",
+          "from": "MKA",
+          "to": "TALL",
+          "departure": "18:22:00",
+          "arrival": "18:33:00",
+          "distance": 4.0,
+          "duration_min": 6.32,
+          "wait_min": 39.0
+        },
+        {
+          "train_no": "13132",
+          "train_name": "PNBE - KOAA",
+          "from": "TALL",
+          "to": "RJPB",
+          "departure": "19:51:00",
+          "arrival": "17:20:00",
+          "distance": 91.0,
+          "duration_min": 143.68,
+          "wait_min": 78.0
+        },
+        {
+          "train_no": "12309",
+          "train_name": "PATNA RAJDHA",
+          "from": "RJPB",
+          "to": "PNBE",
+          "departure": "19:00:00",
+          "arrival": "19:15:00",
+          "distance": 2.0,
+          "duration_min": 3.16,
+          "wait_min": 100.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_051",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3025.950998185118,
+        "cost": 2643.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2643.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": 55528,
+          "train_name": "KAMLA GANGA",
+          "from": "MKA",
+          "to": "TALL",
+          "departure": "18:22:00",
+          "arrival": "18:33:00",
+          "distance": 4.0,
+          "duration_min": 6.32,
+          "wait_min": 39.0
+        },
+        {
+          "train_no": "13132",
+          "train_name": "PNBE - KOAA",
+          "from": "TALL",
+          "to": "RJPB",
+          "departure": "19:51:00",
+          "arrival": "17:20:00",
+          "distance": 91.0,
+          "duration_min": 143.68,
+          "wait_min": 78.0
+        },
+        {
+          "train_no": "13233",
+          "train_name": "RGD - DNR IN",
+          "from": "RJPB",
+          "to": "PNBE",
+          "departure": "19:22:00",
+          "arrival": "19:30:00",
+          "distance": 2.0,
+          "duration_min": 3.16,
+          "wait_min": 122.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_052",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3202.5299455535387,
+        "cost": 2644.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2644.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": 55528,
+          "train_name": "KAMLA GANGA",
+          "from": "MKA",
+          "to": "TALL",
+          "departure": "18:22:00",
+          "arrival": "18:33:00",
+          "distance": 4.0,
+          "duration_min": 6.32,
+          "wait_min": 39.0
+        },
+        {
+          "train_no": "13132",
+          "train_name": "PNBE - KOAA",
+          "from": "TALL",
+          "to": "RJPB",
+          "departure": "19:51:00",
+          "arrival": "17:20:00",
+          "distance": 91.0,
+          "duration_min": 143.68,
+          "wait_min": 78.0
+        },
+        {
+          "train_no": "13235",
+          "train_name": "SBG - DNR IN",
+          "from": "RJPB",
+          "to": "PNBE",
+          "departure": "22:17:00",
+          "arrival": "23:10:00",
+          "distance": 3.0,
+          "duration_min": 4.74,
+          "wait_min": 297.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_053",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2976.950998185118,
+        "cost": 2643.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2643.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": 55528,
+          "train_name": "KAMLA GANGA",
+          "from": "MKA",
+          "to": "TALL",
+          "departure": "18:22:00",
+          "arrival": "18:33:00",
+          "distance": 4.0,
+          "duration_min": 6.32,
+          "wait_min": 39.0
+        },
+        {
+          "train_no": "13132",
+          "train_name": "PNBE - KOAA",
+          "from": "TALL",
+          "to": "RJPB",
+          "departure": "19:51:00",
+          "arrival": "17:20:00",
+          "distance": 91.0,
+          "duration_min": 143.68,
+          "wait_min": 78.0
+        },
+        {
+          "train_no": "18183",
+          "train_name": "TATA DANAPUR",
+          "from": "RJPB",
+          "to": "PNBE",
+          "departure": "18:33:00",
+          "arrival": "18:45:00",
+          "distance": 2.0,
+          "duration_min": 3.16,
+          "wait_min": 73.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_054",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3045.950998185118,
+        "cost": 2643.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2643.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": 55528,
+          "train_name": "KAMLA GANGA",
+          "from": "MKA",
+          "to": "TALL",
+          "departure": "18:22:00",
+          "arrival": "18:33:00",
+          "distance": 4.0,
+          "duration_min": 6.32,
+          "wait_min": 39.0
+        },
+        {
+          "train_no": "13132",
+          "train_name": "PNBE - KOAA",
+          "from": "TALL",
+          "to": "RJPB",
+          "departure": "19:51:00",
+          "arrival": "17:20:00",
+          "distance": 91.0,
+          "duration_min": 143.68,
+          "wait_min": 78.0
+        },
+        {
+          "train_no": "18695",
+          "train_name": "ISLAMPUR-PAT",
+          "from": "RJPB",
+          "to": "PNBE",
+          "departure": "19:42:00",
+          "arrival": "20:30:00",
+          "distance": 2.0,
+          "duration_min": 3.16,
+          "wait_min": 142.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_055",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2993.5299455535387,
+        "cost": 2644.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2644.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": 55528,
+          "train_name": "KAMLA GANGA",
+          "from": "MKA",
+          "to": "TALL",
+          "departure": "18:22:00",
+          "arrival": "18:33:00",
+          "distance": 4.0,
+          "duration_min": 6.32,
+          "wait_min": 39.0
+        },
+        {
+          "train_no": "13132",
+          "train_name": "PNBE - KOAA",
+          "from": "TALL",
+          "to": "RJPB",
+          "departure": "19:51:00",
+          "arrival": "17:20:00",
+          "distance": 91.0,
+          "duration_min": 143.68,
+          "wait_min": 78.0
+        },
+        {
+          "train_no": "22405",
+          "train_name": "BGP-ANVT GAR",
+          "from": "RJPB",
+          "to": "PNBE",
+          "departure": "18:48:00",
+          "arrival": "19:00:00",
+          "distance": 3.0,
+          "duration_min": 4.74,
+          "wait_min": 88.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_056",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3037.5299455535387,
+        "cost": 2644.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2644.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": 55528,
+          "train_name": "KAMLA GANGA",
+          "from": "MKA",
+          "to": "TALL",
+          "departure": "18:22:00",
+          "arrival": "18:33:00",
+          "distance": 4.0,
+          "duration_min": 6.32,
+          "wait_min": 39.0
+        },
+        {
+          "train_no": "13132",
+          "train_name": "PNBE - KOAA",
+          "from": "TALL",
+          "to": "RJPB",
+          "departure": "19:51:00",
+          "arrival": "17:20:00",
+          "distance": 91.0,
+          "duration_min": 143.68,
+          "wait_min": 78.0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "RJPB",
+          "to": "PNBE",
+          "departure": "19:32:00",
+          "arrival": "20:00:00",
+          "distance": 3.0,
+          "duration_min": 4.74,
+          "wait_min": 132.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_057",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3360.5299455535387,
+        "cost": 2644.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2644.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": 55528,
+          "train_name": "KAMLA GANGA",
+          "from": "MKA",
+          "to": "TALL",
+          "departure": "18:22:00",
+          "arrival": "18:33:00",
+          "distance": 4.0,
+          "duration_min": 6.32,
+          "wait_min": 39.0
+        },
+        {
+          "train_no": "13132",
+          "train_name": "PNBE - KOAA",
+          "from": "TALL",
+          "to": "RJPB",
+          "departure": "19:51:00",
+          "arrival": "17:20:00",
+          "distance": 91.0,
+          "duration_min": 143.68,
+          "wait_min": 78.0
+        },
+        {
+          "train_no": "63211",
+          "train_name": "JAJ - PNBE",
+          "from": "RJPB",
+          "to": "PNBE",
+          "departure": "00:55:00",
+          "arrival": "01:05:00",
+          "distance": 3.0,
+          "duration_min": 4.74,
+          "wait_min": 455.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_058",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2957.529945553539,
+        "cost": 2644.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2644.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": 55528,
+          "train_name": "KAMLA GANGA",
+          "from": "MKA",
+          "to": "TALL",
+          "departure": "18:22:00",
+          "arrival": "18:33:00",
+          "distance": 4.0,
+          "duration_min": 6.32,
+          "wait_min": 39.0
+        },
+        {
+          "train_no": "13132",
+          "train_name": "PNBE - KOAA",
+          "from": "TALL",
+          "to": "RJPB",
+          "departure": "19:51:00",
+          "arrival": "17:20:00",
+          "distance": 91.0,
+          "duration_min": 143.68,
+          "wait_min": 78.0
+        },
+        {
+          "train_no": "63271",
+          "train_name": "MKA-PNBE MEM",
+          "from": "RJPB",
+          "to": "PNBE",
+          "departure": "18:12:00",
+          "arrival": "19:10:00",
+          "distance": 3.0,
+          "duration_min": 4.74,
+          "wait_min": 52.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_059",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3212.950998185118,
+        "cost": 2643.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2643.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": 55528,
+          "train_name": "KAMLA GANGA",
+          "from": "MKA",
+          "to": "TALL",
+          "departure": "18:22:00",
+          "arrival": "18:33:00",
+          "distance": 4.0,
+          "duration_min": 6.32,
+          "wait_min": 39.0
+        },
+        {
+          "train_no": "13132",
+          "train_name": "PNBE - KOAA",
+          "from": "TALL",
+          "to": "RJPB",
+          "departure": "19:51:00",
+          "arrival": "17:20:00",
+          "distance": 91.0,
+          "duration_min": 143.68,
+          "wait_min": 78.0
+        },
+        {
+          "train_no": "73211",
+          "train_name": "PTG-PNBE DMU",
+          "from": "RJPB",
+          "to": "PNBE",
+          "departure": "22:29:00",
+          "arrival": "22:55:00",
+          "distance": 2.0,
+          "duration_min": 3.16,
+          "wait_min": 309.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_060",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3013.950998185118,
+        "cost": 2643.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2643.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": 55528,
+          "train_name": "KAMLA GANGA",
+          "from": "MKA",
+          "to": "TALL",
+          "departure": "18:22:00",
+          "arrival": "18:33:00",
+          "distance": 4.0,
+          "duration_min": 6.32,
+          "wait_min": 39.0
+        },
+        {
+          "train_no": "13132",
+          "train_name": "PNBE - KOAA",
+          "from": "TALL",
+          "to": "RJPB",
+          "departure": "19:51:00",
+          "arrival": "17:20:00",
+          "distance": 91.0,
+          "duration_min": 143.68,
+          "wait_min": 78.0
+        },
+        {
+          "train_no": "73263",
+          "train_name": "IPR-PNBE DEM",
+          "from": "RJPB",
+          "to": "PNBE",
+          "departure": "19:10:00",
+          "arrival": "19:20:00",
+          "distance": 2.0,
+          "duration_min": 3.16,
+          "wait_min": 110.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_061",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3316.10889292196,
+        "cost": 2702.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2702.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12328",
+          "train_name": "UPASANA EXPR",
+          "from": "MKA",
+          "to": "KIUL",
+          "departure": "18:50:00",
+          "arrival": "20:11:00",
+          "distance": 34.0,
+          "duration_min": 53.68,
+          "wait_min": 67.0
+        },
+        {
+          "train_no": "12361",
+          "train_name": "ASN CSMT EXP",
+          "from": "KIUL",
+          "to": "PNC",
+          "departure": "22:51:00",
+          "arrival": "00:06:00",
+          "distance": 113.0,
+          "duration_min": 178.42,
+          "wait_min": 160.0
+        },
+        {
+          "train_no": "12333",
+          "train_name": "VIBHUTI EXPR",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "03:35:00",
+          "arrival": "04:00:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 209.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_062",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3108.6878402903812,
+        "cost": 2703.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2703.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12328",
+          "train_name": "UPASANA EXPR",
+          "from": "MKA",
+          "to": "KIUL",
+          "departure": "18:50:00",
+          "arrival": "20:11:00",
+          "distance": 34.0,
+          "duration_min": 53.68,
+          "wait_min": 67.0
+        },
+        {
+          "train_no": "12361",
+          "train_name": "ASN CSMT EXP",
+          "from": "KIUL",
+          "to": "PNC",
+          "departure": "22:51:00",
+          "arrival": "00:06:00",
+          "distance": 113.0,
+          "duration_min": 178.42,
+          "wait_min": 160.0
+        },
+        {
+          "train_no": "12361",
+          "train_name": "ASN CSMT EXP",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "00:08:00",
+          "arrival": "00:35:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_063",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3282.10889292196,
+        "cost": 2702.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2702.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12328",
+          "train_name": "UPASANA EXPR",
+          "from": "MKA",
+          "to": "KIUL",
+          "departure": "18:50:00",
+          "arrival": "20:11:00",
+          "distance": 34.0,
+          "duration_min": 53.68,
+          "wait_min": 67.0
+        },
+        {
+          "train_no": "12361",
+          "train_name": "ASN CSMT EXP",
+          "from": "KIUL",
+          "to": "PNC",
+          "departure": "22:51:00",
+          "arrival": "00:06:00",
+          "distance": 113.0,
+          "duration_min": 178.42,
+          "wait_min": 160.0
+        },
+        {
+          "train_no": "13005",
+          "train_name": "AMRITSAR MAI",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "03:01:00",
+          "arrival": "03:40:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 175.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_064",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3186.687840290381,
+        "cost": 2703.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2703.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12328",
+          "train_name": "UPASANA EXPR",
+          "from": "MKA",
+          "to": "KIUL",
+          "departure": "18:50:00",
+          "arrival": "20:11:00",
+          "distance": 34.0,
+          "duration_min": 53.68,
+          "wait_min": 67.0
+        },
+        {
+          "train_no": "12361",
+          "train_name": "ASN CSMT EXP",
+          "from": "KIUL",
+          "to": "PNC",
+          "departure": "22:51:00",
+          "arrival": "00:06:00",
+          "distance": 113.0,
+          "duration_min": 178.42,
+          "wait_min": 160.0
+        },
+        {
+          "train_no": "13049",
+          "train_name": "AMRITSAR EXP",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "01:24:00",
+          "arrival": "01:55:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 78.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_065",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3391.6878402903812,
+        "cost": 2703.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2703.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12328",
+          "train_name": "UPASANA EXPR",
+          "from": "MKA",
+          "to": "KIUL",
+          "departure": "18:50:00",
+          "arrival": "20:11:00",
+          "distance": 34.0,
+          "duration_min": 53.68,
+          "wait_min": 67.0
+        },
+        {
+          "train_no": "12361",
+          "train_name": "ASN CSMT EXP",
+          "from": "KIUL",
+          "to": "PNC",
+          "departure": "22:51:00",
+          "arrival": "00:06:00",
+          "distance": 113.0,
+          "duration_min": 178.42,
+          "wait_min": 160.0
+        },
+        {
+          "train_no": "13121",
+          "train_name": "KOAA GCT EXP",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "04:49:00",
+          "arrival": "05:15:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 283.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_066",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3309.6878402903812,
+        "cost": 2703.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2703.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12328",
+          "train_name": "UPASANA EXPR",
+          "from": "MKA",
+          "to": "KIUL",
+          "departure": "18:50:00",
+          "arrival": "20:11:00",
+          "distance": 34.0,
+          "duration_min": 53.68,
+          "wait_min": 67.0
+        },
+        {
+          "train_no": "12361",
+          "train_name": "ASN CSMT EXP",
+          "from": "KIUL",
+          "to": "PNC",
+          "departure": "22:51:00",
+          "arrival": "00:06:00",
+          "distance": 113.0,
+          "duration_min": 178.42,
+          "wait_min": 160.0
+        },
+        {
+          "train_no": "15632",
+          "train_name": "GHY BME-BKN",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "03:27:00",
+          "arrival": "04:20:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 201.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_067",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3309.6878402903812,
+        "cost": 2703.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2703.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12328",
+          "train_name": "UPASANA EXPR",
+          "from": "MKA",
+          "to": "KIUL",
+          "departure": "18:50:00",
+          "arrival": "20:11:00",
+          "distance": 34.0,
+          "duration_min": 53.68,
+          "wait_min": 67.0
+        },
+        {
+          "train_no": "12361",
+          "train_name": "ASN CSMT EXP",
+          "from": "KIUL",
+          "to": "PNC",
+          "departure": "22:51:00",
+          "arrival": "00:06:00",
+          "distance": 113.0,
+          "duration_min": 178.42,
+          "wait_min": 160.0
+        },
+        {
+          "train_no": "15636",
+          "train_name": "DWARKA EXPRE",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "03:27:00",
+          "arrival": "04:20:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 201.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_068",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3309.6878402903812,
+        "cost": 2703.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2703.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12328",
+          "train_name": "UPASANA EXPR",
+          "from": "MKA",
+          "to": "KIUL",
+          "departure": "18:50:00",
+          "arrival": "20:11:00",
+          "distance": 34.0,
+          "duration_min": 53.68,
+          "wait_min": 67.0
+        },
+        {
+          "train_no": "12361",
+          "train_name": "ASN CSMT EXP",
+          "from": "KIUL",
+          "to": "PNC",
+          "departure": "22:51:00",
+          "arrival": "00:06:00",
+          "distance": 113.0,
+          "duration_min": 178.42,
+          "wait_min": 160.0
+        },
+        {
+          "train_no": "15668",
+          "train_name": "KAMAKHYA-GAN",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "03:27:00",
+          "arrival": "04:20:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 201.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_069",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3467.6878402903812,
+        "cost": 2703.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2703.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12328",
+          "train_name": "UPASANA EXPR",
+          "from": "MKA",
+          "to": "KIUL",
+          "departure": "18:50:00",
+          "arrival": "20:11:00",
+          "distance": 34.0,
+          "duration_min": 53.68,
+          "wait_min": 67.0
+        },
+        {
+          "train_no": "12361",
+          "train_name": "ASN CSMT EXP",
+          "from": "KIUL",
+          "to": "PNC",
+          "departure": "22:51:00",
+          "arrival": "00:06:00",
+          "distance": 113.0,
+          "duration_min": 178.42,
+          "wait_min": 160.0
+        },
+        {
+          "train_no": "22213",
+          "train_name": "SHM-PNBE DUR",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "06:05:00",
+          "arrival": "06:40:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 359.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_070",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2919.7404718693283,
+        "cost": 2634.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2634.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "MKA",
+          "to": "BKP",
+          "departure": "17:45:00",
+          "arrival": "18:18:00",
+          "distance": 43.0,
+          "duration_min": 67.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "BKP",
+          "to": "PNC",
+          "departure": "18:20:00",
+          "arrival": "19:18:00",
+          "distance": 36.0,
+          "duration_min": 56.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12023",
+          "train_name": "HOWRAH PATNA",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "21:45:00",
+          "arrival": "22:45:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 147.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_071",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2888.319419237749,
+        "cost": 2635.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2635.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "MKA",
+          "to": "BKP",
+          "departure": "17:45:00",
+          "arrival": "18:18:00",
+          "distance": 43.0,
+          "duration_min": 67.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "BKP",
+          "to": "PNC",
+          "departure": "18:20:00",
+          "arrival": "19:18:00",
+          "distance": 36.0,
+          "duration_min": 56.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12315",
+          "train_name": "ANNANYA  EXP",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "21:12:00",
+          "arrival": "21:30:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 114.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_072",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2832.740471869328,
+        "cost": 2634.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2634.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "MKA",
+          "to": "BKP",
+          "departure": "17:45:00",
+          "arrival": "18:18:00",
+          "distance": 43.0,
+          "duration_min": 67.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "BKP",
+          "to": "PNC",
+          "departure": "18:20:00",
+          "arrival": "19:18:00",
+          "distance": 36.0,
+          "duration_min": 56.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12327",
+          "train_name": "UPASANA EXPR",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "20:18:00",
+          "arrival": "20:45:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 60.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_073",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2929.319419237749,
+        "cost": 2635.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2635.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "MKA",
+          "to": "BKP",
+          "departure": "17:45:00",
+          "arrival": "18:18:00",
+          "distance": 43.0,
+          "duration_min": 67.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "BKP",
+          "to": "PNC",
+          "departure": "18:20:00",
+          "arrival": "19:18:00",
+          "distance": 36.0,
+          "duration_min": 56.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12349",
+          "train_name": "BGP NDLS EXP",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "21:53:00",
+          "arrival": "22:10:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 155.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_074",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3064.319419237749,
+        "cost": 2635.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2635.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "MKA",
+          "to": "BKP",
+          "departure": "17:45:00",
+          "arrival": "18:18:00",
+          "distance": 43.0,
+          "duration_min": 67.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "BKP",
+          "to": "PNC",
+          "departure": "18:20:00",
+          "arrival": "19:18:00",
+          "distance": 36.0,
+          "duration_min": 56.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12361",
+          "train_name": "ASN CSMT EXP",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "00:08:00",
+          "arrival": "00:35:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 290.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_075",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3235.7404718693283,
+        "cost": 2634.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2634.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "MKA",
+          "to": "BKP",
+          "departure": "17:45:00",
+          "arrival": "18:18:00",
+          "distance": 43.0,
+          "duration_min": 67.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "BKP",
+          "to": "PNC",
+          "departure": "18:20:00",
+          "arrival": "19:18:00",
+          "distance": 36.0,
+          "duration_min": 56.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13005",
+          "train_name": "AMRITSAR MAI",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "03:01:00",
+          "arrival": "03:40:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 463.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_076",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3140.319419237749,
+        "cost": 2635.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2635.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "MKA",
+          "to": "BKP",
+          "departure": "17:45:00",
+          "arrival": "18:18:00",
+          "distance": 43.0,
+          "duration_min": 67.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "BKP",
+          "to": "PNC",
+          "departure": "18:20:00",
+          "arrival": "19:18:00",
+          "distance": 36.0,
+          "duration_min": 56.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13049",
+          "train_name": "AMRITSAR EXP",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "01:24:00",
+          "arrival": "01:55:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 366.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_077",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3064.319419237749,
+        "cost": 2635.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 85,
+        "distance": 2635.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "MKA",
+          "to": "BKP",
+          "departure": "17:45:00",
+          "arrival": "18:18:00",
+          "distance": 43.0,
+          "duration_min": 67.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "BKP",
+          "to": "PNC",
+          "departure": "18:20:00",
+          "arrival": "19:18:00",
+          "distance": 36.0,
+          "duration_min": 56.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15547",
+          "train_name": "JYG-LTT JANS",
+          "from": "PNC",
+          "to": "PNBE",
+          "departure": "00:08:00",
+          "arrival": "00:35:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 290.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_078",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3020.266787658802,
+        "cost": 2647.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 85,
+        "distance": 2647.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "63218",
+          "train_name": "DNR - MKA ME",
+          "from": "MKA",
+          "to": "PWS",
+          "departure": "21:30:00",
+          "arrival": "18:04:00",
+          "distance": 95.0,
+          "duration_min": 150.0,
+          "wait_min": 227.0
+        },
+        {
+          "train_no": "63218",
+          "train_name": "DNR - MKA ME",
+          "from": "PWS",
+          "to": "SCY",
+          "departure": "18:05:00",
+          "arrival": "18:09:00",
+          "distance": 3.0,
+          "duration_min": 4.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "63218",
+          "train_name": "DNR - MKA ME",
+          "from": "SCY",
+          "to": "PNBE",
+          "departure": "18:10:00",
+          "arrival": "18:20:00",
+          "distance": 3.0,
+          "duration_min": 4.74,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_079",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3072.266787658802,
+        "cost": 2647.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 85,
+        "distance": 2647.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "63218",
+          "train_name": "DNR - MKA ME",
+          "from": "MKA",
+          "to": "PWS",
+          "departure": "21:30:00",
+          "arrival": "18:04:00",
+          "distance": 95.0,
+          "duration_min": 150.0,
+          "wait_min": 227.0
+        },
+        {
+          "train_no": "63218",
+          "train_name": "DNR - MKA ME",
+          "from": "PWS",
+          "to": "SCY",
+          "departure": "18:05:00",
+          "arrival": "18:09:00",
+          "distance": 3.0,
+          "duration_min": 4.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "63220",
+          "train_name": "RPR-PNBE MEM",
+          "from": "SCY",
+          "to": "PNBE",
+          "departure": "19:01:00",
+          "arrival": "19:35:00",
+          "distance": 3.0,
+          "duration_min": 4.74,
+          "wait_min": 52.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_080",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3145.6878402903812,
+        "cost": 2646.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 85,
+        "distance": 2646.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "63218",
+          "train_name": "DNR - MKA ME",
+          "from": "MKA",
+          "to": "PWS",
+          "departure": "21:30:00",
+          "arrival": "18:04:00",
+          "distance": 95.0,
+          "duration_min": 150.0,
+          "wait_min": 227.0
+        },
+        {
+          "train_no": "63218",
+          "train_name": "DNR - MKA ME",
+          "from": "PWS",
+          "to": "SCY",
+          "departure": "18:05:00",
+          "arrival": "18:09:00",
+          "distance": 3.0,
+          "duration_min": 4.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "63226",
+          "train_name": "BSB-PNBE MEM",
+          "from": "SCY",
+          "to": "PNBE",
+          "departure": "20:16:00",
+          "arrival": "21:05:00",
+          "distance": 2.0,
+          "duration_min": 3.16,
+          "wait_min": 127.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_081",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3252.266787658802,
+        "cost": 2647.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 85,
+        "distance": 2647.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "63218",
+          "train_name": "DNR - MKA ME",
+          "from": "MKA",
+          "to": "PWS",
+          "departure": "21:30:00",
+          "arrival": "18:04:00",
+          "distance": 95.0,
+          "duration_min": 150.0,
+          "wait_min": 227.0
+        },
+        {
+          "train_no": "63218",
+          "train_name": "DNR - MKA ME",
+          "from": "PWS",
+          "to": "SCY",
+          "departure": "18:05:00",
+          "arrival": "18:09:00",
+          "distance": 3.0,
+          "duration_min": 4.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "63228",
+          "train_name": "MGS-PNBE  ME",
+          "from": "SCY",
+          "to": "PNBE",
+          "departure": "22:01:00",
+          "arrival": "23:30:00",
+          "distance": 3.0,
+          "duration_min": 4.74,
+          "wait_min": 232.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_082",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3090.687840290381,
+        "cost": 2646.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 85,
+        "distance": 2646.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "63218",
+          "train_name": "DNR - MKA ME",
+          "from": "MKA",
+          "to": "PWS",
+          "departure": "21:30:00",
+          "arrival": "18:04:00",
+          "distance": 95.0,
+          "duration_min": 150.0,
+          "wait_min": 227.0
+        },
+        {
+          "train_no": "63218",
+          "train_name": "DNR - MKA ME",
+          "from": "PWS",
+          "to": "SCY",
+          "departure": "18:05:00",
+          "arrival": "18:09:00",
+          "distance": 3.0,
+          "duration_min": 4.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "63283",
+          "train_name": "BJU-PNBE MEM",
+          "from": "SCY",
+          "to": "PNBE",
+          "departure": "19:21:00",
+          "arrival": "19:45:00",
+          "distance": 2.0,
+          "duration_min": 3.16,
+          "wait_min": 72.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_083",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3073.8457350272233,
+        "cost": 2648.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 85,
+        "distance": 2648.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "63218",
+          "train_name": "DNR - MKA ME",
+          "from": "MKA",
+          "to": "PWS",
+          "departure": "21:30:00",
+          "arrival": "18:04:00",
+          "distance": 95.0,
+          "duration_min": 150.0,
+          "wait_min": 227.0
+        },
+        {
+          "train_no": "63220",
+          "train_name": "RPR-PNBE MEM",
+          "from": "PWS",
+          "to": "SCY",
+          "departure": "18:56:00",
+          "arrival": "19:00:00",
+          "distance": 4.0,
+          "duration_min": 6.32,
+          "wait_min": 52.0
+        },
+        {
+          "train_no": "63220",
+          "train_name": "RPR-PNBE MEM",
+          "from": "SCY",
+          "to": "PNBE",
+          "departure": "19:01:00",
+          "arrival": "19:35:00",
+          "distance": 3.0,
+          "duration_min": 4.74,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_084",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3148.266787658802,
+        "cost": 2647.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 85,
+        "distance": 2647.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "63218",
+          "train_name": "DNR - MKA ME",
+          "from": "MKA",
+          "to": "PWS",
+          "departure": "21:30:00",
+          "arrival": "18:04:00",
+          "distance": 95.0,
+          "duration_min": 150.0,
+          "wait_min": 227.0
+        },
+        {
+          "train_no": "63220",
+          "train_name": "RPR-PNBE MEM",
+          "from": "PWS",
+          "to": "SCY",
+          "departure": "18:56:00",
+          "arrival": "19:00:00",
+          "distance": 4.0,
+          "duration_min": 6.32,
+          "wait_min": 52.0
+        },
+        {
+          "train_no": "63226",
+          "train_name": "BSB-PNBE MEM",
+          "from": "SCY",
+          "to": "PNBE",
+          "departure": "20:16:00",
+          "arrival": "21:05:00",
+          "distance": 2.0,
+          "duration_min": 3.16,
+          "wait_min": 76.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_085",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3254.8457350272233,
+        "cost": 2648.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 85,
+        "distance": 2648.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "63218",
+          "train_name": "DNR - MKA ME",
+          "from": "MKA",
+          "to": "PWS",
+          "departure": "21:30:00",
+          "arrival": "18:04:00",
+          "distance": 95.0,
+          "duration_min": 150.0,
+          "wait_min": 227.0
+        },
+        {
+          "train_no": "63220",
+          "train_name": "RPR-PNBE MEM",
+          "from": "PWS",
+          "to": "SCY",
+          "departure": "18:56:00",
+          "arrival": "19:00:00",
+          "distance": 4.0,
+          "duration_min": 6.32,
+          "wait_min": 52.0
+        },
+        {
+          "train_no": "63228",
+          "train_name": "MGS-PNBE  ME",
+          "from": "SCY",
+          "to": "PNBE",
+          "departure": "22:01:00",
+          "arrival": "23:30:00",
+          "distance": 3.0,
+          "duration_min": 4.74,
+          "wait_min": 181.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_086",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3074.394555353902,
+        "cost": 2685.0,
+        "transfers": 4,
+        "seat_prob": 80.0,
+        "safety_score": 85,
+        "distance": 2685.0
+      },
+      "segments": [
+        {
+          "train_no": "13352",
+          "train_name": "ALLEPY-DHANB",
+          "from": "PGT",
+          "to": "MURI",
+          "departure": "10:40:00",
+          "arrival": "10:08:00",
+          "distance": 2213.0,
+          "duration_min": 2289.31,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12365",
+          "train_name": "PNBE-RNC JAN",
+          "from": "MURI",
+          "to": "RNC",
+          "departure": "12:35:00",
+          "arrival": "13:55:00",
+          "distance": 65.0,
+          "duration_min": 102.63,
+          "wait_min": 147.0
+        },
+        {
+          "train_no": "12366",
+          "train_name": "RNC-PNBE JAN",
+          "from": "RNC",
+          "to": "JHD",
+          "departure": "14:25:00",
+          "arrival": "21:01:00",
+          "distance": 362.0,
+          "duration_min": 434.4,
+          "wait_min": 30.0
+        },
+        {
+          "train_no": "12366",
+          "train_name": "RNC-PNBE JAN",
+          "from": "JHD",
+          "to": "TEA",
+          "departure": "21:03:00",
+          "arrival": "21:15:00",
+          "distance": 16.0,
+          "duration_min": 25.26,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12366",
+          "train_name": "RNC-PNBE JAN",
+          "from": "TEA",
+          "to": "PNBE",
+          "departure": "21:17:00",
+          "arrival": "22:15:00",
+          "distance": 29.0,
+          "duration_min": 45.79,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_087",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3484.3945553539024,
+        "cost": 2685.0,
+        "transfers": 4,
+        "seat_prob": 80.0,
+        "safety_score": 85,
+        "distance": 2685.0
+      },
+      "segments": [
+        {
+          "train_no": "13352",
+          "train_name": "ALLEPY-DHANB",
+          "from": "PGT",
+          "to": "MURI",
+          "departure": "10:40:00",
+          "arrival": "10:08:00",
+          "distance": 2213.0,
+          "duration_min": 2289.31,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12365",
+          "train_name": "PNBE-RNC JAN",
+          "from": "MURI",
+          "to": "RNC",
+          "departure": "12:35:00",
+          "arrival": "13:55:00",
+          "distance": 65.0,
+          "duration_min": 102.63,
+          "wait_min": 147.0
+        },
+        {
+          "train_no": "12366",
+          "train_name": "RNC-PNBE JAN",
+          "from": "RNC",
+          "to": "JHD",
+          "departure": "14:25:00",
+          "arrival": "21:01:00",
+          "distance": 362.0,
+          "duration_min": 434.4,
+          "wait_min": 30.0
+        },
+        {
+          "train_no": "12366",
+          "train_name": "RNC-PNBE JAN",
+          "from": "JHD",
+          "to": "TEA",
+          "departure": "21:03:00",
+          "arrival": "21:15:00",
+          "distance": 16.0,
+          "duration_min": 25.26,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13329",
+          "train_name": "GANGA DAMODA",
+          "from": "TEA",
+          "to": "PNBE",
+          "departure": "04:05:00",
+          "arrival": "05:30:00",
+          "distance": 29.0,
+          "duration_min": 45.79,
+          "wait_min": 410.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_088",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3480.7186932849363,
+        "cost": 2925.0,
+        "transfers": 4,
+        "seat_prob": 100.0,
+        "safety_score": 85,
+        "distance": 2925.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12320",
+          "train_name": "AGC-KOAA WEE",
+          "from": "MGS",
+          "to": "GAYA",
+          "departure": "06:50:00",
+          "arrival": "09:05:00",
+          "distance": 204.0,
+          "duration_min": 272.0,
+          "wait_min": 72.0
+        },
+        {
+          "train_no": "63245",
+          "train_name": "PNBE-GAYA ME",
+          "from": "GAYA",
+          "to": "PRBZ",
+          "departure": "11:30:00",
+          "arrival": "08:40:00",
+          "distance": 85.0,
+          "duration_min": 134.21,
+          "wait_min": 145.0
+        },
+        {
+          "train_no": "63246",
+          "train_name": "GAYA-PNBE  M",
+          "from": "PRBZ",
+          "to": "PNBE",
+          "departure": "10:37:00",
+          "arrival": "11:30:00",
+          "distance": 6.0,
+          "duration_min": 9.47,
+          "wait_min": 117.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_089",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3551.718693284936,
+        "cost": 2925.0,
+        "transfers": 4,
+        "seat_prob": 100.0,
+        "safety_score": 85,
+        "distance": 2925.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12320",
+          "train_name": "AGC-KOAA WEE",
+          "from": "MGS",
+          "to": "GAYA",
+          "departure": "06:50:00",
+          "arrival": "09:05:00",
+          "distance": 204.0,
+          "duration_min": 272.0,
+          "wait_min": 72.0
+        },
+        {
+          "train_no": "63245",
+          "train_name": "PNBE-GAYA ME",
+          "from": "GAYA",
+          "to": "PRBZ",
+          "departure": "11:30:00",
+          "arrival": "08:40:00",
+          "distance": 85.0,
+          "duration_min": 134.21,
+          "wait_min": 145.0
+        },
+        {
+          "train_no": "63248",
+          "train_name": "GAYA-PNBE ME",
+          "from": "PRBZ",
+          "to": "PNBE",
+          "departure": "11:48:00",
+          "arrival": "12:20:00",
+          "distance": 6.0,
+          "duration_min": 9.47,
+          "wait_min": 188.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_090",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3656.7186932849363,
+        "cost": 2925.0,
+        "transfers": 4,
+        "seat_prob": 100.0,
+        "safety_score": 85,
+        "distance": 2925.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12320",
+          "train_name": "AGC-KOAA WEE",
+          "from": "MGS",
+          "to": "GAYA",
+          "departure": "06:50:00",
+          "arrival": "09:05:00",
+          "distance": 204.0,
+          "duration_min": 272.0,
+          "wait_min": 72.0
+        },
+        {
+          "train_no": "63245",
+          "train_name": "PNBE-GAYA ME",
+          "from": "GAYA",
+          "to": "PRBZ",
+          "departure": "11:30:00",
+          "arrival": "08:40:00",
+          "distance": 85.0,
+          "duration_min": 134.21,
+          "wait_min": 145.0
+        },
+        {
+          "train_no": "63250",
+          "train_name": "GAYA-PNBE ME",
+          "from": "PRBZ",
+          "to": "PNBE",
+          "departure": "13:33:00",
+          "arrival": "14:20:00",
+          "distance": 6.0,
+          "duration_min": 9.47,
+          "wait_min": 293.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_091",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3731.7186932849363,
+        "cost": 2925.0,
+        "transfers": 4,
+        "seat_prob": 100.0,
+        "safety_score": 85,
+        "distance": 2925.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12320",
+          "train_name": "AGC-KOAA WEE",
+          "from": "MGS",
+          "to": "GAYA",
+          "departure": "06:50:00",
+          "arrival": "09:05:00",
+          "distance": 204.0,
+          "duration_min": 272.0,
+          "wait_min": 72.0
+        },
+        {
+          "train_no": "63245",
+          "train_name": "PNBE-GAYA ME",
+          "from": "GAYA",
+          "to": "PRBZ",
+          "departure": "11:30:00",
+          "arrival": "08:40:00",
+          "distance": 85.0,
+          "duration_min": 134.21,
+          "wait_min": 145.0
+        },
+        {
+          "train_no": "63252",
+          "train_name": "GAYA -PNBE M",
+          "from": "PRBZ",
+          "to": "PNBE",
+          "departure": "14:48:00",
+          "arrival": "15:25:00",
+          "distance": 6.0,
+          "duration_min": 9.47,
+          "wait_min": 368.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_092",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3544.455535390199,
+        "cost": 2838.0,
+        "transfers": 4,
+        "seat_prob": 80.0,
+        "safety_score": 85,
+        "distance": 2838.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12336",
+          "train_name": "LTT-BGP EXP",
+          "from": "MGS",
+          "to": "DLN",
+          "departure": "09:08:00",
+          "arrival": "09:54:00",
+          "distance": 54.0,
+          "duration_min": 85.26,
+          "wait_min": 210.0
+        },
+        {
+          "train_no": "63227",
+          "train_name": "PNBE-MGS MEM",
+          "from": "DLN",
+          "to": "PWS",
+          "departure": "11:53:00",
+          "arrival": "08:11:00",
+          "distance": 147.0,
+          "duration_min": 232.11,
+          "wait_min": 119.0
+        },
+        {
+          "train_no": "12402",
+          "train_name": "MAGADH EXPRE",
+          "from": "PWS",
+          "to": "PNBE",
+          "departure": "10:47:00",
+          "arrival": "11:10:00",
+          "distance": 7.0,
+          "duration_min": 11.05,
+          "wait_min": 156.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_093",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3803.455535390199,
+        "cost": 2838.0,
+        "transfers": 4,
+        "seat_prob": 80.0,
+        "safety_score": 85,
+        "distance": 2838.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12336",
+          "train_name": "LTT-BGP EXP",
+          "from": "MGS",
+          "to": "DLN",
+          "departure": "09:08:00",
+          "arrival": "09:54:00",
+          "distance": 54.0,
+          "duration_min": 85.26,
+          "wait_min": 210.0
+        },
+        {
+          "train_no": "63227",
+          "train_name": "PNBE-MGS MEM",
+          "from": "DLN",
+          "to": "PWS",
+          "departure": "11:53:00",
+          "arrival": "08:11:00",
+          "distance": 147.0,
+          "duration_min": 232.11,
+          "wait_min": 119.0
+        },
+        {
+          "train_no": "13120",
+          "train_name": "DLI SDAH EXP",
+          "from": "PWS",
+          "to": "PNBE",
+          "departure": "15:06:00",
+          "arrival": "15:50:00",
+          "distance": 7.0,
+          "duration_min": 11.05,
+          "wait_min": 415.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_094",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3801.8765880217784,
+        "cost": 2837.0,
+        "transfers": 4,
+        "seat_prob": 80.0,
+        "safety_score": 85,
+        "distance": 2837.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12336",
+          "train_name": "LTT-BGP EXP",
+          "from": "MGS",
+          "to": "DLN",
+          "departure": "09:08:00",
+          "arrival": "09:54:00",
+          "distance": 54.0,
+          "duration_min": 85.26,
+          "wait_min": 210.0
+        },
+        {
+          "train_no": "63227",
+          "train_name": "PNBE-MGS MEM",
+          "from": "DLN",
+          "to": "PWS",
+          "departure": "11:53:00",
+          "arrival": "08:11:00",
+          "distance": 147.0,
+          "duration_min": 232.11,
+          "wait_min": 119.0
+        },
+        {
+          "train_no": "13134",
+          "train_name": "BSB SDAH EXP",
+          "from": "PWS",
+          "to": "PNBE",
+          "departure": "15:06:00",
+          "arrival": "15:50:00",
+          "distance": 6.0,
+          "duration_min": 9.47,
+          "wait_min": 415.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_095",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3196.8765880217784,
+        "cost": 2837.0,
+        "transfers": 4,
+        "seat_prob": 80.0,
+        "safety_score": 85,
+        "distance": 2837.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "MGS",
+          "to": "BXR",
+          "departure": "05:48:00",
+          "arrival": "06:55:00",
+          "distance": 89.0,
+          "duration_min": 140.53,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BXR",
+          "to": "ARA",
+          "departure": "06:57:00",
+          "arrival": "08:03:00",
+          "distance": 69.0,
+          "duration_min": 108.95,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12741",
+          "train_name": "VSG-PNBE EXP",
+          "from": "ARA",
+          "to": "PNBE",
+          "departure": "10:22:00",
+          "arrival": "12:10:00",
+          "distance": 49.0,
+          "duration_min": 77.37,
+          "wait_min": 139.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_096",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3276.876588021779,
+        "cost": 2837.0,
+        "transfers": 4,
+        "seat_prob": 100.0,
+        "safety_score": 85,
+        "distance": 2837.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "MGS",
+          "to": "BXR",
+          "departure": "05:48:00",
+          "arrival": "06:55:00",
+          "distance": 89.0,
+          "duration_min": 140.53,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BXR",
+          "to": "ARA",
+          "departure": "06:57:00",
+          "arrival": "08:03:00",
+          "distance": 69.0,
+          "duration_min": 108.95,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14004",
+          "train_name": "NDLS-MLDT EX",
+          "from": "ARA",
+          "to": "PNBE",
+          "departure": "11:42:00",
+          "arrival": "12:50:00",
+          "distance": 49.0,
+          "duration_min": 77.37,
+          "wait_min": 219.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_097",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3394.876588021779,
+        "cost": 2837.0,
+        "transfers": 4,
+        "seat_prob": 100.0,
+        "safety_score": 85,
+        "distance": 2837.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "MGS",
+          "to": "BXR",
+          "departure": "05:48:00",
+          "arrival": "06:55:00",
+          "distance": 89.0,
+          "duration_min": 140.53,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BXR",
+          "to": "ARA",
+          "departure": "06:57:00",
+          "arrival": "08:03:00",
+          "distance": 69.0,
+          "duration_min": 108.95,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14056",
+          "train_name": "BRAHMPUTRA M",
+          "from": "ARA",
+          "to": "PNBE",
+          "departure": "13:40:00",
+          "arrival": "14:30:00",
+          "distance": 49.0,
+          "duration_min": 77.37,
+          "wait_min": 337.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_098",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3121.8765880217784,
+        "cost": 2837.0,
+        "transfers": 4,
+        "seat_prob": 100.0,
+        "safety_score": 80,
+        "distance": 2837.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "MGS",
+          "to": "BXR",
+          "departure": "05:48:00",
+          "arrival": "06:55:00",
+          "distance": 89.0,
+          "duration_min": 140.53,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BXR",
+          "to": "ARA",
+          "departure": "06:57:00",
+          "arrival": "08:03:00",
+          "distance": 69.0,
+          "duration_min": 108.95,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15667",
+          "train_name": "GADHIDHAM-KA",
+          "from": "ARA",
+          "to": "PNBE",
+          "departure": "09:07:00",
+          "arrival": "10:00:00",
+          "distance": 49.0,
+          "duration_min": 77.37,
+          "wait_min": 64.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_099",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3057.876588021779,
+        "cost": 2837.0,
+        "transfers": 4,
+        "seat_prob": 80.0,
+        "safety_score": 80,
+        "distance": 2837.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "MGS",
+          "to": "BXR",
+          "departure": "05:48:00",
+          "arrival": "06:55:00",
+          "distance": 89.0,
+          "duration_min": 140.53,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BXR",
+          "to": "ARA",
+          "departure": "06:57:00",
+          "arrival": "08:03:00",
+          "distance": 69.0,
+          "duration_min": 108.95,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "ARA",
+          "to": "PNBE",
+          "departure": "08:05:00",
+          "arrival": "09:50:00",
+          "distance": 49.0,
+          "duration_min": 77.37,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_100",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3569.021173623714,
+        "cost": 2812.0,
+        "transfers": 4,
+        "seat_prob": 80.0,
+        "safety_score": 85,
+        "distance": 2812.0
+      },
+      "segments": [
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "PGT",
+          "to": "MKA",
+          "departure": "20:00:00",
+          "arrival": "17:43:00",
+          "distance": 2546.0,
+          "duration_min": 2633.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12328",
+          "train_name": "UPASANA EXPR",
+          "from": "MKA",
+          "to": "KIUL",
+          "departure": "18:50:00",
+          "arrival": "20:11:00",
+          "distance": 34.0,
+          "duration_min": 53.68,
+          "wait_min": 67.0
+        },
+        {
+          "train_no": "12328",
+          "train_name": "UPASANA EXPR",
+          "from": "KIUL",
+          "to": "JAJ",
+          "departure": "20:13:00",
+          "arrival": "21:32:00",
+          "distance": 54.0,
+          "duration_min": 85.26,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13049",
+          "train_name": "AMRITSAR EXP",
+          "from": "JAJ",
+          "to": "GHR",
+          "departure": "22:05:00",
+          "arrival": "22:13:00",
+          "distance": 12.0,
+          "duration_min": 18.95,
+          "wait_min": 33.0
+        },
+        {
+          "train_no": "63207",
+          "train_name": "JAJ-PNBE MEM",
+          "from": "GHR",
+          "to": "PNBE",
+          "departure": "05:49:00",
+          "arrival": "12:45:00",
+          "distance": 166.0,
+          "duration_min": 221.33,
+          "wait_min": 456.0
+        }
+      ]
+    }
+  ]
+}

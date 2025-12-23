@@ -1,0 +1,326 @@
+{
+  "metadata": {
+    "source": "PGT",
+    "destination": "KOTA",
+    "total_routes_generated": 71,
+    "pareto_front_size": 8,
+    "optimal_routes_count": 6
+  },
+  "routes": [
+    {
+      "route_id": "ROUTE_01",
+      "category": "FASTEST \u26a1",
+      "objectives": {
+        "time": 2393.909090909091,
+        "cost": 2125.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 2125.0
+      },
+      "segments": [
+        {
+          "train_no": "22476",
+          "train_name": "CBE BKN AC S",
+          "from": "PGT",
+          "to": "BRC",
+          "departure": "16:20:00",
+          "arrival": "19:31:00",
+          "distance": 1598.0,
+          "duration_min": 1598.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12907",
+          "train_name": "BDTS SMPRK K",
+          "from": "BRC",
+          "to": "KOTA",
+          "departure": "23:12:00",
+          "arrival": "06:20:00",
+          "distance": 527.0,
+          "duration_min": 574.91,
+          "wait_min": 221.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_02",
+      "category": "BEST SEATS \ud83d\udcba",
+      "objectives": {
+        "time": 2781.152450090744,
+        "cost": 2334.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 2334.0
+      },
+      "segments": [
+        {
+          "train_no": "22837",
+          "train_name": "HTE ERS DHAR",
+          "from": "PGT",
+          "to": "ERS",
+          "departure": "07:55:00",
+          "arrival": "10:55:00",
+          "distance": 150.0,
+          "duration_min": 236.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12284",
+          "train_name": "NZM-ERS DURO",
+          "from": "ERS",
+          "to": "KOTA",
+          "departure": "15:40:00",
+          "arrival": "03:00:00",
+          "distance": 2184.0,
+          "duration_min": 2259.31,
+          "wait_min": 285.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_03",
+      "category": "FAST #3 \u26a1",
+      "objectives": {
+        "time": 2435.666666666667,
+        "cost": 2125.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 2125.0
+      },
+      "segments": [
+        {
+          "train_no": "22476",
+          "train_name": "CBE BKN AC S",
+          "from": "PGT",
+          "to": "BRC",
+          "departure": "16:20:00",
+          "arrival": "19:31:00",
+          "distance": 1598.0,
+          "duration_min": 1598.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12247",
+          "train_name": "BDTS NZM YUV",
+          "from": "BRC",
+          "to": "RTM",
+          "departure": "21:46:00",
+          "arrival": "01:05:00",
+          "distance": 262.0,
+          "duration_min": 349.33,
+          "wait_min": 135.0
+        },
+        {
+          "train_no": "12247",
+          "train_name": "BDTS NZM YUV",
+          "from": "RTM",
+          "to": "KOTA",
+          "departure": "01:10:00",
+          "arrival": "03:40:00",
+          "distance": 265.0,
+          "duration_min": 353.33,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_04",
+      "category": "BALANCED #4 \u2696\ufe0f",
+      "objectives": {
+        "time": 2694.6842105263154,
+        "cost": 2126.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 2126.0
+      },
+      "segments": [
+        {
+          "train_no": "22476",
+          "train_name": "CBE BKN AC S",
+          "from": "PGT",
+          "to": "BRC",
+          "departure": "16:20:00",
+          "arrival": "19:31:00",
+          "distance": 1598.0,
+          "duration_min": 1598.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12247",
+          "train_name": "BDTS NZM YUV",
+          "from": "BRC",
+          "to": "RTM",
+          "departure": "21:46:00",
+          "arrival": "01:05:00",
+          "distance": 262.0,
+          "duration_min": 349.33,
+          "wait_min": 135.0
+        },
+        {
+          "train_no": "12939",
+          "train_name": "PUNE JAIPUR",
+          "from": "RTM",
+          "to": "RMA",
+          "departure": "05:05:00",
+          "arrival": "08:05:00",
+          "distance": 194.0,
+          "duration_min": 258.67,
+          "wait_min": 240.0
+        },
+        {
+          "train_no": "12939",
+          "train_name": "PUNE JAIPUR",
+          "from": "RMA",
+          "to": "KOTA",
+          "departure": "08:07:00",
+          "arrival": "09:20:00",
+          "distance": 72.0,
+          "duration_min": 113.68,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_05",
+      "category": "ALTERNATIVE #1 \ud83d\udd04",
+      "objectives": {
+        "time": 2708.1473684210523,
+        "cost": 2157.0,
+        "transfers": 4,
+        "seat_prob": 80.0,
+        "safety_score": 80,
+        "distance": 2157.0
+      },
+      "segments": [
+        {
+          "train_no": "22476",
+          "train_name": "CBE BKN AC S",
+          "from": "PGT",
+          "to": "BRC",
+          "departure": "16:20:00",
+          "arrival": "19:31:00",
+          "distance": 1598.0,
+          "duration_min": 1598.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "59832",
+          "train_name": "KOTA-BRC PAR",
+          "from": "BRC",
+          "to": "KIW",
+          "departure": "01:10:00",
+          "arrival": "10:54:00",
+          "distance": 471.0,
+          "duration_min": 565.2,
+          "wait_min": 339.0
+        },
+        {
+          "train_no": "59832",
+          "train_name": "KOTA-BRC PAR",
+          "from": "KIW",
+          "to": "MKX",
+          "departure": "10:56:00",
+          "arrival": "11:03:00",
+          "distance": 6.0,
+          "duration_min": 9.47,
+          "wait_min": 0
+        },
+        {
+          "train_no": "59832",
+          "train_name": "KOTA-BRC PAR",
+          "from": "MKX",
+          "to": "RMA",
+          "departure": "11:05:00",
+          "arrival": "11:15:00",
+          "distance": 10.0,
+          "duration_min": 15.79,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19041",
+          "train_name": "BANDRA(T) GC",
+          "from": "RMA",
+          "to": "KOTA",
+          "departure": "12:22:00",
+          "arrival": "13:30:00",
+          "distance": 72.0,
+          "duration_min": 113.68,
+          "wait_min": 67.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_06",
+      "category": "ALTERNATIVE #2 \ud83d\udd04",
+      "objectives": {
+        "time": 2755.5684210526315,
+        "cost": 2137.0,
+        "transfers": 4,
+        "seat_prob": 80.0,
+        "safety_score": 80,
+        "distance": 2137.0
+      },
+      "segments": [
+        {
+          "train_no": "22476",
+          "train_name": "CBE BKN AC S",
+          "from": "PGT",
+          "to": "BRC",
+          "departure": "16:20:00",
+          "arrival": "19:31:00",
+          "distance": 1598.0,
+          "duration_min": 1598.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "59832",
+          "train_name": "KOTA-BRC PAR",
+          "from": "BRC",
+          "to": "KIW",
+          "departure": "01:10:00",
+          "arrival": "10:54:00",
+          "distance": 471.0,
+          "duration_min": 565.2,
+          "wait_min": 339.0
+        },
+        {
+          "train_no": "59832",
+          "train_name": "KOTA-BRC PAR",
+          "from": "KIW",
+          "to": "MKX",
+          "departure": "10:56:00",
+          "arrival": "11:03:00",
+          "distance": 6.0,
+          "duration_min": 9.47,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19037",
+          "train_name": "AVADH EXPRES",
+          "from": "MKX",
+          "to": "DKNT",
+          "departure": "13:29:00",
+          "arrival": "14:08:00",
+          "distance": 53.0,
+          "duration_min": 83.68,
+          "wait_min": 146.0
+        },
+        {
+          "train_no": "19037",
+          "train_name": "AVADH EXPRES",
+          "from": "DKNT",
+          "to": "KOTA",
+          "departure": "14:10:00",
+          "arrival": "14:30:00",
+          "distance": 9.0,
+          "duration_min": 14.21,
+          "wait_min": 0
+        }
+      ]
+    }
+  ]
+}

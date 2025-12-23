@@ -1,0 +1,704 @@
+{
+  "metadata": {
+    "source": "PGT",
+    "destination": "LKO",
+    "total_routes_generated": 90,
+    "pareto_front_size": 11,
+    "optimal_routes_count": 11
+  },
+  "routes": [
+    {
+      "route_id": "ROUTE_01",
+      "category": "FASTEST \u26a1",
+      "objectives": {
+        "time": 3488.1397459165155,
+        "cost": 2934.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 90,
+        "distance": 2934.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15668",
+          "train_name": "KAMAKHYA-GAN",
+          "from": "BSB",
+          "to": "FD",
+          "departure": "10:10:00",
+          "arrival": "13:25:00",
+          "distance": 195.0,
+          "duration_min": 260.0,
+          "wait_min": 325.0
+        },
+        {
+          "train_no": "15668",
+          "train_name": "KAMAKHYA-GAN",
+          "from": "FD",
+          "to": "LKO",
+          "departure": "13:27:00",
+          "arrival": "16:55:00",
+          "distance": 128.0,
+          "duration_min": 202.11,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_02",
+      "category": "CHEAPEST \ud83d\udcb0",
+      "objectives": {
+        "time": 3715.373139745917,
+        "cost": 2631.0,
+        "transfers": 5,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 80,
+        "distance": 2631.0
+      },
+      "segments": [
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "PGT",
+          "to": "CBE",
+          "departure": "00:15:00",
+          "arrival": "01:37:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11014",
+          "train_name": "LOKMANYA TT",
+          "from": "CBE",
+          "to": "GBD",
+          "departure": "08:55:00",
+          "arrival": "17:29:00",
+          "distance": 463.0,
+          "duration_min": 555.6,
+          "wait_min": 438.0
+        },
+        {
+          "train_no": "11014",
+          "train_name": "LOKMANYA TT",
+          "from": "GBD",
+          "to": "HUP",
+          "departure": "17:30:00",
+          "arrival": "18:08:00",
+          "distance": 24.0,
+          "duration_min": 37.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11014",
+          "train_name": "LOKMANYA TT",
+          "from": "HUP",
+          "to": "SSPN",
+          "departure": "18:10:00",
+          "arrival": "19:25:00",
+          "distance": 57.0,
+          "duration_min": 90.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11014",
+          "train_name": "LOKMANYA TT",
+          "from": "SSPN",
+          "to": "DMM",
+          "departure": "19:30:00",
+          "arrival": "20:13:00",
+          "distance": 33.0,
+          "duration_min": 52.11,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15024",
+          "train_name": "YPR-GKP-EXP",
+          "from": "DMM",
+          "to": "LKO",
+          "departure": "02:40:00",
+          "arrival": "13:10:00",
+          "distance": 1999.0,
+          "duration_min": 2067.93,
+          "wait_min": 387.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_03",
+      "category": "MOST DIRECT \ud83d\ude82",
+      "objectives": {
+        "time": 3903.1397459165155,
+        "cost": 2934.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 95,
+        "distance": 2934.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15668",
+          "train_name": "KAMAKHYA-GAN",
+          "from": "BSB",
+          "to": "FD",
+          "departure": "10:10:00",
+          "arrival": "13:25:00",
+          "distance": 195.0,
+          "duration_min": 260.0,
+          "wait_min": 325.0
+        },
+        {
+          "train_no": "13237",
+          "train_name": "PNBE- KOTA",
+          "from": "FD",
+          "to": "LKO",
+          "departure": "20:20:00",
+          "arrival": "23:20:00",
+          "distance": 128.0,
+          "duration_min": 202.11,
+          "wait_min": 415.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_04",
+      "category": "BEST SEATS \ud83d\udcba",
+      "objectives": {
+        "time": 3708.0,
+        "cost": 2853.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 2853.0
+      },
+      "segments": [
+        {
+          "train_no": "12257",
+          "train_name": "YPR-KCVL EXP",
+          "from": "PGT",
+          "to": "TCR",
+          "departure": "05:15:00",
+          "arrival": "06:35:00",
+          "distance": 76.0,
+          "duration_min": 120.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22113",
+          "train_name": "LTT-KCVL BI-",
+          "from": "TCR",
+          "to": "TNA",
+          "departure": "14:08:00",
+          "arrival": "17:17:00",
+          "distance": 1210.0,
+          "duration_min": 1210.0,
+          "wait_min": 453.0
+        },
+        {
+          "train_no": "11068",
+          "train_name": "SAKET EXPRES",
+          "from": "TNA",
+          "to": "SLN",
+          "departure": "20:50:00",
+          "arrival": "16:57:00",
+          "distance": 1434.0,
+          "duration_min": 1434.0,
+          "wait_min": 213.0
+        },
+        {
+          "train_no": "19314",
+          "train_name": "INDORE EXPRE",
+          "from": "SLN",
+          "to": "LKO",
+          "departure": "18:05:00",
+          "arrival": "22:25:00",
+          "distance": 133.0,
+          "duration_min": 210.0,
+          "wait_min": 68.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_05",
+      "category": "FAST #2 \u26a1",
+      "objectives": {
+        "time": 3591.2765880217785,
+        "cost": 3051.0,
+        "transfers": 3,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 3051.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12819",
+          "train_name": "BBS-NDLS SAM",
+          "from": "MGS",
+          "to": "CNB",
+          "departure": "09:00:00",
+          "arrival": "13:40:00",
+          "distance": 347.0,
+          "duration_min": 416.4,
+          "wait_min": 202.0
+        },
+        {
+          "train_no": "11079",
+          "train_name": "LTT-GKP EXPR",
+          "from": "CNB",
+          "to": "LKO",
+          "departure": "15:45:00",
+          "arrival": "17:15:00",
+          "distance": 74.0,
+          "duration_min": 116.84,
+          "wait_min": 125.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_06",
+      "category": "FAST #3 \u26a1",
+      "objectives": {
+        "time": 3653.0344827586205,
+        "cost": 2934.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 85,
+        "distance": 2934.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15636",
+          "train_name": "DWARKA EXPRE",
+          "from": "BSB",
+          "to": "ABP",
+          "departure": "10:10:00",
+          "arrival": "12:16:00",
+          "distance": 134.0,
+          "duration_min": 211.58,
+          "wait_min": 325.0
+        },
+        {
+          "train_no": "15025",
+          "train_name": "MAU-ANVT EXP",
+          "from": "ABP",
+          "to": "FD",
+          "departure": "14:13:00",
+          "arrival": "15:34:00",
+          "distance": 61.0,
+          "duration_min": 96.32,
+          "wait_min": 117.0
+        },
+        {
+          "train_no": "15025",
+          "train_name": "MAU-ANVT EXP",
+          "from": "FD",
+          "to": "LKO",
+          "departure": "15:39:00",
+          "arrival": "18:40:00",
+          "distance": 128.0,
+          "duration_min": 202.11,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_07",
+      "category": "CHEAP #2 \ud83d\udcb0",
+      "objectives": {
+        "time": 3887.474773139746,
+        "cost": 2808.0,
+        "transfers": 3,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 2808.0
+      },
+      "segments": [
+        {
+          "train_no": "12258",
+          "train_name": "KCVL-YPR EXP",
+          "from": "PGT",
+          "to": "CBE",
+          "departure": "00:15:00",
+          "arrival": "01:37:00",
+          "distance": 55.0,
+          "duration_min": 86.84,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11014",
+          "train_name": "LOKMANYA TT",
+          "from": "CBE",
+          "to": "GBD",
+          "departure": "08:55:00",
+          "arrival": "17:29:00",
+          "distance": 463.0,
+          "duration_min": 555.6,
+          "wait_min": 438.0
+        },
+        {
+          "train_no": "11014",
+          "train_name": "LOKMANYA TT",
+          "from": "GBD",
+          "to": "HUP",
+          "departure": "17:30:00",
+          "arrival": "18:08:00",
+          "distance": 24.0,
+          "duration_min": 37.89,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22683",
+          "train_name": "YPR-LKO WEEK",
+          "from": "HUP",
+          "to": "LKO",
+          "departure": "01:13:00",
+          "arrival": "18:40:00",
+          "distance": 2266.0,
+          "duration_min": 2344.14,
+          "wait_min": 425.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_08",
+      "category": "CHEAP #3 \ud83d\udcb0",
+      "objectives": {
+        "time": 3808.285486443381,
+        "cost": 2821.0,
+        "transfers": 8,
+        "seat_prob": 100.0,
+        "safety_score": 65,
+        "distance": 2821.0
+      },
+      "segments": [
+        {
+          "train_no": "22476",
+          "train_name": "CBE BKN AC S",
+          "from": "PGT",
+          "to": "BRC",
+          "departure": "16:20:00",
+          "arrival": "19:31:00",
+          "distance": 1598.0,
+          "duration_min": 1598.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12247",
+          "train_name": "BDTS NZM YUV",
+          "from": "BRC",
+          "to": "RTM",
+          "departure": "21:46:00",
+          "arrival": "01:05:00",
+          "distance": 262.0,
+          "duration_min": 349.33,
+          "wait_min": 135.0
+        },
+        {
+          "train_no": "79310",
+          "train_name": "RTM DADN DEM",
+          "from": "RTM",
+          "to": "FTD",
+          "departure": "06:00:00",
+          "arrival": "07:30:00",
+          "distance": 79.0,
+          "duration_min": 124.74,
+          "wait_min": 295.0
+        },
+        {
+          "train_no": "79310",
+          "train_name": "RTM DADN DEM",
+          "from": "FTD",
+          "to": "AJN",
+          "departure": "07:32:00",
+          "arrival": "07:43:00",
+          "distance": 11.0,
+          "duration_min": 17.37,
+          "wait_min": 0
+        },
+        {
+          "train_no": "79310",
+          "train_name": "RTM DADN DEM",
+          "from": "AJN",
+          "to": "BLDK",
+          "departure": "07:45:00",
+          "arrival": "07:54:00",
+          "distance": 7.0,
+          "duration_min": 11.05,
+          "wait_min": 0
+        },
+        {
+          "train_no": "79310",
+          "train_name": "RTM DADN DEM",
+          "from": "BLDK",
+          "to": "PLA",
+          "departure": "07:55:00",
+          "arrival": "08:02:00",
+          "distance": 7.0,
+          "duration_min": 11.05,
+          "wait_min": 0
+        },
+        {
+          "train_no": "79310",
+          "train_name": "RTM DADN DEM",
+          "from": "PLA",
+          "to": "LMNR",
+          "departure": "08:04:00",
+          "arrival": "08:16:00",
+          "distance": 11.0,
+          "duration_min": 17.37,
+          "wait_min": 0
+        },
+        {
+          "train_no": "79310",
+          "train_name": "RTM DADN DEM",
+          "from": "LMNR",
+          "to": "INDB",
+          "departure": "08:18:00",
+          "arrival": "08:35:00",
+          "distance": 3.0,
+          "duration_min": 4.74,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19321",
+          "train_name": "INDB RJPB EX",
+          "from": "INDB",
+          "to": "LKO",
+          "departure": "14:00:00",
+          "arrival": "05:25:00",
+          "distance": 843.0,
+          "duration_min": 919.64,
+          "wait_min": 325.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_09",
+      "category": "ALTERNATIVE #1 \ud83d\udd04",
+      "objectives": {
+        "time": 3665.9116757410766,
+        "cost": 2950.0,
+        "transfers": 4,
+        "seat_prob": 80.0,
+        "safety_score": 85,
+        "distance": 2950.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "BSB",
+          "to": "MGS",
+          "departure": "04:55:00",
+          "arrival": "05:38:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12355",
+          "train_name": "ARCHNA EXPRE",
+          "from": "MGS",
+          "to": "BSB",
+          "departure": "10:44:00",
+          "arrival": "11:25:00",
+          "distance": 19.0,
+          "duration_min": 30.0,
+          "wait_min": 306.0
+        },
+        {
+          "train_no": "14204",
+          "train_name": "LKO BSB INTE",
+          "from": "BSB",
+          "to": "BCN",
+          "departure": "13:30:00",
+          "arrival": "07:58:00",
+          "distance": 254.0,
+          "duration_min": 338.67,
+          "wait_min": 125.0
+        },
+        {
+          "train_no": "14215",
+          "train_name": "GANGA GOMTI",
+          "from": "BCN",
+          "to": "LKO",
+          "departure": "08:59:00",
+          "arrival": "10:10:00",
+          "distance": 47.0,
+          "duration_min": 74.21,
+          "wait_min": 61.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_10",
+      "category": "ALTERNATIVE #2 \ud83d\udd04",
+      "objectives": {
+        "time": 3667.286751361162,
+        "cost": 3049.0,
+        "transfers": 3,
+        "seat_prob": 75.0,
+        "safety_score": 90,
+        "distance": 3049.0
+      },
+      "segments": [
+        {
+          "train_no": "12257",
+          "train_name": "YPR-KCVL EXP",
+          "from": "PGT",
+          "to": "TCR",
+          "departure": "05:15:00",
+          "arrival": "06:35:00",
+          "distance": 76.0,
+          "duration_min": 120.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12511",
+          "train_name": "RAPTISAGAR E",
+          "from": "TCR",
+          "to": "IJK",
+          "departure": "11:00:00",
+          "arrival": "11:24:00",
+          "distance": 24.0,
+          "duration_min": 37.89,
+          "wait_min": 265.0
+        },
+        {
+          "train_no": "12511",
+          "train_name": "RAPTISAGAR E",
+          "from": "IJK",
+          "to": "GD",
+          "departure": "11:25:00",
+          "arrival": "08:55:00",
+          "distance": 2832.0,
+          "duration_min": 2929.66,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12597",
+          "train_name": "GKP-CSMT-WEE",
+          "from": "GD",
+          "to": "LKO",
+          "departure": "11:05:00",
+          "arrival": "13:25:00",
+          "distance": 117.0,
+          "duration_min": 184.74,
+          "wait_min": 130.0
+        }
+      ]
+    },
+    {
+      "route_id": "ROUTE_11",
+      "category": "ALTERNATIVE #3 \ud83d\udd04",
+      "objectives": {
+        "time": 3821.560798548094,
+        "cost": 2933.0,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 90,
+        "distance": 2933.0
+      },
+      "segments": [
+        {
+          "train_no": "16359",
+          "train_name": "ERS PATNA EX",
+          "from": "PGT",
+          "to": "BSB",
+          "departure": "02:05:00",
+          "arrival": "04:45:00",
+          "distance": 2611.0,
+          "duration_min": 2701.03,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15668",
+          "train_name": "KAMAKHYA-GAN",
+          "from": "BSB",
+          "to": "FD",
+          "departure": "10:10:00",
+          "arrival": "13:25:00",
+          "distance": 195.0,
+          "duration_min": 260.0,
+          "wait_min": 325.0
+        },
+        {
+          "train_no": "19322",
+          "train_name": "RJPB INDB EX",
+          "from": "FD",
+          "to": "LKO",
+          "departure": "19:00:00",
+          "arrival": "22:25:00",
+          "distance": 127.0,
+          "duration_min": 200.53,
+          "wait_min": 335.0
+        }
+      ]
+    }
+  ]
+}

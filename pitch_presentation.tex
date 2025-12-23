@@ -1,0 +1,184 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+\usecolortheme{beaver}
+
+\title[FINALTrip]{FINALTrip: Re-imagining Indian Travel}
+\subtitle{An AI-Powered Platform for Optimal Journey Planning}
+\author{The FINALTrip Team}
+\date{\today}
+
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+% Suppress navigation symbols
+\beamertemplatenavigationsymbolsempty
+
+\begin{document}
+
+% --- TITLE PAGE ---
+\begin{frame}
+    \titlepage
+\end{frame}
+
+% --- EXECUTIVE SUMMARY ---
+\begin{frame}{Executive Summary}
+    \begin{itemize}
+        \item<1-> \textbf{The Vision:} To build a comprehensive, AI-powered travel ecosystem that makes Indian travel simple, efficient, and secure.
+        \item<2-> \textbf{The Problem:} Indian train travel planning is a chaotic, fragmented, and stressful experience with no true optimization for user needs.
+        \item<3-> \textbf{The Solution:} Our platform, \textbf{Route Master}, uses sophisticated Pareto optimization to find the genuinely best routes, balancing time, cost, comfort, and safety.
+        \item<4-> \textbf{The Ask:} We are seeking \textbf{₹2 Crore (\$250,000)} in seed funding to build our production backend, integrate live data, and launch our mobile applications.
+    \end{itemize}
+\end{frame}
+
+% --- THE PROBLEM ---
+\begin{frame}{The Problem: The Chaos of Indian Railways}
+    \begin{alertblock}{For millions, planning a train journey is a nightmare.}
+    \end{alertblock}
+    \begin{itemize}
+        \item \textbf{Information Overload:} Travelers juggle multiple apps and websites, wasting time and effort.
+        \item \textbf{One-Size-Fits-All "Best" Routes:} Existing solutions ignore the nuanced priorities of travelers, optimizing only for speed or cost.
+        \item \textbf{Last-Minute Travel is a Gamble:} The unreliable "Tatkal" system leaves travelers stranded or forced into expensive alternatives.
+        \item \textbf{Safety is an Unquantified Risk:} There is no objective data to help travelers choose safer routes, a major concern for families and solo travelers.
+    \end{itemize}
+\end{frame}
+
+% --- THE SOLUTION (ROUTE MASTER) ---
+\begin{frame}{The Solution: Route Master Engine}
+    \begin{block}{AI-Powered Multi-Objective Planning}
+        Our core innovation is a \textbf{Pareto optimization engine}. Instead of one "best" route, we provide a curated list of optimal trade-offs.
+    \end{block}
+    
+    \begin{columns}[T]
+        \begin{column}{.5\textwidth}
+            \textbf{Optimizing For:}
+            \begin{itemize}
+                \item Total Travel Time
+                \item Total Cost
+                \item Number of Transfers
+                \item Seat Availability (Comfort)
+                \item \textbf{A Proprietary Safety Score}
+            \end{itemize}
+        \end{column}
+        \begin{column}{.5\textwidth}
+            % Placeholder for a diagram showing trade-offs
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{public/placeholder.svg}
+                \caption{Empowering users to choose the trade-off that suits their needs (e.g., Cost vs. Time).}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% --- THE DATASET SLIDE (THE SPIN) ---
+\begin{frame}{The Opportunity: Proven Model, Ready to Scale}
+    \begin{block}{Validated on Historical Data}
+        We've developed and proven our powerful optimization algorithms using a comprehensive, albeit decade-old, railway dataset.
+    \end{block}
+    
+    \textbf{Why this is a strategic advantage:}
+    
+    \begin{itemize}
+        \item \textbf{Robustness Proven:} Our model's success with historical data demonstrates its fundamental robustness. It can find optimal routes even with complex, and less-than-perfect, data inputs.
+        
+        \item \textbf{Clear Need for Funding:} This successful validation on a static dataset creates a compelling case for the next step. Your investment will directly fund the integration of \textbf{live, real-time data streams}.
+        
+        \item \textbf{From Proof-of-Concept to Market Leader:} Integrating live data will transform our proven proof-of-concept into a dynamic, market-leading decision engine that is always current.
+    \end{itemize}
+\end{frame}
+
+
+% --- THE LONG-TERM VISION ---
+\begin{frame}{The Vision: The Personal Guide Service}
+    \begin{block}{Phase 2: Beyond Planning, Towards Full Service}
+        Our long-term vision is to create an end-to-end, premium travel experience.
+    \end{block}
+    
+    \begin{itemize}
+        \item A dedicated, verified \textbf{Personal Travel Guide}.
+        \item Complete door-to-door managed logistics: home pickup to final destination drop-off.
+        \item On-ground support for transfers, luggage, food, and safety.
+        \item A single point of contact, transforming a stressful journey into a secure, curated experience.
+        \item This high-margin service will be our ultimate differentiator and a major revenue driver.
+    \end{itemize}
+\end{frame}
+
+
+% --- MARKET OPPORTUNITY ---
+\begin{frame}{Market Opportunity}
+    \begin{itemize}
+        \item \textbf{Market Size:} The Indian online travel market is projected to reach \textbf{$125 billion by FY28}.
+        \item \textbf{Underserved Segment:} Train travel is a huge, technologically underserved part of this market.
+        \item \textbf{Target Audience:}
+        \begin{itemize}
+            \item Tech-savvy Urban Millennials & Gen Z
+            \item Families and Women (attracted to our Safety Score)
+            \item Business Travelers
+            \item Domestic & International Tourists
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+% --- COMPETITIVE ADVANTAGE ---
+\begin{frame}{Our Competitive Advantage}
+    \begin{beamercolorbox}[wd=\textwidth,colsep=1ex,rounded=true,shadow=true]{block body}
+    While competitors focus on the \textit{transaction} (booking), we focus on the \textbf{\textit{decision}} (planning).
+    \end{beamercolorbox}
+    \vspace{1em}
+    
+    \begin{tabular}{l c c c}
+        \toprule
+        \textbf{Feature} & \textbf{FINALTrip} & \textbf{IRCTC} & \textbf{Private Apps} \\
+        \midrule
+        Route Optimization & \textbf{Multi-Objective} & Single & Single \\
+        Safety Score & \textbf{Yes} & No & No \\
+        End-to-End Service & \textbf{Vision} & No & No \\
+        User Experience & \textbf{Decision-Focused} & Clunky & Sales-Driven \\
+        \bottomrule
+    \end{tabular}
+\end{frame}
+
+% --- BUSINESS MODEL ---
+\begin{frame}{Business Model: A Phased Approach}
+    \begin{enumerate}
+        \item \textbf{Affiliate Commissions:} A percentage from each booking made through integrated partners (e.g., IRCTC).
+        \item \textbf{Freemium Subscriptions:} Premium features like real-time price drop alerts and multi-modal routing for a monthly fee.
+        \item \textbf{Personal Guide Service:} A high-margin, service-based fee for the fully managed travel experience.
+        \item \textbf{B2B Data Insights:} Anonymized travel pattern data as a valuable asset for logistics and planning sectors.
+    \end{enumerate}
+\end{frame}
+
+% --- THE ASK ---
+\begin{frame}{The Ask}
+    \begin{block}{We are seeking seed funding of ₹2 Crore (\$250,000) for:}
+    \end{block}
+    \begin{itemize}
+        \item \textbf{Team Expansion:} Hire lead backend and data science talent.
+        \item \textbf{Backend & Live Data:} Build the production-grade engine and integrate live data streams.
+        \item \textbf{Licensing & Integration:} Secure IRCTC licenses for seamless booking.
+        \item \textbf{Mobile App Launch:} Develop and launch native Android and iOS applications.
+        \item \textbf{User Acquisition:} Acquire our first 100,000 users.
+    \end{itemize}
+\end{frame}
+
+% --- THANK YOU / CONTACT ---
+\begin{frame}
+    \begin{center}
+        \Huge\bf{Thank You}
+        \vspace{1.5cm}
+        
+        \Large
+        Join us in building the future of Indian travel.
+        
+        \vspace{2cm} 
+        
+        \large
+        \textbf{Contact:}
+        
+        The FINALTrip Team
+        
+        contact@finaltrip.com
+    \end{center}
+\end{frame}
+
+\end{document}
