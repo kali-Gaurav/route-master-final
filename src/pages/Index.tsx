@@ -7,7 +7,7 @@ import { RouteCard } from "@/components/RouteCard";
 import { CategoryFilter } from "@/components/CategoryFilter";
 import { FeaturesSection } from "@/components/FeaturesSection";
 import { Station } from "@/data/stations";
-import { sampleRoutes, Route, getCategoryBase } from "@/data/routes";
+import { Route, getCategoryBase } from "@/data/routes"; // getCategoryBase is still needed for filtering
 import { cn } from "@/lib/utils";
 import { toast, Toast } from "@/hooks/use-toast";
 
@@ -15,6 +15,7 @@ const Index = () => {
   const [origin, setOrigin] = useState<Station | null>(null);
   const [destination, setDestination] = useState<Station | null>(null);
   const [travelDate, setTravelDate] = useState<string>("");
+  const [maxTransfers, setMaxTransfers] = useState<number>(3); // New state for max transfers
   const [isSearching, setIsSearching] = useState(false);
   const [routes, setRoutes] = useState<Route[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
@@ -36,27 +37,43 @@ const Index = () => {
     }
 
     setIsSearching(true);
-    
-    // Simulate API call delay
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-    
-    // Filter and sort sample routes for optimal and fastest
-    const optimalRoutes = sampleRoutes.filter(route => {
-      const baseCategory = getCategoryBase(route.category);
-      return ["FASTEST", "MOST DIRECT", "BEST SEATS", "CHEAP", "BALANCED"].includes(baseCategory);
-    }).sort((a, b) => a.totalTime - b.totalTime);
+    setRoutes([]); // Clear previous results
 
-    // Take the top 10 fastest optimal routes
-    setRoutes(optimalRoutes.slice(0, 10));
-    setIsSearching(false);
-    
-    toast({
-      title: "Routes Found!",
-      description: `Found ${sampleRoutes.length} Pareto-optimal routes for your journey.`,
-    } as Toast);
+    try {
+      const apiUrl = `http://localhost:5000/api/routes?origin=${origin.code}&destination=${destination.code}&max_transfers=${maxTransfers}`;
+      const response = await fetch(apiUrl);
+      const data = await response.json();
 
-    // Scroll to results
-    document.getElementById("results")?.scrollIntoView({ behavior: "smooth" });
+      if (!response.ok) {
+        throw new Error(data.error || "Failed to fetch routes.");
+      }
+
+      if (data.optimal_routes && data.optimal_routes.length > 0) {
+        setRoutes(data.optimal_routes);
+        toast({
+          title: "Routes Found!",
+          description: `Found ${data.optimal_routes.length} Pareto-optimal routes for your journey.`,
+        } as Toast);
+      } else {
+        toast({
+          title: "No Routes Found",
+          description: "No optimal routes were found for your selected criteria.",
+          variant: "destructive",
+        } as Toast);
+        setRoutes([]);
+      }
+    } catch (error: any) {
+      toast({
+        title: "Error Searching Routes",
+        description: error.message || "An unexpected error occurred.",
+        variant: "destructive",
+      } as Toast);
+      setRoutes([]);
+    } finally {
+      setIsSearching(false);
+      // Scroll to results
+      document.getElementById("results")?.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   const categories = useMemo(() => {
@@ -96,11 +113,11 @@ const Index = () => {
             <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
               Find Your Perfect
               <br />
-              <span className="text-gradient">Train Route</span>
+              <span className="text-gradient">Multimodal Route</span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Multi-objective Pareto optimization finds routes that balance time, cost, 
-              transfers, and seat availability. Book even a day before travel.
+              transfers, and seat availability, combining trains and flights.
             </p>
           </div>
 
@@ -110,7 +127,7 @@ const Index = () => {
               <div className="grid md:grid-cols-2 gap-4 mb-6">
                 <StationSearch
                   label="From"
-                  placeholder="Enter origin station"
+                  placeholder="Enter origin station/airport code"
                   value={origin}
                   onChange={setOrigin}
                   icon="origin"
@@ -119,7 +136,7 @@ const Index = () => {
                 <div className="relative">
                   <StationSearch
                     label="To"
-                    placeholder="Enter destination station"
+                    placeholder="Enter destination station/airport code"
                     value={destination}
                     onChange={setDestination}
                     icon="destination"
@@ -161,11 +178,13 @@ const Index = () => {
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-muted-foreground mb-2">
-                    Travelers
+                    Max Transfers
                   </label>
                   <div className="relative">
-                    <Users className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
+                    <ArrowLeftRight className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
                     <select
+                      value={maxTransfers}
+                      onChange={(e) => setMaxTransfers(Number(e.target.value))}
                       className={cn(
                         "w-full pl-12 pr-4 py-4 rounded-xl appearance-none",
                         "bg-secondary border-2 border-transparent",
@@ -174,10 +193,10 @@ const Index = () => {
                         "transition-all duration-200 outline-none"
                       )}
                     >
-                      <option>1 Adult</option>
-                      <option>2 Adults</option>
-                      <option>3 Adults</option>
-                      <option>4 Adults</option>
+                      <option value={0}>0 Transfers</option>
+                      <option value={1}>1 Transfer</option>
+                      <option value={2}>2 Transfers</option>
+                      <option value={3}>3 Transfers</option>
                     </select>
                   </div>
                 </div>
@@ -213,11 +232,11 @@ const Index = () => {
               <div className="flex flex-wrap items-center justify-center gap-6 pt-4 border-t border-border">
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   <MapPin className="w-4 h-4 text-primary" />
-                  <span>11,000+ Trains</span>
+                  <span>11,000+ Trains & Flights</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   <MapPin className="w-4 h-4 text-primary" />
-                  <span>8,000+ Stations</span>
+                  <span>8,000+ Locations</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   <Sparkles className="w-4 h-4 text-primary" />
@@ -252,7 +271,7 @@ const Index = () => {
             <div className="space-y-4">
               {filteredRoutes.map((route, idx) => (
                 <RouteCard
-                  key={route.id}
+                  key={route.route_id} // Use route_id from new structure
                   route={route}
                   index={idx}
                   isRecommended={idx === 0 && !selectedCategory}

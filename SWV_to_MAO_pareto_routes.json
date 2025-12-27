@@ -1,0 +1,1779 @@
+{
+  "metadata": {
+    "source": "SWV",
+    "destination": "MAO",
+    "total_routes_generated": 34,
+    "pareto_front_size": 3,
+    "optimal_routes_count": 3
+  },
+  "optimal_routes": [
+    {
+      "route_id": "OPT_ROUTE_01",
+      "category": "MOST DIRECT \ud83d\ude82",
+      "objectives": {
+        "time": 84.0,
+        "cost": 5584,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1828.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "12432_1",
+          "name": "NZM-TVC RAJD",
+          "from": "SWV",
+          "to": "MAO",
+          "departure": "11:08:00",
+          "arrival": "11:06:00",
+          "distance": 1828.0,
+          "duration_min": 84.0,
+          "wait_min": 0,
+          "cost": 5584
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_02",
+      "category": "CHEAPEST \ud83d\udcb0",
+      "objectives": {
+        "time": 105.0,
+        "cost": 1783,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 561.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "22150_1",
+          "name": "PUNE-ERS SF",
+          "from": "SWV",
+          "to": "MAO",
+          "departure": "04:00:00",
+          "arrival": "03:58:00",
+          "distance": 561.0,
+          "duration_min": 105.0,
+          "wait_min": 0,
+          "cost": 1783
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_03",
+      "category": "FASTEST \u26a1",
+      "objectives": {
+        "time": 73.0,
+        "cost": 3320,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 1040.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "12201_1",
+          "name": "KCVL GARIB R",
+          "from": "SWV",
+          "to": "KRMI",
+          "departure": "01:00:00",
+          "arrival": "00:58:00",
+          "distance": 495.0,
+          "duration_min": 38.0,
+          "wait_min": 0,
+          "cost": 1585
+        },
+        {
+          "type": "train",
+          "segment_id": "12201_1",
+          "name": "KCVL GARIB R",
+          "from": "KRMI",
+          "to": "MAO",
+          "departure": "01:40:00",
+          "arrival": "01:38:00",
+          "distance": 545.0,
+          "duration_min": 35.0,
+          "wait_min": 0,
+          "cost": 1735
+        }
+      ]
+    }
+  ],
+  "all_generated_routes": [
+    {
+      "route_id": "ALL_ROUTE_001",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 84.0,
+        "cost": 5584,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1828.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "12432_1",
+          "name": "NZM-TVC RAJD",
+          "from": "SWV",
+          "to": "MAO",
+          "departure": "11:08:00",
+          "arrival": "11:06:00",
+          "distance": 1828.0,
+          "duration_min": 84.0,
+          "wait_min": 0,
+          "cost": 5584
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_002",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 133.0,
+        "cost": 3853,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1251.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "16335_1",
+          "name": "NAGERCOIL EX",
+          "from": "SWV",
+          "to": "MAO",
+          "departure": "05:12:00",
+          "arrival": "05:10:00",
+          "distance": 1251.0,
+          "duration_min": 133.0,
+          "wait_min": 0,
+          "cost": 3853
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_003",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 105.0,
+        "cost": 1783,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 561.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "22150_1",
+          "name": "PUNE-ERS SF",
+          "from": "SWV",
+          "to": "MAO",
+          "departure": "04:00:00",
+          "arrival": "03:58:00",
+          "distance": 561.0,
+          "duration_min": 105.0,
+          "wait_min": 0,
+          "cost": 1783
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_004",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 421.0,
+        "cost": 2033,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 611.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "107_1",
+          "name": "SWV-MAO-VLNK",
+          "from": "SWV",
+          "to": "THVM",
+          "departure": "10:25:00",
+          "arrival": "00:00:00",
+          "distance": 0.0,
+          "duration_min": 41.0,
+          "wait_min": 0,
+          "cost": 100
+        },
+        {
+          "type": "train",
+          "segment_id": "1301_1",
+          "name": "PUNE-MAJN WE",
+          "from": "THVM",
+          "to": "MAO",
+          "departure": "05:06:00",
+          "arrival": "05:04:00",
+          "distance": 611.0,
+          "duration_min": 74.0,
+          "wait_min": 306.0,
+          "cost": 1933
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_005",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 486.0,
+        "cost": 5342,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 1714.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "107_1",
+          "name": "SWV-MAO-VLNK",
+          "from": "SWV",
+          "to": "THVM",
+          "departure": "10:25:00",
+          "arrival": "00:00:00",
+          "distance": 0.0,
+          "duration_min": 41.0,
+          "wait_min": 0,
+          "cost": 100
+        },
+        {
+          "type": "train",
+          "segment_id": "16311_1",
+          "name": "BKN KCVL EXP",
+          "from": "THVM",
+          "to": "MAO",
+          "departure": "05:42:00",
+          "arrival": "05:40:00",
+          "distance": 1714.0,
+          "duration_min": 103.0,
+          "wait_min": 342.0,
+          "cost": 5242
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_006",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 486.0,
+        "cost": 4634,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 1478.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "107_1",
+          "name": "SWV-MAO-VLNK",
+          "from": "SWV",
+          "to": "THVM",
+          "departure": "10:25:00",
+          "arrival": "00:00:00",
+          "distance": 0.0,
+          "duration_min": 41.0,
+          "wait_min": 0,
+          "cost": 100
+        },
+        {
+          "type": "train",
+          "segment_id": "16337_1",
+          "name": "OKHA ERS EXP",
+          "from": "THVM",
+          "to": "MAO",
+          "departure": "05:42:00",
+          "arrival": "05:40:00",
+          "distance": 1478.0,
+          "duration_min": 103.0,
+          "wait_min": 342.0,
+          "cost": 4534
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_007",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 486.0,
+        "cost": 4049,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 1283.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "107_1",
+          "name": "SWV-MAO-VLNK",
+          "from": "SWV",
+          "to": "THVM",
+          "departure": "10:25:00",
+          "arrival": "00:00:00",
+          "distance": 0.0,
+          "duration_min": 41.0,
+          "wait_min": 0,
+          "cost": 100
+        },
+        {
+          "type": "train",
+          "segment_id": "19260_1",
+          "name": "BVC KCVL EXP",
+          "from": "THVM",
+          "to": "MAO",
+          "departure": "05:42:00",
+          "arrival": "05:40:00",
+          "distance": 1283.0,
+          "duration_min": 103.0,
+          "wait_min": 342.0,
+          "cost": 3949
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_008",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 421.0,
+        "cost": 1805,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 535.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "107_1",
+          "name": "SWV-MAO-VLNK",
+          "from": "SWV",
+          "to": "THVM",
+          "departure": "10:25:00",
+          "arrival": "00:00:00",
+          "distance": 0.0,
+          "duration_min": 41.0,
+          "wait_min": 0,
+          "cost": 100
+        },
+        {
+          "type": "train",
+          "segment_id": "22629_1",
+          "name": "DADAR TEN EX",
+          "from": "THVM",
+          "to": "MAO",
+          "departure": "05:22:00",
+          "arrival": "05:20:00",
+          "distance": 535.0,
+          "duration_min": 58.0,
+          "wait_min": 322.0,
+          "cost": 1705
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_009",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 311.0,
+        "cost": 4106,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 90,
+        "distance": 1302.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "107_1",
+          "name": "SWV-MAO-VLNK",
+          "from": "SWV",
+          "to": "THVM",
+          "departure": "10:25:00",
+          "arrival": "00:00:00",
+          "distance": 0.0,
+          "duration_min": 41.0,
+          "wait_min": 0,
+          "cost": 100
+        },
+        {
+          "type": "train",
+          "segment_id": "22908_1",
+          "name": "HAPA MADGAON",
+          "from": "THVM",
+          "to": "MAO",
+          "departure": "02:24:00",
+          "arrival": "02:22:00",
+          "distance": 1302.0,
+          "duration_min": 126.0,
+          "wait_min": 144.0,
+          "cost": 4006
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_010",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 268.99999999999994,
+        "cost": 1871,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 557.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "128_1",
+          "name": "MAO-KOP SPEC",
+          "from": "SWV",
+          "to": "KUDL",
+          "departure": "21:18:00",
+          "arrival": "21:16:00",
+          "distance": 83.0,
+          "duration_min": 20.0,
+          "wait_min": 0,
+          "cost": 349
+        },
+        {
+          "type": "train",
+          "segment_id": "12619_1",
+          "name": "MATSYAGANDHA",
+          "from": "KUDL",
+          "to": "MAO",
+          "departure": "23:42:00",
+          "arrival": "23:40:00",
+          "distance": 474.0,
+          "duration_min": 103.0,
+          "wait_min": 146.0,
+          "cost": 1522
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_011",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 396.0,
+        "cost": 5339,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 1713.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "11086_1",
+          "name": "MAO-LTT DOUB",
+          "from": "SWV",
+          "to": "KKW",
+          "departure": "07:27:00",
+          "arrival": "07:22:00",
+          "distance": 80.0,
+          "duration_min": 48.0,
+          "wait_min": 0,
+          "cost": 340
+        },
+        {
+          "type": "train",
+          "segment_id": "22475_1",
+          "name": "BKN CBE AC S",
+          "from": "KKW",
+          "to": "MAO",
+          "departure": "10:30:00",
+          "arrival": "10:28:00",
+          "distance": 1633.0,
+          "duration_min": 160.0,
+          "wait_min": 188.0,
+          "cost": 4999
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_012",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 425.00000000000006,
+        "cost": 5978,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 1926.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "12201_1",
+          "name": "KCVL GARIB R",
+          "from": "SWV",
+          "to": "KRMI",
+          "departure": "01:00:00",
+          "arrival": "00:58:00",
+          "distance": 495.0,
+          "duration_min": 38.0,
+          "wait_min": 0,
+          "cost": 1585
+        },
+        {
+          "type": "train",
+          "segment_id": "16333_1",
+          "name": "VRL TVC EXPR",
+          "from": "KRMI",
+          "to": "MAO",
+          "departure": "06:10:00",
+          "arrival": "06:08:00",
+          "distance": 1431.0,
+          "duration_min": 75.0,
+          "wait_min": 312.0,
+          "cost": 4393
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_013",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 73.0,
+        "cost": 3320,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 90,
+        "distance": 1040.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "12201_1",
+          "name": "KCVL GARIB R",
+          "from": "SWV",
+          "to": "KRMI",
+          "departure": "01:00:00",
+          "arrival": "00:58:00",
+          "distance": 495.0,
+          "duration_min": 38.0,
+          "wait_min": 0,
+          "cost": 1585
+        },
+        {
+          "type": "train",
+          "segment_id": "12201_1",
+          "name": "KCVL GARIB R",
+          "from": "KRMI",
+          "to": "MAO",
+          "departure": "01:40:00",
+          "arrival": "01:38:00",
+          "distance": 545.0,
+          "duration_min": 35.0,
+          "wait_min": 0,
+          "cost": 1735
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_014",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 825.0,
+        "cost": 5925,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 80,
+        "distance": 1875.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "107_1",
+          "name": "SWV-MAO-VLNK",
+          "from": "SWV",
+          "to": "THVM",
+          "departure": "10:25:00",
+          "arrival": "00:00:00",
+          "distance": 0.0,
+          "duration_min": 41.0,
+          "wait_min": 0,
+          "cost": 100
+        },
+        {
+          "type": "train",
+          "segment_id": "11086_1",
+          "name": "MAO-LTT DOUB",
+          "from": "THVM",
+          "to": "SWV",
+          "departure": "06:55:00",
+          "arrival": "06:50:00",
+          "distance": 47.0,
+          "duration_min": 27.0,
+          "wait_min": 415.0,
+          "cost": 241
+        },
+        {
+          "type": "train",
+          "segment_id": "12432_1",
+          "name": "NZM-TVC RAJD",
+          "from": "SWV",
+          "to": "MAO",
+          "departure": "11:08:00",
+          "arrival": "11:06:00",
+          "distance": 1828.0,
+          "duration_min": 84.0,
+          "wait_min": 258.0,
+          "cost": 5584
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_015",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 572.0,
+        "cost": 4011,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 80,
+        "distance": 1237.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "107_1",
+          "name": "SWV-MAO-VLNK",
+          "from": "SWV",
+          "to": "THVM",
+          "departure": "10:25:00",
+          "arrival": "00:00:00",
+          "distance": 0.0,
+          "duration_min": 41.0,
+          "wait_min": 0,
+          "cost": 100
+        },
+        {
+          "type": "train",
+          "segment_id": "12617_1",
+          "name": "MANGALA LDWE",
+          "from": "THVM",
+          "to": "KKW",
+          "departure": "03:58:00",
+          "arrival": "03:56:00",
+          "distance": 775.0,
+          "duration_min": 104.0,
+          "wait_min": 238.0,
+          "cost": 2425
+        },
+        {
+          "type": "train",
+          "segment_id": "12133_1",
+          "name": "CSMT-MAJN EX",
+          "from": "KKW",
+          "to": "MAO",
+          "departure": "05:11:00",
+          "arrival": "05:10:00",
+          "distance": 462.0,
+          "duration_min": 114.0,
+          "wait_min": 75.0,
+          "cost": 1486
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_016",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 937.0,
+        "cost": 7524,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 80,
+        "distance": 2408.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "107_1",
+          "name": "SWV-MAO-VLNK",
+          "from": "SWV",
+          "to": "THVM",
+          "departure": "10:25:00",
+          "arrival": "00:00:00",
+          "distance": 0.0,
+          "duration_min": 41.0,
+          "wait_min": 0,
+          "cost": 100
+        },
+        {
+          "type": "train",
+          "segment_id": "12617_1",
+          "name": "MANGALA LDWE",
+          "from": "THVM",
+          "to": "KKW",
+          "departure": "03:58:00",
+          "arrival": "03:56:00",
+          "distance": 775.0,
+          "duration_min": 104.0,
+          "wait_min": 238.0,
+          "cost": 2425
+        },
+        {
+          "type": "train",
+          "segment_id": "22475_1",
+          "name": "BKN CBE AC S",
+          "from": "KKW",
+          "to": "MAO",
+          "departure": "10:30:00",
+          "arrival": "10:28:00",
+          "distance": 1633.0,
+          "duration_min": 160.0,
+          "wait_min": 394.0,
+          "cost": 4999
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_017",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 786.0,
+        "cost": 6801,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 80,
+        "distance": 2167.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "107_1",
+          "name": "SWV-MAO-VLNK",
+          "from": "SWV",
+          "to": "THVM",
+          "departure": "10:25:00",
+          "arrival": "00:00:00",
+          "distance": 0.0,
+          "duration_min": 41.0,
+          "wait_min": 0,
+          "cost": 100
+        },
+        {
+          "type": "train",
+          "segment_id": "12742_1",
+          "name": "PNBE-VSG EXP",
+          "from": "THVM",
+          "to": "VSG",
+          "departure": "06:02:00",
+          "arrival": "06:00:00",
+          "distance": 2167.0,
+          "duration_min": 173.0,
+          "wait_min": 362.0,
+          "cost": 6601
+        },
+        {
+          "type": "train",
+          "segment_id": "17315_1",
+          "name": "VSG-VLNK EXP",
+          "from": "VSG",
+          "to": "MAO",
+          "departure": "09:00:00",
+          "arrival": "09:00:00",
+          "distance": 0.0,
+          "duration_min": 30.0,
+          "wait_min": 180.0,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_018",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 786.0,
+        "cost": 6801,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 80,
+        "distance": 2167.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "107_1",
+          "name": "SWV-MAO-VLNK",
+          "from": "SWV",
+          "to": "THVM",
+          "departure": "10:25:00",
+          "arrival": "00:00:00",
+          "distance": 0.0,
+          "duration_min": 41.0,
+          "wait_min": 0,
+          "cost": 100
+        },
+        {
+          "type": "train",
+          "segment_id": "12742_1",
+          "name": "PNBE-VSG EXP",
+          "from": "THVM",
+          "to": "VSG",
+          "departure": "06:02:00",
+          "arrival": "06:00:00",
+          "distance": 2167.0,
+          "duration_min": 173.0,
+          "wait_min": 362.0,
+          "cost": 6601
+        },
+        {
+          "type": "train",
+          "segment_id": "17420_1",
+          "name": "VSG-TPTY",
+          "from": "VSG",
+          "to": "MAO",
+          "departure": "09:00:00",
+          "arrival": "09:00:00",
+          "distance": 0.0,
+          "duration_min": 30.0,
+          "wait_min": 180.0,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_019",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 676.0,
+        "cost": 6801,
+        "transfers": 2,
+        "seat_prob": 33.33333333333333,
+        "safety_score": 80,
+        "distance": 2167.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "107_1",
+          "name": "SWV-MAO-VLNK",
+          "from": "SWV",
+          "to": "THVM",
+          "departure": "10:25:00",
+          "arrival": "00:00:00",
+          "distance": 0.0,
+          "duration_min": 41.0,
+          "wait_min": 0,
+          "cost": 100
+        },
+        {
+          "type": "train",
+          "segment_id": "12742_1",
+          "name": "PNBE-VSG EXP",
+          "from": "THVM",
+          "to": "VSG",
+          "departure": "06:02:00",
+          "arrival": "06:00:00",
+          "distance": 2167.0,
+          "duration_min": 173.0,
+          "wait_min": 362.0,
+          "cost": 6601
+        },
+        {
+          "type": "train",
+          "segment_id": "18048_1",
+          "name": "VSG HWH AMAR",
+          "from": "VSG",
+          "to": "MAO",
+          "departure": "07:10:00",
+          "arrival": "00:00:00",
+          "distance": 0.0,
+          "duration_min": 30.0,
+          "wait_min": 70.0,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_020",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 562.0,
+        "cost": 4053,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 80,
+        "distance": 1251.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "128_1",
+          "name": "MAO-KOP SPEC",
+          "from": "SWV",
+          "to": "KUDL",
+          "departure": "21:18:00",
+          "arrival": "21:16:00",
+          "distance": 83.0,
+          "duration_min": 20.0,
+          "wait_min": 0,
+          "cost": 349
+        },
+        {
+          "type": "train",
+          "segment_id": "1301_1",
+          "name": "PUNE-MAJN WE",
+          "from": "KUDL",
+          "to": "THVM",
+          "departure": "04:10:00",
+          "arrival": "04:08:00",
+          "distance": 557.0,
+          "duration_min": 54.0,
+          "wait_min": 414.0,
+          "cost": 1771
+        },
+        {
+          "type": "train",
+          "segment_id": "1301_1",
+          "name": "PUNE-MAJN WE",
+          "from": "THVM",
+          "to": "MAO",
+          "departure": "05:06:00",
+          "arrival": "05:04:00",
+          "distance": 611.0,
+          "duration_min": 74.0,
+          "wait_min": 0,
+          "cost": 1933
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_021",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 685.0000000000001,
+        "cost": 7362,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 80,
+        "distance": 2354.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "128_1",
+          "name": "MAO-KOP SPEC",
+          "from": "SWV",
+          "to": "KUDL",
+          "departure": "21:18:00",
+          "arrival": "21:16:00",
+          "distance": 83.0,
+          "duration_min": 20.0,
+          "wait_min": 0,
+          "cost": 349
+        },
+        {
+          "type": "train",
+          "segment_id": "1301_1",
+          "name": "PUNE-MAJN WE",
+          "from": "KUDL",
+          "to": "THVM",
+          "departure": "04:10:00",
+          "arrival": "04:08:00",
+          "distance": 557.0,
+          "duration_min": 54.0,
+          "wait_min": 414.0,
+          "cost": 1771
+        },
+        {
+          "type": "train",
+          "segment_id": "16311_1",
+          "name": "BKN KCVL EXP",
+          "from": "THVM",
+          "to": "MAO",
+          "departure": "05:42:00",
+          "arrival": "05:40:00",
+          "distance": 1714.0,
+          "duration_min": 103.0,
+          "wait_min": 94.0,
+          "cost": 5242
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_022",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 685.0000000000001,
+        "cost": 6654,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 80,
+        "distance": 2118.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "128_1",
+          "name": "MAO-KOP SPEC",
+          "from": "SWV",
+          "to": "KUDL",
+          "departure": "21:18:00",
+          "arrival": "21:16:00",
+          "distance": 83.0,
+          "duration_min": 20.0,
+          "wait_min": 0,
+          "cost": 349
+        },
+        {
+          "type": "train",
+          "segment_id": "1301_1",
+          "name": "PUNE-MAJN WE",
+          "from": "KUDL",
+          "to": "THVM",
+          "departure": "04:10:00",
+          "arrival": "04:08:00",
+          "distance": 557.0,
+          "duration_min": 54.0,
+          "wait_min": 414.0,
+          "cost": 1771
+        },
+        {
+          "type": "train",
+          "segment_id": "16337_1",
+          "name": "OKHA ERS EXP",
+          "from": "THVM",
+          "to": "MAO",
+          "departure": "05:42:00",
+          "arrival": "05:40:00",
+          "distance": 1478.0,
+          "duration_min": 103.0,
+          "wait_min": 94.0,
+          "cost": 4534
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_023",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 685.0000000000001,
+        "cost": 6069,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 80,
+        "distance": 1923.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "128_1",
+          "name": "MAO-KOP SPEC",
+          "from": "SWV",
+          "to": "KUDL",
+          "departure": "21:18:00",
+          "arrival": "21:16:00",
+          "distance": 83.0,
+          "duration_min": 20.0,
+          "wait_min": 0,
+          "cost": 349
+        },
+        {
+          "type": "train",
+          "segment_id": "1301_1",
+          "name": "PUNE-MAJN WE",
+          "from": "KUDL",
+          "to": "THVM",
+          "departure": "04:10:00",
+          "arrival": "04:08:00",
+          "distance": 557.0,
+          "duration_min": 54.0,
+          "wait_min": 414.0,
+          "cost": 1771
+        },
+        {
+          "type": "train",
+          "segment_id": "19260_1",
+          "name": "BVC KCVL EXP",
+          "from": "THVM",
+          "to": "MAO",
+          "departure": "05:42:00",
+          "arrival": "05:40:00",
+          "distance": 1283.0,
+          "duration_min": 103.0,
+          "wait_min": 94.0,
+          "cost": 3949
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_024",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1010.0000000000001,
+        "cost": 7803,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 80,
+        "distance": 2501.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "128_1",
+          "name": "MAO-KOP SPEC",
+          "from": "SWV",
+          "to": "KUDL",
+          "departure": "21:18:00",
+          "arrival": "21:16:00",
+          "distance": 83.0,
+          "duration_min": 20.0,
+          "wait_min": 0,
+          "cost": 349
+        },
+        {
+          "type": "train",
+          "segment_id": "1301_1",
+          "name": "PUNE-MAJN WE",
+          "from": "KUDL",
+          "to": "THVM",
+          "departure": "04:10:00",
+          "arrival": "04:08:00",
+          "distance": 557.0,
+          "duration_min": 54.0,
+          "wait_min": 414.0,
+          "cost": 1771
+        },
+        {
+          "type": "train",
+          "segment_id": "22414_1",
+          "name": "NZM-MAO RAJD",
+          "from": "THVM",
+          "to": "MAO",
+          "departure": "11:38:00",
+          "arrival": "11:36:00",
+          "distance": 1861.0,
+          "duration_min": 72.0,
+          "wait_min": 450.0,
+          "cost": 5683
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_025",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 620.0000000000001,
+        "cost": 3825,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 80,
+        "distance": 1175.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "128_1",
+          "name": "MAO-KOP SPEC",
+          "from": "SWV",
+          "to": "KUDL",
+          "departure": "21:18:00",
+          "arrival": "21:16:00",
+          "distance": 83.0,
+          "duration_min": 20.0,
+          "wait_min": 0,
+          "cost": 349
+        },
+        {
+          "type": "train",
+          "segment_id": "1301_1",
+          "name": "PUNE-MAJN WE",
+          "from": "KUDL",
+          "to": "THVM",
+          "departure": "04:10:00",
+          "arrival": "04:08:00",
+          "distance": 557.0,
+          "duration_min": 54.0,
+          "wait_min": 414.0,
+          "cost": 1771
+        },
+        {
+          "type": "train",
+          "segment_id": "22629_1",
+          "name": "DADAR TEN EX",
+          "from": "THVM",
+          "to": "MAO",
+          "departure": "05:22:00",
+          "arrival": "05:20:00",
+          "distance": 535.0,
+          "duration_min": 58.0,
+          "wait_min": 74.0,
+          "cost": 1705
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_026",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 813.0,
+        "cost": 7188,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 80,
+        "distance": 2296.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "128_1",
+          "name": "MAO-KOP SPEC",
+          "from": "SWV",
+          "to": "KUDL",
+          "departure": "21:18:00",
+          "arrival": "21:16:00",
+          "distance": 83.0,
+          "duration_min": 20.0,
+          "wait_min": 0,
+          "cost": 349
+        },
+        {
+          "type": "train",
+          "segment_id": "12620_1",
+          "name": "MATSYAGANDA",
+          "from": "KUDL",
+          "to": "RN",
+          "departure": "22:18:00",
+          "arrival": "22:16:00",
+          "distance": 421.0,
+          "duration_min": 127.0,
+          "wait_min": 62.0,
+          "cost": 1363
+        },
+        {
+          "type": "train",
+          "segment_id": "6412_1",
+          "name": "DSJ-PAY EZHI",
+          "from": "RN",
+          "to": "MAO",
+          "departure": "02:05:00",
+          "arrival": "02:00:00",
+          "distance": 1792.0,
+          "duration_min": 375.0,
+          "wait_min": 229.0,
+          "cost": 5476
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_027",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 658.0,
+        "cost": 2817,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 80,
+        "distance": 839.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "128_1",
+          "name": "MAO-KOP SPEC",
+          "from": "SWV",
+          "to": "KUDL",
+          "departure": "21:18:00",
+          "arrival": "21:16:00",
+          "distance": 83.0,
+          "duration_min": 20.0,
+          "wait_min": 0,
+          "cost": 349
+        },
+        {
+          "type": "train",
+          "segment_id": "12620_1",
+          "name": "MATSYAGANDA",
+          "from": "KUDL",
+          "to": "RN",
+          "departure": "22:18:00",
+          "arrival": "22:16:00",
+          "distance": 421.0,
+          "duration_min": 127.0,
+          "wait_min": 62.0,
+          "cost": 1363
+        },
+        {
+          "type": "train",
+          "segment_id": "12223_1",
+          "name": "LTT-ERS DURO",
+          "from": "RN",
+          "to": "MAO",
+          "departure": "02:00:00",
+          "arrival": "01:55:00",
+          "distance": 335.0,
+          "duration_min": 225.0,
+          "wait_min": 224.0,
+          "cost": 1105
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_028",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 448.0,
+        "cost": 6816,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 80,
+        "distance": 2172.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "128_1",
+          "name": "MAO-KOP SPEC",
+          "from": "SWV",
+          "to": "KUDL",
+          "departure": "21:18:00",
+          "arrival": "21:16:00",
+          "distance": 83.0,
+          "duration_min": 20.0,
+          "wait_min": 0,
+          "cost": 349
+        },
+        {
+          "type": "train",
+          "segment_id": "12620_1",
+          "name": "MATSYAGANDA",
+          "from": "KUDL",
+          "to": "RN",
+          "departure": "22:18:00",
+          "arrival": "22:16:00",
+          "distance": 421.0,
+          "duration_min": 127.0,
+          "wait_min": 62.0,
+          "cost": 1363
+        },
+        {
+          "type": "train",
+          "segment_id": "12284_1",
+          "name": "NZM-ERS DURO",
+          "from": "RN",
+          "to": "MAO",
+          "departure": "23:05:00",
+          "arrival": "23:00:00",
+          "distance": 1668.0,
+          "duration_min": 190.0,
+          "wait_min": 49.0,
+          "cost": 5104
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_029",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 992.0000000000001,
+        "cost": 4776,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 80,
+        "distance": 1492.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "128_1",
+          "name": "MAO-KOP SPEC",
+          "from": "SWV",
+          "to": "KUDL",
+          "departure": "21:18:00",
+          "arrival": "21:16:00",
+          "distance": 83.0,
+          "duration_min": 20.0,
+          "wait_min": 0,
+          "cost": 349
+        },
+        {
+          "type": "train",
+          "segment_id": "16333_1",
+          "name": "VRL TVC EXPR",
+          "from": "KUDL",
+          "to": "KRMI",
+          "departure": "04:52:00",
+          "arrival": "04:50:00",
+          "distance": 1360.0,
+          "duration_min": 76.0,
+          "wait_min": 456.0,
+          "cost": 4180
+        },
+        {
+          "type": "train",
+          "segment_id": "107_1",
+          "name": "SWV-MAO-VLNK",
+          "from": "KRMI",
+          "to": "MAO",
+          "departure": "11:30:00",
+          "arrival": "11:28:00",
+          "distance": 49.0,
+          "duration_min": 40.0,
+          "wait_min": 400.0,
+          "cost": 247
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_030",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 907.0,
+        "cost": 6312,
+        "transfers": 2,
+        "seat_prob": 66.66666666666666,
+        "safety_score": 80,
+        "distance": 2004.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "128_1",
+          "name": "MAO-KOP SPEC",
+          "from": "SWV",
+          "to": "KUDL",
+          "departure": "21:18:00",
+          "arrival": "21:16:00",
+          "distance": 83.0,
+          "duration_min": 20.0,
+          "wait_min": 0,
+          "cost": 349
+        },
+        {
+          "type": "train",
+          "segment_id": "16333_1",
+          "name": "VRL TVC EXPR",
+          "from": "KUDL",
+          "to": "KRMI",
+          "departure": "04:52:00",
+          "arrival": "04:50:00",
+          "distance": 1360.0,
+          "duration_min": 76.0,
+          "wait_min": 456.0,
+          "cost": 4180
+        },
+        {
+          "type": "train",
+          "segment_id": "10111_1",
+          "name": "KONKAN KANYA",
+          "from": "KRMI",
+          "to": "MAO",
+          "departure": "09:28:00",
+          "arrival": "09:27:00",
+          "distance": 561.0,
+          "duration_min": 77.0,
+          "wait_min": 278.0,
+          "cost": 1783
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_031",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 627.0000000000001,
+        "cost": 8922,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 80,
+        "distance": 2874.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "128_1",
+          "name": "MAO-KOP SPEC",
+          "from": "SWV",
+          "to": "KUDL",
+          "departure": "21:18:00",
+          "arrival": "21:16:00",
+          "distance": 83.0,
+          "duration_min": 20.0,
+          "wait_min": 0,
+          "cost": 349
+        },
+        {
+          "type": "train",
+          "segment_id": "16333_1",
+          "name": "VRL TVC EXPR",
+          "from": "KUDL",
+          "to": "KRMI",
+          "departure": "04:52:00",
+          "arrival": "04:50:00",
+          "distance": 1360.0,
+          "duration_min": 76.0,
+          "wait_min": 456.0,
+          "cost": 4180
+        },
+        {
+          "type": "train",
+          "segment_id": "16333_1",
+          "name": "VRL TVC EXPR",
+          "from": "KRMI",
+          "to": "MAO",
+          "departure": "06:10:00",
+          "arrival": "06:08:00",
+          "distance": 1431.0,
+          "duration_min": 75.0,
+          "wait_min": 0,
+          "cost": 4393
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_032",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 572.0000000000001,
+        "cost": 4832,
+        "transfers": 4,
+        "seat_prob": 100.0,
+        "safety_score": 60,
+        "distance": 1444.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "12201_1",
+          "name": "KCVL GARIB R",
+          "from": "SWV",
+          "to": "KRMI",
+          "departure": "01:00:00",
+          "arrival": "00:58:00",
+          "distance": 495.0,
+          "duration_min": 38.0,
+          "wait_min": 0,
+          "cost": 1585
+        },
+        {
+          "type": "train",
+          "segment_id": "50101_1",
+          "name": "RATNAGIRI- M",
+          "from": "KRMI",
+          "to": "VEN",
+          "departure": "08:31:00",
+          "arrival": "08:30:00",
+          "distance": 222.0,
+          "duration_min": 9.0,
+          "wait_min": 453.0,
+          "cost": 766
+        },
+        {
+          "type": "train",
+          "segment_id": "50101_1",
+          "name": "RATNAGIRI- M",
+          "from": "VEN",
+          "to": "MJO",
+          "departure": "08:41:00",
+          "arrival": "08:40:00",
+          "distance": 238.0,
+          "duration_min": 9.0,
+          "wait_min": 0,
+          "cost": 814
+        },
+        {
+          "type": "train",
+          "segment_id": "50101_1",
+          "name": "RATNAGIRI- M",
+          "from": "MJO",
+          "to": "SRVX",
+          "departure": "08:51:00",
+          "arrival": "08:50:00",
+          "distance": 243.0,
+          "duration_min": 5.0,
+          "wait_min": 0,
+          "cost": 829
+        },
+        {
+          "type": "train",
+          "segment_id": "50101_1",
+          "name": "RATNAGIRI- M",
+          "from": "SRVX",
+          "to": "MAO",
+          "departure": "08:57:00",
+          "arrival": "08:56:00",
+          "distance": 246.0,
+          "duration_min": 58.0,
+          "wait_min": 0,
+          "cost": 838
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_033",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 810.0000000000001,
+        "cost": 4154,
+        "transfers": 4,
+        "seat_prob": 100.0,
+        "safety_score": 60,
+        "distance": 1218.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "12201_1",
+          "name": "KCVL GARIB R",
+          "from": "SWV",
+          "to": "KRMI",
+          "departure": "01:00:00",
+          "arrival": "00:58:00",
+          "distance": 495.0,
+          "duration_min": 38.0,
+          "wait_min": 0,
+          "cost": 1585
+        },
+        {
+          "type": "train",
+          "segment_id": "50101_1",
+          "name": "RATNAGIRI- M",
+          "from": "KRMI",
+          "to": "VEN",
+          "departure": "08:31:00",
+          "arrival": "08:30:00",
+          "distance": 222.0,
+          "duration_min": 9.0,
+          "wait_min": 453.0,
+          "cost": 766
+        },
+        {
+          "type": "train",
+          "segment_id": "50101_1",
+          "name": "RATNAGIRI- M",
+          "from": "VEN",
+          "to": "MJO",
+          "departure": "08:41:00",
+          "arrival": "08:40:00",
+          "distance": 238.0,
+          "duration_min": 9.0,
+          "wait_min": 0,
+          "cost": 814
+        },
+        {
+          "type": "train",
+          "segment_id": "50101_1",
+          "name": "RATNAGIRI- M",
+          "from": "MJO",
+          "to": "SRVX",
+          "departure": "08:51:00",
+          "arrival": "08:50:00",
+          "distance": 243.0,
+          "duration_min": 5.0,
+          "wait_min": 0,
+          "cost": 829
+        },
+        {
+          "type": "train",
+          "segment_id": "56964_1",
+          "name": "VSG-QLM",
+          "from": "SRVX",
+          "to": "MAO",
+          "departure": "13:38:00",
+          "arrival": "13:37:00",
+          "distance": 20.0,
+          "duration_min": 8.0,
+          "wait_min": 288.0,
+          "cost": 160
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_034",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 669.0000000000001,
+        "cost": 4250,
+        "transfers": 4,
+        "seat_prob": 100.0,
+        "safety_score": 60,
+        "distance": 1250.0
+      },
+      "segments": [
+        {
+          "type": "train",
+          "segment_id": "12201_1",
+          "name": "KCVL GARIB R",
+          "from": "SWV",
+          "to": "KRMI",
+          "departure": "01:00:00",
+          "arrival": "00:58:00",
+          "distance": 495.0,
+          "duration_min": 38.0,
+          "wait_min": 0,
+          "cost": 1585
+        },
+        {
+          "type": "train",
+          "segment_id": "50101_1",
+          "name": "RATNAGIRI- M",
+          "from": "KRMI",
+          "to": "VEN",
+          "departure": "08:31:00",
+          "arrival": "08:30:00",
+          "distance": 222.0,
+          "duration_min": 9.0,
+          "wait_min": 453.0,
+          "cost": 766
+        },
+        {
+          "type": "train",
+          "segment_id": "50101_1",
+          "name": "RATNAGIRI- M",
+          "from": "VEN",
+          "to": "MJO",
+          "departure": "08:41:00",
+          "arrival": "08:40:00",
+          "distance": 238.0,
+          "duration_min": 9.0,
+          "wait_min": 0,
+          "cost": 814
+        },
+        {
+          "type": "train",
+          "segment_id": "50101_1",
+          "name": "RATNAGIRI- M",
+          "from": "MJO",
+          "to": "SRVX",
+          "departure": "08:51:00",
+          "arrival": "08:50:00",
+          "distance": 243.0,
+          "duration_min": 5.0,
+          "wait_min": 0,
+          "cost": 829
+        },
+        {
+          "type": "train",
+          "segment_id": "70103_1",
+          "name": "PERN-MAO-KAW",
+          "from": "SRVX",
+          "to": "MAO",
+          "departure": "10:47:00",
+          "arrival": "10:46:00",
+          "distance": 52.0,
+          "duration_min": 38.0,
+          "wait_min": 117.0,
+          "cost": 256
+        }
+      ]
+    }
+  ]
+}

@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 import json
 from collections import deque
 
-class ParetoTrainRouter:
+class ParetoRouteOptimizer:
     """
     Advanced train routing with Pareto-Optimal multi-objective optimization
     Combines O(E log V) Dijkstra with Pareto frontier analysis
@@ -14,100 +14,66 @@ class ParetoTrainRouter:
     
     def __init__(self, df):
         self.df = df
-        self.station_to_id = {}
-        self.id_to_station = {}
+        self.location_to_id = {}
+        self.id_to_location = {}
         self.graph = defaultdict(list)
-        self.train_info = {}
+        self.segment_info = {}
         self._build_sparse_graph()
     
     def _build_sparse_graph(self):
-        """Build sparse graph with O(n) edges"""
-        print("Building optimized sparse graph...")
+        """Build sparse graph from the unified dataset."""
+        print("Building optimized sparse graph for multimodal routes...")
         
-        unique_stations = self.df['Station Code'].unique()
-        for idx, station in enumerate(unique_stations):
-            self.station_to_id[station] = idx
-            self.id_to_station[idx] = station
+        # Get all unique locations (stations and airports)
+        all_locations = pd.concat([self.df['origin'], self.df['destination']]).unique()
+        for idx, location in enumerate(all_locations):
+            if location is None: continue
+            self.location_to_id[location] = idx
+            self.id_to_location[idx] = location
         
-        grouped = self.df.groupby('Train No')
         edge_count = 0
         
-        for train_no, train_df in grouped:
-            train_df = train_df.sort_values('SEQ').reset_index(drop=True)
+        for _, segment in self.df.iterrows():
+            if segment['origin'] not in self.location_to_id or segment['destination'] not in self.location_to_id:
+                continue
+
+            from_id = self.location_to_id[segment['origin']]
+            to_id = self.location_to_id[segment['destination']]
             
-            self.train_info[train_no] = {
-                'name': train_df.iloc[0]['Train Name'],
-                'source': train_df.iloc[0]['Source Station'],
-                'destination': train_df.iloc[0]['Destination Station'],
-                'stations': []
+            # Store segment info
+            segment_id = segment['unique_id']
+            if segment_id not in self.segment_info:
+                 self.segment_info[segment_id] = {
+                    'type': segment['type'],
+                    'name': segment.get('train_name', 'N/A') if segment['type'] == 'train' else segment.get('airline', 'N/A')
+                 }
+
+
+            edge = {
+                'to_id': to_id,
+                'segment_id': segment_id,
+                'departure': segment['departure_time'],
+                'arrival': segment['arrival_time'],
+                'distance': segment['distance_km'],
+                'duration': segment['duration_minutes'] / 60 if segment['duration_minutes'] else 0, # in hours
+                'cost': segment['cost_inr'],
+                'seat_available': segment['Seat Availability']
             }
             
-            for i in range(len(train_df) - 1):
-                curr_row = train_df.iloc[i]
-                next_row = train_df.iloc[i + 1]
-                
-                from_id = self.station_to_id[curr_row['Station Code']]
-                to_id = self.station_to_id[next_row['Station Code']]
-                
-                distance = abs(float(next_row['Distance']) - float(curr_row['Distance']))
-                duration = self._calculate_duration(distance)
-                
-                station_info = {
-                    'station': curr_row['Station Code'],
-                    'seq': int(curr_row['SEQ']),
-                    'arrival': curr_row['Arrival time'],
-                    'departure': curr_row['Departure Time'],
-                    'distance': float(curr_row['Distance'])
-                }
-                self.train_info[train_no]['stations'].append(station_info)
-                
-                edge = {
-                    'to_id': to_id,
-                    'train_no': train_no,
-                    'departure': curr_row['Departure Time'],
-                    'arrival': next_row['Arrival time'],
-                    'distance': distance,
-                    'duration': duration,
-                    'from_seq': int(curr_row['SEQ']),
-                    'to_seq': int(next_row['SEQ']),
-                    'seat_available': curr_row['Seat Availability']
-                }
-                
-                self.graph[from_id].append(edge)
-                edge_count += 1
-            
-            last_row = train_df.iloc[-1]
-            self.train_info[train_no]['stations'].append({
-                'station': last_row['Station Code'],
-                'seq': int(last_row['SEQ']),
-                'arrival': last_row['Arrival time'],
-                'departure': last_row['Departure Time'],
-                'distance': float(last_row['Distance'])
-            })
+            self.graph[from_id].append(edge)
+            edge_count += 1
         
-        print(f"✓ Graph built: {len(self.station_to_id)} stations, {edge_count} edges")
+        print(f"✓ Graph built: {len(self.location_to_id)} locations, {edge_count} edges")
     
-    def find_direct_trains(self, source, destination):
-        """Find all direct trains"""
-        direct_trains = []
-        
-        for train_no, info in self.train_info.items():
-            stations = [s['station'] for s in info['stations']]
-            if source in stations and destination in stations:
-                src_idx = stations.index(source)
-                dst_idx = stations.index(destination)
-                if dst_idx > src_idx:
-                    direct_trains.append(train_no)
-        
-        return direct_trains
+
     
     def generate_all_routes(self, source, destination, max_transfers=3):
         """
         Generate comprehensive route set using multi-strategy search
         Returns: List of all feasible routes (200-300 routes)
         """
-        source_id = self.station_to_id[source]
-        dest_id = self.station_to_id[destination]
+        source_id = self.location_to_id[source]
+        dest_id = self.location_to_id[destination]
         
         all_routes = []
         
@@ -137,19 +103,20 @@ class ParetoTrainRouter:
         return self._deduplicate_routes(all_routes)
     
     def _find_direct_routes(self, source_id, dest_id):
-        """Find all direct train routes"""
+        """Find all direct routes"""
         routes = []
         
         for edge in self.graph[source_id]:
             if edge['to_id'] == dest_id:
                 path = [{
-                    'train_no': edge['train_no'],
-                    'from': self.id_to_station[source_id],
-                    'to': self.id_to_station[dest_id],
+                    'segment_id': edge['segment_id'],
+                    'from': self.id_to_location[source_id],
+                    'to': self.id_to_location[dest_id],
                     'departure': edge['departure'],
                     'arrival': edge['arrival'],
                     'distance': edge['distance'],
                     'duration': edge['duration'],
+                    'cost': edge['cost'],
                     'wait_before': 0,
                     'seat_available': edge['seat_available']
                 }]
@@ -158,11 +125,11 @@ class ParetoTrainRouter:
         return routes
     
     def _find_single_transfer_routes(self, source_id, dest_id, max_routes=100):
-        """Find routes with exactly 1 transfer via major junctions"""
+        """Find routes with exactly 1 transfer"""
         routes = []
         visited_junctions = set()
         
-        # Find intermediate stations (junctions)
+        # Find intermediate locations (junctions)
         for edge1 in self.graph[source_id]:
             junction_id = edge1['to_id']
             
@@ -173,32 +140,36 @@ class ParetoTrainRouter:
             # Find connections from junction to destination
             for edge2 in self.graph[junction_id]:
                 if edge2['to_id'] == dest_id:
-                    # Check if different trains
-                    if edge1['train_no'] != edge2['train_no']:
+                    # Check if different segments
+                    if edge1['segment_id'] != edge2['segment_id']:
                         wait_time = self._calculate_wait_time(edge1['arrival'], edge2['departure'])
+                        
+                        # TODO: Add more sophisticated transfer penalty, e.g., based on location type (airport vs station)
                         
                         # Realistic transfer time: 30 min to 8 hours
                         if 0.5 <= wait_time <= 8:
                             path = [
                                 {
-                                    'train_no': edge1['train_no'],
-                                    'from': self.id_to_station[source_id],
-                                    'to': self.id_to_station[junction_id],
+                                    'segment_id': edge1['segment_id'],
+                                    'from': self.id_to_location[source_id],
+                                    'to': self.id_to_location[junction_id],
                                     'departure': edge1['departure'],
                                     'arrival': edge1['arrival'],
                                     'distance': edge1['distance'],
                                     'duration': edge1['duration'],
+                                    'cost': edge1['cost'],
                                     'wait_before': 0,
                                     'seat_available': edge1['seat_available']
                                 },
                                 {
-                                    'train_no': edge2['train_no'],
-                                    'from': self.id_to_station[junction_id],
-                                    'to': self.id_to_station[dest_id],
+                                    'segment_id': edge2['segment_id'],
+                                    'from': self.id_to_location[junction_id],
+                                    'to': self.id_to_location[dest_id],
                                     'departure': edge2['departure'],
                                     'arrival': edge2['arrival'],
                                     'distance': edge2['distance'],
                                     'duration': edge2['duration'],
+                                    'cost': edge2['cost'],
                                     'wait_before': wait_time,
                                     'seat_available': edge2['seat_available']
                                 }
@@ -224,7 +195,7 @@ class ParetoTrainRouter:
                 routes.append(path[:])
                 continue
             
-            if transfers >= max_transfers or total_dist > 3000:
+            if transfers >= max_transfers or total_dist > 5000: # Increased distance for flights
                 continue
             
             state = (current_id, transfers)
@@ -239,28 +210,29 @@ class ParetoTrainRouter:
                 is_transfer = False
                 
                 if path:
-                    last_train = path[-1]['train_no']
-                    if last_train != edge['train_no']:
+                    last_segment_id = path[-1]['segment_id']
+                    if last_segment_id != edge['segment_id']:
                         is_transfer = True
                         wait_time = self._calculate_wait_time(path[-1]['arrival'], edge['departure'])
                         if wait_time < 0.5 or wait_time > 8:
                             continue
                 
                 new_segment = {
-                    'train_no': edge['train_no'],
-                    'from': self.id_to_station[current_id],
-                    'to': self.id_to_station[next_id],
+                    'segment_id': edge['segment_id'],
+                    'from': self.id_to_location[current_id],
+                    'to': self.id_to_location[next_id],
                     'departure': edge['departure'],
                     'arrival': edge['arrival'],
                     'distance': edge['distance'],
                     'duration': edge['duration'],
+                    'cost': edge['cost'],
                     'wait_before': wait_time,
                     'seat_available': edge['seat_available']
                 }
                 
                 new_path = path + [new_segment]
                 new_transfers = transfers + (1 if is_transfer else 0)
-                new_dist = total_dist + edge['distance']
+                new_dist = total_dist + (edge['distance'] if edge['distance'] is not None else 0)
                 
                 queue.append((next_id, new_path, new_transfers, new_dist))
         
@@ -274,9 +246,8 @@ class ParetoTrainRouter:
         # Objective 1: Total journey time (minimize)
         total_time = sum(seg['duration'] + seg['wait_before'] for seg in path)
         
-        # Objective 2: Total cost (minimize) - ₹1 per km
-        total_distance = sum(seg['distance'] for seg in path)
-        total_cost = total_distance * 1.0
+        # Objective 2: Total cost (minimize)
+        total_cost = sum(seg['cost'] for seg in path if seg['cost'] is not None)
         
         # Objective 3: Number of transfers (minimize)
         transfers = len(path) - 1
@@ -286,17 +257,13 @@ class ParetoTrainRouter:
         seat_prob = np.mean([seg['seat_available'] for seg in path]) * 100
         
         # Objective 5: Safety score (maximize)
-        # Based on: fewer transfers = safer, direct trains = safer
+        # Based on: fewer transfers = safer
         base_safety = 100
-        transfer_penalty = transfers * 5  # -5 points per transfer
-        safety_score = max(base_safety - transfer_penalty, 50)
+        transfer_penalty = transfers * 10  # -10 points per transfer
+        safety_score = max(base_safety - transfer_penalty, 40)
         
-        # Add bonus for popular express trains (train numbers < 15000)
-        for seg in path:
-            if int(seg['train_no']) < 15000:
-                safety_score = min(safety_score + 5, 100)
-                break
-        
+        total_distance = sum(seg['distance'] for seg in path if seg['distance'] is not None)
+
         return {
             'time': total_time * 60,  # Convert to minutes
             'cost': total_cost,
@@ -376,7 +343,26 @@ class ParetoTrainRouter:
     
     def _get_route_fingerprint(self, route):
         """Generate a unique, hashable fingerprint for a route."""
-        return tuple(segment['train_no'] for segment in route)
+        return tuple(segment['segment_id'] for segment in route)
+    
+    def _get_route_type(self, route):
+        has_train = False
+        has_flight = False
+        for segment in route:
+            segment_info = self.segment_info[segment['segment_id']]
+            if segment_info['type'] == 'train':
+                has_train = True
+            elif segment_info['type'] == 'flight':
+                has_flight = True
+        
+        if has_train and has_flight:
+            return "Train-Flight"
+        elif has_train:
+            return "Train Only"
+        elif has_flight:
+            return "Flight Only"
+        else:
+            return "Unknown" # Should not happen
     
     def _deduplicate_routes(self, routes):
         """Removes duplicate routes based on their fingerprint."""
@@ -398,13 +384,18 @@ class ParetoTrainRouter:
         """
         print(f"\n🏆 Phase 3: Selecting diverse optimal routes with quotas...")
         
-        if len(pareto_front) == 0:
+        if not pareto_front:
             return [], []
         
+        # Add route_type to each pareto_front entry
+        for route_data in pareto_front:
+            route_data['route_type'] = self._get_route_type(route_data['route'])
+
         # --- Configuration for quotas ---
         N_FAST = 10
         N_CHEAP = 5
         N_BALANCED = 7
+        N_MULTIMODAL = 3 # New quota for multimodal routes
         # --------------------------------
         
         # Maps fingerprint to (route_data, category) - ensures unique physical routes
@@ -416,6 +407,9 @@ class ParetoTrainRouter:
         sorted_by_transfers = sorted(pareto_front, key=lambda x: x['objectives']['transfers'])
         sorted_by_seats = sorted(pareto_front, key=lambda x: x['objectives']['seat_prob'], reverse=True)
         sorted_by_safety = sorted(pareto_front, key=lambda x: x['objectives']['safety_score'], reverse=True)
+        # Filter multimodal routes
+        multimodal_routes = [r for r in pareto_front if r['route_type'] == 'Train-Flight']
+        sorted_by_multimodal = sorted(multimodal_routes, key=lambda x: x['objectives']['time'])
         
         # Helper to add/update route in final_selections based on priority
         def add_or_update_route(route_data, category, priority):
@@ -437,8 +431,9 @@ class ParetoTrainRouter:
         if sorted_by_transfers: add_or_update_route(sorted_by_transfers[0], 'MOST DIRECT 🚂', current_priority); current_priority -= 1
         if sorted_by_seats: add_or_update_route(sorted_by_seats[0], 'BEST SEATS 💺', current_priority); current_priority -= 1
         if sorted_by_safety: add_or_update_route(sorted_by_safety[0], 'SAFEST 🛡️', current_priority); current_priority -= 1
+        if sorted_by_multimodal and len(sorted_by_multimodal) > 0: add_or_update_route(sorted_by_multimodal[0], 'BEST MULTIMODAL ✈️+🚂', current_priority); current_priority -= 1
 
-        # STEP 2: Fill quotas for specific categories (Fast, Cheap, Balanced)
+        # STEP 2: Fill quotas for specific categories (Fast, Cheap, Balanced, Multimodal)
         print("  → Filling quotas for specific categories...")
         # Fast routes
         fast_count = 0
@@ -475,7 +470,7 @@ class ParetoTrainRouter:
             min_cost = min(costs) if costs else 0
             max_cost = max(costs) if costs else 0
             min_transfers = min(transfers_list) if transfers_list else 0
-            max_transfers = max(transfers_list) if transfers_list else 0
+            max_transfers_val = max(transfers_list) if transfers_list else 0
             min_seats = min(seats) if seats else 0
             max_seats = max(seats) if seats else 0
             min_safety = min(safety) if safety else 0
@@ -483,7 +478,7 @@ class ParetoTrainRouter:
 
             time_range = max_time - min_time + 0.001
             cost_range = max_cost - min_cost + 0.001
-            transfers_range = max_transfers - min_transfers + 0.001
+            transfers_range = max_transfers_val - min_transfers + 0.001
             seats_range = max_seats - min_seats + 0.001
             safety_range = max_safety - min_safety + 0.001
             
@@ -492,7 +487,7 @@ class ParetoTrainRouter:
                 route_data['balanced_score'] = (
                     ((max_time - obj['time']) / time_range) * 0.25 +
                     ((max_cost - obj['cost']) / cost_range) * 0.25 +
-                    ((max_transfers - obj['transfers']) / transfers_range) * 0.20 +
+                    ((max_transfers_val - obj['transfers']) / transfers_range) * 0.20 +
                     ((obj['seat_prob'] - min_seats) / seats_range) * 0.15 +
                     ((obj['safety_score'] - min_safety) / safety_range) * 0.15
                 )
@@ -505,6 +500,16 @@ class ParetoTrainRouter:
                     balanced_count += 1
                 if balanced_count >= N_BALANCED:
                     break
+
+        # Multimodal routes
+        multimodal_count = 0
+        for i, route_data in enumerate(sorted_by_multimodal):
+            fingerprint = self._get_route_fingerprint(route_data['route'])
+            if fingerprint not in final_selections or final_selections[fingerprint]['category'].startswith('OPTIMAL ALTERNATIVE'):
+                add_or_update_route(route_data, f'MULTIMODAL #{multimodal_count + 1} ✈️+🚂', current_priority); current_priority -= 1
+                multimodal_count += 1
+            if multimodal_count >= N_MULTIMODAL:
+                break
         
         # STEP 3: Add remaining Pareto-optimal routes as "Optimal Alternative"
         print("  → Adding remaining Pareto-optimal routes as Optimal Alternatives...")
@@ -516,22 +521,17 @@ class ParetoTrainRouter:
         # Convert dictionary back to lists (maintaining consistent order from original pareto_front)
         final_selected_routes = []
         final_categories = []
-        for route_data_original in pareto_front: # Use original order of pareto_front
-            fingerprint = self._get_route_fingerprint(route_data_original['route'])
-            if fingerprint in final_selections:
-                # Ensure we pick the route_data that came from pareto_front (not intermediate sorted list)
-                final_selected_routes.append(final_selections[fingerprint]['route_data'])
-                final_categories.append(final_selections[fingerprint]['category'])
-                del final_selections[fingerprint] # Remove to ensure each is processed once
+        
+        # Sort final selections by priority to ensure consistent output order
+        sorted_final_selections = sorted(final_selections.values(), key=lambda x: x['priority'], reverse=True)
 
-        # Add any remaining in final_selections that might have been missed (shouldn't happen with above logic)
-        for selection_data in final_selections.values():
+        for selection_data in sorted_final_selections:
             final_selected_routes.append(selection_data['route_data'])
             final_categories.append(selection_data['category'])
 
         print(f"✓ Selected {len(final_selected_routes)} optimal routes for comparison")
-        return final_selected_routes, final_categories        
-        return selected_routes, categories    
+        return final_selected_routes, final_categories    
+    
     def _calculate_duration(self, distance):
         """Calculate realistic travel duration"""
         if distance > 1800:
@@ -568,20 +568,22 @@ class ParetoTrainRouter:
 def get_routes_data(source, destination, max_transfers):
     # Load data
     try:
-        df = pd.read_csv('Train_details.csv')
-        df = df[df['Train No'].astype(str).str.len() == 5].copy()
+        with open('unified_routes.json', 'r') as f:
+            data = json.load(f)
+        df = pd.DataFrame(data)
+        # df = df[df['Train No'].astype(str).str.len() == 5].copy()
         df['Seat Availability'] = np.random.choice([0, 1], size=len(df), p=[0.2, 0.8])
     except FileNotFoundError:
-        return {"error": "Could not find 'Train_details.csv'."}, None
+        return {"error": "Could not find 'unified_routes.json'."}, None
     except Exception as e:
         return {"error": str(e)}, None
 
     # Initialize router
-    router = ParetoTrainRouter(df)
+    router = ParetoRouteOptimizer(df)
 
-    if source not in router.station_to_id:
+    if source not in router.location_to_id:
         return {"error": f"Station '{source}' not found."}, router
-    if destination not in router.station_to_id:
+    if destination not in router.location_to_id:
         return {"error": f"Station '{destination}' not found."}, router
     if source == destination:
         return {"error": "Origin and destination must be different."}, router
@@ -613,8 +615,8 @@ def main():
     print("="*80)
 
     # Get user input
-    source = input("Enter origin station code (e.g., PGT, CSMT): ").strip().upper()
-    destination = input("Enter destination station code (e.g., KOTA, NGP): ").strip().upper()
+    source = input("Enter origin station/airport code (e.g., JP, DEL): ").strip().upper()
+    destination = input("Enter destination station/airport code (e.g., KOTA, BLR): ").strip().upper()
     
     while True:
         try:
@@ -624,7 +626,7 @@ def main():
             print("Please enter 0-3")
         except ValueError:
             print("Invalid input")
-
+    
     print("\n" + "="*80)
     print("STARTING PARETO OPTIMIZATION PIPELINE")
     print("="*80)
@@ -643,7 +645,7 @@ def main():
 
     print("\n📊 QUICK COMPARISON TABLE")
     print("-" * 80)
-    print(f"{'Route':<8} {'Category':<20} {'Time':<10} {'Cost':<8} {'Transfer':<9} {'Seats':<8} {'Safety':<7}")
+    print(f"{ 'Route':<8} {'Category':<20} {'Time':<10} {'Cost':<8} {'Transfer':<9} {'Seats':<8} {'Safety':<7}")
     print("-" * 80)
 
     if router:
@@ -666,20 +668,22 @@ def save_all_routes(router, all_routes, source, destination):
     csv_rows = []
     for idx, route in enumerate(all_routes, 1):
         for seg_num, segment in enumerate(route, 1):
-            train_name = router.train_info[segment['train_no']]['name']
+            segment_info = router.segment_info[segment['segment_id']]
             
             csv_rows.append({
                 'Route ID': f"ROUTE_{idx:02d}",
                 'Segment': seg_num,
-                'Train Number': segment['train_no'],
-                'Train Name': train_name,
+                'Type': segment_info['type'],
+                'Segment ID': segment['segment_id'],
+                'Name': segment_info['name'],
                 'From': segment['from'],
                 'To': segment['to'],
                 'Departure': segment['departure'],
                 'Arrival': segment['arrival'],
-                'Distance (km)': round(segment['distance'], 2),
+                'Distance (km)': round(segment['distance'], 2) if segment['distance'] is not None else 0,
                 'Duration': router.format_duration(segment['duration'] * 60),
-                'Wait Before': router.format_duration(segment['wait_before'] * 60)
+                'Wait Before': router.format_duration(segment['wait_before'] * 60),
+                'Cost': segment['cost']
             })
 
     # Save CSV
@@ -688,8 +692,7 @@ def save_all_routes(router, all_routes, source, destination):
     print(f"✓ All routes saved successfully.")
 
 
-def save_results(router, optimal_routes, categories, csv_file, json_file,
-                 all_routes, pareto_front, source, destination):
+def save_results(router, optimal_routes, categories, csv_file, json_file, all_routes, pareto_front, source, destination):
     """Save optimization results to CSV and JSON, and return JSON data"""
 
     # Prepare CSV data
@@ -718,21 +721,23 @@ def save_results(router, optimal_routes, categories, csv_file, json_file,
         }
 
         for seg_num, segment in enumerate(route, 1):
-            train_name = router.train_info[segment['train_no']]['name']
-
+            segment_info = router.segment_info[segment['segment_id']]
+            
             csv_rows.append({
                 'Route ID': f"OPT_ROUTE_{idx:02d}",
                 'Category': category,
                 'Segment': seg_num,
-                'Train Number': segment['train_no'],
-                'Train Name': train_name,
+                'Type': segment_info['type'],
+                'Segment ID': segment['segment_id'],
+                'Name': segment_info['name'],
                 'From': segment['from'],
                 'To': segment['to'],
                 'Departure': segment['departure'],
                 'Arrival': segment['arrival'],
-                'Distance (km)': round(segment['distance'], 2),
+                'Distance (km)': round(segment['distance'], 2) if segment['distance'] is not None else 0,
                 'Duration': router.format_duration(segment['duration'] * 60),
                 'Wait Before': router.format_duration(segment['wait_before'] * 60),
+                'Cost': segment['cost'],
                 'Seat Available': segment['seat_available'],
                 'Total Time (min)': round(obj['time'], 2),
                 'Total Cost (₹)': round(obj['cost'], 2),
@@ -742,60 +747,111 @@ def save_results(router, optimal_routes, categories, csv_file, json_file,
             })
 
             route_json['segments'].append({
-                'train_no': segment['train_no'],
-                'train_name': train_name,
+                'type': segment_info['type'],
+                'segment_id': segment['segment_id'],
+                'name': segment_info['name'],
                 'from': segment['from'],
                 'to': segment['to'],
                 'departure': segment['departure'],
                 'arrival': segment['arrival'],
-                'distance': round(segment['distance'], 2),
+                'distance': round(segment['distance'], 2) if segment['distance'] is not None else 0,
                 'duration_min': round(segment['duration'] * 60, 2),
-                'wait_min': round(segment['wait_before'] * 60, 2)
+                'wait_min': round(segment['wait_before'] * 60, 2),
+                'cost': segment['cost']
             })
 
         json_data['optimal_routes'].append(route_json) # Append to optimal_routes
     
     # Process all generated routes for JSON output
-    for idx, route in enumerate(all_routes, 1):
+    # Categorize and sort all generated routes
+    categorized_all_routes = []
+    for route in all_routes:
         obj = router.calculate_route_objectives(route)
-        
-        num_transfers = len(route) - 1
-        if num_transfers == 0:
-            category = "Direct 🚀"
-        elif num_transfers == 1:
-            category = "1 Transfer ↔️"
-        else:
-            category = "Multi-Transfer 🌐"
+        route_type = router._get_route_type(route) # Get the route type
 
         route_json = {
             'route_id': f"ALL_ROUTE_{idx:03d}", # Prefix for all routes
-            'category': category,
+            'category': route_type, # Use the determined route type as category
             'objectives': obj,
             'segments': []
         }
         
         for seg_num, segment in enumerate(route, 1):
-            train_name = router.train_info[segment['train_no']]['name']
+            segment_info = router.segment_info[segment['segment_id']]
             route_json['segments'].append({
-                'train_no': segment['train_no'],
-                'train_name': train_name,
+                'type': segment_info['type'],
+                'segment_id': segment['segment_id'],
+                'name': segment_info['name'],
                 'from': segment['from'],
                 'to': segment['to'],
                 'departure': segment['departure'],
                 'arrival': segment['arrival'],
-                'distance': round(segment['distance'], 2),
+                'distance': round(segment['distance'], 2) if segment['distance'] is not None else 0,
                 'duration_min': round(segment['duration'] * 60, 2),
-                'wait_min': round(segment['wait_before'] * 60, 2)
+                'wait_min': round(segment['wait_before'] * 60, 2),
+                'cost': segment['cost']
             })
-        json_data['all_generated_routes'].append(route_json)
+        categorized_all_routes.append(route_json)
+    
+    # Sort all generated routes by time
+    categorized_all_routes.sort(key=lambda x: x['objectives']['time'])
+    json_data['all_generated_routes'] = categorized_all_routes
 
+    # Sort optimal routes by time and take top 10
+    optimal_routes.sort(key=lambda x: x['objectives']['time'])
+    json_data['optimal_routes'] = [] # Clear existing optimal_routes to re-populate with sorted and limited
+    for idx, route_data in enumerate(optimal_routes[:10], 1): # Take top 10
+        route = route_data['route']
+        obj = route_data['objectives']
 
-    # Save CSV
-    df_out = pd.DataFrame(csv_rows)
-    df_out.to_csv(csv_file, index=False)
+        route_json = {
+            'route_id': f"OPT_ROUTE_{idx:02d}", # Prefix for optimal routes
+            'category': route_data['category'], # Keep the Pareto category
+            'objectives': obj,
+            'segments': []
+        }
 
-    # Save JSON file
-    with open(json_file, 'w') as f:
-        json.dump(json_data, f, indent=2)
+        for seg_num, segment in enumerate(route, 1):
+            segment_info = router.segment_info[segment['segment_id']]
+            
+            # This part is for the CSV output, which will be generated from optimal_routes
+            csv_rows.append({
+                'Route ID': f"OPT_ROUTE_{idx:02d}",
+                'Category': route_data['category'],
+                'Segment': seg_num,
+                'Type': segment_info['type'],
+                'Segment ID': segment['segment_id'],
+                'Name': segment_info['name'],
+                'From': segment['from'],
+                'To': segment['to'],
+                'Departure': segment['departure'],
+                'Arrival': segment['arrival'],
+                'Distance (km)': round(segment['distance'], 2) if segment['distance'] is not None else 0,
+                'Duration': router.format_duration(segment['duration'] * 60),
+                'Wait Before': router.format_duration(segment['wait_before'] * 60),
+                'Cost': segment['cost'],
+                'Seat Available': segment['seat_available'],
+                'Total Time (min)': round(obj['time'], 2),
+                'Total Cost (₹)': round(obj['cost'], 2),
+                'Total Transfers': obj['transfers'],
+                'Seat Probability (%)': round(obj['seat_prob'], 2),
+                'Safety Score': round(obj['safety_score'], 2)
+            })
 
-    return json_data
+            route_json['segments'].append({
+                'type': segment_info['type'],
+                'segment_id': segment['segment_id'],
+                'name': segment_info['name'],
+                'from': segment['from'],
+                'to': segment['to'],
+                'departure': segment['departure'],
+                'arrival': segment['arrival'],
+                'distance': round(segment['distance'], 2) if segment['distance'] is not None else 0,
+                'duration_min': round(segment['duration'] * 60, 2),
+                'wait_min': round(segment['wait_before'] * 60, 2),
+                'cost': segment['cost']
+            })
+        json_data['optimal_routes'].append(route_json) # Append to optimal_routes
+
+if __name__ == '__main__':
+    main()

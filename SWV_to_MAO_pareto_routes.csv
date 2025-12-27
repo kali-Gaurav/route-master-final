@@ -1,0 +1,5 @@
+Route ID,Category,Segment,Type,Segment ID,Name,From,To,Departure,Arrival,Distance (km),Duration,Wait Before,Cost,Seat Available,Total Time (min),Total Cost (₹),Total Transfers,Seat Probability (%),Safety Score
+OPT_ROUTE_01,MOST DIRECT 🚂,1,train,12432_1,NZM-TVC RAJD,SWV,MAO,11:08:00,11:06:00,1828.0,1h 24m,0h 0m,5584,1,84.0,5584,0,100.0,100
+OPT_ROUTE_02,CHEAPEST 💰,1,train,22150_1,PUNE-ERS SF,SWV,MAO,04:00:00,03:58:00,561.0,1h 45m,0h 0m,1783,1,105.0,1783,0,100.0,100
+OPT_ROUTE_03,FASTEST ⚡,1,train,12201_1,KCVL GARIB R,SWV,KRMI,01:00:00,00:58:00,495.0,0h 38m,0h 0m,1585,1,73.0,3320,1,100.0,90
+OPT_ROUTE_03,FASTEST ⚡,2,train,12201_1,KCVL GARIB R,KRMI,MAO,01:40:00,01:38:00,545.0,0h 35m,0h 0m,1735,1,73.0,3320,1,100.0,90
