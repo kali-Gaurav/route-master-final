@@ -81,10 +81,10 @@ def process_train_data():
 def process_flight_data():
     """
     Reads and processes flight route data, combining information from 
-    routes.csv, Clean_Dataset.csv, and airport_codes.csv.
+    routes.csv, Clean_Dataset.csv, and airport_codes.csv efficiently.
     """
     try:
-        print("--- Debugging process_flight_data ---")
+        print("--- Optimizing process_flight_data ---")
         # Load datasets
         routes_df = pd.read_csv('routes.csv')
         routes_df.columns = routes_df.columns.str.strip()
@@ -98,11 +98,10 @@ def process_flight_data():
         airport_codes_df.columns = airport_codes_df.columns.str.strip()
         print(f"Loaded airport_codes_df: {len(airport_codes_df)} rows")
 
-        # Create a mapping from city name to IATA code (from external airport codes file)
-        city_to_iata = airport_codes_df.set_index('city')['iata_code'].to_dict()
+        # Create a mapping from city name to IATA code
+        city_to_iata_base = airport_codes_df.set_index('city')['iata_code'].to_dict()
         
         # Add manual mappings for major Indian cities to their IATA codes
-        # These are commonly used codes and might not be present or consistent in the general airport_codes.csv
         manual_iata_mapping = {
             "Delhi": "DEL",
             "Mumbai": "BOM",
@@ -111,67 +110,70 @@ def process_flight_data():
             "Hyderabad": "HYD",
             "Kolkata": "CCU"
         }
-        # Update the dictionary, manual mappings will override if duplicates exist
-        city_to_iata.update(manual_iata_mapping)
+        city_to_iata_base.update(manual_iata_mapping)
 
-        print(f"Created city_to_iata mapping with {len(city_to_iata)} entries after manual update.")
+        print(f"Created city_to_iata mapping with {len(city_to_iata_base)} entries.")
+
+        # Function to get IATA code, handling case variations
+        def get_iata_code(city_name):
+            if pd.isna(city_name):
+                return None
+            return city_to_iata_base.get(city_name) or \
+                   city_to_iata_base.get(city_name.title()) or \
+                   city_to_iata_base.get(city_name.upper())
+
+        # Apply IATA mapping to clean_df
+        clean_df['source_iata'] = clean_df['source_city'].apply(get_iata_code)
+        clean_df['destination_iata'] = clean_df['destination_city'].apply(get_iata_code)
+
+        # Drop rows where IATA codes couldn't be determined
+        initial_flights_count = len(clean_df)
+        clean_df.dropna(subset=['source_iata', 'destination_iata'], inplace=True)
+        skipped_flights_no_iata = initial_flights_count - len(clean_df)
+        print(f"Skipped {skipped_flights_no_iata} flights due to missing IATA codes.")
+
+        # Merge clean_df with routes_df
+        # Ensure column names for merging are consistent
+        routes_df.rename(columns={'source airport': 'source_iata', 'destination apirport': 'destination_iata'}, inplace=True)
+        
+        # Perform an inner merge to find matching flight routes efficiently
+        merged_flights_df = pd.merge(
+            clean_df,
+            routes_df,
+            on=['source_iata', 'destination_iata'],
+            how='inner',
+            suffixes=('_clean', '_routes') # This suffix applies only to columns existing in both DFs
+        )
+
+        print(f"Found {len(merged_flights_df)} matching flights after merging with routes.csv.")
+        print(f"Columns of merged_flights_df: {merged_flights_df.columns.tolist()}") # Debug print for columns
+
+        FLIGHT_SPEED_KMH = 800 # Average cruising speed of a commercial airliner
 
         flight_routes = []
-        skipped_flights_no_iata = 0
-        skipped_flights_no_route = 0
-
-        # Process flight data from Clean_Dataset.csv
-        for idx, flight in clean_df.iterrows():
-            source_city = flight['source_city']
-            dest_city = flight['destination_city']
-
-            # Get IATA codes from city names, case-insensitive match for robustness
-            source_iata = city_to_iata.get(source_city) or city_to_iata.get(source_city.title()) or city_to_iata.get(source_city.upper())
-            dest_iata = city_to_iata.get(dest_city) or city_to_iata.get(dest_city.title()) or city_to_iata.get(dest_city.upper())
-
-            if not source_iata:
-                # print(f"Skipping flight {idx}: No IATA code for source city '{source_city}'")
-                skipped_flights_no_iata += 1
-                continue
-            if not dest_iata:
-                # print(f"Skipping flight {idx}: No IATA code for destination city '{dest_city}'")
-                skipped_flights_no_iata += 1
-                continue
-
-            # Find the corresponding route in routes.csv
-            route_info = routes_df[
-                (routes_df['source airport'] == source_iata) & 
-                (routes_df['destination apirport'] == dest_iata)
-            ]
-
-            if route_info.empty:
-                # print(f"Skipping flight {idx}: No matching route in routes.csv for {source_iata} -> {dest_iata}")
-                skipped_flights_no_route += 1
-                continue
-                
-            # Use the first matching route
-            route = route_info.iloc[0]
-
-            # Convert duration from hours to minutes
-            duration_minutes = flight['duration'] * 60 if pd.notna(flight['duration']) else None
+        # Iterate through the merged DataFrame to create the final flight_routes list
+        for _, row in merged_flights_df.iterrows():
+            duration_minutes = row['duration'] * 60 if pd.notna(row['duration']) else None
+            
+            estimated_distance_km = None
+            if duration_minutes is not None:
+                estimated_distance_km = (duration_minutes / 60) * FLIGHT_SPEED_KMH
 
             flight_routes.append({
                 'type': 'flight',
-                'unique_id': f"{flight['airline']}_{flight['flight']}",
-                'origin': source_iata,
-                'origin_city': source_city,
-                'destination': dest_iata,
-                'destination_city': dest_city,
-                'departure_time': flight['departure_time'],
-                'arrival_time': flight['arrival_time'],
+                'unique_id': f"{row['airline_clean']}_{row['flight']}", 
+                'origin': row['source_iata'],
+                'origin_city': row['source_city'],
+                'destination': row['destination_iata'],
+                'destination_city': row['destination_city'],
+                'departure_time': row['departure_time'],
+                'arrival_time': row['arrival_time'],
                 'duration_minutes': duration_minutes,
-                'cost_inr': flight['price'],
-                'distance_km': None,  # No distance data for flights
+                'cost_inr': row['price'],
+                'distance_km': estimated_distance_km,  
+                'airline': row['airline_clean']
             })
         
-        print(f"Total flights from Clean_Dataset.csv: {len(clean_df)}")
-        print(f"Skipped due to missing IATA: {skipped_flights_no_iata}")
-        print(f"Skipped due to no matching route in routes.csv: {skipped_flights_no_route}")
         print(f"Generated {len(flight_routes)} flight segments.")
 
         return flight_routes

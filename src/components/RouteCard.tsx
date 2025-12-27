@@ -182,6 +182,11 @@ export function RouteCard({ route, index, isRecommended }: RouteCardProps) {
                         <div className="font-medium text-foreground">
                           {segment.name} ({segment.type.toUpperCase()})
                         </div>
+                        {segment.distance && (
+                            <div className="text-xs text-muted-foreground">
+                                {segment.distance.toFixed(0)} km
+                            </div>
+                        )}
                       </div>
                     </div>
                     <div className="text-right">
@@ -218,7 +223,7 @@ export function RouteCard({ route, index, isRecommended }: RouteCardProps) {
                   {segment.wait_min > 0 && (
                     <div className="mt-3 pt-3 border-t border-border text-sm text-muted-foreground flex items-center gap-2">
                       <Clock className="w-4 h-4" />
-                      <span>Wait time at {segment.from}: {formatDuration(segment.wait_min)}</span>
+                      <span>Transfer wait at {segment.to}: {formatDuration(segment.wait_min)}</span>
                     </div>
                   )}
                 </div>

@@ -1,12 +1,12 @@
-import { useState, useMemo } from "react";
-import { ArrowLeftRight, CalendarDays, Search, Sparkles, Users, MapPin } from "lucide-react";
+import { useState, useMemo, useEffect } from "react"; // Added useEffect
+import { ArrowLeftRight, CalendarDays, Search, Sparkles, Users, MapPin, ListFilter } from "lucide-react"; // Added ListFilter icon
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { StationSearch, Station } from "@/components/StationSearch";
 import { RouteCard } from "@/components/RouteCard";
 import { CategoryFilter } from "@/components/CategoryFilter";
 import { FeaturesSection } from "@/components/FeaturesSection";
-import { Route, getCategoryBase } from "@/data/routes"; // getCategoryBase is still needed for filtering
+import { Route, getCategoryBase } from "@/data/routes";
 import { cn } from "@/lib/utils";
 import { toast, Toast } from "@/hooks/use-toast";
 
@@ -14,10 +14,17 @@ const Index = () => {
   const [origin, setOrigin] = useState<Station | null>(null);
   const [destination, setDestination] = useState<Station | null>(null);
   const [travelDate, setTravelDate] = useState<string>("");
-  const [maxTransfers, setMaxTransfers] = useState<number>(3); // New state for max transfers
+  const [maxTransfers, setMaxTransfers] = useState<number>(3);
   const [isSearching, setIsSearching] = useState(false);
-  const [routes, setRoutes] = useState<Route[]>([]);
+  const [optimalRoutes, setOptimalRoutes] = useState<Route[]>([]); // Renamed from routes
+  const [allGeneratedRoutes, setAllGeneratedRoutes] = useState<Route[]>([]); // New state for all routes
+  const [showAllRoutes, setShowAllRoutes] = useState(false); // New state to toggle view
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+
+  // Determine which set of routes to display
+  const currentRoutes = useMemo(() => {
+    return showAllRoutes ? allGeneratedRoutes : optimalRoutes;
+  }, [showAllRoutes, optimalRoutes, allGeneratedRoutes]);
 
   const handleSwapStations = () => {
     const temp = origin;
@@ -36,7 +43,9 @@ const Index = () => {
     }
 
     setIsSearching(true);
-    setRoutes([]); // Clear previous results
+    setOptimalRoutes([]);
+    setAllGeneratedRoutes([]);
+    setSelectedCategory(null); // Reset category filter on new search
 
     try {
       const apiUrl = `http://localhost:5000/api/routes?origin=${origin.code}&destination=${destination.code}&max_transfers=${maxTransfers}`;
@@ -47,19 +56,20 @@ const Index = () => {
         throw new Error(data.error || "Failed to fetch routes.");
       }
 
-      if (data.optimal_routes && data.optimal_routes.length > 0) {
-        setRoutes(data.optimal_routes);
+      setOptimalRoutes(data.optimal_routes || []);
+      setAllGeneratedRoutes(data.all_generated_routes || []);
+
+      if ((data.optimal_routes && data.optimal_routes.length > 0) || (data.all_generated_routes && data.all_generated_routes.length > 0)) {
         toast({
           title: "Routes Found!",
-          description: `Found ${data.optimal_routes.length} Pareto-optimal routes for your journey.`,
+          description: `Found ${data.optimal_routes?.length || 0} Pareto-optimal routes and ${data.all_generated_routes?.length || 0} total generated routes.`,
         } as Toast);
       } else {
         toast({
           title: "No Routes Found",
-          description: "No optimal routes were found for your selected criteria.",
+          description: "No routes were found for your selected criteria.",
           variant: "destructive",
         } as Toast);
-        setRoutes([]);
       }
     } catch (error: any) {
       toast({
@@ -67,29 +77,41 @@ const Index = () => {
         description: error.message || "An unexpected error occurred.",
         variant: "destructive",
       } as Toast);
-      setRoutes([]);
+      setOptimalRoutes([]);
+      setAllGeneratedRoutes([]);
     } finally {
       setIsSearching(false);
-      // Scroll to results
       document.getElementById("results")?.scrollIntoView({ behavior: "smooth" });
     }
   };
 
+  // Adjust categories and filtered routes based on `currentRoutes`
   const categories = useMemo(() => {
     const uniqueCategories = new Set<string>();
-    routes.forEach((route) => {
+    currentRoutes.forEach((route) => {
       const base = getCategoryBase(route.category);
       if (base) uniqueCategories.add(base);
     });
     return Array.from(uniqueCategories);
-  }, [routes]);
+  }, [currentRoutes]);
 
   const filteredRoutes = useMemo(() => {
-    if (!selectedCategory) return routes;
-    return routes.filter((route) => 
+    if (!selectedCategory) return currentRoutes;
+    return currentRoutes.filter((route) => 
       getCategoryBase(route.category) === selectedCategory
     );
-  }, [routes, selectedCategory]);
+  }, [currentRoutes, selectedCategory]);
+
+  // Update display based on data availability
+  useEffect(() => {
+    if (optimalRoutes.length === 0 && allGeneratedRoutes.length > 0) {
+      setShowAllRoutes(true); // Automatically switch to all routes if no optimal ones
+    } else if (optimalRoutes.length > 0 && allGeneratedRoutes.length > 0 && showAllRoutes) {
+      // If optimal routes appear after showing all, reset to optimal if desired or keep as is.
+      // For now, let's keep the user's choice.
+    }
+  }, [optimalRoutes, allGeneratedRoutes]);
+
 
   return (
     <div className="min-h-screen bg-background">
@@ -248,32 +270,47 @@ const Index = () => {
       </section>
 
       {/* Results Section */}
-      {routes.length > 0 && (
+      {currentRoutes.length > 0 && ( // Use currentRoutes here
         <section id="results" className="py-12 bg-secondary/30">
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
               <div>
                 <h2 className="text-2xl font-bold text-foreground mb-2">
-                  {filteredRoutes.length} Optimal Routes Found
+                  {showAllRoutes ? `All ${currentRoutes.length} Generated Routes` : `${currentRoutes.length} Optimal Routes`} Found
                 </h2>
                 <p className="text-muted-foreground">
-                  Showing Pareto-optimal routes from {origin?.name} to {destination?.name}
+                  {showAllRoutes ? `Showing all generated routes from ${origin?.name} to ${destination?.name}` : `Showing Pareto-optimal routes from ${origin?.name} to ${destination?.name}`}
                 </p>
               </div>
-              <CategoryFilter
-                categories={categories}
-                selected={selectedCategory}
-                onChange={setSelectedCategory}
-              />
+              <div className="flex items-center gap-2">
+                <CategoryFilter
+                  categories={categories}
+                  selected={selectedCategory}
+                  onChange={setSelectedCategory}
+                />
+                <button
+                  onClick={() => setShowAllRoutes(!showAllRoutes)}
+                  className={cn(
+                    "px-4 py-2 rounded-full text-sm font-medium transition-all duration-200",
+                    "flex items-center gap-2",
+                    showAllRoutes
+                      ? "bg-primary text-primary-foreground shadow-soft"
+                      : "bg-secondary text-secondary-foreground hover:bg-secondary/80"
+                  )}
+                >
+                  <ListFilter className="w-4 h-4" />
+                  {showAllRoutes ? "Show Optimal" : "Show All"}
+                </button>
+              </div>
             </div>
 
             <div className="space-y-4">
               {filteredRoutes.map((route, idx) => (
                 <RouteCard
-                  key={route.route_id} // Use route_id from new structure
+                  key={route.route_id}
                   route={route}
                   index={idx}
-                  isRecommended={idx === 0 && !selectedCategory}
+                  isRecommended={idx === 0 && !selectedCategory && !showAllRoutes} // Only recommend for optimal view
                 />
               ))}
             </div>

@@ -11,12 +11,13 @@ def get_routes():
     origin = request.args.get('origin')
     destination = request.args.get('destination')
     max_transfers = request.args.get('max_transfers', type=int, default=3)
+    travel_date_str = request.args.get('travel_date') # Get travel_date as string
 
     if not origin or not destination:
         return jsonify({"error": "Origin and destination are required."}), 400
 
     # Call the core logic function
-    results, router = get_routes_data(origin.upper(), destination.upper(), max_transfers)
+    results, router = get_routes_data(origin.upper(), destination.upper(), max_transfers, travel_date_str)
 
     if results and "error" in results:
         return jsonify(results), 400

@@ -12,8 +12,9 @@ class ParetoRouteOptimizer:
     Combines O(E log V) Dijkstra with Pareto frontier analysis
     """
     
-    def __init__(self, df):
+    def __init__(self, df, travel_date):
         self.df = df
+        self.travel_date = travel_date # Store the travel date
         self.location_to_id = {}
         self.id_to_location = {}
         self.graph = defaultdict(list)
@@ -374,15 +375,10 @@ class ParetoRouteOptimizer:
 
     def select_optimal_routes(self, pareto_front):
         """
-        Select all diverse optimal routes from Pareto front, prioritizing quotas for specific categories.
-        
-        Categories with MORE alternatives:
-        - FASTEST (1 route)
-        - CHEAPEST (1 route) 
-        - DIRECT (1 route)
-        - Plus other diverse Pareto-optimal alternatives
+        Selects a diverse set of up to 20 optimal routes from the Pareto front,
+        prioritizing specific categories and ensuring a good balance of objectives.
         """
-        print(f"\n🏆 Phase 3: Selecting diverse optimal routes with quotas...")
+        print(f"\n🏆 Phase 3: Selecting diverse optimal routes (max {self.MAX_FINAL_ROUTES})...")
         
         if not pareto_front:
             return [], []
@@ -391,90 +387,66 @@ class ParetoRouteOptimizer:
         for route_data in pareto_front:
             route_data['route_type'] = self._get_route_type(route_data['route'])
 
-        # --- Configuration for quotas ---
-        N_FAST = 10
-        N_CHEAP = 5
-        N_BALANCED = 7
-        N_MULTIMODAL = 3 # New quota for multimodal routes
-        # --------------------------------
+        # --- Configuration ---
+        self.MAX_FINAL_ROUTES = 20
+        # Categories and their target counts for diversity
+        category_targets = {
+            'FASTEST ⚡': 1,
+            'CHEAPEST 💰': 1,
+            'MOST DIRECT 🚂': 1,
+            'SAFEST 🛡️': 1,
+            'BEST MULTIMODAL ✈️+🚂': 1,
+            'BALANCED ⚖️': 2, # More balanced options
+            'Train Only': 2,
+            'Flight Only': 2,
+            'Train-Flight': 2,
+        }
+        # --------------------
         
-        # Maps fingerprint to (route_data, category) - ensures unique physical routes
-        final_selections = {} 
+        final_selections = {} # Maps fingerprint to (route_data, category, priority)
+        selected_fingerprints = set()
+        current_priority = 100 # Higher number means higher priority
 
-        # Sort by different objectives for potential selection
+        # Helper to add a route if not already selected
+        def add_route(route_data, category_tag, priority_val):
+            fingerprint = self._get_route_fingerprint(route_data['route'])
+            if fingerprint not in selected_fingerprints:
+                final_selections[fingerprint] = {'route_data': route_data, 'category': category_tag, 'priority': priority_val}
+                selected_fingerprints.add(fingerprint)
+                return True
+            return False
+
+        # --- Step 1: Guarantee "Must-Have" Routes ---
+        print("  → Adding absolute best routes in primary categories...")
         sorted_by_time = sorted(pareto_front, key=lambda x: x['objectives']['time'])
         sorted_by_cost = sorted(pareto_front, key=lambda x: x['objectives']['cost'])
         sorted_by_transfers = sorted(pareto_front, key=lambda x: x['objectives']['transfers'])
-        sorted_by_seats = sorted(pareto_front, key=lambda x: x['objectives']['seat_prob'], reverse=True)
         sorted_by_safety = sorted(pareto_front, key=lambda x: x['objectives']['safety_score'], reverse=True)
-        # Filter multimodal routes
         multimodal_routes = [r for r in pareto_front if r['route_type'] == 'Train-Flight']
         sorted_by_multimodal = sorted(multimodal_routes, key=lambda x: x['objectives']['time'])
         
-        # Helper to add/update route in final_selections based on priority
-        def add_or_update_route(route_data, category, priority):
-            fingerprint = self._get_route_fingerprint(route_data['route'])
-            if fingerprint not in final_selections:
-                final_selections[fingerprint] = {'route_data': route_data, 'category': category, 'priority': priority}
-            else:
-                # If existing category is lower priority, update it
-                if final_selections[fingerprint]['priority'] < priority:
-                    final_selections[fingerprint]['category'] = category
-                    final_selections[fingerprint]['priority'] = priority
+        if sorted_by_time: add_route(sorted_by_time[0], 'FASTEST ⚡', current_priority); current_priority -= 1
+        if sorted_by_cost: add_route(sorted_by_cost[0], 'CHEAPEST 💰', current_priority); current_priority -= 1
+        if sorted_by_transfers: add_route(sorted_by_transfers[0], 'MOST DIRECT 🚂', current_priority); current_priority -= 1
+        if sorted_by_safety: add_route(sorted_by_safety[0], 'SAFEST 🛡️', current_priority); current_priority -= 1
+        if sorted_by_multimodal: add_route(sorted_by_multimodal[0], 'BEST MULTIMODAL ✈️+🚂', current_priority); current_priority -= 1
 
-        current_priority = 100 # Higher number means higher priority
-
-        # STEP 1: Add the absolute best in each primary category
-        print("  → Adding best routes in each category...")
-        if sorted_by_time: add_or_update_route(sorted_by_time[0], 'FASTEST ⚡', current_priority); current_priority -= 1
-        if sorted_by_cost: add_or_update_route(sorted_by_cost[0], 'CHEAPEST 💰', current_priority); current_priority -= 1
-        if sorted_by_transfers: add_or_update_route(sorted_by_transfers[0], 'MOST DIRECT 🚂', current_priority); current_priority -= 1
-        if sorted_by_seats: add_or_update_route(sorted_by_seats[0], 'BEST SEATS 💺', current_priority); current_priority -= 1
-        if sorted_by_safety: add_or_update_route(sorted_by_safety[0], 'SAFEST 🛡️', current_priority); current_priority -= 1
-        if sorted_by_multimodal and len(sorted_by_multimodal) > 0: add_or_update_route(sorted_by_multimodal[0], 'BEST MULTIMODAL ✈️+🚂', current_priority); current_priority -= 1
-
-        # STEP 2: Fill quotas for specific categories (Fast, Cheap, Balanced, Multimodal)
-        print("  → Filling quotas for specific categories...")
-        # Fast routes
-        fast_count = 0
-        for i, route_data in enumerate(sorted_by_time):
-            fingerprint = self._get_route_fingerprint(route_data['route'])
-            if fingerprint not in final_selections or final_selections[fingerprint]['category'].startswith('OPTIMAL ALTERNATIVE'):
-                add_or_update_route(route_data, f'FAST #{fast_count + 1} ⚡', current_priority); current_priority -= 1
-                fast_count += 1
-            if fast_count >= N_FAST:
-                break
+        # --- Step 2: Fill remaining slots with diverse Pareto-optimal routes ---
+        print("  → Filling remaining slots with diverse options...")
         
-        # Cheapest routes
-        cheap_count = 0
-        for i, route_data in enumerate(sorted_by_cost):
-            fingerprint = self._get_route_fingerprint(route_data['route'])
-            if fingerprint not in final_selections or final_selections[fingerprint]['category'].startswith('OPTIMAL ALTERNATIVE') or final_selections[fingerprint]['category'].startswith('FAST #'):
-                # Allow a fast route to also be a cheap route if it hasn't received a higher priority tag
-                add_or_update_route(route_data, f'CHEAP #{cheap_count + 1} 💰', current_priority); current_priority -= 1
-                cheap_count += 1
-            if cheap_count >= N_CHEAP:
-                break
-
-        # Balanced routes
-        balanced_count = 0
-        if pareto_front: # Only calculate balanced score if there are routes
+        # Calculate balanced scores for all Pareto routes if not already done
+        if pareto_front and 'balanced_score' not in pareto_front[0]:
             times = [r['objectives']['time'] for r in pareto_front]
             costs = [r['objectives']['cost'] for r in pareto_front]
             transfers_list = [r['objectives']['transfers'] for r in pareto_front]
             seats = [r['objectives']['seat_prob'] for r in pareto_front]
             safety = [r['objectives']['safety_score'] for r in pareto_front]
             
-            min_time = min(times) if times else 0
-            max_time = max(times) if times else 0
-            min_cost = min(costs) if costs else 0
-            max_cost = max(costs) if costs else 0
-            min_transfers = min(transfers_list) if transfers_list else 0
-            max_transfers_val = max(transfers_list) if transfers_list else 0
-            min_seats = min(seats) if seats else 0
-            max_seats = max(seats) if seats else 0
-            min_safety = min(safety) if safety else 0
-            max_safety = max(safety) if safety else 0
+            min_time, max_time = (min(times), max(times)) if times else (0, 0)
+            min_cost, max_cost = (min(costs), max(costs)) if costs else (0, 0)
+            min_transfers, max_transfers_val = (min(transfers_list), max(transfers_list)) if transfers_list else (0, 0)
+            min_seats, max_seats = (min(seats), max(seats)) if seats else (0, 0)
+            min_safety, max_safety = (min(safety), max(safety)) if safety else (0, 0)
 
             time_range = max_time - min_time + 0.001
             cost_range = max_cost - min_cost + 0.001
@@ -482,7 +454,7 @@ class ParetoRouteOptimizer:
             seats_range = max_seats - min_seats + 0.001
             safety_range = max_safety - min_safety + 0.001
             
-            for route_data in pareto_front: # Calculate balanced score for all Pareto routes
+            for route_data in pareto_front:
                 obj = route_data['objectives']
                 route_data['balanced_score'] = (
                     ((max_time - obj['time']) / time_range) * 0.25 +
@@ -491,39 +463,62 @@ class ParetoRouteOptimizer:
                     ((obj['seat_prob'] - min_seats) / seats_range) * 0.15 +
                     ((obj['safety_score'] - min_safety) / safety_range) * 0.15
                 )
-            sorted_balanced = sorted(pareto_front, key=lambda x: x['balanced_score'], reverse=True)
+        sorted_balanced = sorted(pareto_front, key=lambda x: x['balanced_score'], reverse=True)
 
-            for i, route_data in enumerate(sorted_balanced):
-                fingerprint = self._get_route_fingerprint(route_data['route'])
-                if fingerprint not in final_selections or final_selections[fingerprint]['category'].startswith('OPTIMAL ALTERNATIVE'):
-                    add_or_update_route(route_data, f'BALANCED #{balanced_count + 1} ⚖️', current_priority); current_priority -= 1
-                    balanced_count += 1
-                if balanced_count >= N_BALANCED:
-                    break
-
-        # Multimodal routes
-        multimodal_count = 0
-        for i, route_data in enumerate(sorted_by_multimodal):
-            fingerprint = self._get_route_fingerprint(route_data['route'])
-            if fingerprint not in final_selections or final_selections[fingerprint]['category'].startswith('OPTIMAL ALTERNATIVE'):
-                add_or_update_route(route_data, f'MULTIMODAL #{multimodal_count + 1} ✈️+🚂', current_priority); current_priority -= 1
-                multimodal_count += 1
-            if multimodal_count >= N_MULTIMODAL:
-                break
+        # Iteratively add routes from sorted lists to achieve diversity and fill slots
+        # We use a round-robin-like approach to pick from different sorted views
+        all_sorted_views = {
+            'time': iter(sorted_by_time),
+            'cost': iter(sorted(pareto_front, key=lambda x: x['objectives']['cost'])),
+            'transfers': iter(sorted(pareto_front, key=lambda x: x['objectives']['transfers'])),
+            'balanced': iter(sorted_balanced),
+            'multimodal': iter(sorted_by_multimodal)
+        }
         
-        # STEP 3: Add remaining Pareto-optimal routes as "Optimal Alternative"
-        print("  → Adding remaining Pareto-optimal routes as Optimal Alternatives...")
-        for route_data in pareto_front:
-            fingerprint = self._get_route_fingerprint(route_data['route'])
-            if fingerprint not in final_selections: # Only add if not categorized yet
-                final_selections[fingerprint] = {'route_data': route_data, 'category': 'OPTIMAL ALTERNATIVE 🎯', 'priority': 0}
+        while len(final_selections) < self.MAX_FINAL_ROUTES and pareto_front:
+            routes_added_in_cycle = 0
+            for view_name, route_iterator in all_sorted_views.items():
+                if len(final_selections) >= self.MAX_FINAL_ROUTES:
+                        break
+                try:
+                    route_data = next(route_iterator)
+                    category_tag = route_data['route_type'] # Default category for diversity
+                    
+                    # Try to add with a more specific tag if it fits the primary categories and isn't taken
+                    if view_name == 'time' and add_route(route_data, 'FAST ⚡', current_priority):
+                        current_priority -= 1
+                        routes_added_in_cycle += 1
+                    elif view_name == 'cost' and add_route(route_data, 'CHEAP 💰', current_priority):
+                        current_priority -= 1
+                        routes_added_in_cycle += 1
+                    elif view_name == 'balanced' and add_route(route_data, 'BALANCED ⚖️', current_priority):
+                        current_priority -= 1
+                        routes_added_in_cycle += 1
+                    elif view_name == 'multimodal' and route_data['route_type'] == 'Train-Flight' and add_route(route_data, 'MULTIMODAL ✈️+🚂', current_priority):
+                        current_priority -= 1
+                        routes_added_in_cycle += 1
+                    elif add_route(route_data, 'OPTIMAL ALTERNATIVE 🎯', current_priority): # Catch-all for other diverse options
+                        current_priority -= 1
+                        routes_added_in_cycle += 1
+                except StopIteration:
+                    continue # This iterator is exhausted
 
-        # Convert dictionary back to lists (maintaining consistent order from original pareto_front)
+            if routes_added_in_cycle == 0 and len(final_selections) < self.MAX_FINAL_ROUTES:
+                # If no new routes were added in a full cycle, and we still need more,
+                # just pick from the remaining pareto_front by overall balanced score
+                remaining_pareto = [r for r in sorted_balanced if self._get_route_fingerprint(r['route']) not in selected_fingerprints]
+                for route_data in remaining_pareto:
+                    if len(final_selections) >= self.MAX_FINAL_ROUTES:
+                        break
+                    if add_route(route_data, 'OPTIMAL ALTERNATIVE 🎯', current_priority):
+                        current_priority -= 1
+
+
+        # Convert dictionary back to lists, sorted by priority first, then by time
         final_selected_routes = []
         final_categories = []
         
-        # Sort final selections by priority to ensure consistent output order
-        sorted_final_selections = sorted(final_selections.values(), key=lambda x: x['priority'], reverse=True)
+        sorted_final_selections = sorted(final_selections.values(), key=lambda x: (x['priority'], x['route_data']['objectives']['time']), reverse=True)
 
         for selection_data in sorted_final_selections:
             final_selected_routes.append(selection_data['route_data'])
@@ -547,17 +542,30 @@ class ParetoRouteOptimizer:
         else:
             return distance / 38
     
-    def _calculate_wait_time(self, arrival_time, departure_time):
-        """Calculate waiting time in hours"""
+    def _calculate_wait_time(self, arrival_time_str, departure_time_str):
+        """Calculate waiting time in hours using the travel_date."""
         try:
-            fmt = '%H:%M:%S'
-            t1 = datetime.strptime(arrival_time, fmt)
-            t2 = datetime.strptime(departure_time, fmt)
-            if t2 < t1:
-                t2 += timedelta(days=1)
-            return (t2 - t1).total_seconds() / 3600
-        except:
-            return 1.0
+            # Parse time strings to time objects
+            arrival_time = datetime.strptime(arrival_time_str, '%H:%M:%S').time()
+            departure_time = datetime.strptime(departure_time_str, '%H:%M:%S').time()
+
+            # Construct datetime objects using the stored travel_date
+            # The arrival of the first segment is on the travel_date
+            # The departure of the second segment could be on the same day or next day relative to the arrival
+            arrival_dt = datetime.combine(self.travel_date, arrival_time)
+            departure_dt = datetime.combine(self.travel_date, departure_time)
+
+            # If the departure of the next segment is earlier than the arrival of the current segment
+            # it implies the departure is on the next day.
+            if departure_dt < arrival_dt:
+                departure_dt += timedelta(days=1)
+            
+            wait_time = (departure_dt - arrival_dt).total_seconds() / 3600
+            return max(0, wait_time) # Ensure wait time is not negative
+
+        except ValueError:
+            # This should ideally not happen if time strings are consistent
+            return 1.0 # Default wait time if parsing fails
     
     def format_duration(self, minutes):
         """Format duration as HH:MM"""
@@ -565,7 +573,7 @@ class ParetoRouteOptimizer:
         m = int(minutes % 60)
         return f"{h}h {m}m"
 
-def get_routes_data(source, destination, max_transfers):
+def get_routes_data(source, destination, max_transfers, travel_date_str):
     # Load data
     try:
         with open('unified_routes.json', 'r') as f:
@@ -578,8 +586,14 @@ def get_routes_data(source, destination, max_transfers):
     except Exception as e:
         return {"error": str(e)}, None
 
+    # Parse travel_date_str
+    try:
+        travel_date = datetime.strptime(travel_date_str, '%Y-%m-%d').date() if travel_date_str else datetime.now().date()
+    except ValueError:
+        return {"error": "Invalid travel date format. Expected YYYY-MM-DD."}, None
+
     # Initialize router
-    router = ParetoRouteOptimizer(df)
+    router = ParetoRouteOptimizer(df, travel_date)
 
     if source not in router.location_to_id:
         return {"error": f"Station '{source}' not found."}, router
@@ -797,10 +811,10 @@ def save_results(router, optimal_routes, categories, csv_file, json_file, all_ro
     categorized_all_routes.sort(key=lambda x: x['objectives']['time'])
     json_data['all_generated_routes'] = categorized_all_routes
 
-    # Sort optimal routes by time and take top 10
+    # Sort optimal routes by time and take top 20
     optimal_routes.sort(key=lambda x: x['objectives']['time'])
     json_data['optimal_routes'] = [] # Clear existing optimal_routes to re-populate with sorted and limited
-    for idx, route_data in enumerate(optimal_routes[:10], 1): # Take top 10
+    for idx, route_data in enumerate(optimal_routes[:20], 1): # Take top 20
         route = route_data['route']
         obj = route_data['objectives']
 
