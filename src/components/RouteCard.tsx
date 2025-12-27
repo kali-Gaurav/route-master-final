@@ -14,10 +14,19 @@ export function RouteCard({ route, index, isRecommended }: RouteCardProps) {
 
   // Use categoryColors from routes.ts for consistent styling
   const getCategoryStyle = (category: string) => {
-    const baseCategory = category.split(' ')[0].split('#')[0].trim(); // Extract base category
-    const color = categoryColors[baseCategory.toUpperCase()] || "from-slate-500 to-gray-500";
-    return color.replace("bg-", "from-") + " to-" + color.replace("bg-", "").split("-")[0] + "-400"; // Convert bg- to from-to gradients
+    const baseCategory = route.category.split(' ')[0].split('#')[0].trim(); // Extract base category
+    const color = categoryColors[baseCategory.toUpperCase()] || "bg-slate-500";
+    // Convert bg- to from-to gradients
+    const colorClass = color.replace("bg-", "");
+    const [mainColor, shade] = colorClass.split("-");
+    return `from-${mainColor}-${shade} to-${mainColor}-${parseInt(shade) - 100}`;
   };
+
+  const getCategoryDisplay = (category: string) => {
+    const baseCategory = route.category.split(' ')[0].split('#')[0].trim().toUpperCase();
+    const icon = categoryIcons[baseCategory] || "";
+    return `${icon} ${category}`;
+  }
 
   const firstSegment = route.segments[0];
   const lastSegment = route.segments[route.segments.length - 1];
@@ -43,7 +52,7 @@ export function RouteCard({ route, index, isRecommended }: RouteCardProps) {
                 getCategoryStyle(route.category)
               )}
             >
-              {categoryIcons[route.category.split(' ')[0].split('#')[0].trim().toUpperCase()]}{route.category}
+              {getCategoryDisplay(route.category)}
             </div>
             {isRecommended && (
               <span className="px-2 py-1 bg-primary/10 text-primary text-xs font-semibold rounded-full">

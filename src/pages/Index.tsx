@@ -2,11 +2,10 @@ import { useState, useMemo } from "react";
 import { ArrowLeftRight, CalendarDays, Search, Sparkles, Users, MapPin } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { StationSearch } from "@/components/StationSearch";
+import { StationSearch, Station } from "@/components/StationSearch";
 import { RouteCard } from "@/components/RouteCard";
 import { CategoryFilter } from "@/components/CategoryFilter";
 import { FeaturesSection } from "@/components/FeaturesSection";
-import { Station } from "@/data/stations";
 import { Route, getCategoryBase } from "@/data/routes"; // getCategoryBase is still needed for filtering
 import { cn } from "@/lib/utils";
 import { toast, Toast } from "@/hooks/use-toast";
@@ -232,11 +231,11 @@ const Index = () => {
               <div className="flex flex-wrap items-center justify-center gap-6 pt-4 border-t border-border">
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   <MapPin className="w-4 h-4 text-primary" />
-                  <span>11,000+ Trains & Flights</span>
+                  <span>175,000+ Train Segments</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   <MapPin className="w-4 h-4 text-primary" />
-                  <span>8,000+ Locations</span>
+                  <span>11,000+ Locations</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   <Sparkles className="w-4 h-4 text-primary" />

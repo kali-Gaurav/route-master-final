@@ -1,15 +1,34 @@
 import { useState, useRef, useEffect } from "react";
 import { Search, MapPin } from "lucide-react";
-import { Station, searchStations } from "@/data/stations";
 import { cn } from "@/lib/utils";
 
-interface StationSearchProps {
-  label: string;
-  placeholder: string;
-  value: Station | null;
-  onChange: (station: Station | null) => void;
-  icon?: "origin" | "destination";
+// Simplified station type to match our new data source
+export interface Station {
+  code: string;
+  name: string;
 }
+
+// Store stations in a module-level variable to fetch only once
+let allStations: Station[] = [];
+let isFetching = false;
+
+const fetchStations = async () => {
+  if (allStations.length > 0 || isFetching) return;
+  isFetching = true;
+  try {
+    const response = await fetch('/city_mapping.json');
+    const data = await response.json();
+    // Assuming the JSON has a "cities" array: ["city1", "city2", ...]
+    allStations = data.cities.map((city: string) => ({ code: city, name: city }));
+    console.log(`Loaded ${allStations.length} stations.`);
+  } catch (error) {
+    console.error("Failed to load city_mapping.json", error);
+    // Handle error, maybe set a state to show an error message
+  } finally {
+    isFetching = false;
+  }
+};
+
 
 export function StationSearch({
   label,
@@ -21,10 +40,12 @@ export function StationSearch({
   const [query, setQuery] = useState(value ? `${value.name} (${value.code})` : "");
   const [isOpen, setIsOpen] = useState(false);
   const [results, setResults] = useState<Station[]>([]);
-  const inputRef = useRef<HTMLInputElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    // Fetch station data when the component mounts
+    fetchStations();
+
     const handleClickOutside = (e: MouseEvent) => {
       if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
         setIsOpen(false);
@@ -37,19 +58,27 @@ export function StationSearch({
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const val = e.target.value;
     setQuery(val);
-    if (val.length >= 2) {
-      const found = searchStations(val);
+    
+    // Only search if we have stations and query is long enough
+    if (allStations.length > 0 && val.length >= 3) {
+      const lowerQuery = val.toLowerCase();
+      const found = allStations.filter(
+        s => 
+          s.code.toLowerCase().includes(lowerQuery) ||
+          s.name.toLowerCase().includes(lowerQuery)
+      ).slice(0, 10); // Limit results for performance
       setResults(found);
       setIsOpen(true);
     } else {
       setResults([]);
       setIsOpen(false);
     }
-    onChange(null);
+    // Clear selection if input changes
+    if (value) onChange(null);
   };
 
   const handleSelect = (station: Station) => {
-    setQuery(`${station.name} (${station.code})`);
+    setQuery(station.name);
     onChange(station);
     setIsOpen(false);
   };
@@ -68,11 +97,10 @@ export function StationSearch({
           )}
         </div>
         <input
-          ref={inputRef}
           type="text"
           value={query}
           onChange={handleInputChange}
-          onFocus={() => query.length >= 2 && setIsOpen(true)}
+          onFocus={() => query.length >= 3 && results.length > 0 && setIsOpen(true)}
           placeholder={placeholder}
           className={cn(
             "w-full pl-12 pr-12 py-4 rounded-xl",
@@ -87,7 +115,7 @@ export function StationSearch({
       </div>
 
       {isOpen && results.length > 0 && (
-        <div className="absolute z-50 w-full mt-2 bg-card border border-border rounded-xl shadow-card overflow-hidden animate-fade-in">
+        <div className="absolute z-50 w-full mt-2 bg-card border border-border rounded-xl shadow-card overflow-hidden animate-fade-in max-h-60 overflow-y-auto">
           {results.map((station, idx) => (
             <button
               key={station.code}
@@ -105,9 +133,6 @@ export function StationSearch({
               <div className="flex-1 min-w-0">
                 <div className="font-semibold text-foreground truncate">
                   {station.name}
-                </div>
-                <div className="text-sm text-muted-foreground">
-                  {station.city}, {station.state}
                 </div>
               </div>
             </button>

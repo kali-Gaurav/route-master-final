@@ -32,21 +32,29 @@ export interface Route {
 
 export const categoryIcons: Record<string, string> = {
   "FASTEST": "⚡",
+  "CHEAPEST": "💰",
   "MOST DIRECT": "🚂",
   "BEST SEATS": "💺",
+  "SAFEST": "🛡️",
+  "BEST MULTIMODAL": "✈️+🚂",
   "FAST": "⚡",
   "CHEAP": "💰",
   "BALANCED": "⚖️",
+  "MULTIMODAL": "✈️+🚂",
   "OPTIMAL ALTERNATIVE": "🎯", // Changed from ALTERNATIVE
 };
 
 export const categoryColors: Record<string, string> = {
   "FASTEST": "bg-amber-500",
+  "CHEAPEST": "bg-green-500",
   "MOST DIRECT": "bg-blue-500",
-  "BEST SEATS": "bg-green-500",
+  "BEST SEATS": "bg-teal-500",
+  "SAFEST": "bg-rose-500",
+  "BEST MULTIMODAL": "bg-indigo-500",
   "FAST": "bg-orange-500",
   "CHEAP": "bg-emerald-500",
   "BALANCED": "bg-purple-500",
+  "MULTIMODAL": "bg-sky-500",
   "OPTIMAL ALTERNATIVE": "bg-slate-500", // Changed from ALTERNATIVE
 };
 
