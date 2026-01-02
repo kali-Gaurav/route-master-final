@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react";
-import { ArrowLeftRight, CalendarDays, Search, Sparkles, Users, MapPin } from "lucide-react";
+import { ArrowLeftRight, CalendarDays, Search, Sparkles, Users, MapPin, Filter } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { StationSearch } from "@/components/StationSearch";
@@ -7,7 +7,7 @@ import { RouteCard } from "@/components/RouteCard";
 import { CategoryFilter } from "@/components/CategoryFilter";
 import { FeaturesSection } from "@/components/FeaturesSection";
 import { Station } from "@/data/stations";
-import { sampleRoutes, Route, getCategoryBase } from "@/data/routes";
+import { sampleRoutes, Route, getCategoryBase, mapApiRouteToRoute } from "@/data/routes";
 import { cn } from "@/lib/utils";
 import { toast, Toast } from "@/hooks/use-toast";
 
@@ -16,7 +16,9 @@ const Index = () => {
   const [destination, setDestination] = useState<Station | null>(null);
   const [travelDate, setTravelDate] = useState<string>("");
   const [isSearching, setIsSearching] = useState(false);
-  const [routes, setRoutes] = useState<Route[]>([]);
+  const [optimalRoutes, setOptimalRoutes] = useState<Route[]>([]);
+  const [allRoutes, setAllRoutes] = useState<Route[]>([]);
+  const [viewMode, setViewMode] = useState<"optimal" | "all">("optimal");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
   const handleSwapStations = () => {
@@ -37,43 +39,75 @@ const Index = () => {
 
     setIsSearching(true);
     
-    // Simulate API call delay
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-    
-    // Filter and sort sample routes for optimal and fastest
-    const optimalRoutes = sampleRoutes.filter(route => {
-      const baseCategory = getCategoryBase(route.category);
-      return ["FASTEST", "MOST DIRECT", "BEST SEATS", "CHEAP", "BALANCED"].includes(baseCategory);
-    }).sort((a, b) => a.totalTime - b.totalTime);
+    try {
+      const response = await fetch(`http://localhost:5000/api/routes?origin=${origin.code}&destination=${destination.code}`);
+      
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || "Failed to fetch routes");
+      }
 
-    // Take the top 10 fastest optimal routes
-    setRoutes(optimalRoutes.slice(0, 10));
-    setIsSearching(false);
-    
-    toast({
-      title: "Routes Found!",
-      description: `Found ${sampleRoutes.length} Pareto-optimal routes for your journey.`,
-    } as Toast);
+      const data = await response.json();
+      
+      const mappedOptimal = data.optimal_routes.map(mapApiRouteToRoute)
+        .sort((a, b) => a.totalTime - b.totalTime);
+      
+      // Deduplicate and sort all routes by total time
+      const allRoutesMap = new Map();
+      data.all_generated_routes.forEach((apiRoute: any) => {
+        const route = mapApiRouteToRoute(apiRoute);
+        // Use train numbers as fingerprint for deduplication
+        const fingerprint = route.segments.map(s => s.trainNumber).join("-");
+        if (!allRoutesMap.has(fingerprint) || allRoutesMap.get(fingerprint).totalTime > route.totalTime) {
+          allRoutesMap.set(fingerprint, route);
+        }
+      });
 
-    // Scroll to results
-    document.getElementById("results")?.scrollIntoView({ behavior: "smooth" });
+      const mappedAll = Array.from(allRoutesMap.values())
+        .sort((a, b) => a.totalTime - b.totalTime);
+
+      setOptimalRoutes(mappedOptimal);
+      setAllRoutes(mappedAll);
+      setViewMode("optimal");
+      
+      toast({
+        title: "Routes Found!",
+        description: `Found ${mappedOptimal.length} optimal and ${mappedAll.length} total routes.`,
+      } as Toast);
+
+      // Scroll to results
+      setTimeout(() => {
+        document.getElementById("results")?.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+    } catch (error: any) {
+      console.error("Search error:", error);
+      toast({
+        title: "Search Failed",
+        description: error.message || "Could not connect to the route optimization server.",
+        variant: "destructive",
+      } as Toast);
+    } finally {
+      setIsSearching(false);
+    }
   };
+
+  const currentRoutes = viewMode === "optimal" ? optimalRoutes : allRoutes;
 
   const categories = useMemo(() => {
     const uniqueCategories = new Set<string>();
-    routes.forEach((route) => {
+    currentRoutes.forEach((route) => {
       const base = getCategoryBase(route.category);
       if (base) uniqueCategories.add(base);
     });
     return Array.from(uniqueCategories);
-  }, [routes]);
+  }, [currentRoutes]);
 
   const filteredRoutes = useMemo(() => {
-    if (!selectedCategory) return routes;
-    return routes.filter((route) => 
+    if (!selectedCategory) return currentRoutes;
+    return currentRoutes.filter((route) => 
       getCategoryBase(route.category) === selectedCategory
     );
-  }, [routes, selectedCategory]);
+  }, [currentRoutes, selectedCategory]);
 
   return (
     <div className="min-h-screen bg-background">
@@ -230,34 +264,69 @@ const Index = () => {
       </section>
 
       {/* Results Section */}
-      {routes.length > 0 && (
+      {(optimalRoutes.length > 0 || allRoutes.length > 0) && (
         <section id="results" className="py-12 bg-secondary/30">
           <div className="container mx-auto px-4">
-            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
               <div>
                 <h2 className="text-2xl font-bold text-foreground mb-2">
-                  {filteredRoutes.length} Optimal Routes Found
+                  {viewMode === "optimal" ? optimalRoutes.length : allRoutes.length} {viewMode === "optimal" ? "Optimal" : "Possible"} Routes Found
                 </h2>
                 <p className="text-muted-foreground">
-                  Showing Pareto-optimal routes from {origin?.name} to {destination?.name}
+                  Showing {optimalRoutes.length} optimal and {allRoutes.length} total routes from {origin?.name} to {destination?.name}
                 </p>
               </div>
-              <CategoryFilter
-                categories={categories}
-                selected={selectedCategory}
-                onChange={setSelectedCategory}
-              />
+
+              <div className="flex flex-wrap items-center gap-4">
+                <div className="bg-card p-1 rounded-xl border border-border flex">
+                  <button
+                    onClick={() => setViewMode("optimal")}
+                    className={cn(
+                      "px-4 py-2 rounded-lg text-sm font-semibold transition-all",
+                      viewMode === "optimal" 
+                        ? "bg-primary text-white shadow-sm" 
+                        : "text-muted-foreground hover:text-foreground"
+                    )}
+                  >
+                    Optimal Routes
+                  </button>
+                  <button
+                    onClick={() => setViewMode("all")}
+                    className={cn(
+                      "px-4 py-2 rounded-lg text-sm font-semibold transition-all",
+                      viewMode === "all" 
+                        ? "bg-primary text-white shadow-sm" 
+                        : "text-muted-foreground hover:text-foreground"
+                    )}
+                  >
+                    All Possible
+                  </button>
+                </div>
+
+                <CategoryFilter
+                  categories={categories}
+                  selected={selectedCategory}
+                  onChange={setSelectedCategory}
+                />
+              </div>
             </div>
 
             <div className="space-y-4">
-              {filteredRoutes.map((route, idx) => (
-                <RouteCard
-                  key={route.id}
-                  route={route}
-                  index={idx}
-                  isRecommended={idx === 0 && !selectedCategory}
-                />
-              ))}
+              {filteredRoutes.length > 0 ? (
+                filteredRoutes.map((route, idx) => (
+                  <RouteCard
+                    key={route.id}
+                    route={route}
+                    index={idx}
+                    isRecommended={viewMode === "optimal" && idx === 0 && !selectedCategory}
+                  />
+                ))
+              ) : (
+                <div className="text-center py-12 bg-card rounded-2xl border-2 border-dashed border-border">
+                  <Filter className="w-12 h-12 text-muted-foreground mx-auto mb-4 opacity-20" />
+                  <p className="text-muted-foreground">No routes match the selected filter.</p>
+                </div>
+              )}
             </div>
           </div>
         </section>

@@ -1,2 +1,5 @@
-Route ID,Category,Segment,Train Number,Train Name,From,To,Departure,Arrival,Distance (km),Duration (min),Wait Before (min),Seat Available,Total Time (min),Total Cost (₹),Total Transfers,Seat Probability (%),Safety Score
-ROUTE_01,FASTEST ⚡,1,12952,MUMBAI RAJDH,NDLS,KOTA,16:25:00,21:00:00,457.0,548.4,0,1,548.4,457.0,0,100.0,100
+Route ID,Category,Segment,Train Number,Train Name,From,To,Departure,Arrival,Distance (km),Duration,Wait Before,Seat Available,Total Time (min),Total Cost (₹),Total Transfers,Seat Probability (%),Safety Score
+OPT_ROUTE_01,FASTEST ⚡,1,12952,MUMBAI RAJDH,NDLS,KOTA,16:25:00,21:00:00,457.0,4h 35m,0h 0m,1,275.0,457.0,0,100.0,100.0
+OPT_ROUTE_02,CHEAPEST 💰,1,12449,GOA SMPRK K,NDLS,KOTA,18:25:00,10:00:00,455.0,15h 35m,0h 0m,0,935.0,455.0,0,100.0,100.0
+OPT_ROUTE_03,BALANCED ⚖️,1,11058,ASR CSMT EXP,NDLS,NZM,20:45:00,21:03:00,7.0,0h 18m,0h 0m,1,370.0,455.0,1,100.0,100.0
+OPT_ROUTE_03,BALANCED ⚖️,2,12917,GUJARAT SMPR,NZM,KOTA,00:00:00,02:55:00,448.0,2h 55m,2h 57m,0,370.0,455.0,1,100.0,100.0

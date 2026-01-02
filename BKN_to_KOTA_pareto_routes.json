@@ -1,0 +1,4541 @@
+{
+  "metadata": {
+    "source": "BKN",
+    "destination": "KOTA",
+    "total_routes_generated": 126,
+    "pareto_front_size": 1,
+    "optimal_routes_count": 1
+  },
+  "optimal_routes": [
+    {
+      "route_id": "OPT_ROUTE_01",
+      "category": "FASTEST \u26a1",
+      "objectives": {
+        "time": 610.0,
+        "cost": 620.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 620.0
+      },
+      "segments": [
+        {
+          "train_no": "22632",
+          "train_name": "BKN-MAS  ANU",
+          "from": "BKN",
+          "to": "KOTA",
+          "departure": "14:50:00",
+          "arrival": "01:00:00",
+          "distance": 620.0,
+          "duration_min": 610.0,
+          "wait_min": 0
+        }
+      ]
+    }
+  ],
+  "all_generated_routes": [
+    {
+      "route_id": "ALL_ROUTE_001",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 615.0,
+        "cost": 620.0,
+        "transfers": 0,
+        "seat_prob": 0.0,
+        "safety_score": 100,
+        "distance": 620.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "KOTA",
+          "departure": "17:05:00",
+          "arrival": "03:20:00",
+          "distance": 620.0,
+          "duration_min": 615.0,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_002",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 705.0,
+        "cost": 620.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 620.0
+      },
+      "segments": [
+        {
+          "train_no": "18246",
+          "train_name": "BKN-BSP EXP",
+          "from": "BKN",
+          "to": "KOTA",
+          "departure": "23:55:00",
+          "arrival": "11:40:00",
+          "distance": 620.0,
+          "duration_min": 705.0,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_003",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 610.0,
+        "cost": 620.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 620.0
+      },
+      "segments": [
+        {
+          "train_no": "22632",
+          "train_name": "BKN-MAS  ANU",
+          "from": "BKN",
+          "to": "KOTA",
+          "departure": "14:50:00",
+          "arrival": "01:00:00",
+          "distance": 620.0,
+          "duration_min": 610.0,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_004",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1910.0000000000002,
+        "cost": 3152.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 3152.0
+      },
+      "segments": [
+        {
+          "train_no": "12371",
+          "train_name": "HWH JSM SF E",
+          "from": "BKN",
+          "to": "ASN",
+          "departure": "18:30:00",
+          "arrival": "10:47:00",
+          "distance": 1727.0,
+          "duration_min": 977.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19608",
+          "train_name": "AII KOAA EXP",
+          "from": "ASN",
+          "to": "KOTA",
+          "departure": "12:25:00",
+          "arrival": "02:20:00",
+          "distance": 1425.0,
+          "duration_min": 835.0,
+          "wait_min": 98.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_005",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2215.0,
+        "cost": 2185.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 2185.0
+      },
+      "segments": [
+        {
+          "train_no": "12371",
+          "train_name": "HWH JSM SF E",
+          "from": "BKN",
+          "to": "MGS",
+          "departure": "18:30:00",
+          "arrival": "17:50:00",
+          "distance": 1266.0,
+          "duration_min": 1400.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12947",
+          "train_name": "AZIMABAD EXP",
+          "from": "MGS",
+          "to": "KOTA",
+          "departure": "00:57:00",
+          "arrival": "07:25:00",
+          "distance": 919.0,
+          "duration_min": 388.0,
+          "wait_min": 427.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_006",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1050.0,
+        "cost": 2149.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 2149.0
+      },
+      "segments": [
+        {
+          "train_no": "12371",
+          "train_name": "HWH JSM SF E",
+          "from": "BKN",
+          "to": "BSB",
+          "departure": "18:30:00",
+          "arrival": "19:05:00",
+          "distance": 1248.0,
+          "duration_min": 35.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22970",
+          "train_name": "BSB OKHA SF",
+          "from": "BSB",
+          "to": "KOTA",
+          "departure": "21:55:00",
+          "arrival": "12:00:00",
+          "distance": 901.0,
+          "duration_min": 845.0,
+          "wait_min": 170.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_007",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1395.0,
+        "cost": 1250.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1250.0
+      },
+      "segments": [
+        {
+          "train_no": "12455",
+          "train_name": "DEE- BKN EXP",
+          "from": "BKN",
+          "to": "JHL",
+          "departure": "00:00:00",
+          "arrival": "01:43:00",
+          "distance": 593.0,
+          "duration_min": 103.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19024",
+          "train_name": "FZR BCT JANT",
+          "from": "JHL",
+          "to": "KOTA",
+          "departure": "08:36:00",
+          "arrival": "23:15:00",
+          "distance": 657.0,
+          "duration_min": 879.0,
+          "wait_min": 413.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_008",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1430.0000000000002,
+        "cost": 1250.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1250.0
+      },
+      "segments": [
+        {
+          "train_no": "12455",
+          "train_name": "DEE- BKN EXP",
+          "from": "BKN",
+          "to": "SAG",
+          "departure": "00:00:00",
+          "arrival": "02:21:00",
+          "distance": 543.0,
+          "duration_min": 141.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19804",
+          "train_name": "SVDK-KOTA WE",
+          "from": "SAG",
+          "to": "KOTA",
+          "departure": "07:17:00",
+          "arrival": "23:50:00",
+          "distance": 707.0,
+          "duration_min": 993.0,
+          "wait_min": 296.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_009",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1830.0,
+        "cost": 1250.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1250.0
+      },
+      "segments": [
+        {
+          "train_no": "12456",
+          "train_name": "BKN-DEE  EXP",
+          "from": "BKN",
+          "to": "ROK",
+          "departure": "16:45:00",
+          "arrival": "05:48:00",
+          "distance": 722.0,
+          "duration_min": 783.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19024",
+          "train_name": "FZR BCT JANT",
+          "from": "ROK",
+          "to": "KOTA",
+          "departure": "10:50:00",
+          "arrival": "23:15:00",
+          "distance": 528.0,
+          "duration_min": 745.0,
+          "wait_min": 302.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_010",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1865.0000000000002,
+        "cost": 1249.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1249.0
+      },
+      "segments": [
+        {
+          "train_no": "12456",
+          "train_name": "BKN-DEE  EXP",
+          "from": "BKN",
+          "to": "SAG",
+          "departure": "16:45:00",
+          "arrival": "03:00:00",
+          "distance": 542.0,
+          "duration_min": 615.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19804",
+          "train_name": "SVDK-KOTA WE",
+          "from": "SAG",
+          "to": "KOTA",
+          "departure": "07:17:00",
+          "arrival": "23:50:00",
+          "distance": 707.0,
+          "duration_min": 993.0,
+          "wait_min": 257.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_011",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1580.0000000000002,
+        "cost": 621.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 621.0
+      },
+      "segments": [
+        {
+          "train_no": "12468",
+          "train_name": "LEELAN EXP",
+          "from": "BKN",
+          "to": "FL",
+          "departure": "23:15:00",
+          "arrival": "17:08:00",
+          "distance": 327.0,
+          "duration_min": 1073.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "18208",
+          "train_name": "AII  - DURG",
+          "from": "FL",
+          "to": "KOTA",
+          "departure": "20:42:00",
+          "arrival": "01:35:00",
+          "distance": 294.0,
+          "duration_min": 293.0,
+          "wait_min": 214.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_012",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1419.9999999999998,
+        "cost": 621.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 621.0
+      },
+      "segments": [
+        {
+          "train_no": "12468",
+          "train_name": "LEELAN EXP",
+          "from": "BKN",
+          "to": "FL",
+          "departure": "23:15:00",
+          "arrival": "17:08:00",
+          "distance": 327.0,
+          "duration_min": 1073.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "20814",
+          "train_name": "JODHPUR-PURI",
+          "from": "FL",
+          "to": "KOTA",
+          "departure": "18:32:00",
+          "arrival": "22:55:00",
+          "distance": 294.0,
+          "duration_min": 263.0,
+          "wait_min": 84.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_013",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2074.9999999999995,
+        "cost": 621.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 621.0
+      },
+      "segments": [
+        {
+          "train_no": "12468",
+          "train_name": "LEELAN EXP",
+          "from": "BKN",
+          "to": "DNA",
+          "departure": "23:15:00",
+          "arrival": "19:01:00",
+          "distance": 218.0,
+          "duration_min": 1186.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22982",
+          "train_name": "KOTA-HMH -KO",
+          "from": "DNA",
+          "to": "KOTA",
+          "departure": "02:13:00",
+          "arrival": "09:50:00",
+          "distance": 403.0,
+          "duration_min": 457.0,
+          "wait_min": 432.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_014",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1920.0,
+        "cost": 1386.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1386.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "BKN",
+          "to": "ADI",
+          "departure": "13:40:00",
+          "arrival": "04:00:00",
+          "distance": 759.0,
+          "duration_min": 860.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12473",
+          "train_name": "SARVODAYA EX",
+          "from": "ADI",
+          "to": "KOTA",
+          "departure": "11:30:00",
+          "arrival": "21:40:00",
+          "distance": 627.0,
+          "duration_min": 610.0,
+          "wait_min": 450.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_015",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1805.0000000000002,
+        "cost": 1386.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1386.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "BKN",
+          "to": "ADI",
+          "departure": "13:40:00",
+          "arrival": "04:00:00",
+          "distance": 759.0,
+          "duration_min": 860.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12918",
+          "train_name": "GUJRAT S KRA",
+          "from": "ADI",
+          "to": "KOTA",
+          "departure": "06:10:00",
+          "arrival": "19:45:00",
+          "distance": 627.0,
+          "duration_min": 815.0,
+          "wait_min": 130.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_016",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1914.9999999999998,
+        "cost": 1386.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1386.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "BKN",
+          "to": "BRC",
+          "departure": "13:40:00",
+          "arrival": "06:22:00",
+          "distance": 859.0,
+          "duration_min": 1002.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12477",
+          "train_name": "JAM SVDK EXP",
+          "from": "BRC",
+          "to": "KOTA",
+          "departure": "13:35:00",
+          "arrival": "21:35:00",
+          "distance": 527.0,
+          "duration_min": 480.0,
+          "wait_min": 433.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_017",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1950.0,
+        "cost": 1829.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 1829.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "BKN",
+          "to": "VAPI",
+          "departure": "13:40:00",
+          "arrival": "09:24:00",
+          "distance": 1080.0,
+          "duration_min": 1184.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12493",
+          "train_name": "PUNE-NZM AC",
+          "from": "VAPI",
+          "to": "KOTA",
+          "departure": "10:43:00",
+          "arrival": "22:10:00",
+          "distance": 749.0,
+          "duration_min": 687.0,
+          "wait_min": 79.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_018",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2065.0000000000005,
+        "cost": 2110.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 2110.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "BKN",
+          "to": "BVI",
+          "departure": "13:40:00",
+          "arrival": "11:20:00",
+          "distance": 1221.0,
+          "duration_min": 1300.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12980",
+          "train_name": "JP BDTS  SF",
+          "from": "BVI",
+          "to": "KOTA",
+          "departure": "13:29:00",
+          "arrival": "00:05:00",
+          "distance": 889.0,
+          "duration_min": 636.0,
+          "wait_min": 129.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_019",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1764.9999999999998,
+        "cost": 1386.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1386.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "BKN",
+          "to": "BRC",
+          "departure": "13:40:00",
+          "arrival": "06:22:00",
+          "distance": 859.0,
+          "duration_min": 1002.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19019",
+          "train_name": "DEHRADUN EXP",
+          "from": "BRC",
+          "to": "KOTA",
+          "departure": "06:55:00",
+          "arrival": "19:05:00",
+          "distance": 527.0,
+          "duration_min": 730.0,
+          "wait_min": 33.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_020",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1715.0,
+        "cost": 1387.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 1387.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "BKN",
+          "to": "BRC",
+          "departure": "13:40:00",
+          "arrival": "06:22:00",
+          "distance": 859.0,
+          "duration_min": 1002.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22653",
+          "train_name": "TVC-NZM WKLY",
+          "from": "BRC",
+          "to": "KOTA",
+          "departure": "10:16:00",
+          "arrival": "18:15:00",
+          "distance": 528.0,
+          "duration_min": 479.0,
+          "wait_min": 234.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_021",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1715.0,
+        "cost": 1387.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1387.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "BKN",
+          "to": "BRC",
+          "departure": "13:40:00",
+          "arrival": "06:22:00",
+          "distance": 859.0,
+          "duration_min": 1002.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22655",
+          "train_name": "TVC-NZM WKLY",
+          "from": "BRC",
+          "to": "KOTA",
+          "departure": "10:16:00",
+          "arrival": "18:15:00",
+          "distance": 528.0,
+          "duration_min": 479.0,
+          "wait_min": 234.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_022",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1969.9999999999998,
+        "cost": 1386.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1386.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "BKN",
+          "to": "BRC",
+          "departure": "13:40:00",
+          "arrival": "06:22:00",
+          "distance": 859.0,
+          "duration_min": 1002.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "59831",
+          "train_name": "BRC-KOTA PAR",
+          "from": "BRC",
+          "to": "KOTA",
+          "departure": "07:25:00",
+          "arrival": "22:30:00",
+          "distance": 527.0,
+          "duration_min": 905.0,
+          "wait_min": 63.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_023",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2235.0,
+        "cost": 1644.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1644.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "BKN",
+          "to": "ST",
+          "departure": "13:40:00",
+          "arrival": "08:10:00",
+          "distance": 988.0,
+          "duration_min": 1110.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12483",
+          "train_name": "KCVL EXPRESS",
+          "from": "ST",
+          "to": "KOTA",
+          "departure": "15:42:00",
+          "arrival": "02:55:00",
+          "distance": 656.0,
+          "duration_min": 673.0,
+          "wait_min": 452.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_024",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2145.0,
+        "cost": 1829.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1829.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "BKN",
+          "to": "VAPI",
+          "departure": "13:40:00",
+          "arrival": "09:24:00",
+          "distance": 1080.0,
+          "duration_min": 1184.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19023",
+          "train_name": "FZR JANATA E",
+          "from": "VAPI",
+          "to": "KOTA",
+          "departure": "11:02:00",
+          "arrival": "01:25:00",
+          "distance": 749.0,
+          "duration_min": 863.0,
+          "wait_min": 98.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_025",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2235.0,
+        "cost": 1644.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 1644.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "BKN",
+          "to": "ST",
+          "departure": "13:40:00",
+          "arrival": "08:10:00",
+          "distance": 988.0,
+          "duration_min": 1110.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22659",
+          "train_name": "KCVL-DDN  EX",
+          "from": "ST",
+          "to": "KOTA",
+          "departure": "15:42:00",
+          "arrival": "02:55:00",
+          "distance": 656.0,
+          "duration_min": 673.0,
+          "wait_min": 452.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_026",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2440.0000000000005,
+        "cost": 2110.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 2110.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "BKN",
+          "to": "BVI",
+          "departure": "13:40:00",
+          "arrival": "11:20:00",
+          "distance": 1221.0,
+          "duration_min": 1300.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12907",
+          "train_name": "BDTS SMPRK K",
+          "from": "BVI",
+          "to": "KOTA",
+          "departure": "17:09:00",
+          "arrival": "06:20:00",
+          "distance": 889.0,
+          "duration_min": 791.0,
+          "wait_min": 349.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_027",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2280.0,
+        "cost": 2110.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 2110.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "BKN",
+          "to": "BVI",
+          "departure": "13:40:00",
+          "arrival": "11:20:00",
+          "distance": 1221.0,
+          "duration_min": 1300.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12909",
+          "train_name": "NZM GARIB RA",
+          "from": "BVI",
+          "to": "KOTA",
+          "departure": "17:09:00",
+          "arrival": "03:40:00",
+          "distance": 889.0,
+          "duration_min": 631.0,
+          "wait_min": 349.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_028",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2260.0000000000005,
+        "cost": 2110.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 2110.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "BKN",
+          "to": "BVI",
+          "departure": "13:40:00",
+          "arrival": "11:20:00",
+          "distance": 1221.0,
+          "duration_min": 1300.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12951",
+          "train_name": "MUMBAI RAJDH",
+          "from": "BVI",
+          "to": "KOTA",
+          "departure": "17:32:00",
+          "arrival": "03:20:00",
+          "distance": 889.0,
+          "duration_min": 588.0,
+          "wait_min": 372.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_029",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1494.9999999999998,
+        "cost": 996.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 996.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "TDL",
+          "departure": "05:20:00",
+          "arrival": "16:45:00",
+          "distance": 645.0,
+          "duration_min": 685.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15636",
+          "train_name": "DWARKA EXPRE",
+          "from": "TDL",
+          "to": "KOTA",
+          "departure": "23:45:00",
+          "arrival": "06:15:00",
+          "distance": 351.0,
+          "duration_min": 390.0,
+          "wait_min": 420.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_030",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1545.0,
+        "cost": 996.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 996.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "TDL",
+          "departure": "05:20:00",
+          "arrival": "16:45:00",
+          "distance": 645.0,
+          "duration_min": 685.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15668",
+          "train_name": "KAMAKHYA-GAN",
+          "from": "TDL",
+          "to": "KOTA",
+          "departure": "23:45:00",
+          "arrival": "07:05:00",
+          "distance": 351.0,
+          "duration_min": 440.0,
+          "wait_min": 420.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_031",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1894.9999999999998,
+        "cost": 1047.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1047.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "TDL",
+          "departure": "05:20:00",
+          "arrival": "16:45:00",
+          "distance": 645.0,
+          "duration_min": 685.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13237",
+          "train_name": "PNBE- KOTA",
+          "from": "TDL",
+          "to": "KOTA",
+          "departure": "04:25:00",
+          "arrival": "12:55:00",
+          "distance": 402.0,
+          "duration_min": 510.0,
+          "wait_min": 700.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_032",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1895.0,
+        "cost": 1489.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1489.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "CNB",
+          "departure": "05:20:00",
+          "arrival": "19:58:00",
+          "distance": 866.0,
+          "duration_min": 878.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13239",
+          "train_name": "PNBE-KOTA EX",
+          "from": "CNB",
+          "to": "KOTA",
+          "departure": "01:30:00",
+          "arrival": "12:55:00",
+          "distance": 623.0,
+          "duration_min": 685.0,
+          "wait_min": 332.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_033",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1760.0000000000002,
+        "cost": 1439.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1439.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "CNB",
+          "departure": "05:20:00",
+          "arrival": "19:58:00",
+          "distance": 866.0,
+          "duration_min": 878.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19038",
+          "train_name": "AVADH EXPRES",
+          "from": "CNB",
+          "to": "KOTA",
+          "departure": "22:37:00",
+          "arrival": "10:40:00",
+          "distance": 573.0,
+          "duration_min": 723.0,
+          "wait_min": 159.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_034",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1764.9999999999998,
+        "cost": 1439.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1439.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "CNB",
+          "departure": "05:20:00",
+          "arrival": "19:58:00",
+          "distance": 866.0,
+          "duration_min": 878.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19040",
+          "train_name": "AVADH EXPRES",
+          "from": "CNB",
+          "to": "KOTA",
+          "departure": "22:37:00",
+          "arrival": "10:45:00",
+          "distance": 573.0,
+          "duration_min": 728.0,
+          "wait_min": 159.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_035",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2185.0,
+        "cost": 1827.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1827.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "ALD",
+          "departure": "05:20:00",
+          "arrival": "22:35:00",
+          "distance": 1060.0,
+          "duration_min": 1035.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12942",
+          "train_name": "PARASNATH EX",
+          "from": "ALD",
+          "to": "KOTA",
+          "departure": "05:35:00",
+          "arrival": "17:45:00",
+          "distance": 767.0,
+          "duration_min": 730.0,
+          "wait_min": 420.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_036",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1260.0,
+        "cost": 3518.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 3518.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "KOAA",
+          "departure": "05:20:00",
+          "arrival": "13:15:00",
+          "distance": 1878.0,
+          "duration_min": 475.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19608",
+          "train_name": "AII KOAA EXP",
+          "from": "KOAA",
+          "to": "KOTA",
+          "departure": "17:00:00",
+          "arrival": "02:20:00",
+          "distance": 1640.0,
+          "duration_min": 560.0,
+          "wait_min": 225.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_037",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1270.0,
+        "cost": 873.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 873.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "JP",
+          "departure": "05:20:00",
+          "arrival": "11:30:00",
+          "distance": 381.0,
+          "duration_min": 370.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11204",
+          "train_name": "JAIPUR NAGPU",
+          "from": "JP",
+          "to": "KOTA",
+          "departure": "16:30:00",
+          "arrival": "02:30:00",
+          "distance": 492.0,
+          "duration_min": 600.0,
+          "wait_min": 300.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_038",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 960.0,
+        "cost": 620.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 620.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "JP",
+          "departure": "05:20:00",
+          "arrival": "11:30:00",
+          "distance": 381.0,
+          "duration_min": 370.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12182",
+          "train_name": "AII-JBP DAYO",
+          "from": "JP",
+          "to": "KOTA",
+          "departure": "17:35:00",
+          "arrival": "21:20:00",
+          "distance": 239.0,
+          "duration_min": 225.0,
+          "wait_min": 365.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_039",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1680.0000000000002,
+        "cost": 620.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 620.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "JP",
+          "departure": "05:20:00",
+          "arrival": "11:30:00",
+          "distance": 381.0,
+          "duration_min": 370.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12939",
+          "train_name": "PUNE JAIPUR",
+          "from": "JP",
+          "to": "KOTA",
+          "departure": "13:40:00",
+          "arrival": "09:20:00",
+          "distance": 239.0,
+          "duration_min": 1180.0,
+          "wait_min": 130.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_040",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 724.9999999999999,
+        "cost": 620.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 620.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "JP",
+          "departure": "05:20:00",
+          "arrival": "11:30:00",
+          "distance": 381.0,
+          "duration_min": 370.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12956",
+          "train_name": "JP BCT SUPFA",
+          "from": "JP",
+          "to": "KOTA",
+          "departure": "14:00:00",
+          "arrival": "17:25:00",
+          "distance": 239.0,
+          "duration_min": 205.0,
+          "wait_min": 150.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_041",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 690.0,
+        "cost": 620.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 620.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "JP",
+          "departure": "05:20:00",
+          "arrival": "11:30:00",
+          "distance": 381.0,
+          "duration_min": 370.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22934",
+          "train_name": "JP BDTS SF E",
+          "from": "JP",
+          "to": "KOTA",
+          "departure": "12:45:00",
+          "arrival": "16:50:00",
+          "distance": 239.0,
+          "duration_min": 245.0,
+          "wait_min": 75.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_042",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1090.0,
+        "cost": 855.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 855.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "BTE",
+          "departure": "05:20:00",
+          "arrival": "14:12:00",
+          "distance": 569.0,
+          "duration_min": 532.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12926",
+          "train_name": "PASCHIM EXPR",
+          "from": "BTE",
+          "to": "KOTA",
+          "departure": "19:42:00",
+          "arrival": "23:30:00",
+          "distance": 286.0,
+          "duration_min": 228.0,
+          "wait_min": 330.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_043",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1075.0,
+        "cost": 855.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 855.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "BTE",
+          "departure": "05:20:00",
+          "arrival": "14:12:00",
+          "distance": 569.0,
+          "duration_min": 532.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19024",
+          "train_name": "FZR BCT JANT",
+          "from": "BTE",
+          "to": "KOTA",
+          "departure": "17:30:00",
+          "arrival": "23:15:00",
+          "distance": 286.0,
+          "duration_min": 345.0,
+          "wait_min": 198.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_044",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1110.0,
+        "cost": 855.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 855.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "BTE",
+          "departure": "05:20:00",
+          "arrival": "14:12:00",
+          "distance": 569.0,
+          "duration_min": 532.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19804",
+          "train_name": "SVDK-KOTA WE",
+          "from": "BTE",
+          "to": "KOTA",
+          "departure": "18:39:00",
+          "arrival": "23:50:00",
+          "distance": 286.0,
+          "duration_min": 311.0,
+          "wait_min": 267.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_045",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1125.0,
+        "cost": 951.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 951.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "AF",
+          "departure": "05:20:00",
+          "arrival": "15:15:00",
+          "distance": 622.0,
+          "duration_min": 595.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12938",
+          "train_name": "GARBHA EXPRE",
+          "from": "AF",
+          "to": "KOTA",
+          "departure": "18:05:00",
+          "arrival": "00:05:00",
+          "distance": 329.0,
+          "duration_min": 360.0,
+          "wait_min": 170.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_046",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1464.9999999999998,
+        "cost": 951.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 951.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "AF",
+          "departure": "05:20:00",
+          "arrival": "15:15:00",
+          "distance": 622.0,
+          "duration_min": 595.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "59812",
+          "train_name": "JAB-KOTA-RTM",
+          "from": "AF",
+          "to": "KOTA",
+          "departure": "18:55:00",
+          "arrival": "05:45:00",
+          "distance": 329.0,
+          "duration_min": 650.0,
+          "wait_min": 220.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_047",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2015.0000000000002,
+        "cost": 1498.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1498.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "BH",
+          "departure": "09:30:00",
+          "arrival": "03:40:00",
+          "distance": 901.0,
+          "duration_min": 1090.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19019",
+          "train_name": "DEHRADUN EXP",
+          "from": "BH",
+          "to": "KOTA",
+          "departure": "05:40:00",
+          "arrival": "19:05:00",
+          "distance": 597.0,
+          "duration_min": 805.0,
+          "wait_min": 120.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_048",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1965.0,
+        "cost": 1499.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1499.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "BH",
+          "departure": "09:30:00",
+          "arrival": "03:40:00",
+          "distance": 901.0,
+          "duration_min": 1090.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22653",
+          "train_name": "TVC-NZM WKLY",
+          "from": "BH",
+          "to": "KOTA",
+          "departure": "09:01:00",
+          "arrival": "18:15:00",
+          "distance": 598.0,
+          "duration_min": 554.0,
+          "wait_min": 321.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_049",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1965.0,
+        "cost": 1499.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1499.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "BH",
+          "departure": "09:30:00",
+          "arrival": "03:40:00",
+          "distance": 901.0,
+          "duration_min": 1090.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22655",
+          "train_name": "TVC-NZM WKLY",
+          "from": "BH",
+          "to": "KOTA",
+          "departure": "09:01:00",
+          "arrival": "18:15:00",
+          "distance": 598.0,
+          "duration_min": 554.0,
+          "wait_min": 321.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_050",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2395.0000000000005,
+        "cost": 1968.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1968.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "PLG",
+          "departure": "09:30:00",
+          "arrival": "07:17:00",
+          "distance": 1136.0,
+          "duration_min": 1307.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19023",
+          "train_name": "FZR JANATA E",
+          "from": "PLG",
+          "to": "KOTA",
+          "departure": "09:16:00",
+          "arrival": "01:25:00",
+          "distance": 832.0,
+          "duration_min": 969.0,
+          "wait_min": 119.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_051",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 875.0,
+        "cost": 2119.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 2119.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "BDTS",
+          "departure": "09:30:00",
+          "arrival": "09:40:00",
+          "distance": 1211.0,
+          "duration_min": 10.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12980",
+          "train_name": "JP BDTS  SF",
+          "from": "BDTS",
+          "to": "KOTA",
+          "departure": "14:20:00",
+          "arrival": "00:05:00",
+          "distance": 908.0,
+          "duration_min": 585.0,
+          "wait_min": 280.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_052",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1090.0,
+        "cost": 2118.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 2118.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "BDTS",
+          "departure": "09:30:00",
+          "arrival": "09:40:00",
+          "distance": 1211.0,
+          "duration_min": 10.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12247",
+          "train_name": "BDTS NZM YUV",
+          "from": "BDTS",
+          "to": "KOTA",
+          "departure": "16:35:00",
+          "arrival": "03:40:00",
+          "distance": 907.0,
+          "duration_min": 665.0,
+          "wait_min": 415.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_053",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1250.0000000000002,
+        "cost": 2118.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 2118.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "BDTS",
+          "departure": "09:30:00",
+          "arrival": "09:40:00",
+          "distance": 1211.0,
+          "duration_min": 10.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12907",
+          "train_name": "BDTS SMPRK K",
+          "from": "BDTS",
+          "to": "KOTA",
+          "departure": "16:35:00",
+          "arrival": "06:20:00",
+          "distance": 907.0,
+          "duration_min": 825.0,
+          "wait_min": 415.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_054",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1090.0,
+        "cost": 2118.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 2118.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "BDTS",
+          "departure": "09:30:00",
+          "arrival": "09:40:00",
+          "distance": 1211.0,
+          "duration_min": 10.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12909",
+          "train_name": "NZM GARIB RA",
+          "from": "BDTS",
+          "to": "KOTA",
+          "departure": "16:35:00",
+          "arrival": "03:40:00",
+          "distance": 907.0,
+          "duration_min": 665.0,
+          "wait_min": 415.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_055",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1000.0000000000001,
+        "cost": 2118.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 2118.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "BDTS",
+          "departure": "09:30:00",
+          "arrival": "09:40:00",
+          "distance": 1211.0,
+          "duration_min": 10.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12925",
+          "train_name": "PASCHIM EXPR",
+          "from": "BDTS",
+          "to": "KOTA",
+          "departure": "12:00:00",
+          "arrival": "02:10:00",
+          "distance": 907.0,
+          "duration_min": 850.0,
+          "wait_min": 140.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_056",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1260.0,
+        "cost": 2118.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 2118.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "BDTS",
+          "departure": "09:30:00",
+          "arrival": "09:40:00",
+          "distance": 1211.0,
+          "duration_min": 10.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12979",
+          "train_name": "BDTS JP SF E",
+          "from": "BDTS",
+          "to": "KOTA",
+          "departure": "15:50:00",
+          "arrival": "06:30:00",
+          "distance": 907.0,
+          "duration_min": 880.0,
+          "wait_min": 370.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_057",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1030.0,
+        "cost": 2118.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 2118.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "BDTS",
+          "departure": "09:30:00",
+          "arrival": "09:40:00",
+          "distance": 1211.0,
+          "duration_min": 10.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19021",
+          "train_name": "BDTS LJN EXP",
+          "from": "BDTS",
+          "to": "KOTA",
+          "departure": "12:55:00",
+          "arrival": "02:40:00",
+          "distance": 907.0,
+          "duration_min": 825.0,
+          "wait_min": 195.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_058",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1030.0,
+        "cost": 2118.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 2118.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "BDTS",
+          "departure": "09:30:00",
+          "arrival": "09:40:00",
+          "distance": 1211.0,
+          "duration_min": 10.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22917",
+          "train_name": "HARIDWAR EXP",
+          "from": "BDTS",
+          "to": "KOTA",
+          "departure": "11:45:00",
+          "arrival": "02:40:00",
+          "distance": 907.0,
+          "duration_min": 895.0,
+          "wait_min": 125.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_059",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1260.0,
+        "cost": 2118.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 2118.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "BDTS",
+          "departure": "09:30:00",
+          "arrival": "09:40:00",
+          "distance": 1211.0,
+          "duration_min": 10.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22933",
+          "train_name": "BDTS JP SF E",
+          "from": "BDTS",
+          "to": "KOTA",
+          "departure": "15:50:00",
+          "arrival": "06:30:00",
+          "distance": 907.0,
+          "duration_min": 880.0,
+          "wait_min": 370.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_060",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 805.0000000000001,
+        "cost": 620.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 620.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "MTD",
+          "departure": "09:30:00",
+          "arrival": "12:42:00",
+          "distance": 173.0,
+          "duration_min": 192.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "20814",
+          "train_name": "JODHPUR-PURI",
+          "from": "MTD",
+          "to": "KOTA",
+          "departure": "15:33:00",
+          "arrival": "22:55:00",
+          "distance": 447.0,
+          "duration_min": 442.0,
+          "wait_min": 171.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_061",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 640.0000000000001,
+        "cost": 621.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 621.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "SWM",
+          "departure": "17:05:00",
+          "arrival": "01:55:00",
+          "distance": 513.0,
+          "duration_min": 530.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12472",
+          "train_name": "SWARAJ EXPRE",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "02:29:00",
+          "arrival": "03:45:00",
+          "distance": 108.0,
+          "duration_min": 76.0,
+          "wait_min": 34.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_062",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 640.0000000000001,
+        "cost": 621.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 621.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "SWM",
+          "departure": "17:05:00",
+          "arrival": "01:55:00",
+          "distance": 513.0,
+          "duration_min": 530.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12474",
+          "train_name": "SARVODAYA EX",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "02:29:00",
+          "arrival": "03:45:00",
+          "distance": 108.0,
+          "duration_min": 76.0,
+          "wait_min": 34.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_063",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 640.0000000000001,
+        "cost": 621.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 621.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "SWM",
+          "departure": "17:05:00",
+          "arrival": "01:55:00",
+          "distance": 513.0,
+          "duration_min": 530.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12476",
+          "train_name": "SARVODAYA EX",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "02:29:00",
+          "arrival": "03:45:00",
+          "distance": 108.0,
+          "duration_min": 76.0,
+          "wait_min": 34.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_064",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 640.0000000000001,
+        "cost": 621.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 621.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "SWM",
+          "departure": "17:05:00",
+          "arrival": "01:55:00",
+          "distance": 513.0,
+          "duration_min": 530.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12478",
+          "train_name": "SVDK- JAMNAG",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "02:29:00",
+          "arrival": "03:45:00",
+          "distance": 108.0,
+          "duration_min": 76.0,
+          "wait_min": 34.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_065",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2015.0000000000002,
+        "cost": 621.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 621.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "SWM",
+          "departure": "17:05:00",
+          "arrival": "01:55:00",
+          "distance": 513.0,
+          "duration_min": 530.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12911",
+          "train_name": "BL HARIDWAR",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "04:00:00",
+          "arrival": "02:40:00",
+          "distance": 108.0,
+          "duration_min": 1360.0,
+          "wait_min": 125.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_066",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 785.0,
+        "cost": 621.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 621.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "SWM",
+          "departure": "17:05:00",
+          "arrival": "01:55:00",
+          "distance": 513.0,
+          "duration_min": 530.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12912",
+          "train_name": "HW BL SUP EX",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "04:50:00",
+          "arrival": "06:10:00",
+          "distance": 108.0,
+          "duration_min": 80.0,
+          "wait_min": 175.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_067",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 790.0000000000001,
+        "cost": 620.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 620.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "SWM",
+          "departure": "17:05:00",
+          "arrival": "01:55:00",
+          "distance": 513.0,
+          "duration_min": 530.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15636",
+          "train_name": "DWARKA EXPRE",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "04:50:00",
+          "arrival": "06:15:00",
+          "distance": 107.0,
+          "duration_min": 85.0,
+          "wait_min": 175.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_068",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 840.0,
+        "cost": 620.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 620.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "SWM",
+          "departure": "17:05:00",
+          "arrival": "01:55:00",
+          "distance": 513.0,
+          "duration_min": 530.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15668",
+          "train_name": "KAMAKHYA-GAN",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "05:45:00",
+          "arrival": "07:05:00",
+          "distance": 107.0,
+          "duration_min": 80.0,
+          "wait_min": 230.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_069",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 870.0,
+        "cost": 621.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 621.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "SWM",
+          "departure": "17:05:00",
+          "arrival": "01:55:00",
+          "distance": 513.0,
+          "duration_min": 530.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19020",
+          "train_name": "DEHRADUN EXP",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "05:25:00",
+          "arrival": "07:35:00",
+          "distance": 108.0,
+          "duration_min": 130.0,
+          "wait_min": 210.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_070",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1055.0000000000002,
+        "cost": 621.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 621.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "SWM",
+          "departure": "17:05:00",
+          "arrival": "01:55:00",
+          "distance": 513.0,
+          "duration_min": 530.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19038",
+          "train_name": "AVADH EXPRES",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "09:05:00",
+          "arrival": "10:40:00",
+          "distance": 108.0,
+          "duration_min": 95.0,
+          "wait_min": 430.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_071",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1060.0,
+        "cost": 621.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 621.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "SWM",
+          "departure": "17:05:00",
+          "arrival": "01:55:00",
+          "distance": 513.0,
+          "duration_min": 530.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19040",
+          "train_name": "AVADH EXPRES",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "09:05:00",
+          "arrival": "10:45:00",
+          "distance": 108.0,
+          "duration_min": 100.0,
+          "wait_min": 430.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_072",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 845.0,
+        "cost": 621.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 621.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "SWM",
+          "departure": "17:05:00",
+          "arrival": "01:55:00",
+          "distance": 513.0,
+          "duration_min": 530.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19062",
+          "train_name": "RMR BDTS EXP",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "05:45:00",
+          "arrival": "07:10:00",
+          "distance": 108.0,
+          "duration_min": 85.0,
+          "wait_min": 230.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_073",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1085.0000000000002,
+        "cost": 620.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 620.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "SWM",
+          "departure": "17:05:00",
+          "arrival": "01:55:00",
+          "distance": 513.0,
+          "duration_min": 530.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19806",
+          "train_name": "UHP-KOTA WEE",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "09:27:00",
+          "arrival": "11:10:00",
+          "distance": 107.0,
+          "duration_min": 103.0,
+          "wait_min": 452.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_074",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 840.0,
+        "cost": 620.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 620.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "SWM",
+          "departure": "17:05:00",
+          "arrival": "01:55:00",
+          "distance": 513.0,
+          "duration_min": 530.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22443",
+          "train_name": "CNB-BDTS EXP",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "05:45:00",
+          "arrival": "07:05:00",
+          "distance": 107.0,
+          "duration_min": 80.0,
+          "wait_min": 230.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_075",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 790.0000000000001,
+        "cost": 621.0,
+        "transfers": 1,
+        "seat_prob": 0.0,
+        "safety_score": 100,
+        "distance": 621.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "SWM",
+          "departure": "17:05:00",
+          "arrival": "01:55:00",
+          "distance": 513.0,
+          "duration_min": 530.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22634",
+          "train_name": "NZM TVC SF E",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "04:50:00",
+          "arrival": "06:15:00",
+          "distance": 108.0,
+          "duration_min": 85.0,
+          "wait_min": 175.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_076",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 790.0000000000001,
+        "cost": 621.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 621.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "SWM",
+          "departure": "17:05:00",
+          "arrival": "01:55:00",
+          "distance": 513.0,
+          "duration_min": 530.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22918",
+          "train_name": "HW BDTS SF E",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "04:50:00",
+          "arrival": "06:15:00",
+          "distance": 108.0,
+          "duration_min": 85.0,
+          "wait_min": 175.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_077",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1005.0,
+        "cost": 621.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 621.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "SWM",
+          "departure": "17:05:00",
+          "arrival": "01:55:00",
+          "distance": 513.0,
+          "duration_min": 530.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22982",
+          "train_name": "KOTA-HMH -KO",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "07:55:00",
+          "arrival": "09:50:00",
+          "distance": 108.0,
+          "duration_min": 115.0,
+          "wait_min": 360.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_078",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 865.0000000000001,
+        "cost": 753.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 753.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "BAZ",
+          "departure": "17:05:00",
+          "arrival": "04:36:00",
+          "distance": 687.0,
+          "duration_min": 691.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12181",
+          "train_name": "JBP-AII DAYO",
+          "from": "BAZ",
+          "to": "KOTA",
+          "departure": "06:09:00",
+          "arrival": "07:30:00",
+          "distance": 66.0,
+          "duration_min": 81.0,
+          "wait_min": 93.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_079",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1075.0,
+        "cost": 753.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 753.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "BAZ",
+          "departure": "17:05:00",
+          "arrival": "04:36:00",
+          "distance": 687.0,
+          "duration_min": 691.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14710",
+          "train_name": "PURI BKN EXP",
+          "from": "BAZ",
+          "to": "KOTA",
+          "departure": "09:40:00",
+          "arrival": "11:00:00",
+          "distance": 66.0,
+          "duration_min": 80.0,
+          "wait_min": 304.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_080",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1075.0,
+        "cost": 753.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 753.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "BAZ",
+          "departure": "17:05:00",
+          "arrival": "04:36:00",
+          "distance": 687.0,
+          "duration_min": 691.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "18207",
+          "train_name": "DURG - AII E",
+          "from": "BAZ",
+          "to": "KOTA",
+          "departure": "09:40:00",
+          "arrival": "11:00:00",
+          "distance": 66.0,
+          "duration_min": 80.0,
+          "wait_min": 304.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_081",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1075.0,
+        "cost": 753.0,
+        "transfers": 1,
+        "seat_prob": 0.0,
+        "safety_score": 100,
+        "distance": 753.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "BAZ",
+          "departure": "17:05:00",
+          "arrival": "04:36:00",
+          "distance": 687.0,
+          "duration_min": 691.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "18213",
+          "train_name": "DURG - JP EX",
+          "from": "BAZ",
+          "to": "KOTA",
+          "departure": "09:40:00",
+          "arrival": "11:00:00",
+          "distance": 66.0,
+          "duration_min": 80.0,
+          "wait_min": 304.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_082",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1075.0,
+        "cost": 753.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 753.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "BAZ",
+          "departure": "17:05:00",
+          "arrival": "04:36:00",
+          "distance": 687.0,
+          "duration_min": 691.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "18573",
+          "train_name": "VSKP-BGKT WE",
+          "from": "BAZ",
+          "to": "KOTA",
+          "departure": "09:40:00",
+          "arrival": "11:00:00",
+          "distance": 66.0,
+          "duration_min": 80.0,
+          "wait_min": 304.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_083",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1000.0000000000001,
+        "cost": 753.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 753.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "BAZ",
+          "departure": "17:05:00",
+          "arrival": "04:36:00",
+          "distance": 687.0,
+          "duration_min": 691.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "59822",
+          "train_name": "BHIND-KOTA P",
+          "from": "BAZ",
+          "to": "KOTA",
+          "departure": "06:45:00",
+          "arrival": "09:45:00",
+          "distance": 66.0,
+          "duration_min": 180.0,
+          "wait_min": 129.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_084",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1400.0000000000002,
+        "cost": 990.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 990.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "GUNA",
+          "departure": "17:05:00",
+          "arrival": "07:20:00",
+          "distance": 805.0,
+          "duration_min": 855.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13423",
+          "train_name": "BGP-AII WKLY",
+          "from": "GUNA",
+          "to": "KOTA",
+          "departure": "12:45:00",
+          "arrival": "16:25:00",
+          "distance": 185.0,
+          "duration_min": 220.0,
+          "wait_min": 325.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_085",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1545.0,
+        "cost": 1078.0,
+        "transfers": 1,
+        "seat_prob": 0.0,
+        "safety_score": 100,
+        "distance": 1078.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "ASKN",
+          "departure": "17:05:00",
+          "arrival": "08:05:00",
+          "distance": 849.0,
+          "duration_min": 900.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "51612",
+          "train_name": "BINA-KOTA PA",
+          "from": "ASKN",
+          "to": "KOTA",
+          "departure": "11:40:00",
+          "arrival": "18:50:00",
+          "distance": 229.0,
+          "duration_min": 430.0,
+          "wait_min": 215.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_086",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1735.0,
+        "cost": 1169.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 1169.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "MNV",
+          "departure": "17:05:00",
+          "arrival": "08:42:00",
+          "distance": 895.0,
+          "duration_min": 937.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "18009",
+          "train_name": "SRC - AII EX",
+          "from": "MNV",
+          "to": "KOTA",
+          "departure": "16:12:00",
+          "arrival": "22:00:00",
+          "distance": 274.0,
+          "duration_min": 348.0,
+          "wait_min": 450.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_087",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1735.0,
+        "cost": 1169.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 1169.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "MNV",
+          "departure": "17:05:00",
+          "arrival": "08:42:00",
+          "distance": 895.0,
+          "duration_min": 937.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19607",
+          "train_name": "KOAA AII EXP",
+          "from": "MNV",
+          "to": "KOTA",
+          "departure": "16:12:00",
+          "arrival": "22:00:00",
+          "distance": 274.0,
+          "duration_min": 348.0,
+          "wait_min": 450.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_088",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2235.0,
+        "cost": 1386.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1386.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "BKN",
+          "to": "BRC",
+          "departure": "13:40:00",
+          "arrival": "06:22:00",
+          "distance": 859.0,
+          "duration_min": 1002.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12217",
+          "train_name": "KERALA S.KRA",
+          "from": "BRC",
+          "to": "KOTA",
+          "departure": "17:56:00",
+          "arrival": "02:55:00",
+          "distance": 527.0,
+          "duration_min": 539.0,
+          "wait_min": 694.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_089",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2280.0,
+        "cost": 1644.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1644.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "BKN",
+          "to": "ST",
+          "departure": "13:40:00",
+          "arrival": "08:10:00",
+          "distance": 988.0,
+          "duration_min": 1110.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12247",
+          "train_name": "BDTS NZM YUV",
+          "from": "ST",
+          "to": "KOTA",
+          "departure": "20:10:00",
+          "arrival": "03:40:00",
+          "distance": 656.0,
+          "duration_min": 450.0,
+          "wait_min": 720.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_090",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2220.0,
+        "cost": 1644.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 1644.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "BKN",
+          "to": "ST",
+          "departure": "13:40:00",
+          "arrival": "08:10:00",
+          "distance": 988.0,
+          "duration_min": 1110.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12911",
+          "train_name": "BL HARIDWAR",
+          "from": "ST",
+          "to": "KOTA",
+          "departure": "16:50:00",
+          "arrival": "02:40:00",
+          "distance": 656.0,
+          "duration_min": 590.0,
+          "wait_min": 520.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_091",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2430.0,
+        "cost": 1644.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1644.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "BKN",
+          "to": "ST",
+          "departure": "13:40:00",
+          "arrival": "08:10:00",
+          "distance": 988.0,
+          "duration_min": 1110.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12912",
+          "train_name": "HW BL SUP EX",
+          "from": "ST",
+          "to": "KOTA",
+          "departure": "17:10:00",
+          "arrival": "06:10:00",
+          "distance": 656.0,
+          "duration_min": 780.0,
+          "wait_min": 540.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_092",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1209.9999999999998,
+        "cost": 621.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 621.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "BKN",
+          "to": "NGO",
+          "departure": "13:40:00",
+          "arrival": "15:11:00",
+          "distance": 116.0,
+          "duration_min": 91.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22982",
+          "train_name": "KOTA-HMH -KO",
+          "from": "NGO",
+          "to": "KOTA",
+          "departure": "00:47:00",
+          "arrival": "09:50:00",
+          "distance": 505.0,
+          "duration_min": 543.0,
+          "wait_min": 576.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_093",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1505.0,
+        "cost": 827.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 827.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "BKN",
+          "to": "JU",
+          "departure": "13:40:00",
+          "arrival": "18:15:00",
+          "distance": 276.0,
+          "duration_min": 275.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12466",
+          "train_name": "INTERCITY EX",
+          "from": "JU",
+          "to": "KOTA",
+          "departure": "05:55:00",
+          "arrival": "14:45:00",
+          "distance": 551.0,
+          "duration_min": 530.0,
+          "wait_min": 700.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_094",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1245.0,
+        "cost": 1829.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 1829.0
+      },
+      "segments": [
+        {
+          "train_no": "12490",
+          "train_name": "DDR BIKANER",
+          "from": "BKN",
+          "to": "VAPI",
+          "departure": "13:10:00",
+          "arrival": "16:49:00",
+          "distance": 1081.0,
+          "duration_min": 219.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12977",
+          "train_name": "MARU SAGAR E",
+          "from": "VAPI",
+          "to": "KOTA",
+          "departure": "22:58:00",
+          "arrival": "09:55:00",
+          "distance": 748.0,
+          "duration_min": 657.0,
+          "wait_min": 369.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_095",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1460.0,
+        "cost": 1831.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 1831.0
+      },
+      "segments": [
+        {
+          "train_no": "12490",
+          "train_name": "DDR BIKANER",
+          "from": "BKN",
+          "to": "VAPI",
+          "departure": "13:10:00",
+          "arrival": "16:49:00",
+          "distance": 1081.0,
+          "duration_min": 219.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12978",
+          "train_name": "MARU SAGAR E",
+          "from": "VAPI",
+          "to": "KOTA",
+          "departure": "01:13:00",
+          "arrival": "13:30:00",
+          "distance": 750.0,
+          "duration_min": 737.0,
+          "wait_min": 504.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_096",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 870.0,
+        "cost": 1386.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 1386.0
+      },
+      "segments": [
+        {
+          "train_no": "12490",
+          "train_name": "DDR BIKANER",
+          "from": "BKN",
+          "to": "BRC",
+          "departure": "13:10:00",
+          "arrival": "20:10:00",
+          "distance": 859.0,
+          "duration_min": 420.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12247",
+          "train_name": "BDTS NZM YUV",
+          "from": "BRC",
+          "to": "KOTA",
+          "departure": "21:46:00",
+          "arrival": "03:40:00",
+          "distance": 527.0,
+          "duration_min": 354.0,
+          "wait_min": 96.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_097",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 870.0,
+        "cost": 1644.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 1644.0
+      },
+      "segments": [
+        {
+          "train_no": "12490",
+          "train_name": "DDR BIKANER",
+          "from": "BKN",
+          "to": "ST",
+          "departure": "13:10:00",
+          "arrival": "18:19:00",
+          "distance": 988.0,
+          "duration_min": 309.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12909",
+          "train_name": "NZM GARIB RA",
+          "from": "ST",
+          "to": "KOTA",
+          "departure": "20:10:00",
+          "arrival": "03:40:00",
+          "distance": 656.0,
+          "duration_min": 450.0,
+          "wait_min": 111.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_098",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1055.0,
+        "cost": 1387.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 1387.0
+      },
+      "segments": [
+        {
+          "train_no": "12490",
+          "train_name": "DDR BIKANER",
+          "from": "BKN",
+          "to": "BRC",
+          "departure": "13:10:00",
+          "arrival": "20:10:00",
+          "distance": 859.0,
+          "duration_min": 420.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12431",
+          "train_name": "TVC-NZM RAJD",
+          "from": "BRC",
+          "to": "KOTA",
+          "departure": "00:24:00",
+          "arrival": "06:45:00",
+          "distance": 528.0,
+          "duration_min": 381.0,
+          "wait_min": 254.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_099",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1250.0000000000002,
+        "cost": 1386.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 1386.0
+      },
+      "segments": [
+        {
+          "train_no": "12490",
+          "train_name": "DDR BIKANER",
+          "from": "BKN",
+          "to": "BRC",
+          "departure": "13:10:00",
+          "arrival": "20:10:00",
+          "distance": 859.0,
+          "duration_min": 420.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12449",
+          "train_name": "GOA SMPRK K",
+          "from": "BRC",
+          "to": "KOTA",
+          "departure": "02:21:00",
+          "arrival": "10:00:00",
+          "distance": 527.0,
+          "duration_min": 459.0,
+          "wait_min": 371.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_100",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1055.0000000000002,
+        "cost": 621.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 621.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "DNA",
+          "departure": "05:20:00",
+          "arrival": "08:48:00",
+          "distance": 218.0,
+          "duration_min": 208.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "20814",
+          "train_name": "JODHPUR-PURI",
+          "from": "DNA",
+          "to": "KOTA",
+          "departure": "16:24:00",
+          "arrival": "22:55:00",
+          "distance": 403.0,
+          "duration_min": 391.0,
+          "wait_min": 456.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_101",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1055.0000000000002,
+        "cost": 620.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 620.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "JP",
+          "departure": "05:20:00",
+          "arrival": "11:30:00",
+          "distance": 381.0,
+          "duration_min": 370.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12968",
+          "train_name": "JP CHENNAI E",
+          "from": "JP",
+          "to": "KOTA",
+          "departure": "19:35:00",
+          "arrival": "22:55:00",
+          "distance": 239.0,
+          "duration_min": 200.0,
+          "wait_min": 485.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_102",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1055.0000000000002,
+        "cost": 620.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 620.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "JP",
+          "departure": "05:20:00",
+          "arrival": "11:30:00",
+          "distance": 381.0,
+          "duration_min": 370.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12970",
+          "train_name": "JP CBE SF EX",
+          "from": "JP",
+          "to": "KOTA",
+          "departure": "19:35:00",
+          "arrival": "22:55:00",
+          "distance": 239.0,
+          "duration_min": 200.0,
+          "wait_min": 485.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_103",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1150.0,
+        "cost": 620.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 620.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "JP",
+          "departure": "05:20:00",
+          "arrival": "11:30:00",
+          "distance": 381.0,
+          "duration_min": 370.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12974",
+          "train_name": "JP INDB SF E",
+          "from": "JP",
+          "to": "KOTA",
+          "departure": "21:05:00",
+          "arrival": "00:30:00",
+          "distance": 239.0,
+          "duration_min": 205.0,
+          "wait_min": 575.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_104",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1055.0000000000002,
+        "cost": 620.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 620.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "JP",
+          "departure": "05:20:00",
+          "arrival": "11:30:00",
+          "distance": 381.0,
+          "duration_min": 370.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12976",
+          "train_name": "JP MYS SF EX",
+          "from": "JP",
+          "to": "KOTA",
+          "departure": "19:35:00",
+          "arrival": "22:55:00",
+          "distance": 239.0,
+          "duration_min": 200.0,
+          "wait_min": 485.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_105",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1345.0,
+        "cost": 855.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 855.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "BTE",
+          "departure": "05:20:00",
+          "arrival": "14:12:00",
+          "distance": 569.0,
+          "duration_min": 532.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12476",
+          "train_name": "SARVODAYA EX",
+          "from": "BTE",
+          "to": "KOTA",
+          "departure": "00:38:00",
+          "arrival": "03:45:00",
+          "distance": 286.0,
+          "duration_min": 187.0,
+          "wait_min": 626.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_106",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1345.0,
+        "cost": 855.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 855.0
+      },
+      "segments": [
+        {
+          "train_no": "12495",
+          "train_name": "BKN KOAA SUP",
+          "from": "BKN",
+          "to": "BTE",
+          "departure": "05:20:00",
+          "arrival": "14:12:00",
+          "distance": 569.0,
+          "duration_min": 532.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12478",
+          "train_name": "SVDK- JAMNAG",
+          "from": "BTE",
+          "to": "KOTA",
+          "departure": "00:38:00",
+          "arrival": "03:45:00",
+          "distance": 286.0,
+          "duration_min": 187.0,
+          "wait_min": 626.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_107",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1674.9999999999998,
+        "cost": 2937.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 2937.0
+      },
+      "segments": [
+        {
+          "train_no": "12496",
+          "train_name": "PRATAP EXPRE",
+          "from": "BKN",
+          "to": "DHN",
+          "departure": "05:45:00",
+          "arrival": "02:50:00",
+          "distance": 1615.0,
+          "duration_min": 1265.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12937",
+          "train_name": "GARBHA EXPRE",
+          "from": "DHN",
+          "to": "KOTA",
+          "departure": "09:20:00",
+          "arrival": "09:40:00",
+          "distance": 1322.0,
+          "duration_min": 20.0,
+          "wait_min": 390.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_108",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2170.0,
+        "cost": 1358.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1358.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "ADI",
+          "departure": "09:30:00",
+          "arrival": "00:35:00",
+          "distance": 731.0,
+          "duration_min": 905.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12473",
+          "train_name": "SARVODAYA EX",
+          "from": "ADI",
+          "to": "KOTA",
+          "departure": "11:30:00",
+          "arrival": "21:40:00",
+          "distance": 627.0,
+          "duration_min": 610.0,
+          "wait_min": 655.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_109",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2165.0,
+        "cost": 1358.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1358.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "BRC",
+          "departure": "09:30:00",
+          "arrival": "02:47:00",
+          "distance": 831.0,
+          "duration_min": 1037.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12477",
+          "train_name": "JAM SVDK EXP",
+          "from": "BRC",
+          "to": "KOTA",
+          "departure": "13:35:00",
+          "arrival": "21:35:00",
+          "distance": 527.0,
+          "duration_min": 480.0,
+          "wait_min": 648.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_110",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2485.0000000000005,
+        "cost": 1616.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1616.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "ST",
+          "departure": "09:30:00",
+          "arrival": "04:37:00",
+          "distance": 960.0,
+          "duration_min": 1147.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12483",
+          "train_name": "KCVL EXPRESS",
+          "from": "ST",
+          "to": "KOTA",
+          "departure": "15:42:00",
+          "arrival": "02:55:00",
+          "distance": 656.0,
+          "duration_min": 673.0,
+          "wait_min": 665.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_111",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2050.0,
+        "cost": 1617.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1617.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "ST",
+          "departure": "09:30:00",
+          "arrival": "04:37:00",
+          "distance": 960.0,
+          "duration_min": 1147.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12484",
+          "train_name": "KCVL EXPRESS",
+          "from": "ST",
+          "to": "KOTA",
+          "departure": "06:30:00",
+          "arrival": "19:40:00",
+          "distance": 657.0,
+          "duration_min": 790.0,
+          "wait_min": 113.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_112",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2200.0,
+        "cost": 1801.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 1801.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "VAPI",
+          "departure": "09:30:00",
+          "arrival": "06:16:00",
+          "distance": 1052.0,
+          "duration_min": 1246.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12493",
+          "train_name": "PUNE-NZM AC",
+          "from": "VAPI",
+          "to": "KOTA",
+          "departure": "10:43:00",
+          "arrival": "22:10:00",
+          "distance": 749.0,
+          "duration_min": 687.0,
+          "wait_min": 267.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_113",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2470.0,
+        "cost": 1752.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 1752.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "BL",
+          "departure": "09:30:00",
+          "arrival": "05:54:00",
+          "distance": 1028.0,
+          "duration_min": 1224.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12911",
+          "train_name": "BL HARIDWAR",
+          "from": "BL",
+          "to": "KOTA",
+          "departure": "15:40:00",
+          "arrival": "02:40:00",
+          "distance": 724.0,
+          "duration_min": 660.0,
+          "wait_min": 586.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_114",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2170.0,
+        "cost": 1801.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 1801.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "VAPI",
+          "departure": "09:30:00",
+          "arrival": "06:16:00",
+          "distance": 1052.0,
+          "duration_min": 1246.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12954",
+          "train_name": "AG KRANTI RJ",
+          "from": "VAPI",
+          "to": "KOTA",
+          "departure": "07:05:00",
+          "arrival": "21:40:00",
+          "distance": 749.0,
+          "duration_min": 875.0,
+          "wait_min": 49.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_115",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2510.0,
+        "cost": 2081.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100,
+        "distance": 2081.0
+      },
+      "segments": [
+        {
+          "train_no": "14707",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "BVI",
+          "departure": "09:30:00",
+          "arrival": "08:46:00",
+          "distance": 1192.0,
+          "duration_min": 1396.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12951",
+          "train_name": "MUMBAI RAJDH",
+          "from": "BVI",
+          "to": "KOTA",
+          "departure": "17:32:00",
+          "arrival": "03:20:00",
+          "distance": 889.0,
+          "duration_min": 588.0,
+          "wait_min": 526.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_116",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1100.0,
+        "cost": 1799.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 1799.0
+      },
+      "segments": [
+        {
+          "train_no": "14708",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "VAPI",
+          "departure": "15:35:00",
+          "arrival": "17:38:00",
+          "distance": 1051.0,
+          "duration_min": 123.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12977",
+          "train_name": "MARU SAGAR E",
+          "from": "VAPI",
+          "to": "KOTA",
+          "departure": "22:58:00",
+          "arrival": "09:55:00",
+          "distance": 748.0,
+          "duration_min": 657.0,
+          "wait_min": 320.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_117",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1315.0,
+        "cost": 1801.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 1801.0
+      },
+      "segments": [
+        {
+          "train_no": "14708",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "VAPI",
+          "departure": "15:35:00",
+          "arrival": "17:38:00",
+          "distance": 1051.0,
+          "duration_min": 123.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12978",
+          "train_name": "MARU SAGAR E",
+          "from": "VAPI",
+          "to": "KOTA",
+          "departure": "01:13:00",
+          "arrival": "13:30:00",
+          "distance": 750.0,
+          "duration_min": 737.0,
+          "wait_min": 455.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_118",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 725.0,
+        "cost": 1614.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 1614.0
+      },
+      "segments": [
+        {
+          "train_no": "14708",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "ST",
+          "departure": "15:35:00",
+          "arrival": "19:20:00",
+          "distance": 958.0,
+          "duration_min": 225.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12247",
+          "train_name": "BDTS NZM YUV",
+          "from": "ST",
+          "to": "KOTA",
+          "departure": "20:10:00",
+          "arrival": "03:40:00",
+          "distance": 656.0,
+          "duration_min": 450.0,
+          "wait_min": 50.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_119",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1685.0,
+        "cost": 1615.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 1615.0
+      },
+      "segments": [
+        {
+          "train_no": "14708",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "ST",
+          "departure": "15:35:00",
+          "arrival": "19:20:00",
+          "distance": 958.0,
+          "duration_min": 225.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12484",
+          "train_name": "KCVL EXPRESS",
+          "from": "ST",
+          "to": "KOTA",
+          "departure": "06:30:00",
+          "arrival": "19:40:00",
+          "distance": 657.0,
+          "duration_min": 790.0,
+          "wait_min": 670.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_120",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 725.0,
+        "cost": 1614.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 1614.0
+      },
+      "segments": [
+        {
+          "train_no": "14708",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "ST",
+          "departure": "15:35:00",
+          "arrival": "19:20:00",
+          "distance": 958.0,
+          "duration_min": 225.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12909",
+          "train_name": "NZM GARIB RA",
+          "from": "ST",
+          "to": "KOTA",
+          "departure": "20:10:00",
+          "arrival": "03:40:00",
+          "distance": 656.0,
+          "duration_min": 450.0,
+          "wait_min": 50.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_121",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 910.0000000000001,
+        "cost": 1357.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 1357.0
+      },
+      "segments": [
+        {
+          "train_no": "14708",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "BRC",
+          "departure": "15:35:00",
+          "arrival": "21:45:00",
+          "distance": 829.0,
+          "duration_min": 370.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12431",
+          "train_name": "TVC-NZM RAJD",
+          "from": "BRC",
+          "to": "KOTA",
+          "departure": "00:24:00",
+          "arrival": "06:45:00",
+          "distance": 528.0,
+          "duration_min": 381.0,
+          "wait_min": 159.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_122",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1105.0,
+        "cost": 1356.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 1356.0
+      },
+      "segments": [
+        {
+          "train_no": "14708",
+          "train_name": "RANAKPUR EXP",
+          "from": "BKN",
+          "to": "BRC",
+          "departure": "15:35:00",
+          "arrival": "21:45:00",
+          "distance": 829.0,
+          "duration_min": 370.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12449",
+          "train_name": "GOA SMPRK K",
+          "from": "BRC",
+          "to": "KOTA",
+          "departure": "02:21:00",
+          "arrival": "10:00:00",
+          "distance": 527.0,
+          "duration_min": 459.0,
+          "wait_min": 276.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_123",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1300.0,
+        "cost": 621.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 621.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "SWM",
+          "departure": "17:05:00",
+          "arrival": "01:55:00",
+          "distance": 513.0,
+          "duration_min": 530.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12466",
+          "train_name": "INTERCITY EX",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "13:25:00",
+          "arrival": "14:45:00",
+          "distance": 108.0,
+          "duration_min": 80.0,
+          "wait_min": 690.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_124",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1275.0,
+        "cost": 620.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 620.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "SWM",
+          "departure": "17:05:00",
+          "arrival": "01:55:00",
+          "distance": 513.0,
+          "duration_min": 530.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12904",
+          "train_name": "GOLDN TEMPLE",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "13:00:00",
+          "arrival": "14:20:00",
+          "distance": 107.0,
+          "duration_min": 80.0,
+          "wait_min": 665.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_125",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2415.0,
+        "cost": 621.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 621.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "SWM",
+          "departure": "17:05:00",
+          "arrival": "01:55:00",
+          "distance": 513.0,
+          "duration_min": 530.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12939",
+          "train_name": "PUNE JAIPUR",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "11:30:00",
+          "arrival": "09:20:00",
+          "distance": 108.0,
+          "duration_min": 1310.0,
+          "wait_min": 575.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_126",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1185.0,
+        "cost": 621.0,
+        "transfers": 1,
+        "seat_prob": 50.0,
+        "safety_score": 100,
+        "distance": 621.0
+      },
+      "segments": [
+        {
+          "train_no": "14709",
+          "train_name": "BKN PURI EXP",
+          "from": "BKN",
+          "to": "SWM",
+          "departure": "17:05:00",
+          "arrival": "01:55:00",
+          "distance": 513.0,
+          "duration_min": 530.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12940",
+          "train_name": "JP PUNE SF E",
+          "from": "SWM",
+          "to": "KOTA",
+          "departure": "11:35:00",
+          "arrival": "12:50:00",
+          "distance": 108.0,
+          "duration_min": 75.0,
+          "wait_min": 580.0
+        }
+      ]
+    }
+  ]
+}

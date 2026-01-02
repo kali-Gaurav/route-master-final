@@ -22,6 +22,7 @@ export interface Route {
   totalTime: number;
   totalCost: number;
   totalTransfers: number;
+  totalDistance: number;
   seatProbability: number;
   safetyScore: number;
 }
@@ -346,4 +347,32 @@ export const formatCost = (cost: number): string => {
 export const getCategoryBase = (category: string): string => {
   const base = category.split(' ')[0].split('#')[0];
   return base.replace(/[^A-Z]/g, '');
+};
+
+export const mapApiRouteToRoute = (apiRoute: any): Route => {
+  return {
+    id: apiRoute.route_id,
+    category: apiRoute.category,
+    segments: apiRoute.segments.map((seg: any, idx: number) => ({
+      routeId: apiRoute.route_id,
+      category: apiRoute.category,
+      segment: idx + 1,
+      trainNumber: seg.train_no,
+      trainName: seg.train_name,
+      from: seg.from,
+      to: seg.to,
+      departure: seg.departure,
+      arrival: seg.arrival,
+      distance: seg.distance,
+      duration: seg.duration_min,
+      waitBefore: seg.wait_min,
+      seatAvailable: true,
+    })),
+    totalTime: apiRoute.objectives.time,
+    totalCost: apiRoute.objectives.cost,
+    totalTransfers: apiRoute.objectives.transfers,
+    totalDistance: apiRoute.objectives.distance,
+    seatProbability: apiRoute.objectives.seat_prob,
+    safetyScore: apiRoute.objectives.safety_score,
+  };
 };

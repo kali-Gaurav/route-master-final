@@ -1,3 +1,5 @@
+import stationData from "./station_search_data.json";
+
 // Popular Indian Railway Stations
 export interface Station {
   code: string;
@@ -6,38 +8,7 @@ export interface Station {
   state: string;
 }
 
-export const stations: Station[] = [
-  { code: "PGT", name: "Palakkad Town", city: "Palakkad", state: "Kerala" },
-  { code: "KOTA", name: "Kota Junction", city: "Kota", state: "Rajasthan" },
-  { code: "BRC", name: "Vadodara Junction", city: "Vadodara", state: "Gujarat" },
-  { code: "NDLS", name: "New Delhi", city: "Delhi", state: "Delhi" },
-  { code: "CSTM", name: "Mumbai CST", city: "Mumbai", state: "Maharashtra" },
-  { code: "BCT", name: "Mumbai Central", city: "Mumbai", state: "Maharashtra" },
-  { code: "HWH", name: "Howrah Junction", city: "Kolkata", state: "West Bengal" },
-  { code: "MAS", name: "Chennai Central", city: "Chennai", state: "Tamil Nadu" },
-  { code: "SBC", name: "Bangalore City", city: "Bangalore", state: "Karnataka" },
-  { code: "JP", name: "Jaipur Junction", city: "Jaipur", state: "Rajasthan" },
-  { code: "ADI", name: "Ahmedabad Junction", city: "Ahmedabad", state: "Gujarat" },
-  { code: "LKO", name: "Lucknow Junction", city: "Lucknow", state: "Uttar Pradesh" },
-  { code: "PNBE", name: "Patna Junction", city: "Patna", state: "Bihar" },
-  { code: "BZA", name: "Vijayawada Junction", city: "Vijayawada", state: "Andhra Pradesh" },
-  { code: "SC", name: "Secunderabad Junction", city: "Hyderabad", state: "Telangana" },
-  { code: "CBE", name: "Coimbatore Junction", city: "Coimbatore", state: "Tamil Nadu" },
-  { code: "ERS", name: "Ernakulam Junction", city: "Kochi", state: "Kerala" },
-  { code: "TVC", name: "Thiruvananthapuram Central", city: "Thiruvananthapuram", state: "Kerala" },
-  { code: "QLN", name: "Kollam Junction", city: "Kollam", state: "Kerala" },
-  { code: "AGC", name: "Agra Cantt", city: "Agra", state: "Uttar Pradesh" },
-  { code: "CNB", name: "Kanpur Central", city: "Kanpur", state: "Uttar Pradesh" },
-  { code: "BSB", name: "Varanasi Junction", city: "Varanasi", state: "Uttar Pradesh" },
-  { code: "PUNE", name: "Pune Junction", city: "Pune", state: "Maharashtra" },
-  { code: "NGP", name: "Nagpur Junction", city: "Nagpur", state: "Maharashtra" },
-  { code: "RTM", name: "Ratlam Junction", city: "Ratlam", state: "Madhya Pradesh" },
-  { code: "UJN", name: "Ujjain Junction", city: "Ujjain", state: "Madhya Pradesh" },
-  { code: "ANND", name: "Anand Junction", city: "Anand", state: "Gujarat" },
-  { code: "ED", name: "Erode Junction", city: "Erode", state: "Tamil Nadu" },
-  { code: "MDU", name: "Madurai Junction", city: "Madurai", state: "Tamil Nadu" },
-  { code: "TPJ", name: "Tiruchirappalli Junction", city: "Tiruchirappalli", state: "Tamil Nadu" },
-];
+export const stations: Station[] = stationData.stations;
 
 export const getStationByCode = (code: string): Station | undefined => {
   return stations.find(s => s.code === code);
@@ -45,10 +16,27 @@ export const getStationByCode = (code: string): Station | undefined => {
 
 export const searchStations = (query: string): Station[] => {
   const lowerQuery = query.toLowerCase();
-  return stations.filter(
+  
+  const filtered = stations.filter(
     s => 
       s.code.toLowerCase().includes(lowerQuery) ||
       s.name.toLowerCase().includes(lowerQuery) ||
       s.city.toLowerCase().includes(lowerQuery)
-  ).slice(0, 10);
+  );
+
+  // Sort: Major junctions first, then by name
+  return filtered.sort((a, b) => {
+    const aName = a.name.toUpperCase();
+    const bName = b.name.toUpperCase();
+    
+    const aIsMajor = aName.includes("JN") || aName.includes("JUNCTION") || aName.includes("TERMINUS") || aName.includes("CENTRAL");
+    const bIsMajor = bName.includes("JN") || bName.includes("JUNCTION") || bName.includes("TERMINUS") || bName.includes("CENTRAL");
+
+    if (aIsMajor && !bIsMajor) return -1;
+    if (!aIsMajor && bIsMajor) return 1;
+    
+    // If both are major or both are not, sort by name length (shorter usually more relevant) then alphabetically
+    if (aName.length !== bName.length) return aName.length - bName.length;
+    return aName.localeCompare(bName);
+  }).slice(0, 50); // Increased limit to allow scrolling
 };

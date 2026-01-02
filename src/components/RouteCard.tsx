@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ChevronDown, ChevronUp, Clock, ArrowRight, Check, X, AlertTriangle } from "lucide-react";
+import { ChevronDown, ChevronUp, Clock, ArrowRight, Check, X, AlertTriangle, MapPin } from "lucide-react";
 import { Route, formatDuration, formatCost } from "@/data/routes";
 import { getStationByCode } from "@/data/stations";
 import { cn } from "@/lib/utils";
@@ -91,7 +91,7 @@ export function RouteCard({ route, index, isRecommended }: RouteCardProps) {
               <ArrowRight className="w-4 h-4 text-primary" />
             </div>
             <div className="text-xs text-muted-foreground">
-              {route.totalTransfers} transfer{route.totalTransfers !== 1 ? "s" : ""}
+              {route.totalTransfers} transfer{route.totalTransfers !== 1 ? "s" : ""} • {route.totalDistance} km
             </div>
           </div>
 
@@ -105,7 +105,7 @@ export function RouteCard({ route, index, isRecommended }: RouteCardProps) {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
           <div className="bg-secondary/50 rounded-xl p-3">
             <div className="flex items-center gap-2 mb-1">
               {route.seatProbability >= 50 ? (
@@ -123,6 +123,13 @@ export function RouteCard({ route, index, isRecommended }: RouteCardProps) {
               <span className="text-xs text-muted-foreground">Duration</span>
             </div>
             <div className="text-lg font-bold">{formatDuration(route.totalTime)}</div>
+          </div>
+          <div className="bg-secondary/50 rounded-xl p-3">
+            <div className="flex items-center gap-2 mb-1">
+              <MapPin className="w-4 h-4 text-muted-foreground" />
+              <span className="text-xs text-muted-foreground">Distance</span>
+            </div>
+            <div className="text-lg font-bold">{route.totalDistance} km</div>
           </div>
           <div className="bg-secondary/50 rounded-xl p-3">
             <div className="text-xs text-muted-foreground mb-1">Safety Score</div>
@@ -198,9 +205,14 @@ export function RouteCard({ route, index, isRecommended }: RouteCardProps) {
                     </div>
                     <div className="flex-1 flex items-center gap-2">
                       <div className="h-px flex-1 bg-border" />
-                      <span className="text-xs text-muted-foreground">
-                        {formatDuration(segment.duration)}
-                      </span>
+                      <div className="flex flex-col items-center">
+                        <span className="text-[10px] text-muted-foreground uppercase font-bold">
+                          {segment.distance} km
+                        </span>
+                        <span className="text-xs text-muted-foreground">
+                          {formatDuration(segment.duration)}
+                        </span>
+                      </div>
                       <div className="h-px flex-1 bg-border" />
                     </div>
                     <div className="text-right">

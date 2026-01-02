@@ -1,0 +1,2 @@
+Route ID,Category,Segment,Train Number,Train Name,From,To,Departure,Arrival,Distance (km),Duration,Wait Before,Seat Available,Total Time (min),Total Cost (₹),Total Transfers,Seat Probability (%),Safety Score
+OPT_ROUTE_01,FASTEST ⚡,1,22632,BKN-MAS  ANU,BKN,KOTA,14:50:00,01:00:00,620.0,10h 10m,0h 0m,1,610.0,620.0,0,100.0,100

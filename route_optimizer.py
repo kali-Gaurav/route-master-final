@@ -18,11 +18,11 @@ class ParetoTrainRouter:
         self.id_to_station = {}
         self.graph = defaultdict(list)
         self.train_info = {}
-        self._build_sparse_graph()
+        self._build_graph()
     
-    def _build_sparse_graph(self):
-        """Build sparse graph with O(n) edges"""
-        print("Building optimized sparse graph...")
+    def _build_graph(self):
+        """Build graph with edges between all pairs of stations on the same train"""
+        print("Building optimized graph...")
         
         unique_stations = self.df['Station Code'].unique()
         for idx, station in enumerate(unique_stations):
@@ -34,6 +34,7 @@ class ParetoTrainRouter:
         
         for train_no, train_df in grouped:
             train_df = train_df.sort_values('SEQ').reset_index(drop=True)
+            stations_data = train_df.to_dict('records')
             
             self.train_info[train_no] = {
                 'name': train_df.iloc[0]['Train Name'],
@@ -42,48 +43,43 @@ class ParetoTrainRouter:
                 'stations': []
             }
             
-            for i in range(len(train_df) - 1):
-                curr_row = train_df.iloc[i]
-                next_row = train_df.iloc[i + 1]
-                
-                from_id = self.station_to_id[curr_row['Station Code']]
-                to_id = self.station_to_id[next_row['Station Code']]
-                
-                distance = abs(float(next_row['Distance']) - float(curr_row['Distance']))
-                duration = self._calculate_duration(distance)
-                
-                station_info = {
-                    'station': curr_row['Station Code'],
-                    'seq': int(curr_row['SEQ']),
-                    'arrival': curr_row['Arrival time'],
-                    'departure': curr_row['Departure Time'],
-                    'distance': float(curr_row['Distance'])
-                }
-                self.train_info[train_no]['stations'].append(station_info)
-                
-                edge = {
-                    'to_id': to_id,
-                    'train_no': train_no,
-                    'departure': curr_row['Departure Time'],
-                    'arrival': next_row['Arrival time'],
-                    'distance': distance,
-                    'duration': duration,
-                    'from_seq': int(curr_row['SEQ']),
-                    'to_seq': int(next_row['SEQ']),
-                    'seat_available': curr_row['Seat Availability']
-                }
-                
-                self.graph[from_id].append(edge)
-                edge_count += 1
+            # Store station info for the train
+            for row in stations_data:
+                self.train_info[train_no]['stations'].append({
+                    'station': row['Station Code'],
+                    'seq': int(row['SEQ']),
+                    'arrival': row['Arrival time'],
+                    'departure': row['Departure Time'],
+                    'distance': float(row['Distance'])
+                })
             
-            last_row = train_df.iloc[-1]
-            self.train_info[train_no]['stations'].append({
-                'station': last_row['Station Code'],
-                'seq': int(last_row['SEQ']),
-                'arrival': last_row['Arrival time'],
-                'departure': last_row['Departure Time'],
-                'distance': float(last_row['Distance'])
-            })
+            # Add edges between all pairs (i, j) where j > i
+            for i in range(len(stations_data)):
+                curr_row = stations_data[i]
+                from_id = self.station_to_id[curr_row['Station Code']]
+                
+                for j in range(i + 1, len(stations_data)):
+                    next_row = stations_data[j]
+                    to_id = self.station_to_id[next_row['Station Code']]
+                    
+                    distance = abs(float(next_row['Distance']) - float(curr_row['Distance']))
+                    # Use actual time for duration
+                    duration = self._calculate_wait_time(curr_row['Departure Time'], next_row['Arrival time'])
+                    
+                    edge = {
+                        'to_id': to_id,
+                        'train_no': train_no,
+                        'departure': curr_row['Departure Time'],
+                        'arrival': next_row['Arrival time'],
+                        'distance': distance,
+                        'duration': duration,
+                        'from_seq': int(curr_row['SEQ']),
+                        'to_seq': int(next_row['SEQ']),
+                        'seat_available': curr_row['Seat Availability']
+                    }
+                    
+                    self.graph[from_id].append(edge)
+                    edge_count += 1
         
         print(f"✓ Graph built: {len(self.station_to_id)} stations, {edge_count} edges")
     
@@ -211,45 +207,53 @@ class ParetoTrainRouter:
         return routes
     
     def _find_multi_transfer_routes(self, source_id, dest_id, max_transfers, max_routes=100):
-        """Find routes with 2-3 transfers using BFS"""
+        """Find routes with 2-3 transfers using BFS on trains"""
         routes = []
-        queue = deque()
-        queue.append((source_id, [], 0, 0))
-        visited = set()
+        # queue stores: (current_station_id, current_path, num_transfers, total_distance)
+        queue = deque([(source_id, [], 0, 0)])
+        visited = {} # station_id -> min_transfers
         
         while queue and len(routes) < max_routes:
-            current_id, path, transfers, total_dist = queue.popleft()
+            curr_id, path, transfers, total_dist = queue.popleft()
             
-            if current_id == dest_id and path:
-                routes.append(path[:])
+            if curr_id == dest_id:
+                routes.append(path)
                 continue
-            
-            if transfers >= max_transfers or total_dist > 3000:
-                continue
-            
-            state = (current_id, transfers)
-            if state in visited:
-                continue
-            visited.add(state)
-            
-            for edge in self.graph[current_id]:
-                next_id = edge['to_id']
                 
-                wait_time = 0
+            if transfers > max_transfers:
+                continue
+                
+            # Optimization: if we reached this station with more transfers than before, skip
+            if curr_id in visited and visited[curr_id] < transfers:
+                continue
+            visited[curr_id] = transfers
+            
+            # Limit branching factor for performance
+            edges = self.graph[curr_id]
+            if len(edges) > 500:
+                # Prioritize edges that go towards destination or are major trains
+                # For now, just take a sample to avoid explosion
+                edges = edges[:500]
+
+            for edge in edges:
+                # Check for transfer
                 is_transfer = False
-                
+                wait_time = 0
                 if path:
-                    last_train = path[-1]['train_no']
-                    if last_train != edge['train_no']:
-                        is_transfer = True
-                        wait_time = self._calculate_wait_time(path[-1]['arrival'], edge['departure'])
-                        if wait_time < 0.5 or wait_time > 8:
-                            continue
+                    is_transfer = True 
+                    wait_time = self._calculate_wait_time(path[-1]['arrival'], edge['departure'])
+                    # Realistic transfer time: 30 min to 12 hours
+                    if wait_time < 0.5 or wait_time > 12:
+                        continue
                 
+                new_transfers = transfers + (1 if path else 0)
+                if new_transfers > max_transfers:
+                    continue
+                    
                 new_segment = {
                     'train_no': edge['train_no'],
-                    'from': self.id_to_station[current_id],
-                    'to': self.id_to_station[next_id],
+                    'from': self.id_to_station[curr_id],
+                    'to': self.id_to_station[edge['to_id']],
                     'departure': edge['departure'],
                     'arrival': edge['arrival'],
                     'distance': edge['distance'],
@@ -258,11 +262,7 @@ class ParetoTrainRouter:
                     'seat_available': edge['seat_available']
                 }
                 
-                new_path = path + [new_segment]
-                new_transfers = transfers + (1 if is_transfer else 0)
-                new_dist = total_dist + edge['distance']
-                
-                queue.append((next_id, new_path, new_transfers, new_dist))
+                queue.append((edge['to_id'], path + [new_segment], new_transfers, total_dist + edge['distance']))
         
         return routes
     
@@ -282,20 +282,12 @@ class ParetoTrainRouter:
         transfers = len(path) - 1
         
         # Objective 4: Seat availability probability (maximize)
-        # Average seat availability across all segments
-        seat_prob = np.mean([seg['seat_available'] for seg in path]) * 100
+        # Set to 100% as requested
+        seat_prob = 100.0
         
         # Objective 5: Safety score (maximize)
-        # Based on: fewer transfers = safer, direct trains = safer
-        base_safety = 100
-        transfer_penalty = transfers * 5  # -5 points per transfer
-        safety_score = max(base_safety - transfer_penalty, 50)
-        
-        # Add bonus for popular express trains (train numbers < 15000)
-        for seg in path:
-            if int(seg['train_no']) < 15000:
-                safety_score = min(safety_score + 5, 100)
-                break
+        # Set to 100% as requested
+        safety_score = 100.0
         
         return {
             'time': total_time * 60,  # Convert to minutes
@@ -388,150 +380,68 @@ class ParetoTrainRouter:
 
     def select_optimal_routes(self, pareto_front):
         """
-        Select all diverse optimal routes from Pareto front, prioritizing quotas for specific categories.
-        
-        Categories with MORE alternatives:
-        - FASTEST (1 route)
-        - CHEAPEST (1 route) 
-        - DIRECT (1 route)
-        - Plus other diverse Pareto-optimal alternatives
+        Select 7 diverse optimal routes from Pareto front.
         """
-        print(f"\n🏆 Phase 3: Selecting diverse optimal routes with quotas...")
+        print(f"\n🏆 Phase 3: Selecting 7 diverse optimal routes...")
         
         if len(pareto_front) == 0:
             return [], []
         
-        # --- Configuration for quotas ---
-        N_FAST = 10
-        N_CHEAP = 5
-        N_BALANCED = 7
-        # --------------------------------
-        
-        # Maps fingerprint to (route_data, category) - ensures unique physical routes
+        # Maps fingerprint to (route_data, category)
         final_selections = {} 
 
-        # Sort by different objectives for potential selection
+        # Sort by different objectives
         sorted_by_time = sorted(pareto_front, key=lambda x: x['objectives']['time'])
         sorted_by_cost = sorted(pareto_front, key=lambda x: x['objectives']['cost'])
-        sorted_by_transfers = sorted(pareto_front, key=lambda x: x['objectives']['transfers'])
-        sorted_by_seats = sorted(pareto_front, key=lambda x: x['objectives']['seat_prob'], reverse=True)
-        sorted_by_safety = sorted(pareto_front, key=lambda x: x['objectives']['safety_score'], reverse=True)
+        sorted_by_dist = sorted(pareto_front, key=lambda x: x['objectives']['distance'])
         
-        # Helper to add/update route in final_selections based on priority
-        def add_or_update_route(route_data, category, priority):
+        # Helper to add route
+        def add_route(route_data, category):
+            if len(final_selections) >= 7:
+                return False
             fingerprint = self._get_route_fingerprint(route_data['route'])
             if fingerprint not in final_selections:
-                final_selections[fingerprint] = {'route_data': route_data, 'category': category, 'priority': priority}
-            else:
-                # If existing category is lower priority, update it
-                if final_selections[fingerprint]['priority'] < priority:
-                    final_selections[fingerprint]['category'] = category
-                    final_selections[fingerprint]['priority'] = priority
+                final_selections[fingerprint] = (route_data, category)
+                return True
+            return False
 
-        current_priority = 100 # Higher number means higher priority
-
-        # STEP 1: Add the absolute best in each primary category
-        print("  → Adding best routes in each category...")
-        if sorted_by_time: add_or_update_route(sorted_by_time[0], 'FASTEST ⚡', current_priority); current_priority -= 1
-        if sorted_by_cost: add_or_update_route(sorted_by_cost[0], 'CHEAPEST 💰', current_priority); current_priority -= 1
-        if sorted_by_transfers: add_or_update_route(sorted_by_transfers[0], 'MOST DIRECT 🚂', current_priority); current_priority -= 1
-        if sorted_by_seats: add_or_update_route(sorted_by_seats[0], 'BEST SEATS 💺', current_priority); current_priority -= 1
-        if sorted_by_safety: add_or_update_route(sorted_by_safety[0], 'SAFEST 🛡️', current_priority); current_priority -= 1
-
-        # STEP 2: Fill quotas for specific categories (Fast, Cheap, Balanced)
-        print("  → Filling quotas for specific categories...")
-        # Fast routes
-        fast_count = 0
-        for i, route_data in enumerate(sorted_by_time):
-            fingerprint = self._get_route_fingerprint(route_data['route'])
-            if fingerprint not in final_selections or final_selections[fingerprint]['category'].startswith('OPTIMAL ALTERNATIVE'):
-                add_or_update_route(route_data, f'FAST #{fast_count + 1} ⚡', current_priority); current_priority -= 1
-                fast_count += 1
-            if fast_count >= N_FAST:
-                break
+        # 1. Absolute Fastest
+        add_route(sorted_by_time[0], 'FASTEST ⚡')
         
-        # Cheapest routes
-        cheap_count = 0
-        for i, route_data in enumerate(sorted_by_cost):
-            fingerprint = self._get_route_fingerprint(route_data['route'])
-            if fingerprint not in final_selections or final_selections[fingerprint]['category'].startswith('OPTIMAL ALTERNATIVE') or final_selections[fingerprint]['category'].startswith('FAST #'):
-                # Allow a fast route to also be a cheap route if it hasn't received a higher priority tag
-                add_or_update_route(route_data, f'CHEAP #{cheap_count + 1} 💰', current_priority); current_priority -= 1
-                cheap_count += 1
-            if cheap_count >= N_CHEAP:
+        # 2. Absolute Cheapest
+        add_route(sorted_by_cost[0], 'CHEAPEST 💰')
+        
+        # 3. Shortest Distance
+        add_route(sorted_by_dist[0], 'SHORTEST 📏')
+
+        # 4. Balanced (using a simple score)
+        times = [r['objectives']['time'] for r in pareto_front]
+        costs = [r['objectives']['cost'] for r in pareto_front]
+        min_t, max_t = min(times), max(times) + 1
+        min_c, max_c = min(costs), max(costs) + 1
+        
+        for r in pareto_front:
+            # Normalized score (lower is better)
+            r['score'] = ((r['objectives']['time'] - min_t) / (max_t - min_t)) + \
+                         ((r['objectives']['cost'] - min_c) / (max_c - min_c))
+        
+        sorted_balanced = sorted(pareto_front, key=lambda x: x['score'])
+        
+        # Add balanced routes until we hit 7
+        for r in sorted_balanced:
+            add_route(r, 'BALANCED ⚖️')
+            if len(final_selections) >= 7:
                 break
 
-        # Balanced routes
-        balanced_count = 0
-        if pareto_front: # Only calculate balanced score if there are routes
-            times = [r['objectives']['time'] for r in pareto_front]
-            costs = [r['objectives']['cost'] for r in pareto_front]
-            transfers_list = [r['objectives']['transfers'] for r in pareto_front]
-            seats = [r['objectives']['seat_prob'] for r in pareto_front]
-            safety = [r['objectives']['safety_score'] for r in pareto_front]
+        # Convert back to lists
+        optimal_routes = []
+        categories = []
+        for r_data, cat in final_selections.values():
+            optimal_routes.append(r_data)
+            categories.append(cat)
             
-            min_time = min(times) if times else 0
-            max_time = max(times) if times else 0
-            min_cost = min(costs) if costs else 0
-            max_cost = max(costs) if costs else 0
-            min_transfers = min(transfers_list) if transfers_list else 0
-            max_transfers = max(transfers_list) if transfers_list else 0
-            min_seats = min(seats) if seats else 0
-            max_seats = max(seats) if seats else 0
-            min_safety = min(safety) if safety else 0
-            max_safety = max(safety) if safety else 0
+        return optimal_routes, categories
 
-            time_range = max_time - min_time + 0.001
-            cost_range = max_cost - min_cost + 0.001
-            transfers_range = max_transfers - min_transfers + 0.001
-            seats_range = max_seats - min_seats + 0.001
-            safety_range = max_safety - min_safety + 0.001
-            
-            for route_data in pareto_front: # Calculate balanced score for all Pareto routes
-                obj = route_data['objectives']
-                route_data['balanced_score'] = (
-                    ((max_time - obj['time']) / time_range) * 0.25 +
-                    ((max_cost - obj['cost']) / cost_range) * 0.25 +
-                    ((max_transfers - obj['transfers']) / transfers_range) * 0.20 +
-                    ((obj['seat_prob'] - min_seats) / seats_range) * 0.15 +
-                    ((obj['safety_score'] - min_safety) / safety_range) * 0.15
-                )
-            sorted_balanced = sorted(pareto_front, key=lambda x: x['balanced_score'], reverse=True)
-
-            for i, route_data in enumerate(sorted_balanced):
-                fingerprint = self._get_route_fingerprint(route_data['route'])
-                if fingerprint not in final_selections or final_selections[fingerprint]['category'].startswith('OPTIMAL ALTERNATIVE'):
-                    add_or_update_route(route_data, f'BALANCED #{balanced_count + 1} ⚖️', current_priority); current_priority -= 1
-                    balanced_count += 1
-                if balanced_count >= N_BALANCED:
-                    break
-        
-        # STEP 3: Add remaining Pareto-optimal routes as "Optimal Alternative"
-        print("  → Adding remaining Pareto-optimal routes as Optimal Alternatives...")
-        for route_data in pareto_front:
-            fingerprint = self._get_route_fingerprint(route_data['route'])
-            if fingerprint not in final_selections: # Only add if not categorized yet
-                final_selections[fingerprint] = {'route_data': route_data, 'category': 'OPTIMAL ALTERNATIVE 🎯', 'priority': 0}
-
-        # Convert dictionary back to lists (maintaining consistent order from original pareto_front)
-        final_selected_routes = []
-        final_categories = []
-        for route_data_original in pareto_front: # Use original order of pareto_front
-            fingerprint = self._get_route_fingerprint(route_data_original['route'])
-            if fingerprint in final_selections:
-                # Ensure we pick the route_data that came from pareto_front (not intermediate sorted list)
-                final_selected_routes.append(final_selections[fingerprint]['route_data'])
-                final_categories.append(final_selections[fingerprint]['category'])
-                del final_selections[fingerprint] # Remove to ensure each is processed once
-
-        # Add any remaining in final_selections that might have been missed (shouldn't happen with above logic)
-        for selection_data in final_selections.values():
-            final_selected_routes.append(selection_data['route_data'])
-            final_categories.append(selection_data['category'])
-
-        print(f"✓ Selected {len(final_selected_routes)} optimal routes for comparison")
-        return final_selected_routes, final_categories        
-        return selected_routes, categories    
     def _calculate_duration(self, distance):
         """Calculate realistic travel duration"""
         if distance > 1800:
@@ -568,7 +478,7 @@ class ParetoTrainRouter:
 def get_routes_data(source, destination, max_transfers):
     # Load data
     try:
-        df = pd.read_csv('Train_details.csv')
+        df = pd.read_csv('Train_details.csv', low_memory=False)
         df = df[df['Train No'].astype(str).str.len() == 5].copy()
         df['Seat Availability'] = np.random.choice([0, 1], size=len(df), p=[0.2, 0.8])
     except FileNotFoundError:
