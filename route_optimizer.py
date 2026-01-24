@@ -508,8 +508,7 @@ def save_all_routes(router, all_routes, source, destination, journey_date):
 
 def save_results(router, optimal_routes, categories, all_routes, pareto_front, source, destination, journey_date):
     """
-    Save optimization results using optimized serialization.
-    Uses MessagePack (3x faster) instead of JSON for large datasets.
+    Save optimization results to JSON file.
     """
     import json
     import time
@@ -594,8 +593,11 @@ def save_results(router, optimal_routes, categories, all_routes, pareto_front, s
             })
         output_data['all_generated_routes'].append(route_json)
 
-    # Save to Pickle file
-    with open(pickle_file, 'wb') as f:
-        pickle.dump(output_data, f)
+    # Save to JSON file
+    with open(json_file, 'w') as f:
+        json.dump(output_data, f, indent=2, default=str)
         
+    save_duration = time.time() - save_start
+    print(f"  ✓ Saved {len(optimal_routes)} optimal routes to {json_file} ({save_duration:.2f}s)")
+    
     return output_data
