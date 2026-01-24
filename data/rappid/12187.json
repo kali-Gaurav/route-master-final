@@ -1,0 +1,156 @@
+{
+  "fetched_at": "2026-01-24T09:14:53.911075",
+  "train_no": "12187",
+  "response": {
+    "success": true,
+    "train_name": "12187 Garibrath Exp Running Status",
+    "message": "",
+    "updated_time": "Updated few seconds ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Jabalpur",
+        "distance": "-",
+        "timing": "19:5019:50",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shridham",
+        "distance": "54 km",
+        "timing": "20:2820:28",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Narsinghpur",
+        "distance": "85 km",
+        "timing": "20:5020:50",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gadarwara",
+        "distance": "129 km",
+        "timing": "21:2021:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pipariya",
+        "distance": "178 km",
+        "timing": "21:5521:55",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Itarsi Jn",
+        "distance": "246 km",
+        "timing": "23:3023:30",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Harda",
+        "distance": "321 km",
+        "timing": "00:1700:17",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khandwa",
+        "distance": "429 km",
+        "timing": "02:0502:05",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhusaval Jn",
+        "distance": "553 km",
+        "timing": "04:1004:10",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jalgaon Jn",
+        "distance": "577 km",
+        "timing": "04:3704:37",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Manmad Jn",
+        "distance": "737 km",
+        "timing": "06:4006:40",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nashik Road",
+        "distance": "810 km",
+        "timing": "07:4507:45",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Igatpuri",
+        "distance": "860 km",
+        "timing": "09:1509:15",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalyan Jn",
+        "distance": "943 km",
+        "timing": "11:0011:00",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dadar",
+        "distance": "988 km",
+        "timing": "11:5511:55",
+        "delay": "On Time",
+        "platform": "12",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "C Shivaji Mah T",
+        "distance": "997 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "14",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

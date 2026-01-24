@@ -1,0 +1,372 @@
+{
+  "fetched_at": "2026-01-24T09:15:09.052582",
+  "train_no": "54540",
+  "response": {
+    "success": true,
+    "train_name": "54540 Umb Nzm Passenger Running Status",
+    "message": "",
+    "updated_time": "Updated 14hr 5min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Ambala Cant Jn",
+        "distance": "-",
+        "timing": "15:1015:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dukheri",
+        "distance": "7 km",
+        "timing": "15:2115:21",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kesri",
+        "distance": "13 km",
+        "timing": "15:2815:28",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tandwal",
+        "distance": "19 km",
+        "timing": "15:3515:35",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barara",
+        "distance": "24 km",
+        "timing": "15:4215:42",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mustafabad",
+        "distance": "33 km",
+        "timing": "15:5315:53",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Darazpur",
+        "distance": "41 km",
+        "timing": "16:0216:02",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jagadhri Wshop",
+        "distance": "45 km",
+        "timing": "16:1016:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Yamunanagar Jud",
+        "distance": "50 km",
+        "timing": "16:3016:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalanour",
+        "distance": "57 km",
+        "timing": "16:3816:38",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sarsawa",
+        "distance": "67 km",
+        "timing": "16:4916:49",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pilkhani",
+        "distance": "73 km",
+        "timing": "17:0417:04",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Saharanpur",
+        "distance": "81 km",
+        "timing": "18:3518:35",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "75min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tapri",
+        "distance": "87 km",
+        "timing": "18:4818:48",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagal",
+        "distance": "97 km",
+        "timing": "18:5818:58",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Talheri Buzurg",
+        "distance": "105 km",
+        "timing": "19:0719:07",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Deoband",
+        "distance": "115 km",
+        "timing": "19:1719:17",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rohana Kalan",
+        "distance": "127 km",
+        "timing": "19:2919:29",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bamanheri",
+        "distance": "134 km",
+        "timing": "19:3819:38",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Muzaffarnagar",
+        "distance": "139 km",
+        "timing": "19:5019:50",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jaruda Naraa",
+        "distance": "146 km",
+        "timing": "20:0420:04",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mansurpur",
+        "distance": "152 km",
+        "timing": "20:1220:12",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khatauli",
+        "distance": "161 km",
+        "timing": "20:2220:22",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sakhoti Tanda",
+        "distance": "170 km",
+        "timing": "20:3220:32",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Daurala",
+        "distance": "178 km",
+        "timing": "20:4120:41",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pabli Khas",
+        "distance": "186 km",
+        "timing": "20:5020:50",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Meerut Cant",
+        "distance": "190 km",
+        "timing": "20:5720:57",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Meerut City",
+        "distance": "194 km",
+        "timing": "21:1321:13",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Partapur",
+        "distance": "201 km",
+        "timing": "21:2021:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mohiuddinpur",
+        "distance": "206 km",
+        "timing": "21:2721:27",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Modinagar",
+        "distance": "214 km",
+        "timing": "21:5021:50",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Muradnagar",
+        "distance": "224 km",
+        "timing": "22:1622:16",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Guldhar",
+        "distance": "232 km",
+        "timing": "22:2522:25",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghaziabad",
+        "distance": "242 km",
+        "timing": "23:1223:12",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sahibabad",
+        "distance": "248 km",
+        "timing": "23:2223:22",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Viveka Vihar",
+        "distance": "253 km",
+        "timing": "23:3023:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Delhi Shahdara",
+        "distance": "256 km",
+        "timing": "23:4023:40",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Old Delhi",
+        "distance": "262 km",
+        "timing": "00:1000:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "265 km",
+        "timing": "00:4000:40",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "H Nizamuddin",
+        "distance": "273 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

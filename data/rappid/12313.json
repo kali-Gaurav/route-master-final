@@ -1,0 +1,84 @@
+{
+  "fetched_at": "2026-01-24T09:14:57.998451",
+  "train_no": "12313",
+  "response": {
+    "success": true,
+    "train_name": "12313 Rajdhani Expres Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 9min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Sealdah",
+        "distance": "-",
+        "timing": "16:5016:50",
+        "delay": "On Time",
+        "platform": "12",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Durgapur",
+        "distance": "165 km",
+        "timing": "18:4018:40",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Asansol Jn",
+        "distance": "207 km",
+        "timing": "19:1019:10",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "4min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dhanbad Jn",
+        "distance": "266 km",
+        "timing": "20:2520:25",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gaya Jn",
+        "distance": "464 km",
+        "timing": "23:0023:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dd Upadhyaya Jn",
+        "distance": "667 km",
+        "timing": "01:2001:20",
+        "delay": "On Time",
+        "platform": "8",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanpur Central",
+        "distance": "1015 km",
+        "timing": "05:2005:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "1455 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "13",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "fetched_at": "2026-01-24T09:15:14.587714",
+  "train_no": "11202",
+  "response": {
+    "success": true,
+    "train_name": "11202 Sdl Ngp Express Running Status",
+    "message": "Reached CHHINDWARA JN at 13:59",
+    "updated_time": "Updated 44min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Shahdol",
+        "distance": "-",
+        "timing": "05:3305:00",
+        "delay": "33min",
+        "platform": "3",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Birsinghpur",
+        "distance": "38 km",
+        "timing": "06:0305:30",
+        "delay": "33min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Umaria",
+        "distance": "67 km",
+        "timing": "06:2605:53",
+        "delay": "33min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katni South",
+        "distance": "128 km",
+        "timing": "07:5807:25",
+        "delay": "33min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jabalpur",
+        "distance": "217 km",
+        "timing": "09:3109:00",
+        "delay": "31min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "GUWARIGHAT",
+        "distance": "238 km",
+        "timing": "09:5509:51",
+        "delay": "4min",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nainpur JN",
+        "distance": "340 km",
+        "timing": "11:5711:40",
+        "delay": "17min",
+        "platform": "1",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KEOLARI",
+        "distance": "363 km",
+        "timing": "12:3111:58",
+        "delay": "33min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "SEONI",
+        "distance": "414 km",
+        "timing": "13:1812:45",
+        "delay": "33min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": true,
+        "station_name": "CHHINDWARA JN",
+        "distance": "479 km",
+        "timing": "14:10",
+        "delay": "9min",
+        "platform": "1",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "SAUSAR",
+        "distance": "552 km",
+        "timing": "15:4115:30",
+        "delay": "9min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagpur",
+        "distance": "630 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "7",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

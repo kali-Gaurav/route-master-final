@@ -1,0 +1,246 @@
+{
+  "fetched_at": "2026-01-24T09:14:53.038120",
+  "train_no": "79302",
+  "response": {
+    "success": true,
+    "train_name": "79302 Bhl Rtm Demu Running Status",
+    "message": "",
+    "updated_time": "Updated 25hr 54min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Bhilwara",
+        "distance": "-",
+        "timing": "02:35",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "MANDPIYA",
+        "distance": "9 km",
+        "timing": "02:53",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hamirgarh",
+        "distance": "18 km",
+        "timing": "03:08",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Soniyana",
+        "distance": "24 km",
+        "timing": "03:22",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gangrar",
+        "distance": "32 km",
+        "timing": "03:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Det",
+        "distance": "38 km",
+        "timing": "04:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chanderiya",
+        "distance": "46 km",
+        "timing": "04:42",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chittaurgarh",
+        "distance": "54 km",
+        "timing": "05:30",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "30min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "ORDI",
+        "distance": "59 km",
+        "timing": "05:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shambhupura",
+        "distance": "66 km",
+        "timing": "05:43",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gambhiri Road",
+        "distance": "75 km",
+        "timing": "06:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nimbahera",
+        "distance": "83 km",
+        "timing": "06:11",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jawad Road",
+        "distance": "93 km",
+        "timing": "06:23",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bisalwas Kalan",
+        "distance": "100 km",
+        "timing": "06:32",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nimach",
+        "distance": "110 km",
+        "timing": "06:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Harkia Khal",
+        "distance": "123 km",
+        "timing": "07:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Malhargarh",
+        "distance": "135 km",
+        "timing": "07:14",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Piplia",
+        "distance": "143 km",
+        "timing": "07:24",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mandasor",
+        "distance": "159 km",
+        "timing": "07:40",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dalauda",
+        "distance": "173 km",
+        "timing": "07:55",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KACHNARA",
+        "distance": "189 km",
+        "timing": "08:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dhodhar",
+        "distance": "193 km",
+        "timing": "08:17",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jaora",
+        "distance": "210 km",
+        "timing": "08:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Brayla Chaurasi",
+        "distance": "218 km",
+        "timing": "08:46",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Namli",
+        "distance": "230 km",
+        "timing": "08:58",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "243 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

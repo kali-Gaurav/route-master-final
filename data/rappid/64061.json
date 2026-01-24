@@ -1,0 +1,129 @@
+{
+  "fetched_at": "2026-01-24T09:15:01.451980",
+  "train_no": "64061",
+  "response": {
+    "success": true,
+    "train_name": "64061 Pwl Dli Emu Running Status",
+    "message": "",
+    "updated_time": "Updated 11hr 52min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Palwal",
+        "distance": "-",
+        "timing": "17:3017:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Asaoti",
+        "distance": "11 km",
+        "timing": "17:3917:39",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ballabgarh",
+        "distance": "21 km",
+        "timing": "17:4817:48",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Faridabad Nw Tn",
+        "distance": "25 km",
+        "timing": "17:5317:53",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Faridabad",
+        "distance": "29 km",
+        "timing": "17:5817:58",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tuglakabad",
+        "distance": "39 km",
+        "timing": "18:0718:07",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Okhla",
+        "distance": "46 km",
+        "timing": "18:1418:14",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "H Nizamuddin",
+        "distance": "50 km",
+        "timing": "18:2918:29",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tilak Bridge",
+        "distance": "54 km",
+        "timing": "18:4018:40",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shivaji Bridge",
+        "distance": "56 km",
+        "timing": "18:4518:45",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "57 km",
+        "timing": "19:0219:02",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sadar Bazar",
+        "distance": "59 km",
+        "timing": "19:1119:11",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Old Delhi",
+        "distance": "60 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

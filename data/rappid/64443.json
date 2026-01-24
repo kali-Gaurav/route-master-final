@@ -1,0 +1,102 @@
+{
+  "fetched_at": "2026-01-24T09:15:24.884838",
+  "train_no": "64443",
+  "response": {
+    "success": true,
+    "train_name": "64443 Gzb Dli Emu Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 15min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Ghaziabad",
+        "distance": "-",
+        "timing": "18:3018:30",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sahibabad",
+        "distance": "6 km",
+        "timing": "18:3818:38",
+        "delay": "1min",
+        "platform": "3",
+        "halt": "-"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chander Nagar",
+        "distance": "10 km",
+        "timing": "18:4418:44",
+        "delay": "1min",
+        "platform": "2",
+        "halt": "-"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anand Vihar",
+        "distance": "12 km",
+        "timing": "18:4718:47",
+        "delay": "1min",
+        "platform": "2",
+        "halt": "-"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mandawali Chander Vihar",
+        "distance": "16 km",
+        "timing": "18:5018:50",
+        "delay": "1min",
+        "platform": "1",
+        "halt": "-"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tilak Bridge",
+        "distance": "22 km",
+        "timing": "18:5518:55",
+        "delay": "1min",
+        "platform": "4",
+        "halt": "-"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shivaji Bridge",
+        "distance": "23 km",
+        "timing": "18:5918:59",
+        "delay": "1min",
+        "platform": "4",
+        "halt": "-"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "24 km",
+        "timing": "19:2019:20",
+        "delay": "On Time",
+        "platform": "10",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sadar Bazar",
+        "distance": "26 km",
+        "timing": "19:2819:28",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Old Delhi",
+        "distance": "28 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "fetched_at": "2026-01-24T09:15:13.129987",
+  "train_no": "68004",
+  "response": {
+    "success": true,
+    "train_name": "68004 Gts Hwh Memu Running Status",
+    "message": "",
+    "updated_time": "Updated 13hr 40min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "GUA",
+        "distance": "-",
+        "timing": "19:1019:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bara Jamda",
+        "distance": "8 km",
+        "timing": "19:2219:22",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Noamundi",
+        "distance": "22 km",
+        "timing": "19:4119:41",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dangoaposi",
+        "distance": "30 km",
+        "timing": "20:1020:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "MALUKA",
+        "distance": "40 km",
+        "timing": "20:2220:22",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KENDPOSI",
+        "distance": "51 km",
+        "timing": "20:3620:36",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "TALABURU",
+        "distance": "59 km",
+        "timing": "20:4420:44",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "JHINKPANI",
+        "distance": "68 km",
+        "timing": "20:5420:54",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "SINGHOOKHARIA",
+        "distance": "78 km",
+        "timing": "21:0421:04",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chaibasa",
+        "distance": "85 km",
+        "timing": "21:1821:18",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "PANDRASALI",
+        "distance": "93 km",
+        "timing": "21:2621:26",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rajkharsawan Jn",
+        "distance": "105 km",
+        "timing": "21:5021:50",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mahali Marup",
+        "distance": "113 km",
+        "timing": "22:0022:00",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sini Jn",
+        "distance": "120 km",
+        "timing": "22:0822:08",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "BIRBANS",
+        "distance": "127 km",
+        "timing": "22:1822:18",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gamharia",
+        "distance": "136 km",
+        "timing": "22:2822:28",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Adityapur",
+        "distance": "142 km",
+        "timing": "22:3522:35",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tatanagar Jn",
+        "distance": "147 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

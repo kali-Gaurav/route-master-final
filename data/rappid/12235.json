@@ -1,0 +1,120 @@
+{
+  "fetched_at": "2026-01-24T09:14:53.316159",
+  "train_no": "12235",
+  "response": {
+    "success": true,
+    "train_name": "12235 Anvt Humsfr Exp Running Status",
+    "message": "Reached Anand Vihar TRM at 11:08",
+    "updated_time": "Updated 3hr 34min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Madhupur Jn",
+        "distance": "-",
+        "timing": "17:5117:05",
+        "delay": "46min",
+        "platform": "4",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jasidih Jn",
+        "distance": "29 km",
+        "timing": "18:1317:27",
+        "delay": "46min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jhajha",
+        "distance": "73 km",
+        "timing": "18:5018:35",
+        "delay": "15min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kiul Jn",
+        "distance": "127 km",
+        "timing": "19:4219:13",
+        "delay": "29min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mokameh Jn",
+        "distance": "161 km",
+        "timing": "20:3619:38",
+        "delay": "58min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patna Jn",
+        "distance": "251 km",
+        "timing": "22:0021:35",
+        "delay": "25min",
+        "platform": "3",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ara Jn",
+        "distance": "300 km",
+        "timing": "23:0322:13",
+        "delay": "50min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Buxar",
+        "distance": "368 km",
+        "timing": "00:0922:58",
+        "delay": "1hr 11min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dd Upadhyaya Jn",
+        "distance": "462 km",
+        "timing": "01:3701:30",
+        "delay": "7min",
+        "platform": "4",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Prayagraj Jn.",
+        "distance": "615 km",
+        "timing": "03:2903:22",
+        "delay": "7min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanpur Central",
+        "distance": "810 km",
+        "timing": "05:4605:30",
+        "delay": "16min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anand Vihar TRM",
+        "distance": "1237 km",
+        "timing": "Destination",
+        "delay": "18min",
+        "platform": "5",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

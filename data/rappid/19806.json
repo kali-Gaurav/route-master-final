@@ -1,0 +1,210 @@
+{
+  "fetched_at": "2026-01-24T09:15:21.666284",
+  "train_no": "19806",
+  "response": {
+    "success": true,
+    "train_name": "19806 Uhp Kota Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 101hr 11min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Martyr Captain Tushar Mahajan",
+        "distance": "-",
+        "timing": "14:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jammu Tawi",
+        "distance": "54 km",
+        "timing": "15:35",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kathua",
+        "distance": "130 km",
+        "timing": "16:37",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pathankot Cantt",
+        "distance": "153 km",
+        "timing": "17:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jalandhar Cant",
+        "distance": "266 km",
+        "timing": "20:40",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ludhiana Jn",
+        "distance": "318 km",
+        "timing": "21:48",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ambala Cant Jn",
+        "distance": "432 km",
+        "timing": "23:55",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kurukshetra Jn",
+        "distance": "473 km",
+        "timing": "00:33",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karnal",
+        "distance": "506 km",
+        "timing": "00:57",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Panipat Jn",
+        "distance": "540 km",
+        "timing": "01:26",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sonipat",
+        "distance": "586 km",
+        "timing": "01:58",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "630 km",
+        "timing": "03:40",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "30min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "H Nizamuddin",
+        "distance": "637 km",
+        "timing": "03:55",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Faridabad",
+        "distance": "658 km",
+        "timing": "04:16",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mathura Jn",
+        "distance": "770 km",
+        "timing": "06:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bharatpur Jn",
+        "distance": "804 km",
+        "timing": "06:45",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bayana Jn",
+        "distance": "846 km",
+        "timing": "07:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hindaun City",
+        "distance": "879 km",
+        "timing": "07:55",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gangapur City",
+        "distance": "923 km",
+        "timing": "08:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sawai Madhopur",
+        "distance": "987 km",
+        "timing": "09:22",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Indargarh",
+        "distance": "1023 km",
+        "timing": "09:50",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "1094 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

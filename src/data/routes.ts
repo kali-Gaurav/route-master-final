@@ -1,4 +1,6 @@
 // Route data structure matching the CSV format
+export type AvailabilityState = "available" | "waiting" | "not-available" | "unknown";
+
 export interface RouteSegment {
   routeId: string;
   category: string;
@@ -12,6 +14,8 @@ export interface RouteSegment {
   distance: number;
   duration: number;
   waitBefore: number;
+  liveSeatAvailability: string;
+  liveFare: number;
   seatAvailable: boolean;
 }
 
@@ -23,6 +27,7 @@ export interface Route {
   totalCost: number;
   totalTransfers: number;
   totalDistance: number;
+  liveFareTotal: number;
   seatProbability: number;
   safetyScore: number;
 }
@@ -66,6 +71,8 @@ export const sampleRoutes: Route[] = [
         distance: 1598,
         duration: 1598,
         waitBefore: 0,
+        liveSeatAvailability: "AVAILABLE-0120",
+        liveFare: 826,
         seatAvailable: false,
       },
       {
@@ -81,12 +88,15 @@ export const sampleRoutes: Route[] = [
         distance: 527,
         duration: 575,
         waitBefore: 221,
+        liveSeatAvailability: "AVAILABLE-0045",
+        liveFare: 1299,
         seatAvailable: false,
       },
     ],
     totalTime: 2394,
     totalCost: 2125,
     totalTransfers: 1,
+    liveFareTotal: 2125,
     seatProbability: 0,
     safetyScore: 100,
   },
@@ -107,6 +117,8 @@ export const sampleRoutes: Route[] = [
         distance: 1598,
         duration: 1598,
         waitBefore: 0,
+        liveSeatAvailability: "AVAILABLE-030",
+        liveFare: 830,
         seatAvailable: false,
       },
       {
@@ -122,12 +134,15 @@ export const sampleRoutes: Route[] = [
         distance: 528,
         duration: 576,
         waitBefore: 293,
+        liveSeatAvailability: "WL/20",
+        liveFare: 1296,
         seatAvailable: true,
       },
     ],
     totalTime: 2467,
     totalCost: 2126,
     totalTransfers: 1,
+    liveFareTotal: 2126,
     seatProbability: 50,
     safetyScore: 100,
   },
@@ -148,6 +163,8 @@ export const sampleRoutes: Route[] = [
         distance: 328,
         duration: 394,
         waitBefore: 0,
+        liveSeatAvailability: "AVAILABLE-020",
+        liveFare: 650,
         seatAvailable: true,
       },
       {
@@ -163,12 +180,15 @@ export const sampleRoutes: Route[] = [
         distance: 2329,
         duration: 2409,
         waitBefore: 350,
+        liveSeatAvailability: "AVAILABLE-015",
+        liveFare: 2032,
         seatAvailable: true,
       },
     ],
     totalTime: 3192,
     totalCost: 2682,
     totalTransfers: 5,
+    liveFareTotal: 2682,
     seatProbability: 83.33,
     safetyScore: 80,
   },
@@ -189,6 +209,8 @@ export const sampleRoutes: Route[] = [
         distance: 1598,
         duration: 1598,
         waitBefore: 0,
+        liveSeatAvailability: "AVAILABLE-010",
+        liveFare: 820,
         seatAvailable: false,
       },
       {
@@ -204,12 +226,15 @@ export const sampleRoutes: Route[] = [
         distance: 527,
         duration: 575,
         waitBefore: 293,
+        liveSeatAvailability: "WL/30",
+        liveFare: 1305,
         seatAvailable: true,
       },
     ],
     totalTime: 2466,
     totalCost: 2125,
     totalTransfers: 1,
+    liveFareTotal: 2125,
     seatProbability: 50,
     safetyScore: 95,
   },
@@ -230,6 +255,8 @@ export const sampleRoutes: Route[] = [
         distance: 1598,
         duration: 1598,
         waitBefore: 0,
+        liveSeatAvailability: "AVAILABLE-025",
+        liveFare: 820,
         seatAvailable: false,
       },
       {
@@ -245,6 +272,8 @@ export const sampleRoutes: Route[] = [
         distance: 262,
         duration: 349,
         waitBefore: 135,
+        liveSeatAvailability: "WL/18",
+        liveFare: 300,
         seatAvailable: true,
       },
       {
@@ -260,12 +289,15 @@ export const sampleRoutes: Route[] = [
         distance: 265,
         duration: 353,
         waitBefore: 0,
+        liveSeatAvailability: "AVAILABLE-008",
+        liveFare: 1005,
         seatAvailable: true,
       },
     ],
     totalTime: 2436,
     totalCost: 2125,
     totalTransfers: 2,
+    liveFareTotal: 2125,
     seatProbability: 66.67,
     safetyScore: 95,
   },
@@ -286,6 +318,8 @@ export const sampleRoutes: Route[] = [
         distance: 55,
         duration: 87,
         waitBefore: 0,
+        liveSeatAvailability: "AVAILABLE-008",
+        liveFare: 120,
         seatAvailable: false,
       },
       {
@@ -301,6 +335,8 @@ export const sampleRoutes: Route[] = [
         distance: 2058,
         duration: 2129,
         waitBefore: 460,
+        liveSeatAvailability: "AVAILABLE-040",
+        liveFare: 1420,
         seatAvailable: true,
       },
       {
@@ -316,12 +352,15 @@ export const sampleRoutes: Route[] = [
         distance: 100,
         duration: 158,
         waitBefore: 32,
+        liveSeatAvailability: "WL/15",
+        liveFare: 949,
         seatAvailable: true,
       },
     ],
     totalTime: 3301,
     totalCost: 2489,
     totalTransfers: 7,
+    liveFareTotal: 2489,
     seatProbability: 75,
     safetyScore: 70,
   },
@@ -349,11 +388,70 @@ export const getCategoryBase = (category: string): string => {
   return base.replace(/[^A-Z]/g, '');
 };
 
+const availabilityPriority: Record<AvailabilityState, number> = {
+  available: 3,
+  waiting: 2,
+  "not-available": 1,
+  unknown: 0,
+};
+
+export interface AvailabilitySummary {
+  label: string;
+  state: AvailabilityState;
+}
+
+export const getSeatAvailabilityState = (availability?: string): AvailabilityState => {
+  if (!availability) return "unknown";
+  const normalized = availability.toUpperCase();
+  if (normalized.startsWith("AVAILABLE")) return "available";
+  if (normalized.includes("WL") || normalized.includes("WAIT")) return "waiting";
+  if (normalized.includes("NOT")) return "not-available";
+  return "unknown";
+};
+
+export const getAvailabilityBadgeClasses = (state: AvailabilityState): string => {
+  switch (state) {
+    case "available":
+      return "bg-emerald-50 border-emerald-200 text-emerald-800";
+    case "waiting":
+      return "bg-amber-50 border-amber-200 text-amber-800";
+    case "not-available":
+      return "bg-red-50 border-red-200 text-red-800";
+    default:
+      return "bg-secondary/20 border-border text-muted-foreground";
+  }
+};
+
+export const formatLiveFare = (fare: number): string => {
+  return new Intl.NumberFormat("en-IN", {
+    style: "currency",
+    currency: "INR",
+    maximumFractionDigits: fare % 1 === 0 ? 0 : 2,
+  }).format(fare);
+};
+
+export const summarizeAvailability = (segments: RouteSegment[]): AvailabilitySummary => {
+  if (!segments.length) {
+    return { label: "Data pending", state: "unknown" };
+  }
+
+  return segments.reduce<AvailabilitySummary>((acc, segment) => {
+    const state = getSeatAvailabilityState(segment.liveSeatAvailability);
+    if (availabilityPriority[state] > availabilityPriority[acc.state]) {
+      return { label: segment.liveSeatAvailability, state };
+    }
+    return acc;
+  }, { label: "Data pending", state: "unknown" });
+};
+
 export const mapApiRouteToRoute = (apiRoute: any): Route => {
-  return {
-    id: apiRoute.route_id,
-    category: apiRoute.category,
-    segments: apiRoute.segments.map((seg: any, idx: number) => ({
+  const mappedSegments = apiRoute.segments.map((seg: any, idx: number) => {
+    const availability = seg.live_seat_availability || seg.liveSeatAvailability || seg.seat_availability || "UNKNOWN";
+    const fareValue = seg.live_fare ?? seg.liveFare ?? seg.fare ?? 0;
+    const liveFare = typeof fareValue === "number"
+      ? fareValue
+      : Number.parseFloat(String(fareValue)) || 0;
+    return {
       routeId: apiRoute.route_id,
       category: apiRoute.category,
       segment: idx + 1,
@@ -366,12 +464,23 @@ export const mapApiRouteToRoute = (apiRoute: any): Route => {
       distance: seg.distance,
       duration: seg.duration_min,
       waitBefore: seg.wait_min,
-      seatAvailable: true,
-    })),
+      liveSeatAvailability: availability,
+      liveFare,
+      seatAvailable: availability.toUpperCase().startsWith("AVAILABLE"),
+    };
+  });
+
+  const liveFareTotal = mappedSegments.reduce((sum, segment) => sum + segment.liveFare, 0);
+
+  return {
+    id: apiRoute.route_id,
+    category: apiRoute.category,
+    segments: mappedSegments,
     totalTime: apiRoute.objectives.time,
     totalCost: apiRoute.objectives.cost,
     totalTransfers: apiRoute.objectives.transfers,
     totalDistance: apiRoute.objectives.distance,
+    liveFareTotal,
     seatProbability: apiRoute.objectives.seat_prob,
     safetyScore: apiRoute.objectives.safety_score,
   };

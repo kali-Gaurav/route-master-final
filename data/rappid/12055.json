@@ -1,0 +1,93 @@
+{
+  "fetched_at": "2026-01-24T09:15:14.319448",
+  "train_no": "12055",
+  "response": {
+    "success": true,
+    "train_name": "12055 Ddn Janshtbdi Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 40min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "-",
+        "timing": "15:2015:20",
+        "delay": "On Time",
+        "platform": "9",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghaziabad",
+        "distance": "26 km",
+        "timing": "15:5515:55",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Meerut City",
+        "distance": "73 km",
+        "timing": "16:3416:34",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Muzaffarnagar",
+        "distance": "129 km",
+        "timing": "17:1417:14",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Deoband",
+        "distance": "153 km",
+        "timing": "17:3417:34",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tapri",
+        "distance": "180 km",
+        "timing": "18:1118:11",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Roorkee",
+        "distance": "212 km",
+        "timing": "18:4518:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Haridwar Jn",
+        "distance": "253 km",
+        "timing": "19:3219:32",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dehradun",
+        "distance": "305 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "fetched_at": "2026-01-24T09:15:18.852490",
+  "train_no": "12953",
+  "response": {
+    "success": true,
+    "train_name": "12953 Ak Tejas Raj Ex Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 7min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Mumbai Central",
+        "distance": "-",
+        "timing": "17:1017:10",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Borivali",
+        "distance": "30 km",
+        "timing": "17:4017:40",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vapi",
+        "distance": "170 km",
+        "timing": "18:5518:55",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Valsad",
+        "distance": "194 km",
+        "timing": "19:1519:15",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Surat",
+        "distance": "263 km",
+        "timing": "20:1520:15",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bharuch Jn",
+        "distance": "322 km",
+        "timing": "20:5520:55",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vadodara Jn",
+        "distance": "392 km",
+        "timing": "21:5421:54",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dahod",
+        "distance": "540 km",
+        "timing": "23:4023:40",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "653 km",
+        "timing": "01:1501:15",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "920 km",
+        "timing": "04:1504:15",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sawai Madhopur",
+        "distance": "1027 km",
+        "timing": "05:2505:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mathura Jn",
+        "distance": "1244 km",
+        "timing": "07:5507:55",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "H Nizamuddin",
+        "distance": "1377 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "8",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

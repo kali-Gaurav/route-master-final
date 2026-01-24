@@ -1,0 +1,201 @@
+{
+  "fetched_at": "2026-01-24T09:14:57.274556",
+  "train_no": "18214",
+  "response": {
+    "success": true,
+    "train_name": "18214 Aii Durg Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 11hr 57min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Ajmer Jn",
+        "distance": "-",
+        "timing": "19:2019:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jaipur",
+        "distance": "135 km",
+        "timing": "21:3021:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Durgapura",
+        "distance": "142 km",
+        "timing": "21:4521:45",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sawai Madhopur",
+        "distance": "266 km",
+        "timing": "23:4523:45",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sogaria",
+        "distance": "377 km",
+        "timing": "01:2501:25",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Baran",
+        "distance": "441 km",
+        "timing": "02:1002:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chhabra Gugor",
+        "distance": "499 km",
+        "timing": "03:0503:05",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ruthiyai",
+        "distance": "538 km",
+        "timing": "04:2504:25",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Guna",
+        "distance": "559 km",
+        "timing": "05:0505:05",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ashok Nagar",
+        "distance": "603 km",
+        "timing": "05:3805:38",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Saugor",
+        "distance": "749 km",
+        "timing": "08:0008:00",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Damoh",
+        "distance": "827 km",
+        "timing": "09:0509:05",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katni Murwara",
+        "distance": "936 km",
+        "timing": "12:1512:15",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Umaria",
+        "distance": "994 km",
+        "timing": "13:4513:45",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shahdol",
+        "distance": "1061 km",
+        "timing": "14:5014:50",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anuppur Jn",
+        "distance": "1102 km",
+        "timing": "15:4015:40",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pendra Road",
+        "distance": "1153 km",
+        "timing": "16:2216:22",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Uslapur",
+        "distance": "1245 km",
+        "timing": "19:0519:05",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhatapara",
+        "distance": "1297 km",
+        "timing": "19:5119:51",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raipur Jn",
+        "distance": "1361 km",
+        "timing": "21:1021:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Durg",
+        "distance": "1398 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

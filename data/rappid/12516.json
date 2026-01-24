@@ -1,0 +1,417 @@
+{
+  "fetched_at": "2026-01-24T09:15:22.855636",
+  "train_no": "12516",
+  "response": {
+    "success": true,
+    "train_name": "12516 Scl Cbe Express Running Status",
+    "message": "Reached Coimbatore Jn at 11:18",
+    "updated_time": "Updated 27hr 24min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Silchar",
+        "distance": "-",
+        "timing": "19:4719:30",
+        "delay": "17min",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Badarpur Jn",
+        "distance": "30 km",
+        "timing": "21:2920:45",
+        "delay": "44min",
+        "platform": "1",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Haflong",
+        "distance": "101 km",
+        "timing": "23:2122:48",
+        "delay": "33min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Maibong",
+        "distance": "136 km",
+        "timing": "00:2423:59",
+        "delay": "25min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lumding Jn",
+        "distance": "199 km",
+        "timing": "03:0302:00",
+        "delay": "1hr 3min",
+        "platform": "5",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hojai",
+        "distance": "244 km",
+        "timing": "03:5702:50",
+        "delay": "1hr 7min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Guwahati",
+        "distance": "380 km",
+        "timing": "06:2206:10",
+        "delay": "12min",
+        "platform": "2",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kamakhya",
+        "distance": "386 km",
+        "timing": "06:3606:27",
+        "delay": "9min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rangiya Jn",
+        "distance": "427 km",
+        "timing": "07:2607:15",
+        "delay": "11min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barpeta Road",
+        "distance": "492 km",
+        "timing": "08:3408:02",
+        "delay": "32min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Bongaigaon",
+        "distance": "537 km",
+        "timing": "09:4809:40",
+        "delay": "8min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kokrajhar",
+        "distance": "565 km",
+        "timing": "10:5510:12",
+        "delay": "43min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Alipurduar",
+        "distance": "643 km",
+        "timing": "11:4810:55",
+        "delay": "53min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Cooch Behar",
+        "distance": "662 km",
+        "timing": "12:1011:20",
+        "delay": "50min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dhupguri",
+        "distance": "723 km",
+        "timing": "13:0912:15",
+        "delay": "54min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Jalpaiguri",
+        "distance": "788 km",
+        "timing": "14:2614:25",
+        "delay": "1min",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kishanganj",
+        "distance": "875 km",
+        "timing": "15:4115:32",
+        "delay": "9min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Malda Town",
+        "distance": "1021 km",
+        "timing": "19:0219:00",
+        "delay": "2min",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Farakka Jn",
+        "distance": "1055 km",
+        "timing": "19:3719:34",
+        "delay": "3min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rampur Hat",
+        "distance": "1142 km",
+        "timing": "22:0021:27",
+        "delay": "33min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bolpur S Niktn",
+        "distance": "1202 km",
+        "timing": "23:0022:17",
+        "delay": "43min",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dankuni",
+        "distance": "1333 km",
+        "timing": "01:1600:06",
+        "delay": "1hr 10min",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kharagpur Jn",
+        "distance": "1455 km",
+        "timing": "04:0102:48",
+        "delay": "1hr 13min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Balasore",
+        "distance": "1574 km",
+        "timing": "05:3704:15",
+        "delay": "1hr 22min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhadrak",
+        "distance": "1636 km",
+        "timing": "06:1905:12",
+        "delay": "1hr 7min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jajpur K Road",
+        "distance": "1679 km",
+        "timing": "07:0405:35",
+        "delay": "1hr 29min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Cuttack",
+        "distance": "1751 km",
+        "timing": "08:2906:50",
+        "delay": "1hr 39min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhubaneswar",
+        "distance": "1779 km",
+        "timing": "09:1207:35",
+        "delay": "1hr 37min",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khurda Road JN",
+        "distance": "1798 km",
+        "timing": "09:5808:15",
+        "delay": "1hr 43min",
+        "platform": "3",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Balugaon",
+        "distance": "1869 km",
+        "timing": "10:4909:00",
+        "delay": "1hr 49min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Brahmapur",
+        "distance": "1945 km",
+        "timing": "11:4810:05",
+        "delay": "1hr 43min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palasa",
+        "distance": "2019 km",
+        "timing": "12:3711:45",
+        "delay": "52min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Srikakulam Road",
+        "distance": "2092 km",
+        "timing": "13:3212:45",
+        "delay": "47min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vizianagram Jn",
+        "distance": "2161 km",
+        "timing": "14:2313:40",
+        "delay": "43min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Visakhapatnam",
+        "distance": "2222 km",
+        "timing": "16:3115:10",
+        "delay": "1hr 21min",
+        "platform": "4",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rajahmundry",
+        "distance": "2422 km",
+        "timing": "19:0618:05",
+        "delay": "1hr 1min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vijayawada Jn",
+        "distance": "2571 km",
+        "timing": "21:4620:40",
+        "delay": "1hr 6min",
+        "platform": "7",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Perambur",
+        "distance": "3001 km",
+        "timing": "03:3003:15",
+        "delay": "15min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Arakkonam Jn",
+        "distance": "3064 km",
+        "timing": "04:2604:15",
+        "delay": "11min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katpadi Jn",
+        "distance": "3125 km",
+        "timing": "05:3705:35",
+        "delay": "2min",
+        "platform": "1",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jolarpettai",
+        "distance": "3209 km",
+        "timing": "07:0006:55",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Salem Jn",
+        "distance": "3329 km",
+        "timing": "08:3908:25",
+        "delay": "14min",
+        "platform": "4",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Erode Jn",
+        "distance": "3391 km",
+        "timing": "09:4109:40",
+        "delay": "1min",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tiruppur",
+        "distance": "3441 km",
+        "timing": "10:3510:25",
+        "delay": "10min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Coimbatore Jn",
+        "distance": "3491 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

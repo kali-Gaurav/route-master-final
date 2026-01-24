@@ -1,0 +1,75 @@
+{
+  "fetched_at": "2026-01-24T09:14:56.270615",
+  "train_no": "12205",
+  "response": {
+    "success": true,
+    "train_name": "12205 Nanda Devi Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 14hr 31min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "-",
+        "timing": "23:5023:50",
+        "delay": "On Time",
+        "platform": "10",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghaziabad",
+        "distance": "24 km",
+        "timing": "00:3000:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Meerut City",
+        "distance": "72 km",
+        "timing": "01:1001:10",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Muzaffarnagar",
+        "distance": "127 km",
+        "timing": "01:4701:47",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Roorkee",
+        "distance": "211 km",
+        "timing": "03:1203:12",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Haridwar Jn",
+        "distance": "253 km",
+        "timing": "03:5803:58",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dehradun",
+        "distance": "305 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,4015 @@
+{
+  "metadata": {
+    "source": "HWH",
+    "destination": "CSMT",
+    "total_routes_generated": 109,
+    "pareto_front_size": 4,
+    "optimal_routes_count": 4
+  },
+  "optimal_routes": [
+    {
+      "route_id": "OPT_ROUTE_01",
+      "category": "FASTEST \u26a1",
+      "objectives": {
+        "time": 130.0,
+        "cost": 1979.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1979.0
+      },
+      "segments": [
+        {
+          "train_no": "12262",
+          "train_name": "HWH-CSMT DUR",
+          "from": "HWH",
+          "to": "CSMT",
+          "departure": "08:20:00",
+          "arrival": "10:30:00",
+          "distance": 1979.0,
+          "duration_min": 130.0,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_02",
+      "category": "CHEAPEST \ud83d\udcb0",
+      "objectives": {
+        "time": 1200.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "KYN",
+          "departure": "03:35:00",
+          "arrival": "21:15:00",
+          "distance": 1919.0,
+          "duration_min": 1060.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "97146",
+          "train_name": "K134",
+          "from": "KYN",
+          "to": "CSMT",
+          "departure": "22:06:00",
+          "arrival": "23:35:00",
+          "distance": 53.0,
+          "duration_min": 89.0,
+          "wait_min": 51.0
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_03",
+      "category": "BALANCED \u2696\ufe0f",
+      "objectives": {
+        "time": 1065.0,
+        "cost": 1973.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1973.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "BD",
+          "departure": "03:35:00",
+          "arrival": "06:40:00",
+          "distance": 1305.0,
+          "duration_min": 185.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12860",
+          "train_name": "HWH-CSMT GEE",
+          "from": "BD",
+          "to": "CSMT",
+          "departure": "10:10:00",
+          "arrival": "21:20:00",
+          "distance": 668.0,
+          "duration_min": 670.0,
+          "wait_min": 210.0
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_04",
+      "category": "BALANCED \u2696\ufe0f",
+      "objectives": {
+        "time": 455.0,
+        "cost": 1978.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1978.0
+      },
+      "segments": [
+        {
+          "train_no": "12102",
+          "train_name": "JNANESWARISU",
+          "from": "HWH",
+          "to": "IGP",
+          "departure": "22:50:00",
+          "arrival": "02:55:00",
+          "distance": 1842.0,
+          "duration_min": 245.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12112",
+          "train_name": "AMI-CSMT SF",
+          "from": "IGP",
+          "to": "CSMT",
+          "departure": "03:30:00",
+          "arrival": "06:25:00",
+          "distance": 136.0,
+          "duration_min": 175.0,
+          "wait_min": 35.0
+        }
+      ]
+    }
+  ],
+  "all_generated_routes": [
+    {
+      "route_id": "ALL_ROUTE_001",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 130.0,
+        "cost": 1979.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1979.0
+      },
+      "segments": [
+        {
+          "train_no": "12262",
+          "train_name": "HWH-CSMT DUR",
+          "from": "HWH",
+          "to": "CSMT",
+          "departure": "08:20:00",
+          "arrival": "10:30:00",
+          "distance": 1979.0,
+          "duration_min": 130.0,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_002",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 805.0,
+        "cost": 2165.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2165.0
+      },
+      "segments": [
+        {
+          "train_no": "12321",
+          "train_name": "HWH MUMBAI M",
+          "from": "HWH",
+          "to": "CSMT",
+          "departure": "22:00:00",
+          "arrival": "11:25:00",
+          "distance": 2165.0,
+          "duration_min": 805.0,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_003",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 545.0,
+        "cost": 1979.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1979.0
+      },
+      "segments": [
+        {
+          "train_no": "12810",
+          "train_name": "HWH CSMT MAI",
+          "from": "HWH",
+          "to": "CSMT",
+          "departure": "20:15:00",
+          "arrival": "05:20:00",
+          "distance": 1979.0,
+          "duration_min": 545.0,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_004",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 450.0,
+        "cost": 1979.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1979.0
+      },
+      "segments": [
+        {
+          "train_no": "12860",
+          "train_name": "HWH-CSMT GEE",
+          "from": "HWH",
+          "to": "CSMT",
+          "departure": "13:50:00",
+          "arrival": "21:20:00",
+          "distance": 1979.0,
+          "duration_min": 450.0,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_005",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 520.0,
+        "cost": 1979.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1979.0
+      },
+      "segments": [
+        {
+          "train_no": "12870",
+          "train_name": "HWH-CSTM WEE",
+          "from": "HWH",
+          "to": "CSMT",
+          "departure": "14:35:00",
+          "arrival": "23:15:00",
+          "distance": 1979.0,
+          "duration_min": 520.0,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_006",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1505.0000000000002,
+        "cost": 2151.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2151.0
+      },
+      "segments": [
+        {
+          "train_no": "11448",
+          "train_name": "SHAKTIPUNJ E",
+          "from": "HWH",
+          "to": "JBP",
+          "departure": "13:10:00",
+          "arrival": "14:25:00",
+          "distance": 1155.0,
+          "duration_min": 75.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11094",
+          "train_name": "MAHANAGARI E",
+          "from": "JBP",
+          "to": "CSMT",
+          "departure": "21:20:00",
+          "arrival": "14:15:00",
+          "distance": 996.0,
+          "duration_min": 1015.0,
+          "wait_min": 415.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_007",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1385.0,
+        "cost": 2151.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2151.0
+      },
+      "segments": [
+        {
+          "train_no": "11448",
+          "train_name": "SHAKTIPUNJ E",
+          "from": "HWH",
+          "to": "JBP",
+          "departure": "13:10:00",
+          "arrival": "14:25:00",
+          "distance": 1155.0,
+          "duration_min": 75.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12187",
+          "train_name": "MUMBAI GARIB",
+          "from": "JBP",
+          "to": "CSMT",
+          "departure": "19:30:00",
+          "arrival": "12:15:00",
+          "distance": 996.0,
+          "duration_min": 1005.0,
+          "wait_min": 305.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_008",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1335.0,
+        "cost": 2165.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2165.0
+      },
+      "segments": [
+        {
+          "train_no": "11448",
+          "train_name": "SHAKTIPUNJ E",
+          "from": "HWH",
+          "to": "DGR",
+          "departure": "13:10:00",
+          "arrival": "15:11:00",
+          "distance": 157.0,
+          "duration_min": 121.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12321",
+          "train_name": "HWH MUMBAI M",
+          "from": "DGR",
+          "to": "CSMT",
+          "departure": "00:07:00",
+          "arrival": "11:25:00",
+          "distance": 2008.0,
+          "duration_min": 678.0,
+          "wait_min": 536.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_009",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1025.0,
+        "cost": 2242.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2242.0
+      },
+      "segments": [
+        {
+          "train_no": "11448",
+          "train_name": "SHAKTIPUNJ E",
+          "from": "HWH",
+          "to": "ASN",
+          "departure": "13:10:00",
+          "arrival": "15:51:00",
+          "distance": 199.0,
+          "duration_min": 161.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12361",
+          "train_name": "ASN CSMT EXP",
+          "from": "ASN",
+          "to": "CSMT",
+          "departure": "19:45:00",
+          "arrival": "06:15:00",
+          "distance": 2043.0,
+          "duration_min": 630.0,
+          "wait_min": 234.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_010",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 899.9999999999999,
+        "cost": 1979.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1979.0
+      },
+      "segments": [
+        {
+          "train_no": "12021",
+          "train_name": "HOWRAH-BARAB",
+          "from": "HWH",
+          "to": "KGP",
+          "departure": "06:20:00",
+          "arrival": "08:00:00",
+          "distance": 116.0,
+          "duration_min": 100.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12860",
+          "train_name": "HWH-CSMT GEE",
+          "from": "KGP",
+          "to": "CSMT",
+          "departure": "15:35:00",
+          "arrival": "21:20:00",
+          "distance": 1863.0,
+          "duration_min": 345.0,
+          "wait_min": 455.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_011",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1689.9999999999998,
+        "cost": 1979.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1979.0
+      },
+      "segments": [
+        {
+          "train_no": "12021",
+          "train_name": "HOWRAH-BARAB",
+          "from": "HWH",
+          "to": "TATA",
+          "departure": "06:20:00",
+          "arrival": "09:55:00",
+          "distance": 254.0,
+          "duration_min": 215.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12262",
+          "train_name": "HWH-CSMT DUR",
+          "from": "TATA",
+          "to": "CSMT",
+          "departure": "11:48:00",
+          "arrival": "10:30:00",
+          "distance": 1725.0,
+          "duration_min": 1362.0,
+          "wait_min": 113.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_012",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 970.0000000000001,
+        "cost": 2243.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2243.0
+      },
+      "segments": [
+        {
+          "train_no": "12023",
+          "train_name": "HOWRAH PATNA",
+          "from": "HWH",
+          "to": "CRJ",
+          "departure": "14:05:00",
+          "arrival": "17:06:00",
+          "distance": 224.0,
+          "duration_min": 181.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12361",
+          "train_name": "ASN CSMT EXP",
+          "from": "CRJ",
+          "to": "CSMT",
+          "departure": "20:10:00",
+          "arrival": "06:15:00",
+          "distance": 2019.0,
+          "duration_min": 605.0,
+          "wait_min": 184.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_013",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1460.0000000000002,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "KYN",
+          "departure": "03:35:00",
+          "arrival": "21:15:00",
+          "distance": 1919.0,
+          "duration_min": 1060.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11020",
+          "train_name": "KONARK EXPRE",
+          "from": "KYN",
+          "to": "CSMT",
+          "departure": "02:40:00",
+          "arrival": "03:55:00",
+          "distance": 53.0,
+          "duration_min": 75.0,
+          "wait_min": 325.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_014",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1450.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "KYN",
+          "departure": "03:35:00",
+          "arrival": "21:15:00",
+          "distance": 1919.0,
+          "duration_min": 1060.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11028",
+          "train_name": "MAS-CSMT MUM",
+          "from": "KYN",
+          "to": "CSMT",
+          "departure": "02:30:00",
+          "arrival": "03:45:00",
+          "distance": 53.0,
+          "duration_min": 75.0,
+          "wait_min": 315.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_015",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1470.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "KYN",
+          "departure": "03:35:00",
+          "arrival": "21:15:00",
+          "distance": 1919.0,
+          "duration_min": 1060.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "KYN",
+          "to": "CSMT",
+          "departure": "02:45:00",
+          "arrival": "04:05:00",
+          "distance": 53.0,
+          "duration_min": 80.0,
+          "wait_min": 330.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_016",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1560.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "KYN",
+          "departure": "03:35:00",
+          "arrival": "21:15:00",
+          "distance": 1919.0,
+          "duration_min": 1060.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11402",
+          "train_name": "NADHIGRAM EX",
+          "from": "KYN",
+          "to": "CSMT",
+          "departure": "04:20:00",
+          "arrival": "05:35:00",
+          "distance": 53.0,
+          "duration_min": 75.0,
+          "wait_min": 425.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_017",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1610.0000000000002,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "KYN",
+          "departure": "03:35:00",
+          "arrival": "21:15:00",
+          "distance": 1919.0,
+          "duration_min": 1060.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12112",
+          "train_name": "AMI-CSMT SF",
+          "from": "KYN",
+          "to": "CSMT",
+          "departure": "05:13:00",
+          "arrival": "06:25:00",
+          "distance": 53.0,
+          "duration_min": 72.0,
+          "wait_min": 478.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_018",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1600.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "KYN",
+          "departure": "03:35:00",
+          "arrival": "21:15:00",
+          "distance": 1919.0,
+          "duration_min": 1060.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12361",
+          "train_name": "ASN CSMT EXP",
+          "from": "KYN",
+          "to": "CSMT",
+          "departure": "05:03:00",
+          "arrival": "06:15:00",
+          "distance": 53.0,
+          "duration_min": 72.0,
+          "wait_min": 468.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_019",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1520.0000000000002,
+        "cost": 1973.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1973.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "KYN",
+          "departure": "03:35:00",
+          "arrival": "21:15:00",
+          "distance": 1919.0,
+          "duration_min": 1060.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12702",
+          "train_name": "HYB-CSMT HUS",
+          "from": "KYN",
+          "to": "CSMT",
+          "departure": "03:43:00",
+          "arrival": "04:55:00",
+          "distance": 54.0,
+          "duration_min": 72.0,
+          "wait_min": 388.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_020",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1545.0,
+        "cost": 1973.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1973.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "BD",
+          "departure": "03:35:00",
+          "arrival": "06:40:00",
+          "distance": 1305.0,
+          "duration_min": 185.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12810",
+          "train_name": "HWH CSMT MAI",
+          "from": "BD",
+          "to": "CSMT",
+          "departure": "17:43:00",
+          "arrival": "05:20:00",
+          "distance": 668.0,
+          "duration_min": 697.0,
+          "wait_min": 663.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_021",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1180.0,
+        "cost": 1973.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1973.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "BD",
+          "departure": "03:35:00",
+          "arrival": "06:40:00",
+          "distance": 1305.0,
+          "duration_min": 185.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12870",
+          "train_name": "HWH-CSTM WEE",
+          "from": "BD",
+          "to": "CSMT",
+          "departure": "11:25:00",
+          "arrival": "23:15:00",
+          "distance": 668.0,
+          "duration_min": 710.0,
+          "wait_min": 285.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_022",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1600.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "KYN",
+          "departure": "03:35:00",
+          "arrival": "21:15:00",
+          "distance": 1919.0,
+          "duration_min": 1060.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15101",
+          "train_name": "JANSADHARAN",
+          "from": "KYN",
+          "to": "CSMT",
+          "departure": "05:03:00",
+          "arrival": "06:15:00",
+          "distance": 53.0,
+          "duration_min": 72.0,
+          "wait_min": 468.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_023",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1505.0000000000002,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "KYN",
+          "departure": "03:35:00",
+          "arrival": "21:15:00",
+          "distance": 1919.0,
+          "duration_min": 1060.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16382",
+          "train_name": "CAPE MUMBAI",
+          "from": "KYN",
+          "to": "CSMT",
+          "departure": "03:25:00",
+          "arrival": "04:40:00",
+          "distance": 53.0,
+          "duration_min": 75.0,
+          "wait_min": 370.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_024",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1535.0000000000002,
+        "cost": 1973.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1973.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "KYN",
+          "departure": "03:35:00",
+          "arrival": "21:15:00",
+          "distance": 1919.0,
+          "duration_min": 1060.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22140",
+          "train_name": "SUR-CSMT EXP",
+          "from": "KYN",
+          "to": "CSMT",
+          "departure": "04:00:00",
+          "arrival": "05:10:00",
+          "distance": 54.0,
+          "duration_min": 70.0,
+          "wait_min": 405.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_025",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1475.0000000000002,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "KYN",
+          "departure": "03:35:00",
+          "arrival": "21:15:00",
+          "distance": 1919.0,
+          "duration_min": 1060.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "51028",
+          "train_name": "FAST PASSENG",
+          "from": "KYN",
+          "to": "CSMT",
+          "departure": "02:55:00",
+          "arrival": "04:10:00",
+          "distance": 53.0,
+          "duration_min": 75.0,
+          "wait_min": 340.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_026",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1475.0000000000002,
+        "cost": 1973.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1973.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "KYN",
+          "departure": "03:35:00",
+          "arrival": "21:15:00",
+          "distance": 1919.0,
+          "duration_min": 1060.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "51030",
+          "train_name": "BJP BB FAST",
+          "from": "KYN",
+          "to": "CSMT",
+          "departure": "02:55:00",
+          "arrival": "04:10:00",
+          "distance": 54.0,
+          "duration_min": 75.0,
+          "wait_min": 340.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_027",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1230.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "KYN",
+          "departure": "03:35:00",
+          "arrival": "21:15:00",
+          "distance": 1919.0,
+          "duration_min": 1060.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "95746",
+          "train_name": "K138",
+          "from": "KYN",
+          "to": "CSMT",
+          "departure": "23:05:00",
+          "arrival": "00:05:00",
+          "distance": 53.0,
+          "duration_min": 60.0,
+          "wait_min": 110.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_028",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1208.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "KYN",
+          "departure": "03:35:00",
+          "arrival": "21:15:00",
+          "distance": 1919.0,
+          "duration_min": 1060.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "96336",
+          "train_name": "A72",
+          "from": "KYN",
+          "to": "CSMT",
+          "departure": "22:14:00",
+          "arrival": "23:43:00",
+          "distance": 53.0,
+          "duration_min": 89.0,
+          "wait_min": 59.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_029",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1612.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "KYN",
+          "departure": "03:35:00",
+          "arrival": "21:15:00",
+          "distance": 1919.0,
+          "duration_min": 1060.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "97000",
+          "train_name": "K2",
+          "from": "KYN",
+          "to": "CSMT",
+          "departure": "04:59:00",
+          "arrival": "06:27:00",
+          "distance": 53.0,
+          "duration_min": 88.0,
+          "wait_min": 464.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_030",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1593.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "KYN",
+          "departure": "03:35:00",
+          "arrival": "21:15:00",
+          "distance": 1919.0,
+          "duration_min": 1060.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "97002",
+          "train_name": "K2",
+          "from": "KYN",
+          "to": "CSMT",
+          "departure": "04:41:00",
+          "arrival": "06:08:00",
+          "distance": 53.0,
+          "duration_min": 87.0,
+          "wait_min": 446.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_031",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1200.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "KYN",
+          "departure": "03:35:00",
+          "arrival": "21:15:00",
+          "distance": 1919.0,
+          "duration_min": 1060.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "97146",
+          "train_name": "K134",
+          "from": "KYN",
+          "to": "CSMT",
+          "departure": "22:06:00",
+          "arrival": "23:35:00",
+          "distance": 53.0,
+          "duration_min": 89.0,
+          "wait_min": 51.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_032",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2080.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "BSL",
+          "departure": "03:35:00",
+          "arrival": "02:50:00",
+          "distance": 1528.0,
+          "duration_min": 1395.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11094",
+          "train_name": "MAHANAGARI E",
+          "from": "BSL",
+          "to": "CSMT",
+          "departure": "06:15:00",
+          "arrival": "14:15:00",
+          "distance": 444.0,
+          "duration_min": 480.0,
+          "wait_min": 205.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_033",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1944.9999999999998,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "NGP",
+          "departure": "03:35:00",
+          "arrival": "09:50:00",
+          "distance": 1131.0,
+          "duration_min": 375.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12140",
+          "train_name": "SEWAGRAM EXP",
+          "from": "NGP",
+          "to": "CSMT",
+          "departure": "21:00:00",
+          "arrival": "12:00:00",
+          "distance": 841.0,
+          "duration_min": 900.0,
+          "wait_min": 670.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_034",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1855.0,
+        "cost": 1973.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1973.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "BSL",
+          "departure": "03:35:00",
+          "arrival": "02:50:00",
+          "distance": 1528.0,
+          "duration_min": 1395.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12262",
+          "train_name": "HWH-CSMT DUR",
+          "from": "BSL",
+          "to": "CSMT",
+          "departure": "03:47:00",
+          "arrival": "10:30:00",
+          "distance": 445.0,
+          "duration_min": 403.0,
+          "wait_min": 57.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_035",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1959.9999999999998,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "BSL",
+          "departure": "03:35:00",
+          "arrival": "02:50:00",
+          "distance": 1528.0,
+          "duration_min": 1395.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12597",
+          "train_name": "GKP-CSMT-WEE",
+          "from": "BSL",
+          "to": "CSMT",
+          "departure": "05:15:00",
+          "arrival": "12:15:00",
+          "distance": 444.0,
+          "duration_min": 420.0,
+          "wait_min": 145.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_036",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2370.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "BSL",
+          "departure": "03:35:00",
+          "arrival": "02:50:00",
+          "distance": 1528.0,
+          "duration_min": 1395.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "51154",
+          "train_name": "BSL MUMBAI P",
+          "from": "BSL",
+          "to": "CSMT",
+          "departure": "07:05:00",
+          "arrival": "19:05:00",
+          "distance": 444.0,
+          "duration_min": 720.0,
+          "wait_min": 255.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_037",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2190.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "BSL",
+          "departure": "03:35:00",
+          "arrival": "02:50:00",
+          "distance": 1528.0,
+          "duration_min": 1395.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "82355",
+          "train_name": "PNBE-CSMT SU",
+          "from": "BSL",
+          "to": "CSMT",
+          "departure": "09:00:00",
+          "arrival": "16:05:00",
+          "distance": 444.0,
+          "duration_min": 425.0,
+          "wait_min": 370.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_038",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1065.0,
+        "cost": 1973.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1973.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "BD",
+          "departure": "03:35:00",
+          "arrival": "06:40:00",
+          "distance": 1305.0,
+          "duration_min": 185.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12860",
+          "train_name": "HWH-CSMT GEE",
+          "from": "BD",
+          "to": "CSMT",
+          "departure": "10:10:00",
+          "arrival": "21:20:00",
+          "distance": 668.0,
+          "duration_min": 670.0,
+          "wait_min": 210.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_039",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1645.0000000000002,
+        "cost": 1973.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1973.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "G",
+          "departure": "03:35:00",
+          "arrival": "11:36:00",
+          "distance": 1001.0,
+          "duration_min": 481.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12106",
+          "train_name": "VIDARBHA EXP",
+          "from": "G",
+          "to": "CSMT",
+          "departure": "14:50:00",
+          "arrival": "07:00:00",
+          "distance": 972.0,
+          "duration_min": 970.0,
+          "wait_min": 194.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_040",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 489.99999999999994,
+        "cost": 1979.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1979.0
+      },
+      "segments": [
+        {
+          "train_no": "12102",
+          "train_name": "JNANESWARISU",
+          "from": "HWH",
+          "to": "IGP",
+          "departure": "22:50:00",
+          "arrival": "02:55:00",
+          "distance": 1842.0,
+          "duration_min": 245.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12106",
+          "train_name": "VIDARBHA EXP",
+          "from": "IGP",
+          "to": "CSMT",
+          "departure": "03:45:00",
+          "arrival": "07:00:00",
+          "distance": 137.0,
+          "duration_min": 195.0,
+          "wait_min": 50.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_041",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 455.0,
+        "cost": 1978.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1978.0
+      },
+      "segments": [
+        {
+          "train_no": "12102",
+          "train_name": "JNANESWARISU",
+          "from": "HWH",
+          "to": "IGP",
+          "departure": "22:50:00",
+          "arrival": "02:55:00",
+          "distance": 1842.0,
+          "duration_min": 245.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12112",
+          "train_name": "AMI-CSMT SF",
+          "from": "IGP",
+          "to": "CSMT",
+          "departure": "03:30:00",
+          "arrival": "06:25:00",
+          "distance": 136.0,
+          "duration_min": 175.0,
+          "wait_min": 35.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_042",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 525.0,
+        "cost": 1979.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1979.0
+      },
+      "segments": [
+        {
+          "train_no": "12102",
+          "train_name": "JNANESWARISU",
+          "from": "HWH",
+          "to": "IGP",
+          "departure": "22:50:00",
+          "arrival": "02:55:00",
+          "distance": 1842.0,
+          "duration_min": 245.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12138",
+          "train_name": "PUNJAB MAIL",
+          "from": "IGP",
+          "to": "CSMT",
+          "departure": "04:30:00",
+          "arrival": "07:35:00",
+          "distance": 137.0,
+          "duration_min": 185.0,
+          "wait_min": 95.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_043",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 790.0000000000001,
+        "cost": 1978.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1978.0
+      },
+      "segments": [
+        {
+          "train_no": "12102",
+          "train_name": "JNANESWARISU",
+          "from": "HWH",
+          "to": "IGP",
+          "departure": "22:50:00",
+          "arrival": "02:55:00",
+          "distance": 1842.0,
+          "duration_min": 245.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12140",
+          "train_name": "SEWAGRAM EXP",
+          "from": "IGP",
+          "to": "CSMT",
+          "departure": "08:55:00",
+          "arrival": "12:00:00",
+          "distance": 136.0,
+          "duration_min": 185.0,
+          "wait_min": 360.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_044",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 805.0000000000001,
+        "cost": 1979.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1979.0
+      },
+      "segments": [
+        {
+          "train_no": "12102",
+          "train_name": "JNANESWARISU",
+          "from": "HWH",
+          "to": "IGP",
+          "departure": "22:50:00",
+          "arrival": "02:55:00",
+          "distance": 1842.0,
+          "duration_min": 245.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12187",
+          "train_name": "MUMBAI GARIB",
+          "from": "IGP",
+          "to": "CSMT",
+          "departure": "09:10:00",
+          "arrival": "12:15:00",
+          "distance": 137.0,
+          "duration_min": 185.0,
+          "wait_min": 375.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_045",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2140.0000000000005,
+        "cost": 1979.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1979.0
+      },
+      "segments": [
+        {
+          "train_no": "12102",
+          "train_name": "JNANESWARISU",
+          "from": "HWH",
+          "to": "BSP",
+          "departure": "22:50:00",
+          "arrival": "09:25:00",
+          "distance": 720.0,
+          "duration_min": 635.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12262",
+          "train_name": "HWH-CSMT DUR",
+          "from": "BSP",
+          "to": "CSMT",
+          "departure": "17:45:00",
+          "arrival": "10:30:00",
+          "distance": 1259.0,
+          "duration_min": 1005.0,
+          "wait_min": 500.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_046",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 555.0,
+        "cost": 1978.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1978.0
+      },
+      "segments": [
+        {
+          "train_no": "12102",
+          "train_name": "JNANESWARISU",
+          "from": "HWH",
+          "to": "IGP",
+          "departure": "22:50:00",
+          "arrival": "02:55:00",
+          "distance": 1842.0,
+          "duration_min": 245.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12290",
+          "train_name": "NGP-CSMT DUR",
+          "from": "IGP",
+          "to": "CSMT",
+          "departure": "05:15:00",
+          "arrival": "08:05:00",
+          "distance": 136.0,
+          "duration_min": 170.0,
+          "wait_min": 140.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_047",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 754.9999999999999,
+        "cost": 1978.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1978.0
+      },
+      "segments": [
+        {
+          "train_no": "12102",
+          "train_name": "JNANESWARISU",
+          "from": "HWH",
+          "to": "IGP",
+          "departure": "22:50:00",
+          "arrival": "02:55:00",
+          "distance": 1842.0,
+          "duration_min": 245.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12321",
+          "train_name": "HWH MUMBAI M",
+          "from": "IGP",
+          "to": "CSMT",
+          "departure": "08:35:00",
+          "arrival": "11:25:00",
+          "distance": 136.0,
+          "duration_min": 170.0,
+          "wait_min": 340.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_048",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 499.99999999999994,
+        "cost": 1979.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1979.0
+      },
+      "segments": [
+        {
+          "train_no": "12102",
+          "train_name": "JNANESWARISU",
+          "from": "HWH",
+          "to": "IGP",
+          "departure": "22:50:00",
+          "arrival": "02:55:00",
+          "distance": 1842.0,
+          "duration_min": 245.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "17058",
+          "train_name": "SC-CSMT DEVA",
+          "from": "IGP",
+          "to": "CSMT",
+          "departure": "04:15:00",
+          "arrival": "07:10:00",
+          "distance": 137.0,
+          "duration_min": 175.0,
+          "wait_min": 80.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_049",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 677.0,
+        "cost": 1979.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1979.0
+      },
+      "segments": [
+        {
+          "train_no": "12102",
+          "train_name": "JNANESWARISU",
+          "from": "HWH",
+          "to": "IGP",
+          "departure": "22:50:00",
+          "arrival": "02:55:00",
+          "distance": 1842.0,
+          "duration_min": 245.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22102",
+          "train_name": "MMR-CSMT RAJ",
+          "from": "IGP",
+          "to": "CSMT",
+          "departure": "07:20:00",
+          "arrival": "10:07:00",
+          "distance": 137.0,
+          "duration_min": 167.0,
+          "wait_min": 265.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_050",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1610.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12129",
+          "train_name": "AZAD HIND EX",
+          "from": "HWH",
+          "to": "MMR",
+          "departure": "04:10:00",
+          "arrival": "00:30:00",
+          "distance": 1712.0,
+          "duration_min": 1220.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12106",
+          "train_name": "VIDARBHA EXP",
+          "from": "MMR",
+          "to": "CSMT",
+          "departure": "01:35:00",
+          "arrival": "07:00:00",
+          "distance": 260.0,
+          "duration_min": 325.0,
+          "wait_min": 65.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_051",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1835.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12129",
+          "train_name": "AZAD HIND EX",
+          "from": "HWH",
+          "to": "MMR",
+          "departure": "04:10:00",
+          "arrival": "00:30:00",
+          "distance": 1712.0,
+          "duration_min": 1220.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12110",
+          "train_name": "PANCHAVTI EX",
+          "from": "MMR",
+          "to": "CSMT",
+          "departure": "06:02:00",
+          "arrival": "10:45:00",
+          "distance": 260.0,
+          "duration_min": 283.0,
+          "wait_min": 332.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_052",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1644.9999999999998,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12129",
+          "train_name": "AZAD HIND EX",
+          "from": "HWH",
+          "to": "MMR",
+          "departure": "04:10:00",
+          "arrival": "00:30:00",
+          "distance": 1712.0,
+          "duration_min": 1220.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12138",
+          "train_name": "PUNJAB MAIL",
+          "from": "MMR",
+          "to": "CSMT",
+          "departure": "01:55:00",
+          "arrival": "07:35:00",
+          "distance": 260.0,
+          "duration_min": 340.0,
+          "wait_min": 85.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_053",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1910.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12129",
+          "train_name": "AZAD HIND EX",
+          "from": "HWH",
+          "to": "MMR",
+          "departure": "04:10:00",
+          "arrival": "00:30:00",
+          "distance": 1712.0,
+          "duration_min": 1220.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12140",
+          "train_name": "SEWAGRAM EXP",
+          "from": "MMR",
+          "to": "CSMT",
+          "departure": "06:25:00",
+          "arrival": "12:00:00",
+          "distance": 260.0,
+          "duration_min": 335.0,
+          "wait_min": 355.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_054",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1924.9999999999998,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12129",
+          "train_name": "AZAD HIND EX",
+          "from": "HWH",
+          "to": "MMR",
+          "departure": "04:10:00",
+          "arrival": "00:30:00",
+          "distance": 1712.0,
+          "duration_min": 1220.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12187",
+          "train_name": "MUMBAI GARIB",
+          "from": "MMR",
+          "to": "CSMT",
+          "departure": "06:40:00",
+          "arrival": "12:15:00",
+          "distance": 260.0,
+          "duration_min": 335.0,
+          "wait_min": 370.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_055",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1875.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12129",
+          "train_name": "AZAD HIND EX",
+          "from": "HWH",
+          "to": "JL",
+          "departure": "04:10:00",
+          "arrival": "02:38:00",
+          "distance": 1552.0,
+          "duration_min": 1348.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12321",
+          "train_name": "HWH MUMBAI M",
+          "from": "JL",
+          "to": "CSMT",
+          "departure": "03:25:00",
+          "arrival": "11:25:00",
+          "distance": 420.0,
+          "duration_min": 480.0,
+          "wait_min": 47.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_056",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1565.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12129",
+          "train_name": "AZAD HIND EX",
+          "from": "HWH",
+          "to": "MMR",
+          "departure": "04:10:00",
+          "arrival": "00:30:00",
+          "distance": 1712.0,
+          "duration_min": 1220.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15101",
+          "train_name": "JANSADHARAN",
+          "from": "MMR",
+          "to": "CSMT",
+          "departure": "01:10:00",
+          "arrival": "06:15:00",
+          "distance": 260.0,
+          "duration_min": 305.0,
+          "wait_min": 40.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_057",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1620.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12129",
+          "train_name": "AZAD HIND EX",
+          "from": "HWH",
+          "to": "MMR",
+          "departure": "04:10:00",
+          "arrival": "00:30:00",
+          "distance": 1712.0,
+          "duration_min": 1220.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "17058",
+          "train_name": "SC-CSMT DEVA",
+          "from": "MMR",
+          "to": "CSMT",
+          "departure": "01:50:00",
+          "arrival": "07:10:00",
+          "distance": 260.0,
+          "duration_min": 320.0,
+          "wait_min": 80.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_058",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1797.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12129",
+          "train_name": "AZAD HIND EX",
+          "from": "HWH",
+          "to": "MMR",
+          "departure": "04:10:00",
+          "arrival": "00:30:00",
+          "distance": 1712.0,
+          "duration_min": 1220.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22102",
+          "train_name": "MMR-CSMT RAJ",
+          "from": "MMR",
+          "to": "CSMT",
+          "departure": "05:25:00",
+          "arrival": "10:07:00",
+          "distance": 260.0,
+          "duration_min": 282.0,
+          "wait_min": 295.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_059",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2044.9999999999998,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12129",
+          "train_name": "AZAD HIND EX",
+          "from": "HWH",
+          "to": "JL",
+          "departure": "04:10:00",
+          "arrival": "02:38:00",
+          "distance": 1552.0,
+          "duration_min": 1348.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11094",
+          "train_name": "MAHANAGARI E",
+          "from": "JL",
+          "to": "CSMT",
+          "departure": "06:40:00",
+          "arrival": "14:15:00",
+          "distance": 420.0,
+          "duration_min": 455.0,
+          "wait_min": 242.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_060",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2335.0000000000005,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12129",
+          "train_name": "AZAD HIND EX",
+          "from": "HWH",
+          "to": "JL",
+          "departure": "04:10:00",
+          "arrival": "02:38:00",
+          "distance": 1552.0,
+          "duration_min": 1348.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "51154",
+          "train_name": "BSL MUMBAI P",
+          "from": "JL",
+          "to": "CSMT",
+          "departure": "07:34:00",
+          "arrival": "19:05:00",
+          "distance": 420.0,
+          "duration_min": 691.0,
+          "wait_min": 296.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_061",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 550.0000000000001,
+        "cost": 1978.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1978.0
+      },
+      "segments": [
+        {
+          "train_no": "12130",
+          "train_name": "HOWRAH PUNE",
+          "from": "HWH",
+          "to": "MMR",
+          "departure": "21:50:00",
+          "arrival": "23:50:00",
+          "distance": 1718.0,
+          "duration_min": 120.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12106",
+          "train_name": "VIDARBHA EXP",
+          "from": "MMR",
+          "to": "CSMT",
+          "departure": "01:35:00",
+          "arrival": "07:00:00",
+          "distance": 260.0,
+          "duration_min": 325.0,
+          "wait_min": 105.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_062",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 850.0,
+        "cost": 1978.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1978.0
+      },
+      "segments": [
+        {
+          "train_no": "12130",
+          "train_name": "HOWRAH PUNE",
+          "from": "HWH",
+          "to": "MMR",
+          "departure": "21:50:00",
+          "arrival": "23:50:00",
+          "distance": 1718.0,
+          "duration_min": 120.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12140",
+          "train_name": "SEWAGRAM EXP",
+          "from": "MMR",
+          "to": "CSMT",
+          "departure": "06:25:00",
+          "arrival": "12:00:00",
+          "distance": 260.0,
+          "duration_min": 335.0,
+          "wait_min": 395.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_063",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 945.0,
+        "cost": 2224.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2224.0
+      },
+      "segments": [
+        {
+          "train_no": "12130",
+          "train_name": "HOWRAH PUNE",
+          "from": "HWH",
+          "to": "PUNE",
+          "departure": "21:50:00",
+          "arrival": "06:50:00",
+          "distance": 2033.0,
+          "duration_min": 540.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11042",
+          "train_name": "MAS-CSMT MUM",
+          "from": "PUNE",
+          "to": "CSMT",
+          "departure": "09:35:00",
+          "arrival": "13:35:00",
+          "distance": 191.0,
+          "duration_min": 240.0,
+          "wait_min": 165.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_064",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 915.0,
+        "cost": 2225.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2225.0
+      },
+      "segments": [
+        {
+          "train_no": "12130",
+          "train_name": "HOWRAH PUNE",
+          "from": "HWH",
+          "to": "PUNE",
+          "departure": "21:50:00",
+          "arrival": "06:50:00",
+          "distance": 2033.0,
+          "duration_min": 540.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "17032",
+          "train_name": "HYB-CSMT MUM",
+          "from": "PUNE",
+          "to": "CSMT",
+          "departure": "09:10:00",
+          "arrival": "13:05:00",
+          "distance": 192.0,
+          "duration_min": 235.0,
+          "wait_min": 140.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_065",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 805.0,
+        "cost": 2223.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2223.0
+      },
+      "segments": [
+        {
+          "train_no": "12130",
+          "train_name": "HOWRAH PUNE",
+          "from": "HWH",
+          "to": "PUNE",
+          "departure": "21:50:00",
+          "arrival": "06:50:00",
+          "distance": 2033.0,
+          "duration_min": 540.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12126",
+          "train_name": "PRAGATI EXPR",
+          "from": "PUNE",
+          "to": "CSMT",
+          "departure": "07:50:00",
+          "arrival": "11:15:00",
+          "distance": 190.0,
+          "duration_min": 205.0,
+          "wait_min": 60.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_066",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1270.0,
+        "cost": 2105.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2105.0
+      },
+      "segments": [
+        {
+          "train_no": "12151",
+          "train_name": "SAMARSATA EX",
+          "from": "HWH",
+          "to": "NK",
+          "departure": "08:25:00",
+          "arrival": "23:45:00",
+          "distance": 1918.0,
+          "duration_min": 920.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11402",
+          "train_name": "NADHIGRAM EX",
+          "from": "NK",
+          "to": "CSMT",
+          "departure": "01:30:00",
+          "arrival": "05:35:00",
+          "distance": 187.0,
+          "duration_min": 245.0,
+          "wait_min": 105.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_067",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1355.0,
+        "cost": 2106.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2106.0
+      },
+      "segments": [
+        {
+          "train_no": "12151",
+          "train_name": "SAMARSATA EX",
+          "from": "HWH",
+          "to": "G",
+          "departure": "08:25:00",
+          "arrival": "12:41:00",
+          "distance": 1134.0,
+          "duration_min": 256.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12106",
+          "train_name": "VIDARBHA EXP",
+          "from": "G",
+          "to": "CSMT",
+          "departure": "14:50:00",
+          "arrival": "07:00:00",
+          "distance": 972.0,
+          "duration_min": 970.0,
+          "wait_min": 129.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_068",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1320.0,
+        "cost": 2105.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2105.0
+      },
+      "segments": [
+        {
+          "train_no": "12151",
+          "train_name": "SAMARSATA EX",
+          "from": "HWH",
+          "to": "NK",
+          "departure": "08:25:00",
+          "arrival": "23:45:00",
+          "distance": 1918.0,
+          "duration_min": 920.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12112",
+          "train_name": "AMI-CSMT SF",
+          "from": "NK",
+          "to": "CSMT",
+          "departure": "01:55:00",
+          "arrival": "06:25:00",
+          "distance": 187.0,
+          "duration_min": 270.0,
+          "wait_min": 130.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_069",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1390.0,
+        "cost": 2105.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2105.0
+      },
+      "segments": [
+        {
+          "train_no": "12151",
+          "train_name": "SAMARSATA EX",
+          "from": "HWH",
+          "to": "NK",
+          "departure": "08:25:00",
+          "arrival": "23:45:00",
+          "distance": 1918.0,
+          "duration_min": 920.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12138",
+          "train_name": "PUNJAB MAIL",
+          "from": "NK",
+          "to": "CSMT",
+          "departure": "02:50:00",
+          "arrival": "07:35:00",
+          "distance": 187.0,
+          "duration_min": 285.0,
+          "wait_min": 185.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_070",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1655.0,
+        "cost": 2105.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2105.0
+      },
+      "segments": [
+        {
+          "train_no": "12151",
+          "train_name": "SAMARSATA EX",
+          "from": "HWH",
+          "to": "NGP",
+          "departure": "08:25:00",
+          "arrival": "10:50:00",
+          "distance": 1264.0,
+          "duration_min": 145.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12140",
+          "train_name": "SEWAGRAM EXP",
+          "from": "NGP",
+          "to": "CSMT",
+          "departure": "21:00:00",
+          "arrival": "12:00:00",
+          "distance": 841.0,
+          "duration_min": 900.0,
+          "wait_min": 610.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_071",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1620.0,
+        "cost": 2105.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2105.0
+      },
+      "segments": [
+        {
+          "train_no": "12151",
+          "train_name": "SAMARSATA EX",
+          "from": "HWH",
+          "to": "NK",
+          "departure": "08:25:00",
+          "arrival": "23:45:00",
+          "distance": 1918.0,
+          "duration_min": 920.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12321",
+          "train_name": "HWH MUMBAI M",
+          "from": "NK",
+          "to": "CSMT",
+          "departure": "07:00:00",
+          "arrival": "11:25:00",
+          "distance": 187.0,
+          "duration_min": 265.0,
+          "wait_min": 435.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_072",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2695.0000000000005,
+        "cost": 2106.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2106.0
+      },
+      "segments": [
+        {
+          "train_no": "12151",
+          "train_name": "SAMARSATA EX",
+          "from": "HWH",
+          "to": "BD",
+          "departure": "08:25:00",
+          "arrival": "07:10:00",
+          "distance": 1438.0,
+          "duration_min": 1365.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12810",
+          "train_name": "HWH CSMT MAI",
+          "from": "BD",
+          "to": "CSMT",
+          "departure": "17:43:00",
+          "arrival": "05:20:00",
+          "distance": 668.0,
+          "duration_min": 697.0,
+          "wait_min": 633.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_073",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1310.0000000000002,
+        "cost": 2105.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2105.0
+      },
+      "segments": [
+        {
+          "train_no": "12151",
+          "train_name": "SAMARSATA EX",
+          "from": "HWH",
+          "to": "NK",
+          "departure": "08:25:00",
+          "arrival": "23:45:00",
+          "distance": 1918.0,
+          "duration_min": 920.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15101",
+          "train_name": "JANSADHARAN",
+          "from": "NK",
+          "to": "CSMT",
+          "departure": "02:10:00",
+          "arrival": "06:15:00",
+          "distance": 187.0,
+          "duration_min": 245.0,
+          "wait_min": 145.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_074",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1365.0,
+        "cost": 2105.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2105.0
+      },
+      "segments": [
+        {
+          "train_no": "12151",
+          "train_name": "SAMARSATA EX",
+          "from": "HWH",
+          "to": "NK",
+          "departure": "08:25:00",
+          "arrival": "23:45:00",
+          "distance": 1918.0,
+          "duration_min": 920.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "17058",
+          "train_name": "SC-CSMT DEVA",
+          "from": "NK",
+          "to": "CSMT",
+          "departure": "03:00:00",
+          "arrival": "07:10:00",
+          "distance": 187.0,
+          "duration_min": 250.0,
+          "wait_min": 195.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_075",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1542.0000000000002,
+        "cost": 2105.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2105.0
+      },
+      "segments": [
+        {
+          "train_no": "12151",
+          "train_name": "SAMARSATA EX",
+          "from": "HWH",
+          "to": "NK",
+          "departure": "08:25:00",
+          "arrival": "23:45:00",
+          "distance": 1918.0,
+          "duration_min": 920.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22102",
+          "train_name": "MMR-CSMT RAJ",
+          "from": "NK",
+          "to": "CSMT",
+          "departure": "06:15:00",
+          "arrival": "10:07:00",
+          "distance": 187.0,
+          "duration_min": 232.0,
+          "wait_min": 390.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_076",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1059.9999999999998,
+        "cost": 2165.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2165.0
+      },
+      "segments": [
+        {
+          "train_no": "12175",
+          "train_name": "CHAMBAL EXP",
+          "from": "HWH",
+          "to": "GAYA",
+          "departure": "17:45:00",
+          "arrival": "01:45:00",
+          "distance": 456.0,
+          "duration_min": 480.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12321",
+          "train_name": "HWH MUMBAI M",
+          "from": "GAYA",
+          "to": "CSMT",
+          "departure": "05:24:00",
+          "arrival": "11:25:00",
+          "distance": 1709.0,
+          "duration_min": 361.0,
+          "wait_min": 219.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_077",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2190.0,
+        "cost": 2164.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2164.0
+      },
+      "segments": [
+        {
+          "train_no": "12175",
+          "train_name": "CHAMBAL EXP",
+          "from": "HWH",
+          "to": "MZP",
+          "departure": "17:45:00",
+          "arrival": "06:08:00",
+          "distance": 723.0,
+          "duration_min": 743.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12361",
+          "train_name": "ASN CSMT EXP",
+          "from": "MZP",
+          "to": "CSMT",
+          "departure": "06:40:00",
+          "arrival": "06:15:00",
+          "distance": 1441.0,
+          "duration_min": 1415.0,
+          "wait_min": 32.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_078",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 620.0,
+        "cost": 2841.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2841.0
+      },
+      "segments": [
+        {
+          "train_no": "12177",
+          "train_name": "CHAMBAL EXP",
+          "from": "HWH",
+          "to": "MTJ",
+          "departure": "17:45:00",
+          "arrival": "20:20:00",
+          "distance": 1451.0,
+          "duration_min": 155.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "MTJ",
+          "to": "CSMT",
+          "departure": "23:40:00",
+          "arrival": "04:05:00",
+          "distance": 1390.0,
+          "duration_min": 265.0,
+          "wait_min": 200.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_079",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2460.0,
+        "cost": 2370.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2370.0
+      },
+      "segments": [
+        {
+          "train_no": "12245",
+          "train_name": "HWH - YPR WE",
+          "from": "HWH",
+          "to": "BZA",
+          "departure": "10:55:00",
+          "arrival": "04:30:00",
+          "distance": 1221.0,
+          "duration_min": 1055.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11020",
+          "train_name": "KONARK EXPRE",
+          "from": "BZA",
+          "to": "CSMT",
+          "departure": "05:20:00",
+          "arrival": "03:55:00",
+          "distance": 1149.0,
+          "duration_min": 1355.0,
+          "wait_min": 50.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_080",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1780.0,
+        "cost": 2997.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2997.0
+      },
+      "segments": [
+        {
+          "train_no": "12253",
+          "train_name": "YPR-BGP ANGA",
+          "from": "HWH",
+          "to": "KPD",
+          "departure": "23:00:00",
+          "arrival": "17:25:00",
+          "distance": 1738.0,
+          "duration_min": 1105.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16382",
+          "train_name": "CAPE MUMBAI",
+          "from": "KPD",
+          "to": "CSMT",
+          "departure": "00:50:00",
+          "arrival": "04:40:00",
+          "distance": 1259.0,
+          "duration_min": 230.0,
+          "wait_min": 445.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_081",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 945.0,
+        "cost": 2165.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2165.0
+      },
+      "segments": [
+        {
+          "train_no": "12311",
+          "train_name": "HWH DLIKLK M",
+          "from": "HWH",
+          "to": "HZD",
+          "departure": "19:40:00",
+          "arrival": "00:53:00",
+          "distance": 332.0,
+          "duration_min": 313.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12321",
+          "train_name": "HWH MUMBAI M",
+          "from": "HZD",
+          "to": "CSMT",
+          "departure": "03:28:00",
+          "arrival": "11:25:00",
+          "distance": 1833.0,
+          "duration_min": 477.0,
+          "wait_min": 155.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_082",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2524.9999999999995,
+        "cost": 2165.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2165.0
+      },
+      "segments": [
+        {
+          "train_no": "12321",
+          "train_name": "HWH MUMBAI M",
+          "from": "HWH",
+          "to": "STA",
+          "departure": "22:00:00",
+          "arrival": "14:50:00",
+          "distance": 980.0,
+          "duration_min": 1010.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "82355",
+          "train_name": "PNBE-CSMT SU",
+          "from": "STA",
+          "to": "CSMT",
+          "departure": "22:00:00",
+          "arrival": "16:05:00",
+          "distance": 1185.0,
+          "duration_min": 1085.0,
+          "wait_min": 430.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_083",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2415.0,
+        "cost": 2165.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2165.0
+      },
+      "segments": [
+        {
+          "train_no": "12321",
+          "train_name": "HWH MUMBAI M",
+          "from": "HWH",
+          "to": "KTE",
+          "departure": "22:00:00",
+          "arrival": "16:15:00",
+          "distance": 1078.0,
+          "duration_min": 1095.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11094",
+          "train_name": "MAHANAGARI E",
+          "from": "KTE",
+          "to": "CSMT",
+          "departure": "19:50:00",
+          "arrival": "14:15:00",
+          "distance": 1087.0,
+          "duration_min": 1105.0,
+          "wait_min": 215.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_084",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1449.9999999999998,
+        "cost": 2242.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2242.0
+      },
+      "segments": [
+        {
+          "train_no": "12019",
+          "train_name": "HOWRAH RANCH",
+          "from": "HWH",
+          "to": "ASN",
+          "departure": "06:05:00",
+          "arrival": "08:22:00",
+          "distance": 199.0,
+          "duration_min": 137.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12361",
+          "train_name": "ASN CSMT EXP",
+          "from": "ASN",
+          "to": "CSMT",
+          "departure": "19:45:00",
+          "arrival": "06:15:00",
+          "distance": 2043.0,
+          "duration_min": 630.0,
+          "wait_min": 683.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_085",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1965.0,
+        "cost": 2243.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2243.0
+      },
+      "segments": [
+        {
+          "train_no": "12020",
+          "train_name": "RNC HWH SHAT",
+          "from": "HWH",
+          "to": "ASN",
+          "departure": "21:30:00",
+          "arrival": "18:40:00",
+          "distance": 200.0,
+          "duration_min": 1270.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12361",
+          "train_name": "ASN CSMT EXP",
+          "from": "ASN",
+          "to": "CSMT",
+          "departure": "19:45:00",
+          "arrival": "06:15:00",
+          "distance": 2043.0,
+          "duration_min": 630.0,
+          "wait_min": 65.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_086",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2275.0000000000005,
+        "cost": 2166.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2166.0
+      },
+      "segments": [
+        {
+          "train_no": "12020",
+          "train_name": "RNC HWH SHAT",
+          "from": "HWH",
+          "to": "DGR",
+          "departure": "21:30:00",
+          "arrival": "19:14:00",
+          "distance": 158.0,
+          "duration_min": 1304.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12321",
+          "train_name": "HWH MUMBAI M",
+          "from": "DGR",
+          "to": "CSMT",
+          "departure": "00:07:00",
+          "arrival": "11:25:00",
+          "distance": 2008.0,
+          "duration_min": 678.0,
+          "wait_min": 293.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_087",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1950.0,
+        "cost": 1978.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1978.0
+      },
+      "segments": [
+        {
+          "train_no": "12022",
+          "train_name": "BARABIL-HOWR",
+          "from": "HWH",
+          "to": "TATA",
+          "departure": "20:50:00",
+          "arrival": "16:45:00",
+          "distance": 253.0,
+          "duration_min": 1195.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12810",
+          "train_name": "HWH CSMT MAI",
+          "from": "TATA",
+          "to": "CSMT",
+          "departure": "23:52:00",
+          "arrival": "05:20:00",
+          "distance": 1725.0,
+          "duration_min": 328.0,
+          "wait_min": 427.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_088",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1280.0000000000002,
+        "cost": 2165.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2165.0
+      },
+      "segments": [
+        {
+          "train_no": "12023",
+          "train_name": "HOWRAH PATNA",
+          "from": "HWH",
+          "to": "DGR",
+          "departure": "14:05:00",
+          "arrival": "15:58:00",
+          "distance": 157.0,
+          "duration_min": 113.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12321",
+          "train_name": "HWH MUMBAI M",
+          "from": "DGR",
+          "to": "CSMT",
+          "departure": "00:07:00",
+          "arrival": "11:25:00",
+          "distance": 2008.0,
+          "duration_min": 678.0,
+          "wait_min": 489.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_089",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1710.0,
+        "cost": 1972.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1972.0
+      },
+      "segments": [
+        {
+          "train_no": "12101",
+          "train_name": "JNANESWARI D",
+          "from": "HWH",
+          "to": "NGP",
+          "departure": "03:35:00",
+          "arrival": "09:50:00",
+          "distance": 1131.0,
+          "duration_min": 375.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12290",
+          "train_name": "NGP-CSMT DUR",
+          "from": "NGP",
+          "to": "CSMT",
+          "departure": "20:40:00",
+          "arrival": "08:05:00",
+          "distance": 841.0,
+          "duration_min": 685.0,
+          "wait_min": 650.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_090",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 924.9999999999999,
+        "cost": 1978.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1978.0
+      },
+      "segments": [
+        {
+          "train_no": "12102",
+          "train_name": "JNANESWARISU",
+          "from": "HWH",
+          "to": "IGP",
+          "departure": "22:50:00",
+          "arrival": "02:55:00",
+          "distance": 1842.0,
+          "duration_min": 245.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11094",
+          "train_name": "MAHANAGARI E",
+          "from": "IGP",
+          "to": "CSMT",
+          "departure": "11:05:00",
+          "arrival": "14:15:00",
+          "distance": 136.0,
+          "duration_min": 190.0,
+          "wait_min": 490.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_091",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 780.0,
+        "cost": 1978.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1978.0
+      },
+      "segments": [
+        {
+          "train_no": "12102",
+          "train_name": "JNANESWARISU",
+          "from": "HWH",
+          "to": "KYN",
+          "departure": "22:50:00",
+          "arrival": "04:50:00",
+          "distance": 1925.0,
+          "duration_min": 360.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11024",
+          "train_name": "SAHYADRI EXP",
+          "from": "KYN",
+          "to": "CSMT",
+          "departure": "10:35:00",
+          "arrival": "11:50:00",
+          "distance": 53.0,
+          "duration_min": 75.0,
+          "wait_min": 345.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_092",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 885.0,
+        "cost": 1978.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1978.0
+      },
+      "segments": [
+        {
+          "train_no": "12102",
+          "train_name": "JNANESWARISU",
+          "from": "HWH",
+          "to": "KYN",
+          "departure": "22:50:00",
+          "arrival": "04:50:00",
+          "distance": 1925.0,
+          "duration_min": 360.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11042",
+          "train_name": "MAS-CSMT MUM",
+          "from": "KYN",
+          "to": "CSMT",
+          "departure": "12:20:00",
+          "arrival": "13:35:00",
+          "distance": 53.0,
+          "duration_min": 75.0,
+          "wait_min": 450.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_093",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2200.0,
+        "cost": 1979.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1979.0
+      },
+      "segments": [
+        {
+          "train_no": "12130",
+          "train_name": "HOWRAH PUNE",
+          "from": "HWH",
+          "to": "TATA",
+          "departure": "21:50:00",
+          "arrival": "01:25:00",
+          "distance": 254.0,
+          "duration_min": 215.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12262",
+          "train_name": "HWH-CSMT DUR",
+          "from": "TATA",
+          "to": "CSMT",
+          "departure": "11:48:00",
+          "arrival": "10:30:00",
+          "distance": 1725.0,
+          "duration_min": 1362.0,
+          "wait_min": 623.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_094",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2055.0,
+        "cost": 1978.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1978.0
+      },
+      "segments": [
+        {
+          "train_no": "12130",
+          "train_name": "HOWRAH PUNE",
+          "from": "HWH",
+          "to": "NGP",
+          "departure": "21:50:00",
+          "arrival": "15:40:00",
+          "distance": 1137.0,
+          "duration_min": 1070.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12290",
+          "train_name": "NGP-CSMT DUR",
+          "from": "NGP",
+          "to": "CSMT",
+          "departure": "20:40:00",
+          "arrival": "08:05:00",
+          "distance": 841.0,
+          "duration_min": 685.0,
+          "wait_min": 300.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_095",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 985.0000000000001,
+        "cost": 1978.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1978.0
+      },
+      "segments": [
+        {
+          "train_no": "12130",
+          "train_name": "HOWRAH PUNE",
+          "from": "HWH",
+          "to": "MMR",
+          "departure": "21:50:00",
+          "arrival": "23:50:00",
+          "distance": 1718.0,
+          "duration_min": 120.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11094",
+          "train_name": "MAHANAGARI E",
+          "from": "MMR",
+          "to": "CSMT",
+          "departure": "08:40:00",
+          "arrival": "14:15:00",
+          "distance": 260.0,
+          "duration_min": 335.0,
+          "wait_min": 530.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_096",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 465.0,
+        "cost": 1978.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1978.0
+      },
+      "segments": [
+        {
+          "train_no": "12130",
+          "train_name": "HOWRAH PUNE",
+          "from": "HWH",
+          "to": "MMR",
+          "departure": "21:50:00",
+          "arrival": "23:50:00",
+          "distance": 1718.0,
+          "duration_min": 120.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11402",
+          "train_name": "NADHIGRAM EX",
+          "from": "MMR",
+          "to": "CSMT",
+          "departure": "00:30:00",
+          "arrival": "05:35:00",
+          "distance": 260.0,
+          "duration_min": 305.0,
+          "wait_min": 40.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_097",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 775.0000000000001,
+        "cost": 1978.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1978.0
+      },
+      "segments": [
+        {
+          "train_no": "12130",
+          "train_name": "HOWRAH PUNE",
+          "from": "HWH",
+          "to": "MMR",
+          "departure": "21:50:00",
+          "arrival": "23:50:00",
+          "distance": 1718.0,
+          "duration_min": 120.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12110",
+          "train_name": "PANCHAVTI EX",
+          "from": "MMR",
+          "to": "CSMT",
+          "departure": "06:02:00",
+          "arrival": "10:45:00",
+          "distance": 260.0,
+          "duration_min": 283.0,
+          "wait_min": 372.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_098",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 585.0,
+        "cost": 1978.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1978.0
+      },
+      "segments": [
+        {
+          "train_no": "12130",
+          "train_name": "HOWRAH PUNE",
+          "from": "HWH",
+          "to": "MMR",
+          "departure": "21:50:00",
+          "arrival": "23:50:00",
+          "distance": 1718.0,
+          "duration_min": 120.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12138",
+          "train_name": "PUNJAB MAIL",
+          "from": "MMR",
+          "to": "CSMT",
+          "departure": "01:55:00",
+          "arrival": "07:35:00",
+          "distance": 260.0,
+          "duration_min": 340.0,
+          "wait_min": 125.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_099",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1345.0,
+        "cost": 2224.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2224.0
+      },
+      "segments": [
+        {
+          "train_no": "12130",
+          "train_name": "HOWRAH PUNE",
+          "from": "HWH",
+          "to": "DD",
+          "departure": "21:50:00",
+          "arrival": "05:05:00",
+          "distance": 1955.0,
+          "duration_min": 435.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11302",
+          "train_name": "UDYAN EXP",
+          "from": "DD",
+          "to": "CSMT",
+          "departure": "14:25:00",
+          "arrival": "20:15:00",
+          "distance": 269.0,
+          "duration_min": 350.0,
+          "wait_min": 560.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_100",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1287.0,
+        "cost": 2224.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2224.0
+      },
+      "segments": [
+        {
+          "train_no": "12130",
+          "train_name": "HOWRAH PUNE",
+          "from": "HWH",
+          "to": "PUNE",
+          "departure": "21:50:00",
+          "arrival": "06:50:00",
+          "distance": 2033.0,
+          "duration_min": 540.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11008",
+          "train_name": "DECCAN EXPRE",
+          "from": "PUNE",
+          "to": "CSMT",
+          "departure": "15:15:00",
+          "arrival": "19:17:00",
+          "distance": 191.0,
+          "duration_min": 242.0,
+          "wait_min": 505.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_101",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1335.0,
+        "cost": 2224.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2224.0
+      },
+      "segments": [
+        {
+          "train_no": "12130",
+          "train_name": "HOWRAH PUNE",
+          "from": "HWH",
+          "to": "PUNE",
+          "departure": "21:50:00",
+          "arrival": "06:50:00",
+          "distance": 2033.0,
+          "duration_min": 540.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11030",
+          "train_name": "KOYNA EXPRES",
+          "from": "PUNE",
+          "to": "CSMT",
+          "departure": "15:45:00",
+          "arrival": "20:05:00",
+          "distance": 191.0,
+          "duration_min": 260.0,
+          "wait_min": 535.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_102",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1180.0,
+        "cost": 2106.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2106.0
+      },
+      "segments": [
+        {
+          "train_no": "12151",
+          "train_name": "SAMARSATA EX",
+          "from": "HWH",
+          "to": "IGP",
+          "departure": "08:25:00",
+          "arrival": "22:55:00",
+          "distance": 1969.0,
+          "duration_min": 870.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "IGP",
+          "to": "CSMT",
+          "departure": "00:45:00",
+          "arrival": "04:05:00",
+          "distance": 137.0,
+          "duration_min": 200.0,
+          "wait_min": 110.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_103",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1670.0000000000002,
+        "cost": 2105.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2105.0
+      },
+      "segments": [
+        {
+          "train_no": "12151",
+          "train_name": "SAMARSATA EX",
+          "from": "HWH",
+          "to": "NK",
+          "departure": "08:25:00",
+          "arrival": "23:45:00",
+          "distance": 1918.0,
+          "duration_min": 920.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12187",
+          "train_name": "MUMBAI GARIB",
+          "from": "NK",
+          "to": "CSMT",
+          "departure": "07:50:00",
+          "arrival": "12:15:00",
+          "distance": 187.0,
+          "duration_min": 265.0,
+          "wait_min": 485.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_104",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1565.0000000000002,
+        "cost": 2106.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2106.0
+      },
+      "segments": [
+        {
+          "train_no": "12151",
+          "train_name": "SAMARSATA EX",
+          "from": "HWH",
+          "to": "IGP",
+          "departure": "08:25:00",
+          "arrival": "22:55:00",
+          "distance": 1969.0,
+          "duration_min": 870.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12262",
+          "train_name": "HWH-CSMT DUR",
+          "from": "IGP",
+          "to": "CSMT",
+          "departure": "07:45:00",
+          "arrival": "10:30:00",
+          "distance": 137.0,
+          "duration_min": 165.0,
+          "wait_min": 530.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_105",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1420.0,
+        "cost": 2105.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2105.0
+      },
+      "segments": [
+        {
+          "train_no": "12151",
+          "train_name": "SAMARSATA EX",
+          "from": "HWH",
+          "to": "NGP",
+          "departure": "08:25:00",
+          "arrival": "10:50:00",
+          "distance": 1264.0,
+          "duration_min": 145.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12290",
+          "train_name": "NGP-CSMT DUR",
+          "from": "NGP",
+          "to": "CSMT",
+          "departure": "20:40:00",
+          "arrival": "08:05:00",
+          "distance": 841.0,
+          "duration_min": 685.0,
+          "wait_min": 590.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_106",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1790.0000000000002,
+        "cost": 2105.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2105.0
+      },
+      "segments": [
+        {
+          "train_no": "12151",
+          "train_name": "SAMARSATA EX",
+          "from": "HWH",
+          "to": "NK",
+          "departure": "08:25:00",
+          "arrival": "23:45:00",
+          "distance": 1918.0,
+          "duration_min": 920.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11094",
+          "train_name": "MAHANAGARI E",
+          "from": "NK",
+          "to": "CSMT",
+          "departure": "09:40:00",
+          "arrival": "14:15:00",
+          "distance": 187.0,
+          "duration_min": 275.0,
+          "wait_min": 595.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_107",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2235.0,
+        "cost": 2111.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2111.0
+      },
+      "segments": [
+        {
+          "train_no": "12152",
+          "train_name": "HWH-LTT SAMR",
+          "from": "HWH",
+          "to": "NGP",
+          "departure": "21:15:00",
+          "arrival": "17:50:00",
+          "distance": 1269.0,
+          "duration_min": 1235.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12262",
+          "train_name": "HWH-CSMT DUR",
+          "from": "NGP",
+          "to": "CSMT",
+          "departure": "23:25:00",
+          "arrival": "10:30:00",
+          "distance": 842.0,
+          "duration_min": 665.0,
+          "wait_min": 335.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_108",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 885.0,
+        "cost": 2111.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2111.0
+      },
+      "segments": [
+        {
+          "train_no": "12152",
+          "train_name": "HWH-LTT SAMR",
+          "from": "HWH",
+          "to": "AK",
+          "departure": "21:15:00",
+          "arrival": "21:40:00",
+          "distance": 1522.0,
+          "duration_min": 25.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12140",
+          "train_name": "SEWAGRAM EXP",
+          "from": "AK",
+          "to": "CSMT",
+          "departure": "01:25:00",
+          "arrival": "12:00:00",
+          "distance": 589.0,
+          "duration_min": 635.0,
+          "wait_min": 225.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_109",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2089.9999999999995,
+        "cost": 2110.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2110.0
+      },
+      "segments": [
+        {
+          "train_no": "12152",
+          "train_name": "HWH-LTT SAMR",
+          "from": "HWH",
+          "to": "NGP",
+          "departure": "21:15:00",
+          "arrival": "17:50:00",
+          "distance": 1269.0,
+          "duration_min": 1235.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12290",
+          "train_name": "NGP-CSMT DUR",
+          "from": "NGP",
+          "to": "CSMT",
+          "departure": "20:40:00",
+          "arrival": "08:05:00",
+          "distance": 841.0,
+          "duration_min": 685.0,
+          "wait_min": 170.0
+        }
+      ]
+    }
+  ]
+}

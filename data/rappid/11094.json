@@ -1,0 +1,291 @@
+{
+  "fetched_at": "2026-01-24T09:14:55.261780",
+  "train_no": "11094",
+  "response": {
+    "success": true,
+    "train_name": "11094 Mahanagari Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 29hr 2min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Varanasi Jn",
+        "distance": "-",
+        "timing": "11:20",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kashi",
+        "distance": "5 km",
+        "timing": "11:35",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chunar",
+        "distance": "44 km",
+        "timing": "12:30",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mirzapur",
+        "distance": "75 km",
+        "timing": "13:00",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vindhyachal",
+        "distance": "83 km",
+        "timing": "13:13",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Prayagrajcheoki",
+        "distance": "156 km",
+        "timing": "15:1015:10",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Manikpur",
+        "distance": "248 km",
+        "timing": "17:0017:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Satna",
+        "distance": "326 km",
+        "timing": "18:2018:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Maihar",
+        "distance": "361 km",
+        "timing": "18:4418:44",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katni",
+        "distance": "424 km",
+        "timing": "19:5019:50",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jabalpur",
+        "distance": "515 km",
+        "timing": "21:2521:25",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shridham",
+        "distance": "568 km",
+        "timing": "22:0622:06",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Narsinghpur",
+        "distance": "599 km",
+        "timing": "22:4022:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pipariya",
+        "distance": "693 km",
+        "timing": "23:4023:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Itarsi Jn",
+        "distance": "759 km",
+        "timing": "01:3001:30",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khandwa",
+        "distance": "943 km",
+        "timing": "03:5803:58",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nepanagar",
+        "distance": "986 km",
+        "timing": "04:3704:37",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Burhanpur",
+        "distance": "1012 km",
+        "timing": "05:0005:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raver",
+        "distance": "1032 km",
+        "timing": "05:2005:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhusaval Jn",
+        "distance": "1066 km",
+        "timing": "06:1506:15",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jalgaon Jn",
+        "distance": "1090 km",
+        "timing": "06:4006:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pachora Jn",
+        "distance": "1138 km",
+        "timing": "07:1007:10",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chalisgaon Jn",
+        "distance": "1183 km",
+        "timing": "07:5307:53",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nandgaon",
+        "distance": "1225 km",
+        "timing": "08:1608:16",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Manmad Jn",
+        "distance": "1250 km",
+        "timing": "09:0009:00",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nashik Road",
+        "distance": "1323 km",
+        "timing": "10:0010:00",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Igatpuri",
+        "distance": "1374 km",
+        "timing": "11:0511:05",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalyan Jn",
+        "distance": "1456 km",
+        "timing": "13:0013:00",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thane",
+        "distance": "1474 km",
+        "timing": "13:2013:20",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dadar",
+        "distance": "1498 km",
+        "timing": "13:4513:45",
+        "delay": "On Time",
+        "platform": "12",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "C Shivaji Mah T",
+        "distance": "1507 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "18",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

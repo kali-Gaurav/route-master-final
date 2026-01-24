@@ -1,0 +1,120 @@
+{
+  "fetched_at": "2026-01-24T09:15:04.435479",
+  "train_no": "12239",
+  "response": {
+    "success": true,
+    "train_name": "12239 Hisar Duronto Running Status",
+    "message": "",
+    "updated_time": "Updated 52min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Mumbai Central",
+        "distance": "-",
+        "timing": "23:1023:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vadodara Jn",
+        "distance": "392 km",
+        "timing": "03:3603:36",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "653 km",
+        "timing": "07:0507:05",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "920 km",
+        "timing": "10:0510:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sawai Madhopur",
+        "distance": "1027 km",
+        "timing": "11:5011:50",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jaipur",
+        "distance": "1159 km",
+        "timing": "13:5013:50",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ringas Jn",
+        "distance": "1219 km",
+        "timing": "14:3814:38",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sikar Jn",
+        "distance": "1269 km",
+        "timing": "15:4015:40",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jhunjhunun",
+        "distance": "1333 km",
+        "timing": "16:3516:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Loharu",
+        "distance": "1391 km",
+        "timing": "17:3817:38",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sadulpur Jn",
+        "distance": "1441 km",
+        "timing": "19:0019:00",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "25min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hisar",
+        "distance": "1511 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

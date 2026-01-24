@@ -1,0 +1,228 @@
+{
+  "fetched_at": "2026-01-24T09:15:03.636995",
+  "train_no": "12423",
+  "response": {
+    "success": true,
+    "train_name": "12423 Rajdhani Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 8min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Dibrugarh",
+        "distance": "9 km",
+        "timing": "20:5020:50",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Tinsukia Jn",
+        "distance": "45 km",
+        "timing": "21:4521:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mariani Jn",
+        "distance": "202 km",
+        "timing": "23:5823:58",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dimapur",
+        "distance": "310 km",
+        "timing": "02:0702:07",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Diphu",
+        "distance": "347 km",
+        "timing": "02:4402:44",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lumding Jn",
+        "distance": "379 km",
+        "timing": "03:2003:20",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chaparmukh Jn",
+        "distance": "469 km",
+        "timing": "04:3804:38",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Guwahati",
+        "distance": "560 km",
+        "timing": "06:3506:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rangiya Jn",
+        "distance": "607 km",
+        "timing": "07:3007:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Bongaigaon",
+        "distance": "717 km",
+        "timing": "09:1009:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kokrajhar",
+        "distance": "744 km",
+        "timing": "09:5209:52",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Cooch Behar",
+        "distance": "842 km",
+        "timing": "11:0011:00",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Jalpaiguri",
+        "distance": "968 km",
+        "timing": "13:1513:15",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kishanganj",
+        "distance": "1055 km",
+        "timing": "14:2214:22",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katihar Jn",
+        "distance": "1151 km",
+        "timing": "16:3016:30",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Naugachia",
+        "distance": "1208 km",
+        "timing": "17:1017:10",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mansi Jn",
+        "distance": "1266 km",
+        "timing": "18:0518:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barauni Jn",
+        "distance": "1331 km",
+        "timing": "19:1519:15",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patliputra",
+        "distance": "1439 km",
+        "timing": "21:4021:40",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Danapur",
+        "distance": "1445 km",
+        "timing": "21:5821:58",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dd Upadhyaya Jn",
+        "distance": "1647 km",
+        "timing": "01:0001:00",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Subedarganj",
+        "distance": "1797 km",
+        "timing": "03:0003:00",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanpur Central",
+        "distance": "1983 km",
+        "timing": "05:0005:00",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "2421 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "15",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

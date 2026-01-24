@@ -1,0 +1,120 @@
+{
+  "fetched_at": "2026-01-24T09:15:22.249557",
+  "train_no": "56384",
+  "response": {
+    "success": true,
+    "train_name": "56384 Allp Ers Passenger Running Status",
+    "message": "",
+    "updated_time": "Updated 3hr 54min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Alleppey",
+        "distance": "-",
+        "timing": "17:5517:55",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tumboli",
+        "distance": "4 km",
+        "timing": "18:0118:01",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalavur Halt",
+        "distance": "9 km",
+        "timing": "18:0618:06",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mararikulam",
+        "distance": "12 km",
+        "timing": "18:1118:11",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tiruvizha",
+        "distance": "17 km",
+        "timing": "18:1618:16",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Cherthala",
+        "distance": "23 km",
+        "timing": "18:2118:21",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vayalar",
+        "distance": "30 km",
+        "timing": "18:2718:27",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Turavur",
+        "distance": "33 km",
+        "timing": "18:3318:33",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ezhuppunna",
+        "distance": "38 km",
+        "timing": "18:4118:41",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Aroor Halt",
+        "distance": "44 km",
+        "timing": "18:4718:47",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kumbalam",
+        "distance": "49 km",
+        "timing": "18:5618:56",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ernakulam Jn",
+        "distance": "57 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

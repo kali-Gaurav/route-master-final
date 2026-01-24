@@ -1,0 +1,111 @@
+{
+  "fetched_at": "2026-01-24T09:15:06.698425",
+  "train_no": "22413",
+  "response": {
+    "success": true,
+    "train_name": "22413 Mao Nzm Rajdhani Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 5min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Madgaon",
+        "distance": "-",
+        "timing": "10:0010:00",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thivim",
+        "distance": "65 km",
+        "timing": "10:4610:46",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kudal",
+        "distance": "140 km",
+        "timing": "11:3011:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratnagiri",
+        "distance": "335 km",
+        "timing": "14:0014:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Panvel",
+        "distance": "697 km",
+        "timing": "17:5517:55",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vasai Road",
+        "distance": "764 km",
+        "timing": "19:3519:35",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Surat",
+        "distance": "979 km",
+        "timing": "22:1822:18",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vadodara Jn",
+        "distance": "1108 km",
+        "timing": "23:5923:59",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "8min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "1370 km",
+        "timing": "03:5003:50",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "1636 km",
+        "timing": "06:5506:55",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "H Nizamuddin",
+        "distance": "2094 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

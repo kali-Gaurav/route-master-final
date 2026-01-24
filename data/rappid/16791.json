@@ -1,0 +1,372 @@
+{
+  "fetched_at": "2026-01-24T09:15:22.531362",
+  "train_no": "16791",
+  "response": {
+    "success": true,
+    "train_name": "16791 Palaruvi Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 23min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Tirunelveli",
+        "distance": "60 km",
+        "timing": "22:5522:50",
+        "delay": "5min",
+        "platform": "4",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "CHARANMAHADEVI",
+        "distance": "80 km",
+        "timing": "23:1023:05",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KALLIDAIKURICHI",
+        "distance": "91 km",
+        "timing": "23:1823:13",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ambasamudram",
+        "distance": "95 km",
+        "timing": "23:2523:20",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kila Kadaiyam",
+        "distance": "110 km",
+        "timing": "23:3723:32",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pavurchatram",
+        "distance": "122 km",
+        "timing": "23:4723:42",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tenkasi Jn",
+        "distance": "133 km",
+        "timing": "00:0023:55",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "SENGOTTAI",
+        "distance": "140 km",
+        "timing": "00:3500:30",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tenmalai",
+        "distance": "168 km",
+        "timing": "01:4501:40",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Punalur",
+        "distance": "190 km",
+        "timing": "02:5002:45",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Auvaneswsarem",
+        "distance": "198 km",
+        "timing": "03:0002:55",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KOTTARAKARA",
+        "distance": "209 km",
+        "timing": "03:1003:05",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "EZHUKONE",
+        "distance": "216 km",
+        "timing": "03:1603:11",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KUNDARA",
+        "distance": "221 km",
+        "timing": "03:2503:20",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kollam Jn",
+        "distance": "234 km",
+        "timing": "04:4004:35",
+        "delay": "5min",
+        "platform": "5",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "PERINAD",
+        "distance": "243 km",
+        "timing": "04:5204:47",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Munroturuttu",
+        "distance": "249 km",
+        "timing": "04:5804:53",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sasthankotta",
+        "distance": "253 km",
+        "timing": "05:0605:01",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karunagapalli",
+        "distance": "261 km",
+        "timing": "05:1705:12",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "OCHIRA",
+        "distance": "269 km",
+        "timing": "05:2705:22",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kayankulam Jn",
+        "distance": "275 km",
+        "timing": "05:3805:33",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mavelikara",
+        "distance": "283 km",
+        "timing": "05:4805:43",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Cheriyanad",
+        "distance": "289 km",
+        "timing": "05:5505:50",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chengannur",
+        "distance": "295 km",
+        "timing": "06:0305:58",
+        "delay": "5min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tiruvalla",
+        "distance": "304 km",
+        "timing": "06:1306:08",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Changanaseri",
+        "distance": "312 km",
+        "timing": "06:2306:18",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kottayam",
+        "distance": "330 km",
+        "timing": "06:4806:43",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ettumanur",
+        "distance": "340 km",
+        "timing": "07:0006:55",
+        "delay": "5min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kuruppan Tara",
+        "distance": "348 km",
+        "timing": "07:1107:06",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vaikom",
+        "distance": "354 km",
+        "timing": "07:2307:18",
+        "delay": "5min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Piravam Road",
+        "distance": "361 km",
+        "timing": "07:3207:27",
+        "delay": "5min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "MULANTURUTTI",
+        "distance": "372 km",
+        "timing": "07:4407:39",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Triupunittura",
+        "distance": "380 km",
+        "timing": "07:5807:53",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ernakulam Town",
+        "distance": "392 km",
+        "timing": "08:4208:37",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Aluva",
+        "distance": "409 km",
+        "timing": "09:1209:07",
+        "delay": "5min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Angamali",
+        "distance": "418 km",
+        "timing": "09:2309:18",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Irinjalakuda",
+        "distance": "440 km",
+        "timing": "09:4409:39",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thrisur",
+        "distance": "463 km",
+        "timing": "10:1210:07",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ottappalam",
+        "distance": "509 km",
+        "timing": "11:3011:25",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palakkad Jn",
+        "distance": "540 km",
+        "timing": "Destination",
+        "delay": "5min",
+        "platform": "5",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "fetched_at": "2026-01-24T09:14:52.680150",
+  "train_no": "22607",
+  "response": {
+    "success": true,
+    "train_name": "22607 Ers Band Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 38hr 33min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Ernakulam Jn",
+        "distance": "-",
+        "timing": "16:5016:50",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Aluva",
+        "distance": "19 km",
+        "timing": "17:1217:12",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thrisur",
+        "distance": "74 km",
+        "timing": "18:1318:13",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ottappalam",
+        "distance": "118 km",
+        "timing": "19:0519:05",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palakkad Jn",
+        "distance": "149 km",
+        "timing": "19:3519:35",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Podanur Jn",
+        "distance": "199 km",
+        "timing": "21:0021:00",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tiruppur",
+        "distance": "242 km",
+        "timing": "21:4021:40",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Erode Jn",
+        "distance": "293 km",
+        "timing": "22:2522:25",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Salem Jn",
+        "distance": "352 km",
+        "timing": "23:2523:25",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tirupattur Jn",
+        "distance": "465 km",
+        "timing": "01:0001:00",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bangarapet",
+        "distance": "541 km",
+        "timing": "02:3602:36",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Krishnarajapurm",
+        "distance": "598 km",
+        "timing": "03:3003:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Banaswadi",
+        "distance": "604 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "fetched_at": "2026-01-24T09:14:53.111317",
+  "train_no": "12760",
+  "response": {
+    "success": true,
+    "train_name": "12760 Charminar Sf Ex Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 14min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Hyderabad Decan",
+        "distance": "-",
+        "timing": "18:0018:00",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Secunderabad Jn",
+        "distance": "10 km",
+        "timing": "18:2518:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kazipet Jn",
+        "distance": "142 km",
+        "timing": "20:2020:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Warangal",
+        "distance": "152 km",
+        "timing": "20:4520:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mahbubabad",
+        "distance": "212 km",
+        "timing": "21:3521:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dornakal Jn",
+        "distance": "236 km",
+        "timing": "21:5521:55",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khammam",
+        "distance": "259 km",
+        "timing": "22:1522:15",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vijayawada Jn",
+        "distance": "359 km",
+        "timing": "00:1000:10",
+        "delay": "15min",
+        "platform": "5",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tenali Jn",
+        "distance": "391 km",
+        "timing": "00:3500:35",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chirala",
+        "distance": "448 km",
+        "timing": "01:2001:20",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ongole",
+        "distance": "497 km",
+        "timing": "02:0002:00",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kavali",
+        "distance": "563 km",
+        "timing": "02:5002:50",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nellore",
+        "distance": "613 km",
+        "timing": "03:3503:35",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gudur Jn",
+        "distance": "652 km",
+        "timing": "04:2004:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nayudupeta",
+        "distance": "679 km",
+        "timing": "04:4504:45",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sullurupeta",
+        "distance": "707 km",
+        "timing": "05:0505:05",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Royapuram",
+        "distance": "787 km",
+        "timing": "Destination",
+        "delay": "7min",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

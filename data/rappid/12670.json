@@ -1,0 +1,219 @@
+{
+  "fetched_at": "2026-01-24T09:15:23.837294",
+  "train_no": "12670",
+  "response": {
+    "success": true,
+    "train_name": "12670 Gangakaveri Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 14hr 34min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Chhapra",
+        "distance": "-",
+        "timing": "21:0021:00",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ballia",
+        "distance": "66 km",
+        "timing": "22:1022:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghazipur City",
+        "distance": "131 km",
+        "timing": "23:1523:15",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Varanasi Jn",
+        "distance": "206 km",
+        "timing": "01:2001:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhadohi",
+        "distance": "251 km",
+        "timing": "01:5801:58",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Prayagraj Jn.",
+        "distance": "341 km",
+        "timing": "04:3004:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "25min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Satna",
+        "distance": "519 km",
+        "timing": "07:0007:00",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katni",
+        "distance": "617 km",
+        "timing": "08:2008:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jabalpur",
+        "distance": "708 km",
+        "timing": "10:1010:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pipariya",
+        "distance": "885 km",
+        "timing": "12:0012:00",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Itarsi Jn",
+        "distance": "953 km",
+        "timing": "13:3513:35",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Betul",
+        "distance": "1059 km",
+        "timing": "15:1015:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagpur",
+        "distance": "1250 km",
+        "timing": "18:2018:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sevagram",
+        "distance": "1326 km",
+        "timing": "19:2019:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chandrapur",
+        "distance": "1447 km",
+        "timing": "21:0721:07",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Balharshah",
+        "distance": "1461 km",
+        "timing": "22:1022:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sirpur Kagazngr",
+        "distance": "1531 km",
+        "timing": "23:0023:00",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Warangal",
+        "distance": "1703 km",
+        "timing": "01:2501:25",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khammam",
+        "distance": "1811 km",
+        "timing": "03:0503:05",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vijayawada Jn",
+        "distance": "1911 km",
+        "timing": "05:2005:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ongole",
+        "distance": "2049 km",
+        "timing": "07:2507:25",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gudur Jn",
+        "distance": "2203 km",
+        "timing": "09:4509:45",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mgr Chennai Ctl",
+        "distance": "2341 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

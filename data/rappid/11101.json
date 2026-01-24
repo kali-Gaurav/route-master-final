@@ -1,0 +1,219 @@
+{
+  "fetched_at": "2026-01-24T09:15:04.979211",
+  "train_no": "11101",
+  "response": {
+    "success": true,
+    "train_name": "11101 Pune Gwalior Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 14hr 13min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Pune Jn",
+        "distance": "-",
+        "timing": "00:2500:25",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chinchvad",
+        "distance": "16 km",
+        "timing": "00:4500:45",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lonavala",
+        "distance": "63 km",
+        "timing": "01:3001:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Panvel",
+        "distance": "119 km",
+        "timing": "02:5502:55",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vasai Road",
+        "distance": "184 km",
+        "timing": "04:3004:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Boisar",
+        "distance": "235 km",
+        "timing": "05:3005:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vapi",
+        "distance": "305 km",
+        "timing": "06:2006:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Valsad",
+        "distance": "331 km",
+        "timing": "06:5206:52",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Surat",
+        "distance": "400 km",
+        "timing": "08:1508:15",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bharuch Jn",
+        "distance": "460 km",
+        "timing": "09:0209:02",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vadodara Jn",
+        "distance": "530 km",
+        "timing": "10:1210:12",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Godhra Jn",
+        "distance": "604 km",
+        "timing": "11:2811:28",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dahod",
+        "distance": "677 km",
+        "timing": "12:3012:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "791 km",
+        "timing": "14:3014:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagda Jn",
+        "distance": "832 km",
+        "timing": "15:1315:13",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ujjain Jn",
+        "distance": "887 km",
+        "timing": "16:3516:35",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Maksi",
+        "distance": "929 km",
+        "timing": "17:4217:42",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shajapur",
+        "distance": "957 km",
+        "timing": "18:0818:08",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Biyavra Rajgarh",
+        "distance": "1045 km",
+        "timing": "19:3019:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ruthiyai",
+        "distance": "1122 km",
+        "timing": "20:4720:47",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Guna",
+        "distance": "1143 km",
+        "timing": "21:3021:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shivpuri",
+        "distance": "1245 km",
+        "timing": "23:3023:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gwalior",
+        "distance": "1369 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

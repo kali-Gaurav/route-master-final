@@ -1,0 +1,75 @@
+{
+  "fetched_at": "2026-01-24T09:14:54.113744",
+  "train_no": "12657",
+  "response": {
+    "success": true,
+    "train_name": "12657 Mas Sbc Sf Mail Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 13min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Mgr Chennai Ctl",
+        "distance": "-",
+        "timing": "22:5022:50",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Arakkonam Jn",
+        "distance": "69 km",
+        "timing": "23:4523:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katpadi Jn",
+        "distance": "130 km",
+        "timing": "00:3500:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jolarpettai",
+        "distance": "214 km",
+        "timing": "01:5501:55",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bangarapet",
+        "distance": "292 km",
+        "timing": "02:5502:55",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bengaluru Cant",
+        "distance": "358 km",
+        "timing": "03:5703:57",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ksr Bengaluru",
+        "distance": "362 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

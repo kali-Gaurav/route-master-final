@@ -1,0 +1,192 @@
+{
+  "fetched_at": "2026-01-24T09:14:56.509665",
+  "train_no": "19576",
+  "response": {
+    "success": true,
+    "train_name": "19576 Ndt Okha Exp Running Status",
+    "message": "Reached Okha at 18:34",
+    "updated_time": "Updated 20hr 4min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Nathdwara",
+        "distance": "-",
+        "timing": "20:2520:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mavli Jn",
+        "distance": "16 km",
+        "timing": "21:4621:45",
+        "delay": "1min",
+        "platform": "3",
+        "halt": "39min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chittaurgarh",
+        "distance": "87 km",
+        "timing": "23:2523:25",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "35min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nimach",
+        "distance": "143 km",
+        "timing": "00:2000:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "9min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mandasor",
+        "distance": "192 km",
+        "timing": "01:2301:12",
+        "delay": "11min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jaora",
+        "distance": "243 km",
+        "timing": "02:0101:54",
+        "delay": "7min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "276 km",
+        "timing": "03:2803:20",
+        "delay": "8min",
+        "platform": "7",
+        "halt": "50min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dahod",
+        "distance": "389 km",
+        "timing": "04:5904:56",
+        "delay": "3min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chhayapuri",
+        "distance": "530 km",
+        "timing": "07:2807:15",
+        "delay": "13min",
+        "platform": "1",
+        "halt": "11min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anand Jn",
+        "distance": "562 km",
+        "timing": "08:1108:08",
+        "delay": "3min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nadiad Jn",
+        "distance": "580 km",
+        "timing": "08:3508:30",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ahmedabad Jn",
+        "distance": "626 km",
+        "timing": "09:4309:35",
+        "delay": "8min",
+        "platform": "1",
+        "halt": "22min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Surendranagar",
+        "distance": "757 km",
+        "timing": "12:1311:48",
+        "delay": "25min",
+        "platform": "1",
+        "halt": "4min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Wankaner Jn",
+        "distance": "831 km",
+        "timing": "13:1512:44",
+        "delay": "31min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rajkot Jn",
+        "distance": "873 km",
+        "timing": "14:0413:40",
+        "delay": "24min",
+        "platform": "1",
+        "halt": "11min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hapa",
+        "distance": "949 km",
+        "timing": "15:4315:10",
+        "delay": "33min",
+        "platform": "2",
+        "halt": "6min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jamnagar",
+        "distance": "958 km",
+        "timing": "15:5915:29",
+        "delay": "30min",
+        "platform": "1",
+        "halt": "4min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khambhaliya",
+        "distance": "1012 km",
+        "timing": "16:4816:19",
+        "delay": "29min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dwarka",
+        "distance": "1096 km",
+        "timing": "18:0317:51",
+        "delay": "12min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Okha",
+        "distance": "1125 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

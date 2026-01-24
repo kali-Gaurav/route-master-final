@@ -1,0 +1,390 @@
+{
+  "fetched_at": "2026-01-24T09:15:15.751026",
+  "train_no": "16331",
+  "response": {
+    "success": true,
+    "train_name": "16331 Trivandram Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 2min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "C Shivaji Mah T",
+        "distance": "-",
+        "timing": "20:3520:35",
+        "delay": "On Time",
+        "platform": "10",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dadar",
+        "distance": "9 km",
+        "timing": "20:5020:50",
+        "delay": "On Time",
+        "platform": "10",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thane",
+        "distance": "34 km",
+        "timing": "21:1521:15",
+        "delay": "On Time",
+        "platform": "7",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalyan Jn",
+        "distance": "54 km",
+        "timing": "21:3021:30",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karjat",
+        "distance": "100 km",
+        "timing": "22:3022:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lonavala",
+        "distance": "128 km",
+        "timing": "23:1523:15",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pune Jn",
+        "distance": "192 km",
+        "timing": "00:2000:20",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Daund Jn",
+        "distance": "268 km",
+        "timing": "01:3501:35",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kurduvadi",
+        "distance": "377 km",
+        "timing": "02:5002:50",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Solapur Jn",
+        "distance": "455 km",
+        "timing": "03:5003:50",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalaburagi",
+        "distance": "568 km",
+        "timing": "05:4005:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shahabad",
+        "distance": "595 km",
+        "timing": "06:0506:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Wadi",
+        "distance": "605 km",
+        "timing": "06:4506:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Yadgir",
+        "distance": "644 km",
+        "timing": "07:1507:15",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raichur",
+        "distance": "713 km",
+        "timing": "08:2008:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Manthralayam Rd",
+        "distance": "741 km",
+        "timing": "08:5008:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Adoni",
+        "distance": "782 km",
+        "timing": "09:2009:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Guntakal Jn",
+        "distance": "833 km",
+        "timing": "10:3010:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anantapur",
+        "distance": "901 km",
+        "timing": "11:4011:40",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dharmavaram Jn",
+        "distance": "935 km",
+        "timing": "12:3012:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hindupur",
+        "distance": "1014 km",
+        "timing": "13:3613:36",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Krishnarajapurm",
+        "distance": "1113 km",
+        "timing": "15:2015:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bangarapet",
+        "distance": "1169 km",
+        "timing": "16:0016:00",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tirupattur Jn",
+        "distance": "1254 km",
+        "timing": "18:1518:15",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Salem Jn",
+        "distance": "1367 km",
+        "timing": "19:3519:35",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Erode Jn",
+        "distance": "1430 km",
+        "timing": "20:3520:35",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tiruppur",
+        "distance": "1480 km",
+        "timing": "21:2021:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Coimbatore Jn",
+        "distance": "1530 km",
+        "timing": "22:2522:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Podanur Jn",
+        "distance": "1536 km",
+        "timing": "22:4522:45",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palakkad Jn",
+        "distance": "1585 km",
+        "timing": "23:5823:58",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ottappalam",
+        "distance": "1616 km",
+        "timing": "00:3200:32",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thrisur",
+        "distance": "1662 km",
+        "timing": "01:1801:18",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Aluva",
+        "distance": "1716 km",
+        "timing": "02:1002:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ernakulam Jn",
+        "distance": "1736 km",
+        "timing": "02:3502:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Cherthala",
+        "distance": "1769 km",
+        "timing": "03:0903:09",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Alleppey",
+        "distance": "1792 km",
+        "timing": "03:3503:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ambalappuzha",
+        "distance": "1805 km",
+        "timing": "03:4603:46",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Harippad",
+        "distance": "1823 km",
+        "timing": "04:0604:06",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kayankulam Jn",
+        "distance": "1836 km",
+        "timing": "04:2504:25",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kollam Jn",
+        "distance": "1877 km",
+        "timing": "05:1005:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Varkalasivagiri",
+        "distance": "1900 km",
+        "timing": "05:3305:33",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Trivandrum Cntl",
+        "distance": "1941 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

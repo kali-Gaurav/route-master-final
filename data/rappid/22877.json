@@ -1,0 +1,237 @@
+{
+  "fetched_at": "2026-01-24T09:15:11.288056",
+  "train_no": "22877",
+  "response": {
+    "success": true,
+    "train_name": "22877 Hwh Ers Suf Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 23min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Howrah Jn",
+        "distance": "-",
+        "timing": "14:5514:55",
+        "delay": "On Time",
+        "platform": "17",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kharagpur Jn",
+        "distance": "116 km",
+        "timing": "16:3516:35",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Balasore",
+        "distance": "234 km",
+        "timing": "18:0118:01",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhadrak",
+        "distance": "296 km",
+        "timing": "19:0019:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Cuttack",
+        "distance": "412 km",
+        "timing": "20:4420:42",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhubaneswar",
+        "distance": "439 km",
+        "timing": "21:2521:25",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khurda Road Jn",
+        "distance": "458 km",
+        "timing": "21:5521:55",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Brahmapur",
+        "distance": "605 km",
+        "timing": "23:4123:41",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palasa",
+        "distance": "679 km",
+        "timing": "01:0201:02",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Srikakulam Road",
+        "distance": "752 km",
+        "timing": "01:5601:56",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vizianagram Jn",
+        "distance": "821 km",
+        "timing": "03:0203:02",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Duvvada",
+        "distance": "886 km",
+        "timing": "04:4504:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rajahmundry",
+        "distance": "1069 km",
+        "timing": "06:5006:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vijayawada Jn",
+        "distance": "1218 km",
+        "timing": "09:4009:35",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ongole",
+        "distance": "1357 km",
+        "timing": "11:4011:30",
+        "delay": "10min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Renigunta Jn",
+        "distance": "1594 km",
+        "timing": "15:2515:20",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katpadi Jn",
+        "distance": "1708 km",
+        "timing": "17:4517:25",
+        "delay": "17min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jolarpettai",
+        "distance": "1792 km",
+        "timing": "19:0519:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Salem Jn",
+        "distance": "1912 km",
+        "timing": "20:3520:35",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Erode Jn",
+        "distance": "1975 km",
+        "timing": "21:3521:35",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Coimbatore Jn",
+        "distance": "2075 km",
+        "timing": "23:0523:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palakkad Jn",
+        "distance": "2130 km",
+        "timing": "00:1000:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thrisur",
+        "distance": "2207 km",
+        "timing": "01:2501:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Aluva",
+        "distance": "2261 km",
+        "timing": "02:1202:12",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ernakulam Jn",
+        "distance": "2281 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "fetched_at": "2026-01-24T09:15:26.587945",
+  "train_no": "12060",
+  "response": {
+    "success": true,
+    "train_name": "12060 Janshatabdi Exp Running Status",
+    "message": "Crossed Ballabgarh at 13:12",
+    "updated_time": "Updated 34min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "H Nizamuddin",
+        "distance": "-",
+        "timing": "12:5012:45",
+        "delay": "5min",
+        "platform": "5",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ballabgarh",
+        "distance": "29 km",
+        "timing": "13:1213:08",
+        "delay": "4min",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mathura Jn",
+        "distance": "134 km",
+        "timing": "14:25",
+        "delay": "1min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bharatpur Jn",
+        "distance": "167 km",
+        "timing": "14:5514:52",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bayana Jn",
+        "distance": "209 km",
+        "timing": "15:3015:20",
+        "delay": "7min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hindaun City",
+        "distance": "242 km",
+        "timing": "15:5715:43",
+        "delay": "10min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shri Mahaveerji",
+        "distance": "252 km",
+        "timing": "16:0915:54",
+        "delay": "14min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gangapur City",
+        "distance": "286 km",
+        "timing": "16:3416:20",
+        "delay": "9min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sawai Madhopur",
+        "distance": "350 km",
+        "timing": "17:2217:15",
+        "delay": "6min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Keshorai Patan",
+        "distance": "444 km",
+        "timing": "18:2118:10",
+        "delay": "9min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "458 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "fetched_at": "2026-01-24T09:15:05.677665",
+  "train_no": "10215",
+  "response": {
+    "success": true,
+    "train_name": "10215 Madgaon Ers Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 8min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Madgaon",
+        "distance": "-",
+        "timing": "19:3019:30",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karwar",
+        "distance": "82 km",
+        "timing": "20:3820:38",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhatkal",
+        "distance": "236 km",
+        "timing": "21:4821:48",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mookambika Road",
+        "distance": "258 km",
+        "timing": "22:0222:02",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Udupi",
+        "distance": "350 km",
+        "timing": "22:5222:52",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mangaluru Jn",
+        "distance": "431 km",
+        "timing": "00:4000:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kasaragod",
+        "distance": "478 km",
+        "timing": "01:2001:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kannur",
+        "distance": "564 km",
+        "timing": "02:3502:35",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kozhikkode",
+        "distance": "653 km",
+        "timing": "03:4503:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tirur",
+        "distance": "694 km",
+        "timing": "04:2004:20",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shoranur Jn",
+        "distance": "739 km",
+        "timing": "05:3005:30",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thrisur",
+        "distance": "772 km",
+        "timing": "06:2506:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Aluva",
+        "distance": "826 km",
+        "timing": "07:3707:37",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ernakulam Jn",
+        "distance": "846 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

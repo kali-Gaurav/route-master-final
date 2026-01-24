@@ -1,0 +1,102 @@
+{
+  "fetched_at": "2026-01-24T09:15:02.188719",
+  "train_no": "11008",
+  "response": {
+    "success": true,
+    "train_name": "11008 Deccan Express Running Status",
+    "message": "",
+    "updated_time": "Updated 3min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Pune Jn",
+        "distance": "-",
+        "timing": "15:2715:27",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shivajinagar",
+        "distance": "3 km",
+        "timing": "15:3515:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khadki",
+        "distance": "7 km",
+        "timing": "15:4215:42",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Talegaon",
+        "distance": "35 km",
+        "timing": "16:0716:07",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lonavala",
+        "distance": "64 km",
+        "timing": "16:3216:32",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karjat",
+        "distance": "92 km",
+        "timing": "17:1517:15",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalyan Jn",
+        "distance": "139 km",
+        "timing": "18:0018:00",
+        "delay": "On Time",
+        "platform": "7",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thane",
+        "distance": "159 km",
+        "timing": "18:2218:22",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dadar",
+        "distance": "183 km",
+        "timing": "18:4818:48",
+        "delay": "On Time",
+        "platform": "12",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "C Shivaji Mah T",
+        "distance": "192 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "8",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

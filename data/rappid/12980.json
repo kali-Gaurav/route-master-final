@@ -1,0 +1,174 @@
+{
+  "fetched_at": "2026-01-24T09:14:57.039571",
+  "train_no": "12980",
+  "response": {
+    "success": true,
+    "train_name": "12980 Jp Bdts Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 14hr 16min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Jaipur",
+        "distance": "-",
+        "timing": "20:2020:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Durgapura",
+        "distance": "8 km",
+        "timing": "20:3220:32",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sawai Madhopur",
+        "distance": "132 km",
+        "timing": "22:4022:40",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "240 km",
+        "timing": "23:5523:55",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagda Jn",
+        "distance": "465 km",
+        "timing": "02:3202:32",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "506 km",
+        "timing": "03:1503:15",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Meghnagar",
+        "distance": "586 km",
+        "timing": "04:1804:18",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dahod",
+        "distance": "619 km",
+        "timing": "04:4404:44",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Godhra Jn",
+        "distance": "694 km",
+        "timing": "05:5905:59",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vadodara Jn",
+        "distance": "767 km",
+        "timing": "07:1007:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Surat",
+        "distance": "896 km",
+        "timing": "08:5908:59",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Navsari",
+        "distance": "926 km",
+        "timing": "09:2009:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Valsad",
+        "distance": "965 km",
+        "timing": "09:5009:50",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vapi",
+        "distance": "989 km",
+        "timing": "10:1510:15",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palghar",
+        "distance": "1072 km",
+        "timing": "11:2011:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Borivali",
+        "distance": "1129 km",
+        "timing": "12:2012:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Andheri",
+        "distance": "1141 km",
+        "timing": "12:4012:40",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bandra Terminus",
+        "distance": "1148 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

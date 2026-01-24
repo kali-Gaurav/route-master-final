@@ -1,0 +1,192 @@
+{
+  "fetched_at": "2026-01-24T09:14:59.255649",
+  "train_no": "54001",
+  "response": {
+    "success": true,
+    "train_name": "54001 Nzm Rok Passenger Running Status",
+    "message": "",
+    "updated_time": "Updated 12hr 37min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Tilak Bridge",
+        "distance": "-",
+        "timing": "18:3518:35",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shivaji Bridge",
+        "distance": "1 km",
+        "timing": "18:3918:39",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "2 km",
+        "timing": "18:5518:55",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sadar Bazar",
+        "distance": "4 km",
+        "timing": "19:0219:02",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Delhi Kishangnj",
+        "distance": "6 km",
+        "timing": "19:1019:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Viveknndapuri H",
+        "distance": "8 km",
+        "timing": "19:1519:15",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dayabasti",
+        "distance": "9 km",
+        "timing": "19:2019:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shakurbasti",
+        "distance": "13 km",
+        "timing": "19:3519:35",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mangolpuri",
+        "distance": "17 km",
+        "timing": "19:4319:43",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nangloi",
+        "distance": "20 km",
+        "timing": "19:4919:49",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mundka",
+        "distance": "23 km",
+        "timing": "19:5519:55",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghevra",
+        "distance": "26 km",
+        "timing": "20:0120:01",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bahadurgarh",
+        "distance": "33 km",
+        "timing": "20:0920:09",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Asaudah",
+        "distance": "41 km",
+        "timing": "20:1820:18",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rohad Nagar",
+        "distance": "46 km",
+        "timing": "20:2520:25",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sampla",
+        "distance": "51 km",
+        "timing": "20:3120:31",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ismaila Haryana",
+        "distance": "54 km",
+        "timing": "20:3720:37",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kharawar",
+        "distance": "61 km",
+        "timing": "20:4520:45",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Asthal Bohar",
+        "distance": "67 km",
+        "timing": "20:5720:57",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rohtak Jn",
+        "distance": "73 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

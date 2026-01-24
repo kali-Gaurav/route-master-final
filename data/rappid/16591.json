@@ -1,0 +1,264 @@
+{
+  "fetched_at": "2026-01-24T09:15:10.385784",
+  "train_no": "16591",
+  "response": {
+    "success": true,
+    "train_name": "16591 Hampi Express Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 34min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Sss Hubballi Jn",
+        "distance": "-",
+        "timing": "18:3018:30",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Annigeri",
+        "distance": "36 km",
+        "timing": "19:0019:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gadag Jn",
+        "distance": "59 km",
+        "timing": "19:2619:26",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhanapur",
+        "distance": "104 km",
+        "timing": "20:0120:01",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Koppal",
+        "distance": "116 km",
+        "timing": "20:2020:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ginigera",
+        "distance": "127 km",
+        "timing": "20:3220:32",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Munirabad",
+        "distance": "138 km",
+        "timing": "20:4620:46",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hosapete Jn",
+        "distance": "144 km",
+        "timing": "21:1021:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Toranagallu",
+        "distance": "176 km",
+        "timing": "21:4221:42",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ballari Jn",
+        "distance": "209 km",
+        "timing": "22:5522:55",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Guntakal Jn",
+        "distance": "259 km",
+        "timing": "23:5523:55",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anantapur",
+        "distance": "327 km",
+        "timing": "01:0001:00",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dharmavaram Jn",
+        "distance": "361 km",
+        "timing": "02:0002:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Penukonda",
+        "distance": "402 km",
+        "timing": "02:3502:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hindupur",
+        "distance": "440 km",
+        "timing": "03:0603:06",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gauribidanur",
+        "distance": "463 km",
+        "timing": "03:2403:24",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dodballapur",
+        "distance": "502 km",
+        "timing": "04:0004:00",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Yelhanka Jn",
+        "distance": "523 km",
+        "timing": "04:3004:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Yesvantpur Jn",
+        "distance": "535 km",
+        "timing": "05:1005:10",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ksr Bengaluru",
+        "distance": "541 km",
+        "timing": "05:5505:55",
+        "delay": "On Time",
+        "platform": "9",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kengeri",
+        "distance": "553 km",
+        "timing": "06:1506:15",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bidadi",
+        "distance": "570 km",
+        "timing": "06:3006:30",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ramanagaram",
+        "distance": "585 km",
+        "timing": "06:4506:45",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Channapatna",
+        "distance": "596 km",
+        "timing": "06:5606:56",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Maddur",
+        "distance": "614 km",
+        "timing": "07:1507:15",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mandya",
+        "distance": "633 km",
+        "timing": "07:3407:34",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pandavapura",
+        "distance": "659 km",
+        "timing": "07:5807:58",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mysuru Jn",
+        "distance": "679 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

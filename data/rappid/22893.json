@@ -1,0 +1,165 @@
+{
+  "fetched_at": "2026-01-24T09:15:13.745828",
+  "train_no": "22893",
+  "response": {
+    "success": true,
+    "train_name": "22893 Snsi Howrah Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 33min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Sainagar Shirdi",
+        "distance": "-",
+        "timing": "14:10",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kopargaon",
+        "distance": "41 km",
+        "timing": "14:4714:47",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Manmad Jn",
+        "distance": "85 km",
+        "timing": "15:5515:55",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhusaval Jn",
+        "distance": "269 km",
+        "timing": "18:1518:15",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Akola Jn",
+        "distance": "408 km",
+        "timing": "20:3520:35",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagpur",
+        "distance": "661 km",
+        "timing": "01:3001:30",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gondia Jn",
+        "distance": "791 km",
+        "timing": "03:1003:10",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Durg",
+        "distance": "927 km",
+        "timing": "05:2505:25",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raipur Jn",
+        "distance": "963 km",
+        "timing": "06:0506:05",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bilaspur Jn",
+        "distance": "1074 km",
+        "timing": "08:0008:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raigarh",
+        "distance": "1206 km",
+        "timing": "09:4209:42",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jharsuguda Jn",
+        "distance": "1278 km",
+        "timing": "11:0511:05",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rourkela",
+        "distance": "1379 km",
+        "timing": "12:2512:25",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "8min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chakradharpur",
+        "distance": "1480 km",
+        "timing": "14:0014:00",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tatanagar Jn",
+        "distance": "1543 km",
+        "timing": "15:1015:10",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kharagpur Jn",
+        "distance": "1677 km",
+        "timing": "17:3517:35",
+        "delay": "On Time",
+        "platform": "8",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Howrah Jn",
+        "distance": "1792 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "23",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

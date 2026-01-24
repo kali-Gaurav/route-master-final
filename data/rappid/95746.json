@@ -1,0 +1,93 @@
+{
+  "fetched_at": "2026-01-24T09:15:04.546538",
+  "train_no": "95746",
+  "response": {
+    "success": true,
+    "train_name": "95746 K132 Running Status",
+    "message": "",
+    "updated_time": "Updated 21hr 22min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Kalyan Jn",
+        "distance": "-",
+        "timing": "23:0523:05",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dombivili",
+        "distance": "5 km",
+        "timing": "23:1223:12",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thane",
+        "distance": "18 km",
+        "timing": "23:2523:25",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "MULUND",
+        "distance": "20 km",
+        "timing": "23:2923:29",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghat Kopar",
+        "distance": "32 km",
+        "timing": "23:3923:39",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KURLA JN",
+        "distance": "35 km",
+        "timing": "23:4323:43",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dadar",
+        "distance": "42 km",
+        "timing": "23:5123:51",
+        "delay": "On Time",
+        "platform": "12",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Byculla",
+        "distance": "47 km",
+        "timing": "23:5723:57",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "C Shivaji Mah T",
+        "distance": "51 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

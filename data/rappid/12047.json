@@ -1,0 +1,93 @@
+{
+  "fetched_at": "2026-01-24T09:15:07.518382",
+  "train_no": "12047",
+  "response": {
+    "success": true,
+    "train_name": "12047 Nlp Janshatabdi Running Status",
+    "message": "Reached North Lakhimpur at 15:58",
+    "updated_time": "Updated 2min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Guwahati",
+        "distance": "-",
+        "timing": "09:5209:50",
+        "delay": "2min",
+        "platform": "4",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kamakhya",
+        "distance": "7 km",
+        "timing": "10:1010:05",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rangiya Jn",
+        "distance": "48 km",
+        "timing": "11:2111:00",
+        "delay": "21min",
+        "platform": "3",
+        "halt": "28min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tangla",
+        "distance": "87 km",
+        "timing": "11:5511:37",
+        "delay": "18min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Udalguri",
+        "distance": "109 km",
+        "timing": "12:1711:52",
+        "delay": "25min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rangapara North",
+        "distance": "171 km",
+        "timing": "13:1913:00",
+        "delay": "19min",
+        "platform": "3",
+        "halt": "6min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Viswanath Chrli",
+        "distance": "222 km",
+        "timing": "13:5913:42",
+        "delay": "17min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Harmuti",
+        "distance": "314 km",
+        "timing": "15:3114:42",
+        "delay": "49min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "North Lakhimpur",
+        "distance": "344 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

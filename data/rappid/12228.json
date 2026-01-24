@@ -1,0 +1,57 @@
+{
+  "fetched_at": "2026-01-24T09:14:57.604727",
+  "train_no": "12228",
+  "response": {
+    "success": true,
+    "train_name": "12228 Mmct Duronto Running Status",
+    "message": "",
+    "updated_time": "Updated 32min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Indore Jn Bg",
+        "distance": "-",
+        "timing": "21:0021:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ujjain Jn",
+        "distance": "80 km",
+        "timing": "22:1022:10",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "176 km",
+        "timing": "23:3523:35",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vadodara Jn",
+        "distance": "438 km",
+        "timing": "03:0803:08",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "8min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mumbai Central",
+        "distance": "829 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

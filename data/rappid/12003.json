@@ -1,0 +1,93 @@
+{
+  "fetched_at": "2026-01-24T09:15:13.945634",
+  "train_no": "12003",
+  "response": {
+    "success": true,
+    "train_name": "12003 Swaran Shatabdi Running Status",
+    "message": "",
+    "updated_time": "Updated 13min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Lucknow Ne",
+        "distance": "-",
+        "timing": "15:3015:30",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Unnao Jn",
+        "distance": "57 km",
+        "timing": "16:2116:21",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanpur Central",
+        "distance": "74 km",
+        "timing": "16:5316:53",
+        "delay": "On Time",
+        "platform": "9",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Phaphund",
+        "distance": "157 km",
+        "timing": "17:4817:48",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Etawah Jn",
+        "distance": "214 km",
+        "timing": "18:2018:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tundla Jn",
+        "distance": "305 km",
+        "timing": "19:2819:28",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Aligarh Jn",
+        "distance": "383 km",
+        "timing": "20:1720:17",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghaziabad",
+        "distance": "489 km",
+        "timing": "21:4021:40",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "512 km",
+        "timing": "Destination",
+        "delay": "10min",
+        "platform": "8",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

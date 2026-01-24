@@ -1,0 +1,174 @@
+{
+  "fetched_at": "2026-01-24T09:15:20.276984",
+  "train_no": "19313",
+  "response": {
+    "success": true,
+    "train_name": "19313 Indb Pnbe Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 102hr 5min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Indore Jn Bg",
+        "distance": "-",
+        "timing": "13:5513:55",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dewas",
+        "distance": "39 km",
+        "timing": "14:2814:28",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ujjain Jn",
+        "distance": "80 km",
+        "timing": "15:3515:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shujalpur",
+        "distance": "183 km",
+        "timing": "16:5916:59",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "S Hirdaramnagar",
+        "distance": "253 km",
+        "timing": "18:2018:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bina Jn",
+        "distance": "400 km",
+        "timing": "21:0521:05",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lalitpur Jn",
+        "distance": "463 km",
+        "timing": "21:5221:52",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "V Lakshmibai Jhansi Jhs",
+        "distance": "553 km",
+        "timing": "23:1023:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Orai",
+        "distance": "666 km",
+        "timing": "00:2500:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanpur Central",
+        "distance": "774 km",
+        "timing": "03:5503:55",
+        "delay": "On Time",
+        "platform": "9",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lucknow Nr",
+        "distance": "847 km",
+        "timing": "05:3505:35",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Maharaja Bijli Pasi Nihalgarh",
+        "distance": "937 km",
+        "timing": "07:1207:12",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sultanpur",
+        "distance": "987 km",
+        "timing": "08:1008:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jaunpur City",
+        "distance": "1073 km",
+        "timing": "09:1309:13",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Varanasi Jn",
+        "distance": "1130 km",
+        "timing": "10:5010:50",
+        "delay": "On Time",
+        "platform": "9",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dd Upadhyaya Jn",
+        "distance": "1147 km",
+        "timing": "11:3511:35",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Buxar",
+        "distance": "1241 km",
+        "timing": "12:4012:40",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patna Jn",
+        "distance": "1359 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

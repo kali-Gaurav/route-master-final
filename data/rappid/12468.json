@@ -1,0 +1,210 @@
+{
+  "fetched_at": "2026-01-24T09:14:56.450864",
+  "train_no": "12468",
+  "response": {
+    "success": true,
+    "train_name": "12468 Leelan Sf Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 12min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Jaipur",
+        "distance": "-",
+        "timing": "16:3016:30",
+        "delay": "On Time",
+        "platform": "7",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanakpura",
+        "distance": "9 km",
+        "timing": "16:4416:44",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Phulera Jn",
+        "distance": "55 km",
+        "timing": "17:2517:25",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sambhar Lake",
+        "distance": "63 km",
+        "timing": "17:4017:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nawa City",
+        "distance": "90 km",
+        "timing": "18:0318:03",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kuchaman City",
+        "distance": "106 km",
+        "timing": "18:1918:19",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Makrana Jn",
+        "distance": "120 km",
+        "timing": "18:3518:35",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gachhipura",
+        "distance": "149 km",
+        "timing": "18:5918:59",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Degana Jn",
+        "distance": "164 km",
+        "timing": "19:1319:13",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ren",
+        "distance": "192 km",
+        "timing": "19:3619:36",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Merta Rd Bypass",
+        "distance": "208 km",
+        "timing": "20:0020:00",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Marwar Mundwa",
+        "distance": "247 km",
+        "timing": "20:2820:28",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagaur",
+        "distance": "265 km",
+        "timing": "20:5520:55",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nokha",
+        "distance": "316 km",
+        "timing": "21:3721:37",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Deshnok",
+        "distance": "348 km",
+        "timing": "22:2322:23",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bikaner Jn",
+        "distance": "380 km",
+        "timing": "23:2523:25",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lalgarh Jn",
+        "distance": "384 km",
+        "timing": "23:3723:37",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kolayat",
+        "distance": "430 km",
+        "timing": "00:1100:11",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Phalodi Jn",
+        "distance": "542 km",
+        "timing": "01:5501:55",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ramdevra",
+        "distance": "589 km",
+        "timing": "02:3302:33",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pokran",
+        "distance": "599 km",
+        "timing": "03:2003:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jaisalmer",
+        "distance": "706 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

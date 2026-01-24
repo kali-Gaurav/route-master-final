@@ -1,0 +1,66 @@
+{
+  "fetched_at": "2026-01-24T09:15:09.931729",
+  "train_no": "66531",
+  "response": {
+    "success": true,
+    "train_name": "66531 Bwt Sbc Memu Running Status",
+    "message": "Crossed Malur at 13:41",
+    "updated_time": "Updated 53min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Bangarapet",
+        "distance": "-",
+        "timing": "13:0013:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tyakal",
+        "distance": "12 km",
+        "timing": "13:1813:12",
+        "delay": "6min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Byatrayanhalli",
+        "distance": "16 km",
+        "timing": "13:2313:19",
+        "delay": "4min",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Malur",
+        "distance": "27 km",
+        "timing": "13:4113:26",
+        "delay": "15min",
+        "platform": "3",
+        "halt": "9min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Devangonthi",
+        "distance": "39 km",
+        "timing": "13:35",
+        "delay": "15min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Whitefield",
+        "distance": "47 km",
+        "timing": "Destination",
+        "delay": "15min",
+        "platform": "3",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

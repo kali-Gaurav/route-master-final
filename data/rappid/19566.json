@@ -1,0 +1,327 @@
+{
+  "fetched_at": "2026-01-24T09:15:20.874012",
+  "train_no": "19566",
+  "response": {
+    "success": true,
+    "train_name": "19566 Uttaranchal Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 36min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Dehradun",
+        "distance": "-",
+        "timing": "05:5505:55",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Haridwar Jn",
+        "distance": "52 km",
+        "timing": "07:4507:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Roorkee",
+        "distance": "98 km",
+        "timing": "08:3408:34",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tapri",
+        "distance": "139 km",
+        "timing": "09:4009:40",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Deoband",
+        "distance": "167 km",
+        "timing": "10:0310:03",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Muzaffarnagar",
+        "distance": "191 km",
+        "timing": "10:2310:23",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Meerut City",
+        "distance": "246 km",
+        "timing": "11:0211:02",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Modinagar",
+        "distance": "266 km",
+        "timing": "11:1911:19",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghaziabad",
+        "distance": "293 km",
+        "timing": "12:1012:10",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "316 km",
+        "timing": "13:2513:25",
+        "delay": "On Time",
+        "platform": "12",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Delhi S Rohilla",
+        "distance": "322 km",
+        "timing": "13:4813:48",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Delhi Cantt",
+        "distance": "331 km",
+        "timing": "14:0714:07",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gurgaon",
+        "distance": "348 km",
+        "timing": "14:2314:23",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rewari",
+        "distance": "400 km",
+        "timing": "15:1815:18",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khairthal",
+        "distance": "447 km",
+        "timing": "15:5815:58",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Alwar",
+        "distance": "474 km",
+        "timing": "16:2316:23",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jaipur",
+        "distance": "625 km",
+        "timing": "18:4018:40",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ajmer Jn",
+        "distance": "759 km",
+        "timing": "21:0021:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Beawar",
+        "distance": "811 km",
+        "timing": "21:4421:44",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Falna",
+        "distance": "966 km",
+        "timing": "23:4623:46",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Abu Road",
+        "distance": "1064 km",
+        "timing": "01:2001:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palanpur Jn",
+        "distance": "1117 km",
+        "timing": "02:2202:22",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Siddhpur",
+        "distance": "1147 km",
+        "timing": "02:4802:48",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Unjha",
+        "distance": "1162 km",
+        "timing": "03:0503:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mahesana Jn",
+        "distance": "1182 km",
+        "timing": "03:2603:26",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Viramgam Jn",
+        "distance": "1246 km",
+        "timing": "04:3204:32",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Surendranagar",
+        "distance": "1311 km",
+        "timing": "05:3305:33",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Wankaner Jn",
+        "distance": "1386 km",
+        "timing": "06:2906:29",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rajkot Jn",
+        "distance": "1428 km",
+        "timing": "07:3007:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hapa",
+        "distance": "1504 km",
+        "timing": "08:4908:49",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jamnagar",
+        "distance": "1512 km",
+        "timing": "09:1509:15",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khambhaliya",
+        "distance": "1567 km",
+        "timing": "10:1010:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhatiya",
+        "distance": "1609 km",
+        "timing": "10:4210:42",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dwarka",
+        "distance": "1651 km",
+        "timing": "11:3111:31",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Okha",
+        "distance": "1680 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

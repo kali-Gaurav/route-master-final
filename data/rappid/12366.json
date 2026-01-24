@@ -1,0 +1,129 @@
+{
+  "fetched_at": "2026-01-24T09:14:58.188771",
+  "train_no": "12366",
+  "response": {
+    "success": true,
+    "train_name": "12366 Pnbe Janshatbdi Running Status",
+    "message": "",
+    "updated_time": "Updated 38min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Ranchi",
+        "distance": "-",
+        "timing": "14:25",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Muri",
+        "distance": "66 km",
+        "timing": "15:2515:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bokaro Stl City",
+        "distance": "118 km",
+        "timing": "16:2516:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chandrapura Jn",
+        "distance": "133 km",
+        "timing": "17:0917:09",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nsc Bose J Gomo",
+        "distance": "150 km",
+        "timing": "17:3617:36",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Parasnath",
+        "distance": "168 km",
+        "timing": "17:5417:54",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hazaribagh Rd",
+        "distance": "195 km",
+        "timing": "18:1818:18",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Koderma Jn",
+        "distance": "243 km",
+        "timing": "18:4818:48",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Paharpur",
+        "distance": "287 km",
+        "timing": "19:2819:28",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gaya Jn",
+        "distance": "319 km",
+        "timing": "20:3520:35",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jehanabad",
+        "distance": "367 km",
+        "timing": "21:1021:10",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Taregna",
+        "distance": "382 km",
+        "timing": "21:2521:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patna Jn",
+        "distance": "411 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "10",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

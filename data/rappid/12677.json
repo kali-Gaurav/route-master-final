@@ -1,0 +1,138 @@
+{
+  "fetched_at": "2026-01-24T09:15:01.347815",
+  "train_no": "12677",
+  "response": {
+    "success": true,
+    "train_name": "12677 Ernakulam Exp Running Status",
+    "message": "Reached Dharmapuri at 09:20",
+    "updated_time": "Updated 5hr 22min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "KSR Bengaluru",
+        "distance": "-",
+        "timing": "06:1006:10",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bengaluru Cant",
+        "distance": "5 km",
+        "timing": "06:2506:22",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Carmelaram",
+        "distance": "25 km",
+        "timing": "06:5806:42",
+        "delay": "16min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hosur",
+        "distance": "60 km",
+        "timing": "07:5207:12",
+        "delay": "40min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": true,
+        "station_name": "Dharmapuri",
+        "distance": "152 km",
+        "timing": "08:42",
+        "delay": "40min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Salem Jn",
+        "distance": "218 km",
+        "timing": "10:05",
+        "delay": "40min",
+        "platform": "4",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sankaridurg",
+        "distance": "260 km",
+        "timing": "10:45",
+        "delay": "33min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Erode Jn",
+        "distance": "281 km",
+        "timing": "11:20",
+        "delay": "31min",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tiruppur",
+        "distance": "331 km",
+        "timing": "12:05",
+        "delay": "34min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Coimbatore Jn",
+        "distance": "381 km",
+        "timing": "13:00",
+        "delay": "24min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palakkad Jn",
+        "distance": "436 km",
+        "timing": "14:05",
+        "delay": "27min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thrisur",
+        "distance": "513 km",
+        "timing": "15:5715:23",
+        "delay": "31min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Aluva",
+        "distance": "568 km",
+        "timing": "16:4716:10",
+        "delay": "36min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ernakulam Jn",
+        "distance": "587 km",
+        "timing": "Destination",
+        "delay": "21min",
+        "platform": "3",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

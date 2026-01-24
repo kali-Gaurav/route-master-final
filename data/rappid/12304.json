@@ -1,0 +1,237 @@
+{
+  "fetched_at": "2026-01-24T09:15:17.920909",
+  "train_no": "12304",
+  "response": {
+    "success": true,
+    "train_name": "12304 Poorva Express Running Status",
+    "message": "",
+    "updated_time": "Updated 1min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "-",
+        "timing": "17:4017:40",
+        "delay": "On Time",
+        "platform": "14",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Aligarh Jn",
+        "distance": "132 km",
+        "timing": "19:1519:15",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tundla Jn",
+        "distance": "210 km",
+        "timing": "20:1520:15",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Etawah Jn",
+        "distance": "302 km",
+        "timing": "21:1021:10",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanpur Central",
+        "distance": "441 km",
+        "timing": "23:0523:05",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Prayagraj Jn.",
+        "distance": "636 km",
+        "timing": "01:2001:20",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dd Upadhyaya Jn",
+        "distance": "788 km",
+        "timing": "03:4503:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Buxar",
+        "distance": "882 km",
+        "timing": "05:0505:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ara Jn",
+        "distance": "951 km",
+        "timing": "05:5005:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Danapur",
+        "distance": "990 km",
+        "timing": "06:2406:24",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patna Jn",
+        "distance": "1000 km",
+        "timing": "06:5506:55",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bakhtiyarpur Jn",
+        "distance": "1046 km",
+        "timing": "07:3607:36",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barh",
+        "distance": "1064 km",
+        "timing": "07:5107:51",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mokameh Jn",
+        "distance": "1089 km",
+        "timing": "08:1208:12",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kiul Jn",
+        "distance": "1123 km",
+        "timing": "09:1009:10",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jamui",
+        "distance": "1151 km",
+        "timing": "09:4109:41",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jhajha",
+        "distance": "1177 km",
+        "timing": "11:0011:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jasidih Jn",
+        "distance": "1221 km",
+        "timing": "11:3511:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "4min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Madhupur Jn",
+        "distance": "1250 km",
+        "timing": "11:5711:57",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jamtara",
+        "distance": "1292 km",
+        "timing": "12:2912:29",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chittaranjan",
+        "distance": "1307 km",
+        "timing": "12:4212:42",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Asansol Jn",
+        "distance": "1332 km",
+        "timing": "13:2613:26",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Durgapur",
+        "distance": "1374 km",
+        "timing": "13:5613:56",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barddhaman Jn",
+        "distance": "1437 km",
+        "timing": "15:0515:05",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Howrah Jn",
+        "distance": "1531 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "14",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

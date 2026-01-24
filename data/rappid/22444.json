@@ -1,0 +1,210 @@
+{
+  "fetched_at": "2026-01-24T09:14:55.843927",
+  "train_no": "22444",
+  "response": {
+    "success": true,
+    "train_name": "22444 Bdts Kanpur Sup Running Status",
+    "message": "Reached Kanpur Central at 06:57",
+    "updated_time": "Updated 7hr 46min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Bandra Terminus",
+        "distance": "-",
+        "timing": "05:1705:10",
+        "delay": "7min",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Borivali",
+        "distance": "19 km",
+        "timing": "05:4805:33",
+        "delay": "15min",
+        "platform": "8",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vapi",
+        "distance": "159 km",
+        "timing": "07:2607:12",
+        "delay": "14min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Surat",
+        "distance": "252 km",
+        "timing": "08:3908:35",
+        "delay": "4min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bharuch Jn",
+        "distance": "311 km",
+        "timing": "09:4609:24",
+        "delay": "22min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vadodara Jn",
+        "distance": "381 km",
+        "timing": "11:0310:50",
+        "delay": "13min",
+        "platform": "4",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Godhra Jn",
+        "distance": "455 km",
+        "timing": "12:1712:00",
+        "delay": "17min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "642 km",
+        "timing": "14:4914:40",
+        "delay": "9min",
+        "platform": "5",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagda Jn",
+        "distance": "684 km",
+        "timing": "15:4515:45",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "909 km",
+        "timing": "18:4118:20",
+        "delay": "21min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sawai Madhopur",
+        "distance": "1017 km",
+        "timing": "19:4819:30",
+        "delay": "18min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bharatpur Jn",
+        "distance": "1199 km",
+        "timing": "21:5321:50",
+        "delay": "3min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mathura Jn",
+        "distance": "1261 km",
+        "timing": "23:5723:55",
+        "delay": "2min",
+        "platform": "9",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mathura Cant",
+        "distance": "1263 km",
+        "timing": "00:2500:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hathras City",
+        "distance": "1303 km",
+        "timing": "01:2401:00",
+        "delay": "24min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kasganj",
+        "distance": "1366 km",
+        "timing": "02:3301:55",
+        "delay": "38min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Farrukhabad",
+        "distance": "1474 km",
+        "timing": "04:0203:35",
+        "delay": "27min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Fatehgarh",
+        "distance": "1479 km",
+        "timing": "04:1603:58",
+        "delay": "18min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kannauj",
+        "distance": "1533 km",
+        "timing": "04:5904:45",
+        "delay": "14min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bilhaur",
+        "distance": "1558 km",
+        "timing": "05:2505:17",
+        "delay": "8min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanpur Anwrganj",
+        "distance": "1611 km",
+        "timing": "06:4306:42",
+        "delay": "1min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanpur Central",
+        "distance": "1613 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

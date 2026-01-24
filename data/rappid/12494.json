@@ -1,0 +1,147 @@
+{
+  "fetched_at": "2026-01-24T09:15:27.530194",
+  "train_no": "12494",
+  "response": {
+    "success": true,
+    "train_name": "12494 Darshan Express Running Status",
+    "message": "Crossed Vasai Road at 14:17",
+    "updated_time": "Updated 11min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "H Nizamuddin",
+        "distance": "-",
+        "timing": "21:4521:40",
+        "delay": "5min",
+        "platform": "7",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "458 km",
+        "timing": "02:4402:30",
+        "delay": "14min",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "724 km",
+        "timing": "06:0805:55",
+        "delay": "13min",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vadodara Jn",
+        "distance": "986 km",
+        "timing": "09:3509:32",
+        "delay": "3min",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Surat",
+        "distance": "1115 km",
+        "timing": "11:2711:22",
+        "delay": "5min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vapi",
+        "distance": "1207 km",
+        "timing": "12:4412:25",
+        "delay": "19min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vasai Road",
+        "distance": "1330 km",
+        "timing": "14:1714:10",
+        "delay": "7min",
+        "platform": "7",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalyan Jn",
+        "distance": "1382 km",
+        "timing": "15:2615:20",
+        "delay": "5min",
+        "platform": "6",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lonavala",
+        "distance": "1456 km",
+        "timing": "17:0917:00",
+        "delay": "7min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pune Jn",
+        "distance": "1520 km",
+        "timing": "18:5818:40",
+        "delay": "7min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jejuri",
+        "distance": "1578 km",
+        "timing": "20:1219:50",
+        "delay": "23min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Satara",
+        "distance": "1666 km",
+        "timing": "21:5221:45",
+        "delay": "4min",
+        "platform": "4",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karad",
+        "distance": "1724 km",
+        "timing": "23:0122:40",
+        "delay": "21min",
+        "platform": "3",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sangli",
+        "distance": "1792 km",
+        "timing": "00:0523:55",
+        "delay": "7min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Miraj Jn",
+        "distance": "1799 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

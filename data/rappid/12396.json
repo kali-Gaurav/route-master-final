@@ -1,0 +1,165 @@
+{
+  "fetched_at": "2026-01-24T09:15:03.023083",
+  "train_no": "12396",
+  "response": {
+    "success": true,
+    "train_name": "12396 Ziyarat Express Running Status",
+    "message": "Reached Rajendranagar T at 23:46",
+    "updated_time": "Updated 14hr 43min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Ajmer Jn",
+        "distance": "-",
+        "timing": "00:4500:45",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kishangarh",
+        "distance": "26 km",
+        "timing": "01:1501:12",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jaipur",
+        "distance": "135 km",
+        "timing": "02:5102:35",
+        "delay": "16min",
+        "platform": "5",
+        "halt": "13min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Durgapura",
+        "distance": "142 km",
+        "timing": "03:0902:50",
+        "delay": "19min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bansthali Niwai",
+        "distance": "201 km",
+        "timing": "03:5003:32",
+        "delay": "18min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sawai Madhopur",
+        "distance": "266 km",
+        "timing": "05:1005:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "31min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Idgah Agra Jn",
+        "distance": "490 km",
+        "timing": "09:0008:45",
+        "delay": "15min",
+        "platform": "1",
+        "halt": "13min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tundla Jn",
+        "distance": "514 km",
+        "timing": "10:5110:45",
+        "delay": "6min",
+        "platform": "7",
+        "halt": "24min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Firozabad",
+        "distance": "531 km",
+        "timing": "11:1511:08",
+        "delay": "7min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Govindpuri",
+        "distance": "742 km",
+        "timing": "14:0114:00",
+        "delay": "1min",
+        "platform": "3",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Prayagraj Jn.",
+        "distance": "938 km",
+        "timing": "16:5116:50",
+        "delay": "1min",
+        "platform": "4",
+        "halt": "12min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dd Upadhyaya Jn",
+        "distance": "1090 km",
+        "timing": "19:3419:25",
+        "delay": "9min",
+        "platform": "3",
+        "halt": "9min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Buxar",
+        "distance": "1184 km",
+        "timing": "20:5020:34",
+        "delay": "16min",
+        "platform": "1",
+        "halt": "6min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ara Jn",
+        "distance": "1253 km",
+        "timing": "21:5221:39",
+        "delay": "13min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Danapur",
+        "distance": "1292 km",
+        "timing": "23:0522:16",
+        "delay": "49min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patna Jn",
+        "distance": "1302 km",
+        "timing": "23:3322:45",
+        "delay": "48min",
+        "platform": "6",
+        "halt": "8min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rajendranagar T",
+        "distance": "1304 km",
+        "timing": "Destination",
+        "delay": "16min",
+        "platform": "2",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

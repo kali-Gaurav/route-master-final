@@ -1,0 +1,111 @@
+{
+  "fetched_at": "2026-01-24T09:14:58.271759",
+  "train_no": "12932",
+  "response": {
+    "success": true,
+    "train_name": "12932 Mmct Doubledecke Running Status",
+    "message": "Reached Mumbai Central at 13:12",
+    "updated_time": "Updated 1hr 30min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Ahmedabad Jn",
+        "distance": "-",
+        "timing": "05:5905:45",
+        "delay": "14min",
+        "platform": "8",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nadiad Jn",
+        "distance": "46 km",
+        "timing": "06:4906:17",
+        "delay": "32min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anand Jn",
+        "distance": "64 km",
+        "timing": "07:0306:41",
+        "delay": "22min",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vadodara Jn",
+        "distance": "100 km",
+        "timing": "07:3307:13",
+        "delay": "20min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bharuch Jn",
+        "distance": "170 km",
+        "timing": "08:1908:05",
+        "delay": "14min",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Surat",
+        "distance": "229 km",
+        "timing": "09:2209:12",
+        "delay": "10min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Navsari",
+        "distance": "259 km",
+        "timing": "09:5109:30",
+        "delay": "21min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Valsad",
+        "distance": "298 km",
+        "timing": "10:2210:05",
+        "delay": "17min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vapi",
+        "distance": "322 km",
+        "timing": "10:4510:22",
+        "delay": "23min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Borivali",
+        "distance": "462 km",
+        "timing": "12:3412:10",
+        "delay": "24min",
+        "platform": "7",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mumbai Central",
+        "distance": "491 km",
+        "timing": "Destination",
+        "delay": "7min",
+        "platform": "5",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

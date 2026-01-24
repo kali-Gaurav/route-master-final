@@ -1,0 +1,336 @@
+{
+  "fetched_at": "2026-01-24T09:15:26.323244",
+  "train_no": "12466",
+  "response": {
+    "success": true,
+    "train_name": "12466 Ranthambore Exp Running Status",
+    "message": "Crossed Kota Jn at 14:27",
+    "updated_time": "Updated 1min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Bhagat Ki Kothi",
+        "distance": "-",
+        "timing": "04:5304:40",
+        "delay": "13min",
+        "platform": "3",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jodhpur Jn",
+        "distance": "4 km",
+        "timing": "05:1305:00",
+        "delay": "13min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raika Bagh",
+        "distance": "6 km",
+        "timing": "05:2105:08",
+        "delay": "13min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gotan",
+        "distance": "88 km",
+        "timing": "06:0906:00",
+        "delay": "9min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Merta Road Junction",
+        "distance": "108 km",
+        "timing": "06:2606:22",
+        "delay": "4min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ren",
+        "distance": "125 km",
+        "timing": "07:0006:37",
+        "delay": "23min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Degana Jn",
+        "distance": "153 km",
+        "timing": "07:2407:13",
+        "delay": "11min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Makrana Jn",
+        "distance": "197 km",
+        "timing": "07:5507:45",
+        "delay": "10min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kuchaman City",
+        "distance": "211 km",
+        "timing": "08:1207:58",
+        "delay": "14min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nawa City",
+        "distance": "226 km",
+        "timing": "08:3608:16",
+        "delay": "20min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sambhar Lake",
+        "distance": "254 km",
+        "timing": "08:5908:48",
+        "delay": "11min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Phulera Jn",
+        "distance": "262 km",
+        "timing": "09:1509:02",
+        "delay": "13min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jaipur",
+        "distance": "316 km",
+        "timing": "10:1610:02",
+        "delay": "14min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Durgapura",
+        "distance": "324 km",
+        "timing": "10:2910:17",
+        "delay": "12min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bansthali Niwai",
+        "distance": "382 km",
+        "timing": "11:1311:02",
+        "delay": "11min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Isarda",
+        "distance": "408 km",
+        "timing": "11:3911:23",
+        "delay": "16min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chauth Ka Brwra",
+        "distance": "426 km",
+        "timing": "11:5811:39",
+        "delay": "19min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sawai Madhopur",
+        "distance": "448 km",
+        "timing": "12:4712:45",
+        "delay": "2min",
+        "platform": "4",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Indargarh",
+        "distance": "484 km",
+        "timing": "13:2113:10",
+        "delay": "11min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lakheri",
+        "distance": "495 km",
+        "timing": "13:3413:22",
+        "delay": "12min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KAPREN",
+        "distance": "522 km",
+        "timing": "13:5413:41",
+        "delay": "13min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "555 km",
+        "timing": "14:2714:20",
+        "delay": "7min",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "NEW KOTA",
+        "distance": "565 km",
+        "timing": "14:4714:32",
+        "delay": "15min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dara",
+        "distance": "603 km",
+        "timing": "15:4315:00",
+        "delay": "44min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ramganj Mandi",
+        "distance": "628 km",
+        "timing": "16:0615:20",
+        "delay": "46min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhawani Mandi",
+        "distance": "656 km",
+        "timing": "16:2815:40",
+        "delay": "47min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Garot",
+        "distance": "678 km",
+        "timing": "16:4615:57",
+        "delay": "49min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shamgarh",
+        "distance": "689 km",
+        "timing": "16:5916:10",
+        "delay": "49min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Suwasra",
+        "distance": "703 km",
+        "timing": "17:1216:22",
+        "delay": "50min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chau Mahla",
+        "distance": "718 km",
+        "timing": "17:2516:35",
+        "delay": "50min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vikramgarh Alot",
+        "distance": "741 km",
+        "timing": "17:4317:00",
+        "delay": "43min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mahidpur Road",
+        "distance": "764 km",
+        "timing": "18:0817:25",
+        "delay": "43min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagda Jn",
+        "distance": "780 km",
+        "timing": "18:5418:25",
+        "delay": "15min",
+        "platform": "2",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ujjain Jn",
+        "distance": "835 km",
+        "timing": "19:4719:20",
+        "delay": "26min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dewas",
+        "distance": "876 km",
+        "timing": "20:2219:58",
+        "delay": "23min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Indore Jn Bg",
+        "distance": "915 km",
+        "timing": "Destination",
+        "delay": "15min",
+        "platform": "5",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

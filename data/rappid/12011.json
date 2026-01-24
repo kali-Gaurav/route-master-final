@@ -1,0 +1,75 @@
+{
+  "fetched_at": "2026-01-24T09:15:05.344948",
+  "train_no": "12011",
+  "response": {
+    "success": true,
+    "train_name": "12011 Klk Shatabadi Running Status",
+    "message": "Reached Kalka at 11:45",
+    "updated_time": "Updated 2hr 57min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "-",
+        "timing": "07:5207:40",
+        "delay": "12min",
+        "platform": "2",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sonipat",
+        "distance": "45 km",
+        "timing": "08:3408:20",
+        "delay": "14min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Panipat Jn",
+        "distance": "90 km",
+        "timing": "09:0408:50",
+        "delay": "14min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kurukshetra Jn",
+        "distance": "157 km",
+        "timing": "09:5209:32",
+        "delay": "20min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ambala Cant Jn",
+        "distance": "199 km",
+        "timing": "10:2710:24",
+        "delay": "3min",
+        "platform": "7",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chandigarh",
+        "distance": "266 km",
+        "timing": "11:1511:07",
+        "delay": "8min",
+        "platform": "2",
+        "halt": "8min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalka",
+        "distance": "303 km",
+        "timing": "Destination",
+        "delay": "5min",
+        "platform": "3",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

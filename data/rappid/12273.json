@@ -1,0 +1,75 @@
+{
+  "fetched_at": "2026-01-24T09:14:55.538273",
+  "train_no": "12273",
+  "response": {
+    "success": true,
+    "train_name": "12273 Ndls Duronto Ex Running Status",
+    "message": "",
+    "updated_time": "Updated 69hr 49min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Howrah Jn",
+        "distance": "-",
+        "timing": "08:4508:45",
+        "delay": "On Time",
+        "platform": "9",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Asansol Jn",
+        "distance": "200 km",
+        "timing": "10:5510:55",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jasidih Jn",
+        "distance": "311 km",
+        "timing": "12:1012:10",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patna Jn",
+        "distance": "532 km",
+        "timing": "16:1016:10",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dd Upadhyaya Jn",
+        "distance": "744 km",
+        "timing": "20:1520:15",
+        "delay": "On Time",
+        "platform": "8",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanpur Central",
+        "distance": "1091 km",
+        "timing": "00:5500:55",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "1531 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "8",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

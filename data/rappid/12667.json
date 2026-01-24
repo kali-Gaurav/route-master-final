@@ -1,0 +1,129 @@
+{
+  "fetched_at": "2026-01-24T09:15:24.119645",
+  "train_no": "12667",
+  "response": {
+    "success": true,
+    "train_name": "12667 Ms Cape Sf Exp Running Status",
+    "message": "Reached Kanyakumari at 07:04",
+    "updated_time": "Updated 43min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Tambaram",
+        "distance": "25 km",
+        "timing": "19:3219:30",
+        "delay": "2min",
+        "platform": "9",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chengalpattu",
+        "distance": "56 km",
+        "timing": "20:0820:00",
+        "delay": "8min",
+        "platform": "6",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Melmaruvattur",
+        "distance": "92 km",
+        "timing": "20:4520:25",
+        "delay": "20min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Villupuram Jn",
+        "distance": "159 km",
+        "timing": "21:4621:45",
+        "delay": "1min",
+        "platform": "4",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vridhachalam Jn",
+        "distance": "213 km",
+        "timing": "22:2922:28",
+        "delay": "1min",
+        "platform": "3",
+        "halt": "8min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tiruchchirapali",
+        "distance": "336 km",
+        "timing": "00:3000:30",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "27min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dindigul Jn",
+        "distance": "431 km",
+        "timing": "01:4301:35",
+        "delay": "8min",
+        "platform": "4",
+        "halt": "6min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Madurai Jn",
+        "distance": "497 km",
+        "timing": "02:4702:35",
+        "delay": "12min",
+        "platform": "2",
+        "halt": "8min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Virudunagar Jn",
+        "distance": "540 km",
+        "timing": "03:2503:10",
+        "delay": "15min",
+        "platform": "3",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Satur",
+        "distance": "567 km",
+        "timing": "03:4503:30",
+        "delay": "15min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tirunelveli",
+        "distance": "653 km",
+        "timing": "05:0105:00",
+        "delay": "1min",
+        "platform": "2",
+        "halt": "13min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagercoil Jn",
+        "distance": "727 km",
+        "timing": "06:4506:30",
+        "delay": "15min",
+        "platform": "1",
+        "halt": "36min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanyakumari",
+        "distance": "742 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

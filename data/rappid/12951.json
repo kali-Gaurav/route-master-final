@@ -1,0 +1,84 @@
+{
+  "fetched_at": "2026-01-24T09:15:05.545932",
+  "train_no": "12951",
+  "response": {
+    "success": true,
+    "train_name": "12951 Ndls Tejas Raj Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 35min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Mumbai Central",
+        "distance": "-",
+        "timing": "17:0017:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Borivali",
+        "distance": "30 km",
+        "timing": "17:2217:22",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Surat",
+        "distance": "263 km",
+        "timing": "19:4819:48",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vadodara Jn",
+        "distance": "392 km",
+        "timing": "21:1621:16",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "653 km",
+        "timing": "00:2800:28",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagda Jn",
+        "distance": "695 km",
+        "timing": "01:1001:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "920 km",
+        "timing": "03:2003:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "1384 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

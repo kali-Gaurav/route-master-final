@@ -1,0 +1,120 @@
+{
+  "fetched_at": "2026-01-24T09:15:15.390726",
+  "train_no": "22863",
+  "response": {
+    "success": true,
+    "train_name": "22863 Smvb Sf Ac Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 13hr 31min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Howrah Jn",
+        "distance": "-",
+        "timing": "10:3010:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kharagpur Jn",
+        "distance": "116 km",
+        "timing": "12:1012:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Balasore",
+        "distance": "234 km",
+        "timing": "13:3013:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Cuttack",
+        "distance": "412 km",
+        "timing": "15:4715:47",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhubaneswar",
+        "distance": "439 km",
+        "timing": "16:2516:25",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khurda Road Jn",
+        "distance": "458 km",
+        "timing": "17:0017:00",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Brahmapur",
+        "distance": "605 km",
+        "timing": "18:3218:32",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vizianagram Jn",
+        "distance": "821 km",
+        "timing": "22:1522:15",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vijayawada Jn",
+        "distance": "1218 km",
+        "timing": "04:2004:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Renigunta Jn",
+        "distance": "1594 km",
+        "timing": "10:0010:00",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katpadi Jn",
+        "distance": "1727 km",
+        "timing": "12:0312:03",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Smvt Bengaluru",
+        "distance": "1950 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

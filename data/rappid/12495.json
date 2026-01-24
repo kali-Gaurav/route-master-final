@@ -1,0 +1,201 @@
+{
+  "fetched_at": "2026-01-24T09:14:53.188185",
+  "train_no": "12495",
+  "response": {
+    "success": true,
+    "train_name": "12495 Pratap Express Running Status",
+    "message": "Reached Kolkata Chitpur at 13:03",
+    "updated_time": "Updated 25hr 39min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Bikaner Jn",
+        "distance": "-",
+        "timing": "06:1706:00",
+        "delay": "17min",
+        "platform": "3",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nokha",
+        "distance": "65 km",
+        "timing": "07:0306:46",
+        "delay": "17min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagaur",
+        "distance": "116 km",
+        "timing": "07:3907:22",
+        "delay": "17min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Degana Jn",
+        "distance": "218 km",
+        "timing": "08:5708:42",
+        "delay": "15min",
+        "platform": "3",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Makrana Jn",
+        "distance": "262 km",
+        "timing": "09:4109:15",
+        "delay": "26min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jaipur",
+        "distance": "382 km",
+        "timing": "11:3711:35",
+        "delay": "2min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bandikui Jn",
+        "distance": "472 km",
+        "timing": "13:0613:05",
+        "delay": "1min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bharatpur Jn",
+        "distance": "569 km",
+        "timing": "14:3314:10",
+        "delay": "23min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Achhnera Jn",
+        "distance": "596 km",
+        "timing": "14:5614:38",
+        "delay": "18min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Agra Fort",
+        "distance": "623 km",
+        "timing": "15:5215:30",
+        "delay": "22min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tundla Jn",
+        "distance": "645 km",
+        "timing": "16:4216:35",
+        "delay": "7min",
+        "platform": "7",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanpur Central",
+        "distance": "876 km",
+        "timing": "20:1619:35",
+        "delay": "41min",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Prayagraj Jn.",
+        "distance": "1071 km",
+        "timing": "22:4522:10",
+        "delay": "35min",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dd Upadhyaya Jn",
+        "distance": "1224 km",
+        "timing": "02:2802:25",
+        "delay": "3min",
+        "platform": "2",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gaya Jn",
+        "distance": "1427 km",
+        "timing": "05:2405:10",
+        "delay": "14min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Koderma Jn",
+        "distance": "1503 km",
+        "timing": "06:3406:26",
+        "delay": "8min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dhanbad Jn",
+        "distance": "1625 km",
+        "timing": "08:4508:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Asansol Jn",
+        "distance": "1684 km",
+        "timing": "10:0609:49",
+        "delay": "17min",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Durgapur",
+        "distance": "1726 km",
+        "timing": "10:3710:19",
+        "delay": "18min",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barddhaman Jn",
+        "distance": "1790 km",
+        "timing": "11:1811:15",
+        "delay": "3min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kolkata Chitpur",
+        "distance": "1887 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

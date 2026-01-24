@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-01-24T09:15:27.389872",
+  "train_no": "51028",
+  "response": {
+    "success": true,
+    "train_name": "51028 Fast Passenger Running Status",
+    "message": "",
+    "updated_time": "Updated 38hr 11min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "PANDHARPUR",
+        "distance": "-",
+        "timing": "17:2517:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "MODNIMB",
+        "distance": "30 km",
+        "timing": "17:5517:55",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kurduvadi",
+        "distance": "53 km",
+        "timing": "18:4018:40",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jeur",
+        "distance": "87 km",
+        "timing": "19:1019:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhigwan",
+        "distance": "133 km",
+        "timing": "20:1020:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Daund Jn",
+        "distance": "161 km",
+        "timing": "21:3021:30",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kedgaon",
+        "distance": "182 km",
+        "timing": "21:5221:52",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Uruli",
+        "distance": "207 km",
+        "timing": "22:0522:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pune Jn",
+        "distance": "236 km",
+        "timing": "23:0523:05",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shivajinagar",
+        "distance": "239 km",
+        "timing": "23:1423:14",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khadki",
+        "distance": "242 km",
+        "timing": "23:2023:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "DAPODI",
+        "distance": "244 km",
+        "timing": "23:2523:25",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pimpri",
+        "distance": "250 km",
+        "timing": "23:3223:32",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chinchvad",
+        "distance": "252 km",
+        "timing": "23:4023:40",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Akurdi",
+        "distance": "256 km",
+        "timing": "23:4523:45",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dehu Road",
+        "distance": "261 km",
+        "timing": "23:5523:55",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Talegaon",
+        "distance": "270 km",
+        "timing": "00:2000:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "VADGAON",
+        "distance": "274 km",
+        "timing": "00:2500:25",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KAMSHET",
+        "distance": "284 km",
+        "timing": "00:3100:31",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lonavala",
+        "distance": "300 km",
+        "timing": "01:1501:15",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khandala",
+        "distance": "304 km",
+        "timing": "01:2001:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karjat",
+        "distance": "328 km",
+        "timing": "01:5501:55",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Badlapur",
+        "distance": "360 km",
+        "timing": "02:3002:30",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ambarnath",
+        "distance": "368 km",
+        "timing": "02:4002:40",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "ULHASNAGAR",
+        "distance": "370 km",
+        "timing": "02:4502:45",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalyan Jn",
+        "distance": "374 km",
+        "timing": "02:5502:55",
+        "delay": "On Time",
+        "platform": "7",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thane",
+        "distance": "392 km",
+        "timing": "03:2003:20",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dadar",
+        "distance": "417 km",
+        "timing": "03:4503:45",
+        "delay": "On Time",
+        "platform": "13",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "C Shivaji Mah T",
+        "distance": "426 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "10",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

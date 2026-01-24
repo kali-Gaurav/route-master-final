@@ -1,0 +1,102 @@
+{
+  "fetched_at": "2026-01-24T09:15:08.764895",
+  "train_no": "12958",
+  "response": {
+    "success": true,
+    "train_name": "12958 Swran J Rajdhani Running Status",
+    "message": "",
+    "updated_time": "Updated 9min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "-",
+        "timing": "19:5519:55",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Delhi Cantt",
+        "distance": "16 km",
+        "timing": "20:2520:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gurgaon",
+        "distance": "32 km",
+        "timing": "20:4320:43",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jaipur",
+        "distance": "309 km",
+        "timing": "23:5523:55",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ajmer Jn",
+        "distance": "443 km",
+        "timing": "01:4001:40",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Falna",
+        "distance": "650 km",
+        "timing": "03:5003:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Abu Road",
+        "distance": "748 km",
+        "timing": "05:0005:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palanpur Jn",
+        "distance": "801 km",
+        "timing": "06:0006:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mahesana Jn",
+        "distance": "866 km",
+        "timing": "06:5006:50",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sabarmati Bg",
+        "distance": "929 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

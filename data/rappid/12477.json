@@ -1,0 +1,318 @@
+{
+  "fetched_at": "2026-01-24T09:15:21.323491",
+  "train_no": "12477",
+  "response": {
+    "success": true,
+    "train_name": "12477 Jam Svdk Exp Running Status",
+    "message": "Reached Shri Mata Vaishno Devi Katra at 17:41",
+    "updated_time": "Updated 45hr 1min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Jamnagar",
+        "distance": "-",
+        "timing": "08:4208:30",
+        "delay": "12min",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hapa",
+        "distance": "9 km",
+        "timing": "08:5808:46",
+        "delay": "12min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rajkot Jn",
+        "distance": "85 km",
+        "timing": "10:0910:05",
+        "delay": "4min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Wankaner Jn",
+        "distance": "127 km",
+        "timing": "10:5110:45",
+        "delay": "6min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Surendranagar",
+        "distance": "201 km",
+        "timing": "11:5111:49",
+        "delay": "2min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Viramgam Jn",
+        "distance": "267 km",
+        "timing": "12:5812:57",
+        "delay": "1min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ahmedabad Jn",
+        "distance": "332 km",
+        "timing": "14:4014:20",
+        "delay": "20min",
+        "platform": "8",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nadiad Jn",
+        "distance": "378 km",
+        "timing": "15:2315:21",
+        "delay": "2min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anand Jn",
+        "distance": "396 km",
+        "timing": "15:4515:45",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "CHHAYAPURI",
+        "distance": "428 km",
+        "timing": "16:2916:27",
+        "delay": "2min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Godhra Jn",
+        "distance": "494 km",
+        "timing": "17:1617:14",
+        "delay": "2min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dahod",
+        "distance": "569 km",
+        "timing": "18:1318:02",
+        "delay": "11min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Meghnagar",
+        "distance": "602 km",
+        "timing": "18:3518:28",
+        "delay": "7min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bamnia",
+        "distance": "637 km",
+        "timing": "19:1519:02",
+        "delay": "13min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "682 km",
+        "timing": "20:0319:55",
+        "delay": "8min",
+        "platform": "6",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagda Jn",
+        "distance": "723 km",
+        "timing": "20:4920:48",
+        "delay": "1min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vikramgarh Alot",
+        "distance": "763 km",
+        "timing": "21:1821:15",
+        "delay": "3min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhawani Mandi",
+        "distance": "848 km",
+        "timing": "22:0722:05",
+        "delay": "2min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ramganj Mandi",
+        "distance": "876 km",
+        "timing": "22:3622:25",
+        "delay": "11min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "948 km",
+        "timing": "23:3823:25",
+        "delay": "13min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sawai Madhopur",
+        "distance": "1056 km",
+        "timing": "00:4900:35",
+        "delay": "14min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bharatpur Jn",
+        "distance": "1239 km",
+        "timing": "02:4702:30",
+        "delay": "17min",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mathura Jn",
+        "distance": "1272 km",
+        "timing": "03:1503:15",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "H Nizamuddin",
+        "distance": "1406 km",
+        "timing": "05:1405:05",
+        "delay": "9min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "1413 km",
+        "timing": "06:0105:40",
+        "delay": "21min",
+        "platform": "8",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Panipat Jn",
+        "distance": "1502 km",
+        "timing": "07:2807:15",
+        "delay": "13min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ambala Cant Jn",
+        "distance": "1611 km",
+        "timing": "09:2508:52",
+        "delay": "33min",
+        "platform": "7",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ludhiana Jn",
+        "distance": "1725 km",
+        "timing": "11:0910:25",
+        "delay": "44min",
+        "platform": "7",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jalandhar Cant",
+        "distance": "1777 km",
+        "timing": "12:0411:16",
+        "delay": "48min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "PATHANKOT CANTT",
+        "distance": "1890 km",
+        "timing": "13:3313:03",
+        "delay": "30min",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kathua",
+        "distance": "1913 km",
+        "timing": "14:0813:33",
+        "delay": "35min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jammu Tawi",
+        "distance": "1989 km",
+        "timing": "15:4614:55",
+        "delay": "51min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Martyr Captain Tushar Mahajan",
+        "distance": "2042 km",
+        "timing": "17:0016:35",
+        "delay": "25min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shri Mata Vaishno Devi Katra",
+        "distance": "2067 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "fetched_at": "2026-01-24T09:15:08.474926",
+  "train_no": "12866",
+  "response": {
+    "success": true,
+    "train_name": "12866 Lalmati Express Running Status",
+    "message": "",
+    "updated_time": "Updated 13hr 33min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Purulia Jn",
+        "distance": "-",
+        "timing": "14:4014:40",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barabhum",
+        "distance": "31 km",
+        "timing": "15:0815:08",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chandil Jn",
+        "distance": "54 km",
+        "timing": "15:3315:33",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tatanagar Jn",
+        "distance": "88 km",
+        "timing": "16:2516:25",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghatsila",
+        "distance": "125 km",
+        "timing": "16:5816:58",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chakulia",
+        "distance": "155 km",
+        "timing": "17:2017:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jhargram",
+        "distance": "184 km",
+        "timing": "17:4017:40",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kharagpur Jn",
+        "distance": "222 km",
+        "timing": "18:2318:23",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Howrah Jn",
+        "distance": "337 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "fetched_at": "2026-01-24T09:15:21.954692",
+  "train_no": "12801",
+  "response": {
+    "success": true,
+    "train_name": "12801 Purushottam Sf Running Status",
+    "message": "",
+    "updated_time": "Updated 33min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Puri",
+        "distance": "-",
+        "timing": "21:5521:55",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khurda Road Jn",
+        "distance": "44 km",
+        "timing": "22:3522:35",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhubaneswar",
+        "distance": "63 km",
+        "timing": "23:0023:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Cuttack",
+        "distance": "91 km",
+        "timing": "23:3023:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jajpur K Road",
+        "distance": "163 km",
+        "timing": "00:2500:25",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhadrak",
+        "distance": "206 km",
+        "timing": "01:2001:20",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Balasore",
+        "distance": "268 km",
+        "timing": "02:0002:00",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hijli",
+        "distance": "380 km",
+        "timing": "03:4003:40",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghatsila",
+        "distance": "478 km",
+        "timing": "04:5204:52",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tatanagar Jn",
+        "distance": "515 km",
+        "timing": "06:2206:22",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chandil Jn",
+        "distance": "551 km",
+        "timing": "07:2507:25",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barabhum",
+        "distance": "573 km",
+        "timing": "07:4507:45",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Purulia Jn",
+        "distance": "605 km",
+        "timing": "08:2008:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bokaro Stl City",
+        "distance": "666 km",
+        "timing": "09:4509:45",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chandrapura Jn",
+        "distance": "681 km",
+        "timing": "10:2810:28",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nsc Bose J Gomo",
+        "distance": "698 km",
+        "timing": "10:5510:55",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Parasnath",
+        "distance": "716 km",
+        "timing": "11:1011:10",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hazaribagh Rd",
+        "distance": "743 km",
+        "timing": "11:3211:32",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Koderma Jn",
+        "distance": "791 km",
+        "timing": "12:0212:02",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Paharpur",
+        "distance": "835 km",
+        "timing": "12:3812:38",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gaya Jn",
+        "distance": "868 km",
+        "timing": "13:4013:40",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anugraha N Road",
+        "distance": "936 km",
+        "timing": "14:2614:26",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dehri On Sone",
+        "distance": "953 km",
+        "timing": "14:4214:42",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sasaram",
+        "distance": "971 km",
+        "timing": "14:5814:58",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhabua Road",
+        "distance": "1018 km",
+        "timing": "15:2615:26",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dd Upadhyaya Jn",
+        "distance": "1071 km",
+        "timing": "16:5516:55",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chunar",
+        "distance": "1102 km",
+        "timing": "17:4017:40",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mirzapur",
+        "distance": "1133 km",
+        "timing": "18:0518:05",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Prayagraj Jn.",
+        "distance": "1223 km",
+        "timing": "19:3019:30",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Fatehpur",
+        "distance": "1340 km",
+        "timing": "20:4020:40",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Govindpuri",
+        "distance": "1419 km",
+        "timing": "22:0522:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghaziabad",
+        "distance": "1831 km",
+        "timing": "03:2003:20",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anand Vihar Trm",
+        "distance": "1843 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

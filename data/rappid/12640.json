@@ -1,0 +1,138 @@
+{
+  "fetched_at": "2026-01-24T09:15:04.329958",
+  "train_no": "12640",
+  "response": {
+    "success": true,
+    "train_name": "12640 Brindavan Sf Ex Running Status",
+    "message": "",
+    "updated_time": "Updated 4min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Ksr Bengaluru",
+        "distance": "-",
+        "timing": "15:1515:15",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bengaluru Cant",
+        "distance": "5 km",
+        "timing": "15:2615:26",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Krishnarajapurm",
+        "distance": "15 km",
+        "timing": "15:4015:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bangarapet",
+        "distance": "71 km",
+        "timing": "16:1916:19",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kuppam",
+        "distance": "105 km",
+        "timing": "16:4416:44",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jolarpettai",
+        "distance": "149 km",
+        "timing": "17:3517:35",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vaniyambadi",
+        "distance": "164 km",
+        "timing": "17:5217:52",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ambur",
+        "distance": "180 km",
+        "timing": "18:0718:07",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katpadi Jn",
+        "distance": "232 km",
+        "timing": "18:5018:50",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Walajah Road Jn",
+        "distance": "257 km",
+        "timing": "19:1019:10",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sholinghur",
+        "distance": "272 km",
+        "timing": "19:2519:25",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Arakkonam Jn",
+        "distance": "293 km",
+        "timing": "19:4519:45",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Perambur",
+        "distance": "356 km",
+        "timing": "20:3520:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mgr Chennai Ctl",
+        "distance": "362 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

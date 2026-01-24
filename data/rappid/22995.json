@@ -1,0 +1,183 @@
+{
+  "fetched_at": "2026-01-24T09:15:14.324530",
+  "train_no": "22995",
+  "response": {
+    "success": true,
+    "train_name": "22995 Mandore Express Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 27min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Old Delhi",
+        "distance": "-",
+        "timing": "21:2021:20",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Delhi Cantt",
+        "distance": "14 km",
+        "timing": "21:5021:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palam",
+        "distance": "18 km",
+        "timing": "21:5821:58",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bijwasan",
+        "distance": "24 km",
+        "timing": "22:0822:08",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gurgaon",
+        "distance": "31 km",
+        "timing": "22:1822:18",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Garhi Harsaru",
+        "distance": "41 km",
+        "timing": "22:2922:29",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pataudi Road",
+        "distance": "61 km",
+        "timing": "22:4622:46",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rewari",
+        "distance": "83 km",
+        "timing": "23:1323:13",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khairthal",
+        "distance": "130 km",
+        "timing": "23:5323:53",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Alwar",
+        "distance": "157 km",
+        "timing": "00:2100:21",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bandikui Jn",
+        "distance": "217 km",
+        "timing": "01:0801:08",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dausa",
+        "distance": "246 km",
+        "timing": "01:3201:32",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jaipur",
+        "distance": "308 km",
+        "timing": "02:3502:35",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kuchaman City",
+        "distance": "413 km",
+        "timing": "04:2404:24",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Makrana Jn",
+        "distance": "427 km",
+        "timing": "04:4004:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Degana Jn",
+        "distance": "471 km",
+        "timing": "05:1305:13",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Merta Road Junction",
+        "distance": "516 km",
+        "timing": "05:5205:52",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gotan",
+        "distance": "536 km",
+        "timing": "06:1406:14",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jodhpur Jn",
+        "distance": "620 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

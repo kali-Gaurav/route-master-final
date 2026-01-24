@@ -1,0 +1,417 @@
+{
+  "fetched_at": "2026-01-24T09:15:22.086940",
+  "train_no": "16526",
+  "response": {
+    "success": true,
+    "train_name": "16526 Kanyakumari Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 21min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Ksr Bengaluru",
+        "distance": "-",
+        "timing": "20:1020:10",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bengaluru Cant",
+        "distance": "5 km",
+        "timing": "20:2220:22",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Krishnarajapurm",
+        "distance": "15 km",
+        "timing": "20:3620:36",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Whitefield",
+        "distance": "24 km",
+        "timing": "20:4620:46",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Malur",
+        "distance": "44 km",
+        "timing": "21:0221:02",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bangarapet",
+        "distance": "71 km",
+        "timing": "21:2421:24",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kuppam",
+        "distance": "105 km",
+        "timing": "21:5021:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tirupattur Jn",
+        "distance": "156 km",
+        "timing": "22:5522:55",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Salem Jn",
+        "distance": "269 km",
+        "timing": "00:2500:25",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Erode Jn",
+        "distance": "331 km",
+        "timing": "01:2501:25",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Coimbatore Jn",
+        "distance": "432 km",
+        "timing": "03:0003:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palakkad Jn",
+        "distance": "487 km",
+        "timing": "04:2004:20",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ottappalam",
+        "distance": "518 km",
+        "timing": "04:4504:45",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Wadakancheri",
+        "distance": "547 km",
+        "timing": "05:2005:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thrisur",
+        "distance": "564 km",
+        "timing": "05:4305:43",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pudukad",
+        "distance": "577 km",
+        "timing": "05:5805:58",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Irinjalakuda",
+        "distance": "587 km",
+        "timing": "06:1106:11",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chalakudi",
+        "distance": "594 km",
+        "timing": "06:1806:18",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Angamali",
+        "distance": "609 km",
+        "timing": "06:3606:36",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Aluva",
+        "distance": "618 km",
+        "timing": "06:5006:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ernakulam Town",
+        "distance": "635 km",
+        "timing": "07:1507:15",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Triupunittura",
+        "distance": "647 km",
+        "timing": "07:3407:34",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Piravam Road",
+        "distance": "666 km",
+        "timing": "07:5407:54",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kottayam",
+        "distance": "697 km",
+        "timing": "08:2508:25",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Changanaseri",
+        "distance": "715 km",
+        "timing": "08:4108:41",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tiruvalla",
+        "distance": "723 km",
+        "timing": "08:5108:51",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chengannur",
+        "distance": "732 km",
+        "timing": "09:0209:02",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mavelikara",
+        "distance": "744 km",
+        "timing": "09:1409:14",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kayankulam Jn",
+        "distance": "752 km",
+        "timing": "09:2609:26",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karunagapalli",
+        "distance": "766 km",
+        "timing": "09:4109:41",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sasthankotta",
+        "distance": "773 km",
+        "timing": "09:5109:51",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kollam Jn",
+        "distance": "793 km",
+        "timing": "10:1310:13",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Paravur",
+        "distance": "805 km",
+        "timing": "10:2610:26",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Varkalasivagiri",
+        "distance": "817 km",
+        "timing": "10:3810:38",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kadakavur",
+        "distance": "826 km",
+        "timing": "10:4910:49",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chirayinkeezh",
+        "distance": "829 km",
+        "timing": "10:5510:55",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kazhakuttam",
+        "distance": "844 km",
+        "timing": "11:1111:11",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Trivandrum Pett",
+        "distance": "855 km",
+        "timing": "11:2511:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Trivandrum Cntl",
+        "distance": "858 km",
+        "timing": "11:5511:55",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Neyyattinkara",
+        "distance": "875 km",
+        "timing": "12:2012:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Parashshala",
+        "distance": "887 km",
+        "timing": "12:3512:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kulitthurai",
+        "distance": "895 km",
+        "timing": "12:4512:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Eraniel",
+        "distance": "910 km",
+        "timing": "13:0513:05",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagercoil Jn",
+        "distance": "929 km",
+        "timing": "13:4313:43",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanyakumari",
+        "distance": "944 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

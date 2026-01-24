@@ -1,0 +1,255 @@
+{
+  "fetched_at": "2026-01-24T09:37:42.294311",
+  "train_no": "16004",
+  "response": {
+    "success": true,
+    "train_name": "16004 Nsl Mas Wkly Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 41hr 16min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Nagarsol",
+        "distance": "-",
+        "timing": "13:3013:30",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "C SAMBHAJINAGAR",
+        "distance": "89 km",
+        "timing": "14:5014:50",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jalna",
+        "distance": "152 km",
+        "timing": "16:0016:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Parbhani Jn",
+        "distance": "267 km",
+        "timing": "18:0018:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Purna Jn",
+        "distance": "295 km",
+        "timing": "18:5018:50",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "H Sahib Nanded",
+        "distance": "326 km",
+        "timing": "19:3019:30",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mudkhed",
+        "distance": "348 km",
+        "timing": "20:0520:05",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Basar",
+        "distance": "407 km",
+        "timing": "21:0021:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nizamabad Jn",
+        "distance": "436 km",
+        "timing": "21:2521:25",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kamareddi",
+        "distance": "488 km",
+        "timing": "22:1522:15",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Malkajgiri",
+        "distance": "593 km",
+        "timing": "00:1500:15",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kacheguda",
+        "distance": "602 km",
+        "timing": "01:1001:10",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mahbubnagar",
+        "distance": "707 km",
+        "timing": "02:4002:40",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gadwal",
+        "distance": "782 km",
+        "timing": "04:1004:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kurnool City",
+        "distance": "838 km",
+        "timing": "05:4005:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dhone",
+        "distance": "891 km",
+        "timing": "07:0007:00",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gooty",
+        "distance": "947 km",
+        "timing": "08:0008:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tadipatri",
+        "distance": "994 km",
+        "timing": "08:4008:40",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Yerraguntla",
+        "distance": "1064 km",
+        "timing": "09:4009:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Cuddapah",
+        "distance": "1103 km",
+        "timing": "10:2010:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Razampeta",
+        "distance": "1154 km",
+        "timing": "11:0511:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Renigunta Jn",
+        "distance": "1228 km",
+        "timing": "12:4012:40",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Puttur",
+        "distance": "1254 km",
+        "timing": "13:0513:05",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tiruttani",
+        "distance": "1286 km",
+        "timing": "13:3513:35",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Arakkonam Jn",
+        "distance": "1300 km",
+        "timing": "14:0014:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Perambur",
+        "distance": "1363 km",
+        "timing": "14:5014:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mgr Chennai Ctl",
+        "distance": "1369 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

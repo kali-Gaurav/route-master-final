@@ -1,0 +1,237 @@
+{
+  "fetched_at": "2026-01-24T09:15:00.243133",
+  "train_no": "11902",
+  "response": {
+    "success": true,
+    "train_name": "11902 Agc Vglj Exp Running Status",
+    "message": "Reached V Lakshmibai Jhansi Jhs at 12:22",
+    "updated_time": "Updated 2hr 18min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Agra Cantt",
+        "distance": "-",
+        "timing": "06:3006:30",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhandai Jn",
+        "distance": "11 km",
+        "timing": "06:4506:44",
+        "delay": "1min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jajau",
+        "distance": "26 km",
+        "timing": "07:0006:57",
+        "delay": "3min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mania",
+        "distance": "41 km",
+        "timing": "07:1207:10",
+        "delay": "2min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dhaulpur",
+        "distance": "53 km",
+        "timing": "07:2707:27",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "4min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hetampur",
+        "distance": "67 km",
+        "timing": "07:4607:39",
+        "delay": "7min",
+        "platform": "4",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sikroda Kwanri",
+        "distance": "72 km",
+        "timing": "07:5607:47",
+        "delay": "9min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Morena",
+        "distance": "80 km",
+        "timing": "08:0807:56",
+        "delay": "12min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sank",
+        "distance": "90 km",
+        "timing": "08:2008:06",
+        "delay": "14min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nurabad",
+        "distance": "94 km",
+        "timing": "08:2608:12",
+        "delay": "14min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Banmor",
+        "distance": "100 km",
+        "timing": "08:3508:20",
+        "delay": "15min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rayaru",
+        "distance": "106 km",
+        "timing": "08:4508:27",
+        "delay": "18min",
+        "platform": "4",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Birlanagar",
+        "distance": "116 km",
+        "timing": "09:2108:37",
+        "delay": "44min",
+        "platform": "1",
+        "halt": "23min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gwalior",
+        "distance": "119 km",
+        "timing": "09:3408:45",
+        "delay": "49min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sithouli",
+        "distance": "127 km",
+        "timing": "09:4508:57",
+        "delay": "48min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Antri",
+        "distance": "141 km",
+        "timing": "10:0609:17",
+        "delay": "49min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anant Paith",
+        "distance": "151 km",
+        "timing": "10:3109:26",
+        "delay": "1hr 5min",
+        "platform": "3",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Simariatal",
+        "distance": "156 km",
+        "timing": "09:34",
+        "delay": "20min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dabra",
+        "distance": "161 km",
+        "timing": "10:4609:57",
+        "delay": "49min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kotra",
+        "distance": "171 km",
+        "timing": "10:5810:29",
+        "delay": "29min",
+        "platform": "1",
+        "halt": "-"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sonagir",
+        "distance": "180 km",
+        "timing": "11:3010:46",
+        "delay": "44min",
+        "platform": "1",
+        "halt": "23min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Datia",
+        "distance": "191 km",
+        "timing": "11:4811:02",
+        "delay": "46min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chirula",
+        "distance": "198 km",
+        "timing": "11:5711:12",
+        "delay": "45min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karari",
+        "distance": "205 km",
+        "timing": "12:0711:25",
+        "delay": "42min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "V Lakshmibai Jhansi Jhs",
+        "distance": "216 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "fetched_at": "2026-01-24T09:14:59.959290",
+  "train_no": "22630",
+  "response": {
+    "success": true,
+    "train_name": "22630 Ten Dr Sf Exp Running Status",
+    "message": "Reached Dadar at 14:48",
+    "updated_time": "Updated 47hr 48min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Tirunelveli",
+        "distance": "-",
+        "timing": "07:3107:30",
+        "delay": "1min",
+        "platform": "2",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kovilpatti",
+        "distance": "66 km",
+        "timing": "08:1908:15",
+        "delay": "4min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Virudunagar Jn",
+        "distance": "114 km",
+        "timing": "08:5308:50",
+        "delay": "3min",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Madurai Jn",
+        "distance": "157 km",
+        "timing": "09:5009:45",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "4min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dindigul Jn",
+        "distance": "223 km",
+        "timing": "10:5310:50",
+        "delay": "3min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karur",
+        "distance": "297 km",
+        "timing": "12:1311:55",
+        "delay": "18min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Erode Jn",
+        "distance": "362 km",
+        "timing": "13:2513:10",
+        "delay": "15min",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tiruppur",
+        "distance": "412 km",
+        "timing": "14:1813:55",
+        "delay": "23min",
+        "platform": "1",
+        "halt": "6min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Coimbatore Jn",
+        "distance": "463 km",
+        "timing": "15:0515:00",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palakkad Jn",
+        "distance": "517 km",
+        "timing": "16:1916:10",
+        "delay": "9min",
+        "platform": "3",
+        "halt": "4min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shoranur Jn",
+        "distance": "562 km",
+        "timing": "17:1317:05",
+        "delay": "8min",
+        "platform": "3",
+        "halt": "11min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kozhikkode",
+        "distance": "648 km",
+        "timing": "18:3418:25",
+        "delay": "9min",
+        "platform": "4",
+        "halt": "4min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kannur",
+        "distance": "737 km",
+        "timing": "19:5119:50",
+        "delay": "1min",
+        "platform": "1",
+        "halt": "6min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kasaragod",
+        "distance": "822 km",
+        "timing": "20:5320:50",
+        "delay": "3min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mangaluru Jn",
+        "distance": "869 km",
+        "timing": "22:0022:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "13min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Udupi",
+        "distance": "951 km",
+        "timing": "23:5523:38",
+        "delay": "17min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mookambika Road",
+        "distance": "1042 km",
+        "timing": "00:5100:34",
+        "delay": "17min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Honnavar",
+        "distance": "1122 km",
+        "timing": "01:4701:06",
+        "delay": "41min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karwar",
+        "distance": "1218 km",
+        "timing": "03:2602:02",
+        "delay": "1hr 24min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Madgaon",
+        "distance": "1300 km",
+        "timing": "04:5504:00",
+        "delay": "55min",
+        "platform": "1",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thivim",
+        "distance": "1365 km",
+        "timing": "06:0304:48",
+        "delay": "1hr 15min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kankavali",
+        "distance": "1479 km",
+        "timing": "07:1706:02",
+        "delay": "1hr 15min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratnagiri",
+        "distance": "1635 km",
+        "timing": "09:0208:20",
+        "delay": "42min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chiplun",
+        "distance": "1741 km",
+        "timing": "10:2209:20",
+        "delay": "1hr 2min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Roha",
+        "distance": "1920 km",
+        "timing": "12:1412:13",
+        "delay": "1min",
+        "platform": "3",
+        "halt": "9min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Panvel",
+        "distance": "1997 km",
+        "timing": "13:3113:15",
+        "delay": "16min",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thane",
+        "distance": "2031 km",
+        "timing": "14:3014:30",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dadar",
+        "distance": "2056 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "13",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

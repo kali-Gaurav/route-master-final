@@ -1,0 +1,192 @@
+{
+  "fetched_at": "2026-01-24T09:15:03.232069",
+  "train_no": "12421",
+  "response": {
+    "success": true,
+    "train_name": "12421 Ned Asr Sf Exp Running Status",
+    "message": "Reached Amritsar Jn at 21:27",
+    "updated_time": "Updated 41hr 15min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "H Sahib Nanded",
+        "distance": "-",
+        "timing": "11:0811:05",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Purna Jn",
+        "distance": "31 km",
+        "timing": "11:5811:55",
+        "delay": "3min",
+        "platform": "4",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hingoli Deccan",
+        "distance": "111 km",
+        "timing": "13:3913:00",
+        "delay": "39min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Washim",
+        "distance": "159 km",
+        "timing": "14:2013:50",
+        "delay": "30min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Akola Jn",
+        "distance": "238 km",
+        "timing": "16:0216:00",
+        "delay": "2min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shegaon",
+        "distance": "275 km",
+        "timing": "16:3016:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Malkapur",
+        "distance": "327 km",
+        "timing": "17:1917:02",
+        "delay": "17min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khandwa",
+        "distance": "501 km",
+        "timing": "20:2120:15",
+        "delay": "6min",
+        "platform": "4",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Itarsi Jn",
+        "distance": "684 km",
+        "timing": "22:4722:45",
+        "delay": "2min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhopal  Jn",
+        "distance": "783 km",
+        "timing": "01:0800:30",
+        "delay": "38min",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bina Jn",
+        "distance": "921 km",
+        "timing": "02:3202:18",
+        "delay": "14min",
+        "platform": "4",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "V Lakshmibai Jhansi Jhs",
+        "distance": "1074 km",
+        "timing": "04:2004:09",
+        "delay": "11min",
+        "platform": "5",
+        "halt": "8min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gwalior",
+        "distance": "1171 km",
+        "timing": "05:2205:11",
+        "delay": "11min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Agra Cantt",
+        "distance": "1289 km",
+        "timing": "07:2106:50",
+        "delay": "31min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "1484 km",
+        "timing": "11:5210:25",
+        "delay": "1hr 27min",
+        "platform": "4",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ludhiana Jn",
+        "distance": "1812 km",
+        "timing": "18:3316:10",
+        "delay": "2hr 23min",
+        "platform": "4",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Phagwara Jn",
+        "distance": "1848 km",
+        "timing": "19:1316:41",
+        "delay": "2hr 32min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jalandhar City",
+        "distance": "1869 km",
+        "timing": "19:3917:15",
+        "delay": "2hr 24min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Beas",
+        "distance": "1905 km",
+        "timing": "20:1217:47",
+        "delay": "2hr 25min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Amritsar Jn",
+        "distance": "1947 km",
+        "timing": "Destination",
+        "delay": "2hr 52min",
+        "platform": "2",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "fetched_at": "2026-01-24T09:15:17.223096",
+  "train_no": "12036",
+  "response": {
+    "success": true,
+    "train_name": "12036 Purangiri Janst Running Status",
+    "message": "Crossed Izzatnagar at 13:27",
+    "updated_time": "Updated 21min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Old Delhi",
+        "distance": "-",
+        "timing": "06:3406:25",
+        "delay": "9min",
+        "platform": "14",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Delhi Shahdara",
+        "distance": "7 km",
+        "timing": "06:4706:38",
+        "delay": "9min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sahibabad",
+        "distance": "14 km",
+        "timing": "07:0306:49",
+        "delay": "14min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghaziabad",
+        "distance": "20 km",
+        "timing": "07:2107:16",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pilkhua",
+        "distance": "46 km",
+        "timing": "07:4907:47",
+        "delay": "2min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hapur",
+        "distance": "57 km",
+        "timing": "08:0508:00",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Simbhooli",
+        "distance": "78 km",
+        "timing": "08:3308:18",
+        "delay": "15min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Garhmuktesar",
+        "distance": "87 km",
+        "timing": "08:4708:29",
+        "delay": "18min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gajraula Jn",
+        "distance": "108 km",
+        "timing": "09:1108:51",
+        "delay": "20min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Amroha",
+        "distance": "131 km",
+        "timing": "09:3609:13",
+        "delay": "23min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Moradabad",
+        "distance": "161 km",
+        "timing": "10:0409:55",
+        "delay": "9min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raja Ka Sahaspr",
+        "distance": "185 km",
+        "timing": "10:4010:21",
+        "delay": "19min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chandausi Jn",
+        "distance": "205 km",
+        "timing": "11:1310:56",
+        "delay": "17min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Asafpur",
+        "distance": "219 km",
+        "timing": "11:2911:10",
+        "delay": "19min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dabtara",
+        "distance": "229 km",
+        "timing": "11:3911:23",
+        "delay": "16min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karengi",
+        "distance": "235 km",
+        "timing": "11:5211:33",
+        "delay": "19min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Aonla",
+        "distance": "247 km",
+        "timing": "12:0311:48",
+        "delay": "15min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Basharatganj",
+        "distance": "259 km",
+        "timing": "12:2312:07",
+        "delay": "16min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bareilly",
+        "distance": "274 km",
+        "timing": "12:5412:52",
+        "delay": "2min",
+        "platform": "5",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bareilly City",
+        "distance": "276 km",
+        "timing": "13:1113:10",
+        "delay": "1min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Izzatnagar",
+        "distance": "281 km",
+        "timing": "13:2713:27",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pilibhit Jn",
+        "distance": "332 km",
+        "timing": "14:25",
+        "delay": "17min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khatima",
+        "distance": "371 km",
+        "timing": "15:0715:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Banbasa",
+        "distance": "385 km",
+        "timing": "15:3615:35",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tanakpur",
+        "distance": "395 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

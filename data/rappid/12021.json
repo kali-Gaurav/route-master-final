@@ -1,0 +1,111 @@
+{
+  "fetched_at": "2026-01-24T09:15:07.716176",
+  "train_no": "12021",
+  "response": {
+    "success": true,
+    "train_name": "12021 Bbn Janshatabdi Running Status",
+    "message": "Crossed Chaibasa at 13:54",
+    "updated_time": "Updated few seconds ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Howrah Jn",
+        "distance": "-",
+        "timing": "07:3306:20",
+        "delay": "1hr 13min",
+        "platform": "19",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kharagpur Jn",
+        "distance": "116 km",
+        "timing": "09:2607:55",
+        "delay": "1hr 31min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jhargram",
+        "distance": "154 km",
+        "timing": "10:2608:26",
+        "delay": "2hr",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghatsila",
+        "distance": "214 km",
+        "timing": "11:1409:03",
+        "delay": "2hr 11min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tatanagar Jn",
+        "distance": "250 km",
+        "timing": "12:3710:00",
+        "delay": "2hr 37min",
+        "platform": "3",
+        "halt": "8min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sini Jn",
+        "distance": "277 km",
+        "timing": "12:5610:25",
+        "delay": "2hr 31min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chaibasa",
+        "distance": "312 km",
+        "timing": "13:5410:55",
+        "delay": "2hr 59min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dangoaposi",
+        "distance": "367 km",
+        "timing": "14:5111:45",
+        "delay": "3hr 5min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Noamundi",
+        "distance": "375 km",
+        "timing": "15:0412:00",
+        "delay": "3hr 4min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bara Jamda",
+        "distance": "389 km",
+        "timing": "15:2512:18",
+        "delay": "3hr 6min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barabil",
+        "distance": "398 km",
+        "timing": "Destination",
+        "delay": "2hr 48min",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "fetched_at": "2026-01-24T09:15:27.370900",
+  "train_no": "16229",
+  "response": {
+    "success": true,
+    "train_name": "16229 Mys Bsb Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 84hr 12min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Mysuru Jn",
+        "distance": "-",
+        "timing": "07:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mandya",
+        "distance": "46 km",
+        "timing": "08:12",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kengeri",
+        "distance": "127 km",
+        "timing": "09:17",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ksr Bengaluru",
+        "distance": "139 km",
+        "timing": "10:05",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Yesvantpur Jn",
+        "distance": "144 km",
+        "timing": "10:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tumakuru",
+        "distance": "208 km",
+        "timing": "11:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Arsikere Jn",
+        "distance": "304 km",
+        "timing": "12:45",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kadur",
+        "distance": "343 km",
+        "timing": "13:17",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chitradurg",
+        "distance": "451 km",
+        "timing": "15:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ballari Jn",
+        "distance": "602 km",
+        "timing": "19:00",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Guntakal Jn",
+        "distance": "653 km",
+        "timing": "20:15",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Adoni",
+        "distance": "704 km",
+        "timing": "21:00",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Manthralayam Rd",
+        "distance": "745 km",
+        "timing": "21:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raichur",
+        "distance": "773 km",
+        "timing": "22:00",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Yadgir",
+        "distance": "842 km",
+        "timing": "23:00",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Wadi",
+        "distance": "881 km",
+        "timing": "00:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalaburagi",
+        "distance": "918 km",
+        "timing": "00:55",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Solapur Jn",
+        "distance": "1031 km",
+        "timing": "03:05",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Daund Jn",
+        "distance": "1218 km",
+        "timing": "06:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ahmadnagar",
+        "distance": "1302 km",
+        "timing": "08:18",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kopargaon",
+        "distance": "1413 km",
+        "timing": "10:48",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Manmad Jn",
+        "distance": "1455 km",
+        "timing": "12:40",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhusaval Jn",
+        "distance": "1639 km",
+        "timing": "15:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khandwa",
+        "distance": "1762 km",
+        "timing": "17:35",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Itarsi Jn",
+        "distance": "1946 km",
+        "timing": "20:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pipariya",
+        "distance": "2013 km",
+        "timing": "21:05",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Narsinghpur",
+        "distance": "2107 km",
+        "timing": "22:05",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jabalpur",
+        "distance": "2191 km",
+        "timing": "23:50",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katni",
+        "distance": "2282 km",
+        "timing": "01:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Maihar",
+        "distance": "2345 km",
+        "timing": "01:50",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Satna",
+        "distance": "2380 km",
+        "timing": "02:25",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Prayagrajcheoki",
+        "distance": "2549 km",
+        "timing": "05:35",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mirzapur",
+        "distance": "2630 km",
+        "timing": "06:35",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Varanasi Jn",
+        "distance": "2706 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

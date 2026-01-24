@@ -1,0 +1,264 @@
+{
+  "fetched_at": "2026-01-24T09:15:23.088142",
+  "train_no": "19808",
+  "response": {
+    "success": true,
+    "train_name": "19808 Ssa Kota Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 39min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Sirsa",
+        "distance": "-",
+        "timing": "16:1016:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhattu",
+        "distance": "36 km",
+        "timing": "16:3716:37",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mandi Adampur",
+        "distance": "53 km",
+        "timing": "16:5316:53",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hisar",
+        "distance": "82 km",
+        "timing": "17:3517:35",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Siwani",
+        "distance": "113 km",
+        "timing": "18:0318:03",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sadulpur Jn",
+        "distance": "153 km",
+        "timing": "19:2019:20",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "35min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Loharu",
+        "distance": "203 km",
+        "timing": "20:1920:19",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Surajgarh",
+        "distance": "220 km",
+        "timing": "20:3820:38",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chirawa",
+        "distance": "231 km",
+        "timing": "20:5120:51",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jhunjhunun",
+        "distance": "260 km",
+        "timing": "21:1421:14",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dundlod Mkdgrh",
+        "distance": "287 km",
+        "timing": "21:3621:36",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nawalgarh",
+        "distance": "297 km",
+        "timing": "21:5121:51",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sikar Jn",
+        "distance": "325 km",
+        "timing": "22:2022:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palsana",
+        "distance": "352 km",
+        "timing": "22:4622:46",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ringas Jn",
+        "distance": "375 km",
+        "timing": "23:1023:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chomun Samod",
+        "distance": "407 km",
+        "timing": "23:3423:34",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dahar Ka Balaji",
+        "distance": "432 km",
+        "timing": "23:5623:56",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jaipur",
+        "distance": "435 km",
+        "timing": "00:4000:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Durgapura",
+        "distance": "443 km",
+        "timing": "00:5500:55",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sanganer",
+        "distance": "447 km",
+        "timing": "01:0501:05",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bansthali Niwai",
+        "distance": "501 km",
+        "timing": "01:4401:44",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Isarda",
+        "distance": "527 km",
+        "timing": "02:0502:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chauth Ka Brwra",
+        "distance": "545 km",
+        "timing": "02:2102:21",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sawai Madhopur",
+        "distance": "567 km",
+        "timing": "03:2503:25",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Indargarh",
+        "distance": "603 km",
+        "timing": "03:5003:50",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lakheri",
+        "distance": "614 km",
+        "timing": "04:0104:01",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kapren",
+        "distance": "641 km",
+        "timing": "04:2004:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "674 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "fetched_at": "2026-01-24T09:15:24.419124",
+  "train_no": "16316",
+  "response": {
+    "success": true,
+    "train_name": "16316 Tvcn Mys Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 2min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Trivandrumnorth",
+        "distance": "-",
+        "timing": "16:4516:45",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kollam Jn",
+        "distance": "59 km",
+        "timing": "17:3817:38",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kayankulam Jn",
+        "distance": "100 km",
+        "timing": "18:2418:24",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Harippad",
+        "distance": "113 km",
+        "timing": "18:3718:37",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ambalappuzha",
+        "distance": "131 km",
+        "timing": "18:5518:55",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Alleppey",
+        "distance": "143 km",
+        "timing": "19:1519:15",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Cherthala",
+        "distance": "167 km",
+        "timing": "19:4019:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ernakulam Jn",
+        "distance": "200 km",
+        "timing": "20:3520:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Aluva",
+        "distance": "219 km",
+        "timing": "21:0021:00",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thrisur",
+        "distance": "274 km",
+        "timing": "21:5521:55",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palakkad Jn",
+        "distance": "351 km",
+        "timing": "23:2523:25",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Coimbatore Jn",
+        "distance": "405 km",
+        "timing": "00:5500:55",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tiruppur",
+        "distance": "456 km",
+        "timing": "01:4001:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Erode Jn",
+        "distance": "506 km",
+        "timing": "02:4002:40",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Salem Jn",
+        "distance": "568 km",
+        "timing": "03:4003:40",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tirupattur Jn",
+        "distance": "681 km",
+        "timing": "05:0005:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kuppam",
+        "distance": "732 km",
+        "timing": "05:5505:55",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bangarapet",
+        "distance": "767 km",
+        "timing": "06:2206:22",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Whitefield",
+        "distance": "813 km",
+        "timing": "06:5906:59",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Krishnarajapurm",
+        "distance": "823 km",
+        "timing": "07:1207:12",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bengaluru Cant",
+        "distance": "832 km",
+        "timing": "07:3007:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ksr Bengaluru",
+        "distance": "837 km",
+        "timing": "08:2508:25",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kengeri",
+        "distance": "849 km",
+        "timing": "08:4508:45",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ramanagaram",
+        "distance": "881 km",
+        "timing": "09:1109:11",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Maddur",
+        "distance": "910 km",
+        "timing": "09:3509:35",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mandya",
+        "distance": "930 km",
+        "timing": "09:5209:52",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mysuru Jn",
+        "distance": "975 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

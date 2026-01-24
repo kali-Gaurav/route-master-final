@@ -1,0 +1,282 @@
+{
+  "fetched_at": "2026-01-24T09:15:08.084047",
+  "train_no": "22638",
+  "response": {
+    "success": true,
+    "train_name": "22638 West Coast Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 20min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Mangaluru Cntl",
+        "distance": "-",
+        "timing": "23:4523:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kasaragod",
+        "distance": "46 km",
+        "timing": "00:2500:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanhangad",
+        "distance": "69 km",
+        "timing": "00:4500:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nileshwar",
+        "distance": "79 km",
+        "timing": "00:5500:55",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Payyanur",
+        "distance": "98 km",
+        "timing": "01:1201:12",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kannur",
+        "distance": "132 km",
+        "timing": "01:4501:45",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thalassery",
+        "distance": "153 km",
+        "timing": "02:0502:05",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vadakara",
+        "distance": "175 km",
+        "timing": "02:2502:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kozhikkode",
+        "distance": "221 km",
+        "timing": "03:0503:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Parpanangadi",
+        "distance": "246 km",
+        "timing": "03:3003:30",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tirur",
+        "distance": "262 km",
+        "timing": "03:4503:45",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kuttippuram",
+        "distance": "277 km",
+        "timing": "04:0004:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shoranur Jn",
+        "distance": "307 km",
+        "timing": "04:5004:50",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ottappalam",
+        "distance": "320 km",
+        "timing": "05:2005:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palakkad Jn",
+        "distance": "351 km",
+        "timing": "06:0006:00",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Podanur Jn",
+        "distance": "400 km",
+        "timing": "07:1007:10",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Coimbatore Jn",
+        "distance": "406 km",
+        "timing": "07:3507:35",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tiruppur",
+        "distance": "456 km",
+        "timing": "08:1508:15",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Erode Jn",
+        "distance": "506 km",
+        "timing": "09:0509:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sankaridurg",
+        "distance": "527 km",
+        "timing": "09:3009:30",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Salem Jn",
+        "distance": "569 km",
+        "timing": "10:1010:10",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bommidi",
+        "distance": "612 km",
+        "timing": "10:5010:50",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Morappur",
+        "distance": "635 km",
+        "timing": "11:1011:10",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tirupattur Jn",
+        "distance": "682 km",
+        "timing": "11:5011:50",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jolarpettai",
+        "distance": "689 km",
+        "timing": "12:2012:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katpadi Jn",
+        "distance": "773 km",
+        "timing": "13:3013:30",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Walajah Road Jn",
+        "distance": "797 km",
+        "timing": "13:5013:50",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Arakkonam Jn",
+        "distance": "833 km",
+        "timing": "14:2014:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Perambur",
+        "distance": "896 km",
+        "timing": "15:1015:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mgr Chennai Ctl",
+        "distance": "902 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "fetched_at": "2026-01-24T09:14:57.915184",
+  "train_no": "16857",
+  "response": {
+    "success": true,
+    "train_name": "16857 Pdy Maq Express Running Status",
+    "message": "",
+    "updated_time": "Updated 4min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Puducherry",
+        "distance": "-",
+        "timing": "16:4516:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Villupuram Jn",
+        "distance": "38 km",
+        "timing": "17:3517:35",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vridhachalam Jn",
+        "distance": "93 km",
+        "timing": "18:1818:18",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ariyalur",
+        "distance": "146 km",
+        "timing": "19:0119:01",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Srirangam",
+        "distance": "204 km",
+        "timing": "19:5519:55",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tiruchchirapali",
+        "distance": "216 km",
+        "timing": "20:4520:45",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karur",
+        "distance": "291 km",
+        "timing": "22:1522:15",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Erode Jn",
+        "distance": "357 km",
+        "timing": "23:4523:45",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tiruppur",
+        "distance": "407 km",
+        "timing": "00:3000:30",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Coimbatore Jn",
+        "distance": "457 km",
+        "timing": "02:0002:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palakkad Jn",
+        "distance": "512 km",
+        "timing": "03:2503:25",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shoranur Jn",
+        "distance": "556 km",
+        "timing": "04:1504:15",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tirur",
+        "distance": "601 km",
+        "timing": "04:5504:55",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kozhikkode",
+        "distance": "642 km",
+        "timing": "05:4005:40",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mahe",
+        "distance": "701 km",
+        "timing": "06:4006:40",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thalassery",
+        "distance": "710 km",
+        "timing": "06:5006:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kannur",
+        "distance": "731 km",
+        "timing": "07:2007:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kasaragod",
+        "distance": "817 km",
+        "timing": "08:3008:30",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mangaluru Cntl",
+        "distance": "863 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

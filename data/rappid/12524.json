@@ -1,0 +1,174 @@
+{
+  "fetched_at": "2026-01-24T09:14:57.325740",
+  "train_no": "12524",
+  "response": {
+    "success": true,
+    "train_name": "12524 Anvt Njp Sf Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 25min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Anand Vihar Trm",
+        "distance": "-",
+        "timing": "15:2015:20",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghaziabad",
+        "distance": "13 km",
+        "timing": "16:0016:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Moradabad",
+        "distance": "154 km",
+        "timing": "18:0818:08",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "8min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lucknow Nr",
+        "distance": "480 km",
+        "timing": "23:4523:45",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gonda Jn",
+        "distance": "597 km",
+        "timing": "02:0502:05",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gorakhpur Jn",
+        "distance": "750 km",
+        "timing": "04:5004:50",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Deoria Sadar",
+        "distance": "800 km",
+        "timing": "05:5305:53",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Siwan Jn",
+        "distance": "869 km",
+        "timing": "06:4506:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chhapra",
+        "distance": "930 km",
+        "timing": "07:5507:55",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sonpur Jn",
+        "distance": "984 km",
+        "timing": "08:5808:58",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hajipur Jn",
+        "distance": "989 km",
+        "timing": "09:1509:15",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Muzaffarpur Jn",
+        "distance": "1043 km",
+        "timing": "10:0510:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Samastipur Jn",
+        "distance": "1095 km",
+        "timing": "11:1211:12",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rusera Ghat",
+        "distance": "1124 km",
+        "timing": "11:4111:41",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khagaria Jn",
+        "distance": "1180 km",
+        "timing": "13:0513:05",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katihar Jn",
+        "distance": "1304 km",
+        "timing": "15:1515:15",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kishanganj",
+        "distance": "1400 km",
+        "timing": "16:3516:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Jalpaiguri",
+        "distance": "1488 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

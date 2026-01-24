@@ -1,0 +1,318 @@
+{
+  "fetched_at": "2026-01-24T09:14:52.051616",
+  "train_no": "12178",
+  "response": {
+    "success": true,
+    "train_name": "12178 Chambal Express Running Status",
+    "message": "",
+    "updated_time": "Updated 131hr 13min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Agra Cantt",
+        "distance": "54 km",
+        "timing": "05:4505:40",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dhaulpur",
+        "distance": "107 km",
+        "timing": "06:3206:27",
+        "delay": "5min",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Morena",
+        "distance": "134 km",
+        "timing": "06:5406:49",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gwalior",
+        "distance": "173 km",
+        "timing": "07:4507:40",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dabra",
+        "distance": "215 km",
+        "timing": "08:1908:14",
+        "delay": "5min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Datia",
+        "distance": "245 km",
+        "timing": "08:4508:40",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "V Lakshmibai Jhansi Jhs",
+        "distance": "270 km",
+        "timing": "09:2009:15",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barwa Sagar",
+        "distance": "292 km",
+        "timing": "09:4309:38",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nivari",
+        "distance": "301 km",
+        "timing": "09:5609:51",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mau Ranipur",
+        "distance": "334 km",
+        "timing": "10:2310:18",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Harpalpur",
+        "distance": "355 km",
+        "timing": "10:4310:38",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kulpahar",
+        "distance": "386 km",
+        "timing": "11:0811:03",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mahoba Jn",
+        "distance": "408 km",
+        "timing": "11:3011:25",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Banda Jn",
+        "distance": "461 km",
+        "timing": "12:4512:40",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Atarra",
+        "distance": "493 km",
+        "timing": "13:1213:07",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chitrakutdham K",
+        "distance": "530 km",
+        "timing": "13:4013:35",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Manikpur",
+        "distance": "561 km",
+        "timing": "14:5514:50",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Prayagrajcheoki",
+        "distance": "653 km",
+        "timing": "16:4516:40",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vindhyachal",
+        "distance": "727 km",
+        "timing": "17:5417:49",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mirzapur",
+        "distance": "734 km",
+        "timing": "18:0918:04",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chunar",
+        "distance": "765 km",
+        "timing": "18:5518:50",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dd Upadhyaya Jn",
+        "distance": "797 km",
+        "timing": "20:2520:20",
+        "delay": "5min",
+        "platform": "3",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhabua Road",
+        "distance": "849 km",
+        "timing": "21:0320:58",
+        "delay": "5min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sasaram",
+        "distance": "897 km",
+        "timing": "21:3721:32",
+        "delay": "5min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dehri On Sone",
+        "distance": "915 km",
+        "timing": "21:5521:50",
+        "delay": "5min",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gaya Jn",
+        "distance": "1000 km",
+        "timing": "23:2023:15",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Koderma Jn",
+        "distance": "1076 km",
+        "timing": "00:4000:35",
+        "delay": "5min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Parasnath",
+        "distance": "1151 km",
+        "timing": "01:2601:21",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nsc Bose J Gomo",
+        "distance": "1169 km",
+        "timing": "01:5001:45",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dhanbad Jn",
+        "distance": "1199 km",
+        "timing": "02:3502:30",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Asansol Jn",
+        "distance": "1257 km",
+        "timing": "03:4803:43",
+        "delay": "5min",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Durgapur",
+        "distance": "1300 km",
+        "timing": "04:2704:22",
+        "delay": "5min",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barddhaman Jn",
+        "distance": "1363 km",
+        "timing": "05:1905:14",
+        "delay": "5min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Howrah Jn",
+        "distance": "1457 km",
+        "timing": "Destination",
+        "delay": "5min",
+        "platform": "14",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

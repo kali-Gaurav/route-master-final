@@ -1,0 +1,165 @@
+{
+  "fetched_at": "2026-01-24T09:14:52.242867",
+  "train_no": "12702",
+  "response": {
+    "success": true,
+    "train_name": "12702 Hussainsagar Sf Running Status",
+    "message": "",
+    "updated_time": "Updated 3min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Hyderabad Decan",
+        "distance": "-",
+        "timing": "14:5514:55",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Begampet",
+        "distance": "6 km",
+        "timing": "15:0515:05",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lingampalli",
+        "distance": "24 km",
+        "timing": "15:3015:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vikarabad Jn",
+        "distance": "74 km",
+        "timing": "16:0216:02",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tandur",
+        "distance": "115 km",
+        "timing": "16:4016:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Seram",
+        "distance": "148 km",
+        "timing": "17:0917:09",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chittapur",
+        "distance": "170 km",
+        "timing": "17:2817:28",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Wadi",
+        "distance": "185 km",
+        "timing": "18:0218:02",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shahabad",
+        "distance": "196 km",
+        "timing": "18:1518:15",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalaburagi",
+        "distance": "222 km",
+        "timing": "18:4318:43",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ganagapur Road",
+        "distance": "249 km",
+        "timing": "19:1219:12",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Solapur Jn",
+        "distance": "335 km",
+        "timing": "20:3020:30",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kurduvadi",
+        "distance": "414 km",
+        "timing": "21:3021:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pune Jn",
+        "distance": "598 km",
+        "timing": "00:5000:50",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalyan Jn",
+        "distance": "737 km",
+        "timing": "03:2803:28",
+        "delay": "On Time",
+        "platform": "7",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dadar",
+        "distance": "781 km",
+        "timing": "04:1804:18",
+        "delay": "On Time",
+        "platform": "12",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "C Shivaji Mah T",
+        "distance": "790 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "9",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

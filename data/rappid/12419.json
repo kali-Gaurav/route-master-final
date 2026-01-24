@@ -1,0 +1,165 @@
+{
+  "fetched_at": "2026-01-24T09:14:55.677389",
+  "train_no": "12419",
+  "response": {
+    "success": true,
+    "train_name": "12419 Gomti Express Running Status",
+    "message": "Crossed Aligarh Jn at 14:26",
+    "updated_time": "Updated 8min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Lucknow Nr",
+        "distance": "-",
+        "timing": "07:5605:45",
+        "delay": "2hr 11min",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Unnao Jn",
+        "distance": "57 km",
+        "timing": "08:5606:47",
+        "delay": "2hr 9min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanpur Central",
+        "distance": "74 km",
+        "timing": "09:2807:35",
+        "delay": "1hr 53min",
+        "platform": "7",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Panki Dham",
+        "distance": "85 km",
+        "timing": "09:5707:56",
+        "delay": "2hr 1min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rura",
+        "distance": "118 km",
+        "timing": "10:2608:20",
+        "delay": "2hr 6min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jhinjhak",
+        "distance": "137 km",
+        "timing": "10:4108:35",
+        "delay": "2hr 6min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Phaphund",
+        "distance": "157 km",
+        "timing": "10:5708:50",
+        "delay": "2hr 7min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bharthana",
+        "distance": "194 km",
+        "timing": "11:2409:15",
+        "delay": "2hr 9min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Etawah Jn",
+        "distance": "214 km",
+        "timing": "11:5109:35",
+        "delay": "2hr 16min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shikohabad Jn",
+        "distance": "269 km",
+        "timing": "12:2810:08",
+        "delay": "2hr 20min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Firozabad",
+        "distance": "289 km",
+        "timing": "13:0610:27",
+        "delay": "2hr 39min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tundla Jn",
+        "distance": "305 km",
+        "timing": "13:2711:05",
+        "delay": "2hr 22min",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hathras Jn",
+        "distance": "353 km",
+        "timing": "13:5611:45",
+        "delay": "2hr 11min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Aligarh Jn",
+        "distance": "383 km",
+        "timing": "14:2612:10",
+        "delay": "2hr 16min",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khurja Jn",
+        "distance": "427 km",
+        "timing": "15:0412:40",
+        "delay": "2hr 23min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghaziabad",
+        "distance": "489 km",
+        "timing": "16:1514:15",
+        "delay": "1hr 54min",
+        "platform": "5",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "515 km",
+        "timing": "Destination",
+        "delay": "1hr 58min",
+        "platform": "6",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

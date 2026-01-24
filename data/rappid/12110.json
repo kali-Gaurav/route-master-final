@@ -1,0 +1,102 @@
+{
+  "fetched_at": "2026-01-24T09:15:01.874893",
+  "train_no": "12110",
+  "response": {
+    "success": true,
+    "train_name": "12110 Panchavati Exp Running Status",
+    "message": "Reached C Shivaji Mah T at 11:00",
+    "updated_time": "Updated 3hr 33min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Manmad Jn",
+        "distance": "-",
+        "timing": "06:0206:02",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lasalgaon",
+        "distance": "25 km",
+        "timing": "06:2506:20",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "-"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Niphad",
+        "distance": "42 km",
+        "timing": "06:4006:32",
+        "delay": "8min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nashik Road",
+        "distance": "74 km",
+        "timing": "07:0907:03",
+        "delay": "6min",
+        "platform": "3",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Devlali",
+        "distance": "79 km",
+        "timing": "07:1707:10",
+        "delay": "7min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Igatpuri",
+        "distance": "124 km",
+        "timing": "08:0107:57",
+        "delay": "4min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kasara",
+        "distance": "138 km",
+        "timing": "08:4008:14",
+        "delay": "26min",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalyan Jn",
+        "distance": "207 km",
+        "timing": "09:5309:35",
+        "delay": "18min",
+        "platform": "5",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dadar",
+        "distance": "252 km",
+        "timing": "10:4710:22",
+        "delay": "25min",
+        "platform": "12",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "C Shivaji Mah T",
+        "distance": "261 km",
+        "timing": "Destination",
+        "delay": "15min",
+        "platform": "17",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "fetched_at": "2026-01-24T09:15:21.193297",
+  "train_no": "59804",
+  "response": {
+    "success": true,
+    "train_name": "59804 Kota Rtm Pass Running Status",
+    "message": "",
+    "updated_time": "Updated 20hr 11min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "-",
+        "timing": "05:55",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "NEW KOTA",
+        "distance": "9 km",
+        "timing": "06:10",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ravtha Road",
+        "distance": "34 km",
+        "timing": "06:35",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dara",
+        "distance": "47 km",
+        "timing": "06:48",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Morak",
+        "distance": "62 km",
+        "timing": "07:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ramganj Mandi",
+        "distance": "72 km",
+        "timing": "07:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jhalawar Road",
+        "distance": "83 km",
+        "timing": "07:42",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "DHUANKHERI",
+        "distance": "90 km",
+        "timing": "07:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhawani Mandi",
+        "distance": "100 km",
+        "timing": "08:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KURLAS",
+        "distance": "113 km",
+        "timing": "08:17",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Garot",
+        "distance": "123 km",
+        "timing": "08:28",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shamgarh",
+        "distance": "133 km",
+        "timing": "08:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Suwasra",
+        "distance": "147 km",
+        "timing": "09:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chau Mahla",
+        "distance": "162 km",
+        "timing": "09:15",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thuria",
+        "distance": "176 km",
+        "timing": "09:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vikramgarh Alot",
+        "distance": "185 km",
+        "timing": "09:40",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Luni Richha",
+        "distance": "197 km",
+        "timing": "09:55",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mahidpur Road",
+        "distance": "208 km",
+        "timing": "10:15",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagda Jn",
+        "distance": "225 km",
+        "timing": "11:45",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "30min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "BERAWANYA",
+        "distance": "233 km",
+        "timing": "11:59",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khachrod",
+        "distance": "239 km",
+        "timing": "12:07",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Runkhera",
+        "distance": "249 km",
+        "timing": "12:19",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bangrod",
+        "distance": "257 km",
+        "timing": "12:28",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "266 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

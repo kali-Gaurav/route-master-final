@@ -1,0 +1,111 @@
+{
+  "fetched_at": "2026-01-24T09:15:21.408720",
+  "train_no": "22414",
+  "response": {
+    "success": true,
+    "train_name": "22414 Nzm Mao Rajdani Running Status",
+    "message": "Crossed Kota Jn at 11:01",
+    "updated_time": "Updated 1hr  ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "H Nizamuddin",
+        "distance": "-",
+        "timing": "06:2206:16",
+        "delay": "6min",
+        "platform": "4",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "458 km",
+        "timing": "11:0110:55",
+        "delay": "6min",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "724 km",
+        "timing": "14:05",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vadodara Jn",
+        "distance": "986 km",
+        "timing": "17:3717:37",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Surat",
+        "distance": "1115 km",
+        "timing": "19:1719:17",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vasai Road",
+        "distance": "1330 km",
+        "timing": "21:4521:45",
+        "delay": "On Time",
+        "platform": "7",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Panvel",
+        "distance": "1397 km",
+        "timing": "23:0023:00",
+        "delay": "On Time",
+        "platform": "7",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratnagiri",
+        "distance": "1759 km",
+        "timing": "03:2803:10",
+        "delay": "13min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kudal",
+        "distance": "1954 km",
+        "timing": "05:0304:52",
+        "delay": "7min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thivim",
+        "distance": "2029 km",
+        "timing": "06:0405:40",
+        "delay": "19min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Madgaon",
+        "distance": "2094 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

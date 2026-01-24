@@ -1,0 +1,237 @@
+{
+  "fetched_at": "2026-01-24T09:15:12.838742",
+  "train_no": "19660",
+  "response": {
+    "success": true,
+    "train_name": "19660 Udz Shm Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 86hr 33min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Udaipur City",
+        "distance": "-",
+        "timing": "20:00",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ranapratapnagar",
+        "distance": "4 km",
+        "timing": "20:07",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mavli Jn",
+        "distance": "42 km",
+        "timing": "20:52",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chittaurgarh",
+        "distance": "113 km",
+        "timing": "22:45",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "35min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bundi",
+        "distance": "247 km",
+        "timing": "00:35",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "285 km",
+        "timing": "02:15",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Baran",
+        "distance": "351 km",
+        "timing": "03:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Guna",
+        "distance": "469 km",
+        "timing": "06:05",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bina Malkhedi",
+        "distance": "589 km",
+        "timing": "09:18",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Saugor",
+        "distance": "659 km",
+        "timing": "10:35",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Damoh",
+        "distance": "736 km",
+        "timing": "12:02",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katni Murwara",
+        "distance": "845 km",
+        "timing": "14:40",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shahdol",
+        "distance": "971 km",
+        "timing": "17:1517:15",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anuppur Jn",
+        "distance": "1012 km",
+        "timing": "18:0018:00",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pendra Road",
+        "distance": "1062 km",
+        "timing": "18:5218:52",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bilaspur Jn",
+        "distance": "1164 km",
+        "timing": "21:5021:50",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Champa Jn",
+        "distance": "1217 km",
+        "timing": "22:4422:44",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raigarh",
+        "distance": "1296 km",
+        "timing": "23:5623:56",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jharsuguda Jn",
+        "distance": "1368 km",
+        "timing": "01:2501:25",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rourkela",
+        "distance": "1469 km",
+        "timing": "02:5002:50",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chakradharpur",
+        "distance": "1570 km",
+        "timing": "04:1804:18",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tatanagar Jn",
+        "distance": "1632 km",
+        "timing": "05:4005:40",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kharagpur Jn",
+        "distance": "1766 km",
+        "timing": "07:5507:55",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Santragachi Jn",
+        "distance": "1874 km",
+        "timing": "09:4309:43",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shalimar",
+        "distance": "1879 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

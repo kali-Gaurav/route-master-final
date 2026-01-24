@@ -1,0 +1,120 @@
+{
+  "fetched_at": "2026-01-24T09:15:28.007453",
+  "train_no": "20890",
+  "response": {
+    "success": true,
+    "train_name": "20890 Hwh Humsafar Sf Running Status",
+    "message": "",
+    "updated_time": "Updated 56min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Tirupati",
+        "distance": "-",
+        "timing": "16:0016:00",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Renigunta Jn",
+        "distance": "10 km",
+        "timing": "16:2516:25",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nellore",
+        "distance": "132 km",
+        "timing": "18:1018:10",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ongole",
+        "distance": "248 km",
+        "timing": "19:4019:40",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vijayawada Jn",
+        "distance": "386 km",
+        "timing": "22:0022:00",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rajahmundry",
+        "distance": "535 km",
+        "timing": "00:4000:40",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Visakhapatnam",
+        "distance": "736 km",
+        "timing": "04:3004:30",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vizianagram Jn",
+        "distance": "797 km",
+        "timing": "05:2005:20",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhubaneswar",
+        "distance": "1179 km",
+        "timing": "11:1511:15",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Cuttack",
+        "distance": "1206 km",
+        "timing": "11:4511:45",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kharagpur Jn",
+        "distance": "1502 km",
+        "timing": "16:0516:05",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Howrah Jn",
+        "distance": "1617 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "18",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

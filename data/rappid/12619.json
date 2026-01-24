@@ -1,0 +1,201 @@
+{
+  "fetched_at": "2026-01-24T09:15:21.951495",
+  "train_no": "12619",
+  "response": {
+    "success": true,
+    "train_name": "12619 Matsyagandha Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 16min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Panvel",
+        "distance": "53 km",
+        "timing": "16:1816:15",
+        "delay": "3min",
+        "platform": "7",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mangaon",
+        "distance": "173 km",
+        "timing": "17:5517:52",
+        "delay": "3min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khed",
+        "distance": "268 km",
+        "timing": "19:0519:02",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chiplun",
+        "distance": "309 km",
+        "timing": "19:4519:42",
+        "delay": "3min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratnagiri",
+        "distance": "415 km",
+        "timing": "21:2321:20",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kudal",
+        "distance": "610 km",
+        "timing": "23:1523:12",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Madgaon",
+        "distance": "750 km",
+        "timing": "01:1801:15",
+        "delay": "3min",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karwar",
+        "distance": "832 km",
+        "timing": "02:1502:12",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ankola",
+        "distance": "871 km",
+        "timing": "02:3502:32",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gokarna Road",
+        "distance": "882 km",
+        "timing": "02:4702:44",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kumta",
+        "distance": "909 km",
+        "timing": "03:0903:06",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Honnavar",
+        "distance": "928 km",
+        "timing": "03:2303:20",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Murdeshwar",
+        "distance": "965 km",
+        "timing": "03:5303:50",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhatkal",
+        "distance": "985 km",
+        "timing": "04:0904:06",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mookambika Road",
+        "distance": "1007 km",
+        "timing": "04:2504:22",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kundapura",
+        "distance": "1054 km",
+        "timing": "04:5304:50",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barkur",
+        "distance": "1076 km",
+        "timing": "05:0705:04",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Udupi",
+        "distance": "1099 km",
+        "timing": "05:2305:20",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mulki",
+        "distance": "1145 km",
+        "timing": "06:1506:12",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Surathkal",
+        "distance": "1158 km",
+        "timing": "06:2806:25",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mangaluru Cntl",
+        "distance": "1186 km",
+        "timing": "Destination",
+        "delay": "3min",
+        "platform": "3",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

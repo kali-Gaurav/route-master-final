@@ -1,0 +1,84 @@
+{
+  "fetched_at": "2026-01-24T09:14:52.991500",
+  "train_no": "12270",
+  "response": {
+    "success": true,
+    "train_name": "12270 Mas Duronto Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 39min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "H Nizamuddin",
+        "distance": "-",
+        "timing": "15:5515:55",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gwalior",
+        "distance": "306 km",
+        "timing": "19:2019:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "V Lakshmibai Jhansi Jhs",
+        "distance": "403 km",
+        "timing": "20:5020:50",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rani Kamalapati",
+        "distance": "700 km",
+        "timing": "00:2000:20",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "8min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagpur",
+        "distance": "1083 km",
+        "timing": "05:4005:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Balharshah",
+        "distance": "1294 km",
+        "timing": "08:3508:35",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vijayawada Jn",
+        "distance": "1744 km",
+        "timing": "14:3014:30",
+        "delay": "On Time",
+        "platform": "10",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mgr Chennai Ctl",
+        "distance": "2174 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

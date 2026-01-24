@@ -1,0 +1,93 @@
+{
+  "fetched_at": "2026-01-24T09:15:20.611034",
+  "train_no": "12048",
+  "response": {
+    "success": true,
+    "train_name": "12048 Ghy Janshatabdi Running Status",
+    "message": "Reached Guwahati at 23:54",
+    "updated_time": "Updated 62hr 48min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "North Lakhimpur",
+        "distance": "-",
+        "timing": "17:2517:20",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Harmuti",
+        "distance": "30 km",
+        "timing": "17:5217:47",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Viswanath Chrli",
+        "distance": "122 km",
+        "timing": "19:0718:54",
+        "delay": "13min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rangapara North",
+        "distance": "173 km",
+        "timing": "20:0220:02",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Udalguri",
+        "distance": "235 km",
+        "timing": "21:0921:06",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tangla",
+        "distance": "258 km",
+        "timing": "21:3221:22",
+        "delay": "10min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rangiya Jn",
+        "distance": "296 km",
+        "timing": "22:3622:30",
+        "delay": "6min",
+        "platform": "4",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kamakhya",
+        "distance": "337 km",
+        "timing": "23:3023:27",
+        "delay": "3min",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Guwahati",
+        "distance": "344 km",
+        "timing": "Destination",
+        "delay": "9min",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

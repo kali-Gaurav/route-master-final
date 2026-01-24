@@ -1,0 +1,84 @@
+{
+  "fetched_at": "2026-01-24T09:15:09.843885",
+  "train_no": "12910",
+  "response": {
+    "success": true,
+    "train_name": "12910 Bdts Garibrath Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 12min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "H Nizamuddin",
+        "distance": "-",
+        "timing": "16:3016:30",
+        "delay": "On Time",
+        "platform": "8",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mathura Jn",
+        "distance": "134 km",
+        "timing": "18:0518:05",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "458 km",
+        "timing": "21:2021:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "724 km",
+        "timing": "00:1800:18",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vadodara Jn",
+        "distance": "986 km",
+        "timing": "04:0504:05",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Surat",
+        "distance": "1115 km",
+        "timing": "05:4205:42",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Borivali",
+        "distance": "1347 km",
+        "timing": "08:2508:25",
+        "delay": "On Time",
+        "platform": "8",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bandra Terminus",
+        "distance": "1366 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

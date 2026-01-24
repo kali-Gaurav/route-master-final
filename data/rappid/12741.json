@@ -1,0 +1,201 @@
+{
+  "fetched_at": "2026-01-24T09:15:10.885500",
+  "train_no": "12741",
+  "response": {
+    "success": true,
+    "train_name": "12741 Vsg Patna Exp Running Status",
+    "message": "Reached Patna Jn at 12:25",
+    "updated_time": "Updated 26hr 18min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Vasco Da Gama",
+        "distance": "-",
+        "timing": "19:1219:00",
+        "delay": "12min",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Madgaon",
+        "distance": "28 km",
+        "timing": "20:2220:05",
+        "delay": "17min",
+        "platform": "3",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thivim",
+        "distance": "93 km",
+        "timing": "23:0321:17",
+        "delay": "1hr 46min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sawantwadi Road",
+        "distance": "138 km",
+        "timing": "23:3221:52",
+        "delay": "1hr 40min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratnagiri",
+        "distance": "363 km",
+        "timing": "02:0400:40",
+        "delay": "1hr 24min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chiplun",
+        "distance": "469 km",
+        "timing": "04:3602:22",
+        "delay": "2hr 14min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Panvel",
+        "distance": "725 km",
+        "timing": "08:2106:10",
+        "delay": "2hr 11min",
+        "platform": "5",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalyan Jn",
+        "distance": "761 km",
+        "timing": "10:0607:30",
+        "delay": "2hr 36min",
+        "platform": "4",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nashik Road",
+        "distance": "895 km",
+        "timing": "12:4910:15",
+        "delay": "2hr 34min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Manmad Jn",
+        "distance": "968 km",
+        "timing": "13:4611:10",
+        "delay": "2hr 36min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhusaval Jn",
+        "distance": "1152 km",
+        "timing": "16:2213:35",
+        "delay": "2hr 47min",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khandwa",
+        "distance": "1276 km",
+        "timing": "18:1815:30",
+        "delay": "2hr 48min",
+        "platform": "4",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Itarsi Jn",
+        "distance": "1459 km",
+        "timing": "20:4718:25",
+        "delay": "2hr 22min",
+        "platform": "5",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jabalpur",
+        "distance": "1704 km",
+        "timing": "00:2822:05",
+        "delay": "2hr 23min",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katni",
+        "distance": "1795 km",
+        "timing": "02:1323:30",
+        "delay": "2hr 43min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Satna",
+        "distance": "1893 km",
+        "timing": "03:4400:50",
+        "delay": "2hr 54min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Prayagrajcheoki",
+        "distance": "2063 km",
+        "timing": "06:3704:07",
+        "delay": "2hr 30min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dd Upadhyaya Jn",
+        "distance": "2206 km",
+        "timing": "08:4306:40",
+        "delay": "2hr 3min",
+        "platform": "2",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Buxar",
+        "distance": "2300 km",
+        "timing": "10:5407:42",
+        "delay": "3hr 12min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ara Jn",
+        "distance": "2369 km",
+        "timing": "11:4008:30",
+        "delay": "3hr 10min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patna Jn",
+        "distance": "2418 km",
+        "timing": "Destination",
+        "delay": "2hr 15min",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

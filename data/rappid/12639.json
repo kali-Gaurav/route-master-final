@@ -1,0 +1,129 @@
+{
+  "fetched_at": "2026-01-24T09:15:13.650263",
+  "train_no": "12639",
+  "response": {
+    "success": true,
+    "train_name": "12639 Brindavan Sf Exp Running Status",
+    "message": "Reached KSR Bengaluru at 14:06",
+    "updated_time": "Updated 36min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Mgr Chennai Ctl",
+        "distance": "-",
+        "timing": "07:5107:40",
+        "delay": "11min",
+        "platform": "6",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Arakkonam Jn",
+        "distance": "69 km",
+        "timing": "08:5208:35",
+        "delay": "17min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sholinghur",
+        "distance": "90 km",
+        "timing": "09:1408:50",
+        "delay": "24min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Walajah Road Jn",
+        "distance": "105 km",
+        "timing": "09:3309:08",
+        "delay": "25min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katpadi Jn",
+        "distance": "130 km",
+        "timing": "10:0109:35",
+        "delay": "26min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ambur",
+        "distance": "182 km",
+        "timing": "10:4610:12",
+        "delay": "34min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vaniyambadi",
+        "distance": "198 km",
+        "timing": "10:5810:27",
+        "delay": "31min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jolarpettai",
+        "distance": "214 km",
+        "timing": "11:2610:55",
+        "delay": "31min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kuppam",
+        "distance": "257 km",
+        "timing": "12:0511:33",
+        "delay": "32min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bangarapet",
+        "distance": "292 km",
+        "timing": "12:2812:05",
+        "delay": "23min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Krishnarajapurm",
+        "distance": "348 km",
+        "timing": "13:2412:50",
+        "delay": "34min",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bengaluru Cant",
+        "distance": "358 km",
+        "timing": "13:5713:10",
+        "delay": "47min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KSR Bengaluru",
+        "distance": "362 km",
+        "timing": "Destination",
+        "delay": "6min",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

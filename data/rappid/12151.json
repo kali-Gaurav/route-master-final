@@ -1,0 +1,219 @@
+{
+  "fetched_at": "2026-01-24T09:14:59.169235",
+  "train_no": "12151",
+  "response": {
+    "success": true,
+    "train_name": "12151 Ltt Shm Sf Exp Running Status",
+    "message": "Reached Shalimar at 12:09",
+    "updated_time": "Updated 1hr 54min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Lokmanyatilak T",
+        "distance": "-",
+        "timing": "20:3620:35",
+        "delay": "1min",
+        "platform": "3",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalyan Jn",
+        "distance": "38 km",
+        "timing": "21:4621:15",
+        "delay": "31min",
+        "platform": "4",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nashik Road",
+        "distance": "172 km",
+        "timing": "00:4023:45",
+        "delay": "55min",
+        "platform": "2",
+        "halt": "8min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhusaval Jn",
+        "distance": "429 km",
+        "timing": "03:4903:05",
+        "delay": "44min",
+        "platform": "5",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Akola Jn",
+        "distance": "569 km",
+        "timing": "05:5705:10",
+        "delay": "47min",
+        "platform": "2",
+        "halt": "6min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Badnera Jn",
+        "distance": "647 km",
+        "timing": "06:5706:50",
+        "delay": "7min",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagpur",
+        "distance": "821 km",
+        "timing": "10:2010:20",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "11min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gondia Jn",
+        "distance": "951 km",
+        "timing": "12:1611:55",
+        "delay": "21min",
+        "platform": "4",
+        "halt": "4min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raj Nandgaon",
+        "distance": "1056 km",
+        "timing": "13:3313:25",
+        "delay": "8min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Durg",
+        "distance": "1087 km",
+        "timing": "14:5214:15",
+        "delay": "37min",
+        "platform": "4",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raipur Jn",
+        "distance": "1124 km",
+        "timing": "15:4814:55",
+        "delay": "53min",
+        "platform": "5",
+        "halt": "9min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bilaspur Jn",
+        "distance": "1234 km",
+        "timing": "17:5816:50",
+        "delay": "1hr 8min",
+        "platform": "1",
+        "halt": "48min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raigarh",
+        "distance": "1366 km",
+        "timing": "20:2318:35",
+        "delay": "1hr 48min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jharsuguda Jn",
+        "distance": "1438 km",
+        "timing": "21:4920:05",
+        "delay": "1hr 44min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rourkela",
+        "distance": "1539 km",
+        "timing": "23:4321:30",
+        "delay": "2hr 13min",
+        "platform": "5",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chakradharpur",
+        "distance": "1640 km",
+        "timing": "01:4523:02",
+        "delay": "2hr 43min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Purulia Jn",
+        "distance": "1759 km",
+        "timing": "05:5701:05",
+        "delay": "4hr 52min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Adra Jn",
+        "distance": "1798 km",
+        "timing": "07:0102:05",
+        "delay": "4hr 56min",
+        "platform": "4",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bankura",
+        "distance": "1851 km",
+        "timing": "07:5802:52",
+        "delay": "5hr 6min",
+        "platform": "2",
+        "halt": "4min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Midnapore",
+        "distance": "1953 km",
+        "timing": "09:0704:25",
+        "delay": "4hr 42min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kharagpur Jn",
+        "distance": "1966 km",
+        "timing": "09:3404:55",
+        "delay": "4hr 39min",
+        "platform": "6",
+        "halt": "4min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Santragachi Jn",
+        "distance": "2074 km",
+        "timing": "10:4706:30",
+        "delay": "4hr 17min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shalimar",
+        "distance": "2079 km",
+        "timing": "Destination",
+        "delay": "4hr 24min",
+        "platform": "2",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

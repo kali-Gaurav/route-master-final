@@ -1,0 +1,246 @@
+{
+  "fetched_at": "2026-01-24T09:15:24.037456",
+  "train_no": "12609",
+  "response": {
+    "success": true,
+    "train_name": "12609 Mysuru Express Running Status",
+    "message": "",
+    "updated_time": "Updated 24hr 45min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Mgr Chennai Ctl",
+        "distance": "-",
+        "timing": "13:35",
+        "delay": "On Time",
+        "platform": "10",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tiruvallur",
+        "distance": "42 km",
+        "timing": "14:10",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Arakkonam Jn",
+        "distance": "69 km",
+        "timing": "14:40",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sholinghur",
+        "distance": "90 km",
+        "timing": "15:0015:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Walajah Road Jn",
+        "distance": "105 km",
+        "timing": "15:1515:15",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mukundarayapurm",
+        "distance": "113 km",
+        "timing": "15:2515:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katpadi Jn",
+        "distance": "130 km",
+        "timing": "15:4515:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gudiyattam",
+        "distance": "155 km",
+        "timing": "16:0516:05",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ambur",
+        "distance": "182 km",
+        "timing": "16:2516:25",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vaniyambadi",
+        "distance": "198 km",
+        "timing": "16:4016:40",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jolarpettai",
+        "distance": "214 km",
+        "timing": "17:1517:15",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kuppam",
+        "distance": "257 km",
+        "timing": "17:5617:56",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bangarapet",
+        "distance": "292 km",
+        "timing": "18:2318:23",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Malur",
+        "distance": "319 km",
+        "timing": "18:4318:43",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Whitefield",
+        "distance": "338 km",
+        "timing": "18:5718:57",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Krishnarajapurm",
+        "distance": "348 km",
+        "timing": "19:0819:08",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bengaluru East",
+        "distance": "355 km",
+        "timing": "19:2119:21",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bengaluru Cant",
+        "distance": "358 km",
+        "timing": "19:3019:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KSR Bengaluru",
+        "distance": "362 km",
+        "timing": "20:0020:00",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kengeri",
+        "distance": "374 km",
+        "timing": "20:2220:22",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ramanagaram",
+        "distance": "406 km",
+        "timing": "20:4720:47",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Channapatna",
+        "distance": "417 km",
+        "timing": "20:5820:58",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Maddur",
+        "distance": "436 km",
+        "timing": "21:1421:14",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mandya",
+        "distance": "455 km",
+        "timing": "21:3221:32",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pandavapura",
+        "distance": "480 km",
+        "timing": "21:4521:45",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mysuru Jn",
+        "distance": "500 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

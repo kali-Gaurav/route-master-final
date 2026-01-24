@@ -1,0 +1,174 @@
+{
+  "fetched_at": "2026-01-24T09:14:51.363625",
+  "train_no": "12723",
+  "response": {
+    "success": true,
+    "train_name": "12723 Telangana Sf Exp Running Status",
+    "message": "Crossed Chandrapur at 12:39",
+    "updated_time": "Updated 40min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Hyderabad Decan",
+        "distance": "-",
+        "timing": "06:0506:00",
+        "delay": "5min",
+        "platform": "5",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Secunderabad Jn",
+        "distance": "10 km",
+        "timing": "06:4206:25",
+        "delay": "17min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kazipet Jn",
+        "distance": "142 km",
+        "timing": "08:4007:55",
+        "delay": "45min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ramagundam",
+        "distance": "234 km",
+        "timing": "10:0209:30",
+        "delay": "32min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Manchiryal",
+        "distance": "248 km",
+        "timing": "10:1609:46",
+        "delay": "30min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bellampalli",
+        "distance": "268 km",
+        "timing": "10:3710:05",
+        "delay": "32min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sirpur Kagazngr",
+        "distance": "306 km",
+        "timing": "11:1410:40",
+        "delay": "34min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Balharshah",
+        "distance": "376 km",
+        "timing": "12:1612:00",
+        "delay": "16min",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chandrapur",
+        "distance": "390 km",
+        "timing": "12:3912:17",
+        "delay": "22min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagpur",
+        "distance": "587 km",
+        "timing": "16:1715:25",
+        "delay": "46min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhopal  Jn",
+        "distance": "983 km",
+        "timing": "22:1421:55",
+        "delay": "14min",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "V Lakshmibai Jhansi Jhs",
+        "distance": "1274 km",
+        "timing": "02:0201:24",
+        "delay": "37min",
+        "platform": "5",
+        "halt": "8min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gwalior",
+        "distance": "1371 km",
+        "timing": "03:3002:47",
+        "delay": "40min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Agra Cantt",
+        "distance": "1489 km",
+        "timing": "05:0704:27",
+        "delay": "35min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mathura Jn",
+        "distance": "1543 km",
+        "timing": "06:0805:10",
+        "delay": "53min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ballabgarh",
+        "distance": "1647 km",
+        "timing": "07:4307:08",
+        "delay": "34min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "H Nizamuddin",
+        "distance": "1676 km",
+        "timing": "08:3507:35",
+        "delay": "57min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "1683 km",
+        "timing": "Destination",
+        "delay": "57min",
+        "platform": "5",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

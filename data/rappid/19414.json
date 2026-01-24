@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-01-24T09:14:59.960588",
+  "train_no": "19414",
+  "response": {
+    "success": true,
+    "train_name": "19414 Koaa Adi Exp Running Status",
+    "message": "Crossed Kolkata Chitpur at 13:34",
+    "updated_time": "Updated 8min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Kolkata Chitpur",
+        "distance": "-",
+        "timing": "13:3413:10",
+        "delay": "24min",
+        "platform": "5",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Durgapur",
+        "distance": "161 km",
+        "timing": "15:2815:17",
+        "delay": "11min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Asansol Jn",
+        "distance": "203 km",
+        "timing": "16:1615:57",
+        "delay": "16min",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dhanbad Jn",
+        "distance": "262 km",
+        "timing": "18:5117:20",
+        "delay": "1hr 27min",
+        "platform": "6",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katrasgarh",
+        "distance": "275 km",
+        "timing": "19:1817:47",
+        "delay": "1hr 31min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chandrapura Jn",
+        "distance": "296 km",
+        "timing": "20:0918:32",
+        "delay": "1hr 33min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Phusro",
+        "distance": "307 km",
+        "timing": "20:2818:47",
+        "delay": "1hr 40min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bokaro Thermal",
+        "distance": "322 km",
+        "timing": "20:4919:04",
+        "delay": "1hr 44min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ranchi Road",
+        "distance": "370 km",
+        "timing": "20:05",
+        "delay": "11min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Daltonganj",
+        "distance": "565 km",
+        "timing": "01:2122:53",
+        "delay": "2hr 25min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Garwa Road",
+        "distance": "598 km",
+        "timing": "02:0523:55",
+        "delay": "2hr 11min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagar Untari",
+        "distance": "642 km",
+        "timing": "02:4200:26",
+        "delay": "2hr 15min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chopan",
+        "distance": "739 km",
+        "timing": "04:3102:30",
+        "delay": "2hr 13min",
+        "platform": "3",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Singrauli",
+        "distance": "803 km",
+        "timing": "06:2804:57",
+        "delay": "1hr 27min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bargawan",
+        "distance": "822 km",
+        "timing": "05:35",
+        "delay": "11min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katni Murwara",
+        "distance": "1062 km",
+        "timing": "11:1810:50",
+        "delay": "11min",
+        "platform": "4",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Damoh",
+        "distance": "1171 km",
+        "timing": "12:3812:15",
+        "delay": "18min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Saugor",
+        "distance": "1249 km",
+        "timing": "14:0513:30",
+        "delay": "36min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bina Jn",
+        "distance": "1323 km",
+        "timing": "16:2216:10",
+        "delay": "11min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "S Hirdaramnagar",
+        "distance": "1470 km",
+        "timing": "19:1819:05",
+        "delay": "11min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shujalpur",
+        "distance": "1541 km",
+        "timing": "20:1419:57",
+        "delay": "15min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ujjain Jn",
+        "distance": "1644 km",
+        "timing": "21:5821:40",
+        "delay": "11min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagda Jn",
+        "distance": "1699 km",
+        "timing": "23:2823:05",
+        "delay": "11min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "1740 km",
+        "timing": "00:2600:15",
+        "delay": "11min",
+        "platform": "4",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Godhra Jn",
+        "distance": "1928 km",
+        "timing": "03:3903:27",
+        "delay": "11min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "CHHAYAPURI",
+        "distance": "1994 km",
+        "timing": "04:3304:13",
+        "delay": "16min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anand Jn",
+        "distance": "2026 km",
+        "timing": "05:2305:09",
+        "delay": "13min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nadiad Jn",
+        "distance": "2044 km",
+        "timing": "05:3905:27",
+        "delay": "11min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ahmedabad Jn",
+        "distance": "2090 km",
+        "timing": "Destination",
+        "delay": "11min",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "fetched_at": "2026-01-24T09:15:06.791503",
+  "train_no": "17307",
+  "response": {
+    "success": true,
+    "train_name": "17307 Basava Express Running Status",
+    "message": "Crossed Maddur at 14:35",
+    "updated_time": "Updated 1min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Mysuru Jn",
+        "distance": "-",
+        "timing": "13:3013:25",
+        "delay": "5min",
+        "platform": "4",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pandavapura",
+        "distance": "20 km",
+        "timing": "13:5013:45",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mandya",
+        "distance": "46 km",
+        "timing": "14:1014:01",
+        "delay": "9min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Maddur",
+        "distance": "65 km",
+        "timing": "14:3514:17",
+        "delay": "18min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Channapatna",
+        "distance": "83 km",
+        "timing": "14:5414:32",
+        "delay": "22min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ramanagaram",
+        "distance": "94 km",
+        "timing": "15:0514:43",
+        "delay": "22min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bidadi",
+        "distance": "109 km",
+        "timing": "15:1714:55",
+        "delay": "22min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kengeri",
+        "distance": "127 km",
+        "timing": "15:3315:11",
+        "delay": "22min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KSR Bengaluru",
+        "distance": "139 km",
+        "timing": "17:0216:40",
+        "delay": "22min",
+        "platform": "9",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Yesvantpur Jn",
+        "distance": "144 km",
+        "timing": "17:1716:55",
+        "delay": "22min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Yelhanka Jn",
+        "distance": "157 km",
+        "timing": "17:3917:17",
+        "delay": "22min",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dodballapur",
+        "distance": "177 km",
+        "timing": "17:5917:37",
+        "delay": "22min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gauribidanur",
+        "distance": "216 km",
+        "timing": "18:3118:09",
+        "delay": "22min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hindupur",
+        "distance": "240 km",
+        "timing": "18:5218:30",
+        "delay": "22min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sai P Nilayam",
+        "distance": "297 km",
+        "timing": "19:4719:25",
+        "delay": "22min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dharmavaram Jn",
+        "distance": "330 km",
+        "timing": "21:0720:45",
+        "delay": "22min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anantapur",
+        "distance": "364 km",
+        "timing": "21:3721:15",
+        "delay": "22min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Guntakal Jn",
+        "distance": "432 km",
+        "timing": "23:0222:40",
+        "delay": "22min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Adoni",
+        "distance": "483 km",
+        "timing": "23:5223:30",
+        "delay": "22min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Manthralayam Rd",
+        "distance": "524 km",
+        "timing": "00:2700:05",
+        "delay": "22min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raichur",
+        "distance": "552 km",
+        "timing": "01:0700:45",
+        "delay": "22min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Yadgir",
+        "distance": "621 km",
+        "timing": "02:1201:50",
+        "delay": "22min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nalwar",
+        "distance": "646 km",
+        "timing": "02:3202:10",
+        "delay": "22min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Wadi",
+        "distance": "660 km",
+        "timing": "03:1202:50",
+        "delay": "22min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shahabad",
+        "distance": "670 km",
+        "timing": "03:2703:05",
+        "delay": "22min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalaburagi",
+        "distance": "697 km",
+        "timing": "03:5703:35",
+        "delay": "22min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ganagapur Road",
+        "distance": "723 km",
+        "timing": "04:2204:00",
+        "delay": "22min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dudhani",
+        "distance": "746 km",
+        "timing": "04:4204:20",
+        "delay": "22min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Akalkot Road",
+        "distance": "756 km",
+        "timing": "05:0704:45",
+        "delay": "22min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Solapur Jn",
+        "distance": "810 km",
+        "timing": "06:4206:20",
+        "delay": "22min",
+        "platform": "5",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hotgi",
+        "distance": "825 km",
+        "timing": "07:2207:00",
+        "delay": "22min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Indi Road",
+        "distance": "868 km",
+        "timing": "07:5707:35",
+        "delay": "22min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nimbal",
+        "distance": "882 km",
+        "timing": "08:1207:50",
+        "delay": "22min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vijayapura",
+        "distance": "919 km",
+        "timing": "08:5708:35",
+        "delay": "22min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "IBRAHIMPUR",
+        "distance": "924 km",
+        "timing": "09:0708:45",
+        "delay": "22min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bagevadi Rd",
+        "distance": "963 km",
+        "timing": "09:3709:15",
+        "delay": "22min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Almatti",
+        "distance": "980 km",
+        "timing": "09:5709:35",
+        "delay": "22min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bagalkot",
+        "distance": "1015 km",
+        "timing": "Destination",
+        "delay": "22min",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

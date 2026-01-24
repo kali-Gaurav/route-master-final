@@ -1,0 +1,48 @@
+{
+  "fetched_at": "2026-01-24T09:15:17.997972",
+  "train_no": "12049",
+  "response": {
+    "success": true,
+    "train_name": "12049 Gatimaan Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 13min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "V Lakshmibai Jhansi Jhs",
+        "distance": "-",
+        "timing": "15:0015:00",
+        "delay": "On Time",
+        "platform": "7",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gwalior",
+        "distance": "98 km",
+        "timing": "16:0516:05",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Agra Cantt",
+        "distance": "216 km",
+        "timing": "17:3517:35",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "H Nizamuddin",
+        "distance": "403 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "7",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

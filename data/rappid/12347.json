@@ -1,0 +1,93 @@
+{
+  "fetched_at": "2026-01-24T17:16:44.097471",
+  "train_no": "12347",
+  "response": {
+    "success": true,
+    "train_name": "12347 Hwh Rph Express Running Status",
+    "message": "Reached Rampur Hat at 16:03",
+    "updated_time": "Updated 6hr 42min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Howrah Jn",
+        "distance": "-",
+        "timing": "12:2712:15",
+        "delay": "12min",
+        "platform": "6",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kamarkundu",
+        "distance": "33 km",
+        "timing": "12:5212:37",
+        "delay": "15min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barddhaman Jn",
+        "distance": "95 km",
+        "timing": "13:4313:19",
+        "delay": "24min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Guskara",
+        "distance": "127 km",
+        "timing": "14:2314:01",
+        "delay": "22min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bolpur S Niktn",
+        "distance": "146 km",
+        "timing": "14:3514:18",
+        "delay": "17min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Prantik",
+        "distance": "151 km",
+        "timing": "14:4614:28",
+        "delay": "18min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ahmadpur Jn",
+        "distance": "166 km",
+        "timing": "15:0314:44",
+        "delay": "19min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sainthia",
+        "distance": "179 km",
+        "timing": "15:1714:59",
+        "delay": "18min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rampur Hat",
+        "distance": "207 km",
+        "timing": "Destination",
+        "delay": "13min",
+        "platform": "3",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

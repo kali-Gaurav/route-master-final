@@ -1,0 +1,4639 @@
+{
+  "metadata": {
+    "source": "NDLS",
+    "destination": "MAS",
+    "total_routes_generated": 120,
+    "pareto_front_size": 3,
+    "optimal_routes_count": 3
+  },
+  "optimal_routes": [
+    {
+      "route_id": "OPT_ROUTE_01",
+      "category": "FASTEST \u26a1",
+      "objectives": {
+        "time": 355.0,
+        "cost": 2162.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2162.0
+      },
+      "segments": [
+        {
+          "train_no": "11450",
+          "train_name": "SVDK-JBP EXP",
+          "from": "NDLS",
+          "to": "NZM",
+          "departure": "14:15:00",
+          "arrival": "14:28:00",
+          "distance": 7.0,
+          "duration_min": 13.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12270",
+          "train_name": "NZM-MAS DURA",
+          "from": "NZM",
+          "to": "MAS",
+          "departure": "15:45:00",
+          "arrival": "20:10:00",
+          "distance": 2155.0,
+          "duration_min": 265.0,
+          "wait_min": 77.0
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_02",
+      "category": "CHEAPEST \ud83d\udcb0",
+      "objectives": {
+        "time": 1430.0,
+        "cost": 2160.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2160.0
+      },
+      "segments": [
+        {
+          "train_no": "12001",
+          "train_name": "BPL - NDLS S",
+          "from": "NDLS",
+          "to": "LAR",
+          "departure": "23:30:00",
+          "arrival": "17:23:00",
+          "distance": 481.0,
+          "duration_min": 1073.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12511",
+          "train_name": "RAPTISAGAR E",
+          "from": "LAR",
+          "to": "MAS",
+          "departure": "18:04:00",
+          "arrival": "23:20:00",
+          "distance": 1679.0,
+          "duration_min": 316.0,
+          "wait_min": 41.0
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_03",
+      "category": "BALANCED \u2696\ufe0f",
+      "objectives": {
+        "time": 520.0,
+        "cost": 2163.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2163.0
+      },
+      "segments": [
+        {
+          "train_no": "12622",
+          "train_name": "NDLS-MAS TAM",
+          "from": "NDLS",
+          "to": "MAS",
+          "departure": "22:30:00",
+          "arrival": "07:10:00",
+          "distance": 2163.0,
+          "duration_min": 520.0,
+          "wait_min": 0
+        }
+      ]
+    }
+  ],
+  "all_generated_routes": [
+    {
+      "route_id": "ALL_ROUTE_001",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 700.0,
+        "cost": 2163.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2163.0
+      },
+      "segments": [
+        {
+          "train_no": "12616",
+          "train_name": "G T EXPRESS",
+          "from": "NDLS",
+          "to": "MAS",
+          "departure": "18:40:00",
+          "arrival": "06:20:00",
+          "distance": 2163.0,
+          "duration_min": 700.0,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_002",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 520.0,
+        "cost": 2163.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2163.0
+      },
+      "segments": [
+        {
+          "train_no": "12622",
+          "train_name": "NDLS-MAS TAM",
+          "from": "NDLS",
+          "to": "MAS",
+          "departure": "22:30:00",
+          "arrival": "07:10:00",
+          "distance": 2163.0,
+          "duration_min": 520.0,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_003",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 1205.0,
+        "cost": 2187.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2187.0
+      },
+      "segments": [
+        {
+          "train_no": "16032",
+          "train_name": "SVDK-MAS AND",
+          "from": "NDLS",
+          "to": "MAS",
+          "departure": "14:15:00",
+          "arrival": "10:20:00",
+          "distance": 2187.0,
+          "duration_min": 1205.0,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_004",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1225.0,
+        "cost": 2167.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2167.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "ET",
+          "departure": "20:45:00",
+          "arrival": "13:15:00",
+          "distance": 777.0,
+          "duration_min": 990.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12969",
+          "train_name": "CBE JAIPUR E",
+          "from": "ET",
+          "to": "MAS",
+          "departure": "16:00:00",
+          "arrival": "17:10:00",
+          "distance": 1390.0,
+          "duration_min": 70.0,
+          "wait_min": 165.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_005",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1110.0,
+        "cost": 2166.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2166.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "ET",
+          "departure": "20:45:00",
+          "arrival": "13:15:00",
+          "distance": 777.0,
+          "duration_min": 990.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12295",
+          "train_name": "SBC-PPTA SAN",
+          "from": "ET",
+          "to": "MAS",
+          "departure": "14:45:00",
+          "arrival": "15:15:00",
+          "distance": 1389.0,
+          "duration_min": 30.0,
+          "wait_min": 90.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_006",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2590.0000000000005,
+        "cost": 2168.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2168.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "ET",
+          "departure": "20:45:00",
+          "arrival": "13:15:00",
+          "distance": 777.0,
+          "duration_min": 990.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12578",
+          "train_name": "BAGMATI  EXP",
+          "from": "ET",
+          "to": "MAS",
+          "departure": "16:55:00",
+          "arrival": "15:55:00",
+          "distance": 1391.0,
+          "duration_min": 1380.0,
+          "wait_min": 220.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_007",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2500.0000000000005,
+        "cost": 2164.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2164.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "ET",
+          "departure": "20:45:00",
+          "arrival": "13:15:00",
+          "distance": 777.0,
+          "duration_min": 990.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12670",
+          "train_name": "CPR-MAS GANG",
+          "from": "ET",
+          "to": "MAS",
+          "departure": "14:40:00",
+          "arrival": "14:25:00",
+          "distance": 1387.0,
+          "duration_min": 1425.0,
+          "wait_min": 85.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_008",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2590.0000000000005,
+        "cost": 2167.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2167.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "ET",
+          "departure": "20:45:00",
+          "arrival": "13:15:00",
+          "distance": 777.0,
+          "duration_min": 990.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22352",
+          "train_name": "YPR - PPTA E",
+          "from": "ET",
+          "to": "MAS",
+          "departure": "16:55:00",
+          "arrival": "15:55:00",
+          "distance": 1390.0,
+          "duration_min": 1380.0,
+          "wait_min": 220.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_009",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1855.0,
+        "cost": 2671.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2671.0
+      },
+      "segments": [
+        {
+          "train_no": "11078",
+          "train_name": "JHELUM EXPRE",
+          "from": "NDLS",
+          "to": "PUNE",
+          "departure": "10:15:00",
+          "arrival": "15:10:00",
+          "distance": 1581.0,
+          "duration_min": 295.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "19420",
+          "train_name": "ADI CHENNAI",
+          "from": "PUNE",
+          "to": "MAS",
+          "departure": "21:15:00",
+          "arrival": "17:10:00",
+          "distance": 1090.0,
+          "duration_min": 1195.0,
+          "wait_min": 365.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_010",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2050.0,
+        "cost": 3527.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3527.0
+      },
+      "segments": [
+        {
+          "train_no": "11449",
+          "train_name": "JBP-SVDK EXP",
+          "from": "NDLS",
+          "to": "SVDK",
+          "departure": "00:10:00",
+          "arrival": "15:20:00",
+          "distance": 670.0,
+          "duration_min": 910.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16032",
+          "train_name": "SVDK-MAS AND",
+          "from": "SVDK",
+          "to": "MAS",
+          "departure": "21:55:00",
+          "arrival": "10:20:00",
+          "distance": 2857.0,
+          "duration_min": 745.0,
+          "wait_min": 395.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_011",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1395.0,
+        "cost": 2524.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2524.0
+      },
+      "segments": [
+        {
+          "train_no": "11450",
+          "train_name": "SVDK-JBP EXP",
+          "from": "NDLS",
+          "to": "JBP",
+          "departure": "14:15:00",
+          "arrival": "07:25:00",
+          "distance": 894.0,
+          "duration_min": 1030.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12296",
+          "train_name": "PNBE-SBC SAN",
+          "from": "JBP",
+          "to": "MAS",
+          "departure": "08:10:00",
+          "arrival": "13:30:00",
+          "distance": 1630.0,
+          "duration_min": 320.0,
+          "wait_min": 45.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_012",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1445.0000000000002,
+        "cost": 2526.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2526.0
+      },
+      "segments": [
+        {
+          "train_no": "11450",
+          "train_name": "SVDK-JBP EXP",
+          "from": "NDLS",
+          "to": "JBP",
+          "departure": "14:15:00",
+          "arrival": "07:25:00",
+          "distance": 894.0,
+          "duration_min": 1030.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12577",
+          "train_name": "BAGMATI EXP",
+          "from": "JBP",
+          "to": "MAS",
+          "departure": "09:00:00",
+          "arrival": "14:20:00",
+          "distance": 1632.0,
+          "duration_min": 320.0,
+          "wait_min": 95.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_013",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1030.0,
+        "cost": 2416.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2416.0
+      },
+      "segments": [
+        {
+          "train_no": "12004",
+          "train_name": "NDLS-LKO SHA",
+          "from": "NDLS",
+          "to": "CNB",
+          "departure": "06:10:00",
+          "arrival": "11:20:00",
+          "distance": 430.0,
+          "duration_min": 310.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12511",
+          "train_name": "RAPTISAGAR E",
+          "from": "CNB",
+          "to": "MAS",
+          "departure": "13:22:00",
+          "arrival": "23:20:00",
+          "distance": 1986.0,
+          "duration_min": 598.0,
+          "wait_min": 122.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_014",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1030.0,
+        "cost": 2416.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2416.0
+      },
+      "segments": [
+        {
+          "train_no": "12004",
+          "train_name": "NDLS-LKO SHA",
+          "from": "NDLS",
+          "to": "CNB",
+          "departure": "06:10:00",
+          "arrival": "11:20:00",
+          "distance": 430.0,
+          "duration_min": 310.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12521",
+          "train_name": "RAPTI SAGAR",
+          "from": "CNB",
+          "to": "MAS",
+          "departure": "13:22:00",
+          "arrival": "23:20:00",
+          "distance": 1986.0,
+          "duration_min": 598.0,
+          "wait_min": 122.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_015",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1690.0,
+        "cost": 2587.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2587.0
+      },
+      "segments": [
+        {
+          "train_no": "12004",
+          "train_name": "NDLS-LKO SHA",
+          "from": "NDLS",
+          "to": "LJN",
+          "departure": "06:10:00",
+          "arrival": "12:40:00",
+          "distance": 504.0,
+          "duration_min": 390.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16094",
+          "train_name": "LJN - MAS EX",
+          "from": "LJN",
+          "to": "MAS",
+          "departure": "16:20:00",
+          "arrival": "10:20:00",
+          "distance": 2083.0,
+          "duration_min": 1080.0,
+          "wait_min": 220.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_016",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1404.9999999999998,
+        "cost": 2483.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2483.0
+      },
+      "segments": [
+        {
+          "train_no": "12191",
+          "train_name": "SHRIDHAM SUP",
+          "from": "NDLS",
+          "to": "NU",
+          "departure": "14:05:00",
+          "arrival": "05:28:00",
+          "distance": 937.0,
+          "duration_min": 923.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12296",
+          "train_name": "PNBE-SBC SAN",
+          "from": "NU",
+          "to": "MAS",
+          "departure": "09:18:00",
+          "arrival": "13:30:00",
+          "distance": 1546.0,
+          "duration_min": 252.0,
+          "wait_min": 230.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_017",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1455.0,
+        "cost": 2485.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2485.0
+      },
+      "segments": [
+        {
+          "train_no": "12191",
+          "train_name": "SHRIDHAM SUP",
+          "from": "NDLS",
+          "to": "NU",
+          "departure": "14:05:00",
+          "arrival": "05:28:00",
+          "distance": 937.0,
+          "duration_min": 923.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12577",
+          "train_name": "BAGMATI EXP",
+          "from": "NU",
+          "to": "MAS",
+          "departure": "10:05:00",
+          "arrival": "14:20:00",
+          "distance": 1548.0,
+          "duration_min": 255.0,
+          "wait_min": 277.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_018",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1989.9999999999998,
+        "cost": 3573.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3573.0
+      },
+      "segments": [
+        {
+          "train_no": "12203",
+          "train_name": "GARIB RATH",
+          "from": "NDLS",
+          "to": "HJP",
+          "departure": "14:10:00",
+          "arrival": "19:55:00",
+          "distance": 999.0,
+          "duration_min": 345.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12521",
+          "train_name": "RAPTI SAGAR",
+          "from": "HJP",
+          "to": "MAS",
+          "departure": "01:45:00",
+          "arrival": "23:20:00",
+          "distance": 2574.0,
+          "duration_min": 1295.0,
+          "wait_min": 350.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_019",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1449.9999999999998,
+        "cost": 3613.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3613.0
+      },
+      "segments": [
+        {
+          "train_no": "12203",
+          "train_name": "GARIB RATH",
+          "from": "NDLS",
+          "to": "BJU",
+          "departure": "14:10:00",
+          "arrival": "16:55:00",
+          "distance": 1155.0,
+          "duration_min": 165.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12577",
+          "train_name": "BAGMATI EXP",
+          "from": "BJU",
+          "to": "MAS",
+          "departure": "18:15:00",
+          "arrival": "14:20:00",
+          "distance": 2458.0,
+          "duration_min": 1205.0,
+          "wait_min": 80.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_020",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1080.0,
+        "cost": 3194.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3194.0
+      },
+      "segments": [
+        {
+          "train_no": "12217",
+          "train_name": "KERALA S.KRA",
+          "from": "NDLS",
+          "to": "TCR",
+          "departure": "11:50:00",
+          "arrival": "14:05:00",
+          "distance": 2569.0,
+          "duration_min": 135.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22640",
+          "train_name": "CHENNAI EXPR",
+          "from": "TCR",
+          "to": "MAS",
+          "departure": "19:03:00",
+          "arrival": "05:50:00",
+          "distance": 625.0,
+          "duration_min": 647.0,
+          "wait_min": 298.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_021",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1095.0,
+        "cost": 3341.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3341.0
+      },
+      "segments": [
+        {
+          "train_no": "12217",
+          "train_name": "KERALA S.KRA",
+          "from": "NDLS",
+          "to": "ERS",
+          "departure": "11:50:00",
+          "arrival": "12:55:00",
+          "distance": 2643.0,
+          "duration_min": 65.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22643",
+          "train_name": "PATNA EXPRES",
+          "from": "ERS",
+          "to": "MAS",
+          "departure": "17:15:00",
+          "arrival": "06:05:00",
+          "distance": 698.0,
+          "duration_min": 770.0,
+          "wait_min": 260.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_022",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1180.0,
+        "cost": 3194.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3194.0
+      },
+      "segments": [
+        {
+          "train_no": "12217",
+          "train_name": "KERALA S.KRA",
+          "from": "NDLS",
+          "to": "TCR",
+          "departure": "11:50:00",
+          "arrival": "14:05:00",
+          "distance": 2569.0,
+          "duration_min": 135.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12624",
+          "train_name": "CHENNAI MAIL",
+          "from": "TCR",
+          "to": "MAS",
+          "departure": "20:43:00",
+          "arrival": "07:30:00",
+          "distance": 625.0,
+          "duration_min": 647.0,
+          "wait_min": 398.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_023",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1070.0000000000002,
+        "cost": 3115.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3115.0
+      },
+      "segments": [
+        {
+          "train_no": "12217",
+          "train_name": "KERALA S.KRA",
+          "from": "NDLS",
+          "to": "CLT",
+          "departure": "11:50:00",
+          "arrival": "16:20:00",
+          "distance": 2450.0,
+          "duration_min": 270.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12602",
+          "train_name": "CHENNAI MAIL",
+          "from": "CLT",
+          "to": "MAS",
+          "departure": "17:20:00",
+          "arrival": "05:40:00",
+          "distance": 665.0,
+          "duration_min": 740.0,
+          "wait_min": 60.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_024",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1210.0,
+        "cost": 3115.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3115.0
+      },
+      "segments": [
+        {
+          "train_no": "12217",
+          "train_name": "KERALA S.KRA",
+          "from": "NDLS",
+          "to": "SRR",
+          "departure": "11:50:00",
+          "arrival": "15:00:00",
+          "distance": 2536.0,
+          "duration_min": 190.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12686",
+          "train_name": "MAQ-MAS EXP.",
+          "from": "SRR",
+          "to": "MAS",
+          "departure": "21:30:00",
+          "arrival": "08:00:00",
+          "distance": 579.0,
+          "duration_min": 630.0,
+          "wait_min": 390.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_025",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1650.0,
+        "cost": 2398.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2398.0
+      },
+      "segments": [
+        {
+          "train_no": "12218",
+          "train_name": "KERALA S.KRA",
+          "from": "NDLS",
+          "to": "KOTA",
+          "departure": "13:40:00",
+          "arrival": "19:45:00",
+          "distance": 457.0,
+          "duration_min": 365.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12969",
+          "train_name": "CBE JAIPUR E",
+          "from": "KOTA",
+          "to": "MAS",
+          "departure": "01:55:00",
+          "arrival": "17:10:00",
+          "distance": 1941.0,
+          "duration_min": 915.0,
+          "wait_min": 370.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_026",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1230.0,
+        "cost": 2395.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2395.0
+      },
+      "segments": [
+        {
+          "train_no": "12218",
+          "train_name": "KERALA S.KRA",
+          "from": "NDLS",
+          "to": "KOTA",
+          "departure": "13:40:00",
+          "arrival": "19:45:00",
+          "distance": 457.0,
+          "duration_min": 365.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22632",
+          "train_name": "BKN-MAS  ANU",
+          "from": "KOTA",
+          "to": "MAS",
+          "departure": "01:05:00",
+          "arrival": "10:10:00",
+          "distance": 1938.0,
+          "duration_min": 545.0,
+          "wait_min": 320.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_027",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1584.9999999999998,
+        "cost": 2779.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2779.0
+      },
+      "segments": [
+        {
+          "train_no": "12218",
+          "train_name": "KERALA S.KRA",
+          "from": "NDLS",
+          "to": "BRC",
+          "departure": "13:40:00",
+          "arrival": "04:07:00",
+          "distance": 985.0,
+          "duration_min": 867.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12655",
+          "train_name": "NAVAJEEVAN E",
+          "from": "BRC",
+          "to": "MAS",
+          "departure": "09:27:00",
+          "arrival": "16:05:00",
+          "distance": 1794.0,
+          "duration_min": 398.0,
+          "wait_min": 320.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_028",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 970.0000000000001,
+        "cost": 4577.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 4577.0
+      },
+      "segments": [
+        {
+          "train_no": "12235",
+          "train_name": "GHY-NDLS RAJ",
+          "from": "NDLS",
+          "to": "GHY",
+          "departure": "13:55:00",
+          "arrival": "04:15:00",
+          "distance": 1941.0,
+          "duration_min": 860.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12509",
+          "train_name": "SBC -GHY EXP",
+          "from": "GHY",
+          "to": "MAS",
+          "departure": "06:00:00",
+          "arrival": "06:05:00",
+          "distance": 2636.0,
+          "duration_min": 5.0,
+          "wait_min": 105.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_029",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2315.0,
+        "cost": 4577.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 4577.0
+      },
+      "segments": [
+        {
+          "train_no": "12235",
+          "train_name": "GHY-NDLS RAJ",
+          "from": "NDLS",
+          "to": "GHY",
+          "departure": "13:55:00",
+          "arrival": "04:15:00",
+          "distance": 1941.0,
+          "duration_min": 860.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12510",
+          "train_name": "GHY-SBC EXP",
+          "from": "GHY",
+          "to": "MAS",
+          "departure": "06:20:00",
+          "arrival": "04:30:00",
+          "distance": 2636.0,
+          "duration_min": 1330.0,
+          "wait_min": 125.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_030",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1145.0000000000002,
+        "cost": 3755.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3755.0
+      },
+      "segments": [
+        {
+          "train_no": "12236",
+          "train_name": "NDLS-GHY RAJ",
+          "from": "NDLS",
+          "to": "NJP",
+          "departure": "09:25:00",
+          "arrival": "12:05:00",
+          "distance": 1530.0,
+          "duration_min": 160.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12508",
+          "train_name": "SCL - TVC EX",
+          "from": "NJP",
+          "to": "MAS",
+          "departure": "14:25:00",
+          "arrival": "04:30:00",
+          "distance": 2225.0,
+          "duration_min": 845.0,
+          "wait_min": 140.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_031",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1145.0000000000002,
+        "cost": 3755.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3755.0
+      },
+      "segments": [
+        {
+          "train_no": "12236",
+          "train_name": "NDLS-GHY RAJ",
+          "from": "NDLS",
+          "to": "NJP",
+          "departure": "09:25:00",
+          "arrival": "12:05:00",
+          "distance": 1530.0,
+          "duration_min": 160.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12510",
+          "train_name": "GHY-SBC EXP",
+          "from": "NJP",
+          "to": "MAS",
+          "departure": "14:25:00",
+          "arrival": "04:30:00",
+          "distance": 2225.0,
+          "duration_min": 845.0,
+          "wait_min": 140.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_032",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1145.0000000000002,
+        "cost": 3755.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3755.0
+      },
+      "segments": [
+        {
+          "train_no": "12236",
+          "train_name": "NDLS-GHY RAJ",
+          "from": "NDLS",
+          "to": "NJP",
+          "departure": "09:25:00",
+          "arrival": "12:05:00",
+          "distance": 1530.0,
+          "duration_min": 160.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12516",
+          "train_name": "SCL -TVC EXP",
+          "from": "NJP",
+          "to": "MAS",
+          "departure": "14:25:00",
+          "arrival": "04:30:00",
+          "distance": 2225.0,
+          "duration_min": 845.0,
+          "wait_min": 140.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_033",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1175.0,
+        "cost": 2921.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2921.0
+      },
+      "segments": [
+        {
+          "train_no": "12260",
+          "train_name": "SDAH DURONTO",
+          "from": "NDLS",
+          "to": "MGS",
+          "departure": "19:40:00",
+          "arrival": "04:33:00",
+          "distance": 777.0,
+          "duration_min": 533.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12295",
+          "train_name": "SBC-PPTA SAN",
+          "from": "MGS",
+          "to": "MAS",
+          "departure": "05:18:00",
+          "arrival": "15:15:00",
+          "distance": 2144.0,
+          "duration_min": 597.0,
+          "wait_min": 45.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_034",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1215.0,
+        "cost": 2923.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2923.0
+      },
+      "segments": [
+        {
+          "train_no": "12260",
+          "train_name": "SDAH DURONTO",
+          "from": "NDLS",
+          "to": "MGS",
+          "departure": "19:40:00",
+          "arrival": "04:33:00",
+          "distance": 777.0,
+          "duration_min": 533.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12578",
+          "train_name": "BAGMATI  EXP",
+          "from": "MGS",
+          "to": "MAS",
+          "departure": "06:23:00",
+          "arrival": "15:55:00",
+          "distance": 2146.0,
+          "duration_min": 572.0,
+          "wait_min": 110.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_035",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1215.0,
+        "cost": 2921.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2921.0
+      },
+      "segments": [
+        {
+          "train_no": "12260",
+          "train_name": "SDAH DURONTO",
+          "from": "NDLS",
+          "to": "MGS",
+          "departure": "19:40:00",
+          "arrival": "04:33:00",
+          "distance": 777.0,
+          "duration_min": 533.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22352",
+          "train_name": "YPR - PPTA E",
+          "from": "MGS",
+          "to": "MAS",
+          "departure": "06:18:00",
+          "arrival": "15:55:00",
+          "distance": 2144.0,
+          "duration_min": 577.0,
+          "wait_min": 105.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_036",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1795.0,
+        "cost": 2961.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2961.0
+      },
+      "segments": [
+        {
+          "train_no": "12260",
+          "train_name": "SDAH DURONTO",
+          "from": "NDLS",
+          "to": "DHN",
+          "departure": "19:40:00",
+          "arrival": "08:58:00",
+          "distance": 1180.0,
+          "duration_min": 798.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13351",
+          "train_name": "DHANBAD - AL",
+          "from": "DHN",
+          "to": "MAS",
+          "departure": "10:30:00",
+          "arrival": "01:35:00",
+          "distance": 1781.0,
+          "duration_min": 905.0,
+          "wait_min": 92.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_037",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2470.0,
+        "cost": 3181.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3181.0
+      },
+      "segments": [
+        {
+          "train_no": "12274",
+          "train_name": "HWH DURONTO",
+          "from": "NDLS",
+          "to": "HWH",
+          "departure": "12:55:00",
+          "arrival": "10:40:00",
+          "distance": 1517.0,
+          "duration_min": 1305.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12509",
+          "train_name": "SBC -GHY EXP",
+          "from": "HWH",
+          "to": "MAS",
+          "departure": "11:15:00",
+          "arrival": "06:05:00",
+          "distance": 1664.0,
+          "duration_min": 1130.0,
+          "wait_min": 35.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_038",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1685.0000000000002,
+        "cost": 3181.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3181.0
+      },
+      "segments": [
+        {
+          "train_no": "12274",
+          "train_name": "HWH DURONTO",
+          "from": "NDLS",
+          "to": "HWH",
+          "departure": "12:55:00",
+          "arrival": "10:40:00",
+          "distance": 1517.0,
+          "duration_min": 1305.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12841",
+          "train_name": "HOWRAH-CHENN",
+          "from": "HWH",
+          "to": "MAS",
+          "departure": "14:50:00",
+          "arrival": "17:00:00",
+          "distance": 1664.0,
+          "duration_min": 130.0,
+          "wait_min": 250.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_039",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2674.9999999999995,
+        "cost": 3181.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3181.0
+      },
+      "segments": [
+        {
+          "train_no": "12274",
+          "train_name": "HWH DURONTO",
+          "from": "NDLS",
+          "to": "HWH",
+          "departure": "12:55:00",
+          "arrival": "10:40:00",
+          "distance": 1517.0,
+          "duration_min": 1305.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15227",
+          "train_name": "YPR-MFP EXP",
+          "from": "HWH",
+          "to": "MAS",
+          "departure": "14:25:00",
+          "arrival": "09:30:00",
+          "distance": 1664.0,
+          "duration_min": 1145.0,
+          "wait_min": 225.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_040",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2779.9999999999995,
+        "cost": 2927.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2927.0
+      },
+      "segments": [
+        {
+          "train_no": "12282",
+          "train_name": "NDLS-BBS DUR",
+          "from": "NDLS",
+          "to": "BBS",
+          "departure": "12:55:00",
+          "arrival": "10:45:00",
+          "distance": 1717.0,
+          "duration_min": 1310.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12552",
+          "train_name": "KYQ - YPR AC",
+          "from": "BBS",
+          "to": "MAS",
+          "departure": "16:50:00",
+          "arrival": "11:15:00",
+          "distance": 1210.0,
+          "duration_min": 1105.0,
+          "wait_min": 365.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_041",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1599.9999999999998,
+        "cost": 2926.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2926.0
+      },
+      "segments": [
+        {
+          "train_no": "12282",
+          "train_name": "NDLS-BBS DUR",
+          "from": "NDLS",
+          "to": "BLS",
+          "departure": "12:55:00",
+          "arrival": "07:33:00",
+          "distance": 1512.0,
+          "duration_min": 1118.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12551",
+          "train_name": "YPR - KYQ AC",
+          "from": "BLS",
+          "to": "MAS",
+          "departure": "12:46:00",
+          "arrival": "15:35:00",
+          "distance": 1414.0,
+          "duration_min": 169.0,
+          "wait_min": 313.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_042",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2675.0,
+        "cost": 2940.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2940.0
+      },
+      "segments": [
+        {
+          "train_no": "12282",
+          "train_name": "NDLS-BBS DUR",
+          "from": "NDLS",
+          "to": "BLS",
+          "departure": "12:55:00",
+          "arrival": "07:33:00",
+          "distance": 1512.0,
+          "duration_min": 1118.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15227",
+          "train_name": "YPR-MFP EXP",
+          "from": "BLS",
+          "to": "MAS",
+          "departure": "09:43:00",
+          "arrival": "09:30:00",
+          "distance": 1428.0,
+          "duration_min": 1427.0,
+          "wait_min": 130.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_043",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2640.0,
+        "cost": 2939.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2939.0
+      },
+      "segments": [
+        {
+          "train_no": "12282",
+          "train_name": "NDLS-BBS DUR",
+          "from": "NDLS",
+          "to": "BBS",
+          "departure": "12:55:00",
+          "arrival": "10:45:00",
+          "distance": 1717.0,
+          "duration_min": 1310.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12830",
+          "train_name": "BBS-CEN WEEK",
+          "from": "BBS",
+          "to": "MAS",
+          "departure": "12:00:00",
+          "arrival": "08:55:00",
+          "distance": 1222.0,
+          "duration_min": 1255.0,
+          "wait_min": 75.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_044",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 3000.0,
+        "cost": 2939.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2939.0
+      },
+      "segments": [
+        {
+          "train_no": "12282",
+          "train_name": "NDLS-BBS DUR",
+          "from": "NDLS",
+          "to": "BBS",
+          "departure": "12:55:00",
+          "arrival": "10:45:00",
+          "distance": 1717.0,
+          "duration_min": 1310.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22612",
+          "train_name": "NJP MAS EXPR",
+          "from": "BBS",
+          "to": "MAS",
+          "departure": "17:25:00",
+          "arrival": "14:55:00",
+          "distance": 1222.0,
+          "duration_min": 1290.0,
+          "wait_min": 400.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_045",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1000.0000000000001,
+        "cost": 3044.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3044.0
+      },
+      "segments": [
+        {
+          "train_no": "12303",
+          "train_name": "POORVA EXPRE",
+          "from": "NDLS",
+          "to": "ASN",
+          "departure": "06:05:00",
+          "arrival": "10:35:00",
+          "distance": 1317.0,
+          "duration_min": 270.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12376",
+          "train_name": "ASN MAS  EXP",
+          "from": "ASN",
+          "to": "MAS",
+          "departure": "16:00:00",
+          "arrival": "22:45:00",
+          "distance": 1727.0,
+          "duration_min": 405.0,
+          "wait_min": 325.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_046",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2010.0,
+        "cost": 3059.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3059.0
+      },
+      "segments": [
+        {
+          "train_no": "12303",
+          "train_name": "POORVA EXPRE",
+          "from": "NDLS",
+          "to": "ASN",
+          "departure": "06:05:00",
+          "arrival": "10:35:00",
+          "distance": 1317.0,
+          "duration_min": 270.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12551",
+          "train_name": "YPR - KYQ AC",
+          "from": "ASN",
+          "to": "MAS",
+          "departure": "18:07:00",
+          "arrival": "15:35:00",
+          "distance": 1742.0,
+          "duration_min": 1288.0,
+          "wait_min": 452.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_047",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1340.0000000000002,
+        "cost": 3240.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3240.0
+      },
+      "segments": [
+        {
+          "train_no": "12304",
+          "train_name": "POORVA EXPRE",
+          "from": "NDLS",
+          "to": "ARA",
+          "departure": "17:35:00",
+          "arrival": "06:20:00",
+          "distance": 936.0,
+          "duration_min": 765.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12578",
+          "train_name": "BAGMATI  EXP",
+          "from": "ARA",
+          "to": "MAS",
+          "departure": "08:42:00",
+          "arrival": "15:55:00",
+          "distance": 2304.0,
+          "duration_min": 433.0,
+          "wait_min": 142.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_048",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1340.0000000000002,
+        "cost": 3317.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3317.0
+      },
+      "segments": [
+        {
+          "train_no": "12304",
+          "train_name": "POORVA EXPRE",
+          "from": "NDLS",
+          "to": "DNR",
+          "departure": "17:35:00",
+          "arrival": "06:48:00",
+          "distance": 975.0,
+          "duration_min": 793.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22352",
+          "train_name": "YPR - PPTA E",
+          "from": "DNR",
+          "to": "MAS",
+          "departure": "09:40:00",
+          "arrival": "15:55:00",
+          "distance": 2342.0,
+          "duration_min": 375.0,
+          "wait_min": 172.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_049",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2045.0000000000002,
+        "cost": 3071.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3071.0
+      },
+      "segments": [
+        {
+          "train_no": "12304",
+          "train_name": "POORVA EXPRE",
+          "from": "NDLS",
+          "to": "BKP",
+          "departure": "17:35:00",
+          "arrival": "08:27:00",
+          "distance": 1030.0,
+          "duration_min": 892.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22644",
+          "train_name": "PNBE ERS EXP",
+          "from": "BKP",
+          "to": "MAS",
+          "departure": "14:48:00",
+          "arrival": "03:40:00",
+          "distance": 2041.0,
+          "duration_min": 772.0,
+          "wait_min": 381.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_050",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1299.9999999999998,
+        "cost": 3238.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3238.0
+      },
+      "segments": [
+        {
+          "train_no": "12304",
+          "train_name": "POORVA EXPRE",
+          "from": "NDLS",
+          "to": "ARA",
+          "departure": "17:35:00",
+          "arrival": "06:20:00",
+          "distance": 936.0,
+          "duration_min": 765.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12295",
+          "train_name": "SBC-PPTA SAN",
+          "from": "ARA",
+          "to": "MAS",
+          "departure": "07:55:00",
+          "arrival": "15:15:00",
+          "distance": 2302.0,
+          "duration_min": 440.0,
+          "wait_min": 95.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_051",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2089.9999999999995,
+        "cost": 2395.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2395.0
+      },
+      "segments": [
+        {
+          "train_no": "12415",
+          "train_name": "IND NZM EXPR",
+          "from": "NDLS",
+          "to": "SGZ",
+          "departure": "06:20:00",
+          "arrival": "20:45:00",
+          "distance": 584.0,
+          "duration_min": 865.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12969",
+          "train_name": "CBE JAIPUR E",
+          "from": "SGZ",
+          "to": "MAS",
+          "departure": "00:16:00",
+          "arrival": "17:10:00",
+          "distance": 1811.0,
+          "duration_min": 1014.0,
+          "wait_min": 211.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_052",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1670.0000000000002,
+        "cost": 2392.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2392.0
+      },
+      "segments": [
+        {
+          "train_no": "12415",
+          "train_name": "IND NZM EXPR",
+          "from": "NDLS",
+          "to": "SGZ",
+          "departure": "06:20:00",
+          "arrival": "20:45:00",
+          "distance": 584.0,
+          "duration_min": 865.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22632",
+          "train_name": "BKN-MAS  ANU",
+          "from": "SGZ",
+          "to": "MAS",
+          "departure": "02:40:00",
+          "arrival": "10:10:00",
+          "distance": 1808.0,
+          "duration_min": 450.0,
+          "wait_min": 355.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_053",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1520.0000000000002,
+        "cost": 2552.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2552.0
+      },
+      "segments": [
+        {
+          "train_no": "12416",
+          "train_name": "INTERCITY  E",
+          "from": "NDLS",
+          "to": "INDB",
+          "departure": "22:00:00",
+          "arrival": "11:40:00",
+          "distance": 812.0,
+          "duration_min": 820.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22645",
+          "train_name": "AHILYANAGARI",
+          "from": "INDB",
+          "to": "MAS",
+          "departure": "16:50:00",
+          "arrival": "23:20:00",
+          "distance": 1740.0,
+          "duration_min": 390.0,
+          "wait_min": 310.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_054",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1149.9999999999998,
+        "cost": 2399.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2399.0
+      },
+      "segments": [
+        {
+          "train_no": "12416",
+          "train_name": "INTERCITY  E",
+          "from": "NDLS",
+          "to": "SWM",
+          "departure": "22:00:00",
+          "arrival": "03:20:00",
+          "distance": 350.0,
+          "duration_min": 320.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12969",
+          "train_name": "CBE JAIPUR E",
+          "from": "SWM",
+          "to": "MAS",
+          "departure": "04:00:00",
+          "arrival": "17:10:00",
+          "distance": 2049.0,
+          "duration_min": 790.0,
+          "wait_min": 40.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_055",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1935.0,
+        "cost": 2452.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2452.0
+      },
+      "segments": [
+        {
+          "train_no": "12419",
+          "train_name": "GOMTI EXP",
+          "from": "NDLS",
+          "to": "ON",
+          "departure": "15:05:00",
+          "arrival": "06:56:00",
+          "distance": 448.0,
+          "duration_min": 951.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12521",
+          "train_name": "RAPTI SAGAR",
+          "from": "ON",
+          "to": "MAS",
+          "departure": "12:42:00",
+          "arrival": "23:20:00",
+          "distance": 2004.0,
+          "duration_min": 638.0,
+          "wait_min": 346.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_056",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1595.0000000000002,
+        "cost": 2412.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2412.0
+      },
+      "segments": [
+        {
+          "train_no": "12421",
+          "train_name": "NED-ASR SUPE",
+          "from": "NDLS",
+          "to": "MKU",
+          "departure": "13:30:00",
+          "arrival": "17:03:00",
+          "distance": 1137.0,
+          "duration_min": 213.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12655",
+          "train_name": "NAVAJEEVAN E",
+          "from": "MKU",
+          "to": "MAS",
+          "departure": "18:20:00",
+          "arrival": "16:05:00",
+          "distance": 1275.0,
+          "duration_min": 1305.0,
+          "wait_min": 77.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_057",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1425.0,
+        "cost": 3329.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3329.0
+      },
+      "segments": [
+        {
+          "train_no": "12424",
+          "train_name": "NDLS-DBRT RA",
+          "from": "NDLS",
+          "to": "PPTA",
+          "departure": "16:10:00",
+          "arrival": "04:20:00",
+          "distance": 981.0,
+          "duration_min": 730.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22352",
+          "train_name": "YPR - PPTA E",
+          "from": "PPTA",
+          "to": "MAS",
+          "departure": "10:00:00",
+          "arrival": "15:55:00",
+          "distance": 2348.0,
+          "duration_min": 355.0,
+          "wait_min": 340.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_058",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2315.0,
+        "cost": 4435.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 4435.0
+      },
+      "segments": [
+        {
+          "train_no": "12435",
+          "train_name": "DBRT - NDLS",
+          "from": "NDLS",
+          "to": "RNY",
+          "departure": "13:55:00",
+          "arrival": "05:33:00",
+          "distance": 1846.0,
+          "duration_min": 938.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12510",
+          "train_name": "GHY-SBC EXP",
+          "from": "RNY",
+          "to": "MAS",
+          "departure": "07:20:00",
+          "arrival": "04:30:00",
+          "distance": 2589.0,
+          "duration_min": 1270.0,
+          "wait_min": 107.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_059",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1539.9999999999998,
+        "cost": 4465.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 4465.0
+      },
+      "segments": [
+        {
+          "train_no": "12435",
+          "train_name": "DBRT - NDLS",
+          "from": "NDLS",
+          "to": "RNY",
+          "departure": "13:55:00",
+          "arrival": "05:33:00",
+          "distance": 1846.0,
+          "duration_min": 938.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12551",
+          "train_name": "YPR - KYQ AC",
+          "from": "RNY",
+          "to": "MAS",
+          "departure": "11:56:00",
+          "arrival": "15:35:00",
+          "distance": 2619.0,
+          "duration_min": 219.0,
+          "wait_min": 383.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_060",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2015.0000000000002,
+        "cost": 2903.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2903.0
+      },
+      "segments": [
+        {
+          "train_no": "12440",
+          "train_name": "NDLS RNC RAJ",
+          "from": "NDLS",
+          "to": "BKSC",
+          "departure": "16:00:00",
+          "arrival": "06:40:00",
+          "distance": 1183.0,
+          "duration_min": 880.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13351",
+          "train_name": "DHANBAD - AL",
+          "from": "BKSC",
+          "to": "MAS",
+          "departure": "12:35:00",
+          "arrival": "01:35:00",
+          "distance": 1720.0,
+          "duration_min": 780.0,
+          "wait_min": 355.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_061",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2185.0,
+        "cost": 2421.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2421.0
+      },
+      "segments": [
+        {
+          "train_no": "12441",
+          "train_name": "BSP-NDLS",
+          "from": "NDLS",
+          "to": "G",
+          "departure": "10:55:00",
+          "arrival": "18:17:00",
+          "distance": 1201.0,
+          "duration_min": 442.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22647",
+          "train_name": "KRBA TVC EXP",
+          "from": "G",
+          "to": "MAS",
+          "departure": "02:10:00",
+          "arrival": "23:20:00",
+          "distance": 1220.0,
+          "duration_min": 1270.0,
+          "wait_min": 473.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_062",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2185.0,
+        "cost": 2160.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2160.0
+      },
+      "segments": [
+        {
+          "train_no": "12441",
+          "train_name": "BSP-NDLS",
+          "from": "NDLS",
+          "to": "NGP",
+          "departure": "10:55:00",
+          "arrival": "20:35:00",
+          "distance": 1071.0,
+          "duration_min": 580.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12511",
+          "train_name": "RAPTISAGAR E",
+          "from": "NGP",
+          "to": "MAS",
+          "departure": "04:00:00",
+          "arrival": "23:20:00",
+          "distance": 1089.0,
+          "duration_min": 1160.0,
+          "wait_min": 445.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_063",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2185.0,
+        "cost": 2161.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2161.0
+      },
+      "segments": [
+        {
+          "train_no": "12441",
+          "train_name": "BSP-NDLS",
+          "from": "NDLS",
+          "to": "NGP",
+          "departure": "10:55:00",
+          "arrival": "20:35:00",
+          "distance": 1071.0,
+          "duration_min": 580.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12521",
+          "train_name": "RAPTI SAGAR",
+          "from": "NGP",
+          "to": "MAS",
+          "departure": "04:00:00",
+          "arrival": "23:20:00",
+          "distance": 1090.0,
+          "duration_min": 1160.0,
+          "wait_min": 445.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_064",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2185.0,
+        "cost": 2161.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2161.0
+      },
+      "segments": [
+        {
+          "train_no": "12441",
+          "train_name": "BSP-NDLS",
+          "from": "NDLS",
+          "to": "NGP",
+          "departure": "10:55:00",
+          "arrival": "20:35:00",
+          "distance": 1071.0,
+          "duration_min": 580.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22645",
+          "train_name": "AHILYANAGARI",
+          "from": "NGP",
+          "to": "MAS",
+          "departure": "04:00:00",
+          "arrival": "23:20:00",
+          "distance": 1090.0,
+          "duration_min": 1160.0,
+          "wait_min": 445.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_065",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1485.0,
+        "cost": 2804.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2804.0
+      },
+      "segments": [
+        {
+          "train_no": "12474",
+          "train_name": "SARVODAYA EX",
+          "from": "NDLS",
+          "to": "ADI",
+          "departure": "21:50:00",
+          "arrival": "14:15:00",
+          "distance": 1085.0,
+          "duration_min": 985.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22920",
+          "train_name": "ADI CHENNAI",
+          "from": "ADI",
+          "to": "MAS",
+          "departure": "15:30:00",
+          "arrival": "22:35:00",
+          "distance": 1719.0,
+          "duration_min": 425.0,
+          "wait_min": 75.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_066",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1935.0,
+        "cost": 3099.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3099.0
+      },
+      "segments": [
+        {
+          "train_no": "12524",
+          "train_name": "NDLS-NJP BI-",
+          "from": "NDLS",
+          "to": "GKP",
+          "departure": "15:05:00",
+          "arrival": "04:45:00",
+          "distance": 762.0,
+          "duration_min": 820.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12521",
+          "train_name": "RAPTI SAGAR",
+          "from": "GKP",
+          "to": "MAS",
+          "departure": "06:35:00",
+          "arrival": "23:20:00",
+          "distance": 2337.0,
+          "duration_min": 1005.0,
+          "wait_min": 110.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_067",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1935.0,
+        "cost": 3098.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3098.0
+      },
+      "segments": [
+        {
+          "train_no": "12524",
+          "train_name": "NDLS-NJP BI-",
+          "from": "NDLS",
+          "to": "GKP",
+          "departure": "15:05:00",
+          "arrival": "04:45:00",
+          "distance": 762.0,
+          "duration_min": 820.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12511",
+          "train_name": "RAPTISAGAR E",
+          "from": "GKP",
+          "to": "MAS",
+          "departure": "06:35:00",
+          "arrival": "23:20:00",
+          "distance": 2336.0,
+          "duration_min": 1005.0,
+          "wait_min": 110.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_068",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1650.0,
+        "cost": 2628.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2628.0
+      },
+      "segments": [
+        {
+          "train_no": "12554",
+          "train_name": "VAISHALI EXP",
+          "from": "NDLS",
+          "to": "BBK",
+          "departure": "19:50:00",
+          "arrival": "04:55:00",
+          "distance": 532.0,
+          "duration_min": 545.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12521",
+          "train_name": "RAPTI SAGAR",
+          "from": "BBK",
+          "to": "MAS",
+          "departure": "10:29:00",
+          "arrival": "23:20:00",
+          "distance": 2096.0,
+          "duration_min": 771.0,
+          "wait_min": 334.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_069",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2299.9999999999995,
+        "cost": 3701.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3701.0
+      },
+      "segments": [
+        {
+          "train_no": "12561",
+          "train_name": "SWATANTRTA S",
+          "from": "NDLS",
+          "to": "DBG",
+          "departure": "00:00:00",
+          "arrival": "15:25:00",
+          "distance": 1155.0,
+          "duration_min": 925.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12577",
+          "train_name": "BAGMATI EXP",
+          "from": "DBG",
+          "to": "MAS",
+          "departure": "16:00:00",
+          "arrival": "14:20:00",
+          "distance": 2546.0,
+          "duration_min": 1340.0,
+          "wait_min": 35.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_070",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1420.0,
+        "cost": 2163.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2163.0
+      },
+      "segments": [
+        {
+          "train_no": "12615",
+          "train_name": "MAS-NDLS GRA",
+          "from": "NDLS",
+          "to": "CLX",
+          "departure": "06:40:00",
+          "arrival": "00:01:00",
+          "distance": 1822.0,
+          "duration_min": 1041.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12616",
+          "train_name": "G T EXPRESS",
+          "from": "CLX",
+          "to": "MAS",
+          "departure": "00:39:00",
+          "arrival": "06:20:00",
+          "distance": 341.0,
+          "duration_min": 341.0,
+          "wait_min": 38.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_071",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1535.0000000000002,
+        "cost": 2163.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2163.0
+      },
+      "segments": [
+        {
+          "train_no": "12615",
+          "train_name": "MAS-NDLS GRA",
+          "from": "NDLS",
+          "to": "CLX",
+          "departure": "06:40:00",
+          "arrival": "00:01:00",
+          "distance": 1822.0,
+          "duration_min": 1041.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12760",
+          "train_name": "HYB-MAS CHAR",
+          "from": "CLX",
+          "to": "MAS",
+          "departure": "02:21:00",
+          "arrival": "08:15:00",
+          "distance": 341.0,
+          "duration_min": 354.0,
+          "wait_min": 140.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_072",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1575.0,
+        "cost": 2163.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2163.0
+      },
+      "segments": [
+        {
+          "train_no": "12615",
+          "train_name": "MAS-NDLS GRA",
+          "from": "NDLS",
+          "to": "CLX",
+          "departure": "06:40:00",
+          "arrival": "00:01:00",
+          "distance": 1822.0,
+          "duration_min": 1041.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12830",
+          "train_name": "BBS-CEN WEEK",
+          "from": "CLX",
+          "to": "MAS",
+          "departure": "02:30:00",
+          "arrival": "08:55:00",
+          "distance": 341.0,
+          "duration_min": 385.0,
+          "wait_min": 149.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_073",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1595.0000000000002,
+        "cost": 2163.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2163.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "LAR",
+          "departure": "20:45:00",
+          "arrival": "06:50:00",
+          "distance": 484.0,
+          "duration_min": 605.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12511",
+          "train_name": "RAPTISAGAR E",
+          "from": "LAR",
+          "to": "MAS",
+          "departure": "18:04:00",
+          "arrival": "23:20:00",
+          "distance": 1679.0,
+          "duration_min": 316.0,
+          "wait_min": 674.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_074",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1595.0000000000002,
+        "cost": 2164.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2164.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "LAR",
+          "departure": "20:45:00",
+          "arrival": "06:50:00",
+          "distance": 484.0,
+          "duration_min": 605.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12521",
+          "train_name": "RAPTI SAGAR",
+          "from": "LAR",
+          "to": "MAS",
+          "departure": "18:04:00",
+          "arrival": "23:20:00",
+          "distance": 1680.0,
+          "duration_min": 316.0,
+          "wait_min": 674.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_075",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1185.0,
+        "cost": 2809.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2809.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "CSMT",
+          "departure": "20:45:00",
+          "arrival": "04:05:00",
+          "distance": 1528.0,
+          "duration_min": 440.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11041",
+          "train_name": "CSMT -MAS EX",
+          "from": "CSMT",
+          "to": "MAS",
+          "departure": "14:00:00",
+          "arrival": "16:30:00",
+          "distance": 1281.0,
+          "duration_min": 150.0,
+          "wait_min": 595.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_076",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1445.0000000000002,
+        "cost": 3047.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3047.0
+      },
+      "segments": [
+        {
+          "train_no": "11078",
+          "train_name": "JHELUM EXPRE",
+          "from": "NDLS",
+          "to": "DZA",
+          "departure": "10:15:00",
+          "arrival": "00:46:00",
+          "distance": 422.0,
+          "duration_min": 871.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16032",
+          "train_name": "SVDK-MAS AND",
+          "from": "DZA",
+          "to": "MAS",
+          "departure": "02:31:00",
+          "arrival": "10:20:00",
+          "distance": 2625.0,
+          "duration_min": 469.0,
+          "wait_min": 105.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_077",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1205.0,
+        "cost": 2163.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2163.0
+      },
+      "segments": [
+        {
+          "train_no": "11078",
+          "train_name": "JHELUM EXPRE",
+          "from": "NDLS",
+          "to": "RKM",
+          "departure": "10:15:00",
+          "arrival": "13:16:00",
+          "distance": 187.0,
+          "duration_min": 181.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12616",
+          "train_name": "G T EXPRESS",
+          "from": "RKM",
+          "to": "MAS",
+          "departure": "21:21:00",
+          "arrival": "06:20:00",
+          "distance": 1976.0,
+          "duration_min": 539.0,
+          "wait_min": 485.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_078",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 355.0,
+        "cost": 2162.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2162.0
+      },
+      "segments": [
+        {
+          "train_no": "11450",
+          "train_name": "SVDK-JBP EXP",
+          "from": "NDLS",
+          "to": "NZM",
+          "departure": "14:15:00",
+          "arrival": "14:28:00",
+          "distance": 7.0,
+          "duration_min": 13.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12270",
+          "train_name": "NZM-MAS DURA",
+          "from": "NZM",
+          "to": "MAS",
+          "departure": "15:45:00",
+          "arrival": "20:10:00",
+          "distance": 2155.0,
+          "duration_min": 265.0,
+          "wait_min": 77.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_079",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1430.0,
+        "cost": 2160.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2160.0
+      },
+      "segments": [
+        {
+          "train_no": "12001",
+          "train_name": "BPL - NDLS S",
+          "from": "NDLS",
+          "to": "LAR",
+          "departure": "23:30:00",
+          "arrival": "17:23:00",
+          "distance": 481.0,
+          "duration_min": 1073.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12511",
+          "train_name": "RAPTISAGAR E",
+          "from": "LAR",
+          "to": "MAS",
+          "departure": "18:04:00",
+          "arrival": "23:20:00",
+          "distance": 1679.0,
+          "duration_min": 316.0,
+          "wait_min": 41.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_080",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1430.0,
+        "cost": 2161.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2161.0
+      },
+      "segments": [
+        {
+          "train_no": "12001",
+          "train_name": "BPL - NDLS S",
+          "from": "NDLS",
+          "to": "LAR",
+          "departure": "23:30:00",
+          "arrival": "17:23:00",
+          "distance": 481.0,
+          "duration_min": 1073.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12521",
+          "train_name": "RAPTI SAGAR",
+          "from": "LAR",
+          "to": "MAS",
+          "departure": "18:04:00",
+          "arrival": "23:20:00",
+          "distance": 1680.0,
+          "duration_min": 316.0,
+          "wait_min": 41.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_081",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1040.0000000000002,
+        "cost": 2162.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2162.0
+      },
+      "segments": [
+        {
+          "train_no": "12002",
+          "train_name": "NDLS - BPL S",
+          "from": "NDLS",
+          "to": "LAR",
+          "departure": "06:00:00",
+          "arrival": "11:39:00",
+          "distance": 483.0,
+          "duration_min": 339.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12511",
+          "train_name": "RAPTISAGAR E",
+          "from": "LAR",
+          "to": "MAS",
+          "departure": "18:04:00",
+          "arrival": "23:20:00",
+          "distance": 1679.0,
+          "duration_min": 316.0,
+          "wait_min": 385.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_082",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1040.0000000000002,
+        "cost": 2163.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2163.0
+      },
+      "segments": [
+        {
+          "train_no": "12002",
+          "train_name": "NDLS - BPL S",
+          "from": "NDLS",
+          "to": "LAR",
+          "departure": "06:00:00",
+          "arrival": "11:39:00",
+          "distance": 483.0,
+          "duration_min": 339.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12521",
+          "train_name": "RAPTI SAGAR",
+          "from": "LAR",
+          "to": "MAS",
+          "departure": "18:04:00",
+          "arrival": "23:20:00",
+          "distance": 1680.0,
+          "duration_min": 316.0,
+          "wait_min": 385.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_083",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1659.9999999999998,
+        "cost": 2482.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2482.0
+      },
+      "segments": [
+        {
+          "train_no": "12015",
+          "train_name": "NDLS-AII SHA",
+          "from": "NDLS",
+          "to": "JP",
+          "departure": "06:05:00",
+          "arrival": "10:40:00",
+          "distance": 308.0,
+          "duration_min": 275.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12968",
+          "train_name": "JP CHENNAI E",
+          "from": "JP",
+          "to": "MAS",
+          "departure": "19:35:00",
+          "arrival": "09:45:00",
+          "distance": 2174.0,
+          "duration_min": 850.0,
+          "wait_min": 535.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_084",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1659.9999999999998,
+        "cost": 2484.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2484.0
+      },
+      "segments": [
+        {
+          "train_no": "12015",
+          "train_name": "NDLS-AII SHA",
+          "from": "NDLS",
+          "to": "JP",
+          "departure": "06:05:00",
+          "arrival": "10:40:00",
+          "distance": 308.0,
+          "duration_min": 275.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12970",
+          "train_name": "JP CBE SF EX",
+          "from": "JP",
+          "to": "MAS",
+          "departure": "19:35:00",
+          "arrival": "09:45:00",
+          "distance": 2176.0,
+          "duration_min": 850.0,
+          "wait_min": 535.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_085",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2104.9999999999995,
+        "cost": 2482.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2482.0
+      },
+      "segments": [
+        {
+          "train_no": "12016",
+          "train_name": "AII-NDLS SHA",
+          "from": "NDLS",
+          "to": "JP",
+          "departure": "22:40:00",
+          "arrival": "17:45:00",
+          "distance": 308.0,
+          "duration_min": 1145.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12968",
+          "train_name": "JP CHENNAI E",
+          "from": "JP",
+          "to": "MAS",
+          "departure": "19:35:00",
+          "arrival": "09:45:00",
+          "distance": 2174.0,
+          "duration_min": 850.0,
+          "wait_min": 110.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_086",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2104.9999999999995,
+        "cost": 2484.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2484.0
+      },
+      "segments": [
+        {
+          "train_no": "12016",
+          "train_name": "AII-NDLS SHA",
+          "from": "NDLS",
+          "to": "JP",
+          "departure": "22:40:00",
+          "arrival": "17:45:00",
+          "distance": 308.0,
+          "duration_min": 1145.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12970",
+          "train_name": "JP CBE SF EX",
+          "from": "JP",
+          "to": "MAS",
+          "departure": "19:35:00",
+          "arrival": "09:45:00",
+          "distance": 2176.0,
+          "duration_min": 850.0,
+          "wait_min": 110.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_087",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1380.0,
+        "cost": 2563.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2563.0
+      },
+      "segments": [
+        {
+          "train_no": "12048",
+          "train_name": "NEW DELHI SH",
+          "from": "NDLS",
+          "to": "TUN",
+          "departure": "11:20:00",
+          "arrival": "07:03:00",
+          "distance": 188.0,
+          "duration_min": 1183.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16032",
+          "train_name": "SVDK-MAS AND",
+          "from": "TUN",
+          "to": "MAS",
+          "departure": "09:03:00",
+          "arrival": "10:20:00",
+          "distance": 2375.0,
+          "duration_min": 77.0,
+          "wait_min": 120.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_088",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2090.0,
+        "cost": 2775.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2775.0
+      },
+      "segments": [
+        {
+          "train_no": "12055",
+          "train_name": "DDN JANSHATA",
+          "from": "NDLS",
+          "to": "DDN",
+          "departure": "15:20:00",
+          "arrival": "21:10:00",
+          "distance": 304.0,
+          "duration_min": 350.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12688",
+          "train_name": "DDN/CDG-MAS",
+          "from": "DDN",
+          "to": "MAS",
+          "departure": "06:45:00",
+          "arrival": "02:10:00",
+          "distance": 2471.0,
+          "duration_min": 1165.0,
+          "wait_min": 575.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_089",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2335.0000000000005,
+        "cost": 2673.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2673.0
+      },
+      "segments": [
+        {
+          "train_no": "12056",
+          "train_name": "NEWDELHI JAN",
+          "from": "NDLS",
+          "to": "HW",
+          "departure": "11:15:00",
+          "arrival": "06:17:00",
+          "distance": 253.0,
+          "duration_min": 1142.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12688",
+          "train_name": "DDN/CDG-MAS",
+          "from": "HW",
+          "to": "MAS",
+          "departure": "08:35:00",
+          "arrival": "02:10:00",
+          "distance": 2420.0,
+          "duration_min": 1055.0,
+          "wait_min": 138.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_090",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 750.0,
+        "cost": 2588.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2588.0
+      },
+      "segments": [
+        {
+          "train_no": "12137",
+          "train_name": "PUNJAB MAIL",
+          "from": "NDLS",
+          "to": "JHL",
+          "departure": "21:50:00",
+          "arrival": "01:23:00",
+          "distance": 201.0,
+          "duration_min": 213.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16032",
+          "train_name": "SVDK-MAS AND",
+          "from": "JHL",
+          "to": "MAS",
+          "departure": "08:50:00",
+          "arrival": "10:20:00",
+          "distance": 2387.0,
+          "duration_min": 90.0,
+          "wait_min": 447.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_091",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1085.0,
+        "cost": 2163.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2163.0
+      },
+      "segments": [
+        {
+          "train_no": "12138",
+          "train_name": "PUNJAB MAIL",
+          "from": "NDLS",
+          "to": "LAR",
+          "departure": "05:15:00",
+          "arrival": "13:45:00",
+          "distance": 484.0,
+          "duration_min": 510.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12511",
+          "train_name": "RAPTISAGAR E",
+          "from": "LAR",
+          "to": "MAS",
+          "departure": "18:04:00",
+          "arrival": "23:20:00",
+          "distance": 1679.0,
+          "duration_min": 316.0,
+          "wait_min": 259.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_092",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1085.0,
+        "cost": 2164.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2164.0
+      },
+      "segments": [
+        {
+          "train_no": "12138",
+          "train_name": "PUNJAB MAIL",
+          "from": "NDLS",
+          "to": "LAR",
+          "departure": "05:15:00",
+          "arrival": "13:45:00",
+          "distance": 484.0,
+          "duration_min": 510.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12521",
+          "train_name": "RAPTI SAGAR",
+          "from": "LAR",
+          "to": "MAS",
+          "departure": "18:04:00",
+          "arrival": "23:20:00",
+          "distance": 1680.0,
+          "duration_min": 316.0,
+          "wait_min": 259.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_093",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 675.0000000000001,
+        "cost": 2809.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2809.0
+      },
+      "segments": [
+        {
+          "train_no": "12138",
+          "train_name": "PUNJAB MAIL",
+          "from": "NDLS",
+          "to": "CSMT",
+          "departure": "05:15:00",
+          "arrival": "07:35:00",
+          "distance": 1528.0,
+          "duration_min": 140.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11041",
+          "train_name": "CSMT -MAS EX",
+          "from": "CSMT",
+          "to": "MAS",
+          "departure": "14:00:00",
+          "arrival": "16:30:00",
+          "distance": 1281.0,
+          "duration_min": 150.0,
+          "wait_min": 385.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_094",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2950.0,
+        "cost": 2488.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2488.0
+      },
+      "segments": [
+        {
+          "train_no": "12191",
+          "train_name": "SHRIDHAM SUP",
+          "from": "NDLS",
+          "to": "NU",
+          "departure": "14:05:00",
+          "arrival": "05:28:00",
+          "distance": 937.0,
+          "duration_min": 923.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12295",
+          "train_name": "SBC-PPTA SAN",
+          "from": "NU",
+          "to": "MAS",
+          "departure": "16:42:00",
+          "arrival": "15:15:00",
+          "distance": 1551.0,
+          "duration_min": 1353.0,
+          "wait_min": 674.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_095",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 365.00000000000006,
+        "cost": 2162.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2162.0
+      },
+      "segments": [
+        {
+          "train_no": "12191",
+          "train_name": "SHRIDHAM SUP",
+          "from": "NDLS",
+          "to": "NZM",
+          "departure": "14:05:00",
+          "arrival": "14:18:00",
+          "distance": 7.0,
+          "duration_min": 13.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12270",
+          "train_name": "NZM-MAS DURA",
+          "from": "NZM",
+          "to": "MAS",
+          "departure": "15:45:00",
+          "arrival": "20:10:00",
+          "distance": 2155.0,
+          "duration_min": 265.0,
+          "wait_min": 87.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_096",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1685.0000000000002,
+        "cost": 2487.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2487.0
+      },
+      "segments": [
+        {
+          "train_no": "12192",
+          "train_name": "JBP-NDLS SUF",
+          "from": "NDLS",
+          "to": "NU",
+          "departure": "11:50:00",
+          "arrival": "18:28:00",
+          "distance": 935.0,
+          "duration_min": 398.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12578",
+          "train_name": "BAGMATI  EXP",
+          "from": "NU",
+          "to": "MAS",
+          "departure": "19:30:00",
+          "arrival": "15:55:00",
+          "distance": 1552.0,
+          "duration_min": 1225.0,
+          "wait_min": 62.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_097",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1160.0,
+        "cost": 3418.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3418.0
+      },
+      "segments": [
+        {
+          "train_no": "12203",
+          "train_name": "GARIB RATH",
+          "from": "NDLS",
+          "to": "BGS",
+          "departure": "14:10:00",
+          "arrival": "16:29:00",
+          "distance": 1171.0,
+          "duration_min": 139.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15227",
+          "train_name": "YPR-MFP EXP",
+          "from": "BGS",
+          "to": "MAS",
+          "departure": "00:33:00",
+          "arrival": "09:30:00",
+          "distance": 2247.0,
+          "duration_min": 537.0,
+          "wait_min": 484.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_098",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1580.0,
+        "cost": 2775.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2775.0
+      },
+      "segments": [
+        {
+          "train_no": "12205",
+          "train_name": "NANDA DEVI E",
+          "from": "NDLS",
+          "to": "DDN",
+          "departure": "23:50:00",
+          "arrival": "05:40:00",
+          "distance": 304.0,
+          "duration_min": 350.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12688",
+          "train_name": "DDN/CDG-MAS",
+          "from": "DDN",
+          "to": "MAS",
+          "departure": "06:45:00",
+          "arrival": "02:10:00",
+          "distance": 2471.0,
+          "duration_min": 1165.0,
+          "wait_min": 65.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_099",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2085.0,
+        "cost": 2923.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2923.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "SZM",
+          "departure": "04:30:00",
+          "arrival": "04:46:00",
+          "distance": 4.0,
+          "duration_min": 16.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12312",
+          "train_name": "KLK DLI HWH",
+          "from": "SZM",
+          "to": "MGS",
+          "departure": "05:45:00",
+          "arrival": "20:10:00",
+          "distance": 775.0,
+          "duration_min": 865.0,
+          "wait_min": 59.0
+        },
+        {
+          "train_no": "12295",
+          "train_name": "SBC-PPTA SAN",
+          "from": "MGS",
+          "to": "MAS",
+          "departure": "05:18:00",
+          "arrival": "15:15:00",
+          "distance": 2144.0,
+          "duration_min": 597.0,
+          "wait_min": 548.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_100",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2535.0,
+        "cost": 2967.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2967.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "SZM",
+          "departure": "04:30:00",
+          "arrival": "04:46:00",
+          "distance": 4.0,
+          "duration_min": 16.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12312",
+          "train_name": "KLK DLI HWH",
+          "from": "SZM",
+          "to": "ASN",
+          "departure": "05:45:00",
+          "arrival": "04:31:00",
+          "distance": 1236.0,
+          "duration_min": 1366.0,
+          "wait_min": 59.0
+        },
+        {
+          "train_no": "12376",
+          "train_name": "ASN MAS  EXP",
+          "from": "ASN",
+          "to": "MAS",
+          "departure": "16:00:00",
+          "arrival": "22:45:00",
+          "distance": 1727.0,
+          "duration_min": 405.0,
+          "wait_min": 689.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_101",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 1845.0,
+        "cost": 3066.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3066.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "SZM",
+          "departure": "04:30:00",
+          "arrival": "04:46:00",
+          "distance": 4.0,
+          "duration_min": 16.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12312",
+          "train_name": "KLK DLI HWH",
+          "from": "SZM",
+          "to": "DGR",
+          "departure": "05:45:00",
+          "arrival": "05:06:00",
+          "distance": 1278.0,
+          "duration_min": 1401.0,
+          "wait_min": 59.0
+        },
+        {
+          "train_no": "12552",
+          "train_name": "KYQ - YPR AC",
+          "from": "DGR",
+          "to": "MAS",
+          "departure": "08:00:00",
+          "arrival": "11:15:00",
+          "distance": 1784.0,
+          "duration_min": 195.0,
+          "wait_min": 174.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_102",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2200.0,
+        "cost": 2330.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2330.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "SNP",
+          "departure": "04:30:00",
+          "arrival": "05:36:00",
+          "distance": 45.0,
+          "duration_min": 66.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12919",
+          "train_name": "MALWA EXPRES",
+          "from": "SNP",
+          "to": "SEH",
+          "departure": "06:15:00",
+          "arrival": "16:17:00",
+          "distance": 765.0,
+          "duration_min": 602.0,
+          "wait_min": 39.0
+        },
+        {
+          "train_no": "12969",
+          "train_name": "CBE JAIPUR E",
+          "from": "SEH",
+          "to": "MAS",
+          "departure": "18:58:00",
+          "arrival": "17:10:00",
+          "distance": 1520.0,
+          "duration_min": 1332.0,
+          "wait_min": 161.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_103",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3469.9999999999995,
+        "cost": 3788.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3788.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "SNP",
+          "departure": "04:30:00",
+          "arrival": "05:36:00",
+          "distance": 45.0,
+          "duration_min": 66.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14649",
+          "train_name": "SARYUYAMUNA",
+          "from": "SNP",
+          "to": "DBG",
+          "departure": "14:16:00",
+          "arrival": "09:15:00",
+          "distance": 1197.0,
+          "duration_min": 1139.0,
+          "wait_min": 520.0
+        },
+        {
+          "train_no": "12577",
+          "train_name": "BAGMATI EXP",
+          "from": "DBG",
+          "to": "MAS",
+          "departure": "16:00:00",
+          "arrival": "14:20:00",
+          "distance": 2546.0,
+          "duration_min": 1340.0,
+          "wait_min": 405.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_104",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2125.0,
+        "cost": 3794.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3794.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "SNP",
+          "departure": "04:30:00",
+          "arrival": "05:36:00",
+          "distance": 45.0,
+          "duration_min": 66.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "14649",
+          "train_name": "SARYUYAMUNA",
+          "from": "SNP",
+          "to": "DBG",
+          "departure": "14:16:00",
+          "arrival": "09:15:00",
+          "distance": 1197.0,
+          "duration_min": 1139.0,
+          "wait_min": 520.0
+        },
+        {
+          "train_no": "12578",
+          "train_name": "BAGMATI  EXP",
+          "from": "DBG",
+          "to": "MAS",
+          "departure": "14:25:00",
+          "arrival": "15:55:00",
+          "distance": 2552.0,
+          "duration_min": 90.0,
+          "wait_min": 310.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_105",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2175.0,
+        "cost": 2896.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2896.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "KUN",
+          "departure": "04:30:00",
+          "arrival": "06:53:00",
+          "distance": 124.0,
+          "duration_min": 143.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12715",
+          "train_name": "NED-ASR SACH",
+          "from": "KUN",
+          "to": "AWB",
+          "departure": "14:10:00",
+          "arrival": "13:35:00",
+          "distance": 1497.0,
+          "duration_min": 1405.0,
+          "wait_min": 437.0
+        },
+        {
+          "train_no": "16004",
+          "train_name": "NSL-MAS WKLY",
+          "from": "AWB",
+          "to": "MAS",
+          "departure": "14:50:00",
+          "arrival": "16:45:00",
+          "distance": 1275.0,
+          "duration_min": 115.0,
+          "wait_min": 75.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_106",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 735.0,
+        "cost": 2899.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2899.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "KUN",
+          "departure": "04:30:00",
+          "arrival": "06:53:00",
+          "distance": 124.0,
+          "duration_min": 143.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12716",
+          "train_name": "ASR-NED SACH",
+          "from": "KUN",
+          "to": "AWB",
+          "departure": "11:02:00",
+          "arrival": "11:30:00",
+          "distance": 1500.0,
+          "duration_min": 28.0,
+          "wait_min": 249.0
+        },
+        {
+          "train_no": "16004",
+          "train_name": "NSL-MAS WKLY",
+          "from": "AWB",
+          "to": "MAS",
+          "departure": "14:50:00",
+          "arrival": "16:45:00",
+          "distance": 1275.0,
+          "duration_min": 115.0,
+          "wait_min": 200.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_107",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3640.0,
+        "cost": 2781.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2781.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "KUN",
+          "departure": "04:30:00",
+          "arrival": "06:53:00",
+          "distance": 124.0,
+          "duration_min": 143.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12920",
+          "train_name": "MALWA EXPRES",
+          "from": "KUN",
+          "to": "UJN",
+          "departure": "16:41:00",
+          "arrival": "11:00:00",
+          "distance": 992.0,
+          "duration_min": 1099.0,
+          "wait_min": 588.0
+        },
+        {
+          "train_no": "12969",
+          "train_name": "CBE JAIPUR E",
+          "from": "UJN",
+          "to": "MAS",
+          "departure": "21:35:00",
+          "arrival": "17:10:00",
+          "distance": 1665.0,
+          "duration_min": 1175.0,
+          "wait_min": 635.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_108",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3575.0,
+        "cost": 3127.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3127.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "DVL",
+          "departure": "04:30:00",
+          "arrival": "03:03:00",
+          "distance": 1343.0,
+          "duration_min": 1353.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11202",
+          "train_name": "AJNI-LTT EXP",
+          "from": "DVL",
+          "to": "BD",
+          "departure": "10:00:00",
+          "arrival": "19:30:00",
+          "distance": 678.0,
+          "duration_min": 570.0,
+          "wait_min": 417.0
+        },
+        {
+          "train_no": "12655",
+          "train_name": "NAVAJEEVAN E",
+          "from": "BD",
+          "to": "MAS",
+          "departure": "21:10:00",
+          "arrival": "16:05:00",
+          "distance": 1106.0,
+          "duration_min": 1135.0,
+          "wait_min": 100.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_109",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3525.0,
+        "cost": 2943.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2943.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "DVL",
+          "departure": "04:30:00",
+          "arrival": "03:03:00",
+          "distance": 1343.0,
+          "duration_min": 1353.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12140",
+          "train_name": "SEWAGRAM EXP",
+          "from": "DVL",
+          "to": "SEGM",
+          "departure": "07:40:00",
+          "arrival": "22:03:00",
+          "distance": 584.0,
+          "duration_min": 863.0,
+          "wait_min": 277.0
+        },
+        {
+          "train_no": "12295",
+          "train_name": "SBC-PPTA SAN",
+          "from": "SEGM",
+          "to": "MAS",
+          "departure": "07:13:00",
+          "arrival": "15:15:00",
+          "distance": 1016.0,
+          "duration_min": 482.0,
+          "wait_min": 550.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_110",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 4009.9999999999995,
+        "cost": 2940.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2940.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "DVL",
+          "departure": "04:30:00",
+          "arrival": "03:03:00",
+          "distance": 1343.0,
+          "duration_min": 1353.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12140",
+          "train_name": "SEWAGRAM EXP",
+          "from": "DVL",
+          "to": "SEGM",
+          "departure": "07:40:00",
+          "arrival": "22:03:00",
+          "distance": 584.0,
+          "duration_min": 863.0,
+          "wait_min": 277.0
+        },
+        {
+          "train_no": "12511",
+          "train_name": "RAPTISAGAR E",
+          "from": "SEGM",
+          "to": "MAS",
+          "departure": "05:00:00",
+          "arrival": "23:20:00",
+          "distance": 1013.0,
+          "duration_min": 1100.0,
+          "wait_min": 417.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_111",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 4009.9999999999995,
+        "cost": 2941.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2941.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "DVL",
+          "departure": "04:30:00",
+          "arrival": "03:03:00",
+          "distance": 1343.0,
+          "duration_min": 1353.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12140",
+          "train_name": "SEWAGRAM EXP",
+          "from": "DVL",
+          "to": "SEGM",
+          "departure": "07:40:00",
+          "arrival": "22:03:00",
+          "distance": 584.0,
+          "duration_min": 863.0,
+          "wait_min": 277.0
+        },
+        {
+          "train_no": "12521",
+          "train_name": "RAPTI SAGAR",
+          "from": "SEGM",
+          "to": "MAS",
+          "departure": "05:00:00",
+          "arrival": "23:20:00",
+          "distance": 1014.0,
+          "duration_min": 1100.0,
+          "wait_min": 417.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_112",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3565.0,
+        "cost": 2945.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2945.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "DVL",
+          "departure": "04:30:00",
+          "arrival": "03:03:00",
+          "distance": 1343.0,
+          "duration_min": 1353.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12140",
+          "train_name": "SEWAGRAM EXP",
+          "from": "DVL",
+          "to": "SEGM",
+          "departure": "07:40:00",
+          "arrival": "22:03:00",
+          "distance": 584.0,
+          "duration_min": 863.0,
+          "wait_min": 277.0
+        },
+        {
+          "train_no": "12578",
+          "train_name": "BAGMATI  EXP",
+          "from": "SEGM",
+          "to": "MAS",
+          "departure": "08:16:00",
+          "arrival": "15:55:00",
+          "distance": 1018.0,
+          "duration_min": 459.0,
+          "wait_min": 613.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_113",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3385.0,
+        "cost": 2773.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2773.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "DVL",
+          "departure": "04:30:00",
+          "arrival": "03:03:00",
+          "distance": 1343.0,
+          "duration_min": 1353.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13201",
+          "train_name": "RJPB LTT EXP",
+          "from": "DVL",
+          "to": "LTT",
+          "departure": "06:40:00",
+          "arrival": "11:30:00",
+          "distance": 165.0,
+          "duration_min": 290.0,
+          "wait_min": 217.0
+        },
+        {
+          "train_no": "11073",
+          "train_name": "LTT-MAS EXPR",
+          "from": "LTT",
+          "to": "MAS",
+          "departure": "13:20:00",
+          "arrival": "12:55:00",
+          "distance": 1265.0,
+          "duration_min": 1415.0,
+          "wait_min": 110.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_114",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3525.0000000000005,
+        "cost": 4990.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 4990.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "DVL",
+          "departure": "04:30:00",
+          "arrival": "03:03:00",
+          "distance": 1343.0,
+          "duration_min": 1353.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13201",
+          "train_name": "RJPB LTT EXP",
+          "from": "DVL",
+          "to": "BXR",
+          "departure": "06:40:00",
+          "arrival": "01:55:00",
+          "distance": 1413.0,
+          "duration_min": 1155.0,
+          "wait_min": 217.0
+        },
+        {
+          "train_no": "12295",
+          "train_name": "SBC-PPTA SAN",
+          "from": "BXR",
+          "to": "MAS",
+          "departure": "06:27:00",
+          "arrival": "15:15:00",
+          "distance": 2234.0,
+          "duration_min": 528.0,
+          "wait_min": 272.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_115",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3565.0000000000005,
+        "cost": 4992.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 4992.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "DVL",
+          "departure": "04:30:00",
+          "arrival": "03:03:00",
+          "distance": 1343.0,
+          "duration_min": 1353.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13201",
+          "train_name": "RJPB LTT EXP",
+          "from": "DVL",
+          "to": "BXR",
+          "departure": "06:40:00",
+          "arrival": "01:55:00",
+          "distance": 1413.0,
+          "duration_min": 1155.0,
+          "wait_min": 217.0
+        },
+        {
+          "train_no": "12578",
+          "train_name": "BAGMATI  EXP",
+          "from": "BXR",
+          "to": "MAS",
+          "departure": "07:32:00",
+          "arrival": "15:55:00",
+          "distance": 2236.0,
+          "duration_min": 503.0,
+          "wait_min": 337.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_116",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 4010.0000000000005,
+        "cost": 5232.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 5232.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "DVL",
+          "departure": "04:30:00",
+          "arrival": "03:03:00",
+          "distance": 1343.0,
+          "duration_min": 1353.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15017",
+          "train_name": "KASHI EXP",
+          "from": "DVL",
+          "to": "GKP",
+          "departure": "09:50:00",
+          "arrival": "19:10:00",
+          "distance": 1553.0,
+          "duration_min": 560.0,
+          "wait_min": 407.0
+        },
+        {
+          "train_no": "12511",
+          "train_name": "RAPTISAGAR E",
+          "from": "GKP",
+          "to": "MAS",
+          "departure": "06:35:00",
+          "arrival": "23:20:00",
+          "distance": 2336.0,
+          "duration_min": 1005.0,
+          "wait_min": 685.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_117",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 4010.0000000000005,
+        "cost": 5233.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 5233.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "DVL",
+          "departure": "04:30:00",
+          "arrival": "03:03:00",
+          "distance": 1343.0,
+          "duration_min": 1353.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15017",
+          "train_name": "KASHI EXP",
+          "from": "DVL",
+          "to": "GKP",
+          "departure": "09:50:00",
+          "arrival": "19:10:00",
+          "distance": 1553.0,
+          "duration_min": 560.0,
+          "wait_min": 407.0
+        },
+        {
+          "train_no": "12521",
+          "train_name": "RAPTI SAGAR",
+          "from": "GKP",
+          "to": "MAS",
+          "departure": "06:35:00",
+          "arrival": "23:20:00",
+          "distance": 2337.0,
+          "duration_min": 1005.0,
+          "wait_min": 685.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_118",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 4320.0,
+        "cost": 6099.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 6099.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "DVL",
+          "departure": "04:30:00",
+          "arrival": "03:03:00",
+          "distance": 1343.0,
+          "duration_min": 1353.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15645",
+          "train_name": "LTT-GHY EXP",
+          "from": "DVL",
+          "to": "NBQ",
+          "departure": "11:10:00",
+          "arrival": "06:55:00",
+          "distance": 2276.0,
+          "duration_min": 1185.0,
+          "wait_min": 487.0
+        },
+        {
+          "train_no": "12508",
+          "train_name": "SCL - TVC EX",
+          "from": "NBQ",
+          "to": "MAS",
+          "departure": "09:45:00",
+          "arrival": "04:30:00",
+          "distance": 2480.0,
+          "duration_min": 1125.0,
+          "wait_min": 170.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_119",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 4320.0,
+        "cost": 6099.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 6099.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "DVL",
+          "departure": "04:30:00",
+          "arrival": "03:03:00",
+          "distance": 1343.0,
+          "duration_min": 1353.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15645",
+          "train_name": "LTT-GHY EXP",
+          "from": "DVL",
+          "to": "NBQ",
+          "departure": "11:10:00",
+          "arrival": "06:55:00",
+          "distance": 2276.0,
+          "duration_min": 1185.0,
+          "wait_min": 487.0
+        },
+        {
+          "train_no": "12516",
+          "train_name": "SCL -TVC EXP",
+          "from": "NBQ",
+          "to": "MAS",
+          "departure": "09:45:00",
+          "arrival": "04:30:00",
+          "distance": 2480.0,
+          "duration_min": 1125.0,
+          "wait_min": 170.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_120",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3545.0000000000005,
+        "cost": 5910.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 5910.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "DVL",
+          "departure": "04:30:00",
+          "arrival": "03:03:00",
+          "distance": 1343.0,
+          "duration_min": 1353.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15645",
+          "train_name": "LTT-GHY EXP",
+          "from": "DVL",
+          "to": "NOQ",
+          "departure": "11:10:00",
+          "arrival": "04:55:00",
+          "distance": 2167.0,
+          "duration_min": 1065.0,
+          "wait_min": 487.0
+        },
+        {
+          "train_no": "12551",
+          "train_name": "YPR - KYQ AC",
+          "from": "NOQ",
+          "to": "MAS",
+          "departure": "08:12:00",
+          "arrival": "15:35:00",
+          "distance": 2400.0,
+          "duration_min": 443.0,
+          "wait_min": 197.0
+        }
+      ]
+    }
+  ]
+}

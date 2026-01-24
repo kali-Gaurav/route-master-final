@@ -1,0 +1,201 @@
+{
+  "fetched_at": "2026-01-24T09:15:27.093840",
+  "train_no": "12361",
+  "response": {
+    "success": true,
+    "train_name": "12361 Asn Csmt Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 50min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Asansol Jn",
+        "distance": "-",
+        "timing": "19:3519:35",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chittaranjan",
+        "distance": "25 km",
+        "timing": "19:5419:54",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Madhupur Jn",
+        "distance": "82 km",
+        "timing": "20:2920:29",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jasidih Jn",
+        "distance": "111 km",
+        "timing": "20:5920:59",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jhajha",
+        "distance": "155 km",
+        "timing": "22:0522:05",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kiul Jn",
+        "distance": "209 km",
+        "timing": "22:5022:50",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patna Jn",
+        "distance": "332 km",
+        "timing": "00:3500:35",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Buxar",
+        "distance": "450 km",
+        "timing": "02:1202:12",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dd Upadhyaya Jn",
+        "distance": "544 km",
+        "timing": "05:1005:10",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mirzapur",
+        "distance": "607 km",
+        "timing": "06:2006:20",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Prayagrajcheoki",
+        "distance": "687 km",
+        "timing": "08:0508:05",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Satna",
+        "distance": "857 km",
+        "timing": "11:0011:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katni",
+        "distance": "955 km",
+        "timing": "12:3012:30",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jabalpur",
+        "distance": "1046 km",
+        "timing": "14:0014:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Itarsi Jn",
+        "distance": "1291 km",
+        "timing": "17:5017:50",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khandwa",
+        "distance": "1474 km",
+        "timing": "20:2520:25",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhusaval Jn",
+        "distance": "1598 km",
+        "timing": "22:2022:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Manmad Jn",
+        "distance": "1782 km",
+        "timing": "00:4500:45",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalyan Jn",
+        "distance": "1989 km",
+        "timing": "04:4504:45",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dadar",
+        "distance": "2033 km",
+        "timing": "05:2505:25",
+        "delay": "On Time",
+        "platform": "12",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "C Shivaji Mah T",
+        "distance": "2042 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "15",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

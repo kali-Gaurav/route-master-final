@@ -1,0 +1,237 @@
+{
+  "fetched_at": "2026-01-24T09:15:28.197603",
+  "train_no": "12948",
+  "response": {
+    "success": true,
+    "train_name": "12948 Azimabad Expres Running Status",
+    "message": "Crossed Idgah Agra Jn at 13:04",
+    "updated_time": "Updated 11min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Rajgir",
+        "distance": "-",
+        "timing": "21:0621:00",
+        "delay": "6min",
+        "platform": "2",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nalanda",
+        "distance": "12 km",
+        "timing": "21:1821:12",
+        "delay": "6min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bihar Sharif",
+        "distance": "24 km",
+        "timing": "21:3321:27",
+        "delay": "6min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bakhtiyarpur Jn",
+        "distance": "53 km",
+        "timing": "22:0922:03",
+        "delay": "6min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patna Saheb",
+        "distance": "89 km",
+        "timing": "22:4922:33",
+        "delay": "16min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patna Jn",
+        "distance": "99 km",
+        "timing": "23:4823:30",
+        "delay": "18min",
+        "platform": "5",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Danapur",
+        "distance": "109 km",
+        "timing": "00:0223:44",
+        "delay": "18min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ara Jn",
+        "distance": "148 km",
+        "timing": "00:3300:12",
+        "delay": "21min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Buxar",
+        "distance": "217 km",
+        "timing": "01:3700:57",
+        "delay": "40min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dd Upadhyaya Jn",
+        "distance": "311 km",
+        "timing": "03:1003:10",
+        "delay": "On Time",
+        "platform": "8",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vindhyachal",
+        "distance": "381 km",
+        "timing": "04:2704:15",
+        "delay": "12min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Prayagraj Jn.",
+        "distance": "463 km",
+        "timing": "06:1005:35",
+        "delay": "35min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanpur Central",
+        "distance": "658 km",
+        "timing": "08:4808:10",
+        "delay": "38min",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tundla Jn",
+        "distance": "889 km",
+        "timing": "11:5711:55",
+        "delay": "2min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Idgah Agra Jn",
+        "distance": "914 km",
+        "timing": "13:0412:40",
+        "delay": "24min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bayana Jn",
+        "distance": "996 km",
+        "timing": "14:5014:45",
+        "delay": "1min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gangapur City",
+        "distance": "1073 km",
+        "timing": "15:4915:45",
+        "delay": "2min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sawai Madhopur",
+        "distance": "1137 km",
+        "timing": "16:4916:30",
+        "delay": "18min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "1245 km",
+        "timing": "18:1217:50",
+        "delay": "21min",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagda Jn",
+        "distance": "1470 km",
+        "timing": "21:1221:12",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "1511 km",
+        "timing": "21:5821:55",
+        "delay": "1min",
+        "platform": "4",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "CHHAYAPURI",
+        "distance": "1765 km",
+        "timing": "01:4101:30",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anand Jn",
+        "distance": "1797 km",
+        "timing": "02:2902:29",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nadiad Jn",
+        "distance": "1815 km",
+        "timing": "02:4702:47",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ahmedabad Jn",
+        "distance": "1861 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "fetched_at": "2026-01-24T09:15:03.935444",
+  "train_no": "63248",
+  "response": {
+    "success": true,
+    "train_name": "63248 Gaya Pnbe Memu Running Status",
+    "message": "Reached Patna Jn at 13:44",
+    "updated_time": "Updated 57min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Gaya Jn",
+        "distance": "-",
+        "timing": "10:5510:30",
+        "delay": "25min",
+        "platform": "5",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "CHAKAND",
+        "distance": "9 km",
+        "timing": "11:0810:43",
+        "delay": "25min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "ORE HALT",
+        "distance": "13 km",
+        "timing": "11:1310:48",
+        "delay": "25min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "NEYAMATPUR",
+        "distance": "15 km",
+        "timing": "11:1710:52",
+        "delay": "25min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bela",
+        "distance": "19 km",
+        "timing": "11:2310:58",
+        "delay": "25min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "BARABAR HALT",
+        "distance": "22 km",
+        "timing": "11:2811:03",
+        "delay": "25min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "NER HALT",
+        "distance": "23 km",
+        "timing": "11:3211:07",
+        "delay": "25min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Wanawar Koteshwarnath Dham",
+        "distance": "29 km",
+        "timing": "11:3811:13",
+        "delay": "25min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Makhdumpur Gaya",
+        "distance": "30 km",
+        "timing": "11:4211:17",
+        "delay": "25min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tehta",
+        "distance": "34 km",
+        "timing": "11:4911:24",
+        "delay": "25min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "NIYAZIPUR HALT",
+        "distance": "38 km",
+        "timing": "11:5411:29",
+        "delay": "25min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "MAI HALT",
+        "distance": "41 km",
+        "timing": "11:5811:33",
+        "delay": "25min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jahanbad Court",
+        "distance": "44 km",
+        "timing": "12:0311:38",
+        "delay": "25min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jehanabad",
+        "distance": "47 km",
+        "timing": "12:1211:47",
+        "delay": "25min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KARONA HALT",
+        "distance": "51 km",
+        "timing": "12:1711:52",
+        "delay": "25min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "SEONAN HALT",
+        "distance": "54 km",
+        "timing": "12:2811:57",
+        "delay": "31min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nadauj",
+        "distance": "55 km",
+        "timing": "12:3112:01",
+        "delay": "30min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "TENERI HALT",
+        "distance": "57 km",
+        "timing": "12:3312:05",
+        "delay": "28min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "CHHOTAKI MASAUDHI HALT",
+        "distance": "59 km",
+        "timing": "12:3612:10",
+        "delay": "26min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Taregna",
+        "distance": "62 km",
+        "timing": "12:3912:15",
+        "delay": "24min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "MASAUDHI COURT HALT",
+        "distance": "64 km",
+        "timing": "12:4912:20",
+        "delay": "29min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nadwan",
+        "distance": "68 km",
+        "timing": "12:5412:26",
+        "delay": "28min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "NEEMA HALT",
+        "distance": "69 km",
+        "timing": "12:5812:30",
+        "delay": "28min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pothahi",
+        "distance": "73 km",
+        "timing": "13:0012:36",
+        "delay": "24min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "JATDUMRI HALT",
+        "distance": "77 km",
+        "timing": "13:0312:42",
+        "delay": "21min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Punpun",
+        "distance": "78 km",
+        "timing": "13:0712:47",
+        "delay": "20min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "PUNPUN GHAT HALT",
+        "distance": "80 km",
+        "timing": "13:1812:51",
+        "delay": "27min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "RAMGOVINDSINGH MAHULI HALT",
+        "distance": "82 km",
+        "timing": "13:2512:56",
+        "delay": "29min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Parsa Bazar",
+        "distance": "86 km",
+        "timing": "13:2913:02",
+        "delay": "27min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patna Jn",
+        "distance": "92 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "9",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

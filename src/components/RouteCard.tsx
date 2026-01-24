@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { ChevronDown, ChevronUp, Clock, ArrowRight, Check, X, AlertTriangle, MapPin } from "lucide-react";
-import { Route, formatDuration, formatCost } from "@/data/routes";
+import { ChevronDown, ChevronUp, Clock, ArrowRight, Check, AlertTriangle } from "lucide-react";
+import { Route, formatDuration, formatCost, formatLiveFare, getAvailabilityBadgeClasses, summarizeAvailability, getSeatAvailabilityState } from "@/data/routes";
 import { getStationByCode } from "@/data/stations";
 import { cn } from "@/lib/utils";
 
@@ -34,6 +34,9 @@ export function RouteCard({ route, index, isRecommended }: RouteCardProps) {
 
   const firstSegment = route.segments[0];
   const lastSegment = route.segments[route.segments.length - 1];
+  const availabilitySummary = summarizeAvailability(route.segments);
+  const availabilityBadgeClasses = getAvailabilityBadgeClasses(availabilitySummary.state);
+  const liveFareDisplay = formatLiveFare(route.liveFareTotal ?? route.totalCost);
 
   return (
     <div

@@ -1,0 +1,57 @@
+{
+  "fetched_at": "2026-01-24T09:15:25.707294",
+  "train_no": "12227",
+  "response": {
+    "success": true,
+    "train_name": "12227 Indb Duronto Running Status",
+    "message": "",
+    "updated_time": "Updated 16min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Mumbai Central",
+        "distance": "-",
+        "timing": "23:1023:10",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vadodara Jn",
+        "distance": "392 km",
+        "timing": "03:3603:36",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "653 km",
+        "timing": "07:0507:05",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ujjain Jn",
+        "distance": "750 km",
+        "timing": "08:4508:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Indore Jn Bg",
+        "distance": "829 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

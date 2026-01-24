@@ -1,0 +1,111 @@
+{
+  "fetched_at": "2026-01-24T09:14:53.459535",
+  "train_no": "13329",
+  "response": {
+    "success": true,
+    "train_name": "13329 Gangadamodar Ex Running Status",
+    "message": "",
+    "updated_time": "Updated 50min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Dhanbad Jn",
+        "distance": "-",
+        "timing": "23:2023:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tetulmari",
+        "distance": "10 km",
+        "timing": "23:3323:33",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nsc Bose J Gomo",
+        "distance": "30 km",
+        "timing": "23:5923:59",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Parasnath",
+        "distance": "48 km",
+        "timing": "00:1500:15",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hazaribagh Rd",
+        "distance": "75 km",
+        "timing": "00:3500:35",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Parsabad",
+        "distance": "97 km",
+        "timing": "00:5100:51",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Koderma Jn",
+        "distance": "123 km",
+        "timing": "01:1001:10",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gaya Jn",
+        "distance": "199 km",
+        "timing": "03:1003:10",
+        "delay": "On Time",
+        "platform": "7",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jehanabad",
+        "distance": "246 km",
+        "timing": "03:5003:50",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Taregna",
+        "distance": "261 km",
+        "timing": "04:0504:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patna Jn",
+        "distance": "291 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "9",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "fetched_at": "2026-01-24T09:14:55.220230",
+  "train_no": "12245",
+  "response": {
+    "success": true,
+    "train_name": "12245 Smvb Duronto Exp Running Status",
+    "message": "Crossed Howrah Jn at 10:43",
+    "updated_time": "Updated 3min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Howrah Jn",
+        "distance": "-",
+        "timing": "10:4310:40",
+        "delay": "3min",
+        "platform": "21",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhubaneswar",
+        "distance": "439 km",
+        "timing": "16:3816:25",
+        "delay": "11min",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vizianagram Jn",
+        "distance": "821 km",
+        "timing": "22:1522:15",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vijayawada Jn",
+        "distance": "1218 km",
+        "timing": "04:2004:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Renigunta Jn",
+        "distance": "1594 km",
+        "timing": "10:0010:00",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Smvt Bengaluru",
+        "distance": "1931 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

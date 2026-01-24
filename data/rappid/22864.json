@@ -1,0 +1,120 @@
+{
+  "fetched_at": "2026-01-24T09:15:01.451980",
+  "train_no": "22864",
+  "response": {
+    "success": true,
+    "train_name": "22864 Smvb Hwh Ac Exp Running Status",
+    "message": "Reached Howrah Jn at 19:39",
+    "updated_time": "Updated 43hr 3min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Smvt Bengaluru",
+        "distance": "-",
+        "timing": "11:1911:15",
+        "delay": "4min",
+        "platform": "3",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katpadi Jn",
+        "distance": "223 km",
+        "timing": "14:4614:35",
+        "delay": "11min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Renigunta Jn",
+        "distance": "356 km",
+        "timing": "17:1416:45",
+        "delay": "29min",
+        "platform": "5",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vijayawada Jn",
+        "distance": "732 km",
+        "timing": "22:4822:10",
+        "delay": "38min",
+        "platform": "7",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vizianagram Jn",
+        "distance": "1129 km",
+        "timing": "04:2804:25",
+        "delay": "3min",
+        "platform": "4",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Brahmapur",
+        "distance": "1345 km",
+        "timing": "07:1307:10",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khurda Road JN",
+        "distance": "1492 km",
+        "timing": "09:2709:00",
+        "delay": "27min",
+        "platform": "2",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhubaneswar",
+        "distance": "1511 km",
+        "timing": "09:5809:30",
+        "delay": "28min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Cuttack",
+        "distance": "1539 km",
+        "timing": "10:3410:05",
+        "delay": "29min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Balasore",
+        "distance": "1716 km",
+        "timing": "13:3513:02",
+        "delay": "33min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kharagpur Jn",
+        "distance": "1835 km",
+        "timing": "16:0514:45",
+        "delay": "1hr 20min",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Howrah Jn",
+        "distance": "1950 km",
+        "timing": "Destination",
+        "delay": "2hr 34min",
+        "platform": "20",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "fetched_at": "2026-01-24T09:14:52.908812",
+  "train_no": "12006",
+  "response": {
+    "success": true,
+    "train_name": "12006 Kalka Shtbdi Ex Running Status",
+    "message": "Reached New Delhi at 10:32",
+    "updated_time": "Updated 4hr 10min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Kalka",
+        "distance": "-",
+        "timing": "06:1606:15",
+        "delay": "1min",
+        "platform": "3",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chandigarh",
+        "distance": "38 km",
+        "timing": "06:5406:53",
+        "delay": "1min",
+        "platform": "1",
+        "halt": "8min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ambala Cant Jn",
+        "distance": "106 km",
+        "timing": "07:4707:38",
+        "delay": "9min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kurukshetra Jn",
+        "distance": "147 km",
+        "timing": "08:1708:10",
+        "delay": "7min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Panipat Jn",
+        "distance": "214 km",
+        "timing": "09:0908:52",
+        "delay": "17min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "303 km",
+        "timing": "Destination",
+        "delay": "17min",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

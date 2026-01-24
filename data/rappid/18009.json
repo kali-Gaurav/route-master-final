@@ -1,0 +1,228 @@
+{
+  "fetched_at": "2026-01-24T09:15:26.882601",
+  "train_no": "18009",
+  "response": {
+    "success": true,
+    "train_name": "18009 Src Aii Express Running Status",
+    "message": "Crossed Katni Murwara at 13:30",
+    "updated_time": "Updated few seconds ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Santragachi Jn",
+        "distance": "-",
+        "timing": "13:0913:00",
+        "delay": "9min",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kharagpur Jn",
+        "distance": "108 km",
+        "timing": "14:5614:30",
+        "delay": "26min",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tatanagar Jn",
+        "distance": "242 km",
+        "timing": "17:2916:22",
+        "delay": "1hr 7min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Muri",
+        "distance": "347 km",
+        "timing": "20:0218:07",
+        "delay": "1hr 55min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barka Kana",
+        "distance": "404 km",
+        "timing": "21:1920:30",
+        "delay": "49min",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tori",
+        "distance": "489 km",
+        "timing": "23:0121:37",
+        "delay": "1hr 24min",
+        "platform": "5",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Latehar",
+        "distance": "522 km",
+        "timing": "23:4322:02",
+        "delay": "1hr 41min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barwadih Jn",
+        "distance": "562 km",
+        "timing": "01:1522:29",
+        "delay": "2hr 46min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Daltonganj",
+        "distance": "589 km",
+        "timing": "01:5722:53",
+        "delay": "3hr 4min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Garwa Road",
+        "distance": "623 km",
+        "timing": "02:4823:55",
+        "delay": "2hr 53min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chopan",
+        "distance": "764 km",
+        "timing": "06:3702:30",
+        "delay": "4hr 7min",
+        "platform": "3",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Singrauli",
+        "distance": "828 km",
+        "timing": "08:1104:57",
+        "delay": "3hr 14min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bargawan",
+        "distance": "847 km",
+        "timing": "08:5105:35",
+        "delay": "3hr 16min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katni Murwara",
+        "distance": "1087 km",
+        "timing": "13:3010:50",
+        "delay": "2hr 40min",
+        "platform": "4",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Damoh",
+        "distance": "1196 km",
+        "timing": "15:0212:15",
+        "delay": "2hr 47min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Saugor",
+        "distance": "1274 km",
+        "timing": "16:1913:30",
+        "delay": "2hr 49min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mungaoli",
+        "distance": "1374 km",
+        "timing": "18:2516:20",
+        "delay": "2hr 4min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ashok Nagar",
+        "distance": "1420 km",
+        "timing": "19:0916:55",
+        "delay": "2hr 14min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Guna",
+        "distance": "1464 km",
+        "timing": "19:5618:00",
+        "delay": "1hr 59min",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Baran",
+        "distance": "1582 km",
+        "timing": "21:2019:55",
+        "delay": "1hr 23min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sogaria",
+        "distance": "1646 km",
+        "timing": "21:15",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chanderiya",
+        "distance": "1813 km",
+        "timing": "01:4501:30",
+        "delay": "7min",
+        "platform": "1",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhilwara",
+        "distance": "1859 km",
+        "timing": "02:2302:15",
+        "delay": "9min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ajmer Jn",
+        "distance": "1991 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

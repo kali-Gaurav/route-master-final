@@ -1,0 +1,120 @@
+{
+  "fetched_at": "2026-01-24T09:15:06.576489",
+  "train_no": "11201",
+  "response": {
+    "success": true,
+    "train_name": "11201 Ngp Sdl Express Running Status",
+    "message": "Crossed Nainpur JN at 13:53",
+    "updated_time": "Updated few seconds ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Nagpur",
+        "distance": "-",
+        "timing": "08:2008:00",
+        "delay": "20min",
+        "platform": "5",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "SAUSAR",
+        "distance": "79 km",
+        "timing": "09:3309:10",
+        "delay": "23min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "CHHINDWARA JN",
+        "distance": "152 km",
+        "timing": "11:3311:05",
+        "delay": "28min",
+        "platform": "1",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "SEONI",
+        "distance": "217 km",
+        "timing": "12:2111:55",
+        "delay": "26min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KEOLARI",
+        "distance": "268 km",
+        "timing": "13:1612:50",
+        "delay": "26min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nainpur JN",
+        "distance": "291 km",
+        "timing": "13:5313:50",
+        "delay": "3min",
+        "platform": "3",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "GUWARIGHAT",
+        "distance": "393 km",
+        "timing": "15:3215:32",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jabalpur",
+        "distance": "414 km",
+        "timing": "16:5516:55",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katni South",
+        "distance": "503 km",
+        "timing": "18:0518:05",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Umaria",
+        "distance": "563 km",
+        "timing": "20:2020:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Birsinghpur",
+        "distance": "593 km",
+        "timing": "20:4420:44",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shahdol",
+        "distance": "630 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

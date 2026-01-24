@@ -1,0 +1,165 @@
+{
+  "fetched_at": "2026-01-24T09:15:01.140975",
+  "train_no": "64092",
+  "response": {
+    "success": true,
+    "train_name": "64092 Nizamuddin Parikrama Emu Running Status",
+    "message": "",
+    "updated_time": "Updated 14hr 32min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Qasimpur Kheri",
+        "distance": "-",
+        "timing": "18:1518:15",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "BAOLI",
+        "distance": "4 km",
+        "timing": "18:1918:19",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "BARAUT",
+        "distance": "9 km",
+        "timing": "18:2518:25",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "BARKA",
+        "distance": "12 km",
+        "timing": "18:2918:29",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Alawalpur I Pur",
+        "distance": "15 km",
+        "timing": "18:3118:31",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "SUJRA",
+        "distance": "19 km",
+        "timing": "18:3618:36",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "BAGPAT ROAD",
+        "distance": "25 km",
+        "timing": "18:5918:59",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ahera Halt",
+        "distance": "28 km",
+        "timing": "19:0319:03",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sanhera Halt",
+        "distance": "31 km",
+        "timing": "19:0719:07",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KHEKRA",
+        "distance": "35 km",
+        "timing": "19:3919:39",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Fakharpur Halt",
+        "distance": "38 km",
+        "timing": "19:4319:43",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gotra Halt",
+        "distance": "41 km",
+        "timing": "19:4719:47",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "NURSRATABAD KHARKHAR",
+        "distance": "46 km",
+        "timing": "19:5219:52",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "NOLI",
+        "distance": "49 km",
+        "timing": "20:2120:21",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "BEHTA HAZIPUR HALT",
+        "distance": "52 km",
+        "timing": "20:2520:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Delhi Shahdara",
+        "distance": "58 km",
+        "timing": "20:5020:50",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Old Delhi",
+        "distance": "64 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

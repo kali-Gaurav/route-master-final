@@ -1,0 +1,147 @@
+{
+  "fetched_at": "2026-01-24T09:14:53.786710",
+  "train_no": "64951",
+  "response": {
+    "success": true,
+    "train_name": "64951 Bxn Agc Memu Running Status",
+    "message": "",
+    "updated_time": "Updated 8hr 35min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Bayana Jn",
+        "distance": "-",
+        "timing": "14:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Birambad",
+        "distance": "4 km",
+        "timing": "14:17",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bandh Bareta",
+        "distance": "9 km",
+        "timing": "14:23",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Naglatula",
+        "distance": "14 km",
+        "timing": "14:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bansi Paharpur",
+        "distance": "21 km",
+        "timing": "14:38",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dhana Kherli",
+        "distance": "27 km",
+        "timing": "14:4514:45",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rupbas",
+        "distance": "34 km",
+        "timing": "14:5314:53",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Aulenda",
+        "distance": "39 km",
+        "timing": "15:0115:01",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Fatehpur Sikri",
+        "distance": "48 km",
+        "timing": "15:1015:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Singarpur",
+        "distance": "54 km",
+        "timing": "15:1815:18",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kiraoli",
+        "distance": "60 km",
+        "timing": "15:2515:25",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mirhakur",
+        "distance": "68 km",
+        "timing": "15:3415:34",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pathauli",
+        "distance": "74 km",
+        "timing": "15:4115:41",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Idgah Agra Jn",
+        "distance": "82 km",
+        "timing": "16:4016:40",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "30min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Agra Cantt",
+        "distance": "84 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

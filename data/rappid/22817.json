@@ -1,0 +1,201 @@
+{
+  "fetched_at": "2026-01-24T09:15:21.716223",
+  "train_no": "22817",
+  "response": {
+    "success": true,
+    "train_name": "22817 Hwh Mys Exp Running Status",
+    "message": "Crossed Vijayawada Jn at 12:36",
+    "updated_time": "Updated 44min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Howrah Jn",
+        "distance": "-",
+        "timing": "16:1116:00",
+        "delay": "11min",
+        "platform": "22",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kharagpur Jn",
+        "distance": "116 km",
+        "timing": "18:1217:40",
+        "delay": "32min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Balasore",
+        "distance": "234 km",
+        "timing": "19:4419:02",
+        "delay": "42min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhadrak",
+        "distance": "296 km",
+        "timing": "20:2520:02",
+        "delay": "23min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Cuttack",
+        "distance": "412 km",
+        "timing": "22:0321:50",
+        "delay": "13min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhubaneswar",
+        "distance": "439 km",
+        "timing": "23:0622:20",
+        "delay": "46min",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khurda Road JN",
+        "distance": "458 km",
+        "timing": "23:4522:50",
+        "delay": "55min",
+        "platform": "4",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Brahmapur",
+        "distance": "605 km",
+        "timing": "01:4900:30",
+        "delay": "1hr 19min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palasa",
+        "distance": "679 km",
+        "timing": "02:4702:20",
+        "delay": "27min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vizianagram Jn",
+        "distance": "821 km",
+        "timing": "04:3304:10",
+        "delay": "23min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Visakhapatnam",
+        "distance": "882 km",
+        "timing": "06:2505:50",
+        "delay": "35min",
+        "platform": "3",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rajahmundry",
+        "distance": "1083 km",
+        "timing": "10:0108:40",
+        "delay": "1hr 21min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Eluru",
+        "distance": "1172 km",
+        "timing": "11:1010:05",
+        "delay": "1hr 5min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vijayawada Jn",
+        "distance": "1232 km",
+        "timing": "12:3612:00",
+        "delay": "36min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Renigunta Jn",
+        "distance": "1608 km",
+        "timing": "18:4218:30",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katpadi Jn",
+        "distance": "1741 km",
+        "timing": "21:0920:55",
+        "delay": "15min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jolarpettai",
+        "distance": "1824 km",
+        "timing": "22:2822:15",
+        "delay": "7min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bangarapet",
+        "distance": "1902 km",
+        "timing": "23:2623:15",
+        "delay": "9min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Krishnarajapurm",
+        "distance": "1958 km",
+        "timing": "00:2023:55",
+        "delay": "25min",
+        "platform": "4",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KSR Bengaluru",
+        "distance": "1973 km",
+        "timing": "01:1000:45",
+        "delay": "19min",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mysuru Jn",
+        "distance": "2111 km",
+        "timing": "Destination",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

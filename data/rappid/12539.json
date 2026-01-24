@@ -1,0 +1,192 @@
+{
+  "fetched_at": "2026-01-24T09:15:04.237398",
+  "train_no": "12539",
+  "response": {
+    "success": true,
+    "train_name": "12539 Ypr Lko Exp Running Status",
+    "message": "Reached Lucknow Nr at 11:13",
+    "updated_time": "Updated 27hr 29min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Yesvantpur Jn",
+        "distance": "-",
+        "timing": "14:0213:30",
+        "delay": "32min",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bangarapet",
+        "distance": "78 km",
+        "timing": "15:1114:45",
+        "delay": "26min",
+        "platform": "4",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jolarpettai",
+        "distance": "156 km",
+        "timing": "16:4516:40",
+        "delay": "5min",
+        "platform": "4",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katpadi Jn",
+        "distance": "240 km",
+        "timing": "17:5017:50",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Arakkonam Jn",
+        "distance": "301 km",
+        "timing": "18:5118:45",
+        "delay": "6min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Perambur",
+        "distance": "364 km",
+        "timing": "20:0519:35",
+        "delay": "30min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vijayawada Jn",
+        "distance": "793 km",
+        "timing": "02:5402:35",
+        "delay": "19min",
+        "platform": "9",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Warangal",
+        "distance": "1001 km",
+        "timing": "05:4605:35",
+        "delay": "11min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Balharshah",
+        "distance": "1243 km",
+        "timing": "10:0710:00",
+        "delay": "7min",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagpur",
+        "distance": "1454 km",
+        "timing": "13:1913:10",
+        "delay": "9min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Itarsi Jn",
+        "distance": "1751 km",
+        "timing": "19:0418:50",
+        "delay": "14min",
+        "platform": "6",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jabalpur",
+        "distance": "1996 km",
+        "timing": "23:0922:40",
+        "delay": "29min",
+        "platform": "5",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Satna",
+        "distance": "2185 km",
+        "timing": "02:0801:10",
+        "delay": "58min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Manikpur",
+        "distance": "2263 km",
+        "timing": "03:1302:42",
+        "delay": "31min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Prayagraj Jn.",
+        "distance": "2363 km",
+        "timing": "05:2405:05",
+        "delay": "19min",
+        "platform": "10",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Prayag",
+        "distance": "2370 km",
+        "timing": "05:5305:25",
+        "delay": "28min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "MA BELHADEVI DP",
+        "distance": "2422 km",
+        "timing": "07:0706:25",
+        "delay": "42min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Amethi",
+        "distance": "2457 km",
+        "timing": "07:3807:00",
+        "delay": "38min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rae Bareli Jn",
+        "distance": "2517 km",
+        "timing": "08:5507:55",
+        "delay": "1hr",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lucknow Nr",
+        "distance": "2595 km",
+        "timing": "Destination",
+        "delay": "18min",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

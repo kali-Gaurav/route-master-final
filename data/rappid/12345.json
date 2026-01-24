@@ -1,0 +1,156 @@
+{
+  "fetched_at": "2026-01-24T17:16:44.547987",
+  "train_no": "12345",
+  "response": {
+    "success": true,
+    "train_name": "12345 Saraighat Exp Running Status",
+    "message": "Reached Malda Town at 21:53",
+    "updated_time": "Updated 39min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Howrah Jn",
+        "distance": "-",
+        "timing": "16:1116:05",
+        "delay": "6min",
+        "platform": "15",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barddhaman Jn",
+        "distance": "95 km",
+        "timing": "17:3116:59",
+        "delay": "32min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bolpur S Niktn",
+        "distance": "146 km",
+        "timing": "18:3017:53",
+        "delay": "37min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sainthia",
+        "distance": "179 km",
+        "timing": "19:0918:21",
+        "delay": "48min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rampur Hat",
+        "distance": "207 km",
+        "timing": "19:4618:52",
+        "delay": "54min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Farakka Jn",
+        "distance": "293 km",
+        "timing": "21:1820:33",
+        "delay": "45min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": true,
+        "station_name": "Malda Town",
+        "distance": "328 km",
+        "timing": "21:30",
+        "delay": "33min",
+        "platform": "4",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kishanganj",
+        "distance": "473 km",
+        "timing": "00:1223:30",
+        "delay": "38min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Jalpaiguri",
+        "distance": "561 km",
+        "timing": "01:5301:15",
+        "delay": "32min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dhupguri",
+        "distance": "626 km",
+        "timing": "02:2202:22",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Falakata",
+        "distance": "649 km",
+        "timing": "03:2202:48",
+        "delay": "32min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Cooch Behar",
+        "distance": "687 km",
+        "timing": "04:0403:20",
+        "delay": "36min",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Alipurduar",
+        "distance": "705 km",
+        "timing": "04:3303:42",
+        "delay": "44min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Bongaigaon",
+        "distance": "812 km",
+        "timing": "06:3205:55",
+        "delay": "11min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kamakhya",
+        "distance": "1014 km",
+        "timing": "09:3309:00",
+        "delay": "23min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Guwahati",
+        "distance": "1020 km",
+        "timing": "Destination",
+        "delay": "33min",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "fetched_at": "2026-01-24T09:14:53.364516",
+  "train_no": "63283",
+  "response": {
+    "success": true,
+    "train_name": "63283 Bju Ppta Passenger Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 9min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Barauni Jn",
+        "distance": "-",
+        "timing": "14:4514:45",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barauni Flag",
+        "distance": "2 km",
+        "timing": "14:5314:53",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Teghra",
+        "distance": "7 km",
+        "timing": "15:0015:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bachwara Jn",
+        "distance": "16 km",
+        "timing": "15:1115:11",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sherpur Dhipura",
+        "distance": "22 km",
+        "timing": "15:2215:22",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vidyapatidham",
+        "distance": "27 km",
+        "timing": "15:2915:29",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Harpar Bochaha",
+        "distance": "31 km",
+        "timing": "15:3515:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mohiuddinnagar",
+        "distance": "36 km",
+        "timing": "15:4615:46",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nandani Lagunia",
+        "distance": "44 km",
+        "timing": "16:0016:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shahpur Patoree",
+        "distance": "49 km",
+        "timing": "16:1116:11",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Basudeopur Chandail Halt",
+        "distance": "53 km",
+        "timing": "16:1916:19",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mehnar Road",
+        "distance": "57 km",
+        "timing": "16:2616:26",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sahadai Buzurg",
+        "distance": "62 km",
+        "timing": "16:3416:34",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Desari",
+        "distance": "67 km",
+        "timing": "16:4816:48",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gram Kharika",
+        "distance": "69 km",
+        "timing": "16:5316:53",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chak Sikandar",
+        "distance": "71 km",
+        "timing": "16:5916:59",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Akshaywat R Ngr",
+        "distance": "77 km",
+        "timing": "17:2017:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chakmakrand",
+        "distance": "81 km",
+        "timing": "17:5917:59",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hajipur Jn",
+        "distance": "87 km",
+        "timing": "18:1218:12",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sonpur Jn",
+        "distance": "92 km",
+        "timing": "18:2118:21",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bharpura Pahleja Ghat Junction",
+        "distance": "96 km",
+        "timing": "18:3218:32",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Digha Bridge Halt",
+        "distance": "105 km",
+        "timing": "18:4318:43",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patliputra",
+        "distance": "108 km",
+        "timing": "18:5118:51",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Phulwari Sharif",
+        "distance": "114 km",
+        "timing": "19:0319:03",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sachiwalay Halt",
+        "distance": "118 km",
+        "timing": "19:0819:08",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patna Jn",
+        "distance": "120 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "8",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "fetched_at": "2026-01-24T09:14:58.582987",
+  "train_no": "12957",
+  "response": {
+    "success": true,
+    "train_name": "12957 Sbib Ndls Raj Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 37min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Sabarmati Bg",
+        "distance": "-",
+        "timing": "19:2019:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mahesana Jn",
+        "distance": "63 km",
+        "timing": "20:0520:05",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palanpur Jn",
+        "distance": "128 km",
+        "timing": "21:0721:07",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Abu Road",
+        "distance": "181 km",
+        "timing": "21:4521:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Falna",
+        "distance": "280 km",
+        "timing": "22:5222:52",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ajmer Jn",
+        "distance": "486 km",
+        "timing": "01:1001:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jaipur",
+        "distance": "621 km",
+        "timing": "02:5002:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gurgaon",
+        "distance": "897 km",
+        "timing": "06:2606:26",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Delhi Cantt",
+        "distance": "914 km",
+        "timing": "06:4206:42",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "929 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

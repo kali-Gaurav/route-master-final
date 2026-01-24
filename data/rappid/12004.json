@@ -1,0 +1,93 @@
+{
+  "fetched_at": "2026-01-24T09:15:05.567813",
+  "train_no": "12004",
+  "response": {
+    "success": true,
+    "train_name": "12004 Shatabdi Express Running Status",
+    "message": "Reached Lucknow Ne at 12:51",
+    "updated_time": "Updated 1hr 46min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "-",
+        "timing": "06:1306:10",
+        "delay": "3min",
+        "platform": "9",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghaziabad",
+        "distance": "24 km",
+        "timing": "06:4706:42",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Aligarh Jn",
+        "distance": "129 km",
+        "timing": "07:5307:49",
+        "delay": "4min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tundla Jn",
+        "distance": "207 km",
+        "timing": "08:4708:47",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Etawah Jn",
+        "distance": "299 km",
+        "timing": "09:5509:42",
+        "delay": "13min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Phaphund",
+        "distance": "355 km",
+        "timing": "10:2910:15",
+        "delay": "14min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanpur Central",
+        "distance": "439 km",
+        "timing": "11:3011:28",
+        "delay": "2min",
+        "platform": "9",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Unnao Jn",
+        "distance": "456 km",
+        "timing": "11:5811:56",
+        "delay": "2min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lucknow Ne",
+        "distance": "512 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

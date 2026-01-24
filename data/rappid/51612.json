@@ -1,0 +1,354 @@
+{
+  "fetched_at": "2026-01-24T09:14:54.480540",
+  "train_no": "51612",
+  "response": {
+    "success": true,
+    "train_name": "51612 Bina Kota Passenger Running Status",
+    "message": "",
+    "updated_time": "Updated 145hr 44min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Bina Jn",
+        "distance": "-",
+        "timing": "10:00",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "MAHADEOKHEDI",
+        "distance": "7 km",
+        "timing": "10:14",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Semarkheri",
+        "distance": "12 km",
+        "timing": "10:21",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanjiya",
+        "distance": "20 km",
+        "timing": "10:33",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mungaoli",
+        "distance": "28 km",
+        "timing": "10:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Guneru Bamori",
+        "distance": "37 km",
+        "timing": "10:50",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pipraigaon",
+        "distance": "48 km",
+        "timing": "11:02",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rahatwas",
+        "distance": "57 km",
+        "timing": "11:10",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "ORR",
+        "distance": "61 km",
+        "timing": "11:17",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hinotiapplkheda",
+        "distance": "65 km",
+        "timing": "11:27",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ashok Nagar",
+        "distance": "74 km",
+        "timing": "11:40",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "RATIKHEDA",
+        "distance": "81 km",
+        "timing": "11:49",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shadhoragaon",
+        "distance": "89 km",
+        "timing": "11:56",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pilighat",
+        "distance": "98 km",
+        "timing": "12:07",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pagara",
+        "distance": "105 km",
+        "timing": "12:17",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Maban",
+        "distance": "112 km",
+        "timing": "12:25",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Guna",
+        "distance": "118 km",
+        "timing": "13:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mahugarha",
+        "distance": "126 km",
+        "timing": "13:35",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ruthiyai",
+        "distance": "139 km",
+        "timing": "14:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chaurakheri",
+        "distance": "145 km",
+        "timing": "14:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dharnaoda",
+        "distance": "151 km",
+        "timing": "14:39",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Motipura Chauki",
+        "distance": "156 km",
+        "timing": "14:5014:50",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "BHULON",
+        "distance": "166 km",
+        "timing": "15:0015:00",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chhabra Gugor",
+        "distance": "178 km",
+        "timing": "15:2015:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KESHOLI",
+        "distance": "186 km",
+        "timing": "15:3015:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Salpura",
+        "distance": "193 km",
+        "timing": "15:4515:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Atru",
+        "distance": "207 km",
+        "timing": "16:0016:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pipalda Road",
+        "distance": "214 km",
+        "timing": "16:0916:09",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chajawa",
+        "distance": "224 km",
+        "timing": "16:1916:19",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Baran",
+        "distance": "236 km",
+        "timing": "17:1017:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sundlak",
+        "distance": "243 km",
+        "timing": "17:1817:18",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bijora",
+        "distance": "249 km",
+        "timing": "17:2617:26",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Antah",
+        "distance": "258 km",
+        "timing": "17:3717:37",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "BHOnra",
+        "distance": "273 km",
+        "timing": "17:5017:50",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shrikalyanpura",
+        "distance": "281 km",
+        "timing": "17:5717:57",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Digod",
+        "distance": "287 km",
+        "timing": "18:0718:07",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chandresal",
+        "distance": "294 km",
+        "timing": "18:1518:15",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "303 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

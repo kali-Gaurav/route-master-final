@@ -1,0 +1,84 @@
+{
+  "fetched_at": "2026-01-24T09:15:26.319877",
+  "train_no": "12014",
+  "response": {
+    "success": true,
+    "train_name": "12014 Amritsar Shtabdi Running Status",
+    "message": "Reached New Delhi at 11:07",
+    "updated_time": "Updated 3hr 32min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Amritsar Jn",
+        "distance": "-",
+        "timing": "04:5704:55",
+        "delay": "2min",
+        "platform": "3",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Beas",
+        "distance": "43 km",
+        "timing": "05:3705:25",
+        "delay": "12min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jalandhar City",
+        "distance": "79 km",
+        "timing": "06:0606:01",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Phagwara Jn",
+        "distance": "100 km",
+        "timing": "06:2606:21",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ludhiana Jn",
+        "distance": "136 km",
+        "timing": "07:0207:02",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "8min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sirhind Jn",
+        "distance": "196 km",
+        "timing": "07:5007:48",
+        "delay": "2min",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ambala Cant Jn",
+        "distance": "250 km",
+        "timing": "08:3408:34",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "4min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "448 km",
+        "timing": "Destination",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

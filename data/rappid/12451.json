@@ -1,0 +1,39 @@
+{
+  "fetched_at": "2026-01-24T09:15:03.716424",
+  "train_no": "12451",
+  "response": {
+    "success": true,
+    "train_name": "12451 Shram Shkti Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 14min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Kanpur Central",
+        "distance": "-",
+        "timing": "23:5523:55",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Panki Dham",
+        "distance": "12 km",
+        "timing": "00:1400:14",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "441 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

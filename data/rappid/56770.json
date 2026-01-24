@@ -1,0 +1,408 @@
+{
+  "fetched_at": "2026-01-24T09:15:27.771452",
+  "train_no": "56770",
+  "response": {
+    "success": true,
+    "train_name": "56770 Tcn Plni Passenger Running Status",
+    "message": "",
+    "updated_time": "Updated 32hr 34min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "TIRUCHENDUR",
+        "distance": "-",
+        "timing": "11:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KAYALPATTINAM",
+        "distance": "7 km",
+        "timing": "11:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "ARUMUGANERI",
+        "distance": "9 km",
+        "timing": "11:55",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KURUMBUR",
+        "distance": "15 km",
+        "timing": "12:04",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KACHCHANVILAI",
+        "distance": "17 km",
+        "timing": "12:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "NAZARETH",
+        "distance": "22 km",
+        "timing": "12:17",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Alwar Tirunagri",
+        "distance": "28 km",
+        "timing": "12:24",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "SRIVAIKUNTAM",
+        "distance": "33 km",
+        "timing": "12:31",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "THATHANKULAM",
+        "distance": "41 km",
+        "timing": "12:40",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "SEYDUNGANALLUR",
+        "distance": "45 km",
+        "timing": "12:45",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "PALAYANKOTTAI",
+        "distance": "56 km",
+        "timing": "12:55",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tirunelveli",
+        "distance": "61 km",
+        "timing": "13:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Talaiyuthu",
+        "distance": "68 km",
+        "timing": "13:22",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Naraikkinar",
+        "distance": "83 km",
+        "timing": "13:37",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vanchimaniyachi",
+        "distance": "90 km",
+        "timing": "13:45",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kadambur",
+        "distance": "104 km",
+        "timing": "14:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kovilpatti",
+        "distance": "126 km",
+        "timing": "14:22",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Satur",
+        "distance": "148 km",
+        "timing": "14:4514:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Virudunagar Jn",
+        "distance": "175 km",
+        "timing": "15:0515:05",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tirumangalam",
+        "distance": "201 km",
+        "timing": "15:2515:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tiruparankndrm",
+        "distance": "211 km",
+        "timing": "15:4515:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Madurai Jn",
+        "distance": "218 km",
+        "timing": "16:0516:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sholavandan",
+        "distance": "239 km",
+        "timing": "16:2816:28",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kodaikanal Road",
+        "distance": "258 km",
+        "timing": "16:4616:46",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ambaturai",
+        "distance": "269 km",
+        "timing": "16:5816:58",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dindigul Jn",
+        "distance": "280 km",
+        "timing": "17:3017:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "AKKARAIPPATTI",
+        "distance": "291 km",
+        "timing": "17:5017:50",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "ODDANCHATRAM",
+        "distance": "313 km",
+        "timing": "18:1218:12",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "CHATRAPPATTI",
+        "distance": "323 km",
+        "timing": "18:2518:25",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palani",
+        "distance": "338 km",
+        "timing": "19:0519:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pushpattur",
+        "distance": "352 km",
+        "timing": "19:1919:19",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "MADATTUKULAM",
+        "distance": "359 km",
+        "timing": "19:3019:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Maivadi Road",
+        "distance": "363 km",
+        "timing": "19:3719:37",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Udumalaippettai",
+        "distance": "372 km",
+        "timing": "19:5219:52",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gomangalam",
+        "distance": "385 km",
+        "timing": "20:1020:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pollachi Jn",
+        "distance": "401 km",
+        "timing": "20:5520:55",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anaimalai Road",
+        "distance": "409 km",
+        "timing": "21:0521:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "MINATCHIPURAM",
+        "distance": "417 km",
+        "timing": "21:2021:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "MUTHALAMADA",
+        "distance": "428 km",
+        "timing": "21:3521:35",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KOLLENGODE",
+        "distance": "436 km",
+        "timing": "21:5021:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "VADAKANNIKAPURM",
+        "distance": "439 km",
+        "timing": "21:5521:55",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "PUDUNAGARAM",
+        "distance": "444 km",
+        "timing": "22:0022:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palghat Town",
+        "distance": "455 km",
+        "timing": "22:2022:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palakkad Jn",
+        "distance": "459 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

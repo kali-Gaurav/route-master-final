@@ -1,0 +1,102 @@
+{
+  "fetched_at": "2026-01-24T09:15:00.767423",
+  "train_no": "12918",
+  "response": {
+    "success": true,
+    "train_name": "12918 Gujrat S Kranti Running Status",
+    "message": "Reached Ahmedabad Jn at 03:12",
+    "updated_time": "Updated 83hr 30min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "H Nizamuddin",
+        "distance": "-",
+        "timing": "13:3113:25",
+        "delay": "6min",
+        "platform": "7",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mathura Jn",
+        "distance": "134 km",
+        "timing": "15:0914:55",
+        "delay": "14min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "458 km",
+        "timing": "18:2718:15",
+        "delay": "12min",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "724 km",
+        "timing": "21:5021:35",
+        "delay": "15min",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dahod",
+        "distance": "838 km",
+        "timing": "23:1822:59",
+        "delay": "19min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Godhra Jn",
+        "distance": "912 km",
+        "timing": "00:2200:22",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "CHHAYAPURI",
+        "distance": "978 km",
+        "timing": "01:2201:10",
+        "delay": "12min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anand Jn",
+        "distance": "1010 km",
+        "timing": "02:0102:00",
+        "delay": "1min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nadiad Jn",
+        "distance": "1028 km",
+        "timing": "02:2602:17",
+        "delay": "9min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ahmedabad Jn",
+        "distance": "1074 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

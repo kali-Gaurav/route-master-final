@@ -1,0 +1,102 @@
+{
+  "fetched_at": "2026-01-24T09:15:11.004831",
+  "train_no": "56707",
+  "response": {
+    "success": true,
+    "train_name": "56707 Dg Mdu Passenger Running Status",
+    "message": "",
+    "updated_time": "Updated 2hr 6min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Kanyakumari",
+        "distance": "-",
+        "timing": "18:2518:25",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagercoil Jn",
+        "distance": "15 km",
+        "timing": "18:5018:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tovalai",
+        "distance": "25 km",
+        "timing": "18:5918:59",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Aralvaymozhi",
+        "distance": "28 km",
+        "timing": "19:0419:04",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kavalkinaru",
+        "distance": "34 km",
+        "timing": "19:1019:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "N. Panakudi",
+        "distance": "38 km",
+        "timing": "19:1519:15",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Valliyur",
+        "distance": "46 km",
+        "timing": "19:2519:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nanguneri",
+        "distance": "60 km",
+        "timing": "19:3519:35",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Melappalaiyam",
+        "distance": "85 km",
+        "timing": "19:5519:55",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tirunelveli",
+        "distance": "89 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

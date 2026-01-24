@@ -1,0 +1,129 @@
+{
+  "fetched_at": "2026-01-24T09:15:12.065093",
+  "train_no": "12884",
+  "response": {
+    "success": true,
+    "train_name": "12884 Rupashi Bangla Running Status",
+    "message": "",
+    "updated_time": "Updated 38min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Purulia Jn",
+        "distance": "-",
+        "timing": "15:2515:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anara",
+        "distance": "26 km",
+        "timing": "15:5415:54",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Adra Jn",
+        "distance": "40 km",
+        "timing": "16:2516:25",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chhatna",
+        "distance": "79 km",
+        "timing": "16:5316:53",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bankura",
+        "distance": "93 km",
+        "timing": "17:0617:06",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bishnupur",
+        "distance": "123 km",
+        "timing": "17:3117:31",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Garhbeta",
+        "distance": "148 km",
+        "timing": "17:5217:52",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chandrakona Rd",
+        "distance": "160 km",
+        "timing": "18:0518:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Salboni",
+        "distance": "171 km",
+        "timing": "18:1718:17",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Midnapore",
+        "distance": "195 km",
+        "timing": "18:5018:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kharagpur Jn",
+        "distance": "218 km",
+        "timing": "19:1319:13",
+        "delay": "On Time",
+        "platform": "8",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Santragachi Jn",
+        "distance": "326 km",
+        "timing": "20:3220:32",
+        "delay": "On Time",
+        "platform": "7",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Howrah Jn",
+        "distance": "333 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "19",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

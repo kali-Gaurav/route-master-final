@@ -1,0 +1,102 @@
+{
+  "fetched_at": "2026-01-24T09:14:56.973849",
+  "train_no": "12056",
+  "response": {
+    "success": true,
+    "train_name": "12056 Janshatabdi Exp Running Status",
+    "message": "Reached New Delhi at 11:26",
+    "updated_time": "Updated 3hr 8min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Dehradun",
+        "distance": "-",
+        "timing": "05:0505:00",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Haridwar Jn",
+        "distance": "52 km",
+        "timing": "06:3006:29",
+        "delay": "1min",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Roorkee",
+        "distance": "93 km",
+        "timing": "07:2207:09",
+        "delay": "13min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tapri",
+        "distance": "125 km",
+        "timing": "08:0408:01",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Deoband",
+        "distance": "153 km",
+        "timing": "08:2708:22",
+        "delay": "5min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Muzaffarnagar",
+        "distance": "177 km",
+        "timing": "08:4608:42",
+        "delay": "4min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Meerut City",
+        "distance": "232 km",
+        "timing": "09:2609:23",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghaziabad",
+        "distance": "280 km",
+        "timing": "10:2710:18",
+        "delay": "9min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tilak Bridge",
+        "distance": "303 km",
+        "timing": "11:1810:45",
+        "delay": "33min",
+        "platform": "4",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "305 km",
+        "timing": "Destination",
+        "delay": "21min",
+        "platform": "10",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

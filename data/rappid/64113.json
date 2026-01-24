@@ -1,0 +1,111 @@
+{
+  "fetched_at": "2026-01-24T09:14:51.377436",
+  "train_no": "64113",
+  "response": {
+    "success": true,
+    "train_name": "64113 Krj Ssb Emu Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 28min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Khurja Jn",
+        "distance": "-",
+        "timing": "20:5020:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sikandarpur",
+        "distance": "5 km",
+        "timing": "20:5620:56",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gangraul",
+        "distance": "10 km",
+        "timing": "21:0121:01",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chola",
+        "distance": "14 km",
+        "timing": "21:0721:07",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Wair",
+        "distance": "19 km",
+        "timing": "21:1321:13",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dankaur",
+        "distance": "29 km",
+        "timing": "21:2121:21",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ajaibpur",
+        "distance": "36 km",
+        "timing": "21:2921:29",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Boraki",
+        "distance": "41 km",
+        "timing": "21:3421:34",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dadri",
+        "distance": "46 km",
+        "timing": "21:4021:40",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Maripat",
+        "distance": "52 km",
+        "timing": "21:4721:47",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghaziabad",
+        "distance": "62 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

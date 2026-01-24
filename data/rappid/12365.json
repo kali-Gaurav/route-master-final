@@ -1,0 +1,129 @@
+{
+  "fetched_at": "2026-01-24T09:14:53.222116",
+  "train_no": "12365",
+  "response": {
+    "success": true,
+    "train_name": "12365 Rnc Janshatabdi Running Status",
+    "message": "Crossed Muri at 13:11",
+    "updated_time": "Updated 13min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Patna Jn",
+        "distance": "-",
+        "timing": "06:1606:10",
+        "delay": "6min",
+        "platform": "10",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Taregna",
+        "distance": "30 km",
+        "timing": "06:4406:37",
+        "delay": "7min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jehanabad",
+        "distance": "45 km",
+        "timing": "06:5606:52",
+        "delay": "4min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gaya Jn",
+        "distance": "92 km",
+        "timing": "08:1508:15",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Paharpur",
+        "distance": "125 km",
+        "timing": "08:4708:45",
+        "delay": "2min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Koderma Jn",
+        "distance": "168 km",
+        "timing": "09:3809:17",
+        "delay": "21min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hazaribagh Rd",
+        "distance": "217 km",
+        "timing": "10:0509:46",
+        "delay": "19min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Parasnath",
+        "distance": "244 km",
+        "timing": "10:3610:07",
+        "delay": "29min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nsc Bose J Gomo",
+        "distance": "262 km",
+        "timing": "10:5410:30",
+        "delay": "24min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chandrapura Jn",
+        "distance": "279 km",
+        "timing": "11:1610:52",
+        "delay": "24min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bokaro Stl City",
+        "distance": "294 km",
+        "timing": "11:5111:30",
+        "delay": "21min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Muri",
+        "distance": "346 km",
+        "timing": "13:1112:20",
+        "delay": "51min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ranchi",
+        "distance": "411 km",
+        "timing": "Destination",
+        "delay": "41min",
+        "platform": "2",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

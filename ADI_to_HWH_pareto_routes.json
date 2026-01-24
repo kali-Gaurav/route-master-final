@@ -1,0 +1,3665 @@
+{
+  "metadata": {
+    "source": "ADI",
+    "destination": "HWH",
+    "total_routes_generated": 95,
+    "pareto_front_size": 4,
+    "optimal_routes_count": 4
+  },
+  "optimal_routes": [
+    {
+      "route_id": "OPT_ROUTE_01",
+      "category": "FASTEST \u26a1",
+      "objectives": {
+        "time": 634.9999999999999,
+        "cost": 2092.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2092.0
+      },
+      "segments": [
+        {
+          "train_no": "11087",
+          "train_name": "VRL-PUNE EXP",
+          "from": "ADI",
+          "to": "ST",
+          "departure": "17:00:00",
+          "arrival": "20:33:00",
+          "distance": 229.0,
+          "duration_min": 213.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12905",
+          "train_name": "PBR HOWRAH E",
+          "from": "ST",
+          "to": "HWH",
+          "departure": "21:20:00",
+          "arrival": "03:35:00",
+          "distance": 1863.0,
+          "duration_min": 375.0,
+          "wait_min": 47.0
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_02",
+      "category": "CHEAPEST \ud83d\udcb0",
+      "objectives": {
+        "time": 679.9999999999999,
+        "cost": 2091.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2091.0
+      },
+      "segments": [
+        {
+          "train_no": "11089",
+          "train_name": "BGKTPUNE EXP",
+          "from": "ADI",
+          "to": "ST",
+          "departure": "16:15:00",
+          "arrival": "20:00:00",
+          "distance": 228.0,
+          "duration_min": 225.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12905",
+          "train_name": "PBR HOWRAH E",
+          "from": "ST",
+          "to": "HWH",
+          "departure": "21:20:00",
+          "arrival": "03:35:00",
+          "distance": 1863.0,
+          "duration_min": 375.0,
+          "wait_min": 80.0
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_03",
+      "category": "BALANCED \u2696\ufe0f",
+      "objectives": {
+        "time": 679.9999999999999,
+        "cost": 2091.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2091.0
+      },
+      "segments": [
+        {
+          "train_no": "11095",
+          "train_name": "AHIMSA EXPRE",
+          "from": "ADI",
+          "to": "ST",
+          "departure": "16:15:00",
+          "arrival": "20:00:00",
+          "distance": 228.0,
+          "duration_min": 225.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12905",
+          "train_name": "PBR HOWRAH E",
+          "from": "ST",
+          "to": "HWH",
+          "departure": "21:20:00",
+          "arrival": "03:35:00",
+          "distance": 1863.0,
+          "duration_min": 375.0,
+          "wait_min": 80.0
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_04",
+      "category": "BALANCED \u2696\ufe0f",
+      "objectives": {
+        "time": 795.0,
+        "cost": 2097.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "HWH",
+          "departure": "00:15:00",
+          "arrival": "13:30:00",
+          "distance": 2097.0,
+          "duration_min": 795.0,
+          "wait_min": 0
+        }
+      ]
+    }
+  ],
+  "all_generated_routes": [
+    {
+      "route_id": "ALL_ROUTE_001",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 795.0,
+        "cost": 2097.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "HWH",
+          "departure": "00:15:00",
+          "arrival": "13:30:00",
+          "distance": 2097.0,
+          "duration_min": 795.0,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_002",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1455.0,
+        "cost": 2649.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2649.0
+      },
+      "segments": [
+        {
+          "train_no": "11049",
+          "train_name": "ADI-KOP EXPR",
+          "from": "ADI",
+          "to": "PUNE",
+          "departure": "19:25:00",
+          "arrival": "07:40:00",
+          "distance": 623.0,
+          "duration_min": 735.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12221",
+          "train_name": "PA-HWH DURAN",
+          "from": "PUNE",
+          "to": "HWH",
+          "departure": "15:15:00",
+          "arrival": "19:40:00",
+          "distance": 2026.0,
+          "duration_min": 265.0,
+          "wait_min": 455.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_003",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1085.0,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "11049",
+          "train_name": "ADI-KOP EXPR",
+          "from": "ADI",
+          "to": "BH",
+          "departure": "19:25:00",
+          "arrival": "22:09:00",
+          "distance": 169.0,
+          "duration_min": 164.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "BH",
+          "to": "HWH",
+          "departure": "03:11:00",
+          "arrival": "13:30:00",
+          "distance": 1928.0,
+          "duration_min": 619.0,
+          "wait_min": 302.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_004",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1740.0,
+        "cost": 2810.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2810.0
+      },
+      "segments": [
+        {
+          "train_no": "11092",
+          "train_name": "PUNE BHUJ EX",
+          "from": "ADI",
+          "to": "GIMB",
+          "departure": "08:05:00",
+          "arrival": "13:05:00",
+          "distance": 301.0,
+          "duration_min": 300.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12937",
+          "train_name": "GARBHA EXPRE",
+          "from": "GIMB",
+          "to": "HWH",
+          "departure": "17:40:00",
+          "arrival": "13:05:00",
+          "distance": 2509.0,
+          "duration_min": 1165.0,
+          "wait_min": 275.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_005",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 900.0,
+        "cost": 2424.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2424.0
+      },
+      "segments": [
+        {
+          "train_no": "12215",
+          "train_name": "DEE-BDTS GAR",
+          "from": "ADI",
+          "to": "RE",
+          "departure": "01:30:00",
+          "arrival": "10:50:00",
+          "distance": 874.0,
+          "duration_min": 560.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12372",
+          "train_name": "JSM HWH SF E",
+          "from": "RE",
+          "to": "HWH",
+          "departure": "12:55:00",
+          "arrival": "16:30:00",
+          "distance": 1550.0,
+          "duration_min": 215.0,
+          "wait_min": 125.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_006",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1155.0,
+        "cost": 2400.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2400.0
+      },
+      "segments": [
+        {
+          "train_no": "12473",
+          "train_name": "SARVODAYA EX",
+          "from": "ADI",
+          "to": "MTJ",
+          "departure": "11:30:00",
+          "arrival": "02:00:00",
+          "distance": 947.0,
+          "duration_min": 870.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12178",
+          "train_name": "CHAMBAL EXP",
+          "from": "MTJ",
+          "to": "HWH",
+          "departure": "04:25:00",
+          "arrival": "06:45:00",
+          "distance": 1453.0,
+          "duration_min": 140.0,
+          "wait_min": 145.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_007",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1419.9999999999998,
+        "cost": 2288.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2288.0
+      },
+      "segments": [
+        {
+          "train_no": "12489",
+          "train_name": "BKN DDR SF E",
+          "from": "ADI",
+          "to": "JU",
+          "departure": "04:20:00",
+          "arrival": "18:15:00",
+          "distance": 483.0,
+          "duration_min": 835.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12308",
+          "train_name": "JU-HWH SUPFA",
+          "from": "JU",
+          "to": "HWH",
+          "departure": "20:30:00",
+          "arrival": "04:00:00",
+          "distance": 1805.0,
+          "duration_min": 450.0,
+          "wait_min": 135.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_008",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2165.0,
+        "cost": 2091.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2091.0
+      },
+      "segments": [
+        {
+          "train_no": "12655",
+          "train_name": "NAVAJEEVAN E",
+          "from": "ADI",
+          "to": "BSL",
+          "departure": "07:35:00",
+          "arrival": "17:25:00",
+          "distance": 563.0,
+          "duration_min": 590.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12221",
+          "train_name": "PA-HWH DURAN",
+          "from": "BSL",
+          "to": "HWH",
+          "departure": "22:45:00",
+          "arrival": "19:40:00",
+          "distance": 1528.0,
+          "duration_min": 1255.0,
+          "wait_min": 320.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_009",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2165.0,
+        "cost": 2091.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2091.0
+      },
+      "segments": [
+        {
+          "train_no": "12655",
+          "train_name": "NAVAJEEVAN E",
+          "from": "ADI",
+          "to": "BSL",
+          "departure": "07:35:00",
+          "arrival": "17:25:00",
+          "distance": 563.0,
+          "duration_min": 590.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12261",
+          "train_name": "CSMT-HWH DUR",
+          "from": "BSL",
+          "to": "HWH",
+          "departure": "23:05:00",
+          "arrival": "19:40:00",
+          "distance": 1528.0,
+          "duration_min": 1235.0,
+          "wait_min": 340.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_010",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1640.0,
+        "cost": 2697.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2697.0
+      },
+      "segments": [
+        {
+          "train_no": "12655",
+          "train_name": "NAVAJEEVAN E",
+          "from": "ADI",
+          "to": "BZA",
+          "departure": "07:35:00",
+          "arrival": "08:45:00",
+          "distance": 1463.0,
+          "duration_min": 70.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12515",
+          "train_name": "TVC - SCL EX",
+          "from": "BZA",
+          "to": "HWH",
+          "departure": "13:20:00",
+          "arrival": "10:55:00",
+          "distance": 1234.0,
+          "duration_min": 1295.0,
+          "wait_min": 275.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_011",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1370.0000000000002,
+        "cost": 2697.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2697.0
+      },
+      "segments": [
+        {
+          "train_no": "12655",
+          "train_name": "NAVAJEEVAN E",
+          "from": "ADI",
+          "to": "BZA",
+          "departure": "07:35:00",
+          "arrival": "08:45:00",
+          "distance": 1463.0,
+          "duration_min": 70.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12864",
+          "train_name": "YPR HOWRAH E",
+          "from": "BZA",
+          "to": "HWH",
+          "departure": "09:40:00",
+          "arrival": "06:25:00",
+          "distance": 1234.0,
+          "duration_min": 1245.0,
+          "wait_min": 55.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_012",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1820.0,
+        "cost": 2974.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2974.0
+      },
+      "segments": [
+        {
+          "train_no": "12655",
+          "train_name": "NAVAJEEVAN E",
+          "from": "ADI",
+          "to": "OGL",
+          "departure": "07:35:00",
+          "arrival": "10:55:00",
+          "distance": 1601.0,
+          "duration_min": 200.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12507",
+          "train_name": "TVC - SCL EX",
+          "from": "OGL",
+          "to": "HWH",
+          "departure": "14:31:00",
+          "arrival": "13:55:00",
+          "distance": 1373.0,
+          "duration_min": 1404.0,
+          "wait_min": 216.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_013",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1875.0,
+        "cost": 2960.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2960.0
+      },
+      "segments": [
+        {
+          "train_no": "12655",
+          "train_name": "NAVAJEEVAN E",
+          "from": "ADI",
+          "to": "OGL",
+          "departure": "07:35:00",
+          "arrival": "10:55:00",
+          "distance": 1601.0,
+          "duration_min": 200.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22878",
+          "train_name": "ERS-HWH ANTY",
+          "from": "OGL",
+          "to": "HWH",
+          "departure": "16:25:00",
+          "arrival": "14:50:00",
+          "distance": 1359.0,
+          "duration_min": 1345.0,
+          "wait_min": 330.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_014",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1225.0,
+        "cost": 3556.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3556.0
+      },
+      "segments": [
+        {
+          "train_no": "12655",
+          "train_name": "NAVAJEEVAN E",
+          "from": "ADI",
+          "to": "MAS",
+          "departure": "07:35:00",
+          "arrival": "16:05:00",
+          "distance": 1893.0,
+          "duration_min": 510.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12840",
+          "train_name": "MAS-HWH MAIL",
+          "from": "MAS",
+          "to": "HWH",
+          "departure": "23:45:00",
+          "arrival": "04:00:00",
+          "distance": 1663.0,
+          "duration_min": 255.0,
+          "wait_min": 460.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_015",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 735.0,
+        "cost": 2096.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2096.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "BSP",
+          "departure": "00:15:00",
+          "arrival": "00:55:00",
+          "distance": 1375.0,
+          "duration_min": 40.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12859",
+          "train_name": "HWH-CSMT",
+          "from": "BSP",
+          "to": "HWH",
+          "departure": "01:30:00",
+          "arrival": "12:30:00",
+          "distance": 721.0,
+          "duration_min": 660.0,
+          "wait_min": 35.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_016",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1155.0,
+        "cost": 2096.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2096.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "BSP",
+          "departure": "00:15:00",
+          "arrival": "00:55:00",
+          "distance": 1375.0,
+          "duration_min": 40.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12869",
+          "train_name": "CSMT-HWH WEE",
+          "from": "BSP",
+          "to": "HWH",
+          "departure": "08:05:00",
+          "arrival": "19:30:00",
+          "distance": 721.0,
+          "duration_min": 685.0,
+          "wait_min": 430.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_017",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1155.0,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "KGP",
+          "departure": "00:15:00",
+          "arrival": "11:17:00",
+          "distance": 1981.0,
+          "duration_min": 662.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22893",
+          "train_name": "SNSI-HWH EXP",
+          "from": "KGP",
+          "to": "HWH",
+          "departure": "16:55:00",
+          "arrival": "19:30:00",
+          "distance": 116.0,
+          "duration_min": 155.0,
+          "wait_min": 338.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_018",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1275.0,
+        "cost": 2096.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2096.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "TATA",
+          "departure": "00:15:00",
+          "arrival": "09:15:00",
+          "distance": 1843.0,
+          "duration_min": 540.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22511",
+          "train_name": "KARMABHOOMI",
+          "from": "TATA",
+          "to": "HWH",
+          "departure": "16:30:00",
+          "arrival": "21:30:00",
+          "distance": 253.0,
+          "duration_min": 300.0,
+          "wait_min": 435.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_019",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1115.0000000000002,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12872",
+          "train_name": "TIG-HWH ISPA",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "18:16:00",
+          "arrival": "18:50:00",
+          "distance": 8.0,
+          "duration_min": 34.0,
+          "wait_min": 330.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_020",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1165.0,
+        "cost": 2096.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2096.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "BSP",
+          "departure": "00:15:00",
+          "arrival": "00:55:00",
+          "distance": 1375.0,
+          "duration_min": 40.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12221",
+          "train_name": "PA-HWH DURAN",
+          "from": "BSP",
+          "to": "HWH",
+          "departure": "10:05:00",
+          "arrival": "19:40:00",
+          "distance": 721.0,
+          "duration_min": 575.0,
+          "wait_min": 550.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_021",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1165.0,
+        "cost": 2096.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2096.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "BSP",
+          "departure": "00:15:00",
+          "arrival": "00:55:00",
+          "distance": 1375.0,
+          "duration_min": 40.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12261",
+          "train_name": "CSMT-HWH DUR",
+          "from": "BSP",
+          "to": "HWH",
+          "departure": "10:05:00",
+          "arrival": "19:40:00",
+          "distance": 721.0,
+          "duration_min": 575.0,
+          "wait_min": 550.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_022",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1215.0,
+        "cost": 2096.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2096.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "KGP",
+          "departure": "00:15:00",
+          "arrival": "11:17:00",
+          "distance": 1981.0,
+          "duration_min": 662.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12866",
+          "train_name": "PRR-HWH LALM",
+          "from": "KGP",
+          "to": "HWH",
+          "departure": "18:20:00",
+          "arrival": "20:30:00",
+          "distance": 115.0,
+          "duration_min": 130.0,
+          "wait_min": 423.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_023",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1095.0,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "KGP",
+          "departure": "00:15:00",
+          "arrival": "11:17:00",
+          "distance": 1981.0,
+          "duration_min": 662.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12503",
+          "train_name": "BNC - KYQ HU",
+          "from": "KGP",
+          "to": "HWH",
+          "departure": "16:40:00",
+          "arrival": "18:30:00",
+          "distance": 116.0,
+          "duration_min": 110.0,
+          "wait_min": 323.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_024",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1050.0,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12704",
+          "train_name": "SC-HWH FALAK",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "16:56:00",
+          "arrival": "17:45:00",
+          "distance": 8.0,
+          "duration_min": 49.0,
+          "wait_min": 250.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_025",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1200.0,
+        "cost": 2096.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2096.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12822",
+          "train_name": "PURI-BBS-HWH",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "19:36:00",
+          "arrival": "20:15:00",
+          "distance": 7.0,
+          "duration_min": 39.0,
+          "wait_min": 410.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_026",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1260.0,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12884",
+          "train_name": "PURULIA HWH",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "20:38:00",
+          "arrival": "21:15:00",
+          "distance": 8.0,
+          "duration_min": 37.0,
+          "wait_min": 472.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_027",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 955.0000000000001,
+        "cost": 2096.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2096.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "18646",
+          "train_name": "HYB-HWH EAST",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "15:31:00",
+          "arrival": "16:10:00",
+          "distance": 7.0,
+          "duration_min": 39.0,
+          "wait_min": 165.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_028",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1095.0,
+        "cost": 2096.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2096.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "KGP",
+          "departure": "00:15:00",
+          "arrival": "11:17:00",
+          "distance": 1981.0,
+          "duration_min": 662.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "20890",
+          "train_name": "BZA HWH HUMS",
+          "from": "KGP",
+          "to": "HWH",
+          "departure": "16:40:00",
+          "arrival": "18:30:00",
+          "distance": 115.0,
+          "duration_min": 110.0,
+          "wait_min": 323.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_029",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 875.0,
+        "cost": 2096.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2096.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22818",
+          "train_name": "MYS - HWH SF",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "14:05:00",
+          "arrival": "14:50:00",
+          "distance": 7.0,
+          "duration_min": 45.0,
+          "wait_min": 79.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_030",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 875.0,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "KGP",
+          "departure": "00:15:00",
+          "arrival": "11:17:00",
+          "distance": 1981.0,
+          "duration_min": 662.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22832",
+          "train_name": "SRISATYASAIP",
+          "from": "KGP",
+          "to": "HWH",
+          "departure": "12:38:00",
+          "arrival": "14:50:00",
+          "distance": 116.0,
+          "duration_min": 132.0,
+          "wait_min": 81.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_031",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 960.0,
+        "cost": 2096.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2096.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "KGP",
+          "departure": "00:15:00",
+          "arrival": "11:17:00",
+          "distance": 1981.0,
+          "duration_min": 662.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22864",
+          "train_name": "YPR-HWH AC E",
+          "from": "KGP",
+          "to": "HWH",
+          "departure": "14:15:00",
+          "arrival": "16:15:00",
+          "distance": 115.0,
+          "duration_min": 120.0,
+          "wait_min": 178.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_032",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 874.9999999999999,
+        "cost": 2096.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2096.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "KGP",
+          "departure": "00:15:00",
+          "arrival": "11:17:00",
+          "distance": 1981.0,
+          "duration_min": 662.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22878",
+          "train_name": "ERS-HWH ANTY",
+          "from": "KGP",
+          "to": "HWH",
+          "departure": "12:50:00",
+          "arrival": "14:50:00",
+          "distance": 115.0,
+          "duration_min": 120.0,
+          "wait_min": 93.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_033",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1095.0,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "KGP",
+          "departure": "00:15:00",
+          "arrival": "11:17:00",
+          "distance": 1981.0,
+          "duration_min": 662.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22888",
+          "train_name": "YPR-HWH HUMS",
+          "from": "KGP",
+          "to": "HWH",
+          "departure": "16:40:00",
+          "arrival": "18:30:00",
+          "distance": 116.0,
+          "duration_min": 110.0,
+          "wait_min": 323.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_034",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 900.0,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22892",
+          "train_name": "RNCHWH INTER",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "14:40:00",
+          "arrival": "15:15:00",
+          "distance": 8.0,
+          "duration_min": 35.0,
+          "wait_min": 114.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_035",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1225.0,
+        "cost": 2096.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2096.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "38726",
+          "train_name": "KGP HWH  LOC",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "20:03:00",
+          "arrival": "20:40:00",
+          "distance": 7.0,
+          "duration_min": 37.0,
+          "wait_min": 437.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_036",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1292.0,
+        "cost": 2096.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2096.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "KGP",
+          "departure": "00:15:00",
+          "arrival": "11:17:00",
+          "distance": 1981.0,
+          "duration_min": 662.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "38728",
+          "train_name": "KGP HWH LOCA",
+          "from": "KGP",
+          "to": "HWH",
+          "departure": "18:45:00",
+          "arrival": "21:47:00",
+          "distance": 115.0,
+          "duration_min": 182.0,
+          "wait_min": 448.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_037",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1087.0,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "68004",
+          "train_name": "GTS-HWH MEMU",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "17:44:00",
+          "arrival": "18:22:00",
+          "distance": 8.0,
+          "duration_min": 38.0,
+          "wait_min": 298.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_038",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1235.0000000000002,
+        "cost": 2096.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2096.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12022",
+          "train_name": "BARABIL-HOWR",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "20:18:00",
+          "arrival": "20:50:00",
+          "distance": 7.0,
+          "duration_min": 32.0,
+          "wait_min": 452.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_039",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 815.0,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12858",
+          "train_name": "TAMRALIPTA",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "13:21:00",
+          "arrival": "13:50:00",
+          "distance": 8.0,
+          "duration_min": 29.0,
+          "wait_min": 35.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_040",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1250.0000000000002,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "15721",
+          "train_name": "PAHARIA EXPR",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "20:24:00",
+          "arrival": "21:05:00",
+          "distance": 8.0,
+          "duration_min": 41.0,
+          "wait_min": 458.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_041",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1067.0,
+        "cost": 2096.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2096.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "38056",
+          "train_name": "HLZ HWH  LOC",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "17:38:00",
+          "arrival": "18:02:00",
+          "distance": 7.0,
+          "duration_min": 24.0,
+          "wait_min": 292.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_042",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1235.0000000000002,
+        "cost": 2096.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2096.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "38058",
+          "train_name": "HLZ HWH LOCA",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "20:15:00",
+          "arrival": "20:50:00",
+          "distance": 7.0,
+          "duration_min": 35.0,
+          "wait_min": 449.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_043",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 890.0,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "38314",
+          "train_name": "MCA HWH LOCA",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "14:34:00",
+          "arrival": "15:05:00",
+          "distance": 8.0,
+          "duration_min": 31.0,
+          "wait_min": 108.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_044",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 945.0,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "38318",
+          "train_name": "MCA HWH LOCA",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "15:34:00",
+          "arrival": "16:00:00",
+          "distance": 8.0,
+          "duration_min": 26.0,
+          "wait_min": 168.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_045",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1252.0,
+        "cost": 2096.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2096.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "38452",
+          "train_name": "PKU HWH LOCA",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "20:35:00",
+          "arrival": "21:07:00",
+          "distance": 7.0,
+          "duration_min": 32.0,
+          "wait_min": 469.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_046",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 975.0,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "38502",
+          "train_name": "BCK HWH LOCA",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "15:53:00",
+          "arrival": "16:30:00",
+          "distance": 8.0,
+          "duration_min": 37.0,
+          "wait_min": 187.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_047",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 852.0000000000001,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "38814",
+          "train_name": "MDN HWH LOCA",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "13:44:00",
+          "arrival": "14:27:00",
+          "distance": 8.0,
+          "duration_min": 43.0,
+          "wait_min": 58.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_048",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 905.0,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "38816",
+          "train_name": "MDN HWH LOCA",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "14:47:00",
+          "arrival": "15:20:00",
+          "distance": 8.0,
+          "duration_min": 33.0,
+          "wait_min": 121.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_049",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 965.0000000000001,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "38818",
+          "train_name": "MDN-HWH LOCA",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "15:44:00",
+          "arrival": "16:20:00",
+          "distance": 8.0,
+          "duration_min": 36.0,
+          "wait_min": 178.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_050",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1047.0,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "38820",
+          "train_name": "MDN - HWH LO",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "17:08:00",
+          "arrival": "17:42:00",
+          "distance": 8.0,
+          "duration_min": 34.0,
+          "wait_min": 262.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_051",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1113.0,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "38822",
+          "train_name": "MDN HWH LOCA",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "18:14:00",
+          "arrival": "18:48:00",
+          "distance": 8.0,
+          "duration_min": 34.0,
+          "wait_min": 328.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_052",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1150.0,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "38824",
+          "train_name": "MDN-HWH LOCA",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "18:45:00",
+          "arrival": "19:25:00",
+          "distance": 8.0,
+          "duration_min": 40.0,
+          "wait_min": 359.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_053",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1267.0,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ADI",
+          "to": "SRC",
+          "departure": "00:15:00",
+          "arrival": "12:46:00",
+          "distance": 2089.0,
+          "duration_min": 751.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "38826",
+          "train_name": "MDN HWH LOCA",
+          "from": "SRC",
+          "to": "HWH",
+          "departure": "20:46:00",
+          "arrival": "21:22:00",
+          "distance": 8.0,
+          "duration_min": 36.0,
+          "wait_min": 480.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_054",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1650.0,
+        "cost": 2565.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2565.0
+      },
+      "segments": [
+        {
+          "train_no": "12843",
+          "train_name": "PUI-ADI S/F",
+          "from": "ADI",
+          "to": "BALU",
+          "departure": "07:25:00",
+          "arrival": "19:53:00",
+          "distance": 2034.0,
+          "duration_min": 748.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12509",
+          "train_name": "SBC -GHY EXP",
+          "from": "BALU",
+          "to": "HWH",
+          "departure": "00:39:00",
+          "arrival": "10:55:00",
+          "distance": 531.0,
+          "duration_min": 616.0,
+          "wait_min": 286.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_055",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1650.0,
+        "cost": 2565.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2565.0
+      },
+      "segments": [
+        {
+          "train_no": "12843",
+          "train_name": "PUI-ADI S/F",
+          "from": "ADI",
+          "to": "BALU",
+          "departure": "07:25:00",
+          "arrival": "19:53:00",
+          "distance": 2034.0,
+          "duration_min": 748.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12515",
+          "train_name": "TVC - SCL EX",
+          "from": "BALU",
+          "to": "HWH",
+          "departure": "00:39:00",
+          "arrival": "10:55:00",
+          "distance": 531.0,
+          "duration_min": 616.0,
+          "wait_min": 286.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_056",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1380.0,
+        "cost": 2565.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2565.0
+      },
+      "segments": [
+        {
+          "train_no": "12843",
+          "train_name": "PUI-ADI S/F",
+          "from": "ADI",
+          "to": "BALU",
+          "departure": "07:25:00",
+          "arrival": "19:53:00",
+          "distance": 2034.0,
+          "duration_min": 748.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12864",
+          "train_name": "YPR HOWRAH E",
+          "from": "BALU",
+          "to": "HWH",
+          "departure": "21:02:00",
+          "arrival": "06:25:00",
+          "distance": 531.0,
+          "duration_min": 563.0,
+          "wait_min": 69.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_057",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1230.0,
+        "cost": 2098.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2098.0
+      },
+      "segments": [
+        {
+          "train_no": "11087",
+          "train_name": "VRL-PUNE EXP",
+          "from": "ADI",
+          "to": "BH",
+          "departure": "17:00:00",
+          "arrival": "19:41:00",
+          "distance": 170.0,
+          "duration_min": 161.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "BH",
+          "to": "HWH",
+          "departure": "03:11:00",
+          "arrival": "13:30:00",
+          "distance": 1928.0,
+          "duration_min": 619.0,
+          "wait_min": 450.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_058",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 634.9999999999999,
+        "cost": 2092.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2092.0
+      },
+      "segments": [
+        {
+          "train_no": "11087",
+          "train_name": "VRL-PUNE EXP",
+          "from": "ADI",
+          "to": "ST",
+          "departure": "17:00:00",
+          "arrival": "20:33:00",
+          "distance": 229.0,
+          "duration_min": 213.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12905",
+          "train_name": "PBR HOWRAH E",
+          "from": "ST",
+          "to": "HWH",
+          "departure": "21:20:00",
+          "arrival": "03:35:00",
+          "distance": 1863.0,
+          "duration_min": 375.0,
+          "wait_min": 47.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_059",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1275.0,
+        "cost": 2098.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2098.0
+      },
+      "segments": [
+        {
+          "train_no": "11089",
+          "train_name": "BGKTPUNE EXP",
+          "from": "ADI",
+          "to": "BH",
+          "departure": "16:15:00",
+          "arrival": "18:59:00",
+          "distance": 170.0,
+          "duration_min": 164.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "BH",
+          "to": "HWH",
+          "departure": "03:11:00",
+          "arrival": "13:30:00",
+          "distance": 1928.0,
+          "duration_min": 619.0,
+          "wait_min": 492.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_060",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 679.9999999999999,
+        "cost": 2091.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2091.0
+      },
+      "segments": [
+        {
+          "train_no": "11089",
+          "train_name": "BGKTPUNE EXP",
+          "from": "ADI",
+          "to": "ST",
+          "departure": "16:15:00",
+          "arrival": "20:00:00",
+          "distance": 228.0,
+          "duration_min": 225.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12905",
+          "train_name": "PBR HOWRAH E",
+          "from": "ST",
+          "to": "HWH",
+          "departure": "21:20:00",
+          "arrival": "03:35:00",
+          "distance": 1863.0,
+          "duration_min": 375.0,
+          "wait_min": 80.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_061",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1275.0,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "11095",
+          "train_name": "AHIMSA EXPRE",
+          "from": "ADI",
+          "to": "BH",
+          "departure": "16:15:00",
+          "arrival": "19:01:00",
+          "distance": 169.0,
+          "duration_min": 166.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "BH",
+          "to": "HWH",
+          "departure": "03:11:00",
+          "arrival": "13:30:00",
+          "distance": 1928.0,
+          "duration_min": 619.0,
+          "wait_min": 490.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_062",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 679.9999999999999,
+        "cost": 2091.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2091.0
+      },
+      "segments": [
+        {
+          "train_no": "11095",
+          "train_name": "AHIMSA EXPRE",
+          "from": "ADI",
+          "to": "ST",
+          "departure": "16:15:00",
+          "arrival": "20:00:00",
+          "distance": 228.0,
+          "duration_min": 225.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12905",
+          "train_name": "PBR HOWRAH E",
+          "from": "ST",
+          "to": "HWH",
+          "departure": "21:20:00",
+          "arrival": "03:35:00",
+          "distance": 1863.0,
+          "duration_min": 375.0,
+          "wait_min": 80.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_063",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1119.9999999999998,
+        "cost": 2098.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2098.0
+      },
+      "segments": [
+        {
+          "train_no": "11463",
+          "train_name": "SMNH-JBP EXP",
+          "from": "ADI",
+          "to": "ANND",
+          "departure": "18:50:00",
+          "arrival": "20:05:00",
+          "distance": 64.0,
+          "duration_min": 75.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ANND",
+          "to": "HWH",
+          "departure": "01:24:00",
+          "arrival": "13:30:00",
+          "distance": 2034.0,
+          "duration_min": 726.0,
+          "wait_min": 319.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_064",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2004.9999999999998,
+        "cost": 2137.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2137.0
+      },
+      "segments": [
+        {
+          "train_no": "11463",
+          "train_name": "SMNH-JBP EXP",
+          "from": "ADI",
+          "to": "JBP",
+          "departure": "18:50:00",
+          "arrival": "15:10:00",
+          "distance": 981.0,
+          "duration_min": 1220.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11447",
+          "train_name": "SHAKTIPUNJ E",
+          "from": "JBP",
+          "to": "HWH",
+          "departure": "23:50:00",
+          "arrival": "04:15:00",
+          "distance": 1156.0,
+          "duration_min": 265.0,
+          "wait_min": 520.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_065",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1119.9999999999998,
+        "cost": 2098.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2098.0
+      },
+      "segments": [
+        {
+          "train_no": "11465",
+          "train_name": "SMNH-JBP EXP",
+          "from": "ADI",
+          "to": "ANND",
+          "departure": "18:50:00",
+          "arrival": "20:05:00",
+          "distance": 64.0,
+          "duration_min": 75.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "ANND",
+          "to": "HWH",
+          "departure": "01:24:00",
+          "arrival": "13:30:00",
+          "distance": 2034.0,
+          "duration_min": 726.0,
+          "wait_min": 319.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_066",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2005.0000000000002,
+        "cost": 2293.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2293.0
+      },
+      "segments": [
+        {
+          "train_no": "11465",
+          "train_name": "SMNH-JBP EXP",
+          "from": "ADI",
+          "to": "JBP",
+          "departure": "18:50:00",
+          "arrival": "18:00:00",
+          "distance": 1137.0,
+          "duration_min": 1390.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11447",
+          "train_name": "SHAKTIPUNJ E",
+          "from": "JBP",
+          "to": "HWH",
+          "departure": "23:50:00",
+          "arrival": "04:15:00",
+          "distance": 1156.0,
+          "duration_min": 265.0,
+          "wait_min": 350.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_067",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1370.0,
+        "cost": 2097.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2097.0
+      },
+      "segments": [
+        {
+          "train_no": "12010",
+          "train_name": "SHATABDI EXP",
+          "from": "ADI",
+          "to": "BH",
+          "departure": "14:40:00",
+          "arrival": "17:06:00",
+          "distance": 169.0,
+          "duration_min": 146.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12833",
+          "train_name": "ADI -HOWRAH",
+          "from": "BH",
+          "to": "HWH",
+          "departure": "03:11:00",
+          "arrival": "13:30:00",
+          "distance": 1928.0,
+          "duration_min": 619.0,
+          "wait_min": 605.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_068",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 775.0,
+        "cost": 2091.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2091.0
+      },
+      "segments": [
+        {
+          "train_no": "12010",
+          "train_name": "SHATABDI EXP",
+          "from": "ADI",
+          "to": "ST",
+          "departure": "14:40:00",
+          "arrival": "17:48:00",
+          "distance": 228.0,
+          "duration_min": 188.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12905",
+          "train_name": "PBR HOWRAH E",
+          "from": "ST",
+          "to": "HWH",
+          "departure": "21:20:00",
+          "arrival": "03:35:00",
+          "distance": 1863.0,
+          "duration_min": 375.0,
+          "wait_min": 212.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_069",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2630.0,
+        "cost": 3270.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3270.0
+      },
+      "segments": [
+        {
+          "train_no": "12473",
+          "train_name": "SARVODAYA EX",
+          "from": "ADI",
+          "to": "JRC",
+          "departure": "11:30:00",
+          "arrival": "10:45:00",
+          "distance": 1446.0,
+          "duration_min": 1395.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13006",
+          "train_name": "ASR HWH MAIL",
+          "from": "JRC",
+          "to": "HWH",
+          "departure": "20:07:00",
+          "arrival": "07:20:00",
+          "distance": 1824.0,
+          "duration_min": 673.0,
+          "wait_min": 562.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_070",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1440.0000000000002,
+        "cost": 3669.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3669.0
+      },
+      "segments": [
+        {
+          "train_no": "12473",
+          "train_name": "SARVODAYA EX",
+          "from": "ADI",
+          "to": "JAT",
+          "departure": "11:30:00",
+          "arrival": "14:40:00",
+          "distance": 1658.0,
+          "duration_min": 190.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12332",
+          "train_name": "HIMGIRI EXPR",
+          "from": "JAT",
+          "to": "HWH",
+          "departure": "22:45:00",
+          "arrival": "11:30:00",
+          "distance": 2011.0,
+          "duration_min": 765.0,
+          "wait_min": 485.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_071",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2715.0,
+        "cost": 3474.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3474.0
+      },
+      "segments": [
+        {
+          "train_no": "12474",
+          "train_name": "SARVODAYA EX",
+          "from": "ADI",
+          "to": "PTKC",
+          "departure": "14:15:00",
+          "arrival": "13:00:00",
+          "distance": 1562.0,
+          "duration_min": 1365.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12332",
+          "train_name": "HIMGIRI EXPR",
+          "from": "PTKC",
+          "to": "HWH",
+          "departure": "00:30:00",
+          "arrival": "11:30:00",
+          "distance": 1912.0,
+          "duration_min": 660.0,
+          "wait_min": 690.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_072",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1025.0,
+        "cost": 3273.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3273.0
+      },
+      "segments": [
+        {
+          "train_no": "12474",
+          "train_name": "SARVODAYA EX",
+          "from": "ADI",
+          "to": "JRC",
+          "departure": "14:15:00",
+          "arrival": "14:50:00",
+          "distance": 1449.0,
+          "duration_min": 35.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13006",
+          "train_name": "ASR HWH MAIL",
+          "from": "JRC",
+          "to": "HWH",
+          "departure": "20:07:00",
+          "arrival": "07:20:00",
+          "distance": 1824.0,
+          "duration_min": 673.0,
+          "wait_min": 317.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_073",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1059.9999999999998,
+        "cost": 2915.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2915.0
+      },
+      "segments": [
+        {
+          "train_no": "12474",
+          "train_name": "SARVODAYA EX",
+          "from": "ADI",
+          "to": "UMB",
+          "departure": "14:15:00",
+          "arrival": "17:50:00",
+          "distance": 1284.0,
+          "duration_min": 215.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12312",
+          "train_name": "KLK DLI HWH",
+          "from": "UMB",
+          "to": "HWH",
+          "departure": "02:20:00",
+          "arrival": "07:55:00",
+          "distance": 1631.0,
+          "duration_min": 335.0,
+          "wait_min": 510.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_074",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2695.0000000000005,
+        "cost": 3474.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3474.0
+      },
+      "segments": [
+        {
+          "train_no": "12476",
+          "train_name": "SARVODAYA EX",
+          "from": "ADI",
+          "to": "PTKC",
+          "departure": "14:35:00",
+          "arrival": "13:00:00",
+          "distance": 1562.0,
+          "duration_min": 1345.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12332",
+          "train_name": "HIMGIRI EXPR",
+          "from": "PTKC",
+          "to": "HWH",
+          "departure": "00:30:00",
+          "arrival": "11:30:00",
+          "distance": 1912.0,
+          "duration_min": 660.0,
+          "wait_min": 690.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_075",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1005.0,
+        "cost": 3273.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3273.0
+      },
+      "segments": [
+        {
+          "train_no": "12476",
+          "train_name": "SARVODAYA EX",
+          "from": "ADI",
+          "to": "JRC",
+          "departure": "14:35:00",
+          "arrival": "14:50:00",
+          "distance": 1449.0,
+          "duration_min": 15.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13006",
+          "train_name": "ASR HWH MAIL",
+          "from": "JRC",
+          "to": "HWH",
+          "departure": "20:07:00",
+          "arrival": "07:20:00",
+          "distance": 1824.0,
+          "duration_min": 673.0,
+          "wait_min": 317.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_076",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1040.0,
+        "cost": 2915.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2915.0
+      },
+      "segments": [
+        {
+          "train_no": "12476",
+          "train_name": "SARVODAYA EX",
+          "from": "ADI",
+          "to": "UMB",
+          "departure": "14:35:00",
+          "arrival": "17:50:00",
+          "distance": 1284.0,
+          "duration_min": 195.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12312",
+          "train_name": "KLK DLI HWH",
+          "from": "UMB",
+          "to": "HWH",
+          "departure": "02:20:00",
+          "arrival": "07:55:00",
+          "distance": 1631.0,
+          "duration_min": 335.0,
+          "wait_min": 510.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_077",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2695.0000000000005,
+        "cost": 3474.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3474.0
+      },
+      "segments": [
+        {
+          "train_no": "12478",
+          "train_name": "SVDK- JAMNAG",
+          "from": "ADI",
+          "to": "PTKC",
+          "departure": "14:35:00",
+          "arrival": "13:00:00",
+          "distance": 1562.0,
+          "duration_min": 1345.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12332",
+          "train_name": "HIMGIRI EXPR",
+          "from": "PTKC",
+          "to": "HWH",
+          "departure": "00:30:00",
+          "arrival": "11:30:00",
+          "distance": 1912.0,
+          "duration_min": 660.0,
+          "wait_min": 690.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_078",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1005.0,
+        "cost": 3273.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3273.0
+      },
+      "segments": [
+        {
+          "train_no": "12478",
+          "train_name": "SVDK- JAMNAG",
+          "from": "ADI",
+          "to": "JRC",
+          "departure": "14:35:00",
+          "arrival": "14:50:00",
+          "distance": 1449.0,
+          "duration_min": 15.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "13006",
+          "train_name": "ASR HWH MAIL",
+          "from": "JRC",
+          "to": "HWH",
+          "departure": "20:07:00",
+          "arrival": "07:20:00",
+          "distance": 1824.0,
+          "duration_min": 673.0,
+          "wait_min": 317.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_079",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1040.0,
+        "cost": 2915.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2915.0
+      },
+      "segments": [
+        {
+          "train_no": "12478",
+          "train_name": "SVDK- JAMNAG",
+          "from": "ADI",
+          "to": "UMB",
+          "departure": "14:35:00",
+          "arrival": "17:50:00",
+          "distance": 1284.0,
+          "duration_min": 195.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12312",
+          "train_name": "KLK DLI HWH",
+          "from": "UMB",
+          "to": "HWH",
+          "departure": "02:20:00",
+          "arrival": "07:55:00",
+          "distance": 1631.0,
+          "duration_min": 335.0,
+          "wait_min": 510.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_080",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2775.0,
+        "cost": 2092.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2092.0
+      },
+      "segments": [
+        {
+          "train_no": "12655",
+          "train_name": "NAVAJEEVAN E",
+          "from": "ADI",
+          "to": "WR",
+          "departure": "07:35:00",
+          "arrival": "22:25:00",
+          "distance": 882.0,
+          "duration_min": 890.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12809",
+          "train_name": "CSMT HWH MAI",
+          "from": "WR",
+          "to": "HWH",
+          "departure": "09:22:00",
+          "arrival": "05:50:00",
+          "distance": 1210.0,
+          "duration_min": 1228.0,
+          "wait_min": 657.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_081",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2675.0,
+        "cost": 2092.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2092.0
+      },
+      "segments": [
+        {
+          "train_no": "12655",
+          "train_name": "NAVAJEEVAN E",
+          "from": "ADI",
+          "to": "WR",
+          "departure": "07:35:00",
+          "arrival": "22:25:00",
+          "distance": 882.0,
+          "duration_min": 890.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12129",
+          "train_name": "AZAD HIND EX",
+          "from": "WR",
+          "to": "HWH",
+          "departure": "08:40:00",
+          "arrival": "04:10:00",
+          "distance": 1210.0,
+          "duration_min": 1170.0,
+          "wait_min": 615.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_082",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2370.0,
+        "cost": 3283.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3283.0
+      },
+      "segments": [
+        {
+          "train_no": "12655",
+          "train_name": "NAVAJEEVAN E",
+          "from": "ADI",
+          "to": "GDR",
+          "departure": "07:35:00",
+          "arrival": "13:40:00",
+          "distance": 1755.0,
+          "duration_min": 365.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12254",
+          "train_name": "BGP-YPR ANGA",
+          "from": "GDR",
+          "to": "HWH",
+          "departure": "23:20:00",
+          "arrival": "23:05:00",
+          "distance": 1528.0,
+          "duration_min": 1425.0,
+          "wait_min": 580.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_083",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1200.0,
+        "cost": 2091.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2091.0
+      },
+      "segments": [
+        {
+          "train_no": "12655",
+          "train_name": "NAVAJEEVAN E",
+          "from": "ADI",
+          "to": "NDB",
+          "departure": "07:35:00",
+          "arrival": "13:52:00",
+          "distance": 388.0,
+          "duration_min": 377.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12905",
+          "train_name": "PBR HOWRAH E",
+          "from": "NDB",
+          "to": "HWH",
+          "departure": "23:45:00",
+          "arrival": "03:35:00",
+          "distance": 1703.0,
+          "duration_min": 230.0,
+          "wait_min": 593.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_084",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1719.9999999999998,
+        "cost": 2977.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2977.0
+      },
+      "segments": [
+        {
+          "train_no": "12656",
+          "train_name": "NAVAJEEVAN E",
+          "from": "ADI",
+          "to": "OGL",
+          "departure": "18:25:00",
+          "arrival": "13:56:00",
+          "distance": 1604.0,
+          "duration_min": 1171.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12254",
+          "train_name": "BGP-YPR ANGA",
+          "from": "OGL",
+          "to": "HWH",
+          "departure": "21:00:00",
+          "arrival": "23:05:00",
+          "distance": 1373.0,
+          "duration_min": 125.0,
+          "wait_min": 424.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_085",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2610.0,
+        "cost": 2977.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2977.0
+      },
+      "segments": [
+        {
+          "train_no": "12656",
+          "train_name": "NAVAJEEVAN E",
+          "from": "ADI",
+          "to": "OGL",
+          "departure": "18:25:00",
+          "arrival": "13:56:00",
+          "distance": 1604.0,
+          "duration_min": 1171.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12507",
+          "train_name": "TVC - SCL EX",
+          "from": "OGL",
+          "to": "HWH",
+          "departure": "14:31:00",
+          "arrival": "13:55:00",
+          "distance": 1373.0,
+          "duration_min": 1404.0,
+          "wait_min": 35.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_086",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2455.0000000000005,
+        "cost": 3597.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3597.0
+      },
+      "segments": [
+        {
+          "train_no": "11049",
+          "train_name": "ADI-KOP EXPR",
+          "from": "ADI",
+          "to": "KYN",
+          "departure": "19:25:00",
+          "arrival": "04:47:00",
+          "distance": 484.0,
+          "duration_min": 562.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11014",
+          "train_name": "LOKMANYA TT",
+          "from": "KYN",
+          "to": "BNC",
+          "departure": "13:15:00",
+          "arrival": "16:10:00",
+          "distance": 1097.0,
+          "duration_min": 175.0,
+          "wait_min": 508.0
+        },
+        {
+          "train_no": "12504",
+          "train_name": "KYQ - BNC HU",
+          "from": "BNC",
+          "to": "HWH",
+          "departure": "21:15:00",
+          "arrival": "12:20:00",
+          "distance": 2016.0,
+          "duration_min": 905.0,
+          "wait_min": 305.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_087",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2370.0,
+        "cost": 3601.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3601.0
+      },
+      "segments": [
+        {
+          "train_no": "11049",
+          "train_name": "ADI-KOP EXPR",
+          "from": "ADI",
+          "to": "KYN",
+          "departure": "19:25:00",
+          "arrival": "04:47:00",
+          "distance": 484.0,
+          "duration_min": 562.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11014",
+          "train_name": "LOKMANYA TT",
+          "from": "KYN",
+          "to": "BNC",
+          "departure": "13:15:00",
+          "arrival": "16:10:00",
+          "distance": 1097.0,
+          "duration_min": 175.0,
+          "wait_min": 508.0
+        },
+        {
+          "train_no": "12509",
+          "train_name": "SBC -GHY EXP",
+          "from": "BNC",
+          "to": "HWH",
+          "departure": "23:40:00",
+          "arrival": "10:55:00",
+          "distance": 2020.0,
+          "duration_min": 675.0,
+          "wait_min": 450.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_088",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2690.0,
+        "cost": 2813.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2813.0
+      },
+      "segments": [
+        {
+          "train_no": "11049",
+          "train_name": "ADI-KOP EXPR",
+          "from": "ADI",
+          "to": "KYN",
+          "departure": "19:25:00",
+          "arrival": "04:47:00",
+          "distance": 484.0,
+          "duration_min": 562.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11019",
+          "train_name": "KONARK EXPRE",
+          "from": "KYN",
+          "to": "VZM",
+          "departure": "16:08:00",
+          "arrival": "22:05:00",
+          "distance": 1506.0,
+          "duration_min": 357.0,
+          "wait_min": 681.0
+        },
+        {
+          "train_no": "12246",
+          "train_name": "YPR - HWH WE",
+          "from": "VZM",
+          "to": "HWH",
+          "departure": "04:40:00",
+          "arrival": "16:15:00",
+          "distance": 823.0,
+          "duration_min": 695.0,
+          "wait_min": 395.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_089",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3075.0,
+        "cost": 2813.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2813.0
+      },
+      "segments": [
+        {
+          "train_no": "11049",
+          "train_name": "ADI-KOP EXPR",
+          "from": "ADI",
+          "to": "KYN",
+          "departure": "19:25:00",
+          "arrival": "04:47:00",
+          "distance": 484.0,
+          "duration_min": 562.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11019",
+          "train_name": "KONARK EXPRE",
+          "from": "KYN",
+          "to": "BAM",
+          "departure": "16:08:00",
+          "arrival": "01:25:00",
+          "distance": 1722.0,
+          "duration_min": 557.0,
+          "wait_min": 681.0
+        },
+        {
+          "train_no": "12253",
+          "train_name": "YPR-BGP ANGA",
+          "from": "BAM",
+          "to": "HWH",
+          "departure": "12:47:00",
+          "arrival": "22:40:00",
+          "distance": 607.0,
+          "duration_min": 593.0,
+          "wait_min": 682.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_090",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2455.0000000000005,
+        "cost": 2814.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2814.0
+      },
+      "segments": [
+        {
+          "train_no": "11049",
+          "train_name": "ADI-KOP EXPR",
+          "from": "ADI",
+          "to": "KYN",
+          "departure": "19:25:00",
+          "arrival": "04:47:00",
+          "distance": 484.0,
+          "duration_min": 562.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11019",
+          "train_name": "KONARK EXPRE",
+          "from": "KYN",
+          "to": "CHE",
+          "departure": "16:08:00",
+          "arrival": "23:05:00",
+          "distance": 1575.0,
+          "duration_min": 417.0,
+          "wait_min": 681.0
+        },
+        {
+          "train_no": "12504",
+          "train_name": "KYQ - BNC HU",
+          "from": "CHE",
+          "to": "HWH",
+          "departure": "00:05:00",
+          "arrival": "12:20:00",
+          "distance": 755.0,
+          "duration_min": 735.0,
+          "wait_min": 60.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_091",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2550.0,
+        "cost": 2813.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2813.0
+      },
+      "segments": [
+        {
+          "train_no": "11049",
+          "train_name": "ADI-KOP EXPR",
+          "from": "ADI",
+          "to": "KYN",
+          "departure": "19:25:00",
+          "arrival": "04:47:00",
+          "distance": 484.0,
+          "duration_min": 562.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11019",
+          "train_name": "KONARK EXPRE",
+          "from": "KYN",
+          "to": "PSA",
+          "departure": "16:08:00",
+          "arrival": "00:18:00",
+          "distance": 1648.0,
+          "duration_min": 490.0,
+          "wait_min": 681.0
+        },
+        {
+          "train_no": "12507",
+          "train_name": "TVC - SCL EX",
+          "from": "PSA",
+          "to": "HWH",
+          "departure": "02:12:00",
+          "arrival": "13:55:00",
+          "distance": 681.0,
+          "duration_min": 703.0,
+          "wait_min": 114.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_092",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2780.0,
+        "cost": 2813.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2813.0
+      },
+      "segments": [
+        {
+          "train_no": "11049",
+          "train_name": "ADI-KOP EXPR",
+          "from": "ADI",
+          "to": "KYN",
+          "departure": "19:25:00",
+          "arrival": "04:47:00",
+          "distance": 484.0,
+          "duration_min": 562.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11019",
+          "train_name": "KONARK EXPRE",
+          "from": "KYN",
+          "to": "IPM",
+          "departure": "16:08:00",
+          "arrival": "01:01:00",
+          "distance": 1698.0,
+          "duration_min": 533.0,
+          "wait_min": 681.0
+        },
+        {
+          "train_no": "12704",
+          "train_name": "SC-HWH FALAK",
+          "from": "IPM",
+          "to": "HWH",
+          "departure": "07:28:00",
+          "arrival": "17:45:00",
+          "distance": 631.0,
+          "duration_min": 617.0,
+          "wait_min": 387.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_093",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2825.0,
+        "cost": 2813.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2813.0
+      },
+      "segments": [
+        {
+          "train_no": "11049",
+          "train_name": "ADI-KOP EXPR",
+          "from": "ADI",
+          "to": "KYN",
+          "departure": "19:25:00",
+          "arrival": "04:47:00",
+          "distance": 484.0,
+          "duration_min": 562.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11019",
+          "train_name": "KONARK EXPRE",
+          "from": "KYN",
+          "to": "BAM",
+          "departure": "16:08:00",
+          "arrival": "01:25:00",
+          "distance": 1722.0,
+          "duration_min": 557.0,
+          "wait_min": 681.0
+        },
+        {
+          "train_no": "12503",
+          "train_name": "BNC - KYQ HU",
+          "from": "BAM",
+          "to": "HWH",
+          "departure": "09:21:00",
+          "arrival": "18:30:00",
+          "distance": 607.0,
+          "duration_min": 549.0,
+          "wait_min": 476.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_094",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 2685.0,
+        "cost": 2813.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2813.0
+      },
+      "segments": [
+        {
+          "train_no": "11049",
+          "train_name": "ADI-KOP EXPR",
+          "from": "ADI",
+          "to": "KYN",
+          "departure": "19:25:00",
+          "arrival": "04:47:00",
+          "distance": 484.0,
+          "duration_min": 562.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11019",
+          "train_name": "KONARK EXPRE",
+          "from": "KYN",
+          "to": "IPM",
+          "departure": "16:08:00",
+          "arrival": "01:01:00",
+          "distance": 1698.0,
+          "duration_min": 533.0,
+          "wait_min": 681.0
+        },
+        {
+          "train_no": "18646",
+          "train_name": "HYB-HWH EAST",
+          "from": "IPM",
+          "to": "HWH",
+          "departure": "03:58:00",
+          "arrival": "16:10:00",
+          "distance": 631.0,
+          "duration_min": 732.0,
+          "wait_min": 177.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_095",
+      "category": "Multi-Transfer \ud83c\udf10",
+      "objectives": {
+        "time": 3100.0000000000005,
+        "cost": 2814.0,
+        "transfers": 2,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2814.0
+      },
+      "segments": [
+        {
+          "train_no": "11049",
+          "train_name": "ADI-KOP EXPR",
+          "from": "ADI",
+          "to": "KYN",
+          "departure": "19:25:00",
+          "arrival": "04:47:00",
+          "distance": 484.0,
+          "duration_min": 562.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11019",
+          "train_name": "KONARK EXPRE",
+          "from": "KYN",
+          "to": "BAM",
+          "departure": "16:08:00",
+          "arrival": "01:25:00",
+          "distance": 1722.0,
+          "duration_min": 557.0,
+          "wait_min": 681.0
+        },
+        {
+          "train_no": "12254",
+          "train_name": "BGP-YPR ANGA",
+          "from": "BAM",
+          "to": "HWH",
+          "departure": "08:30:00",
+          "arrival": "23:05:00",
+          "distance": 608.0,
+          "duration_min": 875.0,
+          "wait_min": 425.0
+        }
+      ]
+    }
+  ]
+}

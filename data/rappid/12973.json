@@ -1,0 +1,93 @@
+{
+  "fetched_at": "2026-01-24T09:14:57.176074",
+  "train_no": "12973",
+  "response": {
+    "success": true,
+    "train_name": "12973 Indb Jp Sf Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 16min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Indore Jn Bg",
+        "distance": "-",
+        "timing": "22:2022:20",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dewas",
+        "distance": "39 km",
+        "timing": "22:5822:58",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ujjain Jn",
+        "distance": "80 km",
+        "timing": "23:4523:45",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagda Jn",
+        "distance": "135 km",
+        "timing": "01:2501:25",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ramganj Mandi",
+        "distance": "287 km",
+        "timing": "02:4802:48",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "360 km",
+        "timing": "03:4503:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sawai Madhopur",
+        "distance": "467 km",
+        "timing": "05:3505:35",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Durgapura",
+        "distance": "591 km",
+        "timing": "07:2007:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jaipur",
+        "distance": "599 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

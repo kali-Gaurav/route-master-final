@@ -1,0 +1,282 @@
+{
+  "fetched_at": "2026-01-24T09:14:57.621233",
+  "train_no": "13235",
+  "response": {
+    "success": true,
+    "train_name": "13235 Intercity Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 3min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Sahibganj Jn",
+        "distance": "-",
+        "timing": "15:2015:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mirza Cheuki",
+        "distance": "16 km",
+        "timing": "15:2515:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pirpainti",
+        "distance": "24 km",
+        "timing": "15:3715:37",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kahalgaon",
+        "distance": "44 km",
+        "timing": "15:5815:58",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ekchari",
+        "distance": "49 km",
+        "timing": "16:0816:08",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghoga",
+        "distance": "54 km",
+        "timing": "16:1616:16",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhagalpur",
+        "distance": "75 km",
+        "timing": "17:1017:10",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Akbarnagar",
+        "distance": "89 km",
+        "timing": "17:3117:31",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sultanganj",
+        "distance": "99 km",
+        "timing": "17:4317:43",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bariarpur",
+        "distance": "117 km",
+        "timing": "18:0318:03",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jamalpur Jn",
+        "distance": "128 km",
+        "timing": "18:2318:23",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dharhara",
+        "distance": "140 km",
+        "timing": "18:3718:37",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Abhaipur",
+        "distance": "150 km",
+        "timing": "18:4918:49",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kajra",
+        "distance": "157 km",
+        "timing": "18:5818:58",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kiul Jn",
+        "distance": "173 km",
+        "timing": "19:4019:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Luckeesarai Jn",
+        "distance": "175 km",
+        "timing": "19:4819:48",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dumri Halt",
+        "distance": "185 km",
+        "timing": "20:0020:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barhiya",
+        "distance": "190 km",
+        "timing": "20:0920:09",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hathidah Jn",
+        "distance": "200 km",
+        "timing": "20:2320:23",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mokameh Jn",
+        "distance": "207 km",
+        "timing": "20:4020:40",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barh",
+        "distance": "233 km",
+        "timing": "21:0021:00",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Athmal Gola",
+        "distance": "242 km",
+        "timing": "21:1121:11",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bakhtiyarpur Jn",
+        "distance": "251 km",
+        "timing": "21:2521:25",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karauta",
+        "distance": "260 km",
+        "timing": "21:3721:37",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khusropur",
+        "distance": "266 km",
+        "timing": "21:4721:47",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Fatuha Jn",
+        "distance": "275 km",
+        "timing": "21:5821:58",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patna Saheb",
+        "distance": "287 km",
+        "timing": "22:1522:15",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rajendranagar T",
+        "distance": "294 km",
+        "timing": "22:2822:28",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patna Jn",
+        "distance": "297 km",
+        "timing": "23:0523:05",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Danapur",
+        "distance": "306 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

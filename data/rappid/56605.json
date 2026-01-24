@@ -1,0 +1,75 @@
+{
+  "fetched_at": "2026-01-24T09:15:03.718415",
+  "train_no": "56605",
+  "response": {
+    "success": true,
+    "train_name": "56605 Cbe Tcr Passenger Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 41min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Shoranur Jn",
+        "distance": "-",
+        "timing": "22:1022:10",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vallattolnagar",
+        "distance": "4 km",
+        "timing": "22:2122:21",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mullurcarai",
+        "distance": "8 km",
+        "timing": "22:2622:26",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Wadakancheri",
+        "distance": "16 km",
+        "timing": "22:3522:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mulagunnathukvu",
+        "distance": "23 km",
+        "timing": "22:4322:43",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Punkunnam",
+        "distance": "30 km",
+        "timing": "22:5022:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thrisur",
+        "distance": "33 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

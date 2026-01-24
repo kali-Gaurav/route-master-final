@@ -1,0 +1,201 @@
+{
+  "fetched_at": "2026-01-24T09:14:55.828205",
+  "train_no": "11703",
+  "response": {
+    "success": true,
+    "train_name": "11703 Rewa Dadn Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 14min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Rewa",
+        "distance": "-",
+        "timing": "23:0523:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Satna",
+        "distance": "50 km",
+        "timing": "23:5823:58",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Maihar",
+        "distance": "85 km",
+        "timing": "00:2500:25",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jukehi",
+        "distance": "131 km",
+        "timing": "01:0001:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katni Murwara",
+        "distance": "150 km",
+        "timing": "01:4001:40",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bandakpur",
+        "distance": "243 km",
+        "timing": "02:4502:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Damoh",
+        "distance": "259 km",
+        "timing": "03:1003:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patharia",
+        "distance": "285 km",
+        "timing": "03:3503:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Saugor",
+        "distance": "336 km",
+        "timing": "04:1504:15",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khurai",
+        "distance": "389 km",
+        "timing": "05:0005:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bina Jn",
+        "distance": "411 km",
+        "timing": "06:3006:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mandi Bamora",
+        "distance": "428 km",
+        "timing": "06:5006:50",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vidisha",
+        "distance": "496 km",
+        "timing": "07:3507:35",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "S Hirdaramnagar",
+        "distance": "558 km",
+        "timing": "09:3509:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sehore",
+        "distance": "586 km",
+        "timing": "09:5109:51",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shujalpur",
+        "distance": "628 km",
+        "timing": "10:2810:28",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Berchha",
+        "distance": "671 km",
+        "timing": "11:0611:06",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ujjain Jn",
+        "distance": "731 km",
+        "timing": "12:3012:30",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dewas",
+        "distance": "771 km",
+        "timing": "13:2313:23",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Indore Jn Bg",
+        "distance": "810 km",
+        "timing": "14:2514:25",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dr Ambedkar Ngr",
+        "distance": "831 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

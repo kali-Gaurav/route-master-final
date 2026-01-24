@@ -1,0 +1,120 @@
+{
+  "fetched_at": "2026-01-24T09:15:26.473302",
+  "train_no": "12022",
+  "response": {
+    "success": true,
+    "train_name": "12022 Hwh Janshatabdi Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 2min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Barabil",
+        "distance": "-",
+        "timing": "15:4513:45",
+        "delay": "2hr",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bara Jamda",
+        "distance": "10 km",
+        "timing": "15:5413:56",
+        "delay": "1hr 59min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Noamundi",
+        "distance": "24 km",
+        "timing": "16:1114:15",
+        "delay": "1hr 57min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dangoaposi",
+        "distance": "32 km",
+        "timing": "16:2514:35",
+        "delay": "1hr 51min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chaibasa",
+        "distance": "86 km",
+        "timing": "17:0915:27",
+        "delay": "1hr 43min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sini Jn",
+        "distance": "122 km",
+        "timing": "17:4416:10",
+        "delay": "1hr 35min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tatanagar Jn",
+        "distance": "149 km",
+        "timing": "18:1416:48",
+        "delay": "1hr 29min",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghatsila",
+        "distance": "185 km",
+        "timing": "18:3417:32",
+        "delay": "1hr 2min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jhargram",
+        "distance": "245 km",
+        "timing": "19:0618:15",
+        "delay": "51min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kharagpur Jn",
+        "distance": "283 km",
+        "timing": "19:3719:00",
+        "delay": "38min",
+        "platform": "5",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Santragachi Jn",
+        "distance": "391 km",
+        "timing": "20:4920:22",
+        "delay": "28min",
+        "platform": "7",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Howrah Jn",
+        "distance": "398 km",
+        "timing": "Destination",
+        "delay": "19min",
+        "platform": "21",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

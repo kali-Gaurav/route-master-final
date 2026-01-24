@@ -1,0 +1,174 @@
+{
+  "fetched_at": "2026-01-24T09:14:54.521392",
+  "train_no": "12349",
+  "response": {
+    "success": true,
+    "train_name": "12349 Goda Ndls Hmsfr Running Status",
+    "message": "",
+    "updated_time": "Updated 121hr 36min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Godda",
+        "distance": "-",
+        "timing": "14:0514:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hansdiha",
+        "distance": "32 km",
+        "timing": "15:1015:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "25min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mandar Hill",
+        "distance": "56 km",
+        "timing": "15:3615:36",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barahat",
+        "distance": "68 km",
+        "timing": "15:5415:54",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dhauni",
+        "distance": "79 km",
+        "timing": "16:1016:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhagalpur",
+        "distance": "106 km",
+        "timing": "17:0017:00",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sultanganj",
+        "distance": "130 km",
+        "timing": "17:2517:25",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jamalpur Jn",
+        "distance": "160 km",
+        "timing": "18:0718:07",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Abhaipur",
+        "distance": "182 km",
+        "timing": "18:3518:35",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kiul Jn",
+        "distance": "205 km",
+        "timing": "20:1020:10",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nawadah",
+        "distance": "275 km",
+        "timing": "21:1821:18",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gaya Jn",
+        "distance": "334 km",
+        "timing": "23:2023:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dehri On Sone",
+        "distance": "419 km",
+        "timing": "00:1600:16",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sasaram",
+        "distance": "437 km",
+        "timing": "00:3000:30",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dd Upadhyaya Jn",
+        "distance": "537 km",
+        "timing": "02:0002:00",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Prayagraj Jn.",
+        "distance": "690 km",
+        "timing": "04:0504:05",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanpur Central",
+        "distance": "884 km",
+        "timing": "06:3006:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "1325 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "13",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

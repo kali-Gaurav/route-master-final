@@ -1,0 +1,93 @@
+{
+  "fetched_at": "2026-01-24T09:15:04.668460",
+  "train_no": "12301",
+  "response": {
+    "success": true,
+    "train_name": "12301 Rajdhani Expres Running Status",
+    "message": "",
+    "updated_time": "Updated 38min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Howrah Jn",
+        "distance": "-",
+        "timing": "16:5016:50",
+        "delay": "On Time",
+        "platform": "9",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Asansol Jn",
+        "distance": "200 km",
+        "timing": "18:4918:49",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dhanbad Jn",
+        "distance": "259 km",
+        "timing": "20:0020:00",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Parasnath",
+        "distance": "306 km",
+        "timing": "20:3220:32",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gaya Jn",
+        "distance": "458 km",
+        "timing": "22:3522:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dd Upadhyaya Jn",
+        "distance": "661 km",
+        "timing": "00:5000:50",
+        "delay": "On Time",
+        "platform": "7",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Subedarganj",
+        "distance": "817 km",
+        "timing": "02:5002:50",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanpur Central",
+        "distance": "1008 km",
+        "timing": "04:5004:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "1449 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "15",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "fetched_at": "2026-01-24T09:14:55.827194",
+  "train_no": "11073",
+  "response": {
+    "success": true,
+    "train_name": "11073 Ltt Chennai Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 9hr 17min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Lokmanyatilak T",
+        "distance": "-",
+        "timing": "13:2013:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalyan Jn",
+        "distance": "34 km",
+        "timing": "14:0814:08",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pune Jn",
+        "distance": "172 km",
+        "timing": "16:4516:45",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Solapur Jn",
+        "distance": "435 km",
+        "timing": "21:1021:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalaburagi",
+        "distance": "548 km",
+        "timing": "23:1023:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Wadi",
+        "distance": "584 km",
+        "timing": "00:2500:25",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Yadgir",
+        "distance": "623 km",
+        "timing": "01:0001:00",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raichur",
+        "distance": "692 km",
+        "timing": "02:1002:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Manthralayam Rd",
+        "distance": "721 km",
+        "timing": "02:4002:40",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Adoni",
+        "distance": "762 km",
+        "timing": "03:2003:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Guntakal Jn",
+        "distance": "814 km",
+        "timing": "04:2004:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gooty",
+        "distance": "842 km",
+        "timing": "04:5004:50",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Yerraguntla",
+        "distance": "959 km",
+        "timing": "06:4006:40",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Cuddapah",
+        "distance": "998 km",
+        "timing": "07:2007:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Renigunta Jn",
+        "distance": "1124 km",
+        "timing": "10:0510:05",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Arakkonam Jn",
+        "distance": "1192 km",
+        "timing": "11:1511:15",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Perambur",
+        "distance": "1255 km",
+        "timing": "12:1012:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mgr Chennai Ctl",
+        "distance": "1261 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

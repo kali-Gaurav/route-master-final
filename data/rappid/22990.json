@@ -1,0 +1,156 @@
+{
+  "fetched_at": "2026-01-24T09:15:22.564157",
+  "train_no": "22990",
+  "response": {
+    "success": true,
+    "train_name": "22990 Mhv Bdts Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 16min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Mahuva Jn",
+        "distance": "-",
+        "timing": "17:5517:55",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rajula Jn",
+        "distance": "31 km",
+        "timing": "18:3718:37",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Savarkundla",
+        "distance": "70 km",
+        "timing": "19:4519:45",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Liliya Mota",
+        "distance": "93 km",
+        "timing": "20:2320:23",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dhasa Jn",
+        "distance": "127 km",
+        "timing": "21:1821:18",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dhola Jn",
+        "distance": "153 km",
+        "timing": "21:4321:43",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Botad Jn",
+        "distance": "196 km",
+        "timing": "22:1822:18",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Surendranagar G",
+        "distance": "270 km",
+        "timing": "22:5422:54",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Viramgam Jn",
+        "distance": "336 km",
+        "timing": "00:3700:37",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ahmedabad Jn",
+        "distance": "401 km",
+        "timing": "01:5501:55",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anand Jn",
+        "distance": "465 km",
+        "timing": "02:5602:56",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vadodara Jn",
+        "distance": "501 km",
+        "timing": "03:3303:33",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Surat",
+        "distance": "630 km",
+        "timing": "05:3005:30",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vapi",
+        "distance": "722 km",
+        "timing": "06:5506:55",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Borivali",
+        "distance": "862 km",
+        "timing": "08:4008:40",
+        "delay": "On Time",
+        "platform": "8",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bandra Terminus",
+        "distance": "881 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

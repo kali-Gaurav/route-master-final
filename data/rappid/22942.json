@@ -1,0 +1,111 @@
+{
+  "fetched_at": "2026-01-24T09:15:24.268065",
+  "train_no": "22942",
+  "response": {
+    "success": true,
+    "train_name": "22942 Indb Sf Exp Running Status",
+    "message": "Reached Indore Jn Bg at 11:01",
+    "updated_time": "Updated 51hr 36min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Jalandhar Cant",
+        "distance": "266 km",
+        "timing": "16:0015:58",
+        "delay": "2min",
+        "platform": "2",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ludhiana Jn",
+        "distance": "318 km",
+        "timing": "17:0717:05",
+        "delay": "2min",
+        "platform": "5",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Delhi Safdarjng",
+        "distance": "653 km",
+        "timing": "23:1422:40",
+        "delay": "34min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mathura Jn",
+        "distance": "790 km",
+        "timing": "01:4501:00",
+        "delay": "45min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sawai Madhopur",
+        "distance": "1007 km",
+        "timing": "04:1903:02",
+        "delay": "1hr 17min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "1114 km",
+        "timing": "05:2204:30",
+        "delay": "52min",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhawani Mandi",
+        "distance": "1215 km",
+        "timing": "07:0505:30",
+        "delay": "1hr 35min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagda Jn",
+        "distance": "1339 km",
+        "timing": "09:0308:05",
+        "delay": "58min",
+        "platform": "3",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ujjain Jn",
+        "distance": "1394 km",
+        "timing": "09:4809:05",
+        "delay": "43min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dewas",
+        "distance": "1435 km",
+        "timing": "10:2410:10",
+        "delay": "14min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Indore Jn Bg",
+        "distance": "1474 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

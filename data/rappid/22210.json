@@ -1,0 +1,57 @@
+{
+  "fetched_at": "2026-01-24T09:15:07.425871",
+  "train_no": "22210",
+  "response": {
+    "success": true,
+    "train_name": "22210 Mmct Duronto Running Status",
+    "message": "",
+    "updated_time": "Updated 40min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "H Nizamuddin",
+        "distance": "-",
+        "timing": "22:1522:15",
+        "delay": "On Time",
+        "platform": "8",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "458 km",
+        "timing": "03:5003:50",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "724 km",
+        "timing": "07:0507:05",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vadodara Jn",
+        "distance": "986 km",
+        "timing": "10:4310:43",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dadar",
+        "distance": "1371 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

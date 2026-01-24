@@ -1,0 +1,93 @@
+{
+  "fetched_at": "2026-01-24T09:15:21.100734",
+  "train_no": "12261",
+  "response": {
+    "success": true,
+    "train_name": "12261 Howrah Duronto Running Status",
+    "message": "",
+    "updated_time": "Updated 2min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "C Shivaji Mah T",
+        "distance": "-",
+        "timing": "17:1517:15",
+        "delay": "On Time",
+        "platform": "16",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalyan Jn",
+        "distance": "54 km",
+        "timing": "18:0118:01",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhusaval Jn",
+        "distance": "445 km",
+        "timing": "23:0023:00",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Akola Jn",
+        "distance": "584 km",
+        "timing": "00:4000:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagpur",
+        "distance": "837 km",
+        "timing": "04:1504:15",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raipur Jn",
+        "distance": "1139 km",
+        "timing": "08:1508:15",
+        "delay": "On Time",
+        "platform": "7",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bilaspur Jn",
+        "distance": "1250 km",
+        "timing": "10:0010:00",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tatanagar Jn",
+        "distance": "1719 km",
+        "timing": "16:2016:20",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Howrah Jn",
+        "distance": "1968 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "23",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

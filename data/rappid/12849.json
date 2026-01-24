@@ -1,0 +1,174 @@
+{
+  "fetched_at": "2026-01-24T09:14:54.929703",
+  "train_no": "12849",
+  "response": {
+    "success": true,
+    "train_name": "12849 Bsp Pune Sf Exp Running Status",
+    "message": "Reached Pune Jn at 09:58",
+    "updated_time": "Updated 28hr 45min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Bilaspur Jn",
+        "distance": "-",
+        "timing": "11:3411:20",
+        "delay": "14min",
+        "platform": "7",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhatapara",
+        "distance": "47 km",
+        "timing": "12:1212:00",
+        "delay": "12min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raipur Jn",
+        "distance": "111 km",
+        "timing": "13:1813:00",
+        "delay": "18min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Durg",
+        "distance": "148 km",
+        "timing": "14:0513:55",
+        "delay": "10min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raj Nandgaon",
+        "distance": "178 km",
+        "timing": "14:4214:16",
+        "delay": "26min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gondia Jn",
+        "distance": "283 km",
+        "timing": "16:5015:40",
+        "delay": "1hr 10min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagpur",
+        "distance": "413 km",
+        "timing": "18:5918:00",
+        "delay": "59min",
+        "platform": "4",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Wardha Jn",
+        "distance": "492 km",
+        "timing": "20:1219:05",
+        "delay": "1hr 7min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Badnera Jn",
+        "distance": "587 km",
+        "timing": "21:4220:55",
+        "delay": "47min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Akola Jn",
+        "distance": "666 km",
+        "timing": "23:0021:55",
+        "delay": "1hr 5min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhusaval Jn",
+        "distance": "805 km",
+        "timing": "01:2100:15",
+        "delay": "1hr 6min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jalgaon Jn",
+        "distance": "830 km",
+        "timing": "01:4900:42",
+        "delay": "1hr 7min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Manmad Jn",
+        "distance": "989 km",
+        "timing": "03:5302:35",
+        "delay": "1hr 18min",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kopargaon",
+        "distance": "1031 km",
+        "timing": "04:3803:40",
+        "delay": "58min",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Belapur",
+        "distance": "1075 km",
+        "timing": "05:3904:20",
+        "delay": "1hr 19min",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ahmadnagar",
+        "distance": "1142 km",
+        "timing": "06:4605:15",
+        "delay": "1hr 31min",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Daund Chord Lin",
+        "distance": "1224 km",
+        "timing": "08:3207:32",
+        "delay": "1hr",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pune Jn",
+        "distance": "1297 km",
+        "timing": "Destination",
+        "delay": "28min",
+        "platform": "3",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

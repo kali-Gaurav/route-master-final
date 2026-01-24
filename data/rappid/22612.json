@@ -1,0 +1,219 @@
+{
+  "fetched_at": "2026-01-24T09:14:58.006626",
+  "train_no": "22612",
+  "response": {
+    "success": true,
+    "train_name": "22612 Njp Mas Express Running Status",
+    "message": "Crossed Hijli at 13:42",
+    "updated_time": "Updated 7min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "New Jalpaiguri",
+        "distance": "-",
+        "timing": "22:1622:05",
+        "delay": "11min",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Aluabari Road",
+        "distance": "84 km",
+        "timing": "23:0022:47",
+        "delay": "13min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kishanganj",
+        "distance": "115 km",
+        "timing": "23:2423:12",
+        "delay": "12min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barsoi Jn",
+        "distance": "172 km",
+        "timing": "00:1100:07",
+        "delay": "4min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Harischandrpur",
+        "distance": "205 km",
+        "timing": "00:4700:46",
+        "delay": "1min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Malda Town",
+        "distance": "260 km",
+        "timing": "02:0202:00",
+        "delay": "2min",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rampur Hat",
+        "distance": "381 km",
+        "timing": "04:3604:15",
+        "delay": "21min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Asansol Jn",
+        "distance": "541 km",
+        "timing": "09:2308:50",
+        "delay": "33min",
+        "platform": "4",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Adra Jn",
+        "distance": "582 km",
+        "timing": "10:2809:55",
+        "delay": "33min",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bankura",
+        "distance": "635 km",
+        "timing": "11:2910:35",
+        "delay": "54min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hijli",
+        "distance": "757 km",
+        "timing": "13:4212:50",
+        "delay": "52min",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhubaneswar",
+        "distance": "1074 km",
+        "timing": "18:2217:30",
+        "delay": "49min",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khurda Road JN",
+        "distance": "1093 km",
+        "timing": "19:1118:15",
+        "delay": "56min",
+        "platform": "5",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Brahmapur",
+        "distance": "1240 km",
+        "timing": "21:3820:35",
+        "delay": "59min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vizianagram Jn",
+        "distance": "1456 km",
+        "timing": "00:4100:25",
+        "delay": "12min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Visakhapatnam",
+        "distance": "1516 km",
+        "timing": "01:5401:40",
+        "delay": "12min",
+        "platform": "1",
+        "halt": "20min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Duvvada",
+        "distance": "1534 km",
+        "timing": "02:4102:20",
+        "delay": "12min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anakapalle",
+        "distance": "1549 km",
+        "timing": "03:0202:35",
+        "delay": "26min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Eluru",
+        "distance": "1807 km",
+        "timing": "06:2506:00",
+        "delay": "21min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vijayawada Jn",
+        "distance": "1866 km",
+        "timing": "07:4007:10",
+        "delay": "27min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ongole",
+        "distance": "2005 km",
+        "timing": "09:3709:10",
+        "delay": "25min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nellore",
+        "distance": "2121 km",
+        "timing": "11:0510:40",
+        "delay": "20min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mgr Chennai Ctl",
+        "distance": "2296 km",
+        "timing": "Destination",
+        "delay": "12min",
+        "platform": "4",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "fetched_at": "2026-01-24T09:14:57.733122",
+  "train_no": "12701",
+  "response": {
+    "success": true,
+    "train_name": "12701 Hussainsagar Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 46min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "C Shivaji Mah T",
+        "distance": "-",
+        "timing": "21:5021:50",
+        "delay": "On Time",
+        "platform": "8",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalyan Jn",
+        "distance": "54 km",
+        "timing": "22:4022:40",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pune Jn",
+        "distance": "192 km",
+        "timing": "01:2501:25",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kurduvadi",
+        "distance": "377 km",
+        "timing": "04:1004:10",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Solapur Jn",
+        "distance": "455 km",
+        "timing": "05:2505:25",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ganagapur Road",
+        "distance": "542 km",
+        "timing": "06:3006:30",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalaburagi",
+        "distance": "568 km",
+        "timing": "07:0507:05",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shahabad",
+        "distance": "595 km",
+        "timing": "07:3007:30",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Wadi",
+        "distance": "605 km",
+        "timing": "08:2008:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chittapur",
+        "distance": "620 km",
+        "timing": "08:4008:40",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Seram",
+        "distance": "642 km",
+        "timing": "09:0009:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tandur",
+        "distance": "676 km",
+        "timing": "09:3009:30",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vikarabad Jn",
+        "distance": "717 km",
+        "timing": "10:1510:15",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lingampalli",
+        "distance": "766 km",
+        "timing": "11:0511:05",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Begampet",
+        "distance": "784 km",
+        "timing": "11:1511:15",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hyderabad Decan",
+        "distance": "790 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

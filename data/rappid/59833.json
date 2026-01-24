@@ -1,0 +1,210 @@
+{
+  "fetched_at": "2026-01-24T09:15:09.034833",
+  "train_no": "59833",
+  "response": {
+    "success": true,
+    "train_name": "59833 Kota Nmh Passenger Running Status",
+    "message": "",
+    "updated_time": "Updated 2hr 39min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "-",
+        "timing": "21:2021:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gurla",
+        "distance": "5 km",
+        "timing": "21:3021:30",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thalera",
+        "distance": "23 km",
+        "timing": "21:4821:48",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bundi",
+        "distance": "37 km",
+        "timing": "22:1522:15",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Srinagar",
+        "distance": "48 km",
+        "timing": "22:2522:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jalindri",
+        "distance": "71 km",
+        "timing": "22:5022:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Uparmal",
+        "distance": "78 km",
+        "timing": "23:0023:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shyampura",
+        "distance": "84 km",
+        "timing": "23:1523:15",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mandalgarh",
+        "distance": "105 km",
+        "timing": "23:3523:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barundani",
+        "distance": "120 km",
+        "timing": "23:5023:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Parsoli",
+        "distance": "130 km",
+        "timing": "00:0500:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bassi Berisal",
+        "distance": "145 km",
+        "timing": "00:5000:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chanderiya",
+        "distance": "163 km",
+        "timing": "01:3701:37",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chittaurgarh",
+        "distance": "171 km",
+        "timing": "02:0502:05",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shambhupura",
+        "distance": "182 km",
+        "timing": "02:1802:18",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nimbahera",
+        "distance": "200 km",
+        "timing": "02:5402:54",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jawad Road",
+        "distance": "210 km",
+        "timing": "03:0703:07",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bisalwas Kalan",
+        "distance": "217 km",
+        "timing": "03:1803:18",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nimach",
+        "distance": "226 km",
+        "timing": "03:2503:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Malhargarh",
+        "distance": "252 km",
+        "timing": "03:5203:52",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Piplia",
+        "distance": "260 km",
+        "timing": "04:0204:02",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mandasor",
+        "distance": "276 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

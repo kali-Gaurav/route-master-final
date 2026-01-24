@@ -1,0 +1,417 @@
+{
+  "fetched_at": "2026-01-24T09:15:20.717501",
+  "train_no": "59813",
+  "response": {
+    "success": true,
+    "train_name": "59813 Kota Jab Passenger Running Status",
+    "message": "Crossed Fateh Singhpura at 14:21",
+    "updated_time": "Updated 19min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "-",
+        "timing": "08:2708:15",
+        "delay": "12min",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gurla",
+        "distance": "5 km",
+        "timing": "08:4308:25",
+        "delay": "18min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Keshorai Patan",
+        "distance": "13 km",
+        "timing": "09:0008:35",
+        "delay": "25min",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Arnetha",
+        "distance": "24 km",
+        "timing": "09:1208:45",
+        "delay": "27min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kapren",
+        "distance": "33 km",
+        "timing": "09:2108:55",
+        "delay": "26min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghataka Varana",
+        "distance": "43 km",
+        "timing": "09:3209:05",
+        "delay": "27min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Laban",
+        "distance": "53 km",
+        "timing": "09:4309:15",
+        "delay": "28min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lakheri",
+        "distance": "60 km",
+        "timing": "09:5409:25",
+        "delay": "29min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Indargarh",
+        "distance": "71 km",
+        "timing": "10:0709:37",
+        "delay": "30min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Amli",
+        "distance": "84 km",
+        "timing": "10:1909:48",
+        "delay": "31min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rawania Dungar",
+        "distance": "92 km",
+        "timing": "10:2809:57",
+        "delay": "31min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kushtala",
+        "distance": "100 km",
+        "timing": "10:3710:05",
+        "delay": "32min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sawai Madhopur",
+        "distance": "107 km",
+        "timing": "10:5110:25",
+        "delay": "26min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ranthambhore",
+        "distance": "117 km",
+        "timing": "11:0210:36",
+        "delay": "26min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mokholi",
+        "distance": "127 km",
+        "timing": "11:1110:45",
+        "delay": "26min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Malarna",
+        "distance": "137 km",
+        "timing": "11:2311:00",
+        "delay": "23min",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nomoda",
+        "distance": "145 km",
+        "timing": "11:3211:15",
+        "delay": "17min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nrynpur Tatwar",
+        "distance": "154 km",
+        "timing": "12:2911:30",
+        "delay": "59min",
+        "platform": "2",
+        "halt": "49min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lalpur Umri",
+        "distance": "165 km",
+        "timing": "12:4111:50",
+        "delay": "51min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gangapur City",
+        "distance": "171 km",
+        "timing": "12:5612:15",
+        "delay": "41min",
+        "platform": "1",
+        "halt": "6min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chhoti Odai",
+        "distance": "184 km",
+        "timing": "13:2112:28",
+        "delay": "53min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pilioda",
+        "distance": "192 km",
+        "timing": "13:3112:38",
+        "delay": "53min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khandip",
+        "distance": "198 km",
+        "timing": "13:3712:45",
+        "delay": "52min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shri Mahaveerji",
+        "distance": "205 km",
+        "timing": "13:4813:00",
+        "delay": "48min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sikroda Mina",
+        "distance": "211 km",
+        "timing": "13:5013:07",
+        "delay": "43min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hindaun City",
+        "distance": "215 km",
+        "timing": "14:0413:25",
+        "delay": "39min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dhindhora Hkmkd",
+        "distance": "224 km",
+        "timing": "14:0913:34",
+        "delay": "35min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Fateh Singhpura",
+        "distance": "229 km",
+        "timing": "14:2113:41",
+        "delay": "40min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dumariya",
+        "distance": "239 km",
+        "timing": "14:4514:05",
+        "delay": "40min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bayana Jn",
+        "distance": "248 km",
+        "timing": "15:2514:45",
+        "delay": "40min",
+        "platform": "1",
+        "halt": "6min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Birambad",
+        "distance": "253 km",
+        "timing": "15:3314:53",
+        "delay": "40min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bandh Bareta",
+        "distance": "258 km",
+        "timing": "15:4015:00",
+        "delay": "40min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Naglatula",
+        "distance": "263 km",
+        "timing": "15:4815:08",
+        "delay": "40min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bansi Paharpur",
+        "distance": "270 km",
+        "timing": "15:5615:16",
+        "delay": "40min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dhana Kherli",
+        "distance": "275 km",
+        "timing": "16:0415:24",
+        "delay": "40min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rupbas",
+        "distance": "283 km",
+        "timing": "16:3015:50",
+        "delay": "40min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Aulenda",
+        "distance": "288 km",
+        "timing": "16:3715:57",
+        "delay": "40min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Fatehpur Sikri",
+        "distance": "297 km",
+        "timing": "16:4716:07",
+        "delay": "40min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Singarpur",
+        "distance": "303 km",
+        "timing": "16:5516:15",
+        "delay": "40min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kiraoli",
+        "distance": "309 km",
+        "timing": "17:0316:23",
+        "delay": "40min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mirhakur",
+        "distance": "317 km",
+        "timing": "17:1316:33",
+        "delay": "40min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pathauli",
+        "distance": "323 km",
+        "timing": "17:2116:41",
+        "delay": "40min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Idgah Agra Jn",
+        "distance": "331 km",
+        "timing": "17:3716:57",
+        "delay": "40min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Agra Fort",
+        "distance": "333 km",
+        "timing": "18:3017:50",
+        "delay": "40min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Yamuna Bdg Agra",
+        "distance": "335 km",
+        "timing": "Destination",
+        "delay": "40min",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

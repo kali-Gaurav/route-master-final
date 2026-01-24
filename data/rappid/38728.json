@@ -1,0 +1,300 @@
+{
+  "fetched_at": "2026-01-24T09:15:24.520407",
+  "train_no": "38728",
+  "response": {
+    "success": true,
+    "train_name": "38728 Kharagpur - Howrah Local Running Status",
+    "message": "",
+    "updated_time": "Updated 19min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Kharagpur Jn",
+        "distance": "-",
+        "timing": "19:0519:05",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jakpur",
+        "distance": "7 km",
+        "timing": "19:16",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Madpur",
+        "distance": "12 km",
+        "timing": "19:22",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shyam Chak",
+        "distance": "18 km",
+        "timing": "19:29",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Balichak",
+        "distance": "24 km",
+        "timing": "19:34",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Duan",
+        "distance": "27 km",
+        "timing": "19:38",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Radhamohanpur",
+        "distance": "30 km",
+        "timing": "19:42",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Haur",
+        "distance": "34 km",
+        "timing": "19:47",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khirai",
+        "distance": "39 km",
+        "timing": "19:52",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Panskura",
+        "distance": "44 km",
+        "timing": "19:58",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhogpur",
+        "distance": "51 km",
+        "timing": "20:06",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mecheda",
+        "distance": "56 km",
+        "timing": "20:12",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kolaghat",
+        "distance": "59 km",
+        "timing": "20:17",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Deulti",
+        "distance": "63 km",
+        "timing": "20:22",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghoraghata",
+        "distance": "66 km",
+        "timing": "20:26",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bagnan",
+        "distance": "68 km",
+        "timing": "20:30",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kulgachia",
+        "distance": "74 km",
+        "timing": "20:35",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bir Shibpur",
+        "distance": "77 km",
+        "timing": "20:39",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ulubaria",
+        "distance": "81 km",
+        "timing": "20:43",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Phuleswar",
+        "distance": "84 km",
+        "timing": "20:48",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chengel",
+        "distance": "86 km",
+        "timing": "20:54",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bauria Jn",
+        "distance": "89 km",
+        "timing": "20:58",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nalpur",
+        "distance": "93 km",
+        "timing": "21:02",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Abada",
+        "distance": "96 km",
+        "timing": "21:05",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sankrall",
+        "distance": "98 km",
+        "timing": "21:08",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Andul",
+        "distance": "101 km",
+        "timing": "21:13",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Maurigram",
+        "distance": "103 km",
+        "timing": "21:17",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Santragachi Jn",
+        "distance": "106 km",
+        "timing": "21:21",
+        "delay": "On Time",
+        "platform": "7",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ramrajatala",
+        "distance": "107 km",
+        "timing": "21:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dashnagar",
+        "distance": "109 km",
+        "timing": "21:28",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tikiapara",
+        "distance": "111 km",
+        "timing": "21:32",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Howrah Jn",
+        "distance": "113 km",
+        "timing": "Destination",
+        "delay": "10min",
+        "platform": "13",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

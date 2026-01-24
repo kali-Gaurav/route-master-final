@@ -1,0 +1,75 @@
+{
+  "fetched_at": "2026-01-24T09:15:09.537367",
+  "train_no": "12309",
+  "response": {
+    "success": true,
+    "train_name": "12309 Rjpb Tejas Raj Running Status",
+    "message": "",
+    "updated_time": "Updated 9min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Rajendranagar T",
+        "distance": "-",
+        "timing": "19:1019:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patna Jn",
+        "distance": "3 km",
+        "timing": "19:3519:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Danapur",
+        "distance": "13 km",
+        "timing": "19:4819:48",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dd Upadhyaya Jn",
+        "distance": "215 km",
+        "timing": "22:2022:20",
+        "delay": "3min",
+        "platform": "4",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Subedarganj",
+        "distance": "371 km",
+        "timing": "00:1700:17",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanpur Central",
+        "distance": "562 km",
+        "timing": "02:2002:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "1003 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "7",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

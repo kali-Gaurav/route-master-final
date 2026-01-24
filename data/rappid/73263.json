@@ -1,0 +1,120 @@
+{
+  "fetched_at": "2026-01-24T09:14:52.333912",
+  "train_no": "73263",
+  "response": {
+    "success": true,
+    "train_name": "73263 Ipr Pnbe Demu Running Status",
+    "message": "",
+    "updated_time": "Updated 12min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Islampur",
+        "distance": "-",
+        "timing": "16:4516:45",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ekangarsarai",
+        "distance": "9 km",
+        "timing": "17:0217:02",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hilsa",
+        "distance": "21 km",
+        "timing": "17:2117:21",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dhaniyawan",
+        "distance": "33 km",
+        "timing": "17:5917:59",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Daniyawan Bzr H",
+        "distance": "34 km",
+        "timing": "18:0818:08",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Fatuha Jn",
+        "distance": "42 km",
+        "timing": "18:3518:35",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Banka Ghat",
+        "distance": "48 km",
+        "timing": "18:4318:43",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Deedarganj",
+        "distance": "51 km",
+        "timing": "18:4818:48",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patna Saheb",
+        "distance": "54 km",
+        "timing": "18:5418:54",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gulzarbagh",
+        "distance": "57 km",
+        "timing": "19:0219:02",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rajendranagar T",
+        "distance": "61 km",
+        "timing": "19:1019:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patna Jn",
+        "distance": "64 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

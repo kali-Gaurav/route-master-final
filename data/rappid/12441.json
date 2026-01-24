@@ -1,0 +1,102 @@
+{
+  "fetched_at": "2026-01-24T09:15:20.602855",
+  "train_no": "12441",
+  "response": {
+    "success": true,
+    "train_name": "12441 Bsp Ndls Raj Ex Running Status",
+    "message": "",
+    "updated_time": "Updated 13hr 19min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Bilaspur Jn",
+        "distance": "-",
+        "timing": "14:0014:00",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raipur Jn",
+        "distance": "111 km",
+        "timing": "15:3515:35",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Durg",
+        "distance": "148 km",
+        "timing": "16:3016:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raj Nandgaon",
+        "distance": "178 km",
+        "timing": "16:5116:51",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gondia Jn",
+        "distance": "283 km",
+        "timing": "18:1018:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nagpur",
+        "distance": "413 km",
+        "timing": "20:3520:35",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhopal Jn",
+        "distance": "808 km",
+        "timing": "02:1502:15",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "V Lakshmibai Jhansi Jhs",
+        "distance": "1099 km",
+        "timing": "05:2505:25",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gwalior",
+        "distance": "1196 km",
+        "timing": "06:2506:25",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "1509 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

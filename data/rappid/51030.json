@@ -1,0 +1,318 @@
+{
+  "fetched_at": "2026-01-24T09:15:28.432823",
+  "train_no": "51030",
+  "response": {
+    "success": true,
+    "train_name": "51030 Csmt Fast Pass Running Status",
+    "message": "",
+    "updated_time": "Updated 8hr 16min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Vijayapura",
+        "distance": "-",
+        "timing": "14:5014:50",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Minchnal",
+        "distance": "18 km",
+        "timing": "15:0915:09",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nimbal",
+        "distance": "37 km",
+        "timing": "15:2015:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Indi Road",
+        "distance": "50 km",
+        "timing": "15:3515:35",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lachyan",
+        "distance": "61 km",
+        "timing": "15:5015:50",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tadwal",
+        "distance": "74 km",
+        "timing": "16:1016:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hotgi",
+        "distance": "94 km",
+        "timing": "17:0217:02",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Solapur Jn",
+        "distance": "109 km",
+        "timing": "17:3017:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kurduvadi",
+        "distance": "188 km",
+        "timing": "18:4018:40",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jeur",
+        "distance": "222 km",
+        "timing": "19:1019:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhigwan",
+        "distance": "268 km",
+        "timing": "20:1020:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Daund Jn",
+        "distance": "296 km",
+        "timing": "21:3021:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Uruli",
+        "distance": "343 km",
+        "timing": "22:0522:05",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pune Jn",
+        "distance": "372 km",
+        "timing": "23:0523:05",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shivajinagar",
+        "distance": "374 km",
+        "timing": "23:1423:14",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khadki",
+        "distance": "378 km",
+        "timing": "23:2023:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dapodi",
+        "distance": "380 km",
+        "timing": "23:2523:25",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pimpri",
+        "distance": "386 km",
+        "timing": "23:3223:32",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chinchvad",
+        "distance": "388 km",
+        "timing": "23:4023:40",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Akurdi",
+        "distance": "391 km",
+        "timing": "23:4523:45",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dehu Road",
+        "distance": "396 km",
+        "timing": "23:5523:55",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Talegaon",
+        "distance": "406 km",
+        "timing": "00:2000:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vadgaon",
+        "distance": "410 km",
+        "timing": "00:2500:25",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kamshet",
+        "distance": "419 km",
+        "timing": "00:3100:31",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lonavala",
+        "distance": "435 km",
+        "timing": "01:1501:15",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khandala",
+        "distance": "439 km",
+        "timing": "01:2001:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karjat",
+        "distance": "463 km",
+        "timing": "01:5501:55",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Badlapur",
+        "distance": "496 km",
+        "timing": "02:3002:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ambarnath",
+        "distance": "503 km",
+        "timing": "02:4002:40",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ulhasnagar",
+        "distance": "506 km",
+        "timing": "02:4502:45",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalyan Jn",
+        "distance": "510 km",
+        "timing": "02:5502:55",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thane",
+        "distance": "528 km",
+        "timing": "03:2003:20",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dadar",
+        "distance": "552 km",
+        "timing": "03:4503:45",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "C Shivaji Mah T",
+        "distance": "561 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

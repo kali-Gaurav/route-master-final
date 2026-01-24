@@ -1,0 +1,237 @@
+{
+  "fetched_at": "2026-01-24T09:15:07.488120",
+  "train_no": "12035",
+  "response": {
+    "success": true,
+    "train_name": "12035 Purnagiri Janst Running Status",
+    "message": "Reached Bareilly at 14:01",
+    "updated_time": "Updated 37min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Tanakpur",
+        "distance": "-",
+        "timing": "11:2511:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Banbasa",
+        "distance": "10 km",
+        "timing": "11:3611:36",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khatima",
+        "distance": "25 km",
+        "timing": "11:5511:55",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pilibhit Jn",
+        "distance": "63 km",
+        "timing": "12:3212:32",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Izzatnagar",
+        "distance": "114 km",
+        "timing": "13:3113:31",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bareilly City",
+        "distance": "119 km",
+        "timing": "13:5113:50",
+        "delay": "1min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": true,
+        "station_name": "Bareilly",
+        "distance": "121 km",
+        "timing": "14:15",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Basharatganj",
+        "distance": "136 km",
+        "timing": "14:4414:38",
+        "delay": "4min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Aonla",
+        "distance": "148 km",
+        "timing": "15:0114:58",
+        "delay": "1min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karengi",
+        "distance": "160 km",
+        "timing": "15:1615:13",
+        "delay": "1min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dabtara",
+        "distance": "166 km",
+        "timing": "15:2715:23",
+        "delay": "1min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Asafpur",
+        "distance": "176 km",
+        "timing": "15:4115:36",
+        "delay": "2min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chandausi Jn",
+        "distance": "190 km",
+        "timing": "16:2016:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raja Ka Sahaspr",
+        "distance": "210 km",
+        "timing": "16:4316:43",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Moradabad",
+        "distance": "234 km",
+        "timing": "17:2517:25",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Amroha",
+        "distance": "264 km",
+        "timing": "18:0018:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gajraula Jn",
+        "distance": "287 km",
+        "timing": "18:2018:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Garhmuktesar",
+        "distance": "308 km",
+        "timing": "18:4018:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Simbhooli",
+        "distance": "318 km",
+        "timing": "18:5518:52",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hapur",
+        "distance": "338 km",
+        "timing": "19:3119:12",
+        "delay": "14min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pilkhua",
+        "distance": "349 km",
+        "timing": "19:4719:27",
+        "delay": "17min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghaziabad",
+        "distance": "375 km",
+        "timing": "20:4320:43",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sahibabad",
+        "distance": "382 km",
+        "timing": "20:5620:56",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Delhi Shahdara",
+        "distance": "389 km",
+        "timing": "21:1021:10",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Old Delhi",
+        "distance": "395 km",
+        "timing": "Destination",
+        "delay": "1min",
+        "platform": "9",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

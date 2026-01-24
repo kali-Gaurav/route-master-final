@@ -1,0 +1,156 @@
+{
+  "fetched_at": "2026-01-24T09:14:51.983582",
+  "train_no": "12450",
+  "response": {
+    "success": true,
+    "train_name": "12450 Goa Smprk Krant Running Status",
+    "message": "Crossed Kota Jn at 12:14",
+    "updated_time": "Updated 14min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Chandigarh",
+        "distance": "-",
+        "timing": "02:3002:17",
+        "delay": "13min",
+        "platform": "6",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ambala Cant Jn",
+        "distance": "68 km",
+        "timing": "03:2103:10",
+        "delay": "11min",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Panipat Jn",
+        "distance": "177 km",
+        "timing": "04:3804:17",
+        "delay": "21min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "266 km",
+        "timing": "06:2506:10",
+        "delay": "15min",
+        "platform": "4",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "H Nizamuddin",
+        "distance": "274 km",
+        "timing": "06:5906:23",
+        "delay": "36min",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "731 km",
+        "timing": "12:1411:20",
+        "delay": "54min",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "997 km",
+        "timing": "15:2814:53",
+        "delay": "34min",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vadodara Jn",
+        "distance": "1259 km",
+        "timing": "19:0518:30",
+        "delay": "33min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Surat",
+        "distance": "1388 km",
+        "timing": "20:4520:11",
+        "delay": "31min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vasai Road",
+        "distance": "1603 km",
+        "timing": "23:5523:00",
+        "delay": "49min",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Panvel",
+        "distance": "1670 km",
+        "timing": "01:4000:35",
+        "delay": "54min",
+        "platform": "6",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratnagiri",
+        "distance": "2032 km",
+        "timing": "06:5705:35",
+        "delay": "1hr 8min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pernem",
+        "distance": "2287 km",
+        "timing": "10:5008:52",
+        "delay": "1hr 45min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thivim",
+        "distance": "2302 km",
+        "timing": "11:2009:06",
+        "delay": "2hr 1min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karmali",
+        "distance": "2327 km",
+        "timing": "11:3709:32",
+        "delay": "1hr 57min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Madgaon",
+        "distance": "2367 km",
+        "timing": "Destination",
+        "delay": "49min",
+        "platform": "2",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

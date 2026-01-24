@@ -1,0 +1,273 @@
+{
+  "fetched_at": "2026-01-24T09:15:11.666248",
+  "train_no": "17058",
+  "response": {
+    "success": true,
+    "train_name": "17058 Devagiri Exp Running Status",
+    "message": "Crossed Bolarum at 13:48",
+    "updated_time": "Updated 20min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Lingampalli",
+        "distance": "-",
+        "timing": "12:2512:25",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Begampet",
+        "distance": "19 km",
+        "timing": "12:5512:55",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Secunderabad Jn",
+        "distance": "23 km",
+        "timing": "13:1313:10",
+        "delay": "3min",
+        "platform": "7",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bolarum",
+        "distance": "37 km",
+        "timing": "13:4813:48",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mirzapalli",
+        "distance": "95 km",
+        "timing": "14:35",
+        "delay": "7min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Akanapet",
+        "distance": "105 km",
+        "timing": "14:5614:45",
+        "delay": "9min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kamareddi",
+        "distance": "131 km",
+        "timing": "15:2815:10",
+        "delay": "15min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nizamabad Jn",
+        "distance": "183 km",
+        "timing": "16:3115:57",
+        "delay": "30min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Basar",
+        "distance": "213 km",
+        "timing": "17:0916:30",
+        "delay": "35min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dharmabad",
+        "distance": "222 km",
+        "timing": "17:2816:45",
+        "delay": "41min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Umri",
+        "distance": "252 km",
+        "timing": "17:5317:30",
+        "delay": "20min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mudkhed",
+        "distance": "272 km",
+        "timing": "18:1518:15",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "H Sahib Nanded",
+        "distance": "294 km",
+        "timing": "18:5518:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Purna Jn",
+        "distance": "325 km",
+        "timing": "19:4019:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Parbhani Jn",
+        "distance": "353 km",
+        "timing": "20:2220:22",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Manwath Road",
+        "distance": "381 km",
+        "timing": "20:4720:46",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Selu",
+        "distance": "395 km",
+        "timing": "21:0621:05",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Partur",
+        "distance": "423 km",
+        "timing": "21:3921:30",
+        "delay": "6min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jalna",
+        "distance": "468 km",
+        "timing": "22:3022:15",
+        "delay": "10min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "C SAMBHAJINAGAR",
+        "distance": "530 km",
+        "timing": "23:2523:25",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lasur",
+        "distance": "564 km",
+        "timing": "00:1223:59",
+        "delay": "11min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Rotegaon",
+        "distance": "591 km",
+        "timing": "00:3900:26",
+        "delay": "10min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Manmad Jn",
+        "distance": "644 km",
+        "timing": "01:5401:50",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nashik Road",
+        "distance": "717 km",
+        "timing": "03:0502:50",
+        "delay": "12min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Igatpuri",
+        "distance": "767 km",
+        "timing": "04:1004:10",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalyan Jn",
+        "distance": "850 km",
+        "timing": "05:5005:45",
+        "delay": "4min",
+        "platform": "5",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thane",
+        "distance": "871 km",
+        "timing": "06:1306:02",
+        "delay": "10min",
+        "platform": "6",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dadar",
+        "distance": "895 km",
+        "timing": "06:5606:32",
+        "delay": "23min",
+        "platform": "12",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "C Shivaji Mah T",
+        "distance": "904 km",
+        "timing": "Destination",
+        "delay": "29min",
+        "platform": "15",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "fetched_at": "2026-01-24T09:15:27.091561",
+  "train_no": "22685",
+  "response": {
+    "success": true,
+    "train_name": "22685 Cdg Skranti Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 8min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Yesvantpur Jn",
+        "distance": "-",
+        "timing": "15:0015:00",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tumakuru",
+        "distance": "65 km",
+        "timing": "15:5015:50",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Arsikere Jn",
+        "distance": "161 km",
+        "timing": "17:0017:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Davangere",
+        "distance": "320 km",
+        "timing": "18:5818:58",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sss Hubballi Jn",
+        "distance": "464 km",
+        "timing": "21:2021:20",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dharwar",
+        "distance": "484 km",
+        "timing": "21:5021:50",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Belagavi",
+        "distance": "606 km",
+        "timing": "00:2000:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Miraj Jn",
+        "distance": "743 km",
+        "timing": "03:0003:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sangli",
+        "distance": "750 km",
+        "timing": "03:1503:15",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pune Jn",
+        "distance": "1022 km",
+        "timing": "09:0009:00",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Manmad Jn",
+        "distance": "1329 km",
+        "timing": "15:2515:25",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhusaval Jn",
+        "distance": "1513 km",
+        "timing": "17:5017:50",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhopal Jn",
+        "distance": "1918 km",
+        "timing": "00:1000:10",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "V Lakshmibai Jhansi Jhs",
+        "distance": "2209 km",
+        "timing": "04:2304:23",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "8min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "H Nizamuddin",
+        "distance": "2612 km",
+        "timing": "11:3111:31",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "2619 km",
+        "timing": "12:1012:10",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Panipat Jn",
+        "distance": "2708 km",
+        "timing": "13:2113:21",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ambala Cant Jn",
+        "distance": "2817 km",
+        "timing": "15:0515:05",
+        "delay": "On Time",
+        "platform": "7",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chandigarh",
+        "distance": "2881 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "5",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "fetched_at": "2026-01-24T09:14:55.362728",
+  "train_no": "22918",
+  "response": {
+    "success": true,
+    "train_name": "22918 Hw Bdts Sf Exp Running Status",
+    "message": "Reached Bandra Terminus at 17:11",
+    "updated_time": "Updated 21hr 31min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Haridwar Jn",
+        "distance": "-",
+        "timing": "17:2517:20",
+        "delay": "5min",
+        "platform": "2",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Roorkee",
+        "distance": "42 km",
+        "timing": "18:1518:00",
+        "delay": "15min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tapri",
+        "distance": "74 km",
+        "timing": "19:0519:00",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Muzaffarnagar",
+        "distance": "125 km",
+        "timing": "19:4319:37",
+        "delay": "6min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Meerut City",
+        "distance": "181 km",
+        "timing": "20:3020:17",
+        "delay": "13min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghaziabad",
+        "distance": "228 km",
+        "timing": "21:4821:20",
+        "delay": "28min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "H Nizamuddin",
+        "distance": "251 km",
+        "timing": "22:3222:15",
+        "delay": "17min",
+        "platform": "2",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Faridabad",
+        "distance": "271 km",
+        "timing": "22:5322:36",
+        "delay": "17min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mathura Jn",
+        "distance": "384 km",
+        "timing": "00:2423:57",
+        "delay": "27min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bharatpur Jn",
+        "distance": "418 km",
+        "timing": "00:5200:22",
+        "delay": "30min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hindaun City",
+        "distance": "492 km",
+        "timing": "01:3501:06",
+        "delay": "29min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gangapur City",
+        "distance": "537 km",
+        "timing": "02:1501:40",
+        "delay": "35min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sawai Madhopur",
+        "distance": "600 km",
+        "timing": "02:5302:25",
+        "delay": "28min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "708 km",
+        "timing": "04:2103:50",
+        "delay": "31min",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ramganj Mandi",
+        "distance": "780 km",
+        "timing": "05:1804:40",
+        "delay": "38min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhawani Mandi",
+        "distance": "808 km",
+        "timing": "05:4705:00",
+        "delay": "47min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "974 km",
+        "timing": "08:0307:10",
+        "delay": "53min",
+        "platform": "4",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vadodara Jn",
+        "distance": "1236 km",
+        "timing": "11:3710:57",
+        "delay": "40min",
+        "platform": "1",
+        "halt": "8min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bharuch Jn",
+        "distance": "1306 km",
+        "timing": "12:2411:44",
+        "delay": "40min",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Surat",
+        "distance": "1365 km",
+        "timing": "13:2412:42",
+        "delay": "42min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Navsari",
+        "distance": "1394 km",
+        "timing": "13:5613:05",
+        "delay": "51min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Valsad",
+        "distance": "1433 km",
+        "timing": "14:2513:40",
+        "delay": "45min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vapi",
+        "distance": "1457 km",
+        "timing": "14:5014:15",
+        "delay": "35min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Boisar",
+        "distance": "1529 km",
+        "timing": "15:4415:00",
+        "delay": "44min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Borivali",
+        "distance": "1598 km",
+        "timing": "16:4916:00",
+        "delay": "49min",
+        "platform": "10",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bandra Terminus",
+        "distance": "1616 km",
+        "timing": "Destination",
+        "delay": "11min",
+        "platform": "6",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

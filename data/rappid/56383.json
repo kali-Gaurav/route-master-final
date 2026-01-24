@@ -1,0 +1,183 @@
+{
+  "fetched_at": "2026-01-24T09:14:51.440948",
+  "train_no": "56383",
+  "response": {
+    "success": true,
+    "train_name": "56383 Ers Kyj Passenger Running Status",
+    "message": "",
+    "updated_time": "Updated 12hr 40min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Ernakulam Jn",
+        "distance": "-",
+        "timing": "18:0018:00",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kumbalam",
+        "distance": "7 km",
+        "timing": "18:1018:10",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Aroor Halt",
+        "distance": "12 km",
+        "timing": "18:1718:17",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ezhuppunna",
+        "distance": "18 km",
+        "timing": "18:2418:24",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Turavur",
+        "distance": "23 km",
+        "timing": "18:3018:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vayalar",
+        "distance": "27 km",
+        "timing": "18:3718:37",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Cherthala",
+        "distance": "33 km",
+        "timing": "18:4518:45",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tiruvizha",
+        "distance": "39 km",
+        "timing": "18:5218:52",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mararikulam",
+        "distance": "44 km",
+        "timing": "19:0019:00",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalavur Halt",
+        "distance": "47 km",
+        "timing": "19:0619:06",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tumboli",
+        "distance": "53 km",
+        "timing": "19:1219:12",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Alleppey",
+        "distance": "57 km",
+        "timing": "19:3019:30",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Punnapura",
+        "distance": "64 km",
+        "timing": "19:3719:37",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ambalappuzha",
+        "distance": "69 km",
+        "timing": "19:4519:45",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Takazhi",
+        "distance": "75 km",
+        "timing": "19:5219:52",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karuvatta Halt",
+        "distance": "81 km",
+        "timing": "19:5819:58",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Harippad",
+        "distance": "87 km",
+        "timing": "20:0520:05",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Cheppad Halt",
+        "distance": "92 km",
+        "timing": "20:1520:15",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kayankulam Jn",
+        "distance": "100 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "-",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

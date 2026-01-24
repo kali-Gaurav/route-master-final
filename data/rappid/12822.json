@@ -1,0 +1,174 @@
+{
+  "fetched_at": "2026-01-24T09:15:26.038414",
+  "train_no": "12822",
+  "response": {
+    "success": true,
+    "train_name": "12822 Dhauli Sf Exp Running Status",
+    "message": "Crossed Bhadrak at 14:21",
+    "updated_time": "Updated few seconds ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Puri",
+        "distance": "-",
+        "timing": "10:3410:25",
+        "delay": "9min",
+        "platform": "2",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sakhi Gopal",
+        "distance": "17 km",
+        "timing": "10:5210:43",
+        "delay": "9min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Khurda Road JN",
+        "distance": "44 km",
+        "timing": "11:2611:15",
+        "delay": "11min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhubaneswar",
+        "distance": "63 km",
+        "timing": "11:5011:45",
+        "delay": "5min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Cuttack",
+        "distance": "91 km",
+        "timing": "12:2812:15",
+        "delay": "13min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dhanmandal",
+        "distance": "126 km",
+        "timing": "13:0612:40",
+        "delay": "26min",
+        "platform": "5",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jajpur K Road",
+        "distance": "163 km",
+        "timing": "13:3813:10",
+        "delay": "28min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhadrak",
+        "distance": "206 km",
+        "timing": "14:2114:07",
+        "delay": "14min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Markona",
+        "distance": "220 km",
+        "timing": "14:4614:17",
+        "delay": "29min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Soro",
+        "distance": "235 km",
+        "timing": "15:3414:29",
+        "delay": "1hr 3min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Balasore",
+        "distance": "268 km",
+        "timing": "16:1514:54",
+        "delay": "1hr 19min",
+        "platform": "3",
+        "halt": "4min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Basta",
+        "distance": "296 km",
+        "timing": "16:4215:24",
+        "delay": "1hr 17min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jaleswar",
+        "distance": "316 km",
+        "timing": "17:0315:42",
+        "delay": "1hr 19min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dantan",
+        "distance": "332 km",
+        "timing": "17:1615:56",
+        "delay": "1hr 19min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Belda",
+        "distance": "349 km",
+        "timing": "17:3516:10",
+        "delay": "1hr 24min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kharagpur Jn",
+        "distance": "387 km",
+        "timing": "18:2617:00",
+        "delay": "1hr 23min",
+        "platform": "7",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Santragachi Jn",
+        "distance": "494 km",
+        "timing": "20:5518:30",
+        "delay": "2hr 5min",
+        "platform": "6",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Howrah Jn",
+        "distance": "502 km",
+        "timing": "Destination",
+        "delay": "29min",
+        "platform": "17",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "fetched_at": "2026-01-24T09:15:04.851785",
+  "train_no": "13121",
+  "response": {
+    "success": true,
+    "train_name": "13121 Koaa Gct Expres Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 43min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Kolkata Chitpur",
+        "distance": "-",
+        "timing": "20:0520:05",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Durgapur",
+        "distance": "161 km",
+        "timing": "22:0822:08",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Asansol Jn",
+        "distance": "203 km",
+        "timing": "22:4122:41",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Madhupur Jn",
+        "distance": "284 km",
+        "timing": "23:4923:49",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jasidih Jn",
+        "distance": "313 km",
+        "timing": "00:2000:20",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jhajha",
+        "distance": "357 km",
+        "timing": "01:4001:40",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kiul Jn",
+        "distance": "411 km",
+        "timing": "02:3202:32",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hathidah Jn",
+        "distance": "438 km",
+        "timing": "03:0003:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bakhtiyarpur Jn",
+        "distance": "489 km",
+        "timing": "03:4303:43",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patna Jn",
+        "distance": "534 km",
+        "timing": "05:0005:00",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patliputra",
+        "distance": "547 km",
+        "timing": "05:3505:35",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dighwara",
+        "distance": "580 km",
+        "timing": "06:4206:42",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chhapra",
+        "distance": "611 km",
+        "timing": "07:3507:35",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ballia",
+        "distance": "676 km",
+        "timing": "08:5008:50",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ghazipur City",
+        "distance": "741 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

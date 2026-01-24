@@ -1,0 +1,48 @@
+{
+  "fetched_at": "2026-01-24T09:15:09.778822",
+  "train_no": "12008",
+  "response": {
+    "success": true,
+    "train_name": "12008 Shatabdi Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 3min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Mysuru Jn",
+        "distance": "-",
+        "timing": "14:15",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ksr Bengaluru",
+        "distance": "139 km",
+        "timing": "16:1016:10",
+        "delay": "On Time",
+        "platform": "6",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katpadi Jn",
+        "distance": "371 km",
+        "timing": "19:2519:25",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mgr Chennai Ctl",
+        "distance": "500 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

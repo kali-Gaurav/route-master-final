@@ -1,0 +1,309 @@
+{
+  "fetched_at": "2026-01-24T09:14:59.513653",
+  "train_no": "11301",
+  "response": {
+    "success": true,
+    "train_name": "11301 Udyan Express Running Status",
+    "message": "Reached Pune Jn at 14:04",
+    "updated_time": "Updated 37min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "C Shivaji Mah T",
+        "distance": "-",
+        "timing": "09:1008:10",
+        "delay": "1hr",
+        "platform": "10",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dadar",
+        "distance": "9 km",
+        "timing": "09:2508:25",
+        "delay": "1hr",
+        "platform": "10",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalyan Jn",
+        "distance": "54 km",
+        "timing": "10:2909:05",
+        "delay": "1hr 24min",
+        "platform": "4",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lonavala",
+        "distance": "128 km",
+        "timing": "12:1410:35",
+        "delay": "1hr 39min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": true,
+        "station_name": "Pune Jn",
+        "distance": "192 km",
+        "timing": "11:45",
+        "delay": "2hr 24min",
+        "platform": "-",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Uruli",
+        "distance": "221 km",
+        "timing": "12:15",
+        "delay": "2hr 24min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Daund Jn",
+        "distance": "268 km",
+        "timing": "15:2713:00",
+        "delay": "2hr 26min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kurduvadi",
+        "distance": "377 km",
+        "timing": "16:4014:15",
+        "delay": "2hr 21min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Solapur Jn",
+        "distance": "455 km",
+        "timing": "18:0215:40",
+        "delay": "2hr 20min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Akalkot Road",
+        "distance": "491 km",
+        "timing": "18:4616:13",
+        "delay": "2hr 30min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dudhani",
+        "distance": "519 km",
+        "timing": "19:1216:37",
+        "delay": "2hr 32min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ganagapur Road",
+        "distance": "542 km",
+        "timing": "19:3617:00",
+        "delay": "2hr 33min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kalaburagi",
+        "distance": "568 km",
+        "timing": "20:0817:35",
+        "delay": "2hr 27min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shahabad",
+        "distance": "595 km",
+        "timing": "20:4018:00",
+        "delay": "2hr 35min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Wadi",
+        "distance": "605 km",
+        "timing": "20:5918:35",
+        "delay": "2hr 20min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nalwar",
+        "distance": "619 km",
+        "timing": "21:1818:50",
+        "delay": "2hr 26min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Yadgir",
+        "distance": "644 km",
+        "timing": "21:4019:10",
+        "delay": "2hr 26min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Saidapur",
+        "distance": "667 km",
+        "timing": "21:5619:25",
+        "delay": "2hr 29min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Krishna",
+        "distance": "687 km",
+        "timing": "22:3019:50",
+        "delay": "2hr 29min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raichur",
+        "distance": "713 km",
+        "timing": "23:0420:15",
+        "delay": "2hr 44min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Manthralayam Rd",
+        "distance": "741 km",
+        "timing": "23:2920:45",
+        "delay": "2hr 41min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Adoni",
+        "distance": "782 km",
+        "timing": "00:0421:20",
+        "delay": "2hr 40min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Guntakal Jn",
+        "distance": "833 km",
+        "timing": "01:0722:25",
+        "delay": "2hr 33min",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anantapur",
+        "distance": "919 km",
+        "timing": "02:2023:30",
+        "delay": "2hr 49min",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dharmavaram Jn",
+        "distance": "953 km",
+        "timing": "02:5800:40",
+        "delay": "1hr 58min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sai P Nilayam",
+        "distance": "986 km",
+        "timing": "03:3901:12",
+        "delay": "2hr 25min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Penukonda",
+        "distance": "1006 km",
+        "timing": "04:0301:31",
+        "delay": "2hr 30min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Hindupur",
+        "distance": "1043 km",
+        "timing": "04:3501:57",
+        "delay": "2hr 34min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gauribidanur",
+        "distance": "1066 km",
+        "timing": "04:5202:15",
+        "delay": "2hr 37min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dodballapur",
+        "distance": "1106 km",
+        "timing": "05:3602:51",
+        "delay": "2hr 43min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Yelhanka Jn",
+        "distance": "1126 km",
+        "timing": "03:15",
+        "delay": "1hr 58min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bengaluru Cant",
+        "distance": "1149 km",
+        "timing": "07:4005:09",
+        "delay": "2hr 26min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KSR Bengaluru",
+        "distance": "1153 km",
+        "timing": "Destination",
+        "delay": "2hr",
+        "platform": "3",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

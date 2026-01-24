@@ -1,0 +1,390 @@
+{
+  "fetched_at": "2026-01-24T09:15:19.188358",
+  "train_no": "17229",
+  "response": {
+    "success": true,
+    "train_name": "17229 Sabari Express Running Status",
+    "message": "Crossed Palakkad Jn at 14:35",
+    "updated_time": "Updated 5min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Trivandrum Cntl",
+        "distance": "-",
+        "timing": "06:5406:45",
+        "delay": "9min",
+        "platform": "4",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Varkalasivagiri",
+        "distance": "41 km",
+        "timing": "07:3907:25",
+        "delay": "14min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kollam Jn",
+        "distance": "65 km",
+        "timing": "08:1407:51",
+        "delay": "23min",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karunagapalli",
+        "distance": "92 km",
+        "timing": "08:4508:17",
+        "delay": "28min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kayankulam Jn",
+        "distance": "106 km",
+        "timing": "09:0208:35",
+        "delay": "27min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mavelikara",
+        "distance": "114 km",
+        "timing": "09:1108:44",
+        "delay": "27min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chengannur",
+        "distance": "126 km",
+        "timing": "09:3808:58",
+        "delay": "40min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tiruvalla",
+        "distance": "135 km",
+        "timing": "09:4209:08",
+        "delay": "34min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Changanaseri",
+        "distance": "143 km",
+        "timing": "10:0009:18",
+        "delay": "42min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kottayam",
+        "distance": "161 km",
+        "timing": "10:2109:40",
+        "delay": "41min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ernakulam Town",
+        "distance": "223 km",
+        "timing": "11:1611:15",
+        "delay": "1min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Aluva",
+        "distance": "240 km",
+        "timing": "11:5111:32",
+        "delay": "19min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thrisur",
+        "distance": "295 km",
+        "timing": "12:5012:38",
+        "delay": "12min",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Wadakancheri",
+        "distance": "311 km",
+        "timing": "13:1213:00",
+        "delay": "12min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ottappalam",
+        "distance": "340 km",
+        "timing": "13:4413:32",
+        "delay": "12min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palakkad Jn",
+        "distance": "372 km",
+        "timing": "14:3514:10",
+        "delay": "25min",
+        "platform": "4",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Coimbatore Jn",
+        "distance": "426 km",
+        "timing": "16:2715:55",
+        "delay": "25min",
+        "platform": "3",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tiruppur",
+        "distance": "476 km",
+        "timing": "17:0916:45",
+        "delay": "21min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Erode Jn",
+        "distance": "527 km",
+        "timing": "18:0517:45",
+        "delay": "10min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Salem Jn",
+        "distance": "589 km",
+        "timing": "19:1318:40",
+        "delay": "29min",
+        "platform": "5",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Morappur",
+        "distance": "655 km",
+        "timing": "20:0419:30",
+        "delay": "32min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Jolarpettai",
+        "distance": "709 km",
+        "timing": "21:0220:30",
+        "delay": "14min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katpadi Jn",
+        "distance": "793 km",
+        "timing": "23:0222:00",
+        "delay": "45min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chittoor",
+        "distance": "826 km",
+        "timing": "00:0622:30",
+        "delay": "1hr 30min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tirupati",
+        "distance": "897 km",
+        "timing": "01:1723:40",
+        "delay": "1hr 32min",
+        "platform": "5",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Renigunta Jn",
+        "distance": "907 km",
+        "timing": "01:5100:10",
+        "delay": "1hr 32min",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gudur Jn",
+        "distance": "990 km",
+        "timing": "02:5301:45",
+        "delay": "1hr 3min",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nellore",
+        "distance": "1029 km",
+        "timing": "03:2702:15",
+        "delay": "1hr 9min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Singarayakonda",
+        "distance": "1117 km",
+        "timing": "04:4003:25",
+        "delay": "1hr 14min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ongole",
+        "distance": "1145 km",
+        "timing": "05:0503:55",
+        "delay": "1hr 6min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Chirala",
+        "distance": "1194 km",
+        "timing": "05:4804:40",
+        "delay": "1hr 4min",
+        "platform": "4",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bapatla",
+        "distance": "1209 km",
+        "timing": "06:0604:55",
+        "delay": "1hr 8min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nidubrolu",
+        "distance": "1230 km",
+        "timing": "06:2705:15",
+        "delay": "1hr 11min",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Tenali Jn",
+        "distance": "1251 km",
+        "timing": "06:5805:55",
+        "delay": "56min",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Guntur Jn",
+        "distance": "1277 km",
+        "timing": "07:5106:30",
+        "delay": "1hr 13min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sattenapalle",
+        "distance": "1319 km",
+        "timing": "08:4707:11",
+        "delay": "1hr 33min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Piduguralla",
+        "distance": "1351 km",
+        "timing": "09:3007:41",
+        "delay": "1hr 43min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nadikudi Jn",
+        "distance": "1372 km",
+        "timing": "09:5908:08",
+        "delay": "1hr 50min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Miryalaguda",
+        "distance": "1411 km",
+        "timing": "10:4208:33",
+        "delay": "2hr 5min",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nalgonda",
+        "distance": "1448 km",
+        "timing": "11:1809:07",
+        "delay": "2hr 9min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Charlapalli",
+        "distance": "1546 km",
+        "timing": "12:5611:25",
+        "delay": "1hr 35min",
+        "platform": "5",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Secunderabad Jn",
+        "distance": "1558 km",
+        "timing": "Destination",
+        "delay": "56min",
+        "platform": "6",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "fetched_at": "2026-01-24T09:15:04.113911",
+  "train_no": "22656",
+  "response": {
+    "success": true,
+    "train_name": "22656 Nzm Ers Sf Exp Running Status",
+    "message": "Crossed Sindhudurg at 12:45",
+    "updated_time": "Updated 47min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "H Nizamuddin",
+        "distance": "-",
+        "timing": "06:4705:00",
+        "delay": "1hr 47min",
+        "platform": "4",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mathura Jn",
+        "distance": "134 km",
+        "timing": "08:4206:35",
+        "delay": "2hr 7min",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bharatpur Jn",
+        "distance": "167 km",
+        "timing": "09:1007:00",
+        "delay": "2hr 10min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sawai Madhopur",
+        "distance": "350 km",
+        "timing": "11:0008:55",
+        "delay": "2hr 5min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kota Jn",
+        "distance": "458 km",
+        "timing": "12:3110:40",
+        "delay": "1hr 51min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratlam Jn",
+        "distance": "724 km",
+        "timing": "16:2314:40",
+        "delay": "1hr 43min",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vadodara Jn",
+        "distance": "986 km",
+        "timing": "19:3618:20",
+        "delay": "1hr 16min",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bharuch Jn",
+        "distance": "1056 km",
+        "timing": "20:2519:09",
+        "delay": "1hr 16min",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Surat",
+        "distance": "1115 km",
+        "timing": "21:5919:58",
+        "delay": "2hr 1min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vapi",
+        "distance": "1207 km",
+        "timing": "01:0321:10",
+        "delay": "3hr 53min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dahanu Road",
+        "distance": "1258 km",
+        "timing": "01:4421:35",
+        "delay": "4hr 9min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vasai Road",
+        "distance": "1330 km",
+        "timing": "03:0722:45",
+        "delay": "4hr 22min",
+        "platform": "7",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Panvel",
+        "distance": "1397 km",
+        "timing": "05:2600:15",
+        "delay": "5hr 11min",
+        "platform": "6",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratnagiri",
+        "distance": "1759 km",
+        "timing": "10:5105:15",
+        "delay": "5hr 36min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sindhudurg",
+        "distance": "1940 km",
+        "timing": "12:4507:22",
+        "delay": "5hr 23min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karmali",
+        "distance": "2054 km",
+        "timing": "09:02",
+        "delay": "5hr 6min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Madgaon",
+        "distance": "2094 km",
+        "timing": "15:1010:20",
+        "delay": "4hr 48min",
+        "platform": "2",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Karwar",
+        "distance": "2176 km",
+        "timing": "16:1011:17",
+        "delay": "4hr 48min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kundapura",
+        "distance": "2398 km",
+        "timing": "13:30",
+        "delay": "36min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Udupi",
+        "distance": "2443 km",
+        "timing": "18:5514:02",
+        "delay": "4hr 51min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mangaluru Jn",
+        "distance": "2524 km",
+        "timing": "21:0116:10",
+        "delay": "4hr 40min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kannur",
+        "distance": "2661 km",
+        "timing": "22:5817:55",
+        "delay": "5hr 1min",
+        "platform": "3",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kozhikkode",
+        "distance": "2750 km",
+        "timing": "00:1819:15",
+        "delay": "4hr 57min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shoranur Jn",
+        "distance": "2836 km",
+        "timing": "01:3921:20",
+        "delay": "4hr 20min",
+        "platform": "7",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Thrisur",
+        "distance": "2869 km",
+        "timing": "02:3722:00",
+        "delay": "4hr 36min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ernakulam Jn",
+        "distance": "2943 km",
+        "timing": "Destination",
+        "delay": "3hr 53min",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

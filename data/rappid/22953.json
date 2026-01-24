@@ -1,0 +1,246 @@
+{
+  "fetched_at": "2026-01-24T09:15:01.798495",
+  "train_no": "22953",
+  "response": {
+    "success": true,
+    "train_name": "22953 Gujrat Sf Exp Running Status",
+    "message": "Crossed Barejadi at 14:21",
+    "updated_time": "Updated 11min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Mumbai Central",
+        "distance": "-",
+        "timing": "05:4005:40",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dadar",
+        "distance": "6 km",
+        "timing": "05:5205:52",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Borivali",
+        "distance": "30 km",
+        "timing": "06:2706:10",
+        "delay": "17min",
+        "platform": "6",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Boisar",
+        "distance": "99 km",
+        "timing": "07:3307:12",
+        "delay": "21min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dahanu Road",
+        "distance": "120 km",
+        "timing": "07:5307:32",
+        "delay": "21min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Umbargam Road",
+        "distance": "140 km",
+        "timing": "08:1307:55",
+        "delay": "18min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhilad",
+        "distance": "157 km",
+        "timing": "08:2908:14",
+        "delay": "15min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vapi",
+        "distance": "170 km",
+        "timing": "08:4308:25",
+        "delay": "18min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Udvada",
+        "distance": "178 km",
+        "timing": "08:5308:35",
+        "delay": "18min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Valsad",
+        "distance": "194 km",
+        "timing": "09:2908:55",
+        "delay": "34min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bilimora Jn",
+        "distance": "212 km",
+        "timing": "09:4909:12",
+        "delay": "37min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Navsari",
+        "distance": "233 km",
+        "timing": "10:1409:32",
+        "delay": "42min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Surat",
+        "distance": "263 km",
+        "timing": "10:4010:10",
+        "delay": "30min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kim",
+        "distance": "286 km",
+        "timing": "11:0110:31",
+        "delay": "30min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kosamba Jn",
+        "distance": "294 km",
+        "timing": "11:1310:41",
+        "delay": "32min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ankleshwar Jn",
+        "distance": "312 km",
+        "timing": "11:3410:57",
+        "delay": "37min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bharuch Jn",
+        "distance": "322 km",
+        "timing": "11:4811:12",
+        "delay": "36min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Palej",
+        "distance": "347 km",
+        "timing": "12:0911:33",
+        "delay": "36min",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Miyagam Karjan",
+        "distance": "362 km",
+        "timing": "12:2511:47",
+        "delay": "38min",
+        "platform": "1",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Vadodara Jn",
+        "distance": "392 km",
+        "timing": "12:5812:25",
+        "delay": "33min",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anand Jn",
+        "distance": "427 km",
+        "timing": "13:3012:59",
+        "delay": "31min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Nadiad Jn",
+        "distance": "446 km",
+        "timing": "13:5313:16",
+        "delay": "37min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mhmdvd Kheda Rd",
+        "distance": "463 km",
+        "timing": "14:0913:32",
+        "delay": "37min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Barejadi",
+        "distance": "475 km",
+        "timing": "14:2113:48",
+        "delay": "33min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Maninagar",
+        "distance": "488 km",
+        "timing": "14:02",
+        "delay": "37min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ahmedabad Jn",
+        "distance": "491 km",
+        "timing": "Destination",
+        "delay": "31min",
+        "platform": "4",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

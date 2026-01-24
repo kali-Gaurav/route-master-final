@@ -1,0 +1,120 @@
+{
+  "fetched_at": "2026-01-24T09:14:56.192997",
+  "train_no": "13250",
+  "response": {
+    "success": true,
+    "train_name": "13250 Intercity Exp Running Status",
+    "message": "Crossed GARHANI at 14:01",
+    "updated_time": "Updated 6min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Bhabua Road",
+        "distance": "-",
+        "timing": "11:2311:10",
+        "delay": "13min",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kudra",
+        "distance": "23 km",
+        "timing": "11:4111:28",
+        "delay": "13min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "KUMAHU",
+        "distance": "40 km",
+        "timing": "11:5811:45",
+        "delay": "13min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sasaram",
+        "distance": "48 km",
+        "timing": "12:3012:17",
+        "delay": "13min",
+        "platform": "6",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "BIKRAMGANJ",
+        "distance": "89 km",
+        "timing": "13:1513:02",
+        "delay": "13min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "PIRO",
+        "distance": "107 km",
+        "timing": "13:3513:22",
+        "delay": "13min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "GARHANI",
+        "distance": "126 km",
+        "timing": "14:0113:47",
+        "delay": "14min",
+        "platform": "2",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ara Jn",
+        "distance": "145 km",
+        "timing": "15:0114:50",
+        "delay": "10min",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bihta",
+        "distance": "167 km",
+        "timing": "15:2915:14",
+        "delay": "15min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sadisopur",
+        "distance": "172 km",
+        "timing": "15:3715:22",
+        "delay": "15min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Danapur",
+        "distance": "185 km",
+        "timing": "16:0715:42",
+        "delay": "25min",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Patna Jn",
+        "distance": "194 km",
+        "timing": "Destination",
+        "delay": "11min",
+        "platform": "3",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

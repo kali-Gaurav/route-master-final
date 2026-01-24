@@ -1,0 +1,111 @@
+{
+  "fetched_at": "2026-01-24T09:14:55.421243",
+  "train_no": "12001",
+  "response": {
+    "success": true,
+    "train_name": "12001 Ndls Shatabdi Running Status",
+    "message": "",
+    "updated_time": "Updated 1hr 26min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Rani Kamalapati",
+        "distance": "-",
+        "timing": "15:1015:10",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhopal Jn",
+        "distance": "7 km",
+        "timing": "15:2515:25",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bina Jn",
+        "distance": "145 km",
+        "timing": "17:0217:02",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Lalitpur Jn",
+        "distance": "208 km",
+        "timing": "17:3617:36",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "V Lakshmibai Jhansi Jhs",
+        "distance": "297 km",
+        "timing": "18:4518:45",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gwalior",
+        "distance": "395 km",
+        "timing": "19:4519:45",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Morena",
+        "distance": "433 km",
+        "timing": "20:1120:11",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dhaulpur",
+        "distance": "461 km",
+        "timing": "20:4620:46",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Agra Cantt",
+        "distance": "513 km",
+        "timing": "21:2521:25",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Mathura Jn",
+        "distance": "567 km",
+        "timing": "22:0122:01",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "1min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "707 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

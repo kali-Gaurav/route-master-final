@@ -1,0 +1,120 @@
+{
+  "fetched_at": "2026-01-24T09:15:09.964952",
+  "train_no": "12259",
+  "response": {
+    "success": true,
+    "train_name": "12259 Bkn Duronto Exp Running Status",
+    "message": "",
+    "updated_time": "Updated 43min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Sealdah",
+        "distance": "-",
+        "timing": "17:0017:00",
+        "delay": "On Time",
+        "platform": "13",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dhanbad Jn",
+        "distance": "266 km",
+        "timing": "20:3520:35",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Koderma Jn",
+        "distance": "388 km",
+        "timing": "21:4721:47",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Dd Upadhyaya Jn",
+        "distance": "667 km",
+        "timing": "01:2701:27",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Kanpur Central",
+        "distance": "1015 km",
+        "timing": "05:3005:30",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "New Delhi",
+        "distance": "1455 km",
+        "timing": "11:1511:15",
+        "delay": "On Time",
+        "platform": "9",
+        "halt": "15min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Loharu",
+        "distance": "1630 km",
+        "timing": "13:5313:53",
+        "delay": "On Time",
+        "platform": "3",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sadulpur Jn",
+        "distance": "1680 km",
+        "timing": "14:3014:30",
+        "delay": "On Time",
+        "platform": "4",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Churu",
+        "distance": "1738 km",
+        "timing": "15:2015:20",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ratangarh Jn",
+        "distance": "1780 km",
+        "timing": "15:5515:55",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Sri Dungargarh",
+        "distance": "1845 km",
+        "timing": "16:3916:39",
+        "delay": "On Time",
+        "platform": "1",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bikaner Jn",
+        "distance": "1918 km",
+        "timing": "Destination",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Destination"
+      }
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "fetched_at": "2026-01-24T09:14:51.767240",
+  "train_no": "12550",
+  "response": {
+    "success": true,
+    "train_name": "12550 Jat Durg Sf Exp Running Status",
+    "message": "Reached Durg at 12:38",
+    "updated_time": "Updated 25hr 33min ago",
+    "data": [
+      {
+        "is_current_station": false,
+        "station_name": "Jalandhar Cant",
+        "distance": "266 km",
+        "timing": "08:1008:10",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "Source"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ludhiana Jn",
+        "distance": "318 km",
+        "timing": "09:0809:05",
+        "delay": "3min",
+        "platform": "1",
+        "halt": "9min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Ambala Cant Jn",
+        "distance": "432 km",
+        "timing": "11:0011:00",
+        "delay": "On Time",
+        "platform": "2",
+        "halt": "6min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Delhi Safdarjng",
+        "distance": "641 km",
+        "timing": "14:2213:55",
+        "delay": "27min",
+        "platform": "1",
+        "halt": "8min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Agra Cantt",
+        "distance": "832 km",
+        "timing": "17:5717:05",
+        "delay": "52min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Gwalior",
+        "distance": "951 km",
+        "timing": "19:3418:55",
+        "delay": "39min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "V Lakshmibai Jhansi Jhs",
+        "distance": "1048 km",
+        "timing": "20:5820:15",
+        "delay": "43min",
+        "platform": "2",
+        "halt": "7min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Saugor",
+        "distance": "1271 km",
+        "timing": "00:3723:15",
+        "delay": "1hr 22min",
+        "platform": "1",
+        "halt": "6min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Katni Murwara",
+        "distance": "1458 km",
+        "timing": "03:5002:00",
+        "delay": "1hr 50min",
+        "platform": "1",
+        "halt": "11min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Umaria",
+        "distance": "1516 km",
+        "timing": "04:4503:23",
+        "delay": "1hr 22min",
+        "platform": "1",
+        "halt": "3min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Shahdol",
+        "distance": "1583 km",
+        "timing": "06:0404:31",
+        "delay": "1hr 33min",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Anuppur Jn",
+        "distance": "1624 km",
+        "timing": "07:0205:14",
+        "delay": "1hr 48min",
+        "platform": "1",
+        "halt": "4min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Pendra Road",
+        "distance": "1674 km",
+        "timing": "07:5805:58",
+        "delay": "2hr",
+        "platform": "1",
+        "halt": "5min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Uslapur",
+        "distance": "1767 km",
+        "timing": "09:5608:10",
+        "delay": "1hr 46min",
+        "platform": "1",
+        "halt": "10min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Bhatapara",
+        "distance": "1818 km",
+        "timing": "11:1308:55",
+        "delay": "2hr 18min",
+        "platform": "3",
+        "halt": "2min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Raipur Jn",
+        "distance": "1882 km",
+        "timing": "12:1110:00",
+        "delay": "2hr 11min",
+        "platform": "1",
+        "halt": "6min"
+      },
+      {
+        "is_current_station": false,
+        "station_name": "Durg",
+        "distance": "1919 km",
+        "timing": "Destination",
+        "delay": "1hr 33min",
+        "platform": "1",
+        "halt": "Destination"
+      }
+    ]
+  }
+}
