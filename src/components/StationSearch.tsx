@@ -1,7 +1,13 @@
 import { useState, useRef, useEffect } from "react";
 import { Search, MapPin } from "lucide-react";
-import { Station, searchStations } from "@/data/stations";
 import { cn } from "@/lib/utils";
+
+interface Station {
+  code: string;
+  name: string;
+  city: string;
+  state: string;
+}
 
 interface StationSearchProps {
   label: string;
@@ -21,8 +27,34 @@ export function StationSearch({
   const [query, setQuery] = useState(value ? `${value.name} (${value.code})` : "");
   const [isOpen, setIsOpen] = useState(false);
   const [results, setResults] = useState<Station[]>([]);
+  const [allStations, setAllStations] = useState<Station[]>([]);
+  const [isLoading, setIsLoading] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+
+  // Fetch all stations on component mount
+  useEffect(() => {
+    const fetchStations = async () => {
+      try {
+        setIsLoading(true);
+        const response = await fetch('http://localhost:5000/api/stations?limit=5000');
+        if (response.ok) {
+          const data = await response.json();
+          // API returns { total, stations: [...] }
+          const stations = data.stations || data || [];
+          setAllStations(stations);
+        } else {
+          console.error('Failed to fetch stations');
+        }
+      } catch (error) {
+        console.error('Error fetching stations:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchStations();
+  }, []);
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
@@ -38,8 +70,13 @@ export function StationSearch({
     const val = e.target.value;
     setQuery(val);
     if (val.length >= 2) {
-      const found = searchStations(val);
-      setResults(found);
+      // Filter stations based on query
+      const filtered = allStations.filter(station =>
+        station.name.toLowerCase().includes(val.toLowerCase()) ||
+        station.code.toLowerCase().includes(val.toLowerCase()) ||
+        station.city.toLowerCase().includes(val.toLowerCase())
+      ).slice(0, 10); // Limit to 10 results
+      setResults(filtered);
       setIsOpen(true);
     } else {
       setResults([]);

@@ -4,6 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { StationSearch } from "@/components/StationSearch";
 import { RouteCard } from "@/components/RouteCard";
+import { RouteSkeleton } from "@/components/RouteSkeleton";
 import { CategoryFilter } from "@/components/CategoryFilter";
 import { FeaturesSection } from "@/components/FeaturesSection";
 import { Station } from "@/data/stations";
@@ -18,14 +19,20 @@ const Index = () => {
   const [isSearching, setIsSearching] = useState(false);
   const [optimalRoutes, setOptimalRoutes] = useState<Route[]>([]);
   const [allRoutes, setAllRoutes] = useState<Route[]>([]);
+  const [displayedAlternatives, setDisplayedAlternatives] = useState<number>(5);
   const [viewMode, setViewMode] = useState<"optimal" | "all">("optimal");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [isFromCache, setIsFromCache] = useState(false);
+  const [directOnly, setDirectOnly] = useState(false);
 
   const handleSwapStations = () => {
     const temp = origin;
     setOrigin(destination);
     setDestination(temp);
+    // Trigger search if both stations are selected
+    if (origin && destination) {
+      handleSearch();
+    }
   };
 
   const handleSearch = async () => {
@@ -42,17 +49,40 @@ const Index = () => {
     setIsFromCache(false);
     
     try {
+      let url = `http://localhost:5000/api/routes?origin=${origin.code}&destination=${destination.code}`;
+      if (travelDate) {
+        url += `&date=${travelDate}`;
+      }
+      console.log("[Search] Calling API:", url);
+      
       const startTime = performance.now();
-      const response = await fetch(`http://localhost:5000/api/routes?origin=${origin.code}&destination=${destination.code}`);
+      const response = await fetch(url);
       const endTime = performance.now();
       const responseTime = endTime - startTime;
       
+      console.log("[Search] Response status:", response.status, "Time:", responseTime.toFixed(0), "ms");
+      
       if (!response.ok) {
-        const errorData = await response.json();
+        let errorData;
+        try {
+          errorData = await response.json();
+        } catch (e) {
+          console.error("[Search] Could not parse error response as JSON:", e);
+          errorData = { error: `HTTP ${response.status}: ${response.statusText}` };
+        }
+        console.error("[Search] API Error:", errorData);
         throw new Error(errorData.error || "Failed to fetch routes");
       }
 
-      const data = await response.json();
+      let data;
+      try {
+        data = await response.json();
+      } catch (e) {
+        console.error("[Search] Could not parse response as JSON:", e);
+        throw new Error("Server returned invalid response format");
+      }
+      
+      console.log("[Search] Response data:", data);
       
       // Check if routes were loaded from cache (very fast response < 500ms typically means cached)
       const wasCached = responseTime < 500;
@@ -61,29 +91,24 @@ const Index = () => {
       const mappedOptimal = data.optimal_routes.map(mapApiRouteToRoute)
         .sort((a, b) => a.totalTime - b.totalTime);
       
-      // Deduplicate and sort all routes by total time
-      const allRoutesMap = new Map();
-      data.all_generated_routes.forEach((apiRoute: any) => {
-        const route = mapApiRouteToRoute(apiRoute);
-        // Use train numbers as fingerprint for deduplication
-        const fingerprint = route.segments.map(s => s.trainNumber).join("-");
-        if (!allRoutesMap.has(fingerprint) || allRoutesMap.get(fingerprint).totalTime > route.totalTime) {
-          allRoutesMap.set(fingerprint, route);
-        }
-      });
-
-      const mappedAll = Array.from(allRoutesMap.values())
+      // Map all alternative routes
+      const mappedAlternatives = (data.all_alternative_routes || [])
+        .map(mapApiRouteToRoute)
         .sort((a, b) => a.totalTime - b.totalTime);
+      
+      // Combine optimal + alternatives for "all" view
+      const allCombined = [...mappedOptimal, ...mappedAlternatives];
 
       setOptimalRoutes(mappedOptimal);
-      setAllRoutes(mappedAll);
+      setAllRoutes(allCombined);
       setViewMode("optimal");
+      setDisplayedAlternatives(5); // Reset pagination on new search
       
       toast({
         title: wasCached ? "Routes Loaded from Cache! ⚡" : "Routes Found!",
         description: wasCached 
           ? `Instantly loaded ${mappedOptimal.length} optimal routes from saved data.`
-          : `Found ${mappedOptimal.length} optimal and ${mappedAll.length} total routes.`,
+          : `Found ${mappedOptimal.length} optimal routes and ${mappedAlternatives.length} alternatives.`,
       } as Toast);
 
       // Scroll to results
@@ -91,10 +116,20 @@ const Index = () => {
         document.getElementById("results")?.scrollIntoView({ behavior: "smooth" });
       }, 100);
     } catch (error: any) {
-      console.error("Search error:", error);
+      console.error("[Search] Error occurred:", error);
+      console.error("[Search] Error type:", error.constructor.name);
+      console.error("[Search] Error message:", error.message);
+      
+      let errorMessage = error.message || "Could not connect to the route optimization server.";
+      
+      // Check if it's a network error
+      if (error instanceof TypeError && error.message.includes("fetch")) {
+        errorMessage = "Cannot connect to server at localhost:5000. Make sure 'python api.py' is running.";
+      }
+      
       toast({
         title: "Search Failed",
-        description: error.message || "Could not connect to the route optimization server.",
+        description: errorMessage,
         variant: "destructive",
       } as Toast);
     } finally {
@@ -114,11 +149,29 @@ const Index = () => {
   }, [currentRoutes]);
 
   const filteredRoutes = useMemo(() => {
-    if (!selectedCategory) return currentRoutes;
-    return currentRoutes.filter((route) => 
+    let routes = currentRoutes;
+    
+    // Apply direct only filter
+    if (directOnly) {
+      routes = routes.filter((route) => route.totalTransfers === 0);
+    }
+    
+    // Apply category filter
+    if (!selectedCategory) return routes;
+    return routes.filter((route) => 
       getCategoryBase(route.category) === selectedCategory
     );
-  }, [currentRoutes, selectedCategory]);
+  }, [currentRoutes, selectedCategory, directOnly]);
+
+  // Paginated routes: show optimal routes (no pagination) or alternative routes (paginated)
+  const displayedRoutes = useMemo(() => {
+    if (viewMode === "optimal") {
+      return filteredRoutes; // Show all optimal routes
+    } else {
+      // For "all" view, show alternatives with pagination
+      return filteredRoutes.slice(0, displayedAlternatives);
+    }
+  }, [filteredRoutes, viewMode, displayedAlternatives]);
 
   return (
     <div className="min-h-screen bg-background">
@@ -254,6 +307,20 @@ const Index = () => {
                 </div>
               </div>
 
+              {/* Direct Only Toggle */}
+              <div className="flex items-center gap-3 mb-6">
+                <input
+                  type="checkbox"
+                  id="directOnly"
+                  checked={directOnly}
+                  onChange={(e) => setDirectOnly(e.target.checked)}
+                  className="w-4 h-4 text-primary border-border rounded focus:ring-primary/20"
+                />
+                <label htmlFor="directOnly" className="text-sm font-medium text-muted-foreground cursor-pointer">
+                  Direct routes only (no transfers)
+                </label>
+              </div>
+
               {/* Quick Stats */}
               <div className="flex flex-wrap items-center justify-center gap-6 pt-4 border-t border-border">
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
@@ -275,9 +342,20 @@ const Index = () => {
       </section>
 
       {/* Results Section */}
-      {(optimalRoutes.length > 0 || allRoutes.length > 0) && (
+      {(optimalRoutes.length > 0 || allRoutes.length > 0 || isSearching) && (
         <section id="results" className="py-12 bg-secondary/30">
           <div className="container mx-auto px-4">
+            {/* Show skeleton during search */}
+            {isSearching ? (
+              <>
+                <div className="mb-8">
+                  <div className="h-8 w-48 bg-secondary rounded-lg mb-2 animate-pulse" />
+                  <div className="h-4 w-96 bg-secondary rounded animate-pulse" />
+                </div>
+                <RouteSkeleton count={3} />
+              </>
+            ) : (
+            <>
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
               <div>
                 <div className="flex items-center gap-3 mb-2">
@@ -331,15 +409,33 @@ const Index = () => {
             </div>
 
             <div className="space-y-4">
-              {filteredRoutes.length > 0 ? (
-                filteredRoutes.map((route, idx) => (
-                  <RouteCard
-                    key={route.id}
-                    route={route}
-                    index={idx}
-                    isRecommended={viewMode === "optimal" && idx === 0 && !selectedCategory}
-                  />
-                ))
+              {displayedRoutes.length > 0 ? (
+                <>
+                  {displayedRoutes.map((route, idx) => (
+                    <RouteCard
+                      key={route.id}
+                      route={route}
+                      index={idx}
+                      isRecommended={viewMode === "optimal" && idx === 0 && !selectedCategory}
+                    />
+                  ))}
+                  
+                  {/* Load More Button */}
+                  {viewMode === "all" && displayedAlternatives < filteredRoutes.length && (
+                    <div className="flex justify-center pt-4">
+                      <button
+                        onClick={() => setDisplayedAlternatives(prev => prev + 5)}
+                        className={cn(
+                          "px-6 py-3 rounded-lg font-semibold text-sm",
+                          "border-2 border-primary text-primary",
+                          "hover:bg-primary hover:text-white transition-all"
+                        )}
+                      >
+                        Load More ({filteredRoutes.length - displayedAlternatives} remaining)
+                      </button>
+                    </div>
+                  )}
+                </>
               ) : (
                 <div className="text-center py-12 bg-card rounded-2xl border-2 border-dashed border-border">
                   <Filter className="w-12 h-12 text-muted-foreground mx-auto mb-4 opacity-20" />
@@ -347,6 +443,8 @@ const Index = () => {
                 </div>
               )}
             </div>
+            </>
+            )}
           </div>
         </section>
       )}
