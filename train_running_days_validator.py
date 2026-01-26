@@ -106,6 +106,7 @@ class TrainRunningDaysValidator:
     def _parse_days_string(self, days_str: str) -> Dict[str, bool]:
         """
         Parse days string like 'Monday,Wednesday,Friday' into boolean flags
+        Handles common typos and variations (e.g., 'Mondayd', 'monday', 'MON')
         
         Args:
             days_str: Comma or space separated day names
@@ -121,10 +122,40 @@ class TrainRunningDaysValidator:
         # Handle various separators: comma, space, etc.
         days = [d.strip() for d in str(days_str).replace(',', ' ').split()]
         
+        # Day name patterns (handle typos, abbreviations, case variations)
+        day_patterns = {
+            'monday': ['monday', 'mon'],
+            'tuesday': ['tuesday', 'tue', 'tues'],
+            'wednesday': ['wednesday', 'wed'],
+            'thursday': ['thursday', 'thu', 'thurs'],
+            'friday': ['friday', 'fri'],
+            'saturday': ['saturday', 'sat'],
+            'sunday': ['sunday', 'sun']
+        }
+        
         for day in days:
-            day_title = day.title()  # Normalize to 'Monday' format
+            day_clean = day.lower().rstrip('d').strip()  # Remove trailing 'd' (typo), lowercase
+            
+            # Try exact match first
+            day_title = day_clean.title()
             if day_title in days_dict:
                 days_dict[day_title] = True
+                continue
+            
+            # Try pattern matching
+            matched = False
+            for weekday, patterns in day_patterns.items():
+                if day_clean in patterns:
+                    days_dict[weekday.title()] = True
+                    matched = True
+                    break
+            
+            # Fuzzy match: find closest match
+            if not matched:
+                for weekday in self.WEEKDAY_NAMES:
+                    if day_clean.startswith(weekday[:3].lower()):  # Match first 3 chars
+                        days_dict[weekday] = True
+                        break
         
         return days_dict
     
