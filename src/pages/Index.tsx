@@ -12,6 +12,14 @@ import { sampleRoutes, Route, getCategoryBase, mapApiRouteToRoute } from "@/data
 import { cn } from "@/lib/utils";
 import { toast, Toast } from "@/hooks/use-toast";
 
+// Helper function to get API URL - uses relative paths in production, localhost in development
+const getApiUrl = (path: string): string => {
+  if (typeof window !== 'undefined' && window.location.hostname === 'localhost') {
+    return `http://localhost:5000${path}`;
+  }
+  return path;
+};
+
 const Index = () => {
   const [origin, setOrigin] = useState<Station | null>(null);
   const [destination, setDestination] = useState<Station | null>(null);
@@ -49,7 +57,7 @@ const Index = () => {
     setIsFromCache(false);
     
     try {
-      let url = `http://localhost:5000/api/routes?origin=${origin.code}&destination=${destination.code}`;
+      let url = getApiUrl(`/api/routes?origin=${origin.code}&destination=${destination.code}`);
       if (travelDate) {
         url += `&date=${travelDate}`;
       }
@@ -124,7 +132,7 @@ const Index = () => {
       
       // Check if it's a network error
       if (error instanceof TypeError && error.message.includes("fetch")) {
-        errorMessage = "Cannot connect to server at localhost:5000. Make sure 'python api.py' is running.";
+        errorMessage = "Cannot connect to server. Make sure the API backend is running.";
       }
       
       toast({

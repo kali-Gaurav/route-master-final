@@ -25,7 +25,7 @@ except ImportError:
 
 from config import SCHEDULER_CONFIG
 from logger import LoggerFactory, audit_logger
-from database import db, Train, TrainStatus
+from database_manager import DatabaseManager
 from refresh_policy import refresh_engine
 from rappid_fetcher import fetcher
 from incremental_updater import incremental_updater
@@ -149,24 +149,26 @@ class DataPipelineScheduler:
         }
         
         try:
-            session = db.get_session()
+            db = DatabaseManager()
+            conn = db.get_connection()
+            cursor = conn.cursor()
             
-            # Get all trains
-            all_trains = session.query(Train).all()
-            stats["trains_total"] = len(all_trains)
+            # Get all stations (using SQLite instead of ORM)
+            all_stations = cursor.execute("SELECT train_no, status, last_updated, last_fetched FROM stations").fetchall()
+            stats["trains_total"] = len(all_stations)
             
-            self.logger.info(f"Found {len(all_trains)} trains to process")
+            self.logger.info(f"Found {len(all_stations)} stations to monitor")
             
             # Get refresh decisions
             train_dicts = [
                 {
-                    "train_no": t.train_no,
-                    "status": t.status,
-                    "last_updated": t.last_updated,
-                    "last_fetched": t.last_fetched,
+                    "train_no": t[0],
+                    "status": t[1],
+                    "last_updated": t[2],
+                    "last_fetched": t[3],
                     "is_frequently_searched": False
                 }
-                for t in all_trains
+                for t in all_stations
             ]
             
             decisions = refresh_engine.batch_refresh_decisions(train_dicts)
@@ -196,14 +198,12 @@ class DataPipelineScheduler:
                         # Score
                         quality_score = scorer.score_train(structured)
                         
-                        # Update database
-                        train = session.query(Train).filter(Train.train_no == train_no).first()
-                        if train:
-                            train.status = TrainStatus.ACTIVE
-                            train.last_fetched = datetime.utcnow()
-                            train.data_quality_score = quality_score.overall_score
-                            train.is_verified = True
-                            session.commit()
+                        # Update database (using SQL instead of ORM)
+                        cursor.execute(
+                            "UPDATE trains SET last_updated = ?, data_quality_score = ?, is_verified = ? WHERE train_no = ?",
+                            (datetime.utcnow().isoformat(), quality_score.overall_score, True, train_no)
+                        )
+                        conn.commit()
                         
                         if (i + 1) % 10 == 0:
                             self.logger.info(f"Progress: {i + 1}/{len(trains_to_refresh)}")
@@ -222,13 +222,9 @@ class DataPipelineScheduler:
             deleted, kept = backup_manager.cleanup_old_backups()
             self.logger.info(f"Backup cleanup: deleted {deleted}, kept {kept}")
             
-            # Check alerts
-            inactive_count = session.query(Train).filter(
-                Train.status == TrainStatus.INACTIVE
-            ).count()
-            active_count = session.query(Train).filter(
-                Train.status == TrainStatus.ACTIVE
-            ).count()
+            # Check alerts (using SQL queries)
+            inactive_count = cursor.execute("SELECT COUNT(*) FROM trains WHERE status = 'INACTIVE'").fetchone()[0]
+            active_count = cursor.execute("SELECT COUNT(*) FROM trains WHERE status = 'ACTIVE'").fetchone()[0]
             
             alert = alertingSystem.check_inactive_trains_threshold(
                 stats["trains_total"], inactive_count
@@ -279,7 +275,10 @@ class DataPipelineScheduler:
             return stats
         
         finally:
-            session.close()
+            if cursor:
+                cursor.close()
+            if conn:
+                conn.close()
     
     def run_daily_backup(self) -> bool:
         """Execute daily backup"""
@@ -310,19 +309,22 @@ class DataPipelineScheduler:
     def run_health_check(self):
         """Execute system health check"""
         try:
-            session = db.get_session()
+            db = DatabaseManager()
+            conn = db.get_connection()
+            cursor = conn.cursor()
             
-            total = session.query(Train).count()
-            active = session.query(Train).filter(Train.status == TrainStatus.ACTIVE).count()
-            inactive = session.query(Train).filter(Train.status == TrainStatus.INACTIVE).count()
-            unknown = session.query(Train).filter(Train.status == TrainStatus.UNKNOWN).count()
+            total = cursor.execute("SELECT COUNT(*) FROM stations").fetchone()[0]
+            active = cursor.execute("SELECT COUNT(*) FROM stations WHERE status = 'ACTIVE'").fetchone()[0]
+            inactive = cursor.execute("SELECT COUNT(*) FROM stations WHERE status = 'INACTIVE'").fetchone()[0]
+            unknown = cursor.execute("SELECT COUNT(*) FROM stations WHERE status = 'UNKNOWN'").fetchone()[0]
             
             # Calculate freshness
             from datetime import datetime, timedelta
             recent_cutoff = datetime.utcnow() - timedelta(days=7)
-            fresh_count = session.query(Train).filter(
-                Train.last_updated >= recent_cutoff
-            ).count()
+            fresh_count = cursor.execute(
+                "SELECT COUNT(*) FROM stations WHERE last_updated >= ?",
+                (recent_cutoff.isoformat(),)
+            ).fetchone()[0]
             freshness_percent = (fresh_count / total * 100) if total > 0 else 0
             
             health_status = {
@@ -347,7 +349,8 @@ class DataPipelineScheduler:
                 if alert:
                     alertingSystem.send_alert(alert)
             
-            session.close()
+            cursor.close()
+            conn.close()
             return health_status
         
         except Exception as e:
@@ -359,15 +362,18 @@ class DataPipelineScheduler:
         try:
             self.logger.info("Starting daily validation")
             
-            session = db.get_session()
-            trains = session.query(Train).limit(100).all()
+            db = DatabaseManager()
+            conn = db.get_connection()
+            cursor = conn.cursor()
+            
+            trains = cursor.execute("SELECT train_no, train_name, status, last_updated FROM stations LIMIT 100").fetchall()
             
             train_dicts = [
                 {
-                    "train_no": t.train_no,
-                    "train_name": t.train_name,
-                    "status": t.status.value if t.status else "UNKNOWN",
-                    "last_updated": t.last_updated
+                    "train_no": t[0],
+                    "train_name": t[1],
+                    "status": t[2] if t[2] else "UNKNOWN",
+                    "last_updated": t[3]
                 }
                 for t in trains
             ]
@@ -385,7 +391,8 @@ class DataPipelineScheduler:
                 if alert:
                     alertingSystem.send_alert(alert)
             
-            session.close()
+            cursor.close()
+            conn.close()
             return report
         
         except Exception as e:
