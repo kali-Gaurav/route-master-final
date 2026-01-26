@@ -1,0 +1,66 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info
+.venv
+venv/
+env/
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules
+.npm
+package-lock.json
+.yarn
+yarn.lock
+
+# Misc
+.DS_Store
+.vscode
+.idea
+*.log
+*.swp
+*.swo
+*~
+.coverage
+.pytest_cache
+dist (unless built)
+
+# Test files
+test/
+tests/
+pytest.ini
+conftest.py
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Build artifacts
+build/
+dist/
+*.egg
+*.whl
+
+# Docker
+docker-compose.yml
+Dockerfile*
+
+# Other
+.env.example
+.env.production
+Procfile
+.github/
+.gitlab-ci.yml
+.circleci/

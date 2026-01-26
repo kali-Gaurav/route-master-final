@@ -1,19 +1,30 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
+  "installCommand": "npm install --legacy-peer-deps",
+  "framework": "vite",
+  
   "env": {
     "PYTHON_VERSION": "3.12"
   },
-  "rewrites": [
+  
+  "functions": {
+    "api/index.py": {
+      "runtime": "python3.12"
+    }
+  },
+  
+  "routes": [
     {
-      "source": "/api/(.*)",
-      "destination": "api.py"
+      "src": "/api/(.*)",
+      "dest": "/api/index.py"
     },
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ],
+  
   "headers": [
     {
       "source": "/api/(.*)",
@@ -24,7 +35,7 @@
         },
         {
           "key": "Access-Control-Allow-Methods",
-          "value": "GET, POST, OPTIONS"
+          "value": "GET, POST, PUT, DELETE, OPTIONS"
         },
         {
           "key": "Access-Control-Allow-Headers",
@@ -35,7 +46,18 @@
           "value": "application/json"
         }
       ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
     }
   ],
-  "regions": ["iad1"]
+  
+  "regions": ["iad1"],
+  "memory": 512
 }
