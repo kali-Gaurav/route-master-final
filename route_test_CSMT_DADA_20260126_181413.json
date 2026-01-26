@@ -1,0 +1,74 @@
+{
+  "timestamp": "2026-01-26T18:14:13.858173",
+  "source": "CSMT",
+  "destination": "DADA",
+  "statistics": {
+    "total_routes_generated": 201,
+    "direct_routes": 47,
+    "single_transfer_routes": 154,
+    "multi_transfer_routes": 0,
+    "pareto_optimal_routes": 1,
+    "generation_time_seconds": 0.07,
+    "optimization_time_seconds": 0.93
+  },
+  "optimal_routes": [
+    {
+      "category": "FASTEST \ud83d\ude80",
+      "segments": 3,
+      "transfers": 2,
+      "sample_details": "{'route': [{'train_no': '12261', 'from': 'CSMT', 'to': 'KJ', 'departure': '17:1517:15', 'arrival': '18:0118:01', 'distance': 0, 'duration': 3.0, 'wait_before': 0, 'live_fare': 200}, {'train_no': '1232"
+    }
+  ],
+  "sample_all_routes": [
+    {
+      "segments": 1,
+      "transfers": 0,
+      "summary": "1 segments"
+    },
+    {
+      "segments": 1,
+      "transfers": 0,
+      "summary": "1 segments"
+    },
+    {
+      "segments": 1,
+      "transfers": 0,
+      "summary": "1 segments"
+    },
+    {
+      "segments": 1,
+      "transfers": 0,
+      "summary": "1 segments"
+    },
+    {
+      "segments": 1,
+      "transfers": 0,
+      "summary": "1 segments"
+    },
+    {
+      "segments": 1,
+      "transfers": 0,
+      "summary": "1 segments"
+    },
+    {
+      "segments": 1,
+      "transfers": 0,
+      "summary": "1 segments"
+    },
+    {
+      "segments": 1,
+      "transfers": 0,
+      "summary": "1 segments"
+    },
+    {
+      "segments": 1,
+      "transfers": 0,
+      "summary": "1 segments"
+    },
+    {
+      "segments": 1,
+      "transfers": 0,
+      "summary": "1 segments"
+    }
+  ]
+}
