@@ -49,11 +49,22 @@ class IntegrationTest:
         logger.info("=" * 80)
         
         try:
-            count = self.validator.load_running_days_from_csv('dataset/train_info.csv')
-            logger.info(f"✅ Loaded running days for {count} trains")
-            return True
+            # Setup database schema first
+            if not self.validator.setup_database_schema():
+                logger.error("Failed to setup database schema")
+                return False
+            
+            # Load running days for RAPPID trains (intelligent matching!)
+            count = self.validator.load_running_days_for_rappid_trains()
+            
+            if count > 0:
+                logger.info(f"Loaded running days for {count} trains")
+                return True
+            else:
+                logger.error("No trains were loaded")
+                return False
         except Exception as e:
-            logger.error(f"❌ Failed to load running days: {e}")
+            logger.error(f"Failed to load running days: {e}")
             return False
     
     def test_monday_vs_sunday(self):
