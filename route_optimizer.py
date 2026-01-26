@@ -198,96 +198,165 @@ class GraphSingleton:
 
 class SimpleBFSRouteGenerator:
     """
-    Pure BFS route generator without Pareto optimization.
+    Simple, fast BFS route generator with up to 3 transfers.
     
-    This class exposes the raw BFS from ParetoTrainRouter:
-    - No objective calculation
-    - No ranking or filtering
-    - Just valid, legal routes with realistic transfers
-    - Useful for simple route discovery up to 3 transfers
+    Optimized for speed:
+    - Stops after finding routes (doesn't exhaustively explore)
+    - Limits branching factor
+    - Early termination when target found
+    - No Pareto optimization (pure fast BFS)
     """
     
-    def __init__(self, router: 'ParetoTrainRouter' = None):
-        """
-        Initialize with existing router to reuse graph.
-        
-        Args:
-            router: ParetoTrainRouter instance (optional)
-                   If None, creates new instance
-        """
-        self.router = router or ParetoTrainRouter()
+    def __init__(self, db_manager=None, graph_singleton=None):
+        self.db = db_manager or get_db()
+        self._graph_cache = graph_singleton or GraphSingleton(self.db)
     
-    def find_routes(self, origin: str, destination: str, 
-                   max_transfers: int = 3, travel_date = None) -> dict:
+    @property
+    def graph(self):
+        return self._graph_cache.graph
+    
+    @property
+    def station_to_id(self):
+        return self._graph_cache.station_maps['station_to_id']
+    
+    @property
+    def id_to_station(self):
+        return self._graph_cache.station_maps['id_to_station']
+    
+    def find_routes(self, origin: str, destination: str, max_transfers: int = 3) -> Dict:
         """
-        Find routes using pure BFS (no Pareto optimization).
+        Fast BFS route finding - finds multiple route options quickly.
         
         Args:
-            origin: Source station (will be uppercased)
-            destination: Destination station (will be uppercased)
-            max_transfers: Max transfers allowed (default 3, capped at 3)
-            travel_date: Travel date for validation (optional)
+            origin: Source station code
+            destination: Destination station code
+            max_transfers: Maximum transfers (default 3)
         
         Returns:
-            {
-                'origin': str,
-                'destination': str,
-                'max_transfers': int,
-                'total_routes': int,
-                'routes_by_transfers': {
-                    '0': [...],  # Direct routes
-                    '1': [...],  # 1 transfer
-                    '2': [...],  # 2 transfers
-                    '3': [...]   # 3 transfers
-                }
-            }
+            Dict with routes grouped by transfer count
         """
         import time
-        start_time = time.time()
+        search_start = time.time()
         
-        origin = origin.upper().strip()
-        destination = destination.upper().strip()
-        max_transfers = min(int(max_transfers), 3)  # Cap at 3
+        origin_id = self.station_to_id.get(origin)
+        dest_id = self.station_to_id.get(destination)
         
-        # Use validator if travel_date provided
-        validator = None
-        if travel_date:
-            from train_running_days_validator import TrainRunningDaysValidator
-            validator = TrainRunningDaysValidator()
+        if not origin_id or not dest_id:
+            return {
+                'start': origin,
+                'end': destination,
+                'error': 'Station not found',
+                'total_routes_found': 0,
+                'search_time_ms': 0
+            }
         
-        # Get raw BFS routes from router
-        # This calls the existing find_routes() which has perfect BFS logic
-        raw_routes = self.router.find_routes(
-            origin=origin,
-            destination=destination,
-            max_transfers=max_transfers,
-            travel_date=travel_date,
-            validator=validator
-        )
+        # BFS Queue: (current_station_id, path_segments, num_transfers)
+        # path_segments = list of (train_no, from_station_id, to_station_id, is_transfer)
+        queue = deque([(origin_id, [], 0)])
+        routes_by_transfers = defaultdict(list)
+        found_routes = set()  # Track unique routes to avoid duplicates
+        explored = 0
+        max_iterations = 50000
+        found_destination_level = None
         
-        # Group by transfer count
-        grouped = {}
-        for route in raw_routes:
-            # Number of transfers = number of segments - 1
-            transfer_count = len(route) - 1
-            if transfer_count not in grouped:
-                grouped[transfer_count] = []
-            grouped[transfer_count].append({
-                'segments': route,
-                'hops': len(route),
-                'transfers': transfer_count
-            })
+        while queue and explored < max_iterations:
+            explored += 1
+            curr_id, path, transfers = queue.popleft()
+            
+            # Early termination: if we found destination at earlier transfer level
+            if found_destination_level is not None and transfers > found_destination_level:
+                break
+            
+            # Check if we reached destination
+            if curr_id == dest_id:
+                if path:  # Has at least one segment
+                    transfers_count = sum(1 for _, _, _, is_transfer in path if is_transfer)
+                    route_key = tuple((t, f, to) for t, f, to, _ in path)
+                    
+                    if route_key not in found_routes:
+                        found_routes.add(route_key)
+                        routes_by_transfers[transfers_count].append({
+                            'path': path.copy(),
+                            'segments': len(path),
+                            'transfers': transfers_count
+                        })
+                        found_destination_level = transfers_count
+                continue
+            
+            # Don't explore beyond max transfers
+            if transfers > max_transfers:
+                continue
+            
+            # Don't explore very long paths
+            if len(path) > 20:
+                continue
+            
+            # Get neighbors (edges from current station)
+            edges = self.graph.get(curr_id, [])
+            
+            # Limit branching to avoid explosion
+            if len(edges) > 50:
+                edges = edges[:50]
+            
+            # Explore each neighbor
+            for edge in edges:
+                next_station = edge['to_id']
+                train_no = edge['train_no']
+                
+                # Avoid immediate backtracking (don't go back to station we came from)
+                if path and len(path) >= 1:
+                    last_from, last_to = path[-1][1], path[-1][2]
+                    if next_station == last_from:  # Don't go back
+                        continue
+                
+                # Determine if this is a transfer
+                is_transfer = len(path) > 0  # If not first segment, it's a transfer
+                
+                # Calculate new transfer count
+                new_transfers = transfers
+                if is_transfer:
+                    new_transfers = transfers + 1
+                
+                # Only proceed if within transfer limit
+                if new_transfers <= max_transfers:
+                    segment = (train_no, curr_id, next_station, is_transfer)
+                    new_path = path + [segment]
+                    queue.append((next_station, new_path, new_transfers))
         
-        search_time = time.time() - start_time
+        search_time = time.time() - search_start
         
-        return {
-            'origin': origin,
-            'destination': destination,
-            'max_transfers': max_transfers,
-            'total_routes': len(raw_routes),
-            'routes_by_transfers': grouped,
-            'search_time_ms': round(search_time * 1000, 2)
+        # Convert path format for response
+        formatted_routes = {}
+        for transfers_count, routes in routes_by_transfers.items():
+            formatted_routes[transfers_count] = []
+            for route in routes:
+                path = route['path']
+                formatted_path = [
+                    {
+                        'train': train_no,
+                        'from': self.id_to_station[from_id],
+                        'to': self.id_to_station[to_id]
+                    }
+                    for train_no, from_id, to_id, _ in path
+                ]
+                formatted_routes[transfers_count].append({
+                    'path': formatted_path,
+                    'segments': len(path),
+                    'transfers': transfers_count
+                })
+        
+        # Format response
+        response = {
+            'start': origin,
+            'end': destination,
+            'max_transfers_requested': max_transfers,
+            'total_routes_found': sum(len(routes) for routes in formatted_routes.values()),
+            'routes_by_transfers': formatted_routes,
+            'search_time_ms': round(search_time * 1000, 2),
+            'states_explored': explored
         }
+        
+        return response
 
 
 class ParetoTrainRouter:
