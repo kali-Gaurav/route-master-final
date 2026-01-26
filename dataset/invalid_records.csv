@@ -1,0 +1,6 @@
+row_idx,train_no,station_code,issues
+2309,K,214,"['numeric_station_code', 'invalid_sequence_format', 'invalid_distance_format']"
+2321,K,33,"['numeric_station_code', 'invalid_sequence_format', 'invalid_distance_format']"
+135827,K,142,"['numeric_station_code', 'invalid_sequence_format', 'invalid_distance_format']"
+135885,K,214,"['numeric_station_code', 'invalid_sequence_format', 'invalid_distance_format']"
+140469,K,142,"['numeric_station_code', 'invalid_sequence_format', 'invalid_distance_format']"

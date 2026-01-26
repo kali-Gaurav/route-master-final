@@ -1,0 +1,557 @@
+{
+  "test_suite_metadata": {
+    "total_tests": 3,
+    "test_timestamp": "2026-01-26T18:23:16.089205",
+    "max_transfers": 4
+  },
+  "test_cases": {
+    "test_1": {
+      "source": "CSMT",
+      "destination": "DADA",
+      "name": "Short Distance (Mumbai nearby)",
+      "generation_time": 1.118035078048706,
+      "total_routes": 207,
+      "routes_by_transfer": {
+        "0_transfer_routes": 47,
+        "1_transfer_routes": 100,
+        "2_transfer_routes": 54,
+        "3_transfer_routes": 6,
+        "4_transfer_routes": 0,
+        "total_routes": 207,
+        "generation_time_seconds": 1.1170179843902588
+      },
+      "analysis": {
+        "transfer_type_breakdown": {
+          "0": {
+            "count": 47,
+            "percentage": 22.705314009661837,
+            "avg_duration_hours": 3.0,
+            "avg_distance_km": 0.0,
+            "avg_cost": 200.0,
+            "min_duration_hours": 3.0,
+            "max_duration_hours": 3.0,
+            "min_distance_km": 0,
+            "max_distance_km": 0,
+            "min_cost": 200,
+            "max_cost": 200
+          },
+          "1": {
+            "count": 100,
+            "percentage": 48.309178743961354,
+            "avg_duration_hours": 13.307999999999995,
+            "avg_distance_km": 462.4,
+            "avg_cost": 2546.1,
+            "min_duration_hours": 4.08,
+            "max_duration_hours": 46.12,
+            "min_distance_km": 0,
+            "max_distance_km": 2106.0,
+            "min_cost": 400,
+            "max_cost": 10730.0
+          },
+          "2": {
+            "count": 54,
+            "percentage": 26.08695652173913,
+            "avg_duration_hours": 11.641111111111114,
+            "avg_distance_km": 212.61111111111111,
+            "avg_cost": 1558.3333333333333,
+            "min_duration_hours": 5.38,
+            "max_duration_hours": 42.84,
+            "min_distance_km": 0,
+            "max_distance_km": 1742.0,
+            "min_cost": 600,
+            "max_cost": 9110.0
+          },
+          "3": {
+            "count": 6,
+            "percentage": 2.898550724637681,
+            "avg_duration_hours": 21.240000000000006,
+            "avg_distance_km": 462.0,
+            "avg_cost": 2910.0,
+            "min_duration_hours": 21.240000000000002,
+            "max_duration_hours": 21.240000000000002,
+            "min_distance_km": 462.0,
+            "max_distance_km": 462.0,
+            "min_cost": 2910.0,
+            "max_cost": 2910.0
+          }
+        },
+        "statistics": {
+          "total_routes": 207,
+          "generation_time": 1.1170179843902588
+        },
+        "sample_routes": {
+          "0": [
+            {
+              "index": 1,
+              "segments": 1,
+              "total_duration": 3.0,
+              "total_distance": 0,
+              "total_cost": 200,
+              "segments_list": [
+                {
+                  "train": "10103",
+                  "from": "CSMT",
+                  "to": "DADA",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 0
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "segments": 1,
+              "total_duration": 3.0,
+              "total_distance": 0,
+              "total_cost": 200,
+              "segments_list": [
+                {
+                  "train": "10111",
+                  "from": "CSMT",
+                  "to": "DADA",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 0
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "segments": 1,
+              "total_duration": 3.0,
+              "total_distance": 0,
+              "total_cost": 200,
+              "segments_list": [
+                {
+                  "train": "11001",
+                  "from": "CSMT",
+                  "to": "DADA",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 0
+                }
+              ]
+            }
+          ],
+          "1": [
+            {
+              "index": 1,
+              "segments": 2,
+              "total_duration": 18.64,
+              "total_distance": 732.0,
+              "total_cost": 3860.0,
+              "segments_list": [
+                {
+                  "train": "12133",
+                  "from": "CSMT",
+                  "to": "THAN",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 0
+                },
+                {
+                  "train": "10104",
+                  "from": "THAN",
+                  "to": "DADA",
+                  "distance_km": 732.0,
+                  "duration_hours": 14.640000000000002,
+                  "wait_before_hours": 1.0
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "segments": 2,
+              "total_duration": 14.94,
+              "total_distance": 547.0,
+              "total_cost": 2935.0,
+              "segments_list": [
+                {
+                  "train": "12133",
+                  "from": "CSMT",
+                  "to": "THAN",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 0
+                },
+                {
+                  "train": "10112",
+                  "from": "THAN",
+                  "to": "DADA",
+                  "distance_km": 547.0,
+                  "duration_hours": 10.94,
+                  "wait_before_hours": 1.0
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "segments": 2,
+              "total_duration": 16.439999999999998,
+              "total_distance": 622.0,
+              "total_cost": 3310.0,
+              "segments_list": [
+                {
+                  "train": "12133",
+                  "from": "CSMT",
+                  "to": "THAN",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 0
+                },
+                {
+                  "train": "11004",
+                  "from": "THAN",
+                  "to": "DADA",
+                  "distance_km": 622.0,
+                  "duration_hours": 12.44,
+                  "wait_before_hours": 1.0
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "index": 1,
+              "segments": 3,
+              "total_duration": 38.44,
+              "total_distance": 1522.0,
+              "total_cost": 8010.0,
+              "segments_list": [
+                {
+                  "train": "10103",
+                  "from": "CSMT",
+                  "to": "DADA",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 0
+                },
+                {
+                  "train": "12490",
+                  "from": "DADA",
+                  "to": "BORI",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 1.0
+                },
+                {
+                  "train": "12489",
+                  "from": "BORI",
+                  "to": "DADA",
+                  "distance_km": 1522.0,
+                  "duration_hours": 30.44,
+                  "wait_before_hours": 1.0
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "segments": 3,
+              "total_duration": 17.240000000000002,
+              "total_distance": 462.0,
+              "total_cost": 2710.0,
+              "segments_list": [
+                {
+                  "train": "10103",
+                  "from": "CSMT",
+                  "to": "DADA",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 0
+                },
+                {
+                  "train": "12490",
+                  "from": "DADA",
+                  "to": "BORI",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 1.0
+                },
+                {
+                  "train": "12902",
+                  "from": "BORI",
+                  "to": "DADA",
+                  "distance_km": 462.0,
+                  "duration_hours": 9.24,
+                  "wait_before_hours": 1.0
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "segments": 3,
+              "total_duration": 16.9,
+              "total_distance": 445.0,
+              "total_cost": 2625.0,
+              "segments_list": [
+                {
+                  "train": "10103",
+                  "from": "CSMT",
+                  "to": "DADA",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 0
+                },
+                {
+                  "train": "12490",
+                  "from": "DADA",
+                  "to": "BORI",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 1.0
+                },
+                {
+                  "train": "12928",
+                  "from": "BORI",
+                  "to": "DADA",
+                  "distance_km": 445.0,
+                  "duration_hours": 8.9,
+                  "wait_before_hours": 1.0
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "index": 1,
+              "segments": 4,
+              "total_duration": 21.240000000000002,
+              "total_distance": 462.0,
+              "total_cost": 2910.0,
+              "segments_list": [
+                {
+                  "train": "10103",
+                  "from": "CSMT",
+                  "to": "DADA",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 0
+                },
+                {
+                  "train": "12490",
+                  "from": "DADA",
+                  "to": "BORI",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 1.0
+                },
+                {
+                  "train": "12010",
+                  "from": "BORI",
+                  "to": "MC",
+                  "distance_km": 462.0,
+                  "duration_hours": 9.24,
+                  "wait_before_hours": 1.0
+                },
+                {
+                  "train": "19023",
+                  "from": "MC",
+                  "to": "DADA",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 1.0
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "segments": 4,
+              "total_duration": 21.240000000000002,
+              "total_distance": 462.0,
+              "total_cost": 2910.0,
+              "segments_list": [
+                {
+                  "train": "10103",
+                  "from": "CSMT",
+                  "to": "DADA",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 0
+                },
+                {
+                  "train": "12490",
+                  "from": "DADA",
+                  "to": "BORI",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 1.0
+                },
+                {
+                  "train": "12010",
+                  "from": "BORI",
+                  "to": "MC",
+                  "distance_km": 462.0,
+                  "duration_hours": 9.24,
+                  "wait_before_hours": 1.0
+                },
+                {
+                  "train": "22945",
+                  "from": "MC",
+                  "to": "DADA",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 1.0
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "segments": 4,
+              "total_duration": 21.240000000000002,
+              "total_distance": 462.0,
+              "total_cost": 2910.0,
+              "segments_list": [
+                {
+                  "train": "10103",
+                  "from": "CSMT",
+                  "to": "DADA",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 0
+                },
+                {
+                  "train": "12490",
+                  "from": "DADA",
+                  "to": "BORI",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 1.0
+                },
+                {
+                  "train": "12010",
+                  "from": "BORI",
+                  "to": "MC",
+                  "distance_km": 462.0,
+                  "duration_hours": 9.24,
+                  "wait_before_hours": 1.0
+                },
+                {
+                  "train": "22953",
+                  "from": "MC",
+                  "to": "DADA",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 1.0
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "test_2": {
+      "source": "CSMT",
+      "destination": "KOTA",
+      "name": "Medium Distance (Mumbai-Rajasthan)",
+      "generation_time": 1.1603076457977295,
+      "total_routes": 0,
+      "routes_by_transfer": {
+        "0_transfer_routes": 0,
+        "1_transfer_routes": 0,
+        "2_transfer_routes": 0,
+        "3_transfer_routes": 0,
+        "4_transfer_routes": 0,
+        "total_routes": 0,
+        "generation_time_seconds": 1.1583080291748047
+      },
+      "analysis": {
+        "transfer_type_breakdown": {},
+        "statistics": {
+          "total_routes": 0,
+          "generation_time": 1.1583080291748047
+        },
+        "sample_routes": {}
+      }
+    },
+    "test_3": {
+      "source": "CSMT",
+      "destination": "SBC",
+      "name": "Long Distance (Mumbai-Bangalore)",
+      "generation_time": 1.0121135711669922,
+      "total_routes": 1,
+      "routes_by_transfer": {
+        "0_transfer_routes": 0,
+        "1_transfer_routes": 0,
+        "2_transfer_routes": 0,
+        "3_transfer_routes": 0,
+        "4_transfer_routes": 1,
+        "total_routes": 1,
+        "generation_time_seconds": 1.0101134777069092
+      },
+      "analysis": {
+        "transfer_type_breakdown": {
+          "4": {
+            "count": 1,
+            "percentage": 100.0,
+            "avg_duration_hours": 30.819999999999997,
+            "avg_distance_km": 1191.0,
+            "avg_cost": 6440.0,
+            "min_duration_hours": 30.819999999999997,
+            "max_duration_hours": 30.819999999999997,
+            "min_distance_km": 1191.0,
+            "max_distance_km": 1191.0,
+            "min_cost": 6440.0,
+            "max_cost": 6440.0
+          }
+        },
+        "statistics": {
+          "total_routes": 1,
+          "generation_time": 1.0101134777069092
+        },
+        "sample_routes": {
+          "4": [
+            {
+              "index": 1,
+              "segments": 5,
+              "total_duration": 30.819999999999997,
+              "total_distance": 1191.0,
+              "total_cost": 6440.0,
+              "segments_list": [
+                {
+                  "train": "12289",
+                  "from": "CSMT",
+                  "to": "NAGP",
+                  "distance_km": 0,
+                  "duration_hours": 3.0,
+                  "wait_before_hours": 0
+                },
+                {
+                  "train": "12194",
+                  "from": "NAGP",
+                  "to": "BALH",
+                  "distance_km": 543.0,
+                  "duration_hours": 10.859999999999998,
+                  "wait_before_hours": 1.0
+                },
+                {
+                  "train": "12252",
+                  "from": "BALH",
+                  "to": "KACH",
+                  "distance_km": 625.0,
+                  "duration_hours": 12.5,
+                  "wait_before_hours": 1.0
+                },
+                {
+                  "train": "47151",
+                  "from": "KACH",
+                  "to": "JO",
+                  "distance_km": 20.0,
+                  "duration_hours": 0.4,
+                  "wait_before_hours": 1.0
+                },
+                {
+                  "train": "77674",
+                  "from": "JO",
+                  "to": "SBC",
+                  "distance_km": 3.0,
+                  "duration_hours": 0.05999999999999999,
+                  "wait_before_hours": 1.0
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

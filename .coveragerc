@@ -1,0 +1,11 @@
+[run]  
+[report]  
+[paths]  
+source = production_pipeline  
+[run]  
+branch = True  
+[report]  
+omit =  
+    production_pipeline/tests/*  
+    production_pipeline/__init__.py  
+    production_pipeline/*.py  

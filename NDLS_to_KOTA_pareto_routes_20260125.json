@@ -1,0 +1,2872 @@
+{
+  "metadata": {
+    "source": "NDLS",
+    "destination": "KOTA",
+    "total_routes_generated": 75,
+    "pareto_front_size": 1,
+    "optimal_routes_count": 1,
+    "saved_at": "2026-01-25T16:15:51.335944"
+  },
+  "optimal_routes": [
+    {
+      "route_id": "OPT_ROUTE_01",
+      "category": "Optimal Route 1",
+      "objectives": {
+        "time": 2269.9999999999995,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1609.0
+      },
+      "segments": [
+        {
+          "train_no": "11077",
+          "train_name": "JHELUM EXPRE",
+          "from": "NDLS",
+          "to": "JAT",
+          "departure": "21:20:00",
+          "arrival": "10:05:00",
+          "distance": 576.0,
+          "duration_min": 765.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "19806",
+          "train_name": "UHP-KOTA WEE",
+          "from": "JAT",
+          "to": "KOTA",
+          "departure": "16:05:00",
+          "arrival": "11:10:00",
+          "distance": 1033.0,
+          "duration_min": 1145.0,
+          "wait_min": 360.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    }
+  ],
+  "all_generated_routes": [
+    {
+      "route_id": "ALL_ROUTE_001",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 365.0,
+        "cost": 0.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 457.0
+      },
+      "segments": [
+        {
+          "train_no": "12218",
+          "train_name": "KERALA S.KRA",
+          "from": "NDLS",
+          "to": "KOTA",
+          "departure": "13:40:00",
+          "arrival": "19:45:00",
+          "distance": 457.0,
+          "duration_min": 365.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_002",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 935.0,
+        "cost": 0.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 455.0
+      },
+      "segments": [
+        {
+          "train_no": "12449",
+          "train_name": "GOA SMPRK K",
+          "from": "NDLS",
+          "to": "KOTA",
+          "departure": "18:25:00",
+          "arrival": "10:00:00",
+          "distance": 455.0,
+          "duration_min": 935.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_003",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 415.0,
+        "cost": 0.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 457.0
+      },
+      "segments": [
+        {
+          "train_no": "12450",
+          "train_name": "GOA SMPRK KR",
+          "from": "NDLS",
+          "to": "KOTA",
+          "departure": "06:15:00",
+          "arrival": "13:10:00",
+          "distance": 457.0,
+          "duration_min": 415.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_004",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 355.0,
+        "cost": 0.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 457.0
+      },
+      "segments": [
+        {
+          "train_no": "12472",
+          "train_name": "SWARAJ EXPRE",
+          "from": "NDLS",
+          "to": "KOTA",
+          "departure": "21:50:00",
+          "arrival": "03:45:00",
+          "distance": 457.0,
+          "duration_min": 355.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_005",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 355.0,
+        "cost": 0.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 457.0
+      },
+      "segments": [
+        {
+          "train_no": "12474",
+          "train_name": "SARVODAYA EX",
+          "from": "NDLS",
+          "to": "KOTA",
+          "departure": "21:50:00",
+          "arrival": "03:45:00",
+          "distance": 457.0,
+          "duration_min": 355.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_006",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 355.0,
+        "cost": 0.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 457.0
+      },
+      "segments": [
+        {
+          "train_no": "12476",
+          "train_name": "SARVODAYA EX",
+          "from": "NDLS",
+          "to": "KOTA",
+          "departure": "21:50:00",
+          "arrival": "03:45:00",
+          "distance": 457.0,
+          "duration_min": 355.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_007",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 355.0,
+        "cost": 0.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 457.0
+      },
+      "segments": [
+        {
+          "train_no": "12478",
+          "train_name": "SVDK- JAMNAG",
+          "from": "NDLS",
+          "to": "KOTA",
+          "departure": "21:50:00",
+          "arrival": "03:45:00",
+          "distance": 457.0,
+          "duration_min": 355.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_008",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 360.0,
+        "cost": 0.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 457.0
+      },
+      "segments": [
+        {
+          "train_no": "12484",
+          "train_name": "KCVL EXPRESS",
+          "from": "NDLS",
+          "to": "KOTA",
+          "departure": "13:40:00",
+          "arrival": "19:40:00",
+          "distance": 457.0,
+          "duration_min": 360.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_009",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 405.0,
+        "cost": 0.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 457.0
+      },
+      "segments": [
+        {
+          "train_no": "12926",
+          "train_name": "PASCHIM EXPR",
+          "from": "NDLS",
+          "to": "KOTA",
+          "departure": "16:45:00",
+          "arrival": "23:30:00",
+          "distance": 457.0,
+          "duration_min": 405.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_010",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 275.0,
+        "cost": 0.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 457.0
+      },
+      "segments": [
+        {
+          "train_no": "12952",
+          "train_name": "MUMBAI RAJDH",
+          "from": "NDLS",
+          "to": "KOTA",
+          "departure": "16:25:00",
+          "arrival": "21:00:00",
+          "distance": 457.0,
+          "duration_min": 275.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_011",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 585.0,
+        "cost": 0.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 457.0
+      },
+      "segments": [
+        {
+          "train_no": "19024",
+          "train_name": "FZR BCT JANT",
+          "from": "NDLS",
+          "to": "KOTA",
+          "departure": "13:30:00",
+          "arrival": "23:15:00",
+          "distance": 457.0,
+          "duration_min": 585.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_012",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 575.0,
+        "cost": 0.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 457.0
+      },
+      "segments": [
+        {
+          "train_no": "19804",
+          "train_name": "SVDK-KOTA WE",
+          "from": "NDLS",
+          "to": "KOTA",
+          "departure": "14:15:00",
+          "arrival": "23:50:00",
+          "distance": 457.0,
+          "duration_min": 575.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_013",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 450.0,
+        "cost": 0.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 457.0
+      },
+      "segments": [
+        {
+          "train_no": "19806",
+          "train_name": "UHP-KOTA WEE",
+          "from": "NDLS",
+          "to": "KOTA",
+          "departure": "03:40:00",
+          "arrival": "11:10:00",
+          "distance": 457.0,
+          "duration_min": 450.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_014",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 290.0,
+        "cost": 0.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 457.0
+      },
+      "segments": [
+        {
+          "train_no": "22210",
+          "train_name": "BCT DURONTO",
+          "from": "NDLS",
+          "to": "KOTA",
+          "departure": "23:25:00",
+          "arrival": "04:15:00",
+          "distance": 457.0,
+          "duration_min": 290.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_015",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1140.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 854.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "UMB",
+          "departure": "04:30:00",
+          "arrival": "09:20:00",
+          "distance": 199.0,
+          "duration_min": 290.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12926",
+          "train_name": "PASCHIM EXPR",
+          "from": "UMB",
+          "to": "KOTA",
+          "departure": "13:05:00",
+          "arrival": "23:30:00",
+          "distance": 655.0,
+          "duration_min": 625.0,
+          "wait_min": 225.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_016",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 915.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 854.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "UMB",
+          "departure": "04:30:00",
+          "arrival": "09:20:00",
+          "distance": 199.0,
+          "duration_min": 290.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12218",
+          "train_name": "KERALA S.KRA",
+          "from": "UMB",
+          "to": "KOTA",
+          "departure": "10:20:00",
+          "arrival": "19:45:00",
+          "distance": 655.0,
+          "duration_min": 565.0,
+          "wait_min": 60.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_017",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 910.0000000000001,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 854.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "UMB",
+          "departure": "04:30:00",
+          "arrival": "09:20:00",
+          "distance": 199.0,
+          "duration_min": 290.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12484",
+          "train_name": "KCVL EXPRESS",
+          "from": "UMB",
+          "to": "KOTA",
+          "departure": "10:20:00",
+          "arrival": "19:40:00",
+          "distance": 655.0,
+          "duration_min": 560.0,
+          "wait_min": 60.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_018",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1539.9999999999998,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1246.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "JRC",
+          "departure": "04:30:00",
+          "arrival": "14:43:00",
+          "distance": 419.0,
+          "duration_min": 613.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "22941",
+          "train_name": "INDB JAT SF",
+          "from": "JRC",
+          "to": "KOTA",
+          "departure": "21:28:00",
+          "arrival": "06:10:00",
+          "distance": 827.0,
+          "duration_min": 522.0,
+          "wait_min": 405.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_019",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2030.0000000000002,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1470.0
+      },
+      "segments": [
+        {
+          "train_no": "11057",
+          "train_name": "AMRITSAR EXP",
+          "from": "NDLS",
+          "to": "ASR",
+          "departure": "04:30:00",
+          "arrival": "16:30:00",
+          "distance": 502.0,
+          "duration_min": 720.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12904",
+          "train_name": "GOLDN TEMPLE",
+          "from": "ASR",
+          "to": "KOTA",
+          "departure": "21:25:00",
+          "arrival": "14:20:00",
+          "distance": 968.0,
+          "duration_min": 1015.0,
+          "wait_min": 295.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_020",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 375.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 457.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "NZM",
+          "departure": "20:45:00",
+          "arrival": "21:03:00",
+          "distance": 7.0,
+          "duration_min": 18.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12284",
+          "train_name": "NZM-ERS DURO",
+          "from": "NZM",
+          "to": "KOTA",
+          "departure": "21:35:00",
+          "arrival": "03:00:00",
+          "distance": 450.0,
+          "duration_min": 325.0,
+          "wait_min": 32.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_021",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 375.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 457.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "NZM",
+          "departure": "20:45:00",
+          "arrival": "21:03:00",
+          "distance": 7.0,
+          "duration_min": 18.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12494",
+          "train_name": "NZM-PUNE AC",
+          "from": "NZM",
+          "to": "KOTA",
+          "departure": "21:35:00",
+          "arrival": "03:00:00",
+          "distance": 450.0,
+          "duration_min": 325.0,
+          "wait_min": 32.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_022",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 375.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 457.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "NZM",
+          "departure": "20:45:00",
+          "arrival": "21:03:00",
+          "distance": 7.0,
+          "duration_min": 18.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12908",
+          "train_name": "MHRST SMPRK",
+          "from": "NZM",
+          "to": "KOTA",
+          "departure": "21:35:00",
+          "arrival": "03:00:00",
+          "distance": 450.0,
+          "duration_min": 325.0,
+          "wait_min": 32.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_023",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 565.0000000000001,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 458.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "NZM",
+          "departure": "20:45:00",
+          "arrival": "21:03:00",
+          "distance": 7.0,
+          "duration_min": 18.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12912",
+          "train_name": "HW BL SUP EX",
+          "from": "NZM",
+          "to": "KOTA",
+          "departure": "23:35:00",
+          "arrival": "06:10:00",
+          "distance": 451.0,
+          "duration_min": 395.0,
+          "wait_min": 152.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_024",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 370.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 455.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "NZM",
+          "departure": "20:45:00",
+          "arrival": "21:03:00",
+          "distance": 7.0,
+          "duration_min": 18.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12917",
+          "train_name": "GUJARAT SMPR",
+          "from": "NZM",
+          "to": "KOTA",
+          "departure": "00:00:00",
+          "arrival": "02:55:00",
+          "distance": 448.0,
+          "duration_min": 175.0,
+          "wait_min": 177.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_025",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 650.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 458.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "MTJ",
+          "departure": "20:45:00",
+          "arrival": "23:35:00",
+          "distance": 138.0,
+          "duration_min": 170.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "19020",
+          "train_name": "DEHRADUN EXP",
+          "from": "MTJ",
+          "to": "KOTA",
+          "departure": "01:35:00",
+          "arrival": "07:35:00",
+          "distance": 320.0,
+          "duration_min": 360.0,
+          "wait_min": 120.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_026",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 865.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 458.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "MTJ",
+          "departure": "20:45:00",
+          "arrival": "23:35:00",
+          "distance": 138.0,
+          "duration_min": 170.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "19806",
+          "train_name": "UHP-KOTA WEE",
+          "from": "MTJ",
+          "to": "KOTA",
+          "departure": "06:20:00",
+          "arrival": "11:10:00",
+          "distance": 320.0,
+          "duration_min": 290.0,
+          "wait_min": 405.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_027",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 570.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 458.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "MTJ",
+          "departure": "20:45:00",
+          "arrival": "23:35:00",
+          "distance": 138.0,
+          "duration_min": 170.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "22634",
+          "train_name": "NZM TVC SF E",
+          "from": "MTJ",
+          "to": "KOTA",
+          "departure": "02:02:00",
+          "arrival": "06:15:00",
+          "distance": 320.0,
+          "duration_min": 253.0,
+          "wait_min": 147.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_028",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 420.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 458.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "MTJ",
+          "departure": "20:45:00",
+          "arrival": "23:35:00",
+          "distance": 138.0,
+          "duration_min": 170.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12472",
+          "train_name": "SWARAJ EXPRE",
+          "from": "MTJ",
+          "to": "KOTA",
+          "departure": "00:10:00",
+          "arrival": "03:45:00",
+          "distance": 320.0,
+          "duration_min": 215.0,
+          "wait_min": 35.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_029",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 420.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 458.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "MTJ",
+          "departure": "20:45:00",
+          "arrival": "23:35:00",
+          "distance": 138.0,
+          "duration_min": 170.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12474",
+          "train_name": "SARVODAYA EX",
+          "from": "MTJ",
+          "to": "KOTA",
+          "departure": "00:10:00",
+          "arrival": "03:45:00",
+          "distance": 320.0,
+          "duration_min": 215.0,
+          "wait_min": 35.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_030",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 420.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 458.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "MTJ",
+          "departure": "20:45:00",
+          "arrival": "23:35:00",
+          "distance": 138.0,
+          "duration_min": 170.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12476",
+          "train_name": "SARVODAYA EX",
+          "from": "MTJ",
+          "to": "KOTA",
+          "departure": "00:10:00",
+          "arrival": "03:45:00",
+          "distance": 320.0,
+          "duration_min": 215.0,
+          "wait_min": 35.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_031",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 420.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 458.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "MTJ",
+          "departure": "20:45:00",
+          "arrival": "23:35:00",
+          "distance": 138.0,
+          "duration_min": 170.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12478",
+          "train_name": "SVDK- JAMNAG",
+          "from": "MTJ",
+          "to": "KOTA",
+          "departure": "00:10:00",
+          "arrival": "03:45:00",
+          "distance": 320.0,
+          "duration_min": 215.0,
+          "wait_min": 35.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_032",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1605.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 458.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "MTJ",
+          "departure": "20:45:00",
+          "arrival": "23:35:00",
+          "distance": 138.0,
+          "duration_min": 170.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12964",
+          "train_name": "MEWAR EXPRES",
+          "from": "MTJ",
+          "to": "KOTA",
+          "departure": "04:30:00",
+          "arrival": "23:30:00",
+          "distance": 320.0,
+          "duration_min": 1140.0,
+          "wait_min": 295.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_033",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 625.0000000000001,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 487.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "MTJ",
+          "departure": "20:45:00",
+          "arrival": "23:35:00",
+          "distance": 138.0,
+          "duration_min": 170.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "19062",
+          "train_name": "RMR BDTS EXP",
+          "from": "MTJ",
+          "to": "KOTA",
+          "departure": "01:30:00",
+          "arrival": "07:10:00",
+          "distance": 349.0,
+          "duration_min": 340.0,
+          "wait_min": 115.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_034",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 955.0000000000001,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 458.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "MTJ",
+          "departure": "20:45:00",
+          "arrival": "23:35:00",
+          "distance": 138.0,
+          "duration_min": 170.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "59356",
+          "train_name": "MTJ RATLAM P",
+          "from": "MTJ",
+          "to": "KOTA",
+          "departure": "05:00:00",
+          "arrival": "12:40:00",
+          "distance": 320.0,
+          "duration_min": 460.0,
+          "wait_min": 325.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_035",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 969.9999999999999,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 564.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "AGC",
+          "departure": "20:45:00",
+          "arrival": "00:35:00",
+          "distance": 191.0,
+          "duration_min": 230.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "13237",
+          "train_name": "PNBE- KOTA",
+          "from": "AGC",
+          "to": "KOTA",
+          "departure": "06:05:00",
+          "arrival": "12:55:00",
+          "distance": 373.0,
+          "duration_min": 410.0,
+          "wait_min": 330.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_036",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 969.9999999999999,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 564.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "AGC",
+          "departure": "20:45:00",
+          "arrival": "00:35:00",
+          "distance": 191.0,
+          "duration_min": 230.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "13239",
+          "train_name": "PNBE-KOTA EX",
+          "from": "AGC",
+          "to": "KOTA",
+          "departure": "06:05:00",
+          "arrival": "12:55:00",
+          "distance": 373.0,
+          "duration_min": 410.0,
+          "wait_min": 330.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_037",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1095.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 520.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "AGC",
+          "departure": "20:45:00",
+          "arrival": "00:35:00",
+          "distance": 191.0,
+          "duration_min": 230.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "19042",
+          "train_name": "GCT BANDRA(T",
+          "from": "AGC",
+          "to": "KOTA",
+          "departure": "08:30:00",
+          "arrival": "15:00:00",
+          "distance": 329.0,
+          "duration_min": 390.0,
+          "wait_min": 475.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_038",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1325.0000000000002,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 850.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "BINA",
+          "departure": "20:45:00",
+          "arrival": "08:55:00",
+          "distance": 547.0,
+          "duration_min": 730.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "51612",
+          "train_name": "BINA-KOTA PA",
+          "from": "BINA",
+          "to": "KOTA",
+          "departure": "10:00:00",
+          "arrival": "18:50:00",
+          "distance": 303.0,
+          "duration_min": 530.0,
+          "wait_min": 65.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_039",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1740.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1328.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "ET",
+          "departure": "20:45:00",
+          "arrival": "13:15:00",
+          "distance": 777.0,
+          "duration_min": 990.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12967",
+          "train_name": "JAIPUR EXP",
+          "from": "ET",
+          "to": "KOTA",
+          "departure": "16:00:00",
+          "arrival": "01:45:00",
+          "distance": 551.0,
+          "duration_min": 585.0,
+          "wait_min": 165.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_040",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1740.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1328.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "ET",
+          "departure": "20:45:00",
+          "arrival": "13:15:00",
+          "distance": 777.0,
+          "duration_min": 990.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12969",
+          "train_name": "CBE JAIPUR E",
+          "from": "ET",
+          "to": "KOTA",
+          "departure": "16:00:00",
+          "arrival": "01:45:00",
+          "distance": 551.0,
+          "duration_min": 585.0,
+          "wait_min": 165.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_041",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1740.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1328.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "ET",
+          "departure": "20:45:00",
+          "arrival": "13:15:00",
+          "distance": 777.0,
+          "duration_min": 990.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12975",
+          "train_name": "MYS JP SF EX",
+          "from": "ET",
+          "to": "KOTA",
+          "departure": "16:00:00",
+          "arrival": "01:45:00",
+          "distance": 551.0,
+          "duration_min": 585.0,
+          "wait_min": 165.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_042",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1740.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1328.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "ET",
+          "departure": "20:45:00",
+          "arrival": "13:15:00",
+          "distance": 777.0,
+          "duration_min": 990.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "19714",
+          "train_name": "SC JP EXP",
+          "from": "ET",
+          "to": "KOTA",
+          "departure": "16:00:00",
+          "arrival": "01:45:00",
+          "distance": 551.0,
+          "duration_min": 585.0,
+          "wait_min": 165.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_043",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1740.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1328.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "ET",
+          "departure": "20:45:00",
+          "arrival": "13:15:00",
+          "distance": 777.0,
+          "duration_min": 990.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "20813",
+          "train_name": "PURI-JODHPUR",
+          "from": "ET",
+          "to": "KOTA",
+          "departure": "16:00:00",
+          "arrival": "01:45:00",
+          "distance": 551.0,
+          "duration_min": 585.0,
+          "wait_min": 165.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_044",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2010.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1328.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "ET",
+          "departure": "20:45:00",
+          "arrival": "13:15:00",
+          "distance": 777.0,
+          "duration_min": 990.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "16864",
+          "train_name": "MQ-BGKT",
+          "from": "ET",
+          "to": "KOTA",
+          "departure": "20:05:00",
+          "arrival": "06:15:00",
+          "distance": 551.0,
+          "duration_min": 610.0,
+          "wait_min": 410.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_045",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2010.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1328.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "ET",
+          "departure": "20:45:00",
+          "arrival": "13:15:00",
+          "distance": 777.0,
+          "duration_min": 990.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "22631",
+          "train_name": "MAS-BKN ANUR",
+          "from": "ET",
+          "to": "KOTA",
+          "departure": "20:05:00",
+          "arrival": "06:15:00",
+          "distance": 551.0,
+          "duration_min": 610.0,
+          "wait_min": 410.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_046",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1525.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2387.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "KYN",
+          "departure": "20:45:00",
+          "arrival": "02:42:00",
+          "distance": 1475.0,
+          "duration_min": 357.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12493",
+          "train_name": "PUNE-NZM AC",
+          "from": "KYN",
+          "to": "KOTA",
+          "departure": "07:50:00",
+          "arrival": "22:10:00",
+          "distance": 912.0,
+          "duration_min": 860.0,
+          "wait_min": 308.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_047",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 964.9999999999999,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2387.0
+      },
+      "segments": [
+        {
+          "train_no": "11058",
+          "train_name": "ASR CSMT EXP",
+          "from": "NDLS",
+          "to": "KYN",
+          "departure": "20:45:00",
+          "arrival": "02:42:00",
+          "distance": 1475.0,
+          "duration_min": 357.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12940",
+          "train_name": "JP PUNE SF E",
+          "from": "KYN",
+          "to": "KOTA",
+          "departure": "05:15:00",
+          "arrival": "12:50:00",
+          "distance": 912.0,
+          "duration_min": 455.0,
+          "wait_min": 153.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_048",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2269.9999999999995,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1609.0
+      },
+      "segments": [
+        {
+          "train_no": "11077",
+          "train_name": "JHELUM EXPRE",
+          "from": "NDLS",
+          "to": "JAT",
+          "departure": "21:20:00",
+          "arrival": "10:05:00",
+          "distance": 576.0,
+          "duration_min": 765.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "19806",
+          "train_name": "UHP-KOTA WEE",
+          "from": "JAT",
+          "to": "KOTA",
+          "departure": "16:05:00",
+          "arrival": "11:10:00",
+          "distance": 1033.0,
+          "duration_min": 1145.0,
+          "wait_min": 360.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_049",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1005.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2632.0
+      },
+      "segments": [
+        {
+          "train_no": "11078",
+          "train_name": "JHELUM EXPRE",
+          "from": "NDLS",
+          "to": "PUNE",
+          "departure": "10:15:00",
+          "arrival": "15:10:00",
+          "distance": 1581.0,
+          "duration_min": 295.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12494",
+          "train_name": "NZM-PUNE AC",
+          "from": "PUNE",
+          "to": "KOTA",
+          "departure": "21:25:00",
+          "arrival": "03:00:00",
+          "distance": 1051.0,
+          "duration_min": 335.0,
+          "wait_min": 375.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_050",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1385.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 857.0
+      },
+      "segments": [
+        {
+          "train_no": "11449",
+          "train_name": "JBP-SVDK EXP",
+          "from": "NDLS",
+          "to": "JHL",
+          "departure": "00:10:00",
+          "arrival": "04:00:00",
+          "distance": 200.0,
+          "duration_min": 230.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "19024",
+          "train_name": "FZR BCT JANT",
+          "from": "JHL",
+          "to": "KOTA",
+          "departure": "08:36:00",
+          "arrival": "23:15:00",
+          "distance": 657.0,
+          "duration_min": 879.0,
+          "wait_min": 276.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_051",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1419.9999999999998,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1797.0
+      },
+      "segments": [
+        {
+          "train_no": "11449",
+          "train_name": "JBP-SVDK EXP",
+          "from": "NDLS",
+          "to": "SVDK",
+          "departure": "00:10:00",
+          "arrival": "15:20:00",
+          "distance": 670.0,
+          "duration_min": 910.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "19804",
+          "train_name": "SVDK-KOTA WE",
+          "from": "SVDK",
+          "to": "KOTA",
+          "departure": "21:55:00",
+          "arrival": "23:50:00",
+          "distance": 1127.0,
+          "duration_min": 115.0,
+          "wait_min": 395.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_052",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1310.0000000000002,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 983.0
+      },
+      "segments": [
+        {
+          "train_no": "11449",
+          "train_name": "JBP-SVDK EXP",
+          "from": "NDLS",
+          "to": "SGO",
+          "departure": "00:10:00",
+          "arrival": "10:40:00",
+          "distance": 612.0,
+          "duration_min": 630.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "18009",
+          "train_name": "SRC - AII EX",
+          "from": "SGO",
+          "to": "KOTA",
+          "departure": "14:20:00",
+          "arrival": "22:00:00",
+          "distance": 371.0,
+          "duration_min": 460.0,
+          "wait_min": 220.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_053",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1575.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1138.0
+      },
+      "segments": [
+        {
+          "train_no": "11449",
+          "train_name": "JBP-SVDK EXP",
+          "from": "NDLS",
+          "to": "DMO",
+          "departure": "00:10:00",
+          "arrival": "09:38:00",
+          "distance": 689.0,
+          "duration_min": 568.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "18010",
+          "train_name": "AII-SRC EXP",
+          "from": "DMO",
+          "to": "KOTA",
+          "departure": "12:15:00",
+          "arrival": "02:25:00",
+          "distance": 449.0,
+          "duration_min": 850.0,
+          "wait_min": 157.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_054",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1524.9999999999998,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1138.0
+      },
+      "segments": [
+        {
+          "train_no": "11449",
+          "train_name": "JBP-SVDK EXP",
+          "from": "NDLS",
+          "to": "DMO",
+          "departure": "00:10:00",
+          "arrival": "09:38:00",
+          "distance": 689.0,
+          "duration_min": 568.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "18208",
+          "train_name": "AII  - DURG",
+          "from": "DMO",
+          "to": "KOTA",
+          "departure": "10:25:00",
+          "arrival": "01:35:00",
+          "distance": 449.0,
+          "duration_min": 910.0,
+          "wait_min": 47.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_055",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1524.9999999999998,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1137.0
+      },
+      "segments": [
+        {
+          "train_no": "11449",
+          "train_name": "JBP-SVDK EXP",
+          "from": "NDLS",
+          "to": "DMO",
+          "departure": "00:10:00",
+          "arrival": "09:38:00",
+          "distance": 689.0,
+          "duration_min": 568.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "18214",
+          "train_name": "JP - DURG EX",
+          "from": "DMO",
+          "to": "KOTA",
+          "departure": "10:25:00",
+          "arrival": "01:35:00",
+          "distance": 448.0,
+          "duration_min": 910.0,
+          "wait_min": 47.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_056",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1310.0000000000002,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 983.0
+      },
+      "segments": [
+        {
+          "train_no": "11449",
+          "train_name": "JBP-SVDK EXP",
+          "from": "NDLS",
+          "to": "SGO",
+          "departure": "00:10:00",
+          "arrival": "10:40:00",
+          "distance": 612.0,
+          "duration_min": 630.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "19607",
+          "train_name": "KOAA AII EXP",
+          "from": "SGO",
+          "to": "KOTA",
+          "departure": "14:20:00",
+          "arrival": "22:00:00",
+          "distance": 371.0,
+          "duration_min": 460.0,
+          "wait_min": 220.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_057",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1569.9999999999998,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1137.0
+      },
+      "segments": [
+        {
+          "train_no": "11449",
+          "train_name": "JBP-SVDK EXP",
+          "from": "NDLS",
+          "to": "DMO",
+          "departure": "00:10:00",
+          "arrival": "09:38:00",
+          "distance": 689.0,
+          "duration_min": 568.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "19608",
+          "train_name": "AII KOAA EXP",
+          "from": "DMO",
+          "to": "KOTA",
+          "departure": "12:15:00",
+          "arrival": "02:20:00",
+          "distance": 448.0,
+          "duration_min": 845.0,
+          "wait_min": 157.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_058",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1490.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 842.0
+      },
+      "segments": [
+        {
+          "train_no": "11449",
+          "train_name": "JBP-SVDK EXP",
+          "from": "NDLS",
+          "to": "MAKR",
+          "departure": "00:10:00",
+          "arrival": "12:18:00",
+          "distance": 541.0,
+          "duration_min": 728.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "19659",
+          "train_name": "SHM UDZ EXPR",
+          "from": "MAKR",
+          "to": "KOTA",
+          "departure": "18:10:00",
+          "arrival": "01:00:00",
+          "distance": 301.0,
+          "duration_min": 410.0,
+          "wait_min": 352.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_059",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1530.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1138.0
+      },
+      "segments": [
+        {
+          "train_no": "11449",
+          "train_name": "JBP-SVDK EXP",
+          "from": "NDLS",
+          "to": "DMO",
+          "departure": "00:10:00",
+          "arrival": "09:38:00",
+          "distance": 689.0,
+          "duration_min": 568.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "19660",
+          "train_name": "UDZ SHM EXP",
+          "from": "DMO",
+          "to": "KOTA",
+          "departure": "12:15:00",
+          "arrival": "01:40:00",
+          "distance": 449.0,
+          "duration_min": 805.0,
+          "wait_min": 157.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_060",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1865.0000000000002,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1545.0
+      },
+      "segments": [
+        {
+          "train_no": "11450",
+          "train_name": "SVDK-JBP EXP",
+          "from": "NDLS",
+          "to": "JBP",
+          "departure": "14:15:00",
+          "arrival": "07:25:00",
+          "distance": 894.0,
+          "duration_min": 1030.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12182",
+          "train_name": "AII-JBP DAYO",
+          "from": "JBP",
+          "to": "KOTA",
+          "departure": "08:45:00",
+          "arrival": "21:20:00",
+          "distance": 651.0,
+          "duration_min": 755.0,
+          "wait_min": 80.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_061",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1230.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 501.0
+      },
+      "segments": [
+        {
+          "train_no": "12004",
+          "train_name": "NDLS-LKO SHA",
+          "from": "NDLS",
+          "to": "GZB",
+          "departure": "06:10:00",
+          "arrival": "06:48:00",
+          "distance": 25.0,
+          "duration_min": 38.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12911",
+          "train_name": "BL HARIDWAR",
+          "from": "GZB",
+          "to": "KOTA",
+          "departure": "11:42:00",
+          "arrival": "02:40:00",
+          "distance": 476.0,
+          "duration_min": 898.0,
+          "wait_min": 294.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_062",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 814.9999999999999,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 502.0
+      },
+      "segments": [
+        {
+          "train_no": "12004",
+          "train_name": "NDLS-LKO SHA",
+          "from": "NDLS",
+          "to": "GZB",
+          "departure": "06:10:00",
+          "arrival": "06:48:00",
+          "distance": 25.0,
+          "duration_min": 38.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "22660",
+          "train_name": "DDN KCVL SUP",
+          "from": "GZB",
+          "to": "KOTA",
+          "departure": "12:32:00",
+          "arrival": "19:45:00",
+          "distance": 477.0,
+          "duration_min": 433.0,
+          "wait_min": 344.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_063",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 695.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 561.0
+      },
+      "segments": [
+        {
+          "train_no": "12004",
+          "train_name": "NDLS-LKO SHA",
+          "from": "NDLS",
+          "to": "TDL",
+          "departure": "06:10:00",
+          "arrival": "08:49:00",
+          "distance": 209.0,
+          "duration_min": 159.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12942",
+          "train_name": "PARASNATH EX",
+          "from": "TDL",
+          "to": "KOTA",
+          "departure": "11:40:00",
+          "arrival": "17:45:00",
+          "distance": 352.0,
+          "duration_min": 365.0,
+          "wait_min": 171.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_064",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1515.0000000000002,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1002.0
+      },
+      "segments": [
+        {
+          "train_no": "12004",
+          "train_name": "NDLS-LKO SHA",
+          "from": "NDLS",
+          "to": "CNB",
+          "departure": "06:10:00",
+          "arrival": "11:20:00",
+          "distance": 430.0,
+          "duration_min": 310.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12947",
+          "train_name": "AZIMABAD EXP",
+          "from": "CNB",
+          "to": "KOTA",
+          "departure": "19:05:00",
+          "arrival": "07:25:00",
+          "distance": 572.0,
+          "duration_min": 740.0,
+          "wait_min": 465.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_065",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1495.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 1129.0
+      },
+      "segments": [
+        {
+          "train_no": "12004",
+          "train_name": "NDLS-LKO SHA",
+          "from": "NDLS",
+          "to": "CNB",
+          "departure": "06:10:00",
+          "arrival": "11:20:00",
+          "distance": 430.0,
+          "duration_min": 310.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "22443",
+          "train_name": "CNB-BDTS EXP",
+          "from": "CNB",
+          "to": "KOTA",
+          "departure": "18:20:00",
+          "arrival": "07:05:00",
+          "distance": 699.0,
+          "duration_min": 765.0,
+          "wait_min": 420.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_066",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1005.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 942.0
+      },
+      "segments": [
+        {
+          "train_no": "12005",
+          "train_name": "NDLS-KLK- SH",
+          "from": "NDLS",
+          "to": "CDG",
+          "departure": "17:15:00",
+          "arrival": "20:40:00",
+          "distance": 243.0,
+          "duration_min": 205.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12449",
+          "train_name": "GOA SMPRK K",
+          "from": "CDG",
+          "to": "KOTA",
+          "departure": "00:00:00",
+          "arrival": "10:00:00",
+          "distance": 699.0,
+          "duration_min": 600.0,
+          "wait_min": 200.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_067",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1195.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 943.0
+      },
+      "segments": [
+        {
+          "train_no": "12005",
+          "train_name": "NDLS-KLK- SH",
+          "from": "NDLS",
+          "to": "CDG",
+          "departure": "17:15:00",
+          "arrival": "20:40:00",
+          "distance": 243.0,
+          "duration_min": 205.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12450",
+          "train_name": "GOA SMPRK KR",
+          "from": "CDG",
+          "to": "KOTA",
+          "departure": "02:05:00",
+          "arrival": "13:10:00",
+          "distance": 700.0,
+          "duration_min": 665.0,
+          "wait_min": 325.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_068",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 915.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 758.0
+      },
+      "segments": [
+        {
+          "train_no": "12015",
+          "train_name": "NDLS-AII SHA",
+          "from": "NDLS",
+          "to": "KSG",
+          "departure": "06:05:00",
+          "arrival": "12:12:00",
+          "distance": 413.0,
+          "duration_min": 367.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12182",
+          "train_name": "AII-JBP DAYO",
+          "from": "KSG",
+          "to": "KOTA",
+          "departure": "15:58:00",
+          "arrival": "21:20:00",
+          "distance": 345.0,
+          "duration_min": 322.0,
+          "wait_min": 226.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_069",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1220.0000000000002,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 799.0
+      },
+      "segments": [
+        {
+          "train_no": "12015",
+          "train_name": "NDLS-AII SHA",
+          "from": "NDLS",
+          "to": "AII",
+          "departure": "06:05:00",
+          "arrival": "12:45:00",
+          "distance": 442.0,
+          "duration_min": 400.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "18010",
+          "train_name": "AII-SRC EXP",
+          "from": "AII",
+          "to": "KOTA",
+          "departure": "19:25:00",
+          "arrival": "02:25:00",
+          "distance": 357.0,
+          "duration_min": 420.0,
+          "wait_min": 400.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_070",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1170.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 758.0
+      },
+      "segments": [
+        {
+          "train_no": "12015",
+          "train_name": "NDLS-AII SHA",
+          "from": "NDLS",
+          "to": "KSG",
+          "departure": "06:05:00",
+          "arrival": "12:12:00",
+          "distance": 413.0,
+          "duration_min": 367.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "18208",
+          "train_name": "AII  - DURG",
+          "from": "KSG",
+          "to": "KOTA",
+          "departure": "19:59:00",
+          "arrival": "01:35:00",
+          "distance": 345.0,
+          "duration_min": 336.0,
+          "wait_min": 467.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_071",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1215.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 800.0
+      },
+      "segments": [
+        {
+          "train_no": "12015",
+          "train_name": "NDLS-AII SHA",
+          "from": "NDLS",
+          "to": "AII",
+          "departure": "06:05:00",
+          "arrival": "12:45:00",
+          "distance": 442.0,
+          "duration_min": 400.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "19608",
+          "train_name": "AII KOAA EXP",
+          "from": "AII",
+          "to": "KOTA",
+          "departure": "19:25:00",
+          "arrival": "02:20:00",
+          "distance": 358.0,
+          "duration_min": 415.0,
+          "wait_min": 400.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_072",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1224.9999999999998,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 800.0
+      },
+      "segments": [
+        {
+          "train_no": "12015",
+          "train_name": "NDLS-AII SHA",
+          "from": "NDLS",
+          "to": "JP",
+          "departure": "06:05:00",
+          "arrival": "10:40:00",
+          "distance": 308.0,
+          "duration_min": 275.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "11204",
+          "train_name": "JAIPUR NAGPU",
+          "from": "JP",
+          "to": "KOTA",
+          "departure": "16:30:00",
+          "arrival": "02:30:00",
+          "distance": 492.0,
+          "duration_min": 600.0,
+          "wait_min": 350.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_073",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1635.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 547.0
+      },
+      "segments": [
+        {
+          "train_no": "12015",
+          "train_name": "NDLS-AII SHA",
+          "from": "NDLS",
+          "to": "JP",
+          "departure": "06:05:00",
+          "arrival": "10:40:00",
+          "distance": 308.0,
+          "duration_min": 275.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12939",
+          "train_name": "PUNE JAIPUR",
+          "from": "JP",
+          "to": "KOTA",
+          "departure": "13:40:00",
+          "arrival": "09:20:00",
+          "distance": 239.0,
+          "duration_min": 1180.0,
+          "wait_min": 180.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_074",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 679.9999999999999,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 547.0
+      },
+      "segments": [
+        {
+          "train_no": "12015",
+          "train_name": "NDLS-AII SHA",
+          "from": "NDLS",
+          "to": "JP",
+          "departure": "06:05:00",
+          "arrival": "10:40:00",
+          "distance": 308.0,
+          "duration_min": 275.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "12956",
+          "train_name": "JP BCT SUPFA",
+          "from": "JP",
+          "to": "KOTA",
+          "departure": "14:00:00",
+          "arrival": "17:25:00",
+          "distance": 239.0,
+          "duration_min": 205.0,
+          "wait_min": 200.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_075",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 645.0,
+        "cost": 0.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 547.0
+      },
+      "segments": [
+        {
+          "train_no": "12015",
+          "train_name": "NDLS-AII SHA",
+          "from": "NDLS",
+          "to": "JP",
+          "departure": "06:05:00",
+          "arrival": "10:40:00",
+          "distance": 308.0,
+          "duration_min": 275.0,
+          "wait_min": 0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        },
+        {
+          "train_no": "22934",
+          "train_name": "JP BDTS SF E",
+          "from": "JP",
+          "to": "KOTA",
+          "departure": "12:45:00",
+          "arrival": "16:50:00",
+          "distance": 239.0,
+          "duration_min": 245.0,
+          "wait_min": 125.0,
+          "live_seat_availability": "UNKNOWN",
+          "live_fare": 0.0
+        }
+      ]
+    }
+  ]
+}

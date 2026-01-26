@@ -1,0 +1,82 @@
+# Quick Reference - Fixing "Search Failed"
+
+## The Problem
+Frontend shows "Search Failed" when you try to search for routes.
+
+## The Solution (Choose One)
+
+### Option 1: Quickest Fix (Recommended)
+```bash
+START_SERVERS.bat
+```
+That's it! Double-click the batch file.
+
+### Option 2: Manual (PowerShell)
+```powershell
+# Window 1:
+python api.py
+
+# Window 2:
+npm run dev
+```
+
+### Option 3: Manual (Command Prompt)
+```cmd
+# Window 1:
+python api.py
+
+# Window 2:
+npm run dev
+```
+
+## Verify It's Working
+1. Wait for both windows to show they're running
+2. Open: http://localhost:5173 in browser
+3. Try searching (NDLS → KOTA)
+4. Should see routes in 30-60 seconds
+
+## If It Still Fails
+
+### Check API is Running
+```bash
+python quick_api_test.py
+```
+- If it says `[ERROR] Cannot connect`: API isn't running
+- If it says `[OK] Found routes`: API works, it's frontend problem
+
+### Check System
+```bash
+python DIAGNOSTIC.py
+```
+Will show you what's working and what's not.
+
+### Check Browser Console
+1. Press F12
+2. Go to Console tab
+3. Look for red errors
+4. Messages starting with `[Search]` show what's happening
+
+## Common Issues
+
+| Problem | Solution |
+|---------|----------|
+| "Cannot connect to localhost:5000" | Run `python api.py` |
+| "npm: command not found" | Install Node.js from nodejs.org |
+| "No routes found" | Try different stations (NDLS, KOTA, PGT, HWH, CSMT) |
+| Port already in use | Close other instances or use different port |
+| Search takes forever | Normal for first search (30-60 sec), check API window for errors |
+
+## Important Notes
+
+- Keep both terminal windows OPEN while using the app
+- First search is slow, subsequent ones are fast (cached)
+- Don't close the windows unless you want to stop the server
+- If something breaks, just close both windows and start over
+
+## Still Not Working?
+
+1. Close all windows
+2. Run: `python DIAGNOSTIC.py`
+3. Read the output carefully
+4. Fix based on what it shows
+5. Read: FIX_SEARCH_FAILED.md for detailed instructions

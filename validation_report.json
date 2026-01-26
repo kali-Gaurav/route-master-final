@@ -1,0 +1,163 @@
+{
+  "summary": {
+    "total_records": 186119,
+    "total_columns": 12,
+    "completeness_by_column": {
+      "Train No": 100.0,
+      "Train Name": 100.0,
+      "SEQ": 100.0,
+      "Station Code": 100.0,
+      "Station Name": 100.0,
+      "Arrival time": 100.0,
+      "Departure Time": 100.0,
+      "Distance": 100.0,
+      "Source Station": 100.0,
+      "Source Station Name": 100.0,
+      "Destination Station": 100.0,
+      "Destination Station Name": 100.0
+    }
+  },
+  "critical_issues": [],
+  "column_issues": {
+    "null_values": {
+      "Train No": {
+        "count": "0",
+        "percentage": 0.0
+      },
+      "Station Code": {
+        "count": "0",
+        "percentage": 0.0
+      },
+      "SEQ": {
+        "count": "0",
+        "percentage": 0.0
+      }
+    },
+    "Station Code": {
+      "empty": "0",
+      "numeric_only": {
+        "count": "0",
+        "examples": []
+      },
+      "too_short": {
+        "count": "471",
+        "examples": [
+          "R",
+          "G",
+          "J",
+          "S",
+          "Y",
+          "D"
+        ]
+      },
+      "too_long": {
+        "count": "0",
+        "examples": []
+      },
+      "with_spaces": {
+        "count": "0",
+        "examples": []
+      },
+      "with_special_chars": {
+        "count": "0",
+        "examples": []
+      },
+      "valid_codes": "185648"
+    },
+    "Train No": {
+      "empty": "0",
+      "non_numeric": {
+        "count": "0",
+        "examples": []
+      },
+      "valid": "186119",
+      "stats": {
+        "min": 107,
+        "max": 99908,
+        "count_unique": 11112
+      }
+    },
+    "Time Columns": {
+      "Arrival time": {
+        "empty": "5",
+        "invalid_format": {
+          "count": "0",
+          "examples": []
+        }
+      },
+      "Departure Time": {
+        "empty": "5",
+        "invalid_format": {
+          "count": "0",
+          "examples": []
+        }
+      }
+    },
+    "Distance": {
+      "empty": "5",
+      "non_numeric": {
+        "count": "0",
+        "examples": []
+      },
+      "negative": "0",
+      "unrealistic": {
+        "count": "0",
+        "examples": []
+      },
+      "stats": {
+        "min": 0.0,
+        "max": 4260.0,
+        "mean": 281.6017602114833,
+        "median": 73.0,
+        "valid_count": 186114
+      }
+    },
+    "Text Fields": {
+      "Station Name": {
+        "empty": "0",
+        "very_short": {
+          "count": "0",
+          "examples": []
+        }
+      },
+      "Source Station Name": {
+        "empty": "5",
+        "very_short": {
+          "count": "0",
+          "examples": []
+        }
+      },
+      "Destination Station Name": {
+        "empty": "5",
+        "very_short": {
+          "count": "0",
+          "examples": []
+        }
+      },
+      "Train Name": {
+        "empty": "0",
+        "very_short": {
+          "count": "0",
+          "examples": []
+        }
+      }
+    },
+    "SEQ": {
+      "empty": "0",
+      "non_numeric": {
+        "count": "0",
+        "examples": []
+      },
+      "stats": {
+        "min": 1,
+        "max": 118,
+        "valid_count": 186119
+      }
+    }
+  },
+  "row_quality_stats": {},
+  "invalid_records": [],
+  "recommendations": [
+    "Review 471 station codes that are too short (<2 chars). Examples: ['R', 'G', 'J', 'S', 'Y', 'D']"
+  ]
+}

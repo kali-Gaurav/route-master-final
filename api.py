@@ -250,8 +250,8 @@ def _clamp_max_transfers(value: str | int | None) -> int:
     try:
         transfers = int(value)
     except (TypeError, ValueError):
-        transfers = 3
-    return max(0, min(3, transfers))
+        transfers = 4
+    return max(0, min(4, transfers))
 
 
 def _normalize_validation_mode(value: str) -> str:
@@ -319,7 +319,7 @@ def routes_endpoint():
         if not origin or not destination:
             return jsonify({"error": "Origin and destination are required."}), 400
 
-        max_transfers = _clamp_max_transfers(request.args.get('max_transfers', 3))
+        max_transfers = _clamp_max_transfers(request.args.get('max_transfers', 4))
         travel_date_raw = request.args.get('date', datetime.now().strftime('%d-%m-%Y'))
         travel_date_obj = _parse_travel_date(travel_date_raw)
         travel_date_str = travel_date_obj.strftime('%d-%m-%Y')
@@ -1191,7 +1191,7 @@ if __name__ == '__main__':
     print("\n[*] API ENDPOINTS:")
     print("\n  ROUTE OPTIMIZATION:")
     print("   - GET /api/routes (main endpoint - returns optimized routes with validation)")
-    print("     Params: origin, destination, max_transfers (default=3), date, validation (default='dual')")
+    print("     Params: origin, destination, max_transfers (default=4, max=4), date, validation (default='dual')")
     print("\n  RAPPID API INTEGRATION:")
     print("   - GET /api/train-data (get comprehensive train data)")
     print("   - GET /api/train-schedule (get detailed schedule)")

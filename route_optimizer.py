@@ -196,9 +196,10 @@ class ParetoTrainRouter:
     def train_info(self):
         return self._graph_cache.train_info
 
-    def find_routes(self, origin: str, destination: str, max_transfers: int = 3) -> List[List[Dict]]:
+    def find_routes(self, origin: str, destination: str, max_transfers: int = 4) -> List[List[Dict]]:
         """
         Find all routes from origin to destination with ≤ max_transfers transfers.
+        Supports up to 4 transfers (5 journey segments).
         Returns: List of routes, each route is a list of segments
         """
         origin_id = self.station_to_id.get(origin)
@@ -435,10 +436,11 @@ class ParetoTrainRouter:
         
         return direct_trains
     
-    def generate_all_routes(self, source, destination, max_transfers=3):
+    def generate_all_routes(self, source, destination, max_transfers=4):
         """
         Generate comprehensive route set using multi-strategy search
-        Returns: List of all feasible routes (200-300 routes)
+        Supports routes with up to 4 transfers (5 journey segments).
+        Returns: List of all feasible routes (300-400 routes)
         """
         source_id = self.station_to_id[source]
         dest_id = self.station_to_id[destination]
@@ -886,10 +888,10 @@ def main():
     
     while True:
         try:
-            max_transfers = int(input("Maximum transfers allowed (0-3): "))
-            if 0 <= max_transfers <= 3:
+            max_transfers = int(input("Maximum transfers allowed (0-4): "))
+            if 0 <= max_transfers <= 4:
                 break
-            print("Please enter 0-3")
+            print("Please enter 0-4")
         except ValueError:
             print("Invalid input")
 
@@ -1000,8 +1002,8 @@ def save_results(router, optimal_routes, categories, all_routes, pareto_front, s
         obj = router.calculate_route_objectives(route)
 
 
-def get_routes_data(origin: str, destination: str, max_transfers: int = 3) -> Dict:
-    """Convenience function for API integration."""
+def get_routes_data(origin: str, destination: str, max_transfers: int = 4) -> Dict:
+    """Convenience function for API integration. Supports up to 4 transfers."""
     try:
         router = ParetoTrainRouter()
         all_routes = router.find_routes(origin, destination, max_transfers)

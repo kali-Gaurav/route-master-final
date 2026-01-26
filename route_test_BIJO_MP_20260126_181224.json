@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-26T18:12:24.190878",
+  "source": "BIJO",
+  "destination": "MP",
+  "statistics": {
+    "total_routes_generated": 0,
+    "direct_routes": 0,
+    "single_transfer_routes": 0,
+    "multi_transfer_routes": 0,
+    "pareto_optimal_routes": 0,
+    "generation_time_seconds": 0.01,
+    "optimization_time_seconds": 0.0
+  },
+  "optimal_routes": [],
+  "sample_all_routes": []
+}
