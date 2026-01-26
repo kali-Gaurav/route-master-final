@@ -50,20 +50,27 @@ logger.setLevel(logging.INFO)
 
 app = Flask("route-master-api", static_url_path='', static_folder='.')
 
-# Configure CORS for production deployment
+# Configure CORS for production deployment (Vercel-compatible)
 cors_origins = os.getenv('CORS_ORIGINS', '*').split(',')
 cors_config = {
-    "origins": [origin.strip() for origin in cors_origins],
+    "origins": [origin.strip() for origin in cors_origins] if '*' not in cors_origins else ["*"],
     "methods": ["GET", "POST", "OPTIONS"],
     "allow_headers": ["Content-Type", "Authorization"],
-    "max_age": 3600
+    "max_age": 3600,
+    "supports_credentials": False
 }
-if '*' in cors_origins:
-    # Allow all origins for development
-    CORS(app)
-else:
-    # Restrict to specific origins for production
-    CORS(app, resources={r"/api/*": cors_config})
+
+# Allow all origins for both development and production on Vercel
+CORS(app, resources={r"/api/*": cors_config}, origins="*", methods=["GET", "POST", "OPTIONS"])
+
+# Additional production-ready CORS headers for API routes
+@app.after_request
+def add_cors_headers(response):
+    response.headers['Access-Control-Allow-Origin'] = request.headers.get('Origin', '*')
+    response.headers['Access-Control-Allow-Methods'] = 'GET, POST, OPTIONS'
+    response.headers['Access-Control-Allow-Headers'] = 'Content-Type, Authorization'
+    response.headers['Access-Control-Max-Age'] = '3600'
+    return response
 
 app.start_time = time.time()
 
