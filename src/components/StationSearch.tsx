@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from "react";
-import { Search, MapPin, Loader2 } from "lucide-react";
+import { Search, MapPin, Loader2, Landmark } from "lucide-react";
+import React from "react";
 import { cn, getApiUrl } from "@/lib/utils";
 
 interface Station {
@@ -27,62 +28,89 @@ export function StationSearch({
 }: StationSearchProps) {
   const [query, setQuery] = useState(value ? `${value.name} (${value.code})` : "");
   const [isOpen, setIsOpen] = useState(false);
-  const [results, setResults] = useState<Station[]>([]);
+  const [results, setResults] = useState<any[]>([]);
+  const [groupedCity, setGroupedCity] = useState<string | null>(null);
+  const [highlightedIdx, setHighlightedIdx] = useState<number>(-1);
   const [isLoading, setIsLoading] = useState(false);
   const [searchError, setSearchError] = useState<string | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const dropdownRef = useRef<HTMLDivElement>(null);
   const debounceTimerRef = useRef<NodeJS.Timeout>();
+  const resultsCache = useRef<Map<string, any[]>>(new Map());
 
-  // Fetch stations from API with proper error handling
+  // Scroll highlighted item into view
+  useEffect(() => {
+    if (highlightedIdx >= 0 && dropdownRef.current) {
+      const highlightedElement = dropdownRef.current.querySelector(`[data-idx="${highlightedIdx}"]`) as HTMLElement;
+      if (highlightedElement) {
+        highlightedElement.scrollIntoView({
+          block: 'nearest',
+          behavior: 'smooth'
+        });
+      }
+    }
+  }, [highlightedIdx]);
+
+  // Fetch stations from API with proper error handling and caching
   const fetchStations = useCallback(async (searchQuery: string) => {
     if (searchQuery.length < 2) {
       setResults([]);
+      setGroupedCity(null);
       setIsOpen(false);
       setSearchError(null);
+      return;
+    }
+
+    // Check cache first
+    const cacheKey = searchQuery.toLowerCase();
+    if (resultsCache.current.has(cacheKey)) {
+      const cachedResults = resultsCache.current.get(cacheKey)!;
+      // Detect city_hubs result: all stations have same city and type is STATION or present
+      if (cachedResults.length > 0 && cachedResults.every((s: any) => s.city && s.city.toLowerCase() === searchQuery.toLowerCase())) {
+        setGroupedCity(cachedResults[0].city);
+      } else {
+        setGroupedCity(null);
+      }
+      setResults(cachedResults);
+      setIsOpen(cachedResults.length > 0);
+      setHighlightedIdx(-1);
       return;
     }
 
     try {
       setIsLoading(true);
       setSearchError(null);
-      
+      setGroupedCity(null);
       const apiUrl = getApiUrl(`/api/stations?query=${encodeURIComponent(searchQuery)}&limit=15`);
-      console.log("[StationSearch] Fetching from:", apiUrl);
-      
       const response = await fetch(apiUrl, {
         method: 'GET',
         headers: {
           'Accept': 'application/json',
         },
       });
-
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
       }
-
       const data = await response.json();
-      console.log("[StationSearch] Results:", data);
-      
-      // Handle both { total, stations: [...] } and array formats
       const stations = Array.isArray(data) ? data : (data.stations || []);
-      
-      // Ensure stations have all required fields
-      const enrichedStations = stations.map((station: any) => ({
-        code: station.code || station.station_code || '',
-        name: station.name || station.station_name || '',
-        city: station.city || '',
-        state: station.state || '',
-        id: station.id,
-      }));
-
-      setResults(enrichedStations);
-      setIsOpen(enrichedStations.length > 0);
+      // Cache the results
+      resultsCache.current.set(cacheKey, stations);
+      // Detect city_hubs result: all stations have same city and type is STATION or present
+      if (stations.length > 0 && stations.every((s: any) => s.city && s.city.toLowerCase() === searchQuery.toLowerCase())) {
+        setGroupedCity(stations[0].city);
+      } else {
+        setGroupedCity(null);
+      }
+      setResults(stations);
+      setIsOpen(stations.length > 0);
+      setHighlightedIdx(-1);
     } catch (error) {
-      console.error("[StationSearch] Error fetching stations:", error);
       setSearchError(error instanceof Error ? error.message : "Failed to fetch stations");
       setResults([]);
+      setGroupedCity(null);
       setIsOpen(false);
+      setHighlightedIdx(-1);
     } finally {
       setIsLoading(false);
     }
@@ -129,7 +157,62 @@ export function StationSearch({
     setQuery(`${station.name} (${station.code})`);
     onChange(station);
     setIsOpen(false);
+    setHighlightedIdx(-1);
   };
+
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (!isOpen || results.length === 0) return;
+
+    switch (e.key) {
+      case 'ArrowDown':
+        e.preventDefault();
+        setHighlightedIdx(prev => 
+          prev < results.length - 1 ? prev + 1 : prev
+        );
+        break;
+      case 'ArrowUp':
+        e.preventDefault();
+        setHighlightedIdx(prev => prev > 0 ? prev - 1 : -1);
+        break;
+      case 'Enter':
+        e.preventDefault();
+        if (highlightedIdx >= 0 && highlightedIdx < results.length) {
+          handleSelect(results[highlightedIdx]);
+        }
+        break;
+      case 'Escape':
+        e.preventDefault();
+        setIsOpen(false);
+        setHighlightedIdx(-1);
+        break;
+    }
+  };
+
+  const handleBlur = () => {
+    // Delay to allow click on dropdown
+    setTimeout(() => {
+      if (!value && query.trim()) {
+        // If no station selected and query is not empty, clear it
+        setQuery("");
+        setSearchError("Please select a valid station from the list");
+        setTimeout(() => setSearchError(null), 3000);
+      }
+      setIsOpen(false);
+      setHighlightedIdx(-1);
+    }, 150);
+  };
+
+  // Highlight matched text utility
+  function highlightMatch(text: string, query: string) {
+    if (!query) return text;
+    const idx = text.toLowerCase().indexOf(query.toLowerCase());
+    if (idx === -1) return text;
+    return <>
+      {text.slice(0, idx)}
+      <span className="bg-primary/20 font-bold">{text.slice(idx, idx + query.length)}</span>
+      {text.slice(idx + query.length)}
+    </>;
+  }
 
   return (
     <div ref={containerRef} className="relative flex-1">
@@ -149,6 +232,8 @@ export function StationSearch({
           type="text"
           value={query}
           onChange={handleInputChange}
+          onKeyDown={handleKeyDown}
+          onBlur={handleBlur}
           onFocus={() => {
             if (query.length >= 2 && results.length > 0) {
               setIsOpen(true);
@@ -181,35 +266,73 @@ export function StationSearch({
         </div>
       )}
 
-      {/* Results dropdown */}
+      {/* Results dropdown with city grouping and icons */}
       {isOpen && results.length > 0 && (
-        <div className="absolute z-50 w-full mt-2 bg-card border border-border rounded-xl shadow-card overflow-y-auto max-h-80 animate-fade-in custom-scrollbar">
-          {results.map((station, idx) => (
-            <button
-              key={`${station.code}-${station.name}`}
-              onClick={() => handleSelect(station)}
-              className={cn(
-                "w-full px-4 py-3 text-left",
-                "hover:bg-primary/10 transition-colors",
-                "flex items-center gap-3",
-                idx !== results.length - 1 && "border-b border-border/50"
-              )}
-            >
-              <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center font-mono text-sm font-bold text-primary">
-                {station.code}
+        <div ref={dropdownRef} className="absolute z-50 w-full mt-2 bg-card border border-border rounded-xl shadow-card overflow-y-auto max-h-80 animate-fade-in custom-scrollbar">
+          {groupedCity ? (
+            <>
+              <div className="flex items-center gap-2 px-4 py-2 bg-muted/30 border-b border-border/50">
+                <Landmark className="w-5 h-5 text-primary" />
+                <span className="font-bold text-primary">{highlightMatch(groupedCity, query)}</span>
+                <span className="ml-2 text-xs text-muted-foreground">(City)</span>
               </div>
-              <div className="flex-1 min-w-0">
-                <div className="font-semibold text-foreground truncate">
-                  {station.name}
-                </div>
-                {(station.city || station.state) && (
-                  <div className="text-sm text-muted-foreground">
-                    {[station.city, station.state].filter(Boolean).join(", ")}
+              {results.map((station, idx) => (
+                <button
+                  key={`${station.code}-${station.name}`}
+                  data-idx={idx}
+                  onClick={() => handleSelect(station)}
+                  className={cn(
+                    "w-full px-4 py-3 text-left",
+                    "hover:bg-primary/10 transition-colors",
+                    "flex items-center gap-3",
+                    idx !== results.length - 1 && "border-b border-border/50",
+                    idx === highlightedIdx && "bg-primary/10"
+                  )}
+                >
+                  <MapPin className="w-5 h-5 text-muted-foreground" />
+                  <div className="flex-1 min-w-0">
+                    <div className="font-semibold text-foreground truncate">
+                      {highlightMatch(station.name, query)}
+                      <span className="ml-2 font-mono text-xs text-primary">{station.code}</span>
+                    </div>
+                    {(station.state) && (
+                      <div className="text-xs text-muted-foreground">
+                        {station.state}
+                      </div>
+                    )}
                   </div>
+                </button>
+              ))}
+            </>
+          ) : (
+            results.map((station, idx) => (
+              <button
+                key={`${station.code}-${station.name}`}
+                data-idx={idx}
+                onClick={() => handleSelect(station)}
+                className={cn(
+                  "w-full px-4 py-3 text-left",
+                  "hover:bg-primary/10 transition-colors",
+                  "flex items-center gap-3",
+                  idx !== results.length - 1 && "border-b border-border/50",
+                  idx === highlightedIdx && "bg-primary/10"
                 )}
-              </div>
-            </button>
-          ))}
+              >
+                <MapPin className="w-5 h-5 text-muted-foreground" />
+                <div className="flex-1 min-w-0">
+                  <div className="font-semibold text-foreground truncate">
+                    {highlightMatch(station.name, query)}
+                    <span className="ml-2 font-mono text-xs text-primary">{station.code}</span>
+                  </div>
+                  {(station.city || station.state) && (
+                    <div className="text-xs text-muted-foreground">
+                      {[station.city, station.state].filter(Boolean).join(", ")}
+                    </div>
+                  )}
+                </div>
+              </button>
+            ))
+          )}
         </div>
       )}
 

@@ -158,18 +158,47 @@ async def _ensure_aiohttp_session() -> aiohttp.ClientSession:
     return aiohttp_session
 
 def _load_global_train_data():
-    """Loads Train_details.csv once globally at application startup."""
+    """
+    Load RAPPID Complete Dataset from database (SINGLE SOURCE OF TRUTH).
+    No CSV files are read. All data comes from production.db only.
+    """
     global GLOBAL_TRAIN_DF
     try:
-        logger.info("Loading Train_details.csv globally...")
-        df = pd.read_csv('Train_details.csv', low_memory=False)
-        GLOBAL_TRAIN_DF = df[df['Train No'].astype(str).str.len() == 5].copy()
-        logger.info(f"Successfully loaded {len(GLOBAL_TRAIN_DF)} train details globally.")
-    except FileNotFoundError:
-        logger.critical("Train_details.csv not found. Please ensure the file is in the root directory.")
-        sys.exit(1)
+        logger.info("Loading RAPPID dataset from database...")
+        
+        # Verify RAPPID table exists and has data
+        db = get_db()
+        conn = db.get_connection()
+        cursor = conn.cursor()
+        
+        cursor.execute("SELECT COUNT(*) FROM rappid_routes")
+        count = cursor.fetchone()[0]
+        
+        if count == 0:
+            logger.critical("ERROR: rappid_routes table is EMPTY!")
+            logger.critical("Run: python rappid_database_loader.py")
+            sys.exit(1)
+        
+        logger.info(f"✓ RAPPID database verified: {count:,} routes loaded")
+        
+        # Load into memory for faster access
+        cursor.execute("""
+            SELECT DISTINCT train_no, train_name FROM trains
+            ORDER BY train_no
+        """)
+        
+        trains = cursor.fetchall()
+        logger.info(f"✓ Loaded {len(trains)} unique trains from database")
+        
+        # Create a minimal dataframe for compatibility
+        GLOBAL_TRAIN_DF = pd.DataFrame(trains, columns=['Train No', 'Train Name'])
+        
+        conn.close()
+        logger.info("✓ RAPPID dataset successfully loaded from database (SINGLE SOURCE OF TRUTH)")
+        
     except Exception as e:
-        logger.critical(f"Error loading Train_details.csv: {e}", exc_info=True)
+        logger.critical(f"Error loading RAPPID from database: {e}", exc_info=True)
+        logger.critical("Ensure production.db is initialized: python rappid_database_loader.py")
         sys.exit(1)
 
 def _calculate_static_duration(departure_str, arrival_str):
@@ -381,7 +410,7 @@ def routes_endpoint():
 
 @app.route('/api/stations', methods=['GET'])
 def stations_endpoint():
-    """Get list of all stations or search by prefix (for autocomplete)"""
+    """Get list of all stations or search by city/code/name (for autocomplete)"""
     try:
         from database_manager import get_db
         
@@ -394,35 +423,57 @@ def stations_endpoint():
         db = get_db()
         
         if query:
-            # Search stations by prefix - now returns complete station info
             cursor = db.conn.cursor()
+            # First, try to find city hubs (city_hubs table)
             cursor.execute("""
-                SELECT id, station_code, station_name, city, state
-                FROM stations
-                WHERE 
-                    station_name LIKE ? 
-                    OR station_code LIKE ? 
-                    OR city LIKE ?
-                ORDER BY 
-                    CASE 
-                        WHEN station_code = ? THEN 0
-                        WHEN station_code LIKE ? THEN 1
-                        ELSE 2
-                    END,
-                    station_name
-                LIMIT ?
-            """, (f"%{query}%", f"%{query}%", f"%{query}%", query, f"{query}%", limit))
-            
-            results = [
-                {
-                    "id": row[0],
-                    "code": row[1],
-                    "name": row[2],
-                    "city": row[3],
-                    "state": row[4]
-                }
-                for row in cursor.fetchall()
-            ]
+                SELECT hub_code, hub_name, city, state, hub_type, hub_full_name
+                FROM city_hubs
+                WHERE UPPER(city) = ?
+                ORDER BY hub_name
+            """, (query,))
+            city_hub_rows = cursor.fetchall()
+            if city_hub_rows:
+                # Return all hubs for the city
+                results = [
+                    {
+                        "code": row[0],
+                        "name": row[1],
+                        "city": row[2],
+                        "state": row[3],
+                        "type": row[4],
+                        "fullName": row[5]
+                    }
+                    for row in city_hub_rows
+                ]
+            else:
+                # Fallback to old logic: search by station code or name
+                cursor.execute("""
+                    SELECT id, station_code, station_name, city, state
+                    FROM stations
+                    WHERE 
+                        UPPER(station_code) LIKE ? 
+                        OR UPPER(station_name) LIKE ?
+                    ORDER BY 
+                        CASE 
+                            WHEN UPPER(station_code) = ? THEN 0        -- Exact code match
+                            WHEN UPPER(station_code) LIKE ? THEN 1     -- Code starts with
+                            WHEN UPPER(station_name) LIKE ? THEN 2     -- Name contains
+                            ELSE 3
+                        END,
+                        station_name
+                    LIMIT ?
+                """, (f"{query}%", f"%{query}%", query, f"{query}%", f"%{query}%", limit))
+                fallback_rows = cursor.fetchall()
+                results = [
+                    {
+                        "id": row[0],
+                        "code": row[1],
+                        "name": row[2],
+                        "city": row[3],
+                        "state": row[4]
+                    }
+                    for row in fallback_rows
+                ]
         else:
             # Get all stations (paginated)
             cursor = db.conn.cursor()
@@ -1311,7 +1362,7 @@ def get_system_status():
                 "static_graph": {
                     "stations": len(STATION_MAPS.get('station_to_id', {})),
                     "edges": sum(len(v) for v in GLOBAL_GRAPH.values()),
-                    "source": "Indian Railways Train_details.csv"
+                    "source": "RAPPID Complete Dataset (Database - SINGLE SOURCE OF TRUTH)"
                 },
                 "live_data": {
                     "irctc_api_endpoint": IRCTC_BASE_URL,

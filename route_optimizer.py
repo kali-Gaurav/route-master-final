@@ -66,70 +66,96 @@ class GraphSingleton:
             conn = self._db.get_connection()
             cursor = conn.cursor()
 
-            # Load all stations first
-            logger.info("Loading stations...")
-            cursor.execute("SELECT id, station_code, station_name FROM stations ORDER BY id")
-            for station_id, code, name in cursor.fetchall():
-                station_to_id[code] = station_id
-                id_to_station[station_id] = code
+            # VERIFY RAPPID DATABASE IS POPULATED (SINGLE SOURCE OF TRUTH)
+            logger.info("Verifying RAPPID database...")
+            cursor.execute("SELECT COUNT(*) FROM rappid_routes")
+            route_count = cursor.fetchone()[0]
+            
+            if route_count == 0:
+                logger.critical("ERROR: rappid_routes table is EMPTY!")
+                logger.critical("Run: python rappid_database_loader.py")
+                raise Exception("RAPPID database is empty - cannot build graph")
+            
+            logger.info(f"✓ RAPPID database verified: {route_count:,} routes")
 
-            logger.info(f"Loaded {len(station_to_id)} stations")
+            # Load all stations from RAPPID dataset
+            logger.info("Loading stations from RAPPID dataset...")
+            cursor.execute("""
+                SELECT DISTINCT station_name FROM rappid_routes
+                ORDER BY station_name
+            """)
+            
+            stations = cursor.fetchall()
+            for idx, (station_name,) in enumerate(stations):
+                station_code = station_name.upper().replace(" ", "")[:10]
+                station_to_id[station_code] = idx
+                id_to_station[idx] = station_code
 
-            # Load all trains
-            logger.info("Loading trains and building graph...")
+            logger.info(f"✓ Loaded {len(station_to_id)} unique stations from RAPPID")
+
+            # Load all routes from RAPPID dataset (THE SINGLE SOURCE OF TRUTH)
+            logger.info("Building graph from RAPPID Complete Dataset...")
             cursor.execute("""
                 SELECT
-                    t.id, t.train_no, t.train_name,
-                    ts.station_id, ts.sequence,
-                    ts.arrival_time, ts.departure_time,
-                    ts.distance_km
-                FROM trains t
-                JOIN train_stations ts ON t.id = ts.train_id
-                ORDER BY t.train_no, ts.sequence
+                    train_no, train_name, station_sequence, station_name,
+                    distance_km, timing
+                FROM rappid_routes
+                ORDER BY train_no, station_sequence
             """)
 
             all_rows = cursor.fetchall()
             conn.close()
 
-            # Build adjacency edges in memory
+            # Build in-memory graph from RAPPID data
             train_stations_buffer = defaultdict(list)
-            for train_id, train_no, train_name, station_id, seq, arr, dep, dist in all_rows:
+            for train_no, train_name, seq, station_name, distance_km, timing in all_rows:
                 if train_no not in train_info:
                     train_info[train_no] = {'name': train_name, 'stations': []}
 
+                station_code = station_name.upper().replace(" ", "")[:10]
+                station_id = station_to_id.get(station_code, len(station_to_id))
+
                 train_stations_buffer[train_no].append({
                     'station_id': station_id,
+                    'station_code': station_code,
+                    'station_name': station_name,
                     'sequence': seq,
-                    'arrival': arr,
-                    'departure': dep,
-                    'distance': dist or 0
+                    'distance': distance_km or 0,
+                    'timing': timing or '00:00'
                 })
 
-            # Create adjacency edges from consecutive stations
+            # Create adjacency edges from consecutive stations in RAPPID
             edges_count = 0
             for train_no, stations in train_stations_buffer.items():
                 stations.sort(key=lambda x: x['sequence'])
                 train_info[train_no]['stations'] = stations
 
-                # Create edge between each consecutive pair
+                # Create edge between each consecutive pair of stations
                 for i in range(len(stations) - 1):
                     src = stations[i]
                     dst = stations[i + 1]
 
                     src_id = src['station_id']
                     dst_id = dst['station_id']
-                    distance = sum(s['distance'] for s in stations[i:i+1] if s['distance'])
+                    distance = dst['distance'] - src['distance'] if (dst['distance'] and src['distance']) else 0
 
-                    # Duration: distance / average speed (assume 50 km/h)
-                    duration_minutes = (distance / 50 * 60) if distance else 180
+                    # Estimate duration from distance (assume 50 km/h average)
+                    duration_minutes = (distance / 50 * 60) if distance > 0 else 180
+
+                    # Parse timing to get departure/arrival
+                    src_timing = src['timing'].split('-')[0].strip() if '-' in src['timing'] else '00:00'
+                    dst_timing = dst['timing'].split('-')[0].strip() if '-' in dst['timing'] else '00:00'
 
                     graph[src_id].append({
                         'to_id': dst_id,
                         'train_no': train_no,
-                        'departure_time': src['departure'] or '00:00',
-                        'arrival_time': dst['arrival'] or '00:00',
+                        'train_name': train_info[train_no]['name'],
+                        'departure_time': src_timing,
+                        'arrival_time': dst_timing,
                         'distance': distance,
-                        'duration_minutes': duration_minutes
+                        'duration_minutes': duration_minutes,
+                        'from_station': src['station_code'],
+                        'to_station': dst['station_code']
                     })
                     edges_count += 1
 
@@ -142,11 +168,16 @@ class GraphSingleton:
             GraphSingleton._timestamp = datetime.now()
 
             elapsed = (datetime.now() - start_time).total_seconds()
-            logger.info(f"Graph built in {elapsed:.2f}s: {len(station_to_id)} stations, {edges_count} edges, {len(train_info)} trains")
+            logger.info(f"✓ Graph built from RAPPID database in {elapsed:.2f}s:")
+            logger.info(f"  Stations: {len(station_to_id)}")
+            logger.info(f"  Edges: {edges_count}")
+            logger.info(f"  Trains: {len(train_info)}")
+            logger.info("  SINGLE SOURCE OF TRUTH: RAPPID Complete Dataset in database")
 
         except Exception as e:
             logger.error(f"Graph build failed: {e}", exc_info=True)
             raise
+
 
     @property
     def graph(self):

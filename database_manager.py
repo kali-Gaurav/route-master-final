@@ -58,6 +58,19 @@ class DatabaseManager:
         cursor = conn.cursor()
         
         try:
+            # City-Hubs mapping for fast city-to-station lookup
+            cursor.execute("""
+                CREATE TABLE IF NOT EXISTS city_hubs (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    city TEXT NOT NULL,
+                    state TEXT,
+                    hub_code TEXT NOT NULL,
+                    hub_name TEXT NOT NULL,
+                    hub_type TEXT,
+                    hub_full_name TEXT,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                );
+            """)
             # Trains table
             cursor.execute("""
                 CREATE TABLE IF NOT EXISTS trains (
@@ -204,37 +217,47 @@ class DatabaseManager:
             conn.close()
     
     def create_indexes(self):
-        """Create all performance indexes."""
+        """Create all performance indexes for RAPPID schema."""
         conn = self.get_connection()
         cursor = conn.cursor()
         
         try:
-            # Train lookups
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_train_no ON trains(train_no);")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_train_name ON trains(train_name);")
+            # Only create indexes on tables that exist in RAPPID schema
+            tables = []
+            cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
+            tables = [row[0] for row in cursor.fetchall()]
             
-            # Station lookups
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_station_code ON stations(station_code);")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_station_name ON stations(station_name);")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_city ON stations(city);")
+            logger.info(f"Creating indexes for existing tables: {tables}")
             
-            # Route queries
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_train_stations_train_id ON train_stations(train_id);")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_train_stations_station_id ON train_stations(station_id);")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_train_stations_sequence ON train_stations(sequence);")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_train_stations_train_station ON train_stations(train_id, station_id);")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_routes_train_id ON routes(train_id);")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_routes_station_id ON routes(station_id);")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_routes_sequence ON routes(station_sequence);")
+            # RAPPID table indexes
+            if 'rappid_routes' in tables:
+                cursor.execute("CREATE INDEX IF NOT EXISTS idx_rappid_train_no ON rappid_routes(train_no);")
+                cursor.execute("CREATE INDEX IF NOT EXISTS idx_rappid_station ON rappid_routes(station_name);")
+                cursor.execute("CREATE INDEX IF NOT EXISTS idx_rappid_sequence ON rappid_routes(train_no, station_sequence);")
+                logger.info("  ✓ RAPPID indexes created")
             
-            # Search logs
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_search_origin_dest ON search_logs(origin, destination);")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_search_date ON search_logs(travel_date);")
+            # Trains table indexes
+            if 'trains' in tables:
+                cursor.execute("CREATE INDEX IF NOT EXISTS idx_train_no ON trains(train_no);")
+                cursor.execute("CREATE INDEX IF NOT EXISTS idx_train_name ON trains(train_name);")
+                logger.info("  ✓ Trains indexes created")
+            
+            # Stations table indexes
+            if 'stations' in tables:
+                cursor.execute("CREATE INDEX IF NOT EXISTS idx_station_code ON stations(station_code);")
+                cursor.execute("CREATE INDEX IF NOT EXISTS idx_station_name ON stations(station_name);")
+                logger.info("  ✓ Stations indexes created")
+            
+            # Train running days indexes
+            if 'train_running_days' in tables:
+                cursor.execute("CREATE INDEX IF NOT EXISTS idx_running_days_train ON train_running_days(train_no);")
+                logger.info("  ✓ Running days indexes created")
             
             conn.commit()
-            logger.info("✓ All indexes created successfully")
+            logger.info("✓ All RAPPID indexes created successfully")
         
         except Exception as e:
+            logger.warning(f"Index creation warning: {e}")
             logger.error(f"✗ Index creation failed: {e}")
             raise
         
