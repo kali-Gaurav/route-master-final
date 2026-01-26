@@ -58,6 +58,5 @@
     }
   ],
   
-  "regions": ["iad1"],
-  "memory": 512
+  "regions": ["iad1"]
 }
