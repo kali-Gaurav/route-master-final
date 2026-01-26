@@ -25,6 +25,7 @@ from live_validation_system import (
     validate_and_filter_routes, apply_delay_aware_routing,
     print_validation_summary
 )
+from train_running_days_validator import TrainRunningDaysValidator
 import os
 import sys
 import requests # Still needed for rappid_optimized, which is not yet async
@@ -340,10 +341,10 @@ def routes_endpoint():
             logger.info(f"[ROUTES] Cache hit: {origin} -> {destination}")
             return jsonify(cache[cache_key]), 200
 
-        logger.info(f"[ROUTES] Generating routes for {origin} -> {destination}")
+        logger.info(f"[ROUTES] Generating routes for {origin} -> {destination}, date={travel_date_str}")
         
-        # Use the new refactored get_routes_data from route_optimizer
-        result = get_routes_data(origin, destination, max_transfers)
+        # Use the new refactored get_routes_data from route_optimizer with date validation
+        result = get_routes_data(origin, destination, max_transfers, travel_date=travel_date_obj)
         
         if "error" in result:
             return jsonify(result), 400

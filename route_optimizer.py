@@ -23,6 +23,7 @@ import numpy as np
 
 sys.path.insert(0, str(Path(__file__).parent))
 from database_manager import DatabaseManager, get_db
+from train_running_days_validator import TrainRunningDaysValidator
 
 logger = logging.getLogger(__name__)
 
@@ -196,10 +197,18 @@ class ParetoTrainRouter:
     def train_info(self):
         return self._graph_cache.train_info
 
-    def find_routes(self, origin: str, destination: str, max_transfers: int = 4) -> List[List[Dict]]:
+    def find_routes(self, origin: str, destination: str, max_transfers: int = 4, travel_date: Optional[datetime] = None, validator: Optional[TrainRunningDaysValidator] = None) -> List[List[Dict]]:
         """
         Find all routes from origin to destination with ≤ max_transfers transfers.
         Supports up to 4 transfers (5 journey segments).
+        
+        Args:
+            origin: Source station code
+            destination: Destination station code
+            max_transfers: Maximum number of transfers allowed
+            travel_date: Travel date for filtering trains by running days (optional)
+            validator: TrainRunningDaysValidator instance for train filtering (optional)
+        
         Returns: List of routes, each route is a list of segments
         """
         origin_id = self.station_to_id.get(origin)
@@ -234,6 +243,28 @@ class ParetoTrainRouter:
 
                 if new_transfers > max_transfers:
                     continue
+                
+                # ✅ INTELLIGENT FILTERING: If validator and travel_date provided, check if train runs
+                if validator and travel_date:
+                    # For transfers: validate train on correct day (or next day if crossing midnight)
+                    if is_transfer:
+                        prev_arrival = path[-1]['arrival']
+                        curr_departure = edge['departure_time']
+                        
+                        # Check if this transfer crosses midnight
+                        prev_arrival_mins = int(prev_arrival.split(':')[0]) * 60 + int(prev_arrival.split(':')[1])
+                        curr_depart_mins = int(curr_departure.split(':')[0]) * 60 + int(curr_departure.split(':')[1])
+                        
+                        # If departure < arrival, train departs next day
+                        train_date = travel_date if curr_depart_mins >= prev_arrival_mins else travel_date + timedelta(days=1)
+                        
+                        # Validate train runs on this date
+                        if not validator.is_train_running_on_date(edge['train_no'], train_date):
+                            continue
+                    else:
+                        # First segment: train must run on travel_date
+                        if not validator.is_train_running_on_date(edge['train_no'], travel_date):
+                            continue
 
                 # Realism check: wait time between 30 min and 12 hours
                 if is_transfer:
@@ -1002,11 +1033,29 @@ def save_results(router, optimal_routes, categories, all_routes, pareto_front, s
         obj = router.calculate_route_objectives(route)
 
 
-def get_routes_data(origin: str, destination: str, max_transfers: int = 4) -> Dict:
-    """Convenience function for API integration. Supports up to 4 transfers."""
+def get_routes_data(origin: str, destination: str, max_transfers: int = 4, travel_date: Optional[datetime] = None) -> Dict:
+    """
+    Convenience function for API integration. Supports up to 4 transfers.
+    
+    Args:
+        origin: Source station code
+        destination: Destination station code
+        max_transfers: Maximum number of transfers (default: 4)
+        travel_date: Travel date for filtering trains by running days (optional)
+    
+    Returns:
+        Dict with optimal_routes, alternative_routes, and metadata
+    """
     try:
         router = ParetoTrainRouter()
-        all_routes = router.find_routes(origin, destination, max_transfers)
+        
+        # Initialize validator if travel_date provided
+        validator = None
+        if travel_date:
+            validator = TrainRunningDaysValidator('production.db')
+            logger.info(f"[ROUTING] Date validation enabled for {travel_date.strftime('%Y-%m-%d')}")
+        
+        all_routes = router.find_routes(origin, destination, max_transfers, travel_date=travel_date, validator=validator)
 
         if not all_routes:
             return {"error": "No routes found"}
@@ -1034,11 +1083,11 @@ def get_routes_data(origin: str, destination: str, max_transfers: int = 4) -> Di
             ],
             "all_alternative_routes": [
                 {
-                    "route_id": f"ALT_{i+1}",
+                    "route_id": f"ALT_{j+1}",
                     "segments": route_data['route'],
                     "objectives": route_data['objectives']
                 }
-                for route_data in pareto_front[len(optimal_routes):]
+                for j, route_data in enumerate(pareto_front[len(optimal_routes):])
             ]
         }
     except Exception as e:
