@@ -412,7 +412,7 @@ class BatchRouteGenerator:
         
         for pair_idx, (origin, destination) in enumerate(station_pairs, 1):
             if verbose:
-                print(f"\n[{pair_idx}/{len(station_pairs)}] {origin} → {destination}")
+                print(f"\n[{pair_idx}/{len(station_pairs)}] {origin} -> {destination}")
                 print("-" * 80)
             
             pair_result = {
@@ -421,37 +421,39 @@ class BatchRouteGenerator:
                 'pair_index': pair_idx,
                 'routes_by_transfer_level': {},
                 'total_routes': 0,
-                'total_time_ms': 0,
-                'time_breakdown': {}
+                'total_time_ms': 0
             }
             
-            # Generate routes for each transfer level (0, 1, 2, 3)
-            for num_transfers in range(0, max_transfers + 1):
-                level_start = time.time()
-                
-                # Generate routes for this transfer level
-                routes_data = self.bfs_generator.find_routes(
-                    origin, destination, max_transfers=num_transfers
-                )
-                
-                level_time = (time.time() - level_start) * 1000
-                routes_found = routes_data.get('total_routes_found', 0)
-                
-                pair_result['routes_by_transfer_level'][num_transfers] = {
-                    'count': routes_found,
-                    'time_ms': round(level_time, 2),
-                    'routes': routes_data.get('routes_by_transfers', {}).get(num_transfers, [])
+            # SINGLE PASS: Generate ALL routes at once with max_transfers=3
+            level_start = time.time()
+            
+            all_routes_data = self.bfs_generator.find_routes(
+                origin, destination, max_transfers=max_transfers
+            )
+            
+            level_time = (time.time() - level_start) * 1000
+            
+            # Extract and categorize routes by transfer count
+            routes_by_transfers = all_routes_data.get('routes_by_transfers', {})
+            
+            for transfer_count in range(0, max_transfers + 1):
+                routes_at_level = routes_by_transfers.get(transfer_count, [])
+                pair_result['routes_by_transfer_level'][transfer_count] = {
+                    'count': len(routes_at_level),
+                    'routes': routes_at_level,
+                    'time_ms': level_time
                 }
-                
-                pair_result['time_breakdown'][f'{num_transfers}_transfers'] = round(level_time, 2)
-                pair_result['total_routes'] += routes_found
+                pair_result['total_routes'] += len(routes_at_level)
                 
                 if verbose:
-                    status = "✓" if routes_found > 0 else "•"
-                    print(f"  {status} {num_transfers} transfer(s):  {routes_found:4} routes in {level_time:7.2f}ms")
+                    status = "OK" if len(routes_at_level) > 0 else "."
+                    print(f"  {status} {transfer_count} transfer(s):  {len(routes_at_level):4} routes")
             
-            # Calculate total time for this pair
-            pair_result['total_time_ms'] = (time.time() - total_start) * 1000
+            if verbose:
+                print(f"\n  [TOTAL] {pair_result['total_routes']:3} routes in {level_time:7.2f}ms (single pass)")
+            
+            pair_result['total_time_ms'] = level_time
+            pair_result['generation_method'] = 'single_pass_categorized'
             
             # Validate routes if needed
             pair_result['validation'] = self._validate_routes(
@@ -467,12 +469,12 @@ class BatchRouteGenerator:
                     pair_result['cached_route_id'] = route_id
                     pair_result['saved_to_db'] = True
                     if verbose:
-                        print(f"  ✓ Saved to database (ID: {route_id})")
+                        print(f"  OK Saved to database (ID: {route_id})")
                 except Exception as e:
                     pair_result['saved_to_db'] = False
                     pair_result['db_error'] = str(e)
                     if verbose:
-                        print(f"  ✗ Failed to save to database: {e}")
+                        print(f"  X Failed to save to database: {e}")
             
             results.append(pair_result)
         
@@ -480,12 +482,21 @@ class BatchRouteGenerator:
         
         if verbose:
             print("\n" + "="*100)
-            print("BATCH GENERATION COMPLETE")
+            print("BATCH GENERATION COMPLETE - SINGLE PASS APPROACH")
             print("="*100)
             print(f"Total pairs processed:   {len(station_pairs)}")
             print(f"Total routes generated:  {sum(r['total_routes'] for r in results)}")
             print(f"Total time:              {total_time:.2f}ms ({total_time/1000:.2f}s)")
             print(f"Average per pair:        {total_time/len(station_pairs):.2f}ms")
+            print("\nBreakdown by transfer level:")
+            
+            for transfer_count in range(0, 4):
+                total_at_level = sum(
+                    r['routes_by_transfer_level'].get(transfer_count, {}).get('count', 0)
+                    for r in results
+                )
+                if total_at_level > 0:
+                    print(f"  {transfer_count} transfer(s):  {total_at_level:4} total routes across all pairs")
             print()
         
         return results

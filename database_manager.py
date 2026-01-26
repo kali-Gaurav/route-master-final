@@ -754,7 +754,7 @@ class DatabaseManager:
         try:
             cursor.execute("""
                 SELECT origin_code, destination_code, num_transfers, total_routes_found,
-                       cached_at, access_count, search_time_ms
+                       cached_at, access_count, total_search_time_ms
                 FROM cached_routes
                 ORDER BY access_count DESC, cached_at DESC
                 LIMIT ?
@@ -784,7 +784,7 @@ class DatabaseManager:
         try:
             cursor.execute("""
                 SELECT COUNT(*), SUM(total_routes_found), SUM(access_count),
-                       AVG(search_time_ms)
+                       AVG(total_search_time_ms)
                 FROM cached_routes
             """)
             
