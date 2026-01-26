@@ -1397,14 +1397,30 @@ def get_system_status():
         return jsonify({"error": str(e)}), 500
 
 
+# ============================================================================
+# OPTIMIZED ROUTE GENERATOR INTEGRATION (3-TRANSFER BFS ALGORITHM)
+# ============================================================================
+# High-performance route generation using database-driven BFS
+# Supports up to 3 transfers with <100ms search time
+
+try:
+    from optimized_routes_api import init_optimized_routes_api
+    init_optimized_routes_api(app)
+    logger.info("✅ Optimized routes API initialized (BFS algorithm, max 3 transfers)")
+except Exception as e:
+    logger.warning(f"⚠️ Optimized routes API not available: {e}")
+
+
 if __name__ == '__main__':
     print("   [+] Performance metrics & monitoring")
+    print("   [+] Optimized BFS route generation (3-transfer max, <100ms)")
     print("="*90)
     print("\n[*] PERFORMANCE OPTIMIZATIONS (PHASE 3):")
     print("   [+] Connection pooling (10 persistent connections)")
     print("   [+] Exponential backoff retry strategy")
     print("   [+] Cache warming on startup")
     print("   [+] Performance metrics endpoint")
+    print("   [+] Optimized graph-based routing with BFS")
     print("="*90 + "\n")
     
     app.run(debug=False, port=5000)
