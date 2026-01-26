@@ -505,6 +505,72 @@ def stations_endpoint():
         logger.error(f"[STATIONS] ERROR: {str(e)}", exc_info=True)
         return jsonify({"error": str(e)}), 500
 
+@app.route('/api/cached-routes', methods=['GET'])
+def cached_routes_endpoint():
+    """Get pre-cached routes for a station pair (fast retrieval from database)."""
+    try:
+        from database_manager import get_db
+        
+        origin = request.args.get('origin', '').strip().upper()
+        destination = request.args.get('destination', '').strip().upper()
+        max_transfers = request.args.get('max_transfers', 3, type=int)
+        
+        if not origin or not destination:
+            return jsonify({"error": "Origin and destination are required."}), 400
+        
+        logger.info(f"[CACHED-ROUTES] Request: {origin} -> {destination}, max_transfers={max_transfers}")
+        
+        db = get_db()
+        cached_route = db.get_cached_route(origin, destination, max_transfers)
+        
+        if cached_route:
+            logger.info(f"[CACHED-ROUTES] Cache hit: {origin} -> {destination}, routes={cached_route['total_routes_found']}")
+            return jsonify({
+                "status": "cached",
+                "origin": origin,
+                "destination": destination,
+                "max_transfers": max_transfers,
+                "total_routes_found": cached_route['total_routes_found'],
+                "routes_breakdown": cached_route['routes_breakdown'],
+                "routes_by_transfers": cached_route['routes_by_transfers'],
+                "cached_at": cached_route['cached_at'],
+                "original_search_time_ms": cached_route['search_time_ms'],
+                "retrieval_source": "database_cache"
+            }), 200
+        else:
+            logger.info(f"[CACHED-ROUTES] Cache miss: {origin} -> {destination}")
+            return jsonify({
+                "status": "not_cached",
+                "origin": origin,
+                "destination": destination,
+                "message": "Routes not pre-cached. Use /api/routes to generate or run batch generation."
+            }), 404
+    
+    except Exception as e:
+        logger.error(f"[CACHED-ROUTES] ERROR: {str(e)}", exc_info=True)
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/api/cache-stats', methods=['GET'])
+def cache_stats_endpoint():
+    """Get cache statistics and performance metrics."""
+    try:
+        from database_manager import get_db
+        
+        logger.info(f"[CACHE-STATS] Request for cache statistics")
+        
+        db = get_db()
+        stats = db.get_cached_routes_stats()
+        cached_routes = db.get_all_cached_routes(limit=20)
+        
+        return jsonify({
+            "statistics": stats,
+            "top_cached_routes": cached_routes
+        }), 200
+    
+    except Exception as e:
+        logger.error(f"[CACHE-STATS] ERROR: {str(e)}", exc_info=True)
+        return jsonify({"error": str(e)}), 500
+
 @app.route('/api/live-station', methods=['GET'])
 @async_route
 async def live_station_endpoint():

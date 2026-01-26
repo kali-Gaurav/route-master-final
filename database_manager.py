@@ -184,6 +184,77 @@ class DatabaseManager:
                 );
             """)
             
+            # Cached routes - pre-generated route metadata
+            cursor.execute("""
+                CREATE TABLE IF NOT EXISTS cached_routes (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    origin_code TEXT NOT NULL,
+                    destination_code TEXT NOT NULL,
+                    origin_name TEXT,
+                    destination_name TEXT,
+                    num_transfers INTEGER NOT NULL,
+                    total_routes_found INTEGER,
+                    direct_routes INTEGER DEFAULT 0,
+                    one_transfer_routes INTEGER DEFAULT 0,
+                    two_transfer_routes INTEGER DEFAULT 0,
+                    three_transfer_routes INTEGER DEFAULT 0,
+                    total_search_time_ms REAL,
+                    avg_journey_time_mins INTEGER,
+                    min_journey_time_mins INTEGER,
+                    max_journey_time_mins INTEGER,
+                    cached_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    last_accessed TIMESTAMP,
+                    access_count INTEGER DEFAULT 0,
+                    UNIQUE(origin_code, destination_code, num_transfers)
+                );
+            """)
+            
+            # Route segments - individual legs of cached routes
+            cursor.execute("""
+                CREATE TABLE IF NOT EXISTS route_segments (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    cached_route_id INTEGER NOT NULL,
+                    route_index INTEGER,
+                    segment_index INTEGER,
+                    train_no TEXT,
+                    from_station_code TEXT,
+                    from_station_name TEXT,
+                    to_station_code TEXT,
+                    to_station_name TEXT,
+                    departure_time TEXT,
+                    arrival_time TEXT,
+                    journey_time_mins INTEGER,
+                    is_transfer INTEGER DEFAULT 0,
+                    transfer_wait_time_mins INTEGER,
+                    runs_on_weekdays TEXT,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY (cached_route_id) REFERENCES cached_routes(id) ON DELETE CASCADE
+                );
+            """)
+            
+            # Route validation - train schedule and timing checks
+            cursor.execute("""
+                CREATE TABLE IF NOT EXISTS route_validations (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    cached_route_id INTEGER NOT NULL,
+                    route_index INTEGER,
+                    is_valid INTEGER DEFAULT 1,
+                    validation_date TEXT,
+                    train_runs_today INTEGER,
+                    sufficient_transfer_time INTEGER,
+                    no_delay_risk INTEGER,
+                    validation_notes TEXT,
+                    validated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY (cached_route_id) REFERENCES cached_routes(id) ON DELETE CASCADE
+                );
+            """)
+            
+            # Create indices for fast lookups
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_cached_routes_origin_dest ON cached_routes(origin_code, destination_code)")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_cached_routes_transfers ON cached_routes(num_transfers)")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_route_segments_cached_route ON route_segments(cached_route_id)")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_route_validations_cached_route ON route_validations(cached_route_id)")
+            
             conn.commit()
             logger.info("✓ Database schema initialized")
         
@@ -477,6 +548,253 @@ class DatabaseManager:
             stats['total_searches'] = cursor.fetchone()[0]
             
             return stats
+        
+        finally:
+            conn.close()
+    
+    def save_cached_route(self, origin: str, destination: str, num_transfers: int,
+                         routes_data: Dict) -> int:
+        """Save pre-generated routes to cache.
+        
+        Args:
+            origin: Origin station code
+            destination: Destination station code
+            num_transfers: Maximum transfers allowed
+            routes_data: Dict with routes grouped by transfer count
+        
+        Returns:
+            cached_route_id
+        """
+        conn = self.get_connection()
+        cursor = conn.cursor()
+        
+        try:
+            # Save main cached route record
+            cursor.execute("""
+                INSERT INTO cached_routes 
+                (origin_code, destination_code, origin_name, destination_name, 
+                 num_transfers, total_routes_found, direct_routes, one_transfer_routes,
+                 two_transfer_routes, three_transfer_routes, total_search_time_ms)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """, (
+                origin, destination, routes_data.get('origin_name'), 
+                routes_data.get('destination_name'),
+                num_transfers,
+                routes_data.get('total_routes_found', 0),
+                len(routes_data.get('routes_by_transfers', {}).get(0, [])),
+                len(routes_data.get('routes_by_transfers', {}).get(1, [])),
+                len(routes_data.get('routes_by_transfers', {}).get(2, [])),
+                len(routes_data.get('routes_by_transfers', {}).get(3, [])),
+                routes_data.get('search_time_ms', 0)
+            ))
+            
+            cached_route_id = cursor.lastrowid
+            
+            # Save route segments
+            route_index = 0
+            for transfer_count, routes_list in routes_data.get('routes_by_transfers', {}).items():
+                for route in routes_list:
+                    path = route.get('path', [])
+                    
+                    for seg_index, segment in enumerate(path):
+                        cursor.execute("""
+                            INSERT INTO route_segments
+                            (cached_route_id, route_index, segment_index, train_no,
+                             from_station_code, from_station_name, to_station_code,
+                             to_station_name, departure_time, arrival_time, 
+                             journey_time_mins, is_transfer, transfer_wait_time_mins,
+                             runs_on_weekdays)
+                            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        """, (
+                            cached_route_id, route_index, seg_index,
+                            segment.get('train'),
+                            segment.get('from', ''), 
+                            routes_data.get(f'from_name_{segment.get("from")}', ''),
+                            segment.get('to', ''),
+                            routes_data.get(f'to_name_{segment.get("to")}', ''),
+                            segment.get('departure_time', ''),
+                            segment.get('arrival_time', ''),
+                            segment.get('journey_time_mins', 0),
+                            1 if seg_index > 0 else 0,
+                            segment.get('transfer_wait_time_mins', 0),
+                            routes_data.get(f'runs_on_{segment.get("train")}', '')
+                        ))
+                    
+                    route_index += 1
+            
+            conn.commit()
+            logger.info(f"✓ Cached route saved: {origin} → {destination} (ID: {cached_route_id})")
+            return cached_route_id
+        
+        except Exception as e:
+            logger.error(f"✗ Failed to save cached route: {e}")
+            raise
+        
+        finally:
+            conn.close()
+    
+    def get_cached_route(self, origin: str, destination: str, num_transfers: int) -> Optional[Dict]:
+        """Retrieve pre-generated cached routes.
+        
+        Returns:
+            Dict with route data or None if not cached
+        """
+        conn = self.get_connection()
+        cursor = conn.cursor()
+        
+        try:
+            # Get main cached route
+            cursor.execute("""
+                SELECT id, total_routes_found, direct_routes, one_transfer_routes,
+                       two_transfer_routes, three_transfer_routes, cached_at, search_time_ms
+                FROM cached_routes
+                WHERE origin_code = ? AND destination_code = ? AND num_transfers = ?
+                LIMIT 1
+            """, (origin, destination, num_transfers))
+            
+            result = cursor.fetchone()
+            if not result:
+                return None
+            
+            cached_route_id, total, direct, one, two, three, cached_at, search_time = result
+            
+            # Update last accessed
+            cursor.execute("""
+                UPDATE cached_routes 
+                SET last_accessed = CURRENT_TIMESTAMP, 
+                    access_count = access_count + 1
+                WHERE id = ?
+            """, (cached_route_id,))
+            
+            # Get all segments for this route
+            cursor.execute("""
+                SELECT route_index, segment_index, train_no, from_station_code,
+                       from_station_name, to_station_code, to_station_name,
+                       departure_time, arrival_time, journey_time_mins,
+                       is_transfer, transfer_wait_time_mins, runs_on_weekdays
+                FROM route_segments
+                WHERE cached_route_id = ?
+                ORDER BY route_index, segment_index
+            """, (cached_route_id,))
+            
+            segments_data = cursor.fetchall()
+            
+            # Organize segments by route
+            routes_by_transfers = {}
+            current_route = []
+            current_route_index = -1
+            
+            for seg in segments_data:
+                route_idx = seg[0]
+                
+                # Start new route if index changed
+                if route_idx != current_route_index:
+                    if current_route and current_route_index >= 0:
+                        transfer_count = sum(1 for s in current_route if s.get('is_transfer'))
+                        if transfer_count not in routes_by_transfers:
+                            routes_by_transfers[transfer_count] = []
+                        routes_by_transfers[transfer_count].append({'path': current_route})
+                    
+                    current_route = []
+                    current_route_index = route_idx
+                
+                # Add segment
+                current_route.append({
+                    'train': seg[2],
+                    'from': seg[3],
+                    'from_name': seg[4],
+                    'to': seg[5],
+                    'to_name': seg[6],
+                    'departure_time': seg[7],
+                    'arrival_time': seg[8],
+                    'journey_time_mins': seg[9],
+                    'is_transfer': seg[10],
+                    'transfer_wait_time_mins': seg[11],
+                    'runs_on': seg[12]
+                })
+            
+            # Add last route
+            if current_route:
+                transfer_count = sum(1 for s in current_route if s.get('is_transfer'))
+                if transfer_count not in routes_by_transfers:
+                    routes_by_transfers[transfer_count] = []
+                routes_by_transfers[transfer_count].append({'path': current_route})
+            
+            conn.commit()
+            
+            return {
+                'origin': origin,
+                'destination': destination,
+                'num_transfers': num_transfers,
+                'total_routes_found': total,
+                'routes_by_transfers': routes_by_transfers,
+                'routes_breakdown': {
+                    '0_transfers': direct,
+                    '1_transfer': one,
+                    '2_transfers': two,
+                    '3_transfers': three
+                },
+                'cached_at': cached_at,
+                'search_time_ms': search_time,
+                'from_cache': True
+            }
+        
+        except Exception as e:
+            logger.error(f"✗ Failed to retrieve cached route: {e}")
+            return None
+        
+        finally:
+            conn.close()
+    
+    def get_all_cached_routes(self, limit: int = 100) -> List[Dict]:
+        """Get all cached routes with statistics."""
+        conn = self.get_connection()
+        cursor = conn.cursor()
+        
+        try:
+            cursor.execute("""
+                SELECT origin_code, destination_code, num_transfers, total_routes_found,
+                       cached_at, access_count, search_time_ms
+                FROM cached_routes
+                ORDER BY access_count DESC, cached_at DESC
+                LIMIT ?
+            """, (limit,))
+            
+            return [
+                {
+                    'origin': row[0],
+                    'destination': row[1],
+                    'num_transfers': row[2],
+                    'total_routes': row[3],
+                    'cached_at': row[4],
+                    'access_count': row[5],
+                    'search_time_ms': row[6]
+                }
+                for row in cursor.fetchall()
+            ]
+        
+        finally:
+            conn.close()
+    
+    def get_cached_routes_stats(self) -> Dict:
+        """Get statistics about cached routes."""
+        conn = self.get_connection()
+        cursor = conn.cursor()
+        
+        try:
+            cursor.execute("""
+                SELECT COUNT(*), SUM(total_routes_found), SUM(access_count),
+                       AVG(search_time_ms)
+                FROM cached_routes
+            """)
+            
+            row = cursor.fetchone()
+            return {
+                'total_cached_pairs': row[0] or 0,
+                'total_routes_cached': row[1] or 0,
+                'total_accesses': row[2] or 0,
+                'avg_search_time_ms': round(row[3] or 0, 2)
+            }
         
         finally:
             conn.close()
