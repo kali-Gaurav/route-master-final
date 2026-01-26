@@ -408,6 +408,68 @@ def routes_endpoint():
             "error": f"Error generating routes: {str(e)}"
         }), 500
 
+@app.route('/api/routes/bfs', methods=['GET'])
+def bfs_routes_endpoint():
+    """
+    Get routes using pure BFS (no Pareto optimization).
+    
+    Query Parameters:
+    - origin: Source station (required)
+    - destination: Destination station (required)
+    - max_transfers: Max transfers allowed (default 3, max 3)
+    - date: Travel date for validation (optional, format: DD-MM-YYYY)
+    
+    Returns:
+    - Routes grouped by number of transfers
+    - Total routes count
+    - Search time in milliseconds
+    
+    Example: /api/routes/bfs?origin=DELHI&destination=MUMBAI&max_transfers=3
+    """
+    try:
+        origin = request.args.get('origin', '').strip().upper()
+        destination = request.args.get('destination', '').strip().upper()
+        max_transfers = int(request.args.get('max_transfers', 3))
+        date_raw = request.args.get('date', datetime.now().strftime('%d-%m-%Y'))
+        
+        # Validate inputs
+        if not origin or not destination:
+            return jsonify({
+                "error": "Missing parameters",
+                "required": ["origin", "destination"],
+                "optional": ["max_transfers", "date"]
+            }), 400
+        
+        if max_transfers < 0 or max_transfers > 3:
+            return jsonify({"error": "max_transfers must be 0-3"}), 400
+        
+        # Parse travel date
+        travel_date = _parse_travel_date(date_raw)
+        
+        logger.info(f"[BFS] Request: {origin} → {destination}, transfers={max_transfers}")
+        
+        # Create BFS generator and find routes
+        from route_optimizer import SimpleBFSRouteGenerator, ParetoTrainRouter
+        
+        router = ParetoTrainRouter()
+        bfs_gen = SimpleBFSRouteGenerator(router)
+        result = bfs_gen.find_routes(
+            origin=origin,
+            destination=destination,
+            max_transfers=max_transfers,
+            travel_date=travel_date
+        )
+        
+        logger.info(f"[BFS] Found {result['total_routes']} routes in {result['search_time_ms']}ms")
+        
+        return jsonify(result), 200
+    
+    except Exception as e:
+        logger.error(f"[BFS] ERROR: {type(e).__name__}: {str(e)}", exc_info=True)
+        return jsonify({
+            "error": f"Error generating BFS routes: {str(e)}"
+        }), 500
+
 @app.route('/api/stations', methods=['GET'])
 def stations_endpoint():
     """Get list of all stations or search by city/code/name (for autocomplete)"""

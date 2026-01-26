@@ -196,6 +196,100 @@ class GraphSingleton:
         return GraphSingleton._timestamp
 
 
+class SimpleBFSRouteGenerator:
+    """
+    Pure BFS route generator without Pareto optimization.
+    
+    This class exposes the raw BFS from ParetoTrainRouter:
+    - No objective calculation
+    - No ranking or filtering
+    - Just valid, legal routes with realistic transfers
+    - Useful for simple route discovery up to 3 transfers
+    """
+    
+    def __init__(self, router: 'ParetoTrainRouter' = None):
+        """
+        Initialize with existing router to reuse graph.
+        
+        Args:
+            router: ParetoTrainRouter instance (optional)
+                   If None, creates new instance
+        """
+        self.router = router or ParetoTrainRouter()
+    
+    def find_routes(self, origin: str, destination: str, 
+                   max_transfers: int = 3, travel_date = None) -> dict:
+        """
+        Find routes using pure BFS (no Pareto optimization).
+        
+        Args:
+            origin: Source station (will be uppercased)
+            destination: Destination station (will be uppercased)
+            max_transfers: Max transfers allowed (default 3, capped at 3)
+            travel_date: Travel date for validation (optional)
+        
+        Returns:
+            {
+                'origin': str,
+                'destination': str,
+                'max_transfers': int,
+                'total_routes': int,
+                'routes_by_transfers': {
+                    '0': [...],  # Direct routes
+                    '1': [...],  # 1 transfer
+                    '2': [...],  # 2 transfers
+                    '3': [...]   # 3 transfers
+                }
+            }
+        """
+        import time
+        start_time = time.time()
+        
+        origin = origin.upper().strip()
+        destination = destination.upper().strip()
+        max_transfers = min(int(max_transfers), 3)  # Cap at 3
+        
+        # Use validator if travel_date provided
+        validator = None
+        if travel_date:
+            from train_running_days_validator import TrainRunningDaysValidator
+            validator = TrainRunningDaysValidator()
+        
+        # Get raw BFS routes from router
+        # This calls the existing find_routes() which has perfect BFS logic
+        raw_routes = self.router.find_routes(
+            origin=origin,
+            destination=destination,
+            max_transfers=max_transfers,
+            travel_date=travel_date,
+            validator=validator
+        )
+        
+        # Group by transfer count
+        grouped = {}
+        for route in raw_routes:
+            # Number of transfers = number of segments - 1
+            transfer_count = len(route) - 1
+            if transfer_count not in grouped:
+                grouped[transfer_count] = []
+            grouped[transfer_count].append({
+                'segments': route,
+                'hops': len(route),
+                'transfers': transfer_count
+            })
+        
+        search_time = time.time() - start_time
+        
+        return {
+            'origin': origin,
+            'destination': destination,
+            'max_transfers': max_transfers,
+            'total_routes': len(raw_routes),
+            'routes_by_transfers': grouped,
+            'search_time_ms': round(search_time * 1000, 2)
+        }
+
+
 class ParetoTrainRouter:
     """
     Multi-objective train routing with Pareto optimization.
