@@ -9,16 +9,8 @@ import { CategoryFilter } from "@/components/CategoryFilter";
 import { FeaturesSection } from "@/components/FeaturesSection";
 import { Station } from "@/data/stations";
 import { sampleRoutes, Route, getCategoryBase, mapApiRouteToRoute } from "@/data/routes";
-import { cn } from "@/lib/utils";
+import { cn, getApiUrl } from "@/lib/utils";
 import { toast, Toast } from "@/hooks/use-toast";
-
-// Helper function to get API URL - uses relative paths in production, localhost in development
-const getApiUrl = (path: string): string => {
-  if (typeof window !== 'undefined' && window.location.hostname === 'localhost') {
-    return `http://localhost:5000${path}`;
-  }
-  return path;
-};
 
 const Index = () => {
   const [origin, setOrigin] = useState<Station | null>(null);

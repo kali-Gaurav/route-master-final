@@ -1,12 +1,13 @@
-import { useState, useRef, useEffect } from "react";
-import { Search, MapPin } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { useState, useRef, useEffect, useCallback } from "react";
+import { Search, MapPin, Loader2 } from "lucide-react";
+import { cn, getApiUrl } from "@/lib/utils";
 
 interface Station {
   code: string;
   name: string;
-  city: string;
-  state: string;
+  city?: string;
+  state?: string;
+  id?: number;
 }
 
 interface StationSearchProps {
@@ -27,35 +28,67 @@ export function StationSearch({
   const [query, setQuery] = useState(value ? `${value.name} (${value.code})` : "");
   const [isOpen, setIsOpen] = useState(false);
   const [results, setResults] = useState<Station[]>([]);
-  const [allStations, setAllStations] = useState<Station[]>([]);
   const [isLoading, setIsLoading] = useState(false);
+  const [searchError, setSearchError] = useState<string | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const debounceTimerRef = useRef<NodeJS.Timeout>();
 
-  // Fetch all stations on component mount
-  useEffect(() => {
-    const fetchStations = async () => {
-      try {
-        setIsLoading(true);
-        const response = await fetch('http://localhost:5000/api/stations?limit=5000');
-        if (response.ok) {
-          const data = await response.json();
-          // API returns { total, stations: [...] }
-          const stations = data.stations || data || [];
-          setAllStations(stations);
-        } else {
-          console.error('Failed to fetch stations');
-        }
-      } catch (error) {
-        console.error('Error fetching stations:', error);
-      } finally {
-        setIsLoading(false);
+  // Fetch stations from API with proper error handling
+  const fetchStations = useCallback(async (searchQuery: string) => {
+    if (searchQuery.length < 2) {
+      setResults([]);
+      setIsOpen(false);
+      setSearchError(null);
+      return;
+    }
+
+    try {
+      setIsLoading(true);
+      setSearchError(null);
+      
+      const apiUrl = getApiUrl(`/api/stations?query=${encodeURIComponent(searchQuery)}&limit=15`);
+      console.log("[StationSearch] Fetching from:", apiUrl);
+      
+      const response = await fetch(apiUrl, {
+        method: 'GET',
+        headers: {
+          'Accept': 'application/json',
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
       }
-    };
 
-    fetchStations();
+      const data = await response.json();
+      console.log("[StationSearch] Results:", data);
+      
+      // Handle both { total, stations: [...] } and array formats
+      const stations = Array.isArray(data) ? data : (data.stations || []);
+      
+      // Ensure stations have all required fields
+      const enrichedStations = stations.map((station: any) => ({
+        code: station.code || station.station_code || '',
+        name: station.name || station.station_name || '',
+        city: station.city || '',
+        state: station.state || '',
+        id: station.id,
+      }));
+
+      setResults(enrichedStations);
+      setIsOpen(enrichedStations.length > 0);
+    } catch (error) {
+      console.error("[StationSearch] Error fetching stations:", error);
+      setSearchError(error instanceof Error ? error.message : "Failed to fetch stations");
+      setResults([]);
+      setIsOpen(false);
+    } finally {
+      setIsLoading(false);
+    }
   }, []);
 
+  // Click outside handler
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
       if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
@@ -66,24 +99,31 @@ export function StationSearch({
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
+  // Debounced search handler
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const val = e.target.value;
     setQuery(val);
-    if (val.length >= 2) {
-      // Filter stations based on query
-      const filtered = allStations.filter(station =>
-        station.name.toLowerCase().includes(val.toLowerCase()) ||
-        station.code.toLowerCase().includes(val.toLowerCase()) ||
-        station.city.toLowerCase().includes(val.toLowerCase())
-      ).slice(0, 10); // Limit to 10 results
-      setResults(filtered);
-      setIsOpen(true);
-    } else {
-      setResults([]);
-      setIsOpen(false);
-    }
     onChange(null);
+
+    // Clear previous debounce timer
+    if (debounceTimerRef.current) {
+      clearTimeout(debounceTimerRef.current);
+    }
+
+    // Debounce the API call by 300ms
+    debounceTimerRef.current = setTimeout(() => {
+      fetchStations(val);
+    }, 300);
   };
+
+  // Cleanup debounce timer on unmount
+  useEffect(() => {
+    return () => {
+      if (debounceTimerRef.current) {
+        clearTimeout(debounceTimerRef.current);
+      }
+    };
+  }, []);
 
   const handleSelect = (station: Station) => {
     setQuery(`${station.name} (${station.code})`);
@@ -109,8 +149,13 @@ export function StationSearch({
           type="text"
           value={query}
           onChange={handleInputChange}
-          onFocus={() => query.length >= 2 && setIsOpen(true)}
+          onFocus={() => {
+            if (query.length >= 2 && results.length > 0) {
+              setIsOpen(true);
+            }
+          }}
           placeholder={placeholder}
+          autoComplete="off"
           className={cn(
             "w-full pl-12 pr-12 py-4 rounded-xl",
             "bg-card border-2 border-border",
@@ -120,14 +165,28 @@ export function StationSearch({
             "text-lg font-medium"
           )}
         />
-        <Search className="absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
+        <div className="absolute right-4 top-1/2 -translate-y-1/2">
+          {isLoading ? (
+            <Loader2 className="w-5 h-5 text-muted-foreground animate-spin" />
+          ) : (
+            <Search className="w-5 h-5 text-muted-foreground" />
+          )}
+        </div>
       </div>
 
+      {/* Error message display */}
+      {searchError && (
+        <div className="mt-2 p-2 bg-destructive/10 border border-destructive/20 rounded-lg">
+          <p className="text-xs text-destructive">{searchError}</p>
+        </div>
+      )}
+
+      {/* Results dropdown */}
       {isOpen && results.length > 0 && (
         <div className="absolute z-50 w-full mt-2 bg-card border border-border rounded-xl shadow-card overflow-y-auto max-h-80 animate-fade-in custom-scrollbar">
           {results.map((station, idx) => (
             <button
-              key={station.code}
+              key={`${station.code}-${station.name}`}
               onClick={() => handleSelect(station)}
               className={cn(
                 "w-full px-4 py-3 text-left",
@@ -143,12 +202,26 @@ export function StationSearch({
                 <div className="font-semibold text-foreground truncate">
                   {station.name}
                 </div>
-                <div className="text-sm text-muted-foreground">
-                  {station.city}, {station.state}
-                </div>
+                {(station.city || station.state) && (
+                  <div className="text-sm text-muted-foreground">
+                    {[station.city, station.state].filter(Boolean).join(", ")}
+                  </div>
+                )}
               </div>
             </button>
           ))}
+        </div>
+      )}
+
+      {/* No results message */}
+      {isOpen && query.length >= 2 && results.length === 0 && !isLoading && !searchError && (
+        <div className="absolute z-50 w-full mt-2 bg-card border border-border rounded-xl shadow-card p-4 text-center">
+          <p className="text-sm text-muted-foreground">
+            No stations found for "{query}"
+          </p>
+          <p className="text-xs text-muted-foreground mt-1">
+            Try searching by station name, code, or city
+          </p>
         </div>
       )}
     </div>

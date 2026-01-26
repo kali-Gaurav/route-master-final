@@ -393,13 +393,54 @@ def stations_endpoint():
         db = get_db()
         
         if query:
-            # Search stations by prefix
-            results = db.search_stations(query, limit=limit)
+            # Search stations by prefix - now returns complete station info
+            cursor = db.conn.cursor()
+            cursor.execute("""
+                SELECT id, station_code, station_name, city, state
+                FROM stations
+                WHERE 
+                    station_name LIKE ? 
+                    OR station_code LIKE ? 
+                    OR city LIKE ?
+                ORDER BY 
+                    CASE 
+                        WHEN station_code = ? THEN 0
+                        WHEN station_code LIKE ? THEN 1
+                        ELSE 2
+                    END,
+                    station_name
+                LIMIT ?
+            """, (f"%{query}%", f"%{query}%", f"%{query}%", query, f"{query}%", limit))
+            
+            results = [
+                {
+                    "id": row[0],
+                    "code": row[1],
+                    "name": row[2],
+                    "city": row[3],
+                    "state": row[4]
+                }
+                for row in cursor.fetchall()
+            ]
         else:
             # Get all stations (paginated)
             cursor = db.conn.cursor()
-            cursor.execute("SELECT code, name FROM stations ORDER BY name LIMIT ?", (limit,))
-            results = [{"code": row[0], "name": row[1]} for row in cursor.fetchall()]
+            cursor.execute("""
+                SELECT id, station_code, station_name, city, state 
+                FROM stations 
+                ORDER BY station_name 
+                LIMIT ?
+            """, (limit,))
+            results = [
+                {
+                    "id": row[0],
+                    "code": row[1],
+                    "name": row[2],
+                    "city": row[3],
+                    "state": row[4]
+                }
+                for row in cursor.fetchall()
+            ]
         
         logger.info(f"[STATIONS] Search query: '{query}', returned {len(results)} results")
         
