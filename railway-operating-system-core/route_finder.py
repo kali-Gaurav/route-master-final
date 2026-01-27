@@ -13,6 +13,11 @@ class RouteFinder:
     
     def __init__(self):
         self.db_path = DB_PATH
+        # Simple per-instance caches to reduce repeated DB queries during combinatorial searches
+        # Cache for direct route lookups keyed by (source, destination)
+        self._direct_cache = {}
+        # Cache for train_runs_on results keyed by (train_no, iso_date)
+        self._runs_cache = {}
     
     @staticmethod
     def calculate_time_diff(departure, arrival, day_diff=0):
@@ -90,14 +95,22 @@ class RouteFinder:
             day_cols = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN']
             day_col = day_cols[weekday]
 
+            # Check cache first
+            cache_key = (int(train_no), target_date.isoformat())
+            if cache_key in self._runs_cache:
+                return self._runs_cache[cache_key]
+
             with DatabaseConnection(self.db_path) as db:
                 if not db.connect():
                     return False
                 query = f"SELECT {day_col} FROM train_running_days WHERE train_no = ?"
                 res = db.execute_single(query, (train_no,))
                 if not res:
+                    self._runs_cache[cache_key] = False
                     return False
-                return bool(res[0])
+                result_bool = bool(res[0])
+                self._runs_cache[cache_key] = result_bool
+                return result_bool
         except:
             return False
     
@@ -150,6 +163,13 @@ class RouteFinder:
         source = source.upper().strip()
         destination = destination.upper().strip()
         
+        # Use a cache to avoid repeated DB lookups for the same (source,destination)
+        cache_key = (source, destination)
+        if cache_key in self._direct_cache:
+            # return a shallow copy to avoid accidental external mutation
+            import copy
+            return copy.deepcopy(self._direct_cache[cache_key])
+
         with DatabaseConnection(self.db_path) as db:
             if not db.connect():
                 return []
@@ -192,7 +212,13 @@ class RouteFinder:
                     'time_str': time_str,
                     'day_diff': day_diff or 0
                 })
-            
+            # store in cache
+            try:
+                import copy
+                self._direct_cache[cache_key] = copy.deepcopy(result)
+            except Exception:
+                self._direct_cache[cache_key] = result
+
             return result
     
     def find_one_transfer_routes(self, source, destination, start_date=None, max_results=100, verbose=False):
@@ -794,7 +820,7 @@ class RouteFinder:
                 return {'routes': routes[:max_results], 'skips': skips}
             return routes[:max_results]
     
-    def find_all_routes(self, source, destination, start_date=None, max_transfers=MAX_TRANSFERS, max_results=100, verbose=False):
+    def find_all_routes(self, source, destination, start_date=None, max_transfers=MAX_TRANSFERS, max_results=100, verbose=False, sort_by=None):
         """Find all possible routes (direct + all transfers)"""
         source = source.upper().strip()
         destination = destination.upper().strip()
@@ -840,8 +866,15 @@ class RouteFinder:
             else:
                 all_routes['three_transfer'] = three_transfer[:max_results] if three_transfer else []
 
+        # Optionally sort results before returning. Supported: 'duration'
+        if sort_by == 'duration':
+            # Direct routes sort by `time_minutes`
+            all_routes['direct'] = sorted(all_routes.get('direct', []), key=lambda r: r.get('time_minutes', float('inf')))
+            # One/two/three transfer routes have `total_time_minutes`
+            for key in ('one_transfer', 'two_transfer', 'three_transfer'):
+                all_routes[key] = sorted(all_routes.get(key, []), key=lambda r: r.get('total_time_minutes', float('inf')))
+
         # `skips` has been collected during generation when verbose=True
-        
         return all_routes
     
     def get_route_details(self, train_no, source, destination):
