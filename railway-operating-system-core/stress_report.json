@@ -1,0 +1,61 @@
+{
+  "run_at": "2026-01-28",
+  "results": [
+    {
+      "name": "Midnight Connection",
+      "desc": "23:50 arrival -> 00:15 departure check",
+      "status": "WARN",
+      "detail": null
+    },
+    {
+      "name": "Leap/Month-End",
+      "desc": "Routes spanning Feb->Mar across leap and non-leap years",
+      "status": "PASS",
+      "detail": {
+        "2024": true,
+        "2026": true
+      }
+    },
+    {
+      "name": "Weekly Gap",
+      "desc": "Train runs only on Monday should not be used on other days",
+      "status": "PASS",
+      "detail": {
+        "train_no": 422,
+        "tuesday": "2026-02-04",
+        "runs": false
+      }
+    },
+    {
+      "name": "Long-Haul Accumulator",
+      "desc": "Verify cumulative day offsets across legs",
+      "status": "WARN"
+    },
+    {
+      "name": "Circular Routing Prevention",
+      "desc": "Ensure junctions do not equal source/destination",
+      "status": "PASS"
+    },
+    {
+      "name": "Search Exhaustion Performance",
+      "desc": "NDLS->CSMT with max_results=500 timing",
+      "duration_seconds": 48.623,
+      "status": "WARN"
+    },
+    {
+      "name": "Missing Data",
+      "desc": "train in trains_master but missing running_days should safely return False",
+      "status": "SKIP",
+      "detail": "No missing running_days entry found"
+    },
+    {
+      "name": "Station Typos",
+      "desc": "Input sanitization check for casing/whitespace",
+      "status": "PASS",
+      "counts": {
+        "typo_count": 13,
+        "normal_count": 13
+      }
+    }
+  ]
+}
