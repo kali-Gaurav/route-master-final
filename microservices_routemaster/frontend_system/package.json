@@ -1,0 +1,30 @@
+{
+  "name": "@railway-os/frontend-system",
+  "version": "1.0.0",
+  "description": "Frontend platform system with design system, API client, and state management",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "@types/react": "^18.3.27",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [
+    "railway",
+    "os",
+    "frontend",
+    "design-system"
+  ],
+  "author": "Railway OS",
+  "license": "MIT"
+}

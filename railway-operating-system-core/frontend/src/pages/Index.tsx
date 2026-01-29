@@ -7,6 +7,8 @@ import { RouteCard } from "@/components/RouteCard";
 import { RouteSkeleton } from "@/components/RouteSkeleton";
 import { CategoryFilter } from "@/components/CategoryFilter";
 import { FeaturesSection } from "@/components/FeaturesSection";
+import { HowItWorksSection } from "@/components/HowItWorksSection";
+import { PricingSection } from "@/components/PricingSection";
 import { Station } from "@/data/stations";
 import { sampleRoutes, Route, getCategoryBase, mapApiRouteToRoute } from "@/data/routes";
 import { cn, getApiUrl } from "@/lib/utils";
@@ -508,6 +510,12 @@ const Index = () => {
 
       {/* Features Section */}
       <FeaturesSection />
+
+      {/* How It Works Section */}
+      <HowItWorksSection />
+
+      {/* Pricing Section */}
+      <PricingSection />
 
       <Footer />
     </div>

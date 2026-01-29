@@ -1,0 +1,170 @@
+{
+  "null_analysis": {
+    "stations": {
+      "total_rows": 7,
+      "null_codes": 0,
+      "null_names": 0,
+      "null_latitudes": 0,
+      "null_longitudes": 0
+    },
+    "trains": {
+      "total_rows": 5,
+      "null_numbers": 0,
+      "null_names": 0,
+      "null_types": 0
+    },
+    "routes": {
+      "total_rows": 5,
+      "null_train_ids": 0,
+      "null_origin_ids": 0,
+      "null_dest_ids": 0,
+      "null_distances": 0,
+      "null_durations": 0
+    },
+    "schedules": {
+      "total_rows": 5,
+      "null_route_ids": 0,
+      "null_departures": 0,
+      "null_arrivals": 0,
+      "null_platforms": 0
+    }
+  },
+  "route_analysis": {
+    "train_routes": [
+      {
+        "train_number": "12512",
+        "train_name": "Rapti Sagar Express",
+        "route_count": 1,
+        "schedule_count": 1,
+        "min_distance": 1890.0,
+        "max_distance": 1890.0
+      },
+      {
+        "train_number": "12627",
+        "train_name": "Karnataka Express",
+        "route_count": 1,
+        "schedule_count": 1,
+        "min_distance": 2150.0,
+        "max_distance": 2150.0
+      },
+      {
+        "train_number": "12841",
+        "train_name": "Coromandel Express",
+        "route_count": 1,
+        "schedule_count": 1,
+        "min_distance": 1659.0,
+        "max_distance": 1659.0
+      },
+      {
+        "train_number": "12801",
+        "train_name": "Purushottam Express",
+        "route_count": 1,
+        "schedule_count": 1,
+        "min_distance": 2180.0,
+        "max_distance": 2180.0
+      },
+      {
+        "train_number": "12951",
+        "train_name": "Mumbai Rajdhani Express",
+        "route_count": 1,
+        "schedule_count": 1,
+        "min_distance": 1384.0,
+        "max_distance": 1384.0
+      }
+    ],
+    "station_connectivity": [
+      {
+        "station_code": "NDLS",
+        "station_name": "Updated by 2",
+        "outgoing_routes": 3,
+        "incoming_routes": 0,
+        "outgoing_trains": 3,
+        "incoming_trains": 0,
+        "total_connections": 3
+      },
+      {
+        "station_code": "SBC",
+        "station_name": "Bangalore City",
+        "outgoing_routes": 0,
+        "incoming_routes": 2,
+        "outgoing_trains": 0,
+        "incoming_trains": 2,
+        "total_connections": 2
+      },
+      {
+        "station_code": "MAS",
+        "station_name": "Chennai Central",
+        "outgoing_routes": 0,
+        "incoming_routes": 2,
+        "outgoing_trains": 0,
+        "incoming_trains": 2,
+        "total_connections": 2
+      },
+      {
+        "station_code": "LKO",
+        "station_name": "Lucknow",
+        "outgoing_routes": 1,
+        "incoming_routes": 0,
+        "outgoing_trains": 1,
+        "incoming_trains": 0,
+        "total_connections": 1
+      },
+      {
+        "station_code": "HWH",
+        "station_name": "Updated by 1",
+        "outgoing_routes": 1,
+        "incoming_routes": 0,
+        "outgoing_trains": 1,
+        "incoming_trains": 0,
+        "total_connections": 1
+      },
+      {
+        "station_code": "BCT",
+        "station_name": "Updated by 4",
+        "outgoing_routes": 0,
+        "incoming_routes": 1,
+        "outgoing_trains": 0,
+        "incoming_trains": 1,
+        "total_connections": 1
+      },
+      {
+        "station_code": "KGP",
+        "station_name": "Kharagpur",
+        "outgoing_routes": 0,
+        "incoming_routes": 0,
+        "outgoing_trains": 0,
+        "incoming_trains": 0,
+        "total_connections": 0
+      }
+    ],
+    "transfer_potential": {
+      "total_stations": 7,
+      "total_routes": 5,
+      "total_trains": 5,
+      "avg_distance": 1852.6,
+      "min_distance": 1384.0,
+      "max_distance": 2180.0
+    },
+    "data_completeness": [
+      {
+        "table": "routes",
+        "total_records": 5,
+        "complete_records": 5,
+        "completeness_pct": 100.0
+      },
+      {
+        "table": "schedules",
+        "total_records": 5,
+        "complete_records": 5,
+        "completeness_pct": 100.0
+      }
+    ]
+  },
+  "summary": {
+    "total_stations": 7,
+    "total_trains": 5,
+    "total_routes": 5,
+    "total_schedules": 5,
+    "data_quality_score": 100.0
+  }
+}

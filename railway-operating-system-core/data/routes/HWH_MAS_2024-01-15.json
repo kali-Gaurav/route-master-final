@@ -1,0 +1,19 @@
+{
+  "direct": [
+    {
+      "train_no": "12841",
+      "train_name": "Coromandel Express",
+      "train_type": "Superfast",
+      "source": "HWH",
+      "destination": "MAS",
+      "departure": "14:10:00",
+      "arrival": "23:10:00",
+      "distance": 1659.0,
+      "time_minutes": 540,
+      "time_str": "9h 0m",
+      "route_id": "3d0acc2c-4009-4f3f-b791-417ea1502dc4"
+    }
+  ],
+  "transfer_routes": [],
+  "total_found": 1
+}

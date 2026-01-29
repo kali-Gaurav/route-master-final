@@ -1,0 +1,87 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: railway-postgres
+    environment:
+      POSTGRES_DB: railway_os
+      POSTGRES_USER: railway
+      POSTGRES_PASSWORD: railway_secure_password_change_me
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U railway"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - railway_network
+
+  # Redis Cache & Celery Broker
+  redis:
+    image: redis:7-alpine
+    container_name: railway-redis
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - railway_network
+
+  # Celery Worker for async tasks
+  celery-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.celery
+    container_name: railway-celery-worker
+    environment:
+      DATABASE_URL: "postgresql://railway:railway_secure_password_change_me@postgres:5432/railway_os"
+      REDIS_URL: "redis://redis:6379/0"
+      CELERY_BROKER_URL: "redis://redis:6379/0"
+      DB_BACKEND: "postgresql"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - railway_network
+    command: celery -A tasks worker --loglevel=info
+
+  # FastAPI Application
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: railway-api
+    environment:
+      DATABASE_URL: "postgresql://railway:railway_secure_password_change_me@postgres:5432/railway_os"
+      REDIS_URL: "redis://redis:6379/0"
+      CELERY_BROKER_URL: "redis://redis:6379/0"
+      DB_BACKEND: "postgresql"
+      API_HOST: "0.0.0.0"
+      API_PORT: "8000"
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - railway_network
+    command: python -m uvicorn ros_api:app --host 0.0.0.0 --port 8000 --reload
+
+volumes:
+  postgres_data:
+
+networks:
+  railway_network:
+    driver: bridge

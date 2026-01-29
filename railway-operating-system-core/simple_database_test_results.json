@@ -1,0 +1,62 @@
+{
+  "summary": {
+    "test_duration_seconds": 0.4821286201477051,
+    "total_tests": 4,
+    "passed_tests": 4,
+    "failed_tests": 0,
+    "success_rate": 1.0,
+    "grade": "A",
+    "total_errors": 0,
+    "total_warnings": 0,
+    "test_timestamp": "2026-01-29T16:36:28.897470",
+    "test_type": "simplified_database_validation"
+  },
+  "basic_tests": {
+    "imports": {
+      "status": "PASSED",
+      "modules_imported": [
+        "config",
+        "connection",
+        "models"
+      ]
+    },
+    "configuration": {
+      "status": "PASSED",
+      "configuration_valid": true,
+      "pool_size": 20,
+      "max_connections": 50
+    },
+    "model_structure": {
+      "status": "PASSED",
+      "models_checked": {
+        "Station": {
+          "model_name": "Station",
+          "has_required_attrs": true,
+          "missing_attrs": [],
+          "total_attrs_found": 47
+        },
+        "Train": {
+          "model_name": "Train",
+          "has_required_attrs": true,
+          "missing_attrs": [],
+          "total_attrs_found": 51
+        },
+        "Route": {
+          "model_name": "Route",
+          "has_required_attrs": true,
+          "missing_attrs": [],
+          "total_attrs_found": 58
+        }
+      },
+      "total_models": 3
+    },
+    "basic_functionality": {
+      "status": "PASSED",
+      "connection_working": true,
+      "session_created": true,
+      "basic_query_executed": true
+    }
+  },
+  "errors": [],
+  "warnings": []
+}
