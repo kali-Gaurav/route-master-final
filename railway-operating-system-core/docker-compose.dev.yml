@@ -1,0 +1,178 @@
+﻿# =========================================================
+# Docker Compose - Development Configuration
+# Hot-reload enabled for rapid development
+# =========================================================
+
+version: '3.9'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: railway-postgres-dev
+    restart: unless-stopped
+    
+    environment:
+      POSTGRES_DB: railway_db_dev
+      POSTGRES_USER: railway_user
+      POSTGRES_PASSWORD: dev_password
+    
+    ports:
+      - "5432:5432"
+    
+    volumes:
+      - postgres_dev_data:/var/lib/postgresql/data
+    
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U railway_user -d railway_db_dev"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+    
+    networks:
+      - railway_network
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: railway-redis-dev
+    restart: unless-stopped
+    
+    ports:
+      - "6379:6379"
+    
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+    
+    networks:
+      - railway_network
+
+  # Backend API (Development mode with hot-reload)
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.optimized
+      target: development
+    
+    container_name: railway-backend-dev
+    restart: unless-stopped
+    
+    environment:
+      DATABASE_URL: postgresql://railway_user:dev_password@postgres:5432/railway_db_dev
+      REDIS_URL: redis://redis:6379
+      JWT_SECRET: dev-jwt-secret
+      CSRF_SECRET_KEY: dev-csrf-secret
+      SECRET_KEY: dev-secret-key
+      ENVIRONMENT: development
+      DEBUG: "true"
+      LOG_LEVEL: DEBUG
+      RELOAD: "true"
+    
+    ports:
+      - "8000:8000"
+    
+    volumes:
+      # Mount source code for hot-reload
+      - ./backend:/app
+      - backend_cache:/app/__pycache__
+      - backend_logs:/app/logs
+    
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    
+    networks:
+      - railway_network
+    
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload --log-level debug
+
+  # Frontend (Development mode with hot-reload)
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      target: development
+    
+    container_name: railway-frontend-dev
+    restart: unless-stopped
+    
+    environment:
+      VITE_API_URL: http://localhost:8000
+    
+    ports:
+      - "5173:5173"
+    
+    volumes:
+      # Mount source code for hot-reload
+      - ./frontend:/app
+      - /app/node_modules
+    
+    depends_on:
+      - backend
+    
+    networks:
+      - railway_network
+    
+    command: npm run dev -- --host 0.0.0.0 --port 5173
+
+  # Database Admin Tool (pgAdmin)
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: railway-pgadmin
+    restart: unless-stopped
+    
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@railway.local
+      PGADMIN_DEFAULT_PASSWORD: admin
+      PGADMIN_LISTEN_PORT: 80
+    
+    ports:
+      - "5050:80"
+    
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    
+    depends_on:
+      - postgres
+    
+    networks:
+      - railway_network
+    
+    profiles:
+      - tools
+
+  # Redis Commander (Redis Admin UI)
+  redis-commander:
+    image: rediscommander/redis-commander:latest
+    container_name: railway-redis-commander
+    restart: unless-stopped
+    
+    environment:
+      REDIS_HOSTS: local:redis:6379
+    
+    ports:
+      - "8081:8081"
+    
+    depends_on:
+      - redis
+    
+    networks:
+      - railway_network
+    
+    profiles:
+      - tools
+
+volumes:
+  postgres_dev_data:
+  backend_cache:
+  backend_logs:
+  pgadmin_data:
+
+networks:
+  railway_network:
+    driver: bridge

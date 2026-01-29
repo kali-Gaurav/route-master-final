@@ -5,8 +5,8 @@
 
 import sys
 import argparse
-from src.route_finder import RouteFinder
-from src.route_display import TerminalDisplay
+from route_finder import RouteFinder
+from route_display import TerminalDisplay
 from database import get_fares
 
 def main():

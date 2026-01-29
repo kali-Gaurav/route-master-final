@@ -24,7 +24,7 @@ COPY . .
 # Create non-root user
 RUN useradd --create-home --shell /bin/bash app \
     && chown -R app:app /app
-USER app
+# USER app  # Commented out for development
 
 # Expose port
 EXPOSE 8000

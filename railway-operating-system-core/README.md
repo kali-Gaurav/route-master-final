@@ -1,20 +1,20 @@
 # 🚂 Railway Operating System - CORE
 
-## Complete Autonomous Railway Network Management System
+## Complete Autonomous Railway Network Management System with Web Interface
 
-**Version**: 1.0.0  
+**Version**: 2.0.0  
 **Status**: Production Ready  
-**Date**: January 28, 2026
+**Date**: January 30, 2026
 
 ---
 
 ## 📋 System Overview
 
-This is a **completely autonomous, database-driven railway operating system** that requires:
-- ✅ **No web frontend** - Terminal/CLI based
-- ✅ **No external APIs** - All data self-contained
-- ✅ **No dependencies** - Pure Python with built-in sqlite3
-- ✅ **Complete data** - 8,118 stations, 11,309 trains, 166,488 routes
+This is a **completely autonomous, database-driven railway operating system** with a modern web interface that provides:
+- ✅ **Web Frontend** - React-based UI with real-time updates
+- ✅ **REST API Backend** - FastAPI with comprehensive endpoints
+- ✅ **Database Integration** - PostgreSQL with Redis caching
+- ✅ **Complete Data** - 8,118 stations, 11,309 trains, 166,488 routes
 
 ### What This System Does
 
@@ -24,6 +24,8 @@ This is a **completely autonomous, database-driven railway operating system** th
 4. **Schedules** - Check arrival/departure times
 5. **Fare Lookup** - View all fare classes and prices
 6. **System Statistics** - Monitor database and system health
+7. **User Authentication** - Secure login and user management
+8. **Real-time Updates** - Live route and schedule information
 
 ---
 
@@ -32,57 +34,80 @@ This is a **completely autonomous, database-driven railway operating system** th
 ```
 railway-operating-system-core/
 │
-├── production.db              # Complete railway database (main data source)
-├── main.py                    # Interactive CLI application
-├── quick_routes.py            # Command-line route finder tool
-│
-├── config.py                  # Configuration and constants
-├── database.py                # Database connection and queries
-├── route_finder.py            # Route searching engine
-├── route_display.py           # Terminal UI formatting
-│
-├── requirements.txt           # Python dependencies (minimal)
+├── docker-compose.yml         # Docker orchestration for full system
+├── requirements.txt           # Python dependencies
+├── main.py                    # CLI application for querying
 ├── README.md                  # This file
 │
-├── logs/                      # Execution logs directory
-└── data/                      # Data export directory
+├── backend/                   # FastAPI backend application
+│   ├── main.py               # API server entry point
+│   ├── requirements.txt      # Backend dependencies
+│   ├── models/               # Database models
+│   ├── api/                  # API endpoints
+│   └── ...
+│
+├── frontend/                  # React frontend application
+│   ├── src/                  # Source code
+│   ├── package.json          # Node dependencies
+│   └── ...
+│
+├── database/                  # Database setup and migrations
+│   ├── models/               # Database schema
+│   ├── scripts/              # Setup scripts
+│   └── ...
+│
+├── microservices/             # Microservices architecture (alternative)
+├── tests/                     # Test suites
+├── docs/                      # Documentation
+├── scripts/                   # Utility scripts
+└── src/                       # Core Python modules
 ```
 
 ---
 
 ## 🚀 Quick Start
 
-### Option 1: Interactive Menu (Recommended)
+### Option 1: Full Web Application (Recommended)
 
 ```bash
-# Run the main application
+# Start the complete system with Docker
+docker-compose up --build
+```
+
+This will start:
+- **PostgreSQL Database** on port 5432
+- **Redis Cache** on port 6379
+- **FastAPI Backend** on port 8000
+- **React Frontend** on port 3000
+
+Open your browser to `http://localhost:3000` for the web interface.
+
+### Option 2: CLI Application
+
+```bash
+# Run the CLI application for querying
 python main.py
 ```
 
-**First Run Output:**
+### Option 3: Development Setup
+
+```bash
+# Backend only
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+# Frontend only
+cd frontend
+npm install
+npm run dev
+
+# Database setup
+cd database
+# Run setup scripts as needed
 ```
-╔═══════════════════════════════════════════════════════════════╗
-║   🚂 RAILWAY OPERATING SYSTEM - CORE                         ║
-║   Complete Autonomous Route Management Engine                ║
-║   Version 1.0.0 | Production Ready                           ║
-║                                                               ║
-║   Database: 8,118 Stations | 11,309 Trains | 166,488 Routes║
-╚═══════════════════════════════════════════════════════════════╝
 
-Verifying system integrity...
-✅ System ready for operations
-
-RAILWAY OPERATING SYSTEM - MAIN MENU
-================================================================================
-  1. Search Routes
-  2. Station Lookup
-  3. Train Information
-  4. Schedule Checker
-  5. Fare Calculator
-  6. View All Major Stations
-  7. Database Statistics
-  8. System Health Check
-  9. Batch Operations
+---
   0. Exit
 
 Select option (0-9): 

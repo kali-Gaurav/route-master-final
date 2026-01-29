@@ -1,0 +1,308 @@
+﻿# =========================================================
+# Docker Compose Configuration for Railway Operating System
+# Production-Ready Multi-Service Architecture
+# =========================================================
+
+version: '3.9'
+
+services:
+  # ========================
+  # PostgreSQL Database
+  # ========================
+  postgres:
+    image: postgres:15-alpine
+    container_name: railway-postgres
+    restart: unless-stopped
+    
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-railway_db}
+      POSTGRES_USER: ${POSTGRES_USER:-railway_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-secure_password}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init:/docker-entrypoint-initdb.d:ro
+    
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-railway_user} -d ${POSTGRES_DB:-railway_db}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    
+    networks:
+      - railway_network
+    
+    # Security: Run as non-root user
+    user: postgres
+    
+    # Resource limits
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 2G
+        reservations:
+          cpus: '1'
+          memory: 512M
+
+  # ========================
+  # Redis Cache
+  # ========================
+  redis:
+    image: redis:7-alpine
+    container_name: railway-redis
+    restart: unless-stopped
+    
+    command: >
+      redis-server
+      --appendonly yes
+      --requirepass ${REDIS_PASSWORD:-redis_password}
+      --maxmemory 256mb
+      --maxmemory-policy allkeys-lru
+    
+    ports:
+      - "${REDIS_PORT:-6379}:6379"
+    
+    volumes:
+      - redis_data:/data
+    
+    healthcheck:
+      test: ["CMD", "redis-cli", "--raw", "incr", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 5s
+    
+    networks:
+      - railway_network
+    
+    # Resource limits
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 512M
+        reservations:
+          cpus: '0.5'
+          memory: 256M
+
+  # ========================
+  # Backend API Service
+  # ========================
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.optimized
+      target: production
+      args:
+        - BUILDKIT_INLINE_CACHE=1
+    
+    container_name: railway-backend
+    restart: unless-stopped
+    
+    environment:
+      # Database
+      DATABASE_URL: postgresql://${POSTGRES_USER:-railway_user}:${POSTGRES_PASSWORD:-secure_password}@postgres:5432/${POSTGRES_DB:-railway_db}
+      
+      # Redis
+      REDIS_URL: redis://:${REDIS_PASSWORD:-redis_password}@redis:6379
+      
+      # Security
+      JWT_SECRET: ${JWT_SECRET:-change-this-jwt-secret-in-production}
+      CSRF_SECRET_KEY: ${CSRF_SECRET_KEY:-change-this-csrf-secret-in-production}
+      SECRET_KEY: ${SECRET_KEY:-change-this-secret-key-in-production}
+      
+      # Application
+      ENVIRONMENT: ${ENVIRONMENT:-production}
+      DEBUG: ${DEBUG:-false}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      
+      # CORS
+      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-http://localhost:3000,http://localhost:80}
+      
+      # Workers
+      WORKERS: ${WORKERS:-4}
+    
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    
+    volumes:
+      - ./backend/logs:/app/logs
+      - ./backend/reports:/app/reports
+      - ./backend/cache:/app/cache
+    
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    
+    networks:
+      - railway_network
+    
+    # Resource limits
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 1G
+        reservations:
+          cpus: '0.5'
+          memory: 256M
+
+  # ========================
+  # Frontend Service
+  # ========================
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      target: production
+      args:
+        - VITE_API_URL=${VITE_API_URL:-http://localhost:8000}
+        - BUILDKIT_INLINE_CACHE=1
+    
+    container_name: railway-frontend
+    restart: unless-stopped
+    
+    ports:
+      - "${FRONTEND_PORT:-3000}:80"
+    
+    depends_on:
+      - backend
+    
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    
+    networks:
+      - railway_network
+    
+    # Resource limits
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 256M
+        reservations:
+          cpus: '0.25'
+          memory: 128M
+
+  # ========================
+  # Database Migration Service (Run Once)
+  # ========================
+  migrate:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    
+    container_name: railway-migrate
+    
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-railway_user}:${POSTGRES_PASSWORD:-secure_password}@postgres:5432/${POSTGRES_DB:-railway_db}
+    
+    volumes:
+      - ./database:/app/database:ro
+      - ./data:/app/data:ro
+      - ./backups:/app/backups
+    
+    depends_on:
+      postgres:
+        condition: service_healthy
+    
+    networks:
+      - railway_network
+    
+    command: >
+      sh -c "
+        pip install psycopg2-binary sqlalchemy &&
+        python -c '
+        import sys
+        sys.path.insert(0, \"/app/database\")
+        from database_system import DatabaseMigrator
+        result = DatabaseMigrator.migrate(
+            postgres_url=\"postgresql://${POSTGRES_USER:-railway_user}:${POSTGRES_PASSWORD:-secure_password}@postgres:5432/${POSTGRES_DB:-railway_db}\",
+            sqlite_db=\"/app/data/production.db\"
+        )
+        print(\"Migration result:\", result)
+        '
+      "
+    
+    # Run only once
+    restart: "no"
+
+  # ========================
+  # CLI Application (Optional)
+  # ========================
+  cli:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    
+    container_name: railway-cli
+    
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-railway_user}:${POSTGRES_PASSWORD:-secure_password}@postgres:5432/${POSTGRES_DB:-railway_db}
+    
+    volumes:
+      - ./logs:/app/logs
+      - ./cache:/app/cache
+      - ./data:/app/data:ro
+    
+    depends_on:
+      postgres:
+        condition: service_healthy
+    
+    networks:
+      - railway_network
+    
+    # Interactive mode
+    stdin_open: true
+    tty: true
+    
+    # Don't auto-start
+    profiles:
+      - cli
+
+# ========================
+# Volumes
+# ========================
+volumes:
+  postgres_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ./volumes/postgres
+    
+  redis_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ./volumes/redis
+
+# ========================
+# Networks
+# ========================
+networks:
+  railway_network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.25.0.0/16

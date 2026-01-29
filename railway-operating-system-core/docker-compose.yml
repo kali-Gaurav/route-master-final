@@ -1,0 +1,115 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: railway-postgres
+    environment:
+      POSTGRES_DB: railway_db
+      POSTGRES_USER: railway_user
+      POSTGRES_PASSWORD: secure_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U railway_user"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - railway_network
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: railway-redis
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - railway_network
+
+  # Backend API
+  backend:
+    build:
+      context: ./
+      dockerfile: ./backend/Dockerfile
+    container_name: railway-backend
+    working_dir: /app/backend
+    environment:
+      DATABASE_URL: "postgresql://railway_user:secure_password@postgres:5432/railway_db"
+      REDIS_URL: "redis://redis:6379"
+      JWT_SECRET: "your-jwt-secret-change-in-production"
+      CSRF_SECRET_KEY: "change-this-csrf-secret-in-production"
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - ./:/app
+    networks:
+      - railway_network
+    command: python main.py
+
+  # Frontend
+  frontend:
+    image: node:18-alpine
+    container_name: railway-frontend
+    working_dir: /app
+    environment:
+      VITE_API_URL: http://backend:8000
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+    networks:
+      - railway_network
+    command: sh -c "npm install && npm run dev -- --host 0.0.0.0 --port 3000"
+
+  # MongoDB (Optional - for additional features)
+  mongodb:
+    image: mongo:latest
+    container_name: railway-mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password123
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - railway_network
+  migrate:
+    image: python:3.11-slim
+    working_dir: /app
+    volumes:
+      - ./migrate.py:/app/migrate.py
+      - ./database:/app/database
+      - ./data:/app/data
+      - ./backups:/app/backups
+    environment:
+      DATABASE_URL: "postgresql://railway_user:secure_password@postgres:5432/railway_db"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command: >
+      sh -c "pip install psycopg2-binary sqlalchemy && python /app/migrate.py"
+    networks:
+      - railway_network
+
+volumes:
+  postgres_data:
+  mongodb_data:
+
+networks:
+  railway_network:
+    driver: bridge

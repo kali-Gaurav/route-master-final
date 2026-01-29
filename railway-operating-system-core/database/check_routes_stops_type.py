@@ -1,6 +1,6 @@
-from database.database_system import DatabasePool
+from database_system import DatabasePool
 from sqlalchemy import text
-from database.database_system import DatabaseConfig
+from database_system import DatabaseConfig
 
 config = DatabaseConfig()
 database_url = config.database_url

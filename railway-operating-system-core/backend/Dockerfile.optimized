@@ -1,0 +1,83 @@
+﻿# ================================================
+# Optimized Multi-stage Dockerfile for Backend API
+# FastAPI Application with Production Settings
+# ================================================
+
+# Stage 1: Base image
+FROM python:3.11-slim AS base
+
+# Set environment variables
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    PYTHONPATH=/app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    libpq-dev \
+    postgresql-client \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Stage 2: Dependencies
+FROM base AS dependencies
+
+# Copy only requirements to leverage Docker cache
+COPY requirements.txt .
+
+# Install production dependencies
+RUN pip install --user --no-warn-script-location -r requirements.txt
+
+# Stage 3: Development (optional target)
+FROM dependencies AS development
+
+# Install development dependencies
+RUN pip install --user --no-warn-script-location \
+    pytest-watch \
+    ipython \
+    black \
+    flake8
+
+# Copy all code for development
+COPY . .
+
+# Run as root for development flexibility
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+
+# Stage 4: Production runtime
+FROM base AS production
+
+# Copy installed packages from dependencies stage
+COPY --from=dependencies /root/.local /root/.local
+
+# Update PATH
+ENV PATH=/root/.local/bin:$PATH
+
+# Create non-root user
+RUN groupadd -r appuser && \
+    useradd -r -g appuser -s /bin/bash -d /app appuser && \
+    mkdir -p /app/logs /app/reports /app/cache && \
+    chown -R appuser:appuser /app
+
+# Copy application code
+COPY --chown=appuser:appuser . .
+
+# Switch to non-root user
+USER appuser
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
+    CMD curl -f http://localhost:8000/health || exit 1
+
+# Expose port
+EXPOSE 8000
+
+# Use Gunicorn with Uvicorn workers for production
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "4", "--proxy-headers", "--forwarded-allow-ips", "*"]
+
+# Alternative production command with Gunicorn
+# CMD ["gunicorn", "main:app", "-w", "4", "-k", "uvicorn.workers.UvicornWorker", "--bind", "0.0.0.0:8000"]

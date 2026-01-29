@@ -1,0 +1,2440 @@
+{
+  "locations": [
+    {
+      "city": "Delhi",
+      "state": "Delhi",
+      "hubs": [
+        {
+          "name": "New Delhi Railway Station",
+          "code": "NDLS",
+          "type": "STATION",
+          "fullName": "New Delhi"
+        },
+        {
+          "name": "Old Delhi Railway Station",
+          "code": "DLI",
+          "type": "STATION",
+          "fullName": "Old Delhi"
+        },
+        {
+          "name": "Sarai Rohilla Railway Station",
+          "code": "DEE",
+          "type": "STATION",
+          "fullName": "Sarai Rohilla"
+        },
+        {
+          "name": "Hazrat Nizamuddin Railway Station",
+          "code": "NZM",
+          "type": "STATION",
+          "fullName": "Hazrat Nizamuddin"
+        },
+        {
+          "name": "Anand Vihar Railway Station",
+          "code": "ANVT",
+          "type": "STATION",
+          "fullName": "Anand Vihar"
+        }
+      ]
+    },
+    {
+      "city": "Chandigarh",
+      "state": "Chandigarh",
+      "hubs": [
+        {
+          "name": "Chandigarh Railway Station",
+          "code": "CDG",
+          "type": "STATION",
+          "fullName": "Chandigarh"
+        }
+      ]
+    },
+    {
+      "city": "Amritsar",
+      "state": "Punjab",
+      "hubs": [
+        {
+          "name": "Amritsar Junction Railway Station",
+          "code": "ASR",
+          "type": "STATION",
+          "fullName": "Amritsar Junction"
+        }
+      ]
+    },
+    {
+      "city": "Ludhiana",
+      "state": "Punjab",
+      "hubs": [
+        {
+          "name": "Ludhiana Junction Railway Station",
+          "code": "LDH",
+          "type": "STATION",
+          "fullName": "Ludhiana Junction"
+        }
+      ]
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Jaipur Junction Railway Station",
+          "code": "JP",
+          "type": "STATION",
+          "fullName": "Jaipur Junction"
+        }
+      ]
+    },
+    {
+      "city": "Jodhpur",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Jodhpur Junction Railway Station",
+          "code": "JU",
+          "type": "STATION",
+          "fullName": "Jodhpur Junction"
+        }
+      ]
+    },
+    {
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Udaipur City Railway Station",
+          "code": "UDZ",
+          "type": "STATION",
+          "fullName": "Udaipur City"
+        }
+      ]
+    },
+    {
+      "city": "Ajmer",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Ajmer Junction Railway Station",
+          "code": "AII",
+          "type": "STATION",
+          "fullName": "Ajmer Junction"
+        }
+      ]
+    },
+    {
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Lucknow Junction Railway Station",
+          "code": "LKO",
+          "type": "STATION",
+          "fullName": "Lucknow Junction"
+        },
+        {
+          "name": "Lucknow Charbagh Railway Station",
+          "code": "LC",
+          "type": "STATION",
+          "fullName": "Lucknow Charbagh"
+        }
+      ]
+    },
+    {
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Kanpur Central Railway Station",
+          "code": "CNB",
+          "type": "STATION",
+          "fullName": "Kanpur Central"
+        }
+      ]
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Agra Cantonment Railway Station",
+          "code": "AG",
+          "type": "STATION",
+          "fullName": "Agra Cantonment"
+        }
+      ]
+    },
+    {
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Varanasi Junction Railway Station",
+          "code": "BSB",
+          "type": "STATION",
+          "fullName": "Varanasi Junction"
+        }
+      ]
+    },
+    {
+      "city": "Allahabad",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Allahabad Junction Railway Station",
+          "code": "ALD",
+          "type": "STATION",
+          "fullName": "Allahabad Junction"
+        }
+      ]
+    },
+    {
+      "city": "Meerut",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Meerut City Railway Station",
+          "code": "MRT",
+          "type": "STATION",
+          "fullName": "Meerut City"
+        }
+      ]
+    },
+    {
+      "city": "Bareilly",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Bareilly Junction Railway Station",
+          "code": "BE",
+          "type": "STATION",
+          "fullName": "Bareilly Junction"
+        }
+      ]
+    },
+    {
+      "city": "Moradabad",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Moradabad Junction Railway Station",
+          "code": "MB",
+          "type": "STATION",
+          "fullName": "Moradabad Junction"
+        }
+      ]
+    },
+    {
+      "city": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Ghaziabad Junction Railway Station",
+          "code": "GZB",
+          "type": "STATION",
+          "fullName": "Ghaziabad Junction"
+        }
+      ]
+    },
+    {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "hubs": [
+        {
+          "name": "Howrah Junction Railway Station",
+          "code": "HWH",
+          "type": "STATION",
+          "fullName": "Howrah Junction"
+        },
+        {
+          "name": "Sealdah Railway Station",
+          "code": "SDAH",
+          "type": "STATION",
+          "fullName": "Sealdah"
+        },
+        {
+          "name": "Kolkata Station Railway Station",
+          "code": "KOAA",
+          "type": "STATION",
+          "fullName": "Kolkata Station"
+        }
+      ]
+    },
+    {
+      "city": "Guwahati",
+      "state": "Assam",
+      "hubs": [
+        {
+          "name": "Guwahati Junction Railway Station",
+          "code": "GHY",
+          "type": "STATION",
+          "fullName": "Guwahati Junction"
+        }
+      ]
+    },
+    {
+      "city": "Dibrugarh",
+      "state": "Assam",
+      "hubs": [
+        {
+          "name": "Dibrugarh Railway Station",
+          "code": "DIB",
+          "type": "STATION",
+          "fullName": "Dibrugarh"
+        }
+      ]
+    },
+    {
+      "city": "Silchar",
+      "state": "Assam",
+      "hubs": [
+        {
+          "name": "Silchar Railway Station",
+          "code": "SCL",
+          "type": "STATION",
+          "fullName": "Silchar"
+        }
+      ]
+    },
+    {
+      "city": "Patna",
+      "state": "Bihar",
+      "hubs": [
+        {
+          "name": "Patna Junction Railway Station",
+          "code": "PNBE",
+          "type": "STATION",
+          "fullName": "Patna Junction"
+        }
+      ]
+    },
+    {
+      "city": "Gaya",
+      "state": "Bihar",
+      "hubs": [
+        {
+          "name": "Gaya Junction Railway Station",
+          "code": "GAYA",
+          "type": "STATION",
+          "fullName": "Gaya Junction"
+        }
+      ]
+    },
+    {
+      "city": "Bhagalpur",
+      "state": "Bihar",
+      "hubs": [
+        {
+          "name": "Bhagalpur Junction Railway Station",
+          "code": "BGLU",
+          "type": "STATION",
+          "fullName": "Bhagalpur Junction"
+        }
+      ]
+    },
+    {
+      "city": "Muzaffarpur",
+      "state": "Bihar",
+      "hubs": [
+        {
+          "name": "Muzaffarpur Junction Railway Station",
+          "code": "MFP",
+          "type": "STATION",
+          "fullName": "Muzaffarpur Junction"
+        }
+      ]
+    },
+    {
+      "city": "Darbhanga",
+      "state": "Bihar",
+      "hubs": [
+        {
+          "name": "Darbhanga Junction Railway Station",
+          "code": "DBG",
+          "type": "STATION",
+          "fullName": "Darbhanga Junction"
+        }
+      ]
+    },
+    {
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "hubs": [
+        {
+          "name": "Ranchi Junction Railway Station",
+          "code": "RNC",
+          "type": "STATION",
+          "fullName": "Ranchi Junction"
+        }
+      ]
+    },
+    {
+      "city": "Jamshedpur",
+      "state": "Jharkhand",
+      "hubs": [
+        {
+          "name": "Jamshedpur Railway Station",
+          "code": "JSM",
+          "type": "STATION",
+          "fullName": "Jamshedpur"
+        }
+      ]
+    },
+    {
+      "city": "Dhanbad",
+      "state": "Jharkhand",
+      "hubs": [
+        {
+          "name": "Dhanbad Junction Railway Station",
+          "code": "DHN",
+          "type": "STATION",
+          "fullName": "Dhanbad Junction"
+        }
+      ]
+    },
+    {
+      "city": "Asansol",
+      "state": "West Bengal",
+      "hubs": [
+        {
+          "name": "Asansol Junction Railway Station",
+          "code": "ASN",
+          "type": "STATION",
+          "fullName": "Asansol Junction"
+        }
+      ]
+    },
+    {
+      "city": "Durgapur",
+      "state": "West Bengal",
+      "hubs": [
+        {
+          "name": "Durgapur Railway Station",
+          "code": "DGR",
+          "type": "STATION",
+          "fullName": "Durgapur"
+        }
+      ]
+    },
+    {
+      "city": "Raipur",
+      "state": "Chhattisgarh",
+      "hubs": [
+        {
+          "name": "Raipur Junction Railway Station",
+          "code": "R",
+          "type": "STATION",
+          "fullName": "Raipur Junction"
+        }
+      ]
+    },
+    {
+      "city": "Bilaspur",
+      "state": "Chhattisgarh",
+      "hubs": [
+        {
+          "name": "Bilaspur Junction Railway Station",
+          "code": "BSP",
+          "type": "STATION",
+          "fullName": "Bilaspur Junction"
+        }
+      ]
+    },
+    {
+      "city": "Korba",
+      "state": "Chhattisgarh",
+      "hubs": [
+        {
+          "name": "Korba Junction Railway Station",
+          "code": "KKG",
+          "type": "STATION",
+          "fullName": "Korba Junction"
+        }
+      ]
+    },
+    {
+      "city": "Rajnandgaon",
+      "state": "Chhattisgarh",
+      "hubs": [
+        {
+          "name": "Rajnandgaon Junction Railway Station",
+          "code": "RJG",
+          "type": "STATION",
+          "fullName": "Rajnandgaon Junction"
+        }
+      ]
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "hubs": [
+        {
+          "name": "Mumbai Central Railway Station",
+          "code": "MMCT",
+          "type": "STATION",
+          "fullName": "Mumbai Central"
+        },
+        {
+          "name": "Lokmanya Tilak Terminus Railway Station",
+          "code": "LTT",
+          "type": "STATION",
+          "fullName": "Lokmanya Tilak Terminus"
+        },
+        {
+          "name": "Bandra Terminus Railway Station",
+          "code": "BDTS",
+          "type": "STATION",
+          "fullName": "Bandra Terminus"
+        },
+        {
+          "name": "Dadar Railway Station",
+          "code": "DR",
+          "type": "STATION",
+          "fullName": "Dadar"
+        }
+      ]
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "hubs": [
+        {
+          "name": "Pune Junction Railway Station",
+          "code": "PNVL",
+          "type": "STATION",
+          "fullName": "Pune Junction"
+        }
+      ]
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "hubs": [
+        {
+          "name": "Nagpur Junction Railway Station",
+          "code": "NGP",
+          "type": "STATION",
+          "fullName": "Nagpur Junction"
+        }
+      ]
+    },
+    {
+      "city": "Aurangabad",
+      "state": "Maharashtra",
+      "hubs": [
+        {
+          "name": "Aurangabad Junction Railway Station",
+          "code": "AWB",
+          "type": "STATION",
+          "fullName": "Aurangabad Junction"
+        }
+      ]
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "hubs": [
+        {
+          "name": "Nashik Junction Railway Station",
+          "code": "NK",
+          "type": "STATION",
+          "fullName": "Nashik Junction"
+        }
+      ]
+    },
+    {
+      "city": "Jalgaon",
+      "state": "Maharashtra",
+      "hubs": [
+        {
+          "name": "Jalgaon Junction Railway Station",
+          "code": "JL",
+          "type": "STATION",
+          "fullName": "Jalgaon Junction"
+        }
+      ]
+    },
+    {
+      "city": "Ahmednagar",
+      "state": "Maharashtra",
+      "hubs": [
+        {
+          "name": "Ahmednagar Junction Railway Station",
+          "code": "ANG",
+          "type": "STATION",
+          "fullName": "Ahmednagar Junction"
+        }
+      ]
+    },
+    {
+      "city": "Latur",
+      "state": "Maharashtra",
+      "hubs": [
+        {
+          "name": "Latur Junction Railway Station",
+          "code": "LTR",
+          "type": "STATION",
+          "fullName": "Latur Junction"
+        }
+      ]
+    },
+    {
+      "city": "Parbhani",
+      "state": "Maharashtra",
+      "hubs": [
+        {
+          "name": "Parbhani Junction Railway Station",
+          "code": "PBN",
+          "type": "STATION",
+          "fullName": "Parbhani Junction"
+        }
+      ]
+    },
+    {
+      "city": "Parli Vaijnath",
+      "state": "Maharashtra",
+      "hubs": [
+        {
+          "name": "Parli Vaijnath Railway Station",
+          "code": "PVJ",
+          "type": "STATION",
+          "fullName": "Parli Vaijnath"
+        }
+      ]
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "hubs": [
+        {
+          "name": "Ahmedabad Junction Railway Station",
+          "code": "ADI",
+          "type": "STATION",
+          "fullName": "Ahmedabad Junction"
+        }
+      ]
+    },
+    {
+      "city": "Surat",
+      "state": "Gujarat",
+      "hubs": [
+        {
+          "name": "Surat Junction Railway Station",
+          "code": "SRT",
+          "type": "STATION",
+          "fullName": "Surat Junction"
+        }
+      ]
+    },
+    {
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "hubs": [
+        {
+          "name": "Vadodara Junction Railway Station",
+          "code": "BRC",
+          "type": "STATION",
+          "fullName": "Vadodara Junction"
+        }
+      ]
+    },
+    {
+      "city": "Rajkot",
+      "state": "Gujarat",
+      "hubs": [
+        {
+          "name": "Rajkot Junction Railway Station",
+          "code": "RJT",
+          "type": "STATION",
+          "fullName": "Rajkot Junction"
+        }
+      ]
+    },
+    {
+      "city": "Bhavnagar",
+      "state": "Gujarat",
+      "hubs": [
+        {
+          "name": "Bhavnagar Railway Station",
+          "code": "BVC",
+          "type": "STATION",
+          "fullName": "Bhavnagar"
+        }
+      ]
+    },
+    {
+      "city": "Anand",
+      "state": "Gujarat",
+      "hubs": [
+        {
+          "name": "Anand Junction Railway Station",
+          "code": "ANDI",
+          "type": "STATION",
+          "fullName": "Anand Junction"
+        }
+      ]
+    },
+    {
+      "city": "Gandhinagar",
+      "state": "Gujarat",
+      "hubs": [
+        {
+          "name": "Gandhinagar Junction Railway Station",
+          "code": "GND",
+          "type": "STATION",
+          "fullName": "Gandhinagar Junction"
+        }
+      ]
+    },
+    {
+      "city": "Jamnagar",
+      "state": "Gujarat",
+      "hubs": [
+        {
+          "name": "Jamnagar Railway Station",
+          "code": "JAM",
+          "type": "STATION",
+          "fullName": "Jamnagar"
+        }
+      ]
+    },
+    {
+      "city": "Junagadh",
+      "state": "Gujarat",
+      "hubs": [
+        {
+          "name": "Junagadh Railway Station",
+          "code": "JUN",
+          "type": "STATION",
+          "fullName": "Junagadh"
+        }
+      ]
+    },
+    {
+      "city": "Godhra",
+      "state": "Gujarat",
+      "hubs": [
+        {
+          "name": "Godhra Junction Railway Station",
+          "code": "GDR",
+          "type": "STATION",
+          "fullName": "Godhra Junction"
+        }
+      ]
+    },
+    {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "hubs": [
+        {
+          "name": "Bangalore City Railway Station",
+          "code": "SBC",
+          "type": "STATION",
+          "fullName": "Bangalore City"
+        },
+        {
+          "name": "Yeswantpur Railway Station",
+          "code": "YPR",
+          "type": "STATION",
+          "fullName": "Yeswantpur"
+        }
+      ]
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "hubs": [
+        {
+          "name": "Chennai Central Railway Station",
+          "code": "MAS",
+          "type": "STATION",
+          "fullName": "Chennai Central"
+        },
+        {
+          "name": "Chennai Egmore Railway Station",
+          "code": "MS",
+          "type": "STATION",
+          "fullName": "Chennai Egmore"
+        },
+        {
+          "name": "Tambaram Railway Station",
+          "code": "TBM",
+          "type": "STATION",
+          "fullName": "Tambaram"
+        }
+      ]
+    },
+    {
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "hubs": [
+        {
+          "name": "Coimbatore Junction Railway Station",
+          "code": "CBE",
+          "type": "STATION",
+          "fullName": "Coimbatore Junction"
+        }
+      ]
+    },
+    {
+      "city": "Madurai",
+      "state": "Tamil Nadu",
+      "hubs": [
+        {
+          "name": "Madurai Junction Railway Station",
+          "code": "MDU",
+          "type": "STATION",
+          "fullName": "Madurai Junction"
+        }
+      ]
+    },
+    {
+      "city": "Tiruppur",
+      "state": "Tamil Nadu",
+      "hubs": [
+        {
+          "name": "Tiruppur Railway Station",
+          "code": "TUP",
+          "type": "STATION",
+          "fullName": "Tiruppur"
+        }
+      ]
+    },
+    {
+      "city": "Nagercoil",
+      "state": "Tamil Nadu",
+      "hubs": [
+        {
+          "name": "Nagercoil Railway Station",
+          "code": "NGL",
+          "type": "STATION",
+          "fullName": "Nagercoil"
+        }
+      ]
+    },
+    {
+      "city": "Thanjavur",
+      "state": "Tamil Nadu",
+      "hubs": [
+        {
+          "name": "Thanjavur Railway Station",
+          "code": "TJV",
+          "type": "STATION",
+          "fullName": "Thanjavur"
+        }
+      ]
+    },
+    {
+      "city": "Tiruvananthapuram",
+      "state": "Kerala",
+      "hubs": [
+        {
+          "name": "Thiruvananthapuram Central Railway Station",
+          "code": "TVM",
+          "type": "STATION",
+          "fullName": "Thiruvananthapuram Central"
+        }
+      ]
+    },
+    {
+      "city": "Ernakulam",
+      "state": "Kerala",
+      "hubs": [
+        {
+          "name": "Ernakulam Junction Railway Station",
+          "code": "ERS",
+          "type": "STATION",
+          "fullName": "Ernakulam Junction"
+        }
+      ]
+    },
+    {
+      "city": "Kozhikode",
+      "state": "Kerala",
+      "hubs": [
+        {
+          "name": "Kozhikode Railway Station",
+          "code": "CLT",
+          "type": "STATION",
+          "fullName": "Kozhikode"
+        }
+      ]
+    },
+    {
+      "city": "Kottayam",
+      "state": "Kerala",
+      "hubs": [
+        {
+          "name": "Kottayam Railway Station",
+          "code": "KTYM",
+          "type": "STATION",
+          "fullName": "Kottayam"
+        }
+      ]
+    },
+    {
+      "city": "Kannur",
+      "state": "Kerala",
+      "hubs": [
+        {
+          "name": "Kannur Railway Station",
+          "code": "CAN",
+          "type": "STATION",
+          "fullName": "Kannur"
+        }
+      ]
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "hubs": [
+        {
+          "name": "Hyderabad Deccan Railway Station",
+          "code": "HYB",
+          "type": "STATION",
+          "fullName": "Hyderabad Deccan"
+        },
+        {
+          "name": "Lingampalli Railway Station",
+          "code": "LPI",
+          "type": "STATION",
+          "fullName": "Lingampalli"
+        }
+      ]
+    },
+    {
+      "city": "Warangal",
+      "state": "Telangana",
+      "hubs": [
+        {
+          "name": "Warangal Junction Railway Station",
+          "code": "WL",
+          "type": "STATION",
+          "fullName": "Warangal Junction"
+        }
+      ]
+    },
+    {
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "hubs": [
+        {
+          "name": "Vijayawada Junction Railway Station",
+          "code": "VJA",
+          "type": "STATION",
+          "fullName": "Vijayawada Junction"
+        }
+      ]
+    },
+    {
+      "city": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "hubs": [
+        {
+          "name": "Visakhapatnam Railway Station",
+          "code": "VSKP",
+          "type": "STATION",
+          "fullName": "Visakhapatnam"
+        }
+      ]
+    },
+    {
+      "city": "Tirupati",
+      "state": "Andhra Pradesh",
+      "hubs": [
+        {
+          "name": "Tirupati Railway Station",
+          "code": "TPTY",
+          "type": "STATION",
+          "fullName": "Tirupati"
+        }
+      ]
+    },
+    {
+      "city": "Raichur",
+      "state": "Karnataka",
+      "hubs": [
+        {
+          "name": "Raichur Junction Railway Station",
+          "code": "RR",
+          "type": "STATION",
+          "fullName": "Raichur Junction"
+        }
+      ]
+    },
+    {
+      "city": "Gulbarga",
+      "state": "Karnataka",
+      "hubs": [
+        {
+          "name": "Kalaburagi Railway Station",
+          "code": "GR",
+          "type": "STATION",
+          "fullName": "Kalaburagi"
+        }
+      ]
+    },
+    {
+      "city": "Belagavi",
+      "state": "Karnataka",
+      "hubs": [
+        {
+          "name": "Belagavi Junction Railway Station",
+          "code": "BAY",
+          "type": "STATION",
+          "fullName": "Belagavi Junction"
+        }
+      ]
+    },
+    {
+      "city": "Hubballi",
+      "state": "Karnataka",
+      "hubs": [
+        {
+          "name": "Hubballi Junction Railway Station",
+          "code": "UBL",
+          "type": "STATION",
+          "fullName": "Hubballi Junction"
+        }
+      ]
+    },
+    {
+      "city": "Mysore",
+      "state": "Karnataka",
+      "hubs": [
+        {
+          "name": "Mysore Junction Railway Station",
+          "code": "MYS",
+          "type": "STATION",
+          "fullName": "Mysore Junction"
+        }
+      ]
+    },
+    {
+      "city": "Mangalore",
+      "state": "Karnataka",
+      "hubs": [
+        {
+          "name": "Mangalore Central Railway Station",
+          "code": "MAG",
+          "type": "STATION",
+          "fullName": "Mangalore Central"
+        }
+      ]
+    },
+    {
+      "city": "Hassan",
+      "state": "Karnataka",
+      "hubs": [
+        {
+          "name": "Hassan Railway Station",
+          "code": "HSN",
+          "type": "STATION",
+          "fullName": "Hassan"
+        }
+      ]
+    },
+    {
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Indore Junction Railway Station",
+          "code": "INDB",
+          "type": "STATION",
+          "fullName": "Indore Junction"
+        }
+      ]
+    },
+    {
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Bhopal Junction Railway Station",
+          "code": "BPL",
+          "type": "STATION",
+          "fullName": "Bhopal Junction"
+        }
+      ]
+    },
+    {
+      "city": "Jabalpur",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Jabalpur Junction Railway Station",
+          "code": "JBP",
+          "type": "STATION",
+          "fullName": "Jabalpur Junction"
+        }
+      ]
+    },
+    {
+      "city": "Gwalior",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Gwalior Junction Railway Station",
+          "code": "GWL",
+          "type": "STATION",
+          "fullName": "Gwalior Junction"
+        }
+      ]
+    },
+    {
+      "city": "Ujjain",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Ujjain Junction Railway Station",
+          "code": "UJN",
+          "type": "STATION",
+          "fullName": "Ujjain Junction"
+        }
+      ]
+    },
+    {
+      "city": "Ratlam",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Ratlam Junction Railway Station",
+          "code": "RTM",
+          "type": "STATION",
+          "fullName": "Ratlam Junction"
+        }
+      ]
+    },
+    {
+      "city": "Itarsi",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Itarsi Junction Railway Station",
+          "code": "IT",
+          "type": "STATION",
+          "fullName": "Itarsi Junction"
+        }
+      ]
+    },
+    {
+      "city": "Burhanpur",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Burhanpur Railway Station",
+          "code": "BU",
+          "type": "STATION",
+          "fullName": "Burhanpur"
+        }
+      ]
+    },
+    {
+      "city": "Khajuraho",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Khajuraho Railway Station",
+          "code": "KJO",
+          "type": "STATION",
+          "fullName": "Khajuraho"
+        }
+      ]
+    },
+    {
+      "city": "Satna",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Satna Junction Railway Station",
+          "code": "SATN",
+          "type": "STATION",
+          "fullName": "Satna Junction"
+        }
+      ]
+    },
+    {
+      "city": "Virar",
+      "state": "Maharashtra",
+      "hubs": [
+        {
+          "name": "Virar Railway Station",
+          "code": "VR",
+          "type": "STATION",
+          "fullName": "Virar"
+        }
+      ]
+    },
+    {
+      "city": "Thane",
+      "state": "Maharashtra",
+      "hubs": [
+        {
+          "name": "Thane Railway Station",
+          "code": "TNA",
+          "type": "STATION",
+          "fullName": "Thane"
+        }
+      ]
+    },
+    {
+      "city": "Kalyan",
+      "state": "Maharashtra",
+      "hubs": [
+        {
+          "name": "Kalyan Junction Railway Station",
+          "code": "KYN",
+          "type": "STATION",
+          "fullName": "Kalyan Junction"
+        }
+      ]
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "hubs": [
+        {
+          "name": "Nerul Railway Station",
+          "code": "NER",
+          "type": "STATION",
+          "fullName": "Nerul"
+        }
+      ]
+    },
+    {
+      "city": "Dombivali",
+      "state": "Maharashtra",
+      "hubs": [
+        {
+          "name": "Dombivali Railway Station",
+          "code": "DBD",
+          "type": "STATION",
+          "fullName": "Dombivali"
+        }
+      ]
+    },
+    {
+      "city": "Ulhasnagar",
+      "state": "Maharashtra",
+      "hubs": [
+        {
+          "name": "Ulhasnagar Railway Station",
+          "code": "ULS",
+          "type": "STATION",
+          "fullName": "Ulhasnagar"
+        }
+      ]
+    },
+    {
+      "city": "Solapur",
+      "state": "Maharashtra",
+      "hubs": [
+        {
+          "name": "Solapur Junction Railway Station",
+          "code": "SO",
+          "type": "STATION",
+          "fullName": "Solapur Junction"
+        }
+      ]
+    },
+    {
+      "city": "Kolhapur",
+      "state": "Maharashtra",
+      "hubs": [
+        {
+          "name": "Kolhapur Railway Station",
+          "code": "KOP",
+          "type": "STATION",
+          "fullName": "Kolhapur"
+        }
+      ]
+    },
+    {
+      "city": "Sangli",
+      "state": "Maharashtra",
+      "hubs": [
+        {
+          "name": "Sangli Railway Station",
+          "code": "SAG",
+          "type": "STATION",
+          "fullName": "Sangli"
+        }
+      ]
+    },
+    {
+      "city": "Miraj",
+      "state": "Maharashtra",
+      "hubs": [
+        {
+          "name": "Miraj Junction Railway Station",
+          "code": "MRJ",
+          "type": "STATION",
+          "fullName": "Miraj Junction"
+        }
+      ]
+    },
+    {
+      "city": "Belgaum",
+      "state": "Karnataka",
+      "hubs": [
+        {
+          "name": "Belgaum Junction Railway Station",
+          "code": "BGM",
+          "type": "STATION",
+          "fullName": "Belgaum Junction"
+        }
+      ]
+    },
+    {
+      "city": "Shimoga",
+      "state": "Karnataka",
+      "hubs": [
+        {
+          "name": "Shimoga Junction Railway Station",
+          "code": "SMGN",
+          "type": "STATION",
+          "fullName": "Shimoga Junction"
+        }
+      ]
+    },
+    {
+      "city": "Tumkur",
+      "state": "Karnataka",
+      "hubs": [
+        {
+          "name": "Tumkur Railway Station",
+          "code": "TK",
+          "type": "STATION",
+          "fullName": "Tumkur"
+        }
+      ]
+    },
+    {
+      "city": "Kolar",
+      "state": "Karnataka",
+      "hubs": [
+        {
+          "name": "Kolar Junction Railway Station",
+          "code": "KJM",
+          "type": "STATION",
+          "fullName": "Kolar Junction"
+        }
+      ]
+    },
+    {
+      "city": "Davangere",
+      "state": "Karnataka",
+      "hubs": [
+        {
+          "name": "Davangere Railway Station",
+          "code": "DVG",
+          "type": "STATION",
+          "fullName": "Davangere"
+        }
+      ]
+    },
+    {
+      "city": "Bellary",
+      "state": "Karnataka",
+      "hubs": [
+        {
+          "name": "Bellary Junction Railway Station",
+          "code": "BJY",
+          "type": "STATION",
+          "fullName": "Bellary Junction"
+        }
+      ]
+    },
+    {
+      "city": "Guntakal",
+      "state": "Karnataka",
+      "hubs": [
+        {
+          "name": "Guntakal Junction Railway Station",
+          "code": "GNK",
+          "type": "STATION",
+          "fullName": "Guntakal Junction"
+        }
+      ]
+    },
+    {
+      "city": "Dharwad",
+      "state": "Karnataka",
+      "hubs": [
+        {
+          "name": "Dharwad Junction Railway Station",
+          "code": "DHW",
+          "type": "STATION",
+          "fullName": "Dharwad Junction"
+        }
+      ]
+    },
+    {
+      "city": "Bidar",
+      "state": "Karnataka",
+      "hubs": [
+        {
+          "name": "Bidar Railway Station",
+          "code": "BD",
+          "type": "STATION",
+          "fullName": "Bidar"
+        }
+      ]
+    },
+    {
+      "city": "Nellore",
+      "state": "Andhra Pradesh",
+      "hubs": [
+        {
+          "name": "Nellore Railway Station",
+          "code": "NLR",
+          "type": "STATION",
+          "fullName": "Nellore"
+        }
+      ]
+    },
+    {
+      "city": "Ongole",
+      "state": "Andhra Pradesh",
+      "hubs": [
+        {
+          "name": "Ongole Railway Station",
+          "code": "OGL",
+          "type": "STATION",
+          "fullName": "Ongole"
+        }
+      ]
+    },
+    {
+      "city": "Tenali",
+      "state": "Andhra Pradesh",
+      "hubs": [
+        {
+          "name": "Tenali Railway Station",
+          "code": "TNL",
+          "type": "STATION",
+          "fullName": "Tenali"
+        }
+      ]
+    },
+    {
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "hubs": [
+        {
+          "name": "Guntur Junction Railway Station",
+          "code": "GNT",
+          "type": "STATION",
+          "fullName": "Guntur Junction"
+        }
+      ]
+    },
+    {
+      "city": "Dronachalam",
+      "state": "Andhra Pradesh",
+      "hubs": [
+        {
+          "name": "Dronachalam Railway Station",
+          "code": "DLC",
+          "type": "STATION",
+          "fullName": "Dronachalam"
+        }
+      ]
+    },
+    {
+      "city": "Nelluru",
+      "state": "Andhra Pradesh",
+      "hubs": [
+        {
+          "name": "Nelluru Railway Station",
+          "code": "NLL",
+          "type": "STATION",
+          "fullName": "Nelluru"
+        }
+      ]
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "hubs": [
+        {
+          "name": "Eluru Railway Station",
+          "code": "EL",
+          "type": "STATION",
+          "fullName": "Eluru"
+        }
+      ]
+    },
+    {
+      "city": "Rajahmundry",
+      "state": "Andhra Pradesh",
+      "hubs": [
+        {
+          "name": "Rajahmundry Railway Station",
+          "code": "RJY",
+          "type": "STATION",
+          "fullName": "Rajahmundry"
+        }
+      ]
+    },
+    {
+      "city": "Vizianagaram",
+      "state": "Andhra Pradesh",
+      "hubs": [
+        {
+          "name": "Vizianagaram Railway Station",
+          "code": "VZM",
+          "type": "STATION",
+          "fullName": "Vizianagaram"
+        }
+      ]
+    },
+    {
+      "city": "Srikakulam",
+      "state": "Andhra Pradesh",
+      "hubs": [
+        {
+          "name": "Srikakulam Road Railway Station",
+          "code": "SLM",
+          "type": "STATION",
+          "fullName": "Srikakulam Road"
+        }
+      ]
+    },
+    {
+      "city": "Kodaikanal",
+      "state": "Tamil Nadu",
+      "hubs": [
+        {
+          "name": "Kodaikanal Road Railway Station",
+          "code": "CJF",
+          "type": "STATION",
+          "fullName": "Kodaikanal Road"
+        }
+      ]
+    },
+    {
+      "city": "Ooty",
+      "state": "Tamil Nadu",
+      "hubs": [
+        {
+          "name": "Coonoor Railway Station",
+          "code": "CJC",
+          "type": "STATION",
+          "fullName": "Coonoor"
+        },
+        {
+          "name": "Ooty Railway Station",
+          "code": "OOT",
+          "type": "STATION",
+          "fullName": "Ooty"
+        }
+      ]
+    },
+    {
+      "city": "Cimbatore",
+      "state": "Tamil Nadu",
+      "hubs": [
+        {
+          "name": "Cimbatore Junction Railway Station",
+          "code": "CBE",
+          "type": "STATION",
+          "fullName": "Cimbatore Junction"
+        }
+      ]
+    },
+    {
+      "city": "Kota",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Kota Junction Railway Station",
+          "code": "KOTA",
+          "type": "STATION",
+          "fullName": "Kota Junction"
+        }
+      ]
+    },
+    {
+      "city": "Chittorgarh",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Chittorgarh Railway Station",
+          "code": "CHOR",
+          "type": "STATION",
+          "fullName": "Chittorgarh"
+        }
+      ]
+    },
+    {
+      "city": "Bhilwara",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Bhilwara Railway Station",
+          "code": "BHU",
+          "type": "STATION",
+          "fullName": "Bhilwara"
+        }
+      ]
+    },
+    {
+      "city": "Ganganagar",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Sri Ganganagar Railway Station",
+          "code": "SGNR",
+          "type": "STATION",
+          "fullName": "Sri Ganganagar"
+        }
+      ]
+    },
+    {
+      "city": "Hanumangarh",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Hanumangarh Junction Railway Station",
+          "code": "HNH",
+          "type": "STATION",
+          "fullName": "Hanumangarh Junction"
+        }
+      ]
+    },
+    {
+      "city": "Bikaner",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Bikaner Junction Railway Station",
+          "code": "BKN",
+          "type": "STATION",
+          "fullName": "Bikaner Junction"
+        }
+      ]
+    },
+    {
+      "city": "Pali",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Pali Junction Railway Station",
+          "code": "PAL",
+          "type": "STATION",
+          "fullName": "Pali Junction"
+        }
+      ]
+    },
+    {
+      "city": "Sumerpur",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Sumerpur Junction Railway Station",
+          "code": "SUM",
+          "type": "STATION",
+          "fullName": "Sumerpur Junction"
+        }
+      ]
+    },
+    {
+      "city": "Barmer",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Barmer Junction Railway Station",
+          "code": "BME",
+          "type": "STATION",
+          "fullName": "Barmer Junction"
+        }
+      ]
+    },
+    {
+      "city": "Jaisalmer",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Jaisalmer Railway Station",
+          "code": "JSM",
+          "type": "STATION",
+          "fullName": "Jaisalmer"
+        }
+      ]
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Jaipur Junction Railway Station",
+          "code": "JP",
+          "type": "STATION",
+          "fullName": "Jaipur Junction"
+        },
+        {
+          "name": "Durgapura Railway Station",
+          "code": "DPA",
+          "type": "STATION",
+          "fullName": "Durgapura"
+        }
+      ]
+    },
+    {
+      "city": "Tonk",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Tonk Railway Station",
+          "code": "TNK",
+          "type": "STATION",
+          "fullName": "Tonk"
+        }
+      ]
+    },
+    {
+      "city": "Bundi",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Bundi Railway Station",
+          "code": "BUI",
+          "type": "STATION",
+          "fullName": "Bundi"
+        }
+      ]
+    },
+    {
+      "city": "Jhalawar",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Jhalawar City Railway Station",
+          "code": "JHL",
+          "type": "STATION",
+          "fullName": "Jhalawar City"
+        }
+      ]
+    },
+    {
+      "city": "Ramganj Mandi",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Ramganj Mandi Railway Station",
+          "code": "RGMN",
+          "type": "STATION",
+          "fullName": "Ramganj Mandi"
+        }
+      ]
+    },
+    {
+      "city": "Chamu",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Chamu Junction Railway Station",
+          "code": "CHMU",
+          "type": "STATION",
+          "fullName": "Chamu Junction"
+        }
+      ]
+    },
+    {
+      "city": "Sikar",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Sikar Railway Station",
+          "code": "SIK",
+          "type": "STATION",
+          "fullName": "Sikar"
+        }
+      ]
+    },
+    {
+      "city": "Pilani",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Pilani Railway Station",
+          "code": "PLN",
+          "type": "STATION",
+          "fullName": "Pilani"
+        }
+      ]
+    },
+    {
+      "city": "Riyan",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Riyan Railway Station",
+          "code": "RIY",
+          "type": "STATION",
+          "fullName": "Riyan"
+        }
+      ]
+    },
+    {
+      "city": "Degana",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Degana Railway Station",
+          "code": "DGN",
+          "type": "STATION",
+          "fullName": "Degana"
+        }
+      ]
+    },
+    {
+      "city": "Merta City",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Merta City Railway Station",
+          "code": "MRTC",
+          "type": "STATION",
+          "fullName": "Merta City"
+        }
+      ]
+    },
+    {
+      "city": "Khetri",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Khetri Railway Station",
+          "code": "KTI",
+          "type": "STATION",
+          "fullName": "Khetri"
+        }
+      ]
+    },
+    {
+      "city": "Dausa",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Dausa Railway Station",
+          "code": "DUS",
+          "type": "STATION",
+          "fullName": "Dausa"
+        }
+      ]
+    },
+    {
+      "city": "Bandikui",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Bandikui Junction Railway Station",
+          "code": "BANJ",
+          "type": "STATION",
+          "fullName": "Bandikui Junction"
+        }
+      ]
+    },
+    {
+      "city": "Hindaun City",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Hindaun City Railway Station",
+          "code": "HDCI",
+          "type": "STATION",
+          "fullName": "Hindaun City"
+        }
+      ]
+    },
+    {
+      "city": "Karauli",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Karauli Junction Railway Station",
+          "code": "KARL",
+          "type": "STATION",
+          "fullName": "Karauli Junction"
+        }
+      ]
+    },
+    {
+      "city": "Mahwa",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Mahwa Railway Station",
+          "code": "MHW",
+          "type": "STATION",
+          "fullName": "Mahwa"
+        }
+      ]
+    },
+    {
+      "city": "Fatehpur",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Fatehpur Junction Railway Station",
+          "code": "FTP",
+          "type": "STATION",
+          "fullName": "Fatehpur Junction"
+        }
+      ]
+    },
+    {
+      "city": "Dholpur",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Dholpur Railway Station",
+          "code": "DHZ",
+          "type": "STATION",
+          "fullName": "Dholpur"
+        }
+      ]
+    },
+    {
+      "city": "Bayana",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Bayana Railway Station",
+          "code": "BYN",
+          "type": "STATION",
+          "fullName": "Bayana"
+        }
+      ]
+    },
+    {
+      "city": "Deeg",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Deeg Railway Station",
+          "code": "DEG",
+          "type": "STATION",
+          "fullName": "Deeg"
+        }
+      ]
+    },
+    {
+      "city": "Bharatpur",
+      "state": "Rajasthan",
+      "hubs": [
+        {
+          "name": "Bharatpur Junction Railway Station",
+          "code": "BRT",
+          "type": "STATION",
+          "fullName": "Bharatpur Junction"
+        }
+      ]
+    },
+    {
+      "city": "Mathura",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Mathura Junction Railway Station",
+          "code": "MTJ",
+          "type": "STATION",
+          "fullName": "Mathura Junction"
+        }
+      ]
+    },
+    {
+      "city": "Vrindavan",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Mathura Junction Railway Station",
+          "code": "MTJ",
+          "type": "STATION",
+          "fullName": "Mathura Junction"
+        }
+      ]
+    },
+    {
+      "city": "Fatehpur Sikri",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Fatehpur Sikri Railway Station",
+          "code": "FXE",
+          "type": "STATION",
+          "fullName": "Fatehpur Sikri"
+        }
+      ]
+    },
+    {
+      "city": "Firozabad",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Firozabad Junction Railway Station",
+          "code": "FZB",
+          "type": "STATION",
+          "fullName": "Firozabad Junction"
+        }
+      ]
+    },
+    {
+      "city": "Mainpuri",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Mainpuri Railway Station",
+          "code": "MNP",
+          "type": "STATION",
+          "fullName": "Mainpuri"
+        }
+      ]
+    },
+    {
+      "city": "Etawah",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Etawah Railway Station",
+          "code": "ETW",
+          "type": "STATION",
+          "fullName": "Etawah"
+        }
+      ]
+    },
+    {
+      "city": "Jalaun",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Jalaun Railway Station",
+          "code": "JL",
+          "type": "STATION",
+          "fullName": "Jalaun"
+        }
+      ]
+    },
+    {
+      "city": "Orai",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Orai Railway Station",
+          "code": "OR",
+          "type": "STATION",
+          "fullName": "Orai"
+        }
+      ]
+    },
+    {
+      "city": "Banda",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Banda Junction Railway Station",
+          "code": "BD",
+          "type": "STATION",
+          "fullName": "Banda Junction"
+        }
+      ]
+    },
+    {
+      "city": "Chitrakoot",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Chitrakoot Dham Railway Station",
+          "code": "CHPG",
+          "type": "STATION",
+          "fullName": "Chitrakoot Dham"
+        }
+      ]
+    },
+    {
+      "city": "Satna",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Satna Junction Railway Station",
+          "code": "SATN",
+          "type": "STATION",
+          "fullName": "Satna Junction"
+        }
+      ]
+    },
+    {
+      "city": "Maihar",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Maihar Railway Station",
+          "code": "MIH",
+          "type": "STATION",
+          "fullName": "Maihar"
+        }
+      ]
+    },
+    {
+      "city": "Panna",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Panna Railway Station",
+          "code": "PN",
+          "type": "STATION",
+          "fullName": "Panna"
+        }
+      ]
+    },
+    {
+      "city": "Shadol",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Shadol Junction Railway Station",
+          "code": "SDL",
+          "type": "STATION",
+          "fullName": "Shadol Junction"
+        }
+      ]
+    },
+    {
+      "city": "Anuppur",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Anuppur Junction Railway Station",
+          "code": "ANU",
+          "type": "STATION",
+          "fullName": "Anuppur Junction"
+        }
+      ]
+    },
+    {
+      "city": "Manla",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Manla Railway Station",
+          "code": "ML",
+          "type": "STATION",
+          "fullName": "Manla"
+        }
+      ]
+    },
+    {
+      "city": "Umaria",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Umaria Railway Station",
+          "code": "UMR",
+          "type": "STATION",
+          "fullName": "Umaria"
+        }
+      ]
+    },
+    {
+      "city": "Katni",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Katni Junction Railway Station",
+          "code": "KTN",
+          "type": "STATION",
+          "fullName": "Katni Junction"
+        }
+      ]
+    },
+    {
+      "city": "Murwara",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Murwara Junction Railway Station",
+          "code": "MRW",
+          "type": "STATION",
+          "fullName": "Murwara Junction"
+        }
+      ]
+    },
+    {
+      "city": "Sohagpur",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Sohagpur Railway Station",
+          "code": "SOH",
+          "type": "STATION",
+          "fullName": "Sohagpur"
+        }
+      ]
+    },
+    {
+      "city": "Seoni",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Seoni Junction Railway Station",
+          "code": "SEOI",
+          "type": "STATION",
+          "fullName": "Seoni Junction"
+        }
+      ]
+    },
+    {
+      "city": "Mandla",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Mandla Fort Railway Station",
+          "code": "MAD",
+          "type": "STATION",
+          "fullName": "Mandla Fort"
+        }
+      ]
+    },
+    {
+      "city": "Damoh",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Damoh Junction Railway Station",
+          "code": "DMH",
+          "type": "STATION",
+          "fullName": "Damoh Junction"
+        }
+      ]
+    },
+    {
+      "city": "Nouwgaon",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Nouwgaon Railway Station",
+          "code": "NOU",
+          "type": "STATION",
+          "fullName": "Nouwgaon"
+        }
+      ]
+    },
+    {
+      "city": "Jhansi",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Jhansi Junction Railway Station",
+          "code": "JHS",
+          "type": "STATION",
+          "fullName": "Jhansi Junction"
+        }
+      ]
+    },
+    {
+      "city": "Lalitpur",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Lalitpur Railway Station",
+          "code": "LPI",
+          "type": "STATION",
+          "fullName": "Lalitpur"
+        }
+      ]
+    },
+    {
+      "city": "Orai",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Orai Railway Station",
+          "code": "OR",
+          "type": "STATION",
+          "fullName": "Orai"
+        }
+      ]
+    },
+    {
+      "city": "Hamirpur",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Hamirpur Railway Station",
+          "code": "HMP",
+          "type": "STATION",
+          "fullName": "Hamirpur"
+        }
+      ]
+    },
+    {
+      "city": "Mahoba",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Mahoba Junction Railway Station",
+          "code": "MBO",
+          "type": "STATION",
+          "fullName": "Mahoba Junction"
+        }
+      ]
+    },
+    {
+      "city": "Charkhari",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Charkhari Railway Station",
+          "code": "CKI",
+          "type": "STATION",
+          "fullName": "Charkhari"
+        }
+      ]
+    },
+    {
+      "city": "Raoli",
+      "state": "Uttar Pradesh",
+      "hubs": [
+        {
+          "name": "Raoli Railway Station",
+          "code": "RL",
+          "type": "STATION",
+          "fullName": "Raoli"
+        }
+      ]
+    },
+    {
+      "city": "Tikamgarh",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Tikamgarh Railway Station",
+          "code": "TIK",
+          "type": "STATION",
+          "fullName": "Tikamgarh"
+        }
+      ]
+    },
+    {
+      "city": "Ashoknagar",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Ashoknagar Railway Station",
+          "code": "ASK",
+          "type": "STATION",
+          "fullName": "Ashoknagar"
+        }
+      ]
+    },
+    {
+      "city": "Mungaoli",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Mungaoli Railway Station",
+          "code": "MGO",
+          "type": "STATION",
+          "fullName": "Mungaoli"
+        }
+      ]
+    },
+    {
+      "city": "Guna",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Guna Junction Railway Station",
+          "code": "GUN",
+          "type": "STATION",
+          "fullName": "Guna Junction"
+        }
+      ]
+    },
+    {
+      "city": "Aron",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Aron Railway Station",
+          "code": "ARO",
+          "type": "STATION",
+          "fullName": "Aron"
+        }
+      ]
+    },
+    {
+      "city": "Mohan",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Mohan Junction Railway Station",
+          "code": "MOH",
+          "type": "STATION",
+          "fullName": "Mohan Junction"
+        }
+      ]
+    },
+    {
+      "city": "Berasia",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Berasia Railway Station",
+          "code": "BER",
+          "type": "STATION",
+          "fullName": "Berasia"
+        }
+      ]
+    },
+    {
+      "city": "Vidisha",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Vidisha Junction Railway Station",
+          "code": "BHS",
+          "type": "STATION",
+          "fullName": "Vidisha Junction"
+        }
+      ]
+    },
+    {
+      "city": "Sanchi",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Sanchi Railway Station",
+          "code": "SC",
+          "type": "STATION",
+          "fullName": "Sanchi"
+        }
+      ]
+    },
+    {
+      "city": "Raisen",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Raisen Railway Station",
+          "code": "RIS",
+          "type": "STATION",
+          "fullName": "Raisen"
+        }
+      ]
+    },
+    {
+      "city": "Sohagpur",
+      "state": "Madhya Pradesh",
+      "hubs": [
+        {
+          "name": "Sohagpur Railway Station",
+          "code": "SOH",
+          "type": "STATION",
+          "fullName": "Sohagpur"
+        }
+      ]
+    }
+  ]
+}
