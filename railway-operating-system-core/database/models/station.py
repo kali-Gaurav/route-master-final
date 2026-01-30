@@ -6,7 +6,7 @@ from sqlalchemy.sql import func
 import uuid
 from datetime import datetime
 from typing import Optional, Dict, Any
-from connection import Base
+from base import Base
 
 class Station(Base):
     """Enhanced Station model with comprehensive features."""

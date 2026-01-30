@@ -6,7 +6,7 @@ from sqlalchemy.sql import func
 import uuid
 from datetime import datetime
 from typing import Optional, Dict, Any, List
-from connection import Base
+from base import Base
 
 class Train(Base):
     """Enhanced Train model with comprehensive features."""

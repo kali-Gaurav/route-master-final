@@ -98,6 +98,11 @@ services:
       - ./backups:/app/backups
     environment:
       DATABASE_URL: "postgresql://railway_user:secure_password@postgres:5432/railway_db"
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: railway_db
+      DB_USER: railway_user
+      DB_PASSWORD: secure_password
     depends_on:
       postgres:
         condition: service_healthy

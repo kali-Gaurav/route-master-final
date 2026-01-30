@@ -5,7 +5,7 @@ from sqlalchemy.orm import relationship, validates
 import uuid
 from datetime import datetime, timedelta
 from typing import Optional, Dict, Any, List
-from connection import Base
+from base import Base
 
 class Route(Base):
     """Enhanced Route model with comprehensive route management features."""

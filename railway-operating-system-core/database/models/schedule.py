@@ -6,7 +6,7 @@ from sqlalchemy.sql import func
 import uuid
 from datetime import datetime, time
 from typing import Optional, Dict, Any
-from connection import Base
+from base import Base
 
 class Schedule(Base):
     """Enhanced Schedule model for train operations."""

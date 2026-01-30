@@ -4,7 +4,7 @@ from sqlalchemy.dialects.postgresql import UUID, INET
 from sqlalchemy.orm import relationship
 import uuid
 from datetime import datetime
-from connection import Base
+from base import Base
 
 class Job(Base):
     __tablename__ = "jobs"

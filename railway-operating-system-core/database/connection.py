@@ -5,7 +5,7 @@ import os
 from contextlib import contextmanager
 from typing import Optional, Generator, Any
 from sqlalchemy import create_engine, event, text
-from sqlalchemy.orm import sessionmaker, Session, declarative_base
+from sqlalchemy.orm import sessionmaker, Session
 from sqlalchemy.engine import Engine
 from sqlalchemy.pool import QueuePool
 from sqlalchemy.exc import OperationalError, DisconnectionError
@@ -283,7 +283,7 @@ db_manager = DatabaseConnectionManager(config)
 # Backward compatibility
 engine = db_manager._engine
 SessionLocal = db_manager._session_factory
-Base = declarative_base()
+from .base import Base
 
 def get_db() -> Generator[Session, None, None]:
     """Get database session (backward compatibility)."""

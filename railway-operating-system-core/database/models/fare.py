@@ -6,7 +6,7 @@ from sqlalchemy.sql import func
 import uuid
 from datetime import datetime, date
 from typing import Optional, Dict, Any
-from connection import Base
+from base import Base
 
 class Fare(Base):
     """Comprehensive Fare model for managing ticket prices and surcharges."""

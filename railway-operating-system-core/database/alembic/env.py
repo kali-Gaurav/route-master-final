@@ -14,7 +14,7 @@ from pathlib import Path
 # Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from connection import Base
+from base import Base
 from config import config
 
 # this is the Alembic Config object
