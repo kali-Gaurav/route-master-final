@@ -1,0 +1,3231 @@
+{
+  "metadata": {
+    "source": "JP",
+    "destination": "SBC",
+    "total_routes_generated": 83,
+    "pareto_front_size": 10,
+    "optimal_routes_count": 7
+  },
+  "optimal_routes": [
+    {
+      "route_id": "OPT_ROUTE_01",
+      "category": "FASTEST \u26a1",
+      "objectives": {
+        "time": 430.0,
+        "cost": 3838.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3838.0
+      },
+      "segments": [
+        {
+          "train_no": "12395",
+          "train_name": "ZIYARAT EXPR",
+          "from": "JP",
+          "to": "DNR",
+          "departure": "13:10:00",
+          "arrival": "19:23:00",
+          "distance": 1141.0,
+          "duration_min": 373.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12296",
+          "train_name": "PNBE-SBC SAN",
+          "from": "DNR",
+          "to": "SBC",
+          "departure": "20:10:00",
+          "arrival": "20:20:00",
+          "distance": 2697.0,
+          "duration_min": 10.0,
+          "wait_min": 47.0
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_02",
+      "category": "CHEAPEST \ud83d\udcb0",
+      "objectives": {
+        "time": 1830.0,
+        "cost": 2253.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2253.0
+      },
+      "segments": [
+        {
+          "train_no": "12940",
+          "train_name": "JP PUNE SF E",
+          "from": "JP",
+          "to": "PUNE",
+          "departure": "09:15:00",
+          "arrival": "08:05:00",
+          "distance": 1290.0,
+          "duration_min": 1370.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11014",
+          "train_name": "LOKMANYA TT",
+          "from": "PUNE",
+          "to": "SBC",
+          "departure": "10:45:00",
+          "arrival": "15:45:00",
+          "distance": 963.0,
+          "duration_min": 300.0,
+          "wait_min": 160.0
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_03",
+      "category": "BALANCED \u2696\ufe0f",
+      "objectives": {
+        "time": 814.9999999999999,
+        "cost": 2315.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2315.0
+      },
+      "segments": [
+        {
+          "train_no": "12939",
+          "train_name": "PUNE JAIPUR",
+          "from": "JP",
+          "to": "BSR",
+          "departure": "13:40:00",
+          "arrival": "19:50:00",
+          "distance": 1110.0,
+          "duration_min": 370.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16505",
+          "train_name": "GIMB SBC EXP",
+          "from": "BSR",
+          "to": "SBC",
+          "departure": "23:45:00",
+          "arrival": "03:15:00",
+          "distance": 1205.0,
+          "duration_min": 210.0,
+          "wait_min": 235.0
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_04",
+      "category": "BALANCED \u2696\ufe0f",
+      "objectives": {
+        "time": 814.9999999999999,
+        "cost": 2315.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2315.0
+      },
+      "segments": [
+        {
+          "train_no": "12939",
+          "train_name": "PUNE JAIPUR",
+          "from": "JP",
+          "to": "BSR",
+          "departure": "13:40:00",
+          "arrival": "19:50:00",
+          "distance": 1110.0,
+          "duration_min": 370.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16507",
+          "train_name": "JU BANGLORE",
+          "from": "BSR",
+          "to": "SBC",
+          "departure": "23:45:00",
+          "arrival": "03:15:00",
+          "distance": 1205.0,
+          "duration_min": 210.0,
+          "wait_min": 235.0
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_05",
+      "category": "BALANCED \u2696\ufe0f",
+      "objectives": {
+        "time": 750.0,
+        "cost": 2539.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2539.0
+      },
+      "segments": [
+        {
+          "train_no": "12969",
+          "train_name": "CBE JAIPUR E",
+          "from": "JP",
+          "to": "JTJ",
+          "departure": "06:15:00",
+          "arrival": "13:38:00",
+          "distance": 2393.0,
+          "duration_min": 443.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "56261",
+          "train_name": "AJJ-SBC PASS",
+          "from": "JTJ",
+          "to": "SBC",
+          "departure": "14:10:00",
+          "arrival": "18:45:00",
+          "distance": 146.0,
+          "duration_min": 275.0,
+          "wait_min": 32.0
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_06",
+      "category": "BALANCED \u2696\ufe0f",
+      "objectives": {
+        "time": 1035.0,
+        "cost": 2345.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2345.0
+      },
+      "segments": [
+        {
+          "train_no": "12976",
+          "train_name": "JP MYS SF EX",
+          "from": "JP",
+          "to": "SBC",
+          "departure": "19:35:00",
+          "arrival": "12:50:00",
+          "distance": 2345.0,
+          "duration_min": 1035.0,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "OPT_ROUTE_07",
+      "category": "BALANCED \u2696\ufe0f",
+      "objectives": {
+        "time": 1150.0,
+        "cost": 2278.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2278.0
+      },
+      "segments": [
+        {
+          "train_no": "12547",
+          "train_name": "AF-ADI SUPER",
+          "from": "JP",
+          "to": "ABR",
+          "departure": "02:20:00",
+          "arrival": "09:15:00",
+          "distance": 440.0,
+          "duration_min": 415.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16210",
+          "train_name": "AJMER EXPRES",
+          "from": "ABR",
+          "to": "SBC",
+          "departure": "11:55:00",
+          "arrival": "21:30:00",
+          "distance": 1838.0,
+          "duration_min": 575.0,
+          "wait_min": 160.0
+        }
+      ]
+    }
+  ],
+  "all_generated_routes": [
+    {
+      "route_id": "ALL_ROUTE_001",
+      "category": "Direct \ud83d\ude80",
+      "objectives": {
+        "time": 1035.0,
+        "cost": 2345.0,
+        "transfers": 0,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2345.0
+      },
+      "segments": [
+        {
+          "train_no": "12976",
+          "train_name": "JP MYS SF EX",
+          "from": "JP",
+          "to": "SBC",
+          "departure": "19:35:00",
+          "arrival": "12:50:00",
+          "distance": 2345.0,
+          "duration_min": 1035.0,
+          "wait_min": 0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_002",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1815.0,
+        "cost": 2790.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2790.0
+      },
+      "segments": [
+        {
+          "train_no": "11203",
+          "train_name": "NAGPUR JAIPU",
+          "from": "JP",
+          "to": "PAR",
+          "departure": "14:05:00",
+          "arrival": "13:22:00",
+          "distance": 1237.0,
+          "duration_min": 1397.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12296",
+          "train_name": "PNBE-SBC SAN",
+          "from": "PAR",
+          "to": "SBC",
+          "departure": "15:55:00",
+          "arrival": "20:20:00",
+          "distance": 1553.0,
+          "duration_min": 265.0,
+          "wait_min": 153.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_003",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1835.0000000000002,
+        "cost": 2790.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2790.0
+      },
+      "segments": [
+        {
+          "train_no": "11203",
+          "train_name": "NAGPUR JAIPU",
+          "from": "JP",
+          "to": "PAR",
+          "departure": "14:05:00",
+          "arrival": "13:22:00",
+          "distance": 1237.0,
+          "duration_min": 1397.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12577",
+          "train_name": "BAGMATI EXP",
+          "from": "PAR",
+          "to": "SBC",
+          "departure": "16:23:00",
+          "arrival": "20:40:00",
+          "distance": 1553.0,
+          "duration_min": 257.0,
+          "wait_min": 181.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_004",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1190.0000000000002,
+        "cost": 2838.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2838.0
+      },
+      "segments": [
+        {
+          "train_no": "11203",
+          "train_name": "NAGPUR JAIPU",
+          "from": "JP",
+          "to": "ET",
+          "departure": "14:05:00",
+          "arrival": "16:45:00",
+          "distance": 1043.0,
+          "duration_min": 160.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16229",
+          "train_name": "MYS-BSB BI-W",
+          "from": "ET",
+          "to": "SBC",
+          "departure": "21:35:00",
+          "arrival": "09:55:00",
+          "distance": 1795.0,
+          "duration_min": 740.0,
+          "wait_min": 290.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_005",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1314.9999999999998,
+        "cost": 2887.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2887.0
+      },
+      "segments": [
+        {
+          "train_no": "12181",
+          "train_name": "JBP-AII DAYO",
+          "from": "JP",
+          "to": "KTE",
+          "departure": "12:00:00",
+          "arrival": "21:30:00",
+          "distance": 799.0,
+          "duration_min": 570.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12578",
+          "train_name": "BAGMATI  EXP",
+          "from": "KTE",
+          "to": "SBC",
+          "departure": "23:10:00",
+          "arrival": "09:55:00",
+          "distance": 2088.0,
+          "duration_min": 645.0,
+          "wait_min": 100.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_006",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1315.0,
+        "cost": 2929.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2929.0
+      },
+      "segments": [
+        {
+          "train_no": "12181",
+          "train_name": "JBP-AII DAYO",
+          "from": "JP",
+          "to": "KTE",
+          "departure": "12:00:00",
+          "arrival": "21:30:00",
+          "distance": 799.0,
+          "duration_min": 570.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16229",
+          "train_name": "MYS-BSB BI-W",
+          "from": "KTE",
+          "to": "SBC",
+          "departure": "02:40:00",
+          "arrival": "09:55:00",
+          "distance": 2130.0,
+          "duration_min": 435.0,
+          "wait_min": 310.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_007",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1155.0000000000002,
+        "cost": 2345.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2345.0
+      },
+      "segments": [
+        {
+          "train_no": "12182",
+          "train_name": "AII-JBP DAYO",
+          "from": "JP",
+          "to": "DPA",
+          "departure": "17:35:00",
+          "arrival": "17:41:00",
+          "distance": 7.0,
+          "duration_min": 6.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12976",
+          "train_name": "JP MYS SF EX",
+          "from": "DPA",
+          "to": "SBC",
+          "departure": "19:44:00",
+          "arrival": "12:50:00",
+          "distance": 2338.0,
+          "duration_min": 1026.0,
+          "wait_min": 123.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_008",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1195.0,
+        "cost": 2295.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2295.0
+      },
+      "segments": [
+        {
+          "train_no": "12216",
+          "train_name": "BDTS-DEE GAR",
+          "from": "JP",
+          "to": "BH",
+          "departure": "07:20:00",
+          "arrival": "16:39:00",
+          "distance": 816.0,
+          "duration_min": 559.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16209",
+          "train_name": "AII MYS EXPR",
+          "from": "BH",
+          "to": "SBC",
+          "departure": "17:42:00",
+          "arrival": "03:15:00",
+          "distance": 1479.0,
+          "duration_min": 573.0,
+          "wait_min": 63.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_009",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1195.0,
+        "cost": 2295.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2295.0
+      },
+      "segments": [
+        {
+          "train_no": "12216",
+          "train_name": "BDTS-DEE GAR",
+          "from": "JP",
+          "to": "BH",
+          "departure": "07:20:00",
+          "arrival": "16:39:00",
+          "distance": 816.0,
+          "duration_min": 559.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16507",
+          "train_name": "JU BANGLORE",
+          "from": "BH",
+          "to": "SBC",
+          "departure": "17:42:00",
+          "arrival": "03:15:00",
+          "distance": 1479.0,
+          "duration_min": 573.0,
+          "wait_min": 63.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_010",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1285.0,
+        "cost": 2369.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2369.0
+      },
+      "segments": [
+        {
+          "train_no": "12216",
+          "train_name": "BDTS-DEE GAR",
+          "from": "JP",
+          "to": "ST",
+          "departure": "07:20:00",
+          "arrival": "15:55:00",
+          "distance": 875.0,
+          "duration_min": 515.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16531",
+          "train_name": "GARIB NAWAJ",
+          "from": "ST",
+          "to": "SBC",
+          "departure": "19:15:00",
+          "arrival": "04:45:00",
+          "distance": 1494.0,
+          "duration_min": 570.0,
+          "wait_min": 200.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_011",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 969.9999999999999,
+        "cost": 3451.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3451.0
+      },
+      "segments": [
+        {
+          "train_no": "12315",
+          "train_name": "ANNANYA  EXP",
+          "from": "JP",
+          "to": "MGS",
+          "departure": "17:45:00",
+          "arrival": "01:47:00",
+          "distance": 944.0,
+          "duration_min": 482.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12578",
+          "train_name": "BAGMATI  EXP",
+          "from": "MGS",
+          "to": "SBC",
+          "departure": "06:23:00",
+          "arrival": "09:55:00",
+          "distance": 2507.0,
+          "duration_min": 212.0,
+          "wait_min": 276.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_012",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 430.0,
+        "cost": 3838.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3838.0
+      },
+      "segments": [
+        {
+          "train_no": "12395",
+          "train_name": "ZIYARAT EXPR",
+          "from": "JP",
+          "to": "DNR",
+          "departure": "13:10:00",
+          "arrival": "19:23:00",
+          "distance": 1141.0,
+          "duration_min": 373.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12296",
+          "train_name": "PNBE-SBC SAN",
+          "from": "DNR",
+          "to": "SBC",
+          "departure": "20:10:00",
+          "arrival": "20:20:00",
+          "distance": 2697.0,
+          "duration_min": 10.0,
+          "wait_min": 47.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_013",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1494.9999999999998,
+        "cost": 2276.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2276.0
+      },
+      "segments": [
+        {
+          "train_no": "12547",
+          "train_name": "AF-ADI SUPER",
+          "from": "JP",
+          "to": "MJ",
+          "departure": "02:20:00",
+          "arrival": "06:46:00",
+          "distance": 275.0,
+          "duration_min": 266.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16209",
+          "train_name": "AII MYS EXPR",
+          "from": "MJ",
+          "to": "SBC",
+          "departure": "07:40:00",
+          "arrival": "03:15:00",
+          "distance": 2001.0,
+          "duration_min": 1175.0,
+          "wait_min": 54.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_014",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1584.9999999999998,
+        "cost": 2349.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2349.0
+      },
+      "segments": [
+        {
+          "train_no": "12547",
+          "train_name": "AF-ADI SUPER",
+          "from": "JP",
+          "to": "MJ",
+          "departure": "02:20:00",
+          "arrival": "06:46:00",
+          "distance": 275.0,
+          "duration_min": 266.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16531",
+          "train_name": "GARIB NAWAJ",
+          "from": "MJ",
+          "to": "SBC",
+          "departure": "07:40:00",
+          "arrival": "04:45:00",
+          "distance": 2074.0,
+          "duration_min": 1265.0,
+          "wait_min": 54.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_015",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1584.9999999999998,
+        "cost": 2349.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2349.0
+      },
+      "segments": [
+        {
+          "train_no": "12547",
+          "train_name": "AF-ADI SUPER",
+          "from": "JP",
+          "to": "MJ",
+          "departure": "02:20:00",
+          "arrival": "06:46:00",
+          "distance": 275.0,
+          "duration_min": 266.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16533",
+          "train_name": "JU-YPR",
+          "from": "MJ",
+          "to": "SBC",
+          "departure": "07:40:00",
+          "arrival": "04:45:00",
+          "distance": 2074.0,
+          "duration_min": 1265.0,
+          "wait_min": 54.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_016",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1910.0,
+        "cost": 2318.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2318.0
+      },
+      "segments": [
+        {
+          "train_no": "12939",
+          "train_name": "PUNE JAIPUR",
+          "from": "JP",
+          "to": "BSR",
+          "departure": "13:40:00",
+          "arrival": "19:50:00",
+          "distance": 1110.0,
+          "duration_min": 370.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16210",
+          "train_name": "AJMER EXPRES",
+          "from": "BSR",
+          "to": "SBC",
+          "departure": "22:55:00",
+          "arrival": "21:30:00",
+          "distance": 1208.0,
+          "duration_min": 1355.0,
+          "wait_min": 185.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_017",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 814.9999999999999,
+        "cost": 2316.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2316.0
+      },
+      "segments": [
+        {
+          "train_no": "12939",
+          "train_name": "PUNE JAIPUR",
+          "from": "JP",
+          "to": "BSR",
+          "departure": "13:40:00",
+          "arrival": "19:50:00",
+          "distance": 1110.0,
+          "duration_min": 370.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16209",
+          "train_name": "AII MYS EXPR",
+          "from": "BSR",
+          "to": "SBC",
+          "departure": "23:45:00",
+          "arrival": "03:15:00",
+          "distance": 1206.0,
+          "duration_min": 210.0,
+          "wait_min": 235.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_018",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 814.9999999999999,
+        "cost": 2315.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2315.0
+      },
+      "segments": [
+        {
+          "train_no": "12939",
+          "train_name": "PUNE JAIPUR",
+          "from": "JP",
+          "to": "BSR",
+          "departure": "13:40:00",
+          "arrival": "19:50:00",
+          "distance": 1110.0,
+          "duration_min": 370.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16505",
+          "train_name": "GIMB SBC EXP",
+          "from": "BSR",
+          "to": "SBC",
+          "departure": "23:45:00",
+          "arrival": "03:15:00",
+          "distance": 1205.0,
+          "duration_min": 210.0,
+          "wait_min": 235.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_019",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 814.9999999999999,
+        "cost": 2315.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2315.0
+      },
+      "segments": [
+        {
+          "train_no": "12939",
+          "train_name": "PUNE JAIPUR",
+          "from": "JP",
+          "to": "BSR",
+          "departure": "13:40:00",
+          "arrival": "19:50:00",
+          "distance": 1110.0,
+          "duration_min": 370.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16507",
+          "train_name": "JU BANGLORE",
+          "from": "BSR",
+          "to": "SBC",
+          "departure": "23:45:00",
+          "arrival": "03:15:00",
+          "distance": 1205.0,
+          "duration_min": 210.0,
+          "wait_min": 235.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_020",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 904.9999999999999,
+        "cost": 2389.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2389.0
+      },
+      "segments": [
+        {
+          "train_no": "12939",
+          "train_name": "PUNE JAIPUR",
+          "from": "JP",
+          "to": "BSR",
+          "departure": "13:40:00",
+          "arrival": "19:50:00",
+          "distance": 1110.0,
+          "duration_min": 370.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16531",
+          "train_name": "GARIB NAWAJ",
+          "from": "BSR",
+          "to": "SBC",
+          "departure": "23:45:00",
+          "arrival": "04:45:00",
+          "distance": 1279.0,
+          "duration_min": 300.0,
+          "wait_min": 235.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_021",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 904.9999999999999,
+        "cost": 2389.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2389.0
+      },
+      "segments": [
+        {
+          "train_no": "12939",
+          "train_name": "PUNE JAIPUR",
+          "from": "JP",
+          "to": "BSR",
+          "departure": "13:40:00",
+          "arrival": "19:50:00",
+          "distance": 1110.0,
+          "duration_min": 370.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16533",
+          "train_name": "JU-YPR",
+          "from": "BSR",
+          "to": "SBC",
+          "departure": "23:45:00",
+          "arrival": "04:45:00",
+          "distance": 1279.0,
+          "duration_min": 300.0,
+          "wait_min": 235.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_022",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1830.0,
+        "cost": 2253.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2253.0
+      },
+      "segments": [
+        {
+          "train_no": "12940",
+          "train_name": "JP PUNE SF E",
+          "from": "JP",
+          "to": "PUNE",
+          "departure": "09:15:00",
+          "arrival": "08:05:00",
+          "distance": 1290.0,
+          "duration_min": 1370.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11014",
+          "train_name": "LOKMANYA TT",
+          "from": "PUNE",
+          "to": "SBC",
+          "departure": "10:45:00",
+          "arrival": "15:45:00",
+          "distance": 963.0,
+          "duration_min": 300.0,
+          "wait_min": 160.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_023",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2284.9999999999995,
+        "cost": 2541.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2541.0
+      },
+      "segments": [
+        {
+          "train_no": "12967",
+          "train_name": "JAIPUR EXP",
+          "from": "JP",
+          "to": "BZA",
+          "departure": "06:15:00",
+          "arrival": "00:10:00",
+          "distance": 1750.0,
+          "duration_min": 1075.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12296",
+          "train_name": "PNBE-SBC SAN",
+          "from": "BZA",
+          "to": "SBC",
+          "departure": "06:25:00",
+          "arrival": "20:20:00",
+          "distance": 791.0,
+          "duration_min": 835.0,
+          "wait_min": 375.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_024",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2305.0000000000005,
+        "cost": 2540.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2540.0
+      },
+      "segments": [
+        {
+          "train_no": "12967",
+          "train_name": "JAIPUR EXP",
+          "from": "JP",
+          "to": "BZA",
+          "departure": "06:15:00",
+          "arrival": "00:10:00",
+          "distance": 1750.0,
+          "duration_min": 1075.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12577",
+          "train_name": "BAGMATI EXP",
+          "from": "BZA",
+          "to": "SBC",
+          "departure": "07:30:00",
+          "arrival": "20:40:00",
+          "distance": 790.0,
+          "duration_min": 790.0,
+          "wait_min": 440.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_025",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1485.0,
+        "cost": 2535.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2535.0
+      },
+      "segments": [
+        {
+          "train_no": "12968",
+          "train_name": "JP CHENNAI E",
+          "from": "JP",
+          "to": "MAS",
+          "departure": "19:35:00",
+          "arrival": "09:45:00",
+          "distance": 2174.0,
+          "duration_min": 850.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12296",
+          "train_name": "PNBE-SBC SAN",
+          "from": "MAS",
+          "to": "SBC",
+          "departure": "13:55:00",
+          "arrival": "20:20:00",
+          "distance": 361.0,
+          "duration_min": 385.0,
+          "wait_min": 250.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_026",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1505.0,
+        "cost": 2535.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2535.0
+      },
+      "segments": [
+        {
+          "train_no": "12968",
+          "train_name": "JP CHENNAI E",
+          "from": "JP",
+          "to": "GDR",
+          "departure": "19:35:00",
+          "arrival": "06:31:00",
+          "distance": 2037.0,
+          "duration_min": 656.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12577",
+          "train_name": "BAGMATI EXP",
+          "from": "GDR",
+          "to": "SBC",
+          "departure": "12:00:00",
+          "arrival": "20:40:00",
+          "distance": 498.0,
+          "duration_min": 520.0,
+          "wait_min": 329.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_027",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1614.9999999999998,
+        "cost": 2534.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2534.0
+      },
+      "segments": [
+        {
+          "train_no": "12968",
+          "train_name": "JP CHENNAI E",
+          "from": "JP",
+          "to": "MAS",
+          "departure": "19:35:00",
+          "arrival": "09:45:00",
+          "distance": 2174.0,
+          "duration_min": 850.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12027",
+          "train_name": "MAS-SBC SHAT",
+          "from": "MAS",
+          "to": "SBC",
+          "departure": "17:30:00",
+          "arrival": "22:30:00",
+          "distance": 360.0,
+          "duration_min": 300.0,
+          "wait_min": 465.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_028",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1560.0,
+        "cost": 2534.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2534.0
+      },
+      "segments": [
+        {
+          "train_no": "12968",
+          "train_name": "JP CHENNAI E",
+          "from": "JP",
+          "to": "MAS",
+          "departure": "19:35:00",
+          "arrival": "09:45:00",
+          "distance": 2174.0,
+          "duration_min": 850.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12607",
+          "train_name": "MAS-SBC LALB",
+          "from": "MAS",
+          "to": "SBC",
+          "departure": "15:35:00",
+          "arrival": "21:35:00",
+          "distance": 360.0,
+          "duration_min": 360.0,
+          "wait_min": 350.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_029",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1470.0,
+        "cost": 2534.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2534.0
+      },
+      "segments": [
+        {
+          "train_no": "12968",
+          "train_name": "JP CHENNAI E",
+          "from": "JP",
+          "to": "MAS",
+          "departure": "19:35:00",
+          "arrival": "09:45:00",
+          "distance": 2174.0,
+          "duration_min": 850.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12609",
+          "train_name": "MAS-SBC EXP",
+          "from": "MAS",
+          "to": "SBC",
+          "departure": "13:35:00",
+          "arrival": "20:05:00",
+          "distance": 360.0,
+          "duration_min": 390.0,
+          "wait_min": 230.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_030",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 765.0,
+        "cost": 2730.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2730.0
+      },
+      "segments": [
+        {
+          "train_no": "12969",
+          "train_name": "CBE JAIPUR E",
+          "from": "JP",
+          "to": "SA",
+          "departure": "06:15:00",
+          "arrival": "11:45:00",
+          "distance": 2514.0,
+          "duration_min": 330.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "56513",
+          "train_name": "NCR-SBC PASS",
+          "from": "SA",
+          "to": "SBC",
+          "departure": "13:25:00",
+          "arrival": "19:00:00",
+          "distance": 216.0,
+          "duration_min": 335.0,
+          "wait_min": 100.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_031",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 845.0,
+        "cost": 2541.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2541.0
+      },
+      "segments": [
+        {
+          "train_no": "12969",
+          "train_name": "CBE JAIPUR E",
+          "from": "JP",
+          "to": "KPD",
+          "departure": "06:15:00",
+          "arrival": "14:50:00",
+          "distance": 2309.0,
+          "duration_min": 515.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12296",
+          "train_name": "PNBE-SBC SAN",
+          "from": "KPD",
+          "to": "SBC",
+          "departure": "15:45:00",
+          "arrival": "20:20:00",
+          "distance": 232.0,
+          "duration_min": 275.0,
+          "wait_min": 55.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_032",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 865.0000000000001,
+        "cost": 2540.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2540.0
+      },
+      "segments": [
+        {
+          "train_no": "12969",
+          "train_name": "CBE JAIPUR E",
+          "from": "JP",
+          "to": "KPD",
+          "departure": "06:15:00",
+          "arrival": "14:50:00",
+          "distance": 2309.0,
+          "duration_min": 515.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12577",
+          "train_name": "BAGMATI EXP",
+          "from": "KPD",
+          "to": "SBC",
+          "departure": "16:15:00",
+          "arrival": "20:40:00",
+          "distance": 231.0,
+          "duration_min": 265.0,
+          "wait_min": 85.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_033",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 830.0,
+        "cost": 2541.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2541.0
+      },
+      "segments": [
+        {
+          "train_no": "12969",
+          "train_name": "CBE JAIPUR E",
+          "from": "JP",
+          "to": "JTJ",
+          "departure": "06:15:00",
+          "arrival": "13:38:00",
+          "distance": 2393.0,
+          "duration_min": 443.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12609",
+          "train_name": "MAS-SBC EXP",
+          "from": "JTJ",
+          "to": "SBC",
+          "departure": "17:15:00",
+          "arrival": "20:05:00",
+          "distance": 148.0,
+          "duration_min": 170.0,
+          "wait_min": 217.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_034",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 750.0,
+        "cost": 2539.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2539.0
+      },
+      "segments": [
+        {
+          "train_no": "12969",
+          "train_name": "CBE JAIPUR E",
+          "from": "JP",
+          "to": "JTJ",
+          "departure": "06:15:00",
+          "arrival": "13:38:00",
+          "distance": 2393.0,
+          "duration_min": 443.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "56261",
+          "train_name": "AJJ-SBC PASS",
+          "from": "JTJ",
+          "to": "SBC",
+          "departure": "14:10:00",
+          "arrival": "18:45:00",
+          "distance": 146.0,
+          "duration_min": 275.0,
+          "wait_min": 32.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_035",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 975.0,
+        "cost": 2541.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2541.0
+      },
+      "segments": [
+        {
+          "train_no": "12969",
+          "train_name": "CBE JAIPUR E",
+          "from": "JP",
+          "to": "KPD",
+          "departure": "06:15:00",
+          "arrival": "14:50:00",
+          "distance": 2309.0,
+          "duration_min": 515.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12027",
+          "train_name": "MAS-SBC SHAT",
+          "from": "KPD",
+          "to": "SBC",
+          "departure": "19:10:00",
+          "arrival": "22:30:00",
+          "distance": 232.0,
+          "duration_min": 200.0,
+          "wait_min": 260.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_036",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 865.0000000000001,
+        "cost": 2541.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2541.0
+      },
+      "segments": [
+        {
+          "train_no": "12969",
+          "train_name": "CBE JAIPUR E",
+          "from": "JP",
+          "to": "KPD",
+          "departure": "06:15:00",
+          "arrival": "14:50:00",
+          "distance": 2309.0,
+          "duration_min": 515.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22618",
+          "train_name": "TPTY-SBC  EX",
+          "from": "KPD",
+          "to": "SBC",
+          "departure": "16:35:00",
+          "arrival": "20:40:00",
+          "distance": 232.0,
+          "duration_min": 245.0,
+          "wait_min": 105.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_037",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1095.0,
+        "cost": 2540.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2540.0
+      },
+      "segments": [
+        {
+          "train_no": "12969",
+          "train_name": "CBE JAIPUR E",
+          "from": "JP",
+          "to": "KPD",
+          "departure": "06:15:00",
+          "arrival": "14:50:00",
+          "distance": 2309.0,
+          "duration_min": 515.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22817",
+          "train_name": "HWH-MYS SF E",
+          "from": "KPD",
+          "to": "SBC",
+          "departure": "20:25:00",
+          "arrival": "00:30:00",
+          "distance": 231.0,
+          "duration_min": 245.0,
+          "wait_min": 335.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_038",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2055.0,
+        "cost": 2843.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2843.0
+      },
+      "segments": [
+        {
+          "train_no": "12970",
+          "train_name": "JP CBE SF EX",
+          "from": "JP",
+          "to": "ED",
+          "departure": "19:35:00",
+          "arrival": "15:55:00",
+          "distance": 2567.0,
+          "duration_min": 1220.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16231",
+          "train_name": "MV-MYSORE  E",
+          "from": "ED",
+          "to": "SBC",
+          "departure": "23:40:00",
+          "arrival": "05:50:00",
+          "distance": 276.0,
+          "duration_min": 370.0,
+          "wait_min": 465.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_039",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2145.0,
+        "cost": 3093.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3093.0
+      },
+      "segments": [
+        {
+          "train_no": "12970",
+          "train_name": "JP CBE SF EX",
+          "from": "JP",
+          "to": "CBE",
+          "departure": "19:35:00",
+          "arrival": "18:00:00",
+          "distance": 2667.0,
+          "duration_min": 1345.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16525",
+          "train_name": "CAPE-SBC EXP",
+          "from": "CBE",
+          "to": "SBC",
+          "departure": "22:55:00",
+          "arrival": "07:20:00",
+          "distance": 426.0,
+          "duration_min": 505.0,
+          "wait_min": 295.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_040",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2220.0,
+        "cost": 3093.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 3093.0
+      },
+      "segments": [
+        {
+          "train_no": "12970",
+          "train_name": "JP CBE SF EX",
+          "from": "JP",
+          "to": "CBE",
+          "departure": "19:35:00",
+          "arrival": "18:00:00",
+          "distance": 2667.0,
+          "duration_min": 1345.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16316",
+          "train_name": "KCVL-SBC EXP",
+          "from": "CBE",
+          "to": "SBC",
+          "departure": "01:00:00",
+          "arrival": "08:35:00",
+          "distance": 426.0,
+          "duration_min": 455.0,
+          "wait_min": 420.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_041",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1310.0,
+        "cost": 2345.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2345.0
+      },
+      "segments": [
+        {
+          "train_no": "12975",
+          "train_name": "MYS JP SF EX",
+          "from": "JP",
+          "to": "HUP",
+          "departure": "00:00:00",
+          "arrival": "15:04:00",
+          "distance": 2235.0,
+          "duration_min": 904.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11013",
+          "train_name": "COIMBATORE E",
+          "from": "HUP",
+          "to": "SBC",
+          "departure": "18:20:00",
+          "arrival": "21:50:00",
+          "distance": 110.0,
+          "duration_min": 210.0,
+          "wait_min": 196.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_042",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2385.0,
+        "cost": 2345.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2345.0
+      },
+      "segments": [
+        {
+          "train_no": "12975",
+          "train_name": "MYS JP SF EX",
+          "from": "JP",
+          "to": "HUP",
+          "departure": "00:00:00",
+          "arrival": "15:04:00",
+          "distance": 2235.0,
+          "duration_min": 904.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11014",
+          "train_name": "LOKMANYA TT",
+          "from": "HUP",
+          "to": "SBC",
+          "departure": "18:10:00",
+          "arrival": "15:45:00",
+          "distance": 110.0,
+          "duration_min": 1295.0,
+          "wait_min": 186.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_043",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2430.0,
+        "cost": 2308.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2308.0
+      },
+      "segments": [
+        {
+          "train_no": "12975",
+          "train_name": "MYS JP SF EX",
+          "from": "JP",
+          "to": "GTL",
+          "departure": "00:00:00",
+          "arrival": "19:15:00",
+          "distance": 2037.0,
+          "duration_min": 1155.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "17307",
+          "train_name": "MYS-BGK BASA",
+          "from": "GTL",
+          "to": "SBC",
+          "departure": "23:20:00",
+          "arrival": "16:30:00",
+          "distance": 271.0,
+          "duration_min": 1030.0,
+          "wait_min": 245.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_044",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1635.0,
+        "cost": 2345.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2345.0
+      },
+      "segments": [
+        {
+          "train_no": "12975",
+          "train_name": "MYS JP SF EX",
+          "from": "JP",
+          "to": "HUP",
+          "departure": "00:00:00",
+          "arrival": "15:04:00",
+          "distance": 2235.0,
+          "duration_min": 904.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16218",
+          "train_name": "SNSI-MYS EXP",
+          "from": "HUP",
+          "to": "SBC",
+          "departure": "00:15:00",
+          "arrival": "03:15:00",
+          "distance": 110.0,
+          "duration_min": 180.0,
+          "wait_min": 551.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_045",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1725.0,
+        "cost": 2320.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2320.0
+      },
+      "segments": [
+        {
+          "train_no": "12975",
+          "train_name": "MYS JP SF EX",
+          "from": "JP",
+          "to": "GTL",
+          "departure": "00:00:00",
+          "arrival": "19:15:00",
+          "distance": 2037.0,
+          "duration_min": 1155.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16531",
+          "train_name": "GARIB NAWAJ",
+          "from": "GTL",
+          "to": "SBC",
+          "departure": "22:20:00",
+          "arrival": "04:45:00",
+          "distance": 283.0,
+          "duration_min": 385.0,
+          "wait_min": 185.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_046",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1725.0,
+        "cost": 2320.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2320.0
+      },
+      "segments": [
+        {
+          "train_no": "12975",
+          "train_name": "MYS JP SF EX",
+          "from": "JP",
+          "to": "GTL",
+          "departure": "00:00:00",
+          "arrival": "19:15:00",
+          "distance": 2037.0,
+          "duration_min": 1155.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16533",
+          "train_name": "JU-YPR",
+          "from": "GTL",
+          "to": "SBC",
+          "departure": "22:20:00",
+          "arrival": "04:45:00",
+          "distance": 283.0,
+          "duration_min": 385.0,
+          "wait_min": 185.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_047",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1770.0,
+        "cost": 2338.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2338.0
+      },
+      "segments": [
+        {
+          "train_no": "12975",
+          "train_name": "MYS JP SF EX",
+          "from": "JP",
+          "to": "GTL",
+          "departure": "00:00:00",
+          "arrival": "19:15:00",
+          "distance": 2037.0,
+          "duration_min": 1155.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16593",
+          "train_name": "NED-SBC-EXP",
+          "from": "GTL",
+          "to": "SBC",
+          "departure": "21:20:00",
+          "arrival": "05:30:00",
+          "distance": 301.0,
+          "duration_min": 490.0,
+          "wait_min": 125.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_048",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1805.0,
+        "cost": 2309.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2309.0
+      },
+      "segments": [
+        {
+          "train_no": "12975",
+          "train_name": "MYS JP SF EX",
+          "from": "JP",
+          "to": "GTL",
+          "departure": "00:00:00",
+          "arrival": "19:15:00",
+          "distance": 2037.0,
+          "duration_min": 1155.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16591",
+          "train_name": "UBL-MYS HAMP",
+          "from": "GTL",
+          "to": "SBC",
+          "departure": "23:35:00",
+          "arrival": "06:05:00",
+          "distance": 272.0,
+          "duration_min": 390.0,
+          "wait_min": 260.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_049",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1970.0000000000002,
+        "cost": 2357.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2357.0
+      },
+      "segments": [
+        {
+          "train_no": "12975",
+          "train_name": "MYS JP SF EX",
+          "from": "JP",
+          "to": "GTL",
+          "departure": "00:00:00",
+          "arrival": "19:15:00",
+          "distance": 2037.0,
+          "duration_min": 1155.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "11301",
+          "train_name": "UDYAN EXPRES",
+          "from": "GTL",
+          "to": "SBC",
+          "departure": "23:45:00",
+          "arrival": "08:50:00",
+          "distance": 320.0,
+          "duration_min": 545.0,
+          "wait_min": 270.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_050",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2085.0,
+        "cost": 2308.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2308.0
+      },
+      "segments": [
+        {
+          "train_no": "12975",
+          "train_name": "MYS JP SF EX",
+          "from": "JP",
+          "to": "GTL",
+          "departure": "00:00:00",
+          "arrival": "19:15:00",
+          "distance": 2037.0,
+          "duration_min": 1155.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "17308",
+          "train_name": "BGK-MYS BASA",
+          "from": "GTL",
+          "to": "SBC",
+          "departure": "02:40:00",
+          "arrival": "10:45:00",
+          "distance": 271.0,
+          "duration_min": 485.0,
+          "wait_min": 445.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_051",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1839.9999999999998,
+        "cost": 2338.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2338.0
+      },
+      "segments": [
+        {
+          "train_no": "12975",
+          "train_name": "MYS JP SF EX",
+          "from": "JP",
+          "to": "GTL",
+          "departure": "00:00:00",
+          "arrival": "19:15:00",
+          "distance": 2037.0,
+          "duration_min": 1155.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22692",
+          "train_name": "BANGALORE RA",
+          "from": "GTL",
+          "to": "SBC",
+          "departure": "00:50:00",
+          "arrival": "06:40:00",
+          "distance": 301.0,
+          "duration_min": 350.0,
+          "wait_min": 335.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_052",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2164.9999999999995,
+        "cost": 2358.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2358.0
+      },
+      "segments": [
+        {
+          "train_no": "12975",
+          "train_name": "MYS JP SF EX",
+          "from": "JP",
+          "to": "DHNE",
+          "departure": "00:00:00",
+          "arrival": "20:45:00",
+          "distance": 1970.0,
+          "duration_min": 1245.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "18463",
+          "train_name": "BBS-SBC PRAS",
+          "from": "DHNE",
+          "to": "SBC",
+          "departure": "03:10:00",
+          "arrival": "12:05:00",
+          "distance": 388.0,
+          "duration_min": 535.0,
+          "wait_min": 385.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_053",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1030.0,
+        "cost": 2344.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2344.0
+      },
+      "segments": [
+        {
+          "train_no": "12976",
+          "train_name": "JP MYS SF EX",
+          "from": "JP",
+          "to": "KCG",
+          "departure": "19:35:00",
+          "arrival": "23:40:00",
+          "distance": 1679.0,
+          "duration_min": 245.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12975",
+          "train_name": "MYS JP SF EX",
+          "from": "KCG",
+          "to": "SBC",
+          "departure": "02:10:00",
+          "arrival": "12:45:00",
+          "distance": 665.0,
+          "duration_min": 635.0,
+          "wait_min": 150.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_054",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1485.0,
+        "cost": 2345.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2345.0
+      },
+      "segments": [
+        {
+          "train_no": "12976",
+          "train_name": "JP MYS SF EX",
+          "from": "JP",
+          "to": "BNC",
+          "departure": "19:35:00",
+          "arrival": "12:18:00",
+          "distance": 2340.0,
+          "duration_min": 1003.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12296",
+          "train_name": "PNBE-SBC SAN",
+          "from": "BNC",
+          "to": "SBC",
+          "departure": "20:00:00",
+          "arrival": "20:20:00",
+          "distance": 5.0,
+          "duration_min": 20.0,
+          "wait_min": 462.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_055",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1505.0,
+        "cost": 2344.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2344.0
+      },
+      "segments": [
+        {
+          "train_no": "12976",
+          "train_name": "JP MYS SF EX",
+          "from": "JP",
+          "to": "BNC",
+          "departure": "19:35:00",
+          "arrival": "12:18:00",
+          "distance": 2340.0,
+          "duration_min": 1003.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12577",
+          "train_name": "BAGMATI EXP",
+          "from": "BNC",
+          "to": "SBC",
+          "departure": "20:10:00",
+          "arrival": "20:40:00",
+          "distance": 4.0,
+          "duration_min": 30.0,
+          "wait_min": 472.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_056",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1470.0,
+        "cost": 2344.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2344.0
+      },
+      "segments": [
+        {
+          "train_no": "12976",
+          "train_name": "JP MYS SF EX",
+          "from": "JP",
+          "to": "BNC",
+          "departure": "19:35:00",
+          "arrival": "12:18:00",
+          "distance": 2340.0,
+          "duration_min": 1003.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12609",
+          "train_name": "MAS-SBC EXP",
+          "from": "BNC",
+          "to": "SBC",
+          "departure": "19:35:00",
+          "arrival": "20:05:00",
+          "distance": 4.0,
+          "duration_min": 30.0,
+          "wait_min": 437.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_057",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1085.0,
+        "cost": 2345.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2345.0
+      },
+      "segments": [
+        {
+          "train_no": "12976",
+          "train_name": "JP MYS SF EX",
+          "from": "JP",
+          "to": "BNC",
+          "departure": "19:35:00",
+          "arrival": "12:18:00",
+          "distance": 2340.0,
+          "duration_min": 1003.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12628",
+          "train_name": "NDLS-SBC KAR",
+          "from": "BNC",
+          "to": "SBC",
+          "departure": "13:10:00",
+          "arrival": "13:40:00",
+          "distance": 5.0,
+          "duration_min": 30.0,
+          "wait_min": 52.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_058",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1104.9999999999998,
+        "cost": 2344.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2344.0
+      },
+      "segments": [
+        {
+          "train_no": "12976",
+          "train_name": "JP MYS SF EX",
+          "from": "JP",
+          "to": "BNC",
+          "departure": "19:35:00",
+          "arrival": "12:18:00",
+          "distance": 2340.0,
+          "duration_min": 1003.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12639",
+          "train_name": "MAS-SBC BRIN",
+          "from": "BNC",
+          "to": "SBC",
+          "departure": "13:20:00",
+          "arrival": "14:00:00",
+          "distance": 4.0,
+          "duration_min": 40.0,
+          "wait_min": 62.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_059",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1455.0,
+        "cost": 2345.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2345.0
+      },
+      "segments": [
+        {
+          "train_no": "12976",
+          "train_name": "JP MYS SF EX",
+          "from": "JP",
+          "to": "BNC",
+          "departure": "19:35:00",
+          "arrival": "12:18:00",
+          "distance": 2340.0,
+          "duration_min": 1003.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12678",
+          "train_name": "ERS-SBC INTE",
+          "from": "BNC",
+          "to": "SBC",
+          "departure": "19:20:00",
+          "arrival": "19:50:00",
+          "distance": 5.0,
+          "duration_min": 30.0,
+          "wait_min": 422.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_060",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1505.0,
+        "cost": 2345.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2345.0
+      },
+      "segments": [
+        {
+          "train_no": "12976",
+          "train_name": "JP MYS SF EX",
+          "from": "JP",
+          "to": "BNC",
+          "departure": "19:35:00",
+          "arrival": "12:18:00",
+          "distance": 2340.0,
+          "duration_min": 1003.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "22618",
+          "train_name": "TPTY-SBC  EX",
+          "from": "BNC",
+          "to": "SBC",
+          "departure": "20:10:00",
+          "arrival": "20:40:00",
+          "distance": 5.0,
+          "duration_min": 30.0,
+          "wait_min": 472.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_061",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1389.9999999999998,
+        "cost": 2344.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2344.0
+      },
+      "segments": [
+        {
+          "train_no": "12976",
+          "train_name": "JP MYS SF EX",
+          "from": "JP",
+          "to": "BNC",
+          "departure": "19:35:00",
+          "arrival": "12:18:00",
+          "distance": 2340.0,
+          "duration_min": 1003.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "56261",
+          "train_name": "AJJ-SBC PASS",
+          "from": "BNC",
+          "to": "SBC",
+          "departure": "18:26:00",
+          "arrival": "18:45:00",
+          "distance": 4.0,
+          "duration_min": 19.0,
+          "wait_min": 368.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_062",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1284.9999999999998,
+        "cost": 2344.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2344.0
+      },
+      "segments": [
+        {
+          "train_no": "12976",
+          "train_name": "JP MYS SF EX",
+          "from": "JP",
+          "to": "BNC",
+          "departure": "19:35:00",
+          "arrival": "12:18:00",
+          "distance": 2340.0,
+          "duration_min": 1003.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "56509",
+          "train_name": "MKM-SBC PASS",
+          "from": "BNC",
+          "to": "SBC",
+          "departure": "16:20:00",
+          "arrival": "17:00:00",
+          "distance": 4.0,
+          "duration_min": 40.0,
+          "wait_min": 242.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_063",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1404.9999999999998,
+        "cost": 2344.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2344.0
+      },
+      "segments": [
+        {
+          "train_no": "12976",
+          "train_name": "JP MYS SF EX",
+          "from": "JP",
+          "to": "BNC",
+          "departure": "19:35:00",
+          "arrival": "12:18:00",
+          "distance": 2340.0,
+          "duration_min": 1003.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "56513",
+          "train_name": "NCR-SBC PASS",
+          "from": "BNC",
+          "to": "SBC",
+          "departure": "18:36:00",
+          "arrival": "19:00:00",
+          "distance": 4.0,
+          "duration_min": 24.0,
+          "wait_min": 378.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_064",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1125.0,
+        "cost": 2344.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2344.0
+      },
+      "segments": [
+        {
+          "train_no": "12976",
+          "train_name": "JP MYS SF EX",
+          "from": "JP",
+          "to": "BNC",
+          "departure": "19:35:00",
+          "arrival": "12:18:00",
+          "distance": 2340.0,
+          "duration_min": 1003.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "66531",
+          "train_name": "BWT-SBC PASS",
+          "from": "BNC",
+          "to": "SBC",
+          "departure": "13:54:00",
+          "arrival": "14:20:00",
+          "distance": 4.0,
+          "duration_min": 26.0,
+          "wait_min": 96.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_065",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1545.0000000000002,
+        "cost": 2345.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2345.0
+      },
+      "segments": [
+        {
+          "train_no": "12466",
+          "train_name": "INTERCITY EX",
+          "from": "JP",
+          "to": "DPA",
+          "departure": "11:05:00",
+          "arrival": "11:11:00",
+          "distance": 7.0,
+          "duration_min": 6.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12976",
+          "train_name": "JP MYS SF EX",
+          "from": "DPA",
+          "to": "SBC",
+          "departure": "19:44:00",
+          "arrival": "12:50:00",
+          "distance": 2338.0,
+          "duration_min": 1026.0,
+          "wait_min": 513.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_066",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1150.0,
+        "cost": 2278.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2278.0
+      },
+      "segments": [
+        {
+          "train_no": "12547",
+          "train_name": "AF-ADI SUPER",
+          "from": "JP",
+          "to": "ABR",
+          "departure": "02:20:00",
+          "arrival": "09:15:00",
+          "distance": 440.0,
+          "duration_min": 415.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16210",
+          "train_name": "AJMER EXPRES",
+          "from": "ABR",
+          "to": "SBC",
+          "departure": "11:55:00",
+          "arrival": "21:30:00",
+          "distance": 1838.0,
+          "duration_min": 575.0,
+          "wait_min": 160.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_067",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2795.0,
+        "cost": 2275.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2275.0
+      },
+      "segments": [
+        {
+          "train_no": "12915",
+          "train_name": "ASHRAM EXPRE",
+          "from": "JP",
+          "to": "BER",
+          "departure": "04:40:00",
+          "arrival": "01:32:00",
+          "distance": 187.0,
+          "duration_min": 1252.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16209",
+          "train_name": "AII MYS EXPR",
+          "from": "BER",
+          "to": "SBC",
+          "departure": "06:20:00",
+          "arrival": "03:15:00",
+          "distance": 2088.0,
+          "duration_min": 1255.0,
+          "wait_min": 288.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_068",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 2885.0,
+        "cost": 2348.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2348.0
+      },
+      "segments": [
+        {
+          "train_no": "12915",
+          "train_name": "ASHRAM EXPRE",
+          "from": "JP",
+          "to": "BER",
+          "departure": "04:40:00",
+          "arrival": "01:32:00",
+          "distance": 187.0,
+          "duration_min": 1252.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16531",
+          "train_name": "GARIB NAWAJ",
+          "from": "BER",
+          "to": "SBC",
+          "departure": "06:20:00",
+          "arrival": "04:45:00",
+          "distance": 2161.0,
+          "duration_min": 1345.0,
+          "wait_min": 288.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_069",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1840.0000000000002,
+        "cost": 2275.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2275.0
+      },
+      "segments": [
+        {
+          "train_no": "12916",
+          "train_name": "ASHRAM EXPRE",
+          "from": "JP",
+          "to": "BER",
+          "departure": "20:35:00",
+          "arrival": "23:41:00",
+          "distance": 187.0,
+          "duration_min": 186.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16209",
+          "train_name": "AII MYS EXPR",
+          "from": "BER",
+          "to": "SBC",
+          "departure": "06:20:00",
+          "arrival": "03:15:00",
+          "distance": 2088.0,
+          "duration_min": 1255.0,
+          "wait_min": 399.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_070",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1930.0000000000002,
+        "cost": 2348.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2348.0
+      },
+      "segments": [
+        {
+          "train_no": "12916",
+          "train_name": "ASHRAM EXPRE",
+          "from": "JP",
+          "to": "BER",
+          "departure": "20:35:00",
+          "arrival": "23:41:00",
+          "distance": 187.0,
+          "duration_min": 186.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16531",
+          "train_name": "GARIB NAWAJ",
+          "from": "BER",
+          "to": "SBC",
+          "departure": "06:20:00",
+          "arrival": "04:45:00",
+          "distance": 2161.0,
+          "duration_min": 1345.0,
+          "wait_min": 399.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_071",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1494.9999999999998,
+        "cost": 2277.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2277.0
+      },
+      "segments": [
+        {
+          "train_no": "12916",
+          "train_name": "ASHRAM EXPRE",
+          "from": "JP",
+          "to": "MSH",
+          "departure": "20:35:00",
+          "arrival": "05:58:00",
+          "distance": 557.0,
+          "duration_min": 563.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16210",
+          "train_name": "AJMER EXPRES",
+          "from": "MSH",
+          "to": "SBC",
+          "departure": "09:08:00",
+          "arrival": "21:30:00",
+          "distance": 1720.0,
+          "duration_min": 742.0,
+          "wait_min": 190.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_072",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1839.9999999999998,
+        "cost": 2274.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2274.0
+      },
+      "segments": [
+        {
+          "train_no": "12916",
+          "train_name": "ASHRAM EXPRE",
+          "from": "JP",
+          "to": "MSH",
+          "departure": "20:35:00",
+          "arrival": "05:58:00",
+          "distance": 557.0,
+          "duration_min": 563.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16507",
+          "train_name": "JU BANGLORE",
+          "from": "MSH",
+          "to": "SBC",
+          "departure": "13:09:00",
+          "arrival": "03:15:00",
+          "distance": 1717.0,
+          "duration_min": 846.0,
+          "wait_min": 431.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_073",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1655.0000000000002,
+        "cost": 2345.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2345.0
+      },
+      "segments": [
+        {
+          "train_no": "12940",
+          "train_name": "JP PUNE SF E",
+          "from": "JP",
+          "to": "DPA",
+          "departure": "09:15:00",
+          "arrival": "09:21:00",
+          "distance": 7.0,
+          "duration_min": 6.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12976",
+          "train_name": "JP MYS SF EX",
+          "from": "DPA",
+          "to": "SBC",
+          "departure": "19:44:00",
+          "arrival": "12:50:00",
+          "distance": 2338.0,
+          "duration_min": 1026.0,
+          "wait_min": 623.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_074",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1370.0000000000002,
+        "cost": 2345.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2345.0
+      },
+      "segments": [
+        {
+          "train_no": "12956",
+          "train_name": "JP BCT SUPFA",
+          "from": "JP",
+          "to": "DPA",
+          "departure": "14:00:00",
+          "arrival": "14:07:00",
+          "distance": 7.0,
+          "duration_min": 7.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12976",
+          "train_name": "JP MYS SF EX",
+          "from": "DPA",
+          "to": "SBC",
+          "departure": "19:44:00",
+          "arrival": "12:50:00",
+          "distance": 2338.0,
+          "duration_min": 1026.0,
+          "wait_min": 337.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_075",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1260.0,
+        "cost": 2277.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2277.0
+      },
+      "segments": [
+        {
+          "train_no": "12958",
+          "train_name": "ADI SJ RAJDH",
+          "from": "JP",
+          "to": "MSH",
+          "departure": "00:30:00",
+          "arrival": "08:03:00",
+          "distance": 557.0,
+          "duration_min": 453.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16210",
+          "train_name": "AJMER EXPRES",
+          "from": "MSH",
+          "to": "SBC",
+          "departure": "09:08:00",
+          "arrival": "21:30:00",
+          "distance": 1720.0,
+          "duration_min": 742.0,
+          "wait_min": 65.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_076",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1605.0,
+        "cost": 2274.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2274.0
+      },
+      "segments": [
+        {
+          "train_no": "12958",
+          "train_name": "ADI SJ RAJDH",
+          "from": "JP",
+          "to": "MSH",
+          "departure": "00:30:00",
+          "arrival": "08:03:00",
+          "distance": 557.0,
+          "duration_min": 453.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "16507",
+          "train_name": "JU BANGLORE",
+          "from": "MSH",
+          "to": "SBC",
+          "departure": "13:09:00",
+          "arrival": "03:15:00",
+          "distance": 1717.0,
+          "duration_min": 846.0,
+          "wait_min": 306.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_077",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 860.0,
+        "cost": 2540.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2540.0
+      },
+      "segments": [
+        {
+          "train_no": "12968",
+          "train_name": "JP CHENNAI E",
+          "from": "JP",
+          "to": "WL",
+          "departure": "19:35:00",
+          "arrival": "21:23:00",
+          "distance": 1540.0,
+          "duration_min": 108.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12578",
+          "train_name": "BAGMATI  EXP",
+          "from": "WL",
+          "to": "SBC",
+          "departure": "01:55:00",
+          "arrival": "09:55:00",
+          "distance": 1000.0,
+          "duration_min": 480.0,
+          "wait_min": 272.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_078",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1374.9999999999998,
+        "cost": 2540.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2540.0
+      },
+      "segments": [
+        {
+          "train_no": "12969",
+          "train_name": "CBE JAIPUR E",
+          "from": "JP",
+          "to": "AJJ",
+          "departure": "06:15:00",
+          "arrival": "15:43:00",
+          "distance": 2248.0,
+          "duration_min": 568.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12657",
+          "train_name": "MAS-SBC MAIL",
+          "from": "AJJ",
+          "to": "SBC",
+          "departure": "00:05:00",
+          "arrival": "05:10:00",
+          "distance": 292.0,
+          "duration_min": 305.0,
+          "wait_min": 502.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_079",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1485.0,
+        "cost": 2537.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2537.0
+      },
+      "segments": [
+        {
+          "train_no": "12970",
+          "train_name": "JP CBE SF EX",
+          "from": "JP",
+          "to": "JTJ",
+          "departure": "19:35:00",
+          "arrival": "13:18:00",
+          "distance": 2389.0,
+          "duration_min": 1063.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12296",
+          "train_name": "PNBE-SBC SAN",
+          "from": "JTJ",
+          "to": "SBC",
+          "departure": "17:30:00",
+          "arrival": "20:20:00",
+          "distance": 148.0,
+          "duration_min": 170.0,
+          "wait_min": 252.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_080",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1505.0,
+        "cost": 2537.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2537.0
+      },
+      "segments": [
+        {
+          "train_no": "12970",
+          "train_name": "JP CBE SF EX",
+          "from": "JP",
+          "to": "JTJ",
+          "departure": "19:35:00",
+          "arrival": "13:18:00",
+          "distance": 2389.0,
+          "duration_min": 1063.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12577",
+          "train_name": "BAGMATI EXP",
+          "from": "JTJ",
+          "to": "SBC",
+          "departure": "17:55:00",
+          "arrival": "20:40:00",
+          "distance": 148.0,
+          "duration_min": 165.0,
+          "wait_min": 277.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_081",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 860.0,
+        "cost": 2540.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2540.0
+      },
+      "segments": [
+        {
+          "train_no": "12970",
+          "train_name": "JP CBE SF EX",
+          "from": "JP",
+          "to": "WL",
+          "departure": "19:35:00",
+          "arrival": "21:23:00",
+          "distance": 1540.0,
+          "duration_min": 108.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12578",
+          "train_name": "BAGMATI  EXP",
+          "from": "WL",
+          "to": "SBC",
+          "departure": "01:55:00",
+          "arrival": "09:55:00",
+          "distance": 1000.0,
+          "duration_min": 480.0,
+          "wait_min": 272.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_082",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1615.0,
+        "cost": 2537.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2537.0
+      },
+      "segments": [
+        {
+          "train_no": "12970",
+          "train_name": "JP CBE SF EX",
+          "from": "JP",
+          "to": "KPD",
+          "departure": "19:35:00",
+          "arrival": "11:53:00",
+          "distance": 2305.0,
+          "duration_min": 978.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12027",
+          "train_name": "MAS-SBC SHAT",
+          "from": "KPD",
+          "to": "SBC",
+          "departure": "19:10:00",
+          "arrival": "22:30:00",
+          "distance": 232.0,
+          "duration_min": 200.0,
+          "wait_min": 437.0
+        }
+      ]
+    },
+    {
+      "route_id": "ALL_ROUTE_083",
+      "category": "1 Transfer \u2194\ufe0f",
+      "objectives": {
+        "time": 1470.0,
+        "cost": 2537.0,
+        "transfers": 1,
+        "seat_prob": 100.0,
+        "safety_score": 100.0,
+        "distance": 2537.0
+      },
+      "segments": [
+        {
+          "train_no": "12970",
+          "train_name": "JP CBE SF EX",
+          "from": "JP",
+          "to": "JTJ",
+          "departure": "19:35:00",
+          "arrival": "13:18:00",
+          "distance": 2389.0,
+          "duration_min": 1063.0,
+          "wait_min": 0
+        },
+        {
+          "train_no": "12609",
+          "train_name": "MAS-SBC EXP",
+          "from": "JTJ",
+          "to": "SBC",
+          "departure": "17:15:00",
+          "arrival": "20:05:00",
+          "distance": 148.0,
+          "duration_min": 170.0,
+          "wait_min": 237.0
+        }
+      ]
+    }
+  ]
+}

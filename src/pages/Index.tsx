@@ -20,6 +20,7 @@ const Index = () => {
   const [allRoutes, setAllRoutes] = useState<Route[]>([]);
   const [viewMode, setViewMode] = useState<"optimal" | "all">("optimal");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [isFromCache, setIsFromCache] = useState(false);
 
   const handleSwapStations = () => {
     const temp = origin;
@@ -38,9 +39,13 @@ const Index = () => {
     }
 
     setIsSearching(true);
+    setIsFromCache(false);
     
     try {
+      const startTime = performance.now();
       const response = await fetch(`http://localhost:5000/api/routes?origin=${origin.code}&destination=${destination.code}`);
+      const endTime = performance.now();
+      const responseTime = endTime - startTime;
       
       if (!response.ok) {
         const errorData = await response.json();
@@ -48,6 +53,10 @@ const Index = () => {
       }
 
       const data = await response.json();
+      
+      // Check if routes were loaded from cache (very fast response < 500ms typically means cached)
+      const wasCached = responseTime < 500;
+      setIsFromCache(wasCached);
       
       const mappedOptimal = data.optimal_routes.map(mapApiRouteToRoute)
         .sort((a, b) => a.totalTime - b.totalTime);
@@ -71,8 +80,10 @@ const Index = () => {
       setViewMode("optimal");
       
       toast({
-        title: "Routes Found!",
-        description: `Found ${mappedOptimal.length} optimal and ${mappedAll.length} total routes.`,
+        title: wasCached ? "Routes Loaded from Cache! ⚡" : "Routes Found!",
+        description: wasCached 
+          ? `Instantly loaded ${mappedOptimal.length} optimal routes from saved data.`
+          : `Found ${mappedOptimal.length} optimal and ${mappedAll.length} total routes.`,
       } as Toast);
 
       // Scroll to results
@@ -269,9 +280,17 @@ const Index = () => {
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
               <div>
-                <h2 className="text-2xl font-bold text-foreground mb-2">
-                  {viewMode === "optimal" ? optimalRoutes.length : allRoutes.length} {viewMode === "optimal" ? "Optimal" : "Possible"} Routes Found
-                </h2>
+                <div className="flex items-center gap-3 mb-2">
+                  <h2 className="text-2xl font-bold text-foreground">
+                    {viewMode === "optimal" ? optimalRoutes.length : allRoutes.length} {viewMode === "optimal" ? "Optimal" : "Possible"} Routes Found
+                  </h2>
+                  {isFromCache && (
+                    <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-green-500/10 text-green-600 dark:text-green-400 text-xs font-medium border border-green-500/20">
+                      <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span>
+                      Loaded from Cache
+                    </span>
+                  )}
+                </div>
                 <p className="text-muted-foreground">
                   Showing {optimalRoutes.length} optimal and {allRoutes.length} total routes from {origin?.name} to {destination?.name}
                 </p>
