@@ -1,0 +1,206 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: railway-os-postgres
+    environment:
+      POSTGRES_DB: railway_os
+      POSTGRES_USER: railway_user
+      POSTGRES_PASSWORD: railway_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./docker/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
+    networks:
+      - railway-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U railway_user -d railway_os"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis for caching and message queue
+  redis:
+    image: redis:7-alpine
+    container_name: railway-os-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - railway-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # RabbitMQ for message queue
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: railway-os-rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: railway_user
+      RABBITMQ_DEFAULT_PASS: railway_password
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    networks:
+      - railway-network
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # API Gateway
+  api-gateway:
+    build:
+      context: ./services/api-gateway
+      dockerfile: Dockerfile
+    container_name: railway-os-api-gateway
+    ports:
+      - "8000:8000"
+    environment:
+      - AUTH_SERVICE_URL=http://auth-service:8001
+      - ROUTE_SERVICE_URL=http://route-service:8002
+      - DATA_SERVICE_URL=http://data-service:8003
+      - WORKER_SERVICE_URL=http://worker-service:8004
+      - REDIS_URL=redis://redis:6379
+    depends_on:
+      auth-service:
+        condition: service_healthy
+      route-service:
+        condition: service_healthy
+      data-service:
+        condition: service_healthy
+      worker-service:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - railway-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Auth Service
+  auth-service:
+    build:
+      context: ./services/auth-service
+      dockerfile: Dockerfile
+    container_name: railway-os-auth-service
+    ports:
+      - "8001:8001"
+    environment:
+      - DATABASE_URL=postgresql://railway_user:railway_password@postgres:5432/railway_os
+      - REDIS_URL=redis://redis:6379
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - railway-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8001/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Route Service
+  route-service:
+    build:
+      context: ./services/route-service
+      dockerfile: Dockerfile
+    container_name: railway-os-route-service
+    ports:
+      - "8002:8002"
+    environment:
+      - DATA_SERVICE_URL=http://data-service:8003
+      - REDIS_URL=redis://redis:6379
+    depends_on:
+      data-service:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - railway-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8002/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Data Service
+  data-service:
+    build:
+      context: ./services/data-service
+      dockerfile: Dockerfile
+    container_name: railway-os-data-service
+    ports:
+      - "8003:8003"
+    environment:
+      - DATABASE_URL=postgresql://railway_user:railway_password@postgres:5432/railway_os
+      - REDIS_URL=redis://redis:6379
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - railway-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8003/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Worker Service
+  worker-service:
+    build:
+      context: ./services/worker-service
+      dockerfile: Dockerfile
+    container_name: railway-os-worker-service
+    ports:
+      - "8004:8004"
+    environment:
+      - DATABASE_URL=postgresql://railway_user:railway_password@postgres:5432/railway_os
+      - REDIS_URL=redis://redis:6379
+      - RABBITMQ_URL=amqp://railway_user:railway_password@rabbitmq:5672/
+      - DATA_SERVICE_URL=http://data-service:8003
+      - ROUTE_SERVICE_URL=http://route-service:8002
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
+      data-service:
+        condition: service_healthy
+      route-service:
+        condition: service_healthy
+    networks:
+      - railway-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8004/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  postgres_data:
+  redis_data:
+  rabbitmq_data:
+
+networks:
+  railway-network:
+    driver: bridge
